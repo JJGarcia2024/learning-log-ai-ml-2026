@@ -5,7 +5,8 @@
       "PowerShell(jupyter kernelspec list 2>&1)",
       "PowerShell(conda env list 2>&1)",
       "Bash(python -c \"import sys; print\\(sys.executable\\)\")",
-      "Bash(python -c \"import google.cloud.bigquery\")"
+      "Bash(python -c \"import google.cloud.bigquery\")",
+      "WebSearch"
     ]
   }
 }
