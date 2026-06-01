@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hebrew Shoresh Matrix Explorer</title>
+    <style>
+        /* CSS: Core Theme Variables */
+        :root {
+            --bg-dark: #0b0f19;
+            --bg-panel: #1a2235;
+            --text-main: #e6edf3;
+            --blue-accent: #3b82f6;
+            --blue-glow: rgba(59, 130, 246, 0.4);
+            --gold-accent: #f59e0b;
+            --gold-glow: rgba(245, 158, 11, 0.4);
+            --font-base: 'Calibri Light', Calibri, sans-serif;
+            --font-hebrew: 'David', 'Frank Ruhl Libre', serif;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            font-family: var(--font-base);
+            font-size: 13pt;
+            margin: 0;
+            padding: 40px;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            font-weight: 300;
+            color: var(--blue-accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 1px solid var(--blue-glow);
+            padding-bottom: 10px;
+        }
+
+        .dashboard-container {
+            display: grid;
+            grid-template-columns: 320px 1fr;
+            gap: 30px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .root-list {
+            background: var(--bg-panel);
+            border: 1px solid var(--blue-glow);
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 15px var(--blue-glow);
+            height: fit-content;
+        }
+
+        .root-item {
+            padding: 15px;
+            margin-bottom: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border-left: 4px solid var(--blue-accent);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .root-item:hover, .root-item.active {
+            background: var(--blue-glow);
+            border-left: 4px solid var(--gold-accent);
+            transform: translateX(8px);
+        }
+
+        .root-hebrew {
+            font-family: var(--font-hebrew);
+            font-size: 20pt;
+            font-weight: bold;
+            color: var(--gold-accent);
+            direction: rtl;
+        }
+
+        .viewer-panel {
+            background: var(--bg-panel);
+            border: 1px solid var(--gold-glow);
+            border-radius: 8px;
+            padding: 40px;
+            box-shadow: 0 0 15px var(--gold-glow);
+            min-height: 600px;
+        }
+
+        .viewer-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .viewer-title {
+            font-size: 24pt;
+            color: var(--gold-accent);
+            margin: 0;
+            border: none;
+        }
+
+        .derivatives-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .derivative-card {
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--blue-accent);
+            border-radius: 6px;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .derivative-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, var(--blue-accent), var(--gold-accent));
+        }
+
+        .word-hebrew {
+            font-family: var(--font-hebrew);
+            font-size: 28pt;
+            color: var(--gold-accent);
+            text-align: right;
+            margin-bottom: 5px;
+            direction: rtl;
+        }
+
+        .word-translit {
+            font-style: italic;
+            color: #8b9bb4;
+            margin-bottom: 15px;
+            border-bottom: 1px dashed rgba(255,255,255,0.2);
+            padding-bottom: 10px;
+        }
+
+        .word-def {
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 10px;
+            font-size: 14pt;
+        }
+
+        .word-engineering {
+            font-size: 12pt;
+            color: #a3b8cc;
+            background: rgba(59, 130, 246, 0.1);
+            padding: 12px;
+            border-radius: 4px;
+        }
+
+        .system-status {
+            text-align: center;
+            margin-top: 40px;
+            color: var(--blue-accent);
+            font-family: monospace;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <div class="root-list" id="root-nav">
+            <h3>Structural Roots</h3>
+            </div>
+
+        <div class="viewer-panel" id="viewer">
+            <div class="viewer-header">
+                <div>
+                    <h2 class="viewer-title" id="v-title">Select a Root</h2>
+                    <p id="v-concept" style="color: #8b9bb4; margin-top: 5px; font-size: 15pt;">Awaiting telemetry...</p>
+                </div>
+                <div class="root-hebrew" id="v-hebrew" style="font-size: 45pt; text-shadow: 0 0 20px var(--gold-glow);"></div>
+            </div>
+            
+            <p id="v-desc" style="margin-bottom: 40px; border-left: 3px solid var(--blue-accent); padding-left: 15px; font-size: 14pt;">
+                Initialize the Socratic diagnostic sequence by selecting an engine block from the left matrix.
+            </p>
+
+            <h3 id="v-grid-title" style="display: none;">Engineering Variants</h3>
+            <div class="derivatives-grid" id="v-grid">
+                </div>
+        </div>
+    </div>
+
+    <div class="system-status">
+        [ SYSTEM ONLINE ] // HEBREW MORPHOLOGY MATRIX ACTIVE // NOZZLE GEOMETRY STABLE
+    </div>
+
+    <script>
+        // Database of Roots mapping to mechanical/aerospace concepts
+        const db = [
+            {
+                id: "ktv",
+                consonants: "כ-ת-ב",
+                translit: "K-T-V",
+                meaning: "Writing / Inscribing",
+                desc: "The Master Root. This structural component dictates all data-logging and recording operations. We map it across multiple Binyanim (thrust patterns) to demonstrate the modularity of the Hebrew engine block.",
+                derivatives: [
+                    { hebrew: "כָּתַב", translit: "Katav", def: "He wrote", eng: "Pa'al (Base Thrust). The core block operating at standard pressure." },
+                    { hebrew: "מִכְתָּב", translit: "Michtav", def: "Letter / Missive", eng: "Mishkal noun form. The Mem (מ) acts as a payload fairing attached to the front." },
+                    { hebrew: "כְּתִיבָה", translit: "Ktivah", def: "Writing (Noun)", eng: "Gerund payload. The structural state of active data-recording." },
+                    { hebrew: "הִתְכַּתֵּב", translit: "Hitkatev", def: "He corresponded", eng: "Hitpa'el (Closed-loop Reflexive). Two systems actively bouncing telemetry back and forth." }
+                ]
+            },
+            {
+                id: "amr",
+                consonants: "א-מ-ר",
+                translit: "A-M-R",
+                meaning: "Saying / Speaking",
+                desc: "The primary acoustic transmission root. This block governs basic communicative output and structural commands.",
+                derivatives: [
+                    { hebrew: "אָמַר", translit: "Amar", def: "He said", eng: "Pa'al active. Standard acoustic emission." },
+                    { hebrew: "מַאֲמָר", translit: "Ma'amar", def: "Article / Essay", eng: "Noun payload. A structured assembly of spoken/written data." },
+                    { hebrew: "אֲמִירָה", translit: "Amirah", def: "Statement", eng: "The physical output or resulting thermal signature of speaking." }
+                ]
+            },
+            {
+                id: "hlk",
+                consonants: "ה-ל-כ",
+                translit: "H-L-Kh",
+                meaning: "Walking / Going",
+                desc: "The kinetic translation root. Used for physical movement across spatial coordinates, as well as abstract progression.",
+                derivatives: [
+                    { hebrew: "הָלַךְ", translit: "Halakh", def: "He walked", eng: "Pa'al. Base locomotive thrust." },
+                    { hebrew: "תַּהֲלִיךְ", translit: "Tahalikh", def: "Process", eng: "Noun prefix Tav (ת). A step-by-step mechanical progression through a system." },
+                    { hebrew: "הֲלִיכָה", translit: "Halikhah", def: "Walking (Act of)", eng: "Continuous kinetic operation." }
+                ]
+            },
+            {
+                id: "yda",
+                consonants: "י-ד-ע",
+                translit: "Y-D-A",
+                meaning: "Knowing",
+                desc: "The cognitive telemetry root. Handles data acquisition, storage, and processing.",
+                derivatives: [
+                    { hebrew: "יָדַע", translit: "Yada", def: "He knew", eng: "Data successfully loaded into active memory." },
+                    { hebrew: "מֵידָע", translit: "Meyda", def: "Information", eng: "The raw data payload itself. Notice the Mem (מ) modular attachment." },
+                    { hebrew: "מַדָּע", translit: "Mada", def: "Science", eng: "Structured, empirical data processing system." },
+                    { hebrew: "הוֹדִיעַ", translit: "Hodia", def: "He informed", eng: "Hif'il (Causative). Forcing data into another node's receiver." }
+                ]
+            },
+            {
+                id: "ash",
+                consonants: "ע-ש-ה",
+                translit: "A-S-H",
+                meaning: "Doing / Making",
+                desc: "The manufacturing and execution root. A high-load block used for creating, doing, and operating.",
+                derivatives: [
+                    { hebrew: "עָשָׂה", translit: "Asa", def: "He did / made", eng: "Pa'al execution command." },
+                    { hebrew: "מַעֲשֶׂה", translit: "Ma'aseh", def: "Deed / Action", eng: "The physical result of manufacturing thrust." },
+                    { hebrew: "תַּעֲשִׂיָּה", translit: "Ta'asiyah", def: "Industry", eng: "Mass production network. Heavily modified suffix configuration." }
+                ]
+            },
+            {
+                id: "rah",
+                consonants: "ר-א-ה",
+                translit: "R-A-H",
+                meaning: "Seeing",
+                desc: "The optical sensor root. Manages visual acquisition and visual structural output.",
+                derivatives: [
+                    { hebrew: "רָאָה", translit: "Ra'ah", def: "He saw", eng: "Optical sensors engaged and locked." },
+                    { hebrew: "מַרְאֶה", translit: "Mar'eh", def: "Appearance / Sight", eng: "The visual signature projected by an object." },
+                    { hebrew: "הִתְרָאָה", translit: "Hitra'ah", def: "He saw someone (met)", eng: "Hitpa'el. Two nodes visually syncing with each other." }
+                ]
+            },
+            {
+                id: "shma",
+                consonants: "ש-מ-ע",
+                translit: "Sh-M-A",
+                meaning: "Hearing / Listening",
+                desc: "The acoustic receiver root. Calibrated for sound reception and semantic comprehension.",
+                derivatives: [
+                    { hebrew: "שָׁמַע", translit: "Shama", def: "He heard", eng: "Acoustic payload received." },
+                    { hebrew: "מַשְׁמָעוּת", translit: "Mashma'ut", def: "Meaning / Significance", eng: "The decoded structural importance of a signal." },
+                    { hebrew: "הִשְׁמִיעַ", translit: "Hishmia", def: "He played sound", eng: "Hif'il (Causative). Broadcasting acoustic thrust outward." }
+                ]
+            },
+            {
+                id: "ntn",
+                consonants: "נ-ת-נ",
+                translit: "N-T-N",
+                meaning: "Giving",
+                desc: "The resource transfer root. Known as a 'weak' root because its terminal Nun (נ) nodes often drop off during high-stress conjugation.",
+                derivatives: [
+                    { hebrew: "נָתַן", translit: "Natan", def: "He gave", eng: "Base resource transfer execution." },
+                    { hebrew: "מַתָּנָה", translit: "Matanah", def: "Gift", eng: "The transferred payload. Note the root Nun drops and assimilates into the Tav (Dagesh)." },
+                    { hebrew: "נְתִינָה", translit: "Netinah", def: "Giving (Noun)", eng: "The active state of transferring mass/energy." }
+                ]
+            },
+            {
+                id: "akl",
+                consonants: "א-כ-ל",
+                translit: "A-K-L",
+                meaning: "Eating / Consuming",
+                desc: "The resource consumption root. Used for biological feeding, thermal destruction (fire eating), and chemical erosion.",
+                derivatives: [
+                    { hebrew: "אָכַל", translit: "Akhal", def: "He ate", eng: "Intake port open, fuel consumed." },
+                    { hebrew: "מַאֲכָל", translit: "Ma'akhal", def: "Food", eng: "The consumable fuel payload." },
+                    { hebrew: "הֶאֱכִיל", translit: "He'ekhil", def: "He fed", eng: "Hif'il (Causative). Forcing fuel into a secondary reactor system." }
+                ]
+            },
+            {
+                id: "boa",
+                consonants: "ב-ו-א",
+                translit: "B-O-A",
+                meaning: "Coming / Arriving",
+                desc: "The spatial arrival root. A classic 'Hollow Root' where the center Vav (ו) acts as a flexible joint rather than a rigid structural beam.",
+                derivatives: [
+                    { hebrew: "בָּא", translit: "Ba", def: "He came", eng: "Subject reached coordinate (0,0). Hollow structure evident." },
+                    { hebrew: "מָבוֹא", translit: "Mavo", def: "Introduction / Entrance", eng: "The physical or literary docking port." },
+                    { hebrew: "הֵבִיא", translit: "Hevi", def: "He brought", eng: "Hif'il (Causative). Causing an object to arrive at the coordinates." }
+                ]
+            },
+            {
+                id: "qra",
+                consonants: "ק-ר-א",
+                translit: "Q-R-A",
+                meaning: "Calling / Reading",
+                desc: "The primary vocal targeting root. Used for reading data streams, naming objects, or pinging other units.",
+                derivatives: [
+                    { hebrew: "קָרָא", translit: "Qara", def: "He read / called", eng: "Ping broadcasted or data-strip scanned." },
+                    { hebrew: "מִקְרָא", translit: "Miqra", def: "Scripture / Text", eng: "The hardcoded reference text. From the same mold as Michtav." },
+                    { hebrew: "קְרִיאָה", translit: "Kri'ah", def: "Reading / Call", eng: "The continuous action state of scanning data." }
+                ]
+            }
+        ];
+
+        // System Variables
+        const navContainer = document.getElementById('root-nav');
+        const vTitle = document.getElementById('v-title');
+        const vConcept = document.getElementById('v-concept');
+        const vHebrew = document.getElementById('v-hebrew');
+        const vDesc = document.getElementById('v-desc');
+        const vGrid = document.getElementById('v-grid');
+        const vGridTitle = document.getElementById('v-grid-title');
+
+        // Render Dashboard Functionality
+        function renderDashboard(rootId) {
+            document.querySelectorAll('.root-item').forEach(el => el.classList.remove('active'));
+            document.getElementById(`nav-${rootId}`).classList.add('active');
+
+            const data = db.find(r => r.id === rootId);
+            
+            vTitle.innerText = `Root: ${data.translit}`;
+            vConcept.innerText = `Concept: ${data.meaning}`;
+            vHebrew.innerText = data.consonants;
+            vDesc.innerText = data.desc;
+            
+            vGridTitle.style.display = 'block';
+            vGrid.innerHTML = ''; 
+            
+            data.derivatives.forEach(word => {
+                const card = document.createElement('div');
+                card.className = 'derivative-card';
+                card.innerHTML = `
+                    <div class="word-hebrew">${word.hebrew}</div>
+                    <div class="word-translit">${word.translit}</div>
+                    <div class="word-def">${word.def}</div>
+                    <div class="word-engineering"><strong>Diagnostics:</strong> ${word.eng}</div>
+                `;
+                vGrid.appendChild(card);
+            });
+        }
+
+        // Initialize Menu
+        db.forEach((root) => {
+            const el = document.createElement('div');
+            el.className = 'root-item';
+            el.id = `nav-${root.id}`;
+            el.innerHTML = `
+                <div>
+                    <strong>${root.translit}</strong>
+                    <div style="font-size: 11pt; color: #8b9bb4;">${root.meaning}</div>
+                </div>
+                <div class="root-hebrew" style="font-size: 18pt;">${root.consonants}</div>
+            `;
+            el.onclick = () => renderDashboard(root.id);
+            navContainer.appendChild(el);
+        });
+
+        // Initialize Base State
+        renderDashboard('ktv');
+    </script>
+</body>
+</html>

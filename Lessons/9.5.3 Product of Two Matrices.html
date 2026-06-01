@@ -1,0 +1,203 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board for Finding the Product of Two Matrices</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --text-color: #E0E0E0;
+            --blue-accent: #4DA8DA;
+            --gold-accent: #FFD700;
+            --panel-bg: #1E1E1E;
+        }
+        body {
+            font-family: 'Calibri Light', Calibri, sans-serif;
+            font-size: 13pt;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 20px auto;
+            max-width: 900px;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: var(--blue-accent);
+            border-bottom: 2px solid var(--gold-accent);
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        h1 { font-size: 24pt; }
+        .disclaimer {
+            background-color: rgba(255, 215, 0, 0.1);
+            border-left: 4px solid var(--gold-accent);
+            padding: 10px 15px;
+            font-size: 11pt;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+        .socratic-gate {
+            background-color: var(--panel-bg);
+            border: 1px solid var(--blue-accent);
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        details {
+            background-color: var(--panel-bg);
+            border-left: 4px solid var(--blue-accent);
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 0 8px 8px 0;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        details[open] {
+            border-left: 4px solid var(--gold-accent);
+        }
+        summary {
+            font-weight: bold;
+            color: var(--gold-accent);
+            outline: none;
+            font-size: 15pt;
+        }
+        .math-block {
+            background-color: #000;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 10px 0;
+            color: var(--blue-accent);
+            text-align: center;
+        }
+        .example-block {
+            border: 1px solid var(--blue-accent);
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        .solution-title {
+            color: var(--gold-accent);
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        ul { list-style-type: none; padding-left: 0; }
+        li { margin-bottom: 10px; }
+        .gold-text { color: var(--gold-accent); font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <div class="disclaimer">
+        ⚠️ <strong>Note on Sources:</strong> The nuclear fission rocket analogies, curriculum connections, and conversational tutoring styles are explicitly requested elements from outside your provided sources. I've clearly integrated them here as requested. You may want to independently verify that external information!
+    </div>
+
+    <h1>Board for Finding the Product of Two Matrices</h1>
+
+    <div class="socratic-gate">
+        <p>Hey Wordsmith! Before we dive in — are we doing:</p>
+        <ul>
+            <li>(A) Problem Set Mode — I'll guide you Socratically. You've got up to 3 tries per question. I won't give you the answer unless you've genuinely used all three attempts.</li>
+            <li>(B) New Lesson Mode — This is your first time seeing this concept, and you want a full walkthrough before any problem-solving.</li>
+        </ul>
+        <p><em>Which mode are we in?</em></p>
+        <p class="gold-text">...You triggered "New Lesson Mode" in your prompt. Let's build this from the ground up, no sugar-coating.</p>
+    </div>
+
+    <details open>
+        <summary>1. Concept Overview</summary>
+        <p>You already know how to add matrices and scale them up. But multiplying two matrices isn't just crunching numbers straight across. Matrix multiplication is about chaining systems together. We multiply entries of the first matrix with the entries of the second matrix according to a specific pattern.</p>
+    </details>
+
+    <details>
+        <summary>2. Intuition Building</summary>
+        <p>Think of a Nuclear Thermal Rocket (NTR). You have a chain of physical dependencies. </p>
+        <ul>
+            <li>🔵 Matrix \( B \) transforms the control rod drum positions into the reactor core's thermal power output.</li>
+            <li>🔵 Matrix \( A \) transforms that thermal power output into the propellant's exhaust velocity and total thrust.</li>
+        </ul>
+        <p>If you want to know directly how a control rod rotation affects your thrust, you multiply the matrices: \( AB \). The output of the first system (Matrix B) must perfectly fit the input of the second system (Matrix A). If the reactor produces 3 distinct temperature zones (columns of B), the thrust chamber dynamics must be built to accept exactly 3 temperature inputs (rows of A). If the geometry doesn't align, the system physically crashes.</p>
+    </details>
+
+    <details>
+        <summary>3. Formal Definition</summary>
+        <p>To multiply Matrix \( A \) and Matrix \( B \), they must pass a strict dimensional check.</p>
+        <ul>
+            <li>🔵 <strong>Inner Dimensions Must Match:</strong> Finding the product of two matrices is only possible when the inner dimensions are the same, meaning that the number of columns of the first matrix is equal to the number of rows of the second matrix.</li>
+            <li>🔵 <strong>The Product Matrix:</strong> If \( A \) is an \( m \times r \) matrix and \( B \) is an \( r \times n \) matrix, then the product matrix \( AB \) is an \( m \times n \) matrix. </li>
+            <li>🔵 <strong>The Dot Product Rule:</strong> To obtain the entries in row \( i \) of \( AB \), we multiply the entries in row \( i \) of \( A \) by column \( j \) in \( B \) and add.</li>
+            <li>🔵 <strong>Commutativity:</strong> Matrix multiplication is not commutative. \( AB \neq BA \). Reversing the engine components doesn't give you the same physics!</li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>4. Worked Examples</summary>
+        <p>Let's narrate this step-by-step using verbatim examples from your text.</p>
+
+        <div class="example-block">
+            <h3>Example 9.33: Multiplying Two Matrices</h3>
+            <p>Multiply matrix \( A \) and matrix \( B \).</p>
+            <div class="math-block">
+                \[ A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \text{ and } B = \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} \]
+            </div>
+            <p class="solution-title">Solution</p>
+            <p>First, we check the dimensions of the matrices. Matrix \( A \) has dimensions \( 2 \times 2 \) and matrix \( B \) has dimensions \( 2 \times 2 \). The inner dimensions are the same so we can perform the multiplication. The product will have the dimensions \( 2 \times 2 \).</p>
+            <p>We perform the operations outlined previously. <em>(Row 1 of A times Col 1 of B, etc.)</em></p>
+        </div>
+
+        <div class="example-block">
+            <h3>Example 9.34: Multiplying Two Matrices</h3>
+            <p>Given \( A \) and \( B \):<br>a. Find \( AB \).<br>b. Find \( BA \).</p>
+            <div class="math-block">
+                \[ A = \begin{bmatrix} -1 & 2 & 3 \\ 4 & 0 & 5 \end{bmatrix} \text{ and } B = \begin{bmatrix} 5 & -1 \\ -4 & 0 \\ 2 & 3 \end{bmatrix} \]
+            </div>
+            
+            <p class="solution-title">Solution (a)</p>
+            <p>As the dimensions of \( A \) are \( 2 \times 3 \) and the dimensions of \( B \) are \( 3 \times 2 \), these matrices can be multiplied together because the number of columns in \( A \) matches the number of rows in \( B \). The resulting product will be a \( 2 \times 2 \) matrix, the number of rows in \( A \) by the number of columns in \( B \).</p>
+            <div class="math-block">
+                \[ AB = \begin{bmatrix} -1 & 2 & 3 \\ 4 & 0 & 5 \end{bmatrix} \begin{bmatrix} 5 & -1 \\ -4 & 0 \\ 2 & 3 \end{bmatrix} \]
+                \[ = \begin{bmatrix} -1(5) + 2(-4) + 3(2) & -1(-1) + 2(0) + 3(3) \\ 4(5) + 0(-4) + 5(2) & 4(-1) + 0(0) + 5(3) \end{bmatrix} \]
+                \[ = \begin{bmatrix} -7 & 10 \\ 30 & 11 \end{bmatrix} \]
+            </div>
+            <p class="gold-text"><em>Does this make sense? Row runs into Column. Multiply pairs, add them up.</em></p>
+
+            <p class="solution-title">Solution (b)</p>
+            <p>The dimensions of \( B \) are \( 3 \times 2 \) and the dimensions of \( A \) are \( 2 \times 3 \). The inner dimensions match so the product is defined and will be a \( 3 \times 3 \) matrix.</p>
+            <div class="math-block">
+                \[ BA = \begin{bmatrix} 5 & -1 \\ -4 & 0 \\ 2 & 3 \end{bmatrix} \begin{bmatrix} -1 & 2 & 3 \\ 4 & 0 & 5 \end{bmatrix} \]
+                \[ = \begin{bmatrix} 5(-1) + -1(4) & 5(2) + -1(0) & 5(3) + -1(5) \\ -4(-1) + 0(4) & -4(2) + 0(0) & -4(3) + 0(5) \\ 2(-1) + 3(4) & 2(2) + 3(0) & 2(3) + 3(5) \end{bmatrix} \]
+                \[ = \begin{bmatrix} -9 & 10 & 10 \\ 4 & -8 & -12 \\ 10 & 4 & 21 \end{bmatrix} \]
+            </div>
+            <p><strong>Analysis:</strong> Notice that the products \( AB \) and \( BA \) are not equal. This illustrates the fact that matrix multiplication is not commutative.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>5. Common Pitfalls</summary>
+        <ul>
+            <li>🔵 <strong>Inner Dimension Mismatch:</strong> Trying to multiply a \( 3 \times 4 \) matrix by a \( 2 \times 3 \) matrix. It will crash. Always write out dimensions first: \( (3 \times \mathbf{4}) \times (\mathbf{2} \times 3) \). Since \( \mathbf{4 \neq 2} \), it's undefined.</li>
+            <li>🔵 <strong>Assuming Commutativity:</strong> Assuming \( AB = BA \). In physics and engineering, order of operations matters. Matrix operations are highly dependent on the left-to-right setup.</li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>6. Curriculum Connection</summary>
+        <ul>
+            <li>🔵 UP Diliman ME courses lean heavily on this for structural dynamics and robotic kinematics matrices.</li>
+            <li>🔵 MIT OCW 18.06 (Linear Algebra) focuses heavily on viewing matrix multiplication as linear combinations of columns.</li>
+            <li>🔵 Check PhysicsForums for applied discussions on matrix math in CFD solvers and tensor mechanics.</li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>7. Transition</summary>
+        <p>Alright, you've got the reactor geometry down. If you're ready to test your own dot product calculations, tell me <strong>"quiz me"</strong> or <strong>"let's do problems"</strong> to jump into Problem Set Mode!</p>
+    </details>
+
+</body>
+</html>
+```

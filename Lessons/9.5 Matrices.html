@@ -1,0 +1,170 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Board for Matrices and Matrix Operations</title>
+    <style>
+        body {
+            background-color: #0B0C10; /* Dark Theme */
+            color: #C5C6C7; 
+            font-family: 'Calibri Light', Calibri, sans-serif;
+            font-size: 13pt;
+            font-weight: normal;
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px;
+        }
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background-color: #1F2833;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+            border-top: 5px solid #FFD700; /* Gold */
+        }
+        h1, h2, h3 {
+            color: #FFD700; /* Gold */
+            margin-top: 0;
+        }
+        h1 {
+            text-align: center;
+            border-bottom: 2px solid #45A29E; /* Blue */
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #66FCF1; /* Bright Blue */
+            font-size: 16pt;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .interactive-box {
+            background-color: #0B0C10;
+            border-left: 4px solid #FFD700; /* Gold */
+            padding: 18px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .interactive-box:hover {
+            transform: translateX(8px);
+            box-shadow: -4px 4px 15px rgba(255, 215, 0, 0.2);
+        }
+        .matrix-container {
+            text-align: center;
+            margin: 25px 0;
+        }
+        .matrix-table {
+            display: inline-table;
+            border-left: 2px solid #FFD700;
+            border-right: 2px solid #FFD700;
+            border-radius: 6px;
+            margin: 0 10px;
+            vertical-align: middle;
+            color: #66FCF1; /* Blue */
+            background-color: #121212;
+        }
+        .matrix-table td {
+            padding: 5px 15px;
+            text-align: center;
+        }
+        .operator {
+            color: #FFD700;
+            font-weight: bold;
+            font-size: 18pt;
+            vertical-align: middle;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 12px;
+            color: #C5C6C7;
+        }
+        .interactive-btn {
+            display: block;
+            width: 100%;
+            background-color: #FFD700; /* Gold */
+            color: #0B0C10;
+            border: none;
+            padding: 15px;
+            font-size: 14pt;
+            font-family: 'Calibri Light', Calibri, sans-serif;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 8px;
+            margin-top: 35px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        .interactive-btn:hover {
+            background-color: #E5C100;
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Board for Matrices and Matrix Operations</h1>
+
+        <h2>1. Concept Overview</h2>
+        <p>A matrix is a rectangular array of numbers that utilizes rows and columns to organize complex data sets. They are highly efficient tools for representing systems of equations because they are not encumbered by written variables. Every individual number located inside the brackets is referred to as an entry or an element.</p>
+
+        <div class="interactive-box">
+            <h2>2. Intuition Building</h2>
+            <p>Imagine a matrix as a grid tracking the neutron flux distribution across a nuclear thermal rocket reactor core. Each specific row and column pinpoints an exact fuel assembly within the reactor grid. Adding two matrices is identical to superimposing the flux contributions from two different control rod configurations to determine the total thermal state.</p>
+        </div>
+
+        <h2>3. Formal Definition</h2>
+        <p>Matrices are traditionally named using capital letters and are defined by their dimensions, denoted as <i>m &times; n</i>, which indicates <i>m</i> rows and <i>n</i> columns. A single entry is identified mathematically as <i>a<sub>ij</sub></i>, where <i>i</i> represents the specific row and <i>j</i> represents the column. It is critical to remember that matrix addition and subtraction are only possible when both matrices possess the exact same dimensions.</p>
+
+        <div class="interactive-box">
+            <h2>4. Worked Example</h2>
+            <p>We add or subtract matrices by combining their corresponding entries, meaning that <i>A + B = C</i> translates to <i>a<sub>ij</sub> + b<sub>ij</sub> = c<sub>ij</sub></i>. Let's observe exactly how we add two 2&times;2 matrices together:</p>
+            
+            <div class="matrix-container">
+                <table class="matrix-table">
+                    <tr><td>4</td><td>1</td></tr>
+                    <tr><td>3</td><td>2</td></tr>
+                </table>
+                <span class="operator">+</span>
+                <table class="matrix-table">
+                    <tr><td>5</td><td>9</td></tr>
+                    <tr><td>0</td><td>7</td></tr>
+                </table>
+                <span class="operator">=</span>
+                <table class="matrix-table">
+                    <tr><td>9</td><td>10</td></tr>
+                    <tr><td>3</td><td>9</td></tr>
+                </table>
+            </div>
+
+            <p>By adding the entry in row 1, column 1 of matrix A (4) to the corresponding entry in B (5), we calculate a sum of 9. We continue this exact pattern until all corresponding entries have been successfully added. Does this step-by-step assembly logic make sense so far?</p>
+        </div>
+
+        <div class="interactive-box">
+            <h2>5. Common Pitfalls</h2>
+            <p>The most frequent mistake is attempting to add or subtract matrices of differing dimensions, such as combining a 2&times;3 matrix with a 3&times;3 matrix. This operation is undefined because some entries in one matrix will not have a corresponding entry in the other matrix. Always double-check that your <i>m &times; n</i> dimensions match perfectly before attempting any calculations.</p>
+        </div>
+
+        <h2>6. Curriculum Connection</h2>
+        <ul>
+            <li>🔵 Directly maps to assembling stiffness matrices for structural finite element analysis (FEM) of rocket engine nozzles.</li>
+            <li>🔵 Foundational for multidimensional arrays used in OpenMC Monte Carlo neutronics simulations.</li>
+            <li>🔵 Links directly to advanced linear algebra concepts taught in MIT OCW Course 18.06.</li>
+        </ul>
+
+        <h2>7. Transition</h2>
+        <p>We have successfully established the formal definitions and the core intuition behind basic matrix operations. You now possess the foundational tools necessary to manipulate these rectangular arrays.</p>
+
+        <button class="interactive-btn" onclick="alert('Hey Wordsmith! Before we dive in — are we doing:\n(A) Problem Set Mode\n(B) New Lesson Mode\n\nWhich mode are we in?')">
+            Switch to Problem Set Mode
+        </button>
+    </div>
+
+</body>
+</html>
+```

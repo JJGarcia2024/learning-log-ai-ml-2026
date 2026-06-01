@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board for Sum and Difference of Two Matrices</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --text-color: #E0E0E0;
+            --blue-accent: #4DA8DA;
+            --gold-accent: #FFD700;
+            --panel-bg: #1E1E1E;
+        }
+        body {
+            font-family: 'Calibri Light', Calibri, sans-serif;
+            font-size: 13pt;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 20px auto;
+            max-width: 900px;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: var(--blue-accent);
+            border-bottom: 2px solid var(--gold-accent);
+            padding-bottom: 5px;
+        }
+        h1 { font-size: 24pt; }
+        .disclaimer {
+            background-color: rgba(255, 215, 0, 0.1);
+            border-left: 4px solid var(--gold-accent);
+            padding: 10px 15px;
+            font-size: 11pt;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+        .socratic-gate {
+            background-color: var(--panel-bg);
+            border: 1px solid var(--blue-accent);
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        details {
+            background-color: var(--panel-bg);
+            border-left: 4px solid var(--blue-accent);
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 0 8px 8px 0;
+            cursor: pointer;
+        }
+        summary {
+            font-weight: bold;
+            color: var(--gold-accent);
+            outline: none;
+            font-size: 15pt;
+        }
+        .math-block {
+            background-color: #000;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 10px 0;
+            color: var(--blue-accent);
+        }
+        ul { list-style-type: none; padding-left: 0; }
+        li { margin-bottom: 10px; }
+        .gold-text { color: var(--gold-accent); font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <div class="disclaimer">
+        ⚠️ <strong>Note on Sources:</strong> The nuclear fission rocket analogies, connections to MIT OCW / FEniCSx, and citations of PhysicsForums used below are explicitly requested stylistic elements not found in your provided source material. You may want to independently verify that external information!
+    </div>
+
+    <h1>Board for Sum and Difference of Two Matrices</h1>
+
+    <div class="socratic-gate">
+        <p>Hey Wordsmith! Before we dive in — are we doing:</p>
+        <ul>
+            <li>(A) Problem Set Mode — I'll guide you Socratically. You've got up to 3 tries per question. I won't give you the answer unless you've genuinely used all three attempts.</li>
+            <li>(B) New Lesson Mode — This is your first time seeing this concept, and you want a full walkthrough before any problem-solving.</li>
+        </ul>
+        <p><em>Which mode are we in?</em></p>
+        <p class="gold-text">...Wait, you already triggered the shortcut: "New Lesson Mode"! Let's lock in and break this down from scratch.</p>
+    </div>
+
+    <details open>
+        <summary>1. Concept Overview</summary>
+        <p>A matrix is simply a rectangular array of numbers, organized into horizontal rows and vertical columns. When working with systems of data, matrices let us combine or track changes efficiently. Adding and subtracting matrices is just combining the corresponding cells in those grids.</p>
+    </details>
+
+    <details>
+        <summary>2. Intuition Building</summary>
+        <p>Let’s anchor this. Imagine the core of a Nuclear Thermal Rocket (NTR). We use a spatial grid to map the neutron flux distribution across the reactor core. Matrix \( A \) represents the baseline neutron flux in the fuel assemblies. Matrix \( B \) represents the localized change in flux during a control rod transient.</p>
+        <p>To find the total, updated flux distribution, you literally just lay the grids on top of each other and add the matching coordinates. But here’s the physical constraint: you can only add them if the grids map the exact same geometry. If Matrix \( A \) maps a \( 3 \times 3 \) grid and Matrix \( B \) maps a \( 2 \times 3 \) grid, they are physically incompatible. You cannot add or subtract them because some data points lack a corresponding partner.</p>
+    </details>
+
+    <details>
+        <summary>3. Formal Definition</summary>
+        <ul>
+            <li>🔵 <strong>Dimensional Requirement:</strong> Addition and subtraction of matrices is only possible when the matrices have the same dimensions. </li>
+            <li>🔵 <strong>Matrix Addition:</strong> Given matrices \( A \) and \( B \) of like dimensions, \( A + B = C \) such that \( a_{ij} + b_{ij} = c_{ij} \).</li>
+            <li>🔵 <strong>Matrix Subtraction:</strong> Given matrices \( A \) and \( B \) of like dimensions, \( A - B = D \) such that \( a_{ij} - b_{ij} = d_{ij} \).</li>
+            <li>🔵 <strong>Notation:</strong> \( i \) defines the row, and \( j \) defines the column. For example, \( a_{23} \) is the entry in row 2, column 3.</li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>4. Worked Examples</summary>
+        <p>Let's narrate this step-by-step using verbatim examples from your text.</p>
+        
+        <h3>Example 9.28 Adding Matrix A and Matrix B</h3>
+        <p>Find the sum of \( A \) and \( B \).</p>
+        <div class="math-block">
+            \[ A = \begin{bmatrix} 4 & 1 \\ 3 & 2 \end{bmatrix} \text{ and } B = \begin{bmatrix} 5 & 9 \\ 0 & 7 \end{bmatrix} \]
+        </div>
+        <p><strong>Solution:</strong> Add corresponding entries. Add the entry in row 1, column 1, \( a_{11} \), of matrix \( A \) to the entry in row 1, column 1, \( b_{11} \), of \( B \). Continue the pattern until all entries have been added.</p>
+        <div class="math-block">
+            \[ A + B = \begin{bmatrix} 4+5 & 1+9 \\ 3+0 & 2+7 \end{bmatrix} = \begin{bmatrix} 9 & 10 \\ 3 & 9 \end{bmatrix} \]
+        </div>
+        <p class="gold-text"><em>Does this make sense? Just stacking the grids.</em></p>
+
+        <hr style="border-color: var(--blue-accent);">
+
+        <h3>Example 9.29 Finding the Difference of Two Matrices</h3>
+        <p>Find the difference of \( A \) and \( B \).</p>
+        <div class="math-block">
+            \[ A = \begin{bmatrix} -2 & 3 \\ 0 & 1 \end{bmatrix} \text{ and } B = \begin{bmatrix} 8 & 1 \\ 5 & 4 \end{bmatrix} \]
+        </div>
+        <p><strong>Solution:</strong> We subtract the corresponding entries of each matrix.</p>
+        <div class="math-block">
+            \[ A - B = \begin{bmatrix} -2-8 & 3-1 \\ 0-5 & 1-4 \end{bmatrix} = \begin{bmatrix} -10 & 2 \\ -5 & -3 \end{bmatrix} \]
+        </div>
+        <p class="gold-text"><em>Are you tracking the negative signs here?</em></p>
+    </details>
+
+    <details>
+        <summary>5. Common Pitfalls</summary>
+        <ul>
+            <li>🔵 <strong>Dimensional Mismatch:</strong> Trying to add a \( 2 \times 3 \) matrix to a \( 3 \times 3 \) matrix. It will flat out fail because entries in one matrix won't have a corresponding entry in the other. Don't force geometry that doesn't fit!</li>
+            <li>🔵 <strong>Dropping the Negative:</strong> When doing subtraction (\( A - B \)), failing to distribute the minus sign to negative entries in \( B \). Watch your signs like you watch your reactor pressure.</li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>6. Curriculum Connection</summary>
+        <ul>
+            <li>🔵 Check out MIT OCW 18.06 (Linear Algebra) for the deeper theory on matrix spaces.</li>
+            <li>🔵 Search PhysicsForums for practical computational discussions on matrix algebra in physics.</li>
+            <li>🔵 Applied directly in OpenMC/FEniCSx simulation projects where massive FEM stiffness matrix assembly requires precise element-by-element addition.</li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>7. Transition</summary>
+        <p>Alright, that's the core theory and your worked examples. If you're feeling solid on this, tell me <strong>"let's do problems"</strong> and we'll flip the switch over to Problem Set Mode to test your skills!</p>
+    </details>
+
+</body>
+</html>
