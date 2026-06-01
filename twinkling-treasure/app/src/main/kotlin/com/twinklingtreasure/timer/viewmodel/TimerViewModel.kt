@@ -1,0 +1,74 @@
+package com.twinklingtreasure.timer.viewmodel
+
+import android.app.Application
+import android.content.ComponentName
+import android.content.Context
+import android.content.Intent
+import android.content.ServiceConnection
+import android.os.IBinder
+import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.viewModelScope
+import com.twinklingtreasure.timer.data.TimerCycle
+import com.twinklingtreasure.timer.data.TimerState
+import com.twinklingtreasure.timer.service.TimerService
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.launch
+
+class TimerViewModel(application: Application) : AndroidViewModel(application) {
+
+    private val _uiState = MutableStateFlow(TimerState())
+    val uiState: StateFlow<TimerState> = _uiState.asStateFlow()
+
+    private val _isInPip = MutableStateFlow(false)
+    val isInPipMode: StateFlow<Boolean> = _isInPip.asStateFlow()
+
+    val progressFraction: StateFlow<Float> = _uiState
+        .map { s ->
+            val total = TimerCycle.phases[s.currentPhaseIndex].durationSeconds.toFloat()
+            if (total == 0f) 0f else 1f - (s.secondsRemaining / total)
+        }
+        .stateIn(viewModelScope, SharingStarted.Eagerly, 0f)
+
+    private var service: TimerService? = null
+    private var isBound = false
+
+    private val connection = object : ServiceConnection {
+        override fun onServiceConnected(name: ComponentName?, binder: IBinder?) {
+            service = (binder as TimerService.TimerBinder).getService()
+            isBound = true
+            viewModelScope.launch {
+                service!!.timerState.collect { state ->
+                    _uiState.value = state
+                }
+            }
+        }
+        override fun onServiceDisconnected(name: ComponentName?) {
+            service = null
+            isBound = false
+        }
+    }
+
+    fun bindService(context: Context) {
+        val intent = Intent(context, TimerService::class.java)
+        context.bindService(intent, connection, Context.BIND_AUTO_CREATE)
+    }
+
+    fun unbindService(context: Context) {
+        if (isBound) {
+            context.unbindService(connection)
+            isBound = false
+        }
+    }
+
+    fun setInPipMode(value: Boolean) { _isInPip.value = value }
+
+    fun startTimer() = service?.start()
+    fun pauseTimer() = service?.pause()
+    fun skipPhase()  = service?.skipToNext()
+    fun resetTimer() = service?.reset()
+}

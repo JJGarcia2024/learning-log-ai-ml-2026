@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Gold star / timer shape -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M54,20 L58.5,38.5 L77,38.5 L62.5,49.5 L68,68 L54,57 L40,68 L45.5,49.5 L31,38.5 L49.5,38.5 Z" />
+    <!-- Clock hands -->
+    <path
+        android:strokeColor="#1565C0"
+        android:strokeWidth="3"
+        android:pathData="M54,44 L54,56 L62,56"
+        android:fillColor="@android:color/transparent"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>
