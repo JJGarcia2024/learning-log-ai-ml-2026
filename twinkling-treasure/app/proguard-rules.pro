@@ -1,0 +1,2 @@
+-keep class com.twinklingtreasure.timer.service.TimerService { *; }
+-keep class com.twinklingtreasure.timer.data.** { *; }
