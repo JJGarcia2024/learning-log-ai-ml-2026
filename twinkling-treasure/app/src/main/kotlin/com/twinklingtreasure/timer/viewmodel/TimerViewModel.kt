@@ -5,6 +5,8 @@ import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.content.ServiceConnection
+import android.media.AudioAttributes
+import android.media.MediaPlayer
 import android.media.RingtoneManager
 import android.net.Uri
 import android.os.IBinder
@@ -94,18 +96,33 @@ class TimerViewModel(application: Application) : AndroidViewModel(application) {
 
     fun testAlarm() {
         viewModelScope.launch(Dispatchers.Main) {
-            val uri = settings.value.alarmSoundUri
-            if (uri.isEmpty()) return@launch
+            val uriString = settings.value.alarmSoundUri
+            if (uriString.isEmpty()) return@launch
+            val uri = if (uriString == "default")
+                RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM)
+                    ?: RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
+            else Uri.parse(uriString)
+            val mp = MediaPlayer()
+            mp.setAudioAttributes(
+                AudioAttributes.Builder()
+                    .setUsage(AudioAttributes.USAGE_ALARM)
+                    .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
+                    .build()
+            )
             try {
-                val resolved = if (uri == "default")
-                    RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM)
-                        ?: RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
-                else Uri.parse(uri)
-                val ringtone = RingtoneManager.getRingtone(getApplication(), resolved)
-                ringtone?.play()
-                delay(3_000)
-                ringtone?.stop()
-            } catch (_: Exception) {}
+                mp.setDataSource(getApplication(), uri)
+                mp.setOnPreparedListener { player ->
+                    player.start()
+                    viewModelScope.launch {
+                        delay(3_000)
+                        player.stop()
+                        player.release()
+                    }
+                }
+                mp.prepareAsync()
+            } catch (_: Exception) {
+                mp.release()
+            }
         }
     }
 }

@@ -8,7 +8,8 @@ import android.app.Service
 import android.content.Context
 import android.content.Intent
 import android.content.pm.ServiceInfo
-import android.media.Ringtone
+import android.media.AudioAttributes
+import android.media.MediaPlayer
 import android.media.RingtoneManager
 import android.net.Uri
 import android.os.Binder
@@ -52,7 +53,7 @@ class TimerService : Service() {
 
     private val settingsRepo by lazy { SettingsRepository(applicationContext) }
     private var currentSettings = AppSettings()
-    private var currentRingtone: Ringtone? = null
+    @Volatile private var mediaPlayer: MediaPlayer? = null
 
     override fun onBind(intent: Intent): IBinder = binder
 
@@ -76,7 +77,7 @@ class TimerService : Service() {
     }
 
     override fun onDestroy() {
-        currentRingtone?.stop()
+        stopAlarm()
         scope.cancel()
         super.onDestroy()
     }
@@ -95,7 +96,7 @@ class TimerService : Service() {
 
     fun pause() {
         tickerJob?.cancel()
-        currentRingtone?.stop()
+        stopAlarm()
         _state.update { it.copy(isRunning = false) }
         updateNotification()
     }
@@ -103,7 +104,7 @@ class TimerService : Service() {
     fun skipToNext() {
         val wasRunning = _state.value.isRunning
         tickerJob?.cancel()
-        currentRingtone?.stop()
+        stopAlarm()
         val next = (_state.value.currentPhaseIndex + 1) % TimerCycle.phases.size
         _state.update {
             it.copy(
@@ -117,7 +118,7 @@ class TimerService : Service() {
 
     fun reset() {
         tickerJob?.cancel()
-        currentRingtone?.stop()
+        stopAlarm()
         _state.value = TimerState()
         updateNotification()
     }
@@ -163,18 +164,38 @@ class TimerService : Service() {
 
     private fun playAlarm(uriString: String) {
         scope.launch(Dispatchers.Main) {
+            stopAlarm()
+            val uri = if (uriString == "default") {
+                RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM)
+                    ?: RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
+            } else {
+                Uri.parse(uriString)
+            }
+            val mp = MediaPlayer()
+            mp.setAudioAttributes(
+                AudioAttributes.Builder()
+                    .setUsage(AudioAttributes.USAGE_ALARM)
+                    .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
+                    .build()
+            )
             try {
-                currentRingtone?.stop()
-                val uri = if (uriString == "default") {
-                    RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM)
-                        ?: RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
-                } else {
-                    Uri.parse(uriString)
-                }
-                currentRingtone = RingtoneManager.getRingtone(applicationContext, uri)
-                currentRingtone?.play()
-            } catch (_: Exception) {}
+                mp.setDataSource(applicationContext, uri)
+                mp.setOnPreparedListener { it.start() }
+                mp.setOnCompletionListener { it.release(); if (mediaPlayer === it) mediaPlayer = null }
+                mp.prepareAsync()
+                mediaPlayer = mp
+            } catch (_: Exception) {
+                mp.release()
+            }
         }
+    }
+
+    private fun stopAlarm() {
+        mediaPlayer?.run {
+            try { if (isPlaying) stop() } catch (_: Exception) {}
+            release()
+        }
+        mediaPlayer = null
     }
 
     private fun buildNotification(): Notification {
