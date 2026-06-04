@@ -60,6 +60,8 @@ dependencies {
     implementation(libs.compose.animation)
     implementation(libs.material3)
     implementation(libs.material.icons.extended)
+    implementation(libs.datastore.preferences)
+    implementation(libs.coil.compose)
 
     debugImplementation(libs.compose.ui.tooling)
     debugImplementation(libs.compose.ui.test.manifest)
