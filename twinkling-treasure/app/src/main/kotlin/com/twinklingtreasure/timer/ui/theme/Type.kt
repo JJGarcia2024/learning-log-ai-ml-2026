@@ -2,17 +2,13 @@ package com.twinklingtreasure.timer.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import com.twinklingtreasure.timer.R
 
-val GoogleSans = FontFamily(
-    Font(R.font.google_sans_regular, FontWeight.Normal),
-    Font(R.font.google_sans_medium,  FontWeight.Medium),
-    Font(R.font.google_sans_bold,    FontWeight.Bold),
-)
+// FontFamily.SansSerif maps to Google Sans on Android devices — it IS the system font.
+// This avoids the downloadable font certificate complexity entirely.
+val GoogleSans = FontFamily.SansSerif
 
 val AppTypography = Typography(
     displayLarge = TextStyle(
