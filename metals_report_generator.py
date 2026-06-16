@@ -5,7 +5,6 @@ from datetime import datetime
 import os
 
 def calculate_indicators(df):
-    """Calculates necessary technical indicators for the strategy."""
     df['EMA_9'] = df['Close'].ewm(span=9, adjust=False).mean()
     df['EMA_21'] = df['Close'].ewm(span=21, adjust=False).mean()
     df['EMA_50'] = df['Close'].ewm(span=50, adjust=False).mean()
@@ -23,12 +22,71 @@ def calculate_indicators(df):
     ranges = pd.concat([high_low, high_close, low_close], axis=1)
     true_range = np.max(ranges, axis=1)
     df['ATR'] = true_range.rolling(14).mean()
-    
-    return df
+    return df.dropna()
 
-def get_fundamental_data(ticker_obj):
-    """Fetches top 10 recent news items for the ticker."""
+def fetch_synthetic_metal(symbol, interval='1d'):
+    """
+    Synthesizes Metal/Currency crosses using Yahoo Finance Futures + Forex data.
+    e.g. XAUEUR = GC=F (Gold in USD) / EURUSD=X (USD per EUR)
+    """
+    base_metal = symbol[:3]
+    quote_currency = symbol[3:6]
+    
+    metal_futures = {'XAU': 'GC=F', 'XAG': 'SI=F', 'XPT': 'PL=F', 'XPD': 'PA=F'}
+    future_ticker = metal_futures.get(base_metal)
+    
+    if not future_ticker:
+        return pd.DataFrame()
+        
+    metal_df = yf.Ticker(future_ticker).history(period='1y', interval=interval)
+    if metal_df.empty:
+        return metal_df
+        
+    metal_df.index = pd.to_datetime(metal_df.index).tz_localize(None).normalize()
+        
+    if quote_currency == 'USD':
+        return metal_df
+        
+    # Check QuoteUSD=X (e.g. EURUSD=X means 1 EUR = X USD)
+    fiat_ticker = f"{quote_currency}USD=X"
+    fiat_df = yf.Ticker(fiat_ticker).history(period='1y', interval=interval)
+    
+    if not fiat_df.empty:
+        fiat_df.index = pd.to_datetime(fiat_df.index).tz_localize(None).normalize()
+        # We need Metal in Quote.
+        # Metal in USD / (USD per Quote) = Metal in Quote
+        idx = metal_df.index.intersection(fiat_df.index)
+        if len(idx) == 0: return pd.DataFrame()
+        m = metal_df.loc[idx].copy()
+        f = fiat_df.loc[idx]
+        for col in ['Open', 'High', 'Low', 'Close']:
+            m[col] = m[col] / f[col]
+        return m
+        
+    # Check USDQuote=X (e.g. USDJPY=X means 1 USD = X JPY)
+    fiat_ticker = f"USD{quote_currency}=X"
+    fiat_df = yf.Ticker(fiat_ticker).history(period='1y', interval=interval)
+    
+    if not fiat_df.empty:
+        fiat_df.index = pd.to_datetime(fiat_df.index).tz_localize(None).normalize()
+        # Metal in USD * (Quote per USD) = Metal in Quote
+        idx = metal_df.index.intersection(fiat_df.index)
+        if len(idx) == 0: return pd.DataFrame()
+        m = metal_df.loc[idx].copy()
+        f = fiat_df.loc[idx]
+        for col in ['Open', 'High', 'Low', 'Close']:
+            m[col] = m[col] * f[col]
+        return m
+        
+    return pd.DataFrame()
+
+def get_fundamental_data(symbol):
+    base_metal = symbol[:3]
+    metal_futures = {'XAU': 'GC=F', 'XAG': 'SI=F', 'XPT': 'PL=F', 'XPD': 'PA=F'}
+    future_ticker = metal_futures.get(base_metal, 'GC=F')
+    
     try:
+        ticker_obj = yf.Ticker(future_ticker)
         news = ticker_obj.news
         parsed_news = []
         for item in (news[:10] if news else []):
@@ -46,15 +104,15 @@ def get_fundamental_data(ticker_obj):
         return []
 
 def generate_report(symbol, account_balance, risk_pct=1.0, interval='1d'):
-    """Generates a comprehensive trading report based on the template and saves it as Markdown."""
-    ticker = yf.Ticker(symbol)
-    
-    df = ticker.history(period='1y', interval=interval)
+    df = fetch_synthetic_metal(symbol, interval=interval)
     if df.empty:
         print(f"Failed to fetch data for {symbol}")
         return
-    
+        
     df = calculate_indicators(df)
+    if len(df) < 2:
+        return
+        
     latest = df.iloc[-1]
     prev = df.iloc[-2]
     
@@ -105,11 +163,12 @@ def generate_report(symbol, account_balance, risk_pct=1.0, interval='1d'):
         lot_size = 0
         xm_micro_lots = 0
 
-    news_items = get_fundamental_data(ticker)
+    news_items = get_fundamental_data(symbol)
 
     # Markdown Content Generation
-    md = f"# Systematic Trading Report: {symbol}\n\n"
-    md += f"**Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M')} | **Timeframe:** {interval}\n\n"
+    md = f"# Synthetic Metals Trading Report: {symbol.replace('=X', '')}\n\n"
+    md += f"**Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M')} | **Timeframe:** {interval}\n"
+    md += f"*(Note: Prices mathematically synthesized via USD Futures + Global Forex Rates)*\n\n"
     
     md += "## 1. Macroeconomic Context & Fundamentals\n"
     if news_items:
@@ -121,7 +180,7 @@ def generate_report(symbol, account_balance, risk_pct=1.0, interval='1d'):
         md += "- No tier-one news or fundamental data detected immediately via API.\n"
         
     md += "\n## 2. Technical Architecture & Regime\n"
-    md += f"- **Current Price:** {current_price:.5f}\n"
+    md += f"- **Current Synthetic Price:** {current_price:.5f}\n"
     md += f"- **Regime/Trend:** {regime}\n"
     md += f"- **EMA 50 (Med):** {latest['EMA_50']:.5f}\n"
     md += f"- **EMA 200 (Long):** {latest['EMA_200']:.5f}\n"
@@ -148,6 +207,7 @@ def generate_report(symbol, account_balance, risk_pct=1.0, interval='1d'):
         md += f"- **Stop Loss (SL):** {stop_loss:.5f}\n"
         md += f"- **Take Profit (TP):** {take_profit:.5f} (Targeting 1:2 RRR)\n"
         
+    md += f"- **Stop Loss Distance (1.5 ATR):** {abs(current_price - stop_loss):.5f} points\n"
     md += f"- **Standard Lot Size:** {lot_size:.3f} Lots (100,000 units)\n"
     md += f"- **XM Micro Account Lot Size:** {xm_micro_lots:.3f} Micro Lots (1,000 units)\n"
     md += "> *Note: XM Micro Accounts require a minimum deposit of just $5 and help manage risk. Adjust sizing dynamically for pairs with varying pip values.*\n"
@@ -171,17 +231,17 @@ def generate_report(symbol, account_balance, risk_pct=1.0, interval='1d'):
         
     print(f"Generated Markdown report: {filename}")
 
-
 if __name__ == "__main__":
-    ACCOUNT_BALANCE = 10.0     # $10 Micro-Lot Account
+    ACCOUNT_BALANCE = 10.0     
     RISK_PERCENTAGE = 1.0      
     
     ASSETS = [
-        # YF delisted spot crosses (XAUUSD=X), so we use USD Futures contracts
-        'GC=F',   # Gold Futures
-        'SI=F',   # Silver Futures
-        'PL=F',   # Platinum Futures
-        'PA=F'    # Palladium Futures
+        # Gold
+        'XAUUSD=X', 'XAUEUR=X', 'XAUGBP=X', 'XAUJPY=X', 'XAUAUD=X', 'XAUCHF=X',
+        # Silver
+        'XAGUSD=X', 'XAGEUR=X', 'XAGGBP=X', 'XAGJPY=X', 'XAGAUD=X',
+        # Platinum & Palladium
+        'XPTUSD=X', 'XPTEUR=X', 'XPDUSD=X', 'XPDEUR=X'
     ]
     
     for asset in ASSETS:
