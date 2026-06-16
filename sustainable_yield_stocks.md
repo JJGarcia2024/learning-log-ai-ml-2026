@@ -655,6 +655,7 @@
 | NEM | Newmont Corporation | 4.38% | 53.2% | 20.9% |
 | VALU | Value Line, Inc. | 4.86% | 58.8% | 20.8% |
 | SBC | SBC Medical Group Holdings Incorporated | 2.65% | 73.3% | 20.5% |
+
 ## The Sustainable Hidden Gems
 > **Filters Applied:** 7% $\leq$ OE Yield $\leq$ 15%, Gross Margin $\geq$ 40%, Debt-to-Equity $\leq$ 0.5
 >
