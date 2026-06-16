@@ -1,0 +1,162 @@
+{
+  "ticker": "KDK",
+  "company_name": "Kodiak AI, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "description": "Kodiak AI, Inc. engages in the development of autonomous vehicle technology and related services. It offers Kodiak Driver, a virtual driver that combines advanced AI-powered software with modular and vehicle-agnostic hardware designed to help address its customers. The company also provides oversight and integration tools, including Kodiak OnTime, a proprietary suite of support services and tools designed to provide smooth integration with customer operations. In addition, it delivers freight through its autonomous trucks; and offers driver-as-a-service to its customers. Kodiak AI, Inc. has st",
+  "employees": "341",
+  "exchange": "NGM",
+  "website": "https://kodiak.ai",
+  "current_price": 6.08,
+  "market_cap": 1174355968.0,
+  "shares_out": 193150662.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 16946000.0,
+      "gross_profit": 0.0,
+      "operating_income": -53849000.0,
+      "net_income": -56945000.0,
+      "dna": 4114000.0,
+      "operating_cf": -43842000.0,
+      "capex": -3270000.0,
+      "free_cash_flow": -47112000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 46293000.0,
+      "total_liabilities": 233391000.0,
+      "total_equity": -187098000.0,
+      "cash": 27756000.0,
+      "total_debt": 42333000.0,
+      "current_assets": 30896000.0,
+      "current_liabilities": 14880000.0,
+      "shares_outstanding": 174957392.0,
+      "net_wc": 16016000.0,
+      "wc_change": -0.0,
+      "capex_abs": 3270000.0,
+      "maint_capex": 2289000.0,
+      "owner_earnings": -55120000.0,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 14933000.0,
+      "gross_profit": 0.0,
+      "operating_income": -61719000.0,
+      "net_income": -69459000.0,
+      "dna": 4616000.0,
+      "operating_cf": -50961000.0,
+      "capex": -3192000.0,
+      "free_cash_flow": -54153000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 35561000.0,
+      "total_liabilities": 286396000.0,
+      "total_equity": -250835000.0,
+      "cash": 16709000.0,
+      "total_debt": 41727000.0,
+      "current_assets": 20249000.0,
+      "current_liabilities": 31218000.0,
+      "shares_outstanding": 174957392.0,
+      "net_wc": -10969000.0,
+      "wc_change": 26985000.0,
+      "capex_abs": 3192000.0,
+      "maint_capex": 2234400.0,
+      "owner_earnings": -40092400.0,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": -11.878909477162747
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 3797000.0,
+      "gross_profit": 0.0,
+      "operating_income": -112625000.0,
+      "net_income": -585525000.0,
+      "dna": 3248000.0,
+      "operating_cf": -94442000.0,
+      "capex": -22026000.0,
+      "free_cash_flow": -116468000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 159407000.0,
+      "total_liabilities": 442459000.0,
+      "total_equity": -283052000.0,
+      "cash": 50761000.0,
+      "total_debt": 47315000.0,
+      "current_assets": 126012000.0,
+      "current_liabilities": 26662000.0,
+      "shares_outstanding": 175440000.0,
+      "net_wc": 99350000.0,
+      "wc_change": -110319000.0,
+      "capex_abs": 22026000.0,
+      "maint_capex": 15418199.999999998,
+      "owner_earnings": -708014200.0,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": -74.57309314940066
+    }
+  ],
+  "latest_oe": -708014200.0,
+  "latest_cash": 50761000.0,
+  "latest_debt": 47315000.0,
+  "ev": 1170909968.0,
+  "oe_yield": -60.467005948317286,
+  "roe": 206.8612834390854,
+  "debt_equity": -0.16716009779121857,
+  "latest_gm": 0.0,
+  "current_ratio": 4.726277098492236,
+  "latest_net_income": -585525000.0,
+  "latest_dna": 3248000.0,
+  "latest_wc_change": -110319000.0,
+  "latest_maint_capex": 15418199.999999998,
+  "latest_net_wc": 99350000.0,
+  "latest_current_assets": 126012000.0,
+  "latest_current_liabilities": 26662000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 819.3% p.a.",
+    "High ROE 206.9%",
+    "Low leverage (-0.17x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "Kodiak AI, Inc. KDK revenue predictability recurring demand analysis 2025 2026",
+      "Kodiak AI, Inc. KDK business model complexity investor circle of competence",
+      "Kodiak AI, Inc. KDK 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Kodiak AI, Inc. KDK competitive moat analysis switching costs brand advantage",
+      "Kodiak AI, Inc. KDK network effects scale advantages cost leadership",
+      "Kodiak AI, Inc. KDK patents regulatory barriers intellectual property moat",
+      "Kodiak AI, Inc. KDK competitive threats risks disruption challenges 2025 2026",
+      "Kodiak AI, Inc. KDK moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Kodiak AI, Inc. KDK CEO management candor shareholder letter transparency",
+      "Kodiak AI, Inc. KDK executive compensation insider ownership stock options proxy",
+      "Kodiak AI, Inc. KDK key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Kodiak AI, Inc. KDK stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Kodiak AI, Inc. KDK investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Kodiak AI, Inc. KDK market position monopoly commodity pricing power ecosystem",
+      "Kodiak AI, Inc. KDK growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Kodiak AI, Inc. KDK investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Kodiak AI, Inc. KDK investment risk permanent capital loss downside analysis",
+      "Kodiak AI, Inc. KDK opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

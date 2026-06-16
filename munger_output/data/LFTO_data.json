@@ -1,0 +1,162 @@
+{
+  "ticker": "LFTO",
+  "company_name": "Liftoff Mobile, Inc.",
+  "sector": "Communication Services",
+  "industry": "Advertising Agencies",
+  "description": "Liftoff Mobile, Inc. provides mobile advertising, monetization, and performance marketing solutions in the United States and internationally. The company offers a platform called Cortex, which uses neural network technology to optimize ad campaigns and improve return on investment. Additionally, it offers products, such as DSP, provides mobile advertiser customers with cutting-edge predictive capabilities designed to drive profitable user acquisition; SSP, provides broad reach and direct access to users through an established and widely-distributed ad auction supply footprint that integrates d",
+  "employees": "652",
+  "exchange": "NMS",
+  "website": "https://www.liftoff.ai",
+  "current_price": 25.39,
+  "market_cap": 4299301888.0,
+  "shares_out": 169330527.0,
+  "pe_ratio": 181.35713,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 473564000.0,
+      "gross_profit": 395992000.0,
+      "operating_income": 27760000.0,
+      "net_income": -84738000.0,
+      "dna": 150656000.0,
+      "operating_cf": 74422000.0,
+      "capex": -38612000.0,
+      "free_cash_flow": 35810000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1904674000.0,
+      "total_liabilities": 1714256000.0,
+      "total_equity": 190418000.0,
+      "cash": 178806000.0,
+      "total_debt": 1352237000.0,
+      "current_assets": 396691000.0,
+      "current_liabilities": 282942000.0,
+      "shares_outstanding": 166480527.0,
+      "net_wc": 113749000.0,
+      "wc_change": -0.0,
+      "capex_abs": 38612000.0,
+      "maint_capex": 27028400.0,
+      "owner_earnings": 38889600.0,
+      "gross_margin_pct": 83.619531890093,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 519250000.0,
+      "gross_profit": 432394000.0,
+      "operating_income": 105702000.0,
+      "net_income": -48233000.0,
+      "dna": 107222000.0,
+      "operating_cf": 98786000.0,
+      "capex": -45109000.0,
+      "free_cash_flow": 53677000.0,
+      "dividends_paid": -339623000.0,
+      "buybacks": -943000.0,
+      "total_assets": 1778495000.0,
+      "total_liabilities": 1963692000.0,
+      "total_equity": -185197000.0,
+      "cash": 98299000.0,
+      "total_debt": 1557173000.0,
+      "current_assets": 355802000.0,
+      "current_liabilities": 307908000.0,
+      "shares_outstanding": 166480527.0,
+      "net_wc": 47894000.0,
+      "wc_change": 65855000.0,
+      "capex_abs": 45109000.0,
+      "maint_capex": 31576299.999999996,
+      "owner_earnings": 93267700.0,
+      "gross_margin_pct": 83.27279730380356,
+      "rev_growth_pct": 9.647270485087557
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 685744000.0,
+      "gross_profit": 583881000.0,
+      "operating_income": 167233000.0,
+      "net_income": -23145000.0,
+      "dna": 97762000.0,
+      "operating_cf": 163354000.0,
+      "capex": -50135000.0,
+      "free_cash_flow": 113219000.0,
+      "dividends_paid": -340432000.0,
+      "buybacks": -404287000.0,
+      "total_assets": 1901329000.0,
+      "total_liabilities": 2852817000.0,
+      "total_equity": -951488000.0,
+      "cash": 133306000.0,
+      "total_debt": 1819700000.0,
+      "current_assets": 517125000.0,
+      "current_liabilities": 481454000.0,
+      "shares_outstanding": 166480527.0,
+      "net_wc": 35671000.0,
+      "wc_change": 12223000.0,
+      "capex_abs": 50135000.0,
+      "maint_capex": 35094500.0,
+      "owner_earnings": 51745500.0,
+      "gross_margin_pct": 85.1456228563429,
+      "rev_growth_pct": 32.06432354357247
+    }
+  ],
+  "latest_oe": 51745500.0,
+  "latest_cash": 133306000.0,
+  "latest_debt": 1819700000.0,
+  "ev": 5985695888.0,
+  "oe_yield": 0.8644859506434048,
+  "roe": 2.4325057173605975,
+  "debt_equity": -1.9124781395035986,
+  "latest_gm": 85.1456228563429,
+  "current_ratio": 1.0740901519148247,
+  "latest_net_income": -23145000.0,
+  "latest_dna": 97762000.0,
+  "latest_wc_change": 12223000.0,
+  "latest_maint_capex": 35094500.0,
+  "latest_net_wc": 35671000.0,
+  "latest_current_assets": 517125000.0,
+  "latest_current_liabilities": 481454000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 85.1%)",
+    "OE growing avg 47.7% p.a.",
+    "Low leverage (-1.91x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Communication Services)",
+  "search_queries": {
+    "section_1": [
+      "Liftoff Mobile, Inc. LFTO revenue predictability recurring demand analysis 2025 2026",
+      "Liftoff Mobile, Inc. LFTO business model complexity investor circle of competence",
+      "Liftoff Mobile, Inc. LFTO 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Liftoff Mobile, Inc. LFTO competitive moat analysis switching costs brand advantage",
+      "Liftoff Mobile, Inc. LFTO network effects scale advantages cost leadership",
+      "Liftoff Mobile, Inc. LFTO patents regulatory barriers intellectual property moat",
+      "Liftoff Mobile, Inc. LFTO competitive threats risks disruption challenges 2025 2026",
+      "Liftoff Mobile, Inc. LFTO moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Liftoff Mobile, Inc. LFTO CEO management candor shareholder letter transparency",
+      "Liftoff Mobile, Inc. LFTO executive compensation insider ownership stock options proxy",
+      "Liftoff Mobile, Inc. LFTO key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Liftoff Mobile, Inc. LFTO stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Liftoff Mobile, Inc. LFTO investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Liftoff Mobile, Inc. LFTO market position monopoly commodity pricing power ecosystem",
+      "Liftoff Mobile, Inc. LFTO growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Liftoff Mobile, Inc. LFTO investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Liftoff Mobile, Inc. LFTO investment risk permanent capital loss downside analysis",
+      "Liftoff Mobile, Inc. LFTO opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

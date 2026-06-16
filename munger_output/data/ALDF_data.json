@@ -1,0 +1,133 @@
+{
+  "ticker": "ALDF",
+  "company_name": "Aldel Financial II Inc.",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Aldel Financial II Inc. does not have significant operations. The company focuses on effecting a merger, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. Aldel Financial II Inc. was incorporated in 2024 and is based in Itasca, Illinois.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://aldelfinancial.com",
+  "current_price": 10.65,
+  "market_cap": 318096480.0,
+  "shares_out": 23707500.0,
+  "pe_ratio": 50.714287,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -132836.0,
+      "net_income": 1883666.0,
+      "dna": 0.0,
+      "operating_cf": 1582688.0,
+      "capex": 0.0,
+      "free_cash_flow": 1582688.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 234493592.0,
+      "total_liabilities": 22027.0,
+      "total_equity": 234471565.0,
+      "cash": 1004085.0,
+      "total_debt": 0.0,
+      "current_assets": 1327090.0,
+      "current_liabilities": 22027.0,
+      "shares_outstanding": 29868214.0,
+      "net_wc": 1305063.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 1883666.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -653532.0,
+      "net_income": 9225582.0,
+      "dna": 0.0,
+      "operating_cf": 9416679.0,
+      "capex": 0.0,
+      "free_cash_flow": 9416679.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 243725291.0,
+      "total_liabilities": 28145.0,
+      "total_equity": 243697146.0,
+      "cash": 541650.0,
+      "total_debt": 0.0,
+      "current_assets": 679676.0,
+      "current_liabilities": 28145.0,
+      "shares_outstanding": 29868214.0,
+      "net_wc": 651531.0,
+      "wc_change": 653532.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 9879114.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 9879114.0,
+  "latest_cash": 541650.0,
+  "latest_debt": 0.0,
+  "ev": 317554830.0,
+  "oe_yield": 3.1109947217619083,
+  "roe": 3.785675027970988,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 24.149085095043525,
+  "latest_net_income": 9225582.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": 653532.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 651531.0,
+  "latest_current_assets": 679676.0,
+  "latest_current_liabilities": 28145.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 424.5% p.a.",
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Aldel Financial II Inc. ALDF revenue predictability recurring demand analysis 2025 2026",
+      "Aldel Financial II Inc. ALDF business model complexity investor circle of competence",
+      "Aldel Financial II Inc. ALDF 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Aldel Financial II Inc. ALDF competitive moat analysis switching costs brand advantage",
+      "Aldel Financial II Inc. ALDF network effects scale advantages cost leadership",
+      "Aldel Financial II Inc. ALDF patents regulatory barriers intellectual property moat",
+      "Aldel Financial II Inc. ALDF competitive threats risks disruption challenges 2025 2026",
+      "Aldel Financial II Inc. ALDF moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Aldel Financial II Inc. ALDF CEO management candor shareholder letter transparency",
+      "Aldel Financial II Inc. ALDF executive compensation insider ownership stock options proxy",
+      "Aldel Financial II Inc. ALDF key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Aldel Financial II Inc. ALDF stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Aldel Financial II Inc. ALDF investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Aldel Financial II Inc. ALDF market position monopoly commodity pricing power ecosystem",
+      "Aldel Financial II Inc. ALDF growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Aldel Financial II Inc. ALDF investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Aldel Financial II Inc. ALDF investment risk permanent capital loss downside analysis",
+      "Aldel Financial II Inc. ALDF opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

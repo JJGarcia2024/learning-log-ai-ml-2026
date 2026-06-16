@@ -1,0 +1,132 @@
+{
+  "ticker": "SDHI",
+  "company_name": "Siddhi Acquisition Corp.",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Siddhi Acquisition Corp. focuses on effecting a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization or similar business combination with one or more businesses. The company was incorporated in 2024 and is based in New York, New York.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "N/A",
+  "current_price": 10.39,
+  "market_cap": 361966816.0,
+  "shares_out": 27938000.0,
+  "pe_ratio": 207.8,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 343383.0,
+      "total_liabilities": 383300.0,
+      "total_equity": -39917.0,
+      "cash": 578.0,
+      "total_debt": 160000.0,
+      "current_assets": 578.0,
+      "current_liabilities": 383300.0,
+      "shares_outstanding": 30320000.0,
+      "net_wc": -382722.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -8824829.0,
+      "net_income": -223387.0,
+      "dna": 0.0,
+      "operating_cf": -603305.0,
+      "capex": 0.0,
+      "free_cash_flow": -603305.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 286743485.0,
+      "total_liabilities": 16683674.0,
+      "total_equity": 270059811.0,
+      "cash": 664894.0,
+      "total_debt": 0.0,
+      "current_assets": 743293.0,
+      "current_liabilities": 123674.0,
+      "shares_outstanding": 34838000.0,
+      "net_wc": 619619.0,
+      "wc_change": -1002341.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -1225728.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -1225728.0,
+  "latest_cash": 664894.0,
+  "latest_debt": 0.0,
+  "ev": 361301922.0,
+  "oe_yield": -0.3392531080972218,
+  "roe": -0.08271760213888323,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 6.010099131587884,
+  "latest_net_income": -223387.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -1002341.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 619619.0,
+  "latest_current_assets": 743293.0,
+  "latest_current_liabilities": 123674.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Siddhi Acquisition Corp. SDHI revenue predictability recurring demand analysis 2025 2026",
+      "Siddhi Acquisition Corp. SDHI business model complexity investor circle of competence",
+      "Siddhi Acquisition Corp. SDHI 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Siddhi Acquisition Corp. SDHI competitive moat analysis switching costs brand advantage",
+      "Siddhi Acquisition Corp. SDHI network effects scale advantages cost leadership",
+      "Siddhi Acquisition Corp. SDHI patents regulatory barriers intellectual property moat",
+      "Siddhi Acquisition Corp. SDHI competitive threats risks disruption challenges 2025 2026",
+      "Siddhi Acquisition Corp. SDHI moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Siddhi Acquisition Corp. SDHI CEO management candor shareholder letter transparency",
+      "Siddhi Acquisition Corp. SDHI executive compensation insider ownership stock options proxy",
+      "Siddhi Acquisition Corp. SDHI key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Siddhi Acquisition Corp. SDHI stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Siddhi Acquisition Corp. SDHI investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Siddhi Acquisition Corp. SDHI market position monopoly commodity pricing power ecosystem",
+      "Siddhi Acquisition Corp. SDHI growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Siddhi Acquisition Corp. SDHI investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Siddhi Acquisition Corp. SDHI investment risk permanent capital loss downside analysis",
+      "Siddhi Acquisition Corp. SDHI opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

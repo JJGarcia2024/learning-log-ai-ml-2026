@@ -1,0 +1,132 @@
+{
+  "ticker": "CUB",
+  "company_name": "Lionheart Holdings",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Lionheart Holdings does not have significant operations. It intends to effect a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization or similar business combinations with one or more businesses. Lionheart Holdings was incorporated in 2024 and is based in Fort Lauderdale, Florida.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://www.lheartholdings.com",
+  "current_price": 10.9,
+  "market_cap": 334266656.0,
+  "shares_out": 23000000.0,
+  "pe_ratio": 38.92857,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 237406781.0,
+      "total_liabilities": 10005000.0,
+      "total_equity": 227401781.0,
+      "cash": 891017.0,
+      "total_debt": 0.0,
+      "current_assets": 979801.0,
+      "current_liabilities": 80000.0,
+      "shares_outstanding": 30666667.0,
+      "net_wc": 899801.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -874604.0,
+      "net_income": 8952273.0,
+      "dna": 0.0,
+      "operating_cf": -585477.0,
+      "capex": 0.0,
+      "free_cash_flow": -585477.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 246463147.0,
+      "total_liabilities": 10109093.0,
+      "total_equity": 236354054.0,
+      "cash": 230540.0,
+      "total_debt": 0.0,
+      "current_assets": 301165.0,
+      "current_liabilities": 59093.0,
+      "shares_outstanding": 30666667.0,
+      "net_wc": 242072.0,
+      "wc_change": 657729.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 9610002.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 9610002.0,
+  "latest_cash": 230540.0,
+  "latest_debt": 0.0,
+  "ev": 334036116.0,
+  "oe_yield": 2.8769350198048644,
+  "roe": 3.7876536697779675,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 5.096458125327873,
+  "latest_net_income": 8952273.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": 657729.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 242072.0,
+  "latest_current_assets": 301165.0,
+  "latest_current_liabilities": 59093.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Lionheart Holdings CUB revenue predictability recurring demand analysis 2025 2026",
+      "Lionheart Holdings CUB business model complexity investor circle of competence",
+      "Lionheart Holdings CUB 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Lionheart Holdings CUB competitive moat analysis switching costs brand advantage",
+      "Lionheart Holdings CUB network effects scale advantages cost leadership",
+      "Lionheart Holdings CUB patents regulatory barriers intellectual property moat",
+      "Lionheart Holdings CUB competitive threats risks disruption challenges 2025 2026",
+      "Lionheart Holdings CUB moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Lionheart Holdings CUB CEO management candor shareholder letter transparency",
+      "Lionheart Holdings CUB executive compensation insider ownership stock options proxy",
+      "Lionheart Holdings CUB key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Lionheart Holdings CUB stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Lionheart Holdings CUB investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Lionheart Holdings CUB market position monopoly commodity pricing power ecosystem",
+      "Lionheart Holdings CUB growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Lionheart Holdings CUB investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Lionheart Holdings CUB investment risk permanent capital loss downside analysis",
+      "Lionheart Holdings CUB opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

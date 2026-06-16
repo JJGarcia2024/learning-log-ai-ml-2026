@@ -1,0 +1,134 @@
+{
+  "ticker": "ENRD",
+  "company_name": "Einride AB",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "description": "Einride AB provides digital freight and logistics solutions focused on electric and autonomous road freight, including the design, deployment, and operation of charging infrastructure and fleet management platforms in North America, Europe, and Middle East. The company offers smart charging solutions for electric fleets, comprehensive assessments for optimal charging infrastructure, and tailored charging setups for fleet owners and operators. It delivers autonomous freight as a service, operating electric and autonomous vehicles across routes between factories, warehouses, and public roads. Th",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://www.einride.tech",
+  "current_price": 10.12,
+  "market_cap": 1417195264.0,
+  "shares_out": 140039054.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 388377000.0,
+      "gross_profit": -142877000.0,
+      "operating_income": -867742000.0,
+      "net_income": -967611000.0,
+      "dna": 227018000.0,
+      "operating_cf": -389612000.0,
+      "capex": -165312000.0,
+      "free_cash_flow": -554924000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1749680000.0,
+      "total_liabilities": 1737487000.0,
+      "total_equity": 12193000.0,
+      "cash": 74165000.0,
+      "total_debt": 1021302000.0,
+      "current_assets": 247986000.0,
+      "current_liabilities": 784593000.0,
+      "shares_outstanding": 144165472.0,
+      "net_wc": -536607000.0,
+      "wc_change": -0.0,
+      "capex_abs": 165312000.0,
+      "maint_capex": 115718400.0,
+      "owner_earnings": -856311400.0,
+      "gross_margin_pct": -36.7882238134596,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 457840000.0,
+      "gross_profit": -214639000.0,
+      "operating_income": -931104000.0,
+      "net_income": -1721676000.0,
+      "dna": 227808000.0,
+      "operating_cf": -741711000.0,
+      "capex": -164581000.0,
+      "free_cash_flow": -906292000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1825371000.0,
+      "total_liabilities": 1883372000.0,
+      "total_equity": -58001000.0,
+      "cash": 278825000.0,
+      "total_debt": 866509000.0,
+      "current_assets": 432964000.0,
+      "current_liabilities": 1151415000.0,
+      "shares_outstanding": 144165472.0,
+      "net_wc": -718451000.0,
+      "wc_change": 181844000.0,
+      "capex_abs": 164581000.0,
+      "maint_capex": 115206700.0,
+      "owner_earnings": -1427230700.0,
+      "gross_margin_pct": -46.88078804822646,
+      "rev_growth_pct": 17.885456656805122
+    }
+  ],
+  "latest_oe": -1427230700.0,
+  "latest_cash": 278825000.0,
+  "latest_debt": 866509000.0,
+  "ev": 2004879264.0,
+  "oe_yield": -71.18786281187255,
+  "roe": 2968.355718004862,
+  "debt_equity": -14.939552766331614,
+  "latest_gm": -46.88078804822646,
+  "current_ratio": 0.3760277571509838,
+  "latest_net_income": -1721676000.0,
+  "latest_dna": 227808000.0,
+  "latest_wc_change": 181844000.0,
+  "latest_maint_capex": 115206700.0,
+  "latest_net_wc": -718451000.0,
+  "latest_current_assets": 432964000.0,
+  "latest_current_liabilities": 1151415000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 66.7% p.a.",
+    "High ROE 2968.4%",
+    "Low leverage (-14.94x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "Einride AB ENRD revenue predictability recurring demand analysis 2025 2026",
+      "Einride AB ENRD business model complexity investor circle of competence",
+      "Einride AB ENRD 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Einride AB ENRD competitive moat analysis switching costs brand advantage",
+      "Einride AB ENRD network effects scale advantages cost leadership",
+      "Einride AB ENRD patents regulatory barriers intellectual property moat",
+      "Einride AB ENRD competitive threats risks disruption challenges 2025 2026",
+      "Einride AB ENRD moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Einride AB ENRD CEO management candor shareholder letter transparency",
+      "Einride AB ENRD executive compensation insider ownership stock options proxy",
+      "Einride AB ENRD key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Einride AB ENRD stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Einride AB ENRD investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Einride AB ENRD market position monopoly commodity pricing power ecosystem",
+      "Einride AB ENRD growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Einride AB ENRD investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Einride AB ENRD investment risk permanent capital loss downside analysis",
+      "Einride AB ENRD opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

@@ -1,0 +1,161 @@
+{
+  "ticker": "SNDK",
+  "company_name": "Sandisk Corporation",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "description": "Sandisk Corporation develops, manufactures, and sells data storage devices and solutions using NAND flash technology in the United States, Europe, the Middle East, Africa, Asia, and internationally. The company offers solid state drives for desktop and notebook PCs, gaming consoles, and set top boxes; and flash-based embedded storage products for mobile phones, tablets, notebook PCs and other portable and wearable devices, automotive applications, Internet of Things, industrial, and connected home applications, as well as removable cards, universal serial bus drives, and wafers and components.",
+  "employees": "11000",
+  "exchange": "NMS",
+  "website": "https://www.sandisk.com",
+  "current_price": 2107.86,
+  "market_cap": 312152489984.0,
+  "shares_out": 148089758.0,
+  "pe_ratio": 67.559616,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 6086000000.0,
+      "gross_profit": 430000000.0,
+      "operating_income": -1295000000.0,
+      "net_income": -2143000000.0,
+      "dna": 448000000.0,
+      "operating_cf": -713000000.0,
+      "capex": -219000000.0,
+      "free_cash_flow": -932000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_equity": null,
+      "cash": null,
+      "total_debt": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "shares_outstanding": null,
+      "net_wc": null,
+      "wc_change": -0.0,
+      "capex_abs": 219000000.0,
+      "maint_capex": 153300000.0,
+      "owner_earnings": -1848300000.0,
+      "gross_margin_pct": 7.065395990798554,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 6663000000.0,
+      "gross_profit": 1072000000.0,
+      "operating_income": -444000000.0,
+      "net_income": -672000000.0,
+      "dna": 224000000.0,
+      "operating_cf": -309000000.0,
+      "capex": -166000000.0,
+      "free_cash_flow": -475000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 13506000000.0,
+      "total_liabilities": 2424000000.0,
+      "total_equity": 11082000000.0,
+      "cash": 328000000.0,
+      "total_debt": 985000000.0,
+      "current_assets": 3548000000.0,
+      "current_liabilities": 2123000000.0,
+      "shares_outstanding": 0.0,
+      "net_wc": 1425000000.0,
+      "wc_change": -0.0,
+      "capex_abs": 166000000.0,
+      "maint_capex": 116200000.0,
+      "owner_earnings": -564200000.0,
+      "gross_margin_pct": 16.08884886687678,
+      "rev_growth_pct": 9.480775550443642
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 7355000000.0,
+      "gross_profit": 2212000000.0,
+      "operating_income": 507000000.0,
+      "net_income": -1641000000.0,
+      "dna": 163000000.0,
+      "operating_cf": 84000000.0,
+      "capex": -204000000.0,
+      "free_cash_flow": -120000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 12985000000.0,
+      "total_liabilities": 3769000000.0,
+      "total_equity": 9216000000.0,
+      "cash": 1481000000.0,
+      "total_debt": 2042000000.0,
+      "current_assets": 5086000000.0,
+      "current_liabilities": 1427000000.0,
+      "shares_outstanding": 146000000.0,
+      "net_wc": 3659000000.0,
+      "wc_change": -2234000000.0,
+      "capex_abs": 204000000.0,
+      "maint_capex": 142800000.0,
+      "owner_earnings": -3854800000.0,
+      "gross_margin_pct": 30.074779061862678,
+      "rev_growth_pct": 10.385712141677917
+    }
+  ],
+  "latest_oe": -3854800000.0,
+  "latest_cash": 1481000000.0,
+  "latest_debt": 2042000000.0,
+  "ev": 312713489984.0,
+  "oe_yield": -1.2326938630620736,
+  "roe": -17.805989583333336,
+  "debt_equity": 0.22157118055555555,
+  "latest_gm": 30.074779061862678,
+  "current_ratio": 3.5641205325858443,
+  "latest_net_income": -1641000000.0,
+  "latest_dna": 163000000.0,
+  "latest_wc_change": -2234000000.0,
+  "latest_maint_capex": 142800000.0,
+  "latest_net_wc": 3659000000.0,
+  "latest_current_assets": 5086000000.0,
+  "latest_current_liabilities": 1427000000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 256.9% p.a.",
+    "Low leverage (0.22x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "Sandisk Corporation SNDK revenue predictability recurring demand analysis 2025 2026",
+      "Sandisk Corporation SNDK business model complexity investor circle of competence",
+      "Sandisk Corporation SNDK 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Sandisk Corporation SNDK competitive moat analysis switching costs brand advantage",
+      "Sandisk Corporation SNDK network effects scale advantages cost leadership",
+      "Sandisk Corporation SNDK patents regulatory barriers intellectual property moat",
+      "Sandisk Corporation SNDK competitive threats risks disruption challenges 2025 2026",
+      "Sandisk Corporation SNDK moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Sandisk Corporation SNDK CEO management candor shareholder letter transparency",
+      "Sandisk Corporation SNDK executive compensation insider ownership stock options proxy",
+      "Sandisk Corporation SNDK key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Sandisk Corporation SNDK stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Sandisk Corporation SNDK investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Sandisk Corporation SNDK market position monopoly commodity pricing power ecosystem",
+      "Sandisk Corporation SNDK growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Sandisk Corporation SNDK investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Sandisk Corporation SNDK investment risk permanent capital loss downside analysis",
+      "Sandisk Corporation SNDK opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

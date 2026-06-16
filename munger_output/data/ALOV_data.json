@@ -1,0 +1,105 @@
+{
+  "ticker": "ALOV",
+  "company_name": "Aldabra 4 Liquidity Opportunity Vehicle, Inc.",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Aldabra 4 Liquidity Opportunity Vehicle, Inc. does not have significant operations. It focuses on effecting a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses or entities. Aldabra 4 Liquidity Opportunity Vehicle, Inc. was incorporated in 2025 and is based in Miami, Florida.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://aldabra4.com",
+  "current_price": 9.93,
+  "market_cap": 372561216.0,
+  "shares_out": 30015000.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -78082.0,
+      "net_income": -78082.0,
+      "dna": 0.0,
+      "operating_cf": -33711.0,
+      "capex": 0.0,
+      "free_cash_flow": -33711.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 285064.0,
+      "total_liabilities": 338146.0,
+      "total_equity": -53082.0,
+      "cash": 23583.0,
+      "total_debt": 200000.0,
+      "current_assets": 23583.0,
+      "current_liabilities": 338146.0,
+      "shares_outstanding": 32625000.0,
+      "net_wc": -314563.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -78082.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -78082.0,
+  "latest_cash": 23583.0,
+  "latest_debt": 200000.0,
+  "ev": 372737633.0,
+  "oe_yield": -0.020948246993884836,
+  "roe": 147.09694435025057,
+  "debt_equity": -3.7677555480200446,
+  "latest_gm": null,
+  "current_ratio": 0.06974206407882985,
+  "latest_net_income": -78082.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -0.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": -314563.0,
+  "latest_current_assets": 23583.0,
+  "latest_current_liabilities": 338146.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "High ROE 147.1%",
+    "Low leverage (-3.77x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Aldabra 4 Liquidity Opportunity Vehicle, Inc. ALOV revenue predictability recurring demand analysis 2025 2026",
+      "Aldabra 4 Liquidity Opportunity Vehicle, Inc. ALOV business model complexity investor circle of competence",
+      "Aldabra 4 Liquidity Opportunity Vehicle, Inc. ALOV 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Aldabra 4 Liquidity Opportunity Vehicle, Inc. ALOV competitive moat analysis switching costs brand advantage",
+      "Aldabra 4 Liquidity Opportunity Vehicle, Inc. ALOV network effects scale advantages cost leadership",
+      "Aldabra 4 Liquidity Opportunity Vehicle, Inc. ALOV patents regulatory barriers intellectual property moat",
+      "Aldabra 4 Liquidity Opportunity Vehicle, Inc. ALOV competitive threats risks disruption challenges 2025 2026",
+      "Aldabra 4 Liquidity Opportunity Vehicle, Inc. ALOV moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Aldabra 4 Liquidity Opportunity Vehicle, Inc. ALOV CEO management candor shareholder letter transparency",
+      "Aldabra 4 Liquidity Opportunity Vehicle, Inc. ALOV executive compensation insider ownership stock options proxy",
+      "Aldabra 4 Liquidity Opportunity Vehicle, Inc. ALOV key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Aldabra 4 Liquidity Opportunity Vehicle, Inc. ALOV stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Aldabra 4 Liquidity Opportunity Vehicle, Inc. ALOV investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Aldabra 4 Liquidity Opportunity Vehicle, Inc. ALOV market position monopoly commodity pricing power ecosystem",
+      "Aldabra 4 Liquidity Opportunity Vehicle, Inc. ALOV growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Aldabra 4 Liquidity Opportunity Vehicle, Inc. ALOV investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Aldabra 4 Liquidity Opportunity Vehicle, Inc. ALOV investment risk permanent capital loss downside analysis",
+      "Aldabra 4 Liquidity Opportunity Vehicle, Inc. ALOV opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

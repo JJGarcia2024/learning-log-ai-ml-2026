@@ -1,0 +1,162 @@
+{
+  "ticker": "NVRI",
+  "company_name": "Enviri Corporation",
+  "sector": "Industrials",
+  "industry": "Waste Management",
+  "description": "Enviri Corporation provides environmental solutions for industrial and specialty waste streams in the United States and internationally. It operates through three segments: Harsco Environmental, Clean Earth, and Harsco Rail. The Harsco Environmental segment offers on-site environmental services for the management of waste and byproduct streams from its customers, which includes resource recovery and recycling of waste materials, materials handling and logistical support, and aluminum dross and scrap management. This segment also manufactures value-added downstream products from industrial wast",
+  "employees": "12000",
+  "exchange": "NYQ",
+  "website": "https://www.enviri.com",
+  "current_price": 20.71,
+  "market_cap": 582028608.0,
+  "shares_out": 28103750.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 1438730000.0,
+      "gross_profit": 220313000.0,
+      "operating_income": 42467000.0,
+      "net_income": -137220000.0,
+      "dna": 128005000.0,
+      "operating_cf": -14401000.0,
+      "capex": -106925000.0,
+      "free_cash_flow": -121326000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_equity": null,
+      "cash": null,
+      "total_debt": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "shares_outstanding": null,
+      "net_wc": null,
+      "wc_change": -0.0,
+      "capex_abs": 106925000.0,
+      "maint_capex": 74847500.0,
+      "owner_earnings": -84062500.0,
+      "gross_margin_pct": 15.313019121030353,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 1402800000.0,
+      "gross_profit": 187826000.0,
+      "operating_income": -1645000.0,
+      "net_income": -194896000.0,
+      "dna": 122707000.0,
+      "operating_cf": -44589000.0,
+      "capex": -104589000.0,
+      "free_cash_flow": -149178000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1638476000.0,
+      "total_liabilities": 2076555000.0,
+      "total_equity": -476230000.0,
+      "cash": 88093000.0,
+      "total_debt": 1603372000.0,
+      "current_assets": 686959000.0,
+      "current_liabilities": 398557000.0,
+      "shares_outstanding": 28114013.0,
+      "net_wc": 288402000.0,
+      "wc_change": -0.0,
+      "capex_abs": 104589000.0,
+      "maint_capex": 73212300.0,
+      "owner_earnings": -145401300.0,
+      "gross_margin_pct": 13.389364128885086,
+      "rev_growth_pct": -2.4973414052671505
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 1266506000.0,
+      "gross_profit": 164910000.0,
+      "operating_income": -47557000.0,
+      "net_income": -228111000.0,
+      "dna": 120535000.0,
+      "operating_cf": -22777000.0,
+      "capex": -91820000.0,
+      "free_cash_flow": -114597000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1670647000.0,
+      "total_liabilities": 2239008000.0,
+      "total_equity": -608886000.0,
+      "cash": 103487000.0,
+      "total_debt": 1723075000.0,
+      "current_assets": 695749000.0,
+      "current_liabilities": 456451000.0,
+      "shares_outstanding": 28114013.0,
+      "net_wc": 239298000.0,
+      "wc_change": 49104000.0,
+      "capex_abs": 91820000.0,
+      "maint_capex": 64273999.99999999,
+      "owner_earnings": -122746000.0,
+      "gross_margin_pct": 13.020862119879418,
+      "rev_growth_pct": -9.715854006273172
+    }
+  ],
+  "latest_oe": -122746000.0,
+  "latest_cash": 103487000.0,
+  "latest_debt": 1723075000.0,
+  "ev": 2201616608.0,
+  "oe_yield": -5.575266808670441,
+  "roe": 37.46366314876676,
+  "debt_equity": -2.829881127173231,
+  "latest_gm": 13.020862119879418,
+  "current_ratio": 1.5242578064239096,
+  "latest_net_income": -228111000.0,
+  "latest_dna": 120535000.0,
+  "latest_wc_change": 49104000.0,
+  "latest_maint_capex": 64273999.99999999,
+  "latest_net_wc": 239298000.0,
+  "latest_current_assets": 695749000.0,
+  "latest_current_liabilities": 456451000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 28.7% p.a.",
+    "High ROE 37.5%",
+    "Low leverage (-2.83x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Industrials)",
+  "search_queries": {
+    "section_1": [
+      "Enviri Corporation NVRI revenue predictability recurring demand analysis 2025 2026",
+      "Enviri Corporation NVRI business model complexity investor circle of competence",
+      "Enviri Corporation NVRI 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Enviri Corporation NVRI competitive moat analysis switching costs brand advantage",
+      "Enviri Corporation NVRI network effects scale advantages cost leadership",
+      "Enviri Corporation NVRI patents regulatory barriers intellectual property moat",
+      "Enviri Corporation NVRI competitive threats risks disruption challenges 2025 2026",
+      "Enviri Corporation NVRI moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Enviri Corporation NVRI CEO management candor shareholder letter transparency",
+      "Enviri Corporation NVRI executive compensation insider ownership stock options proxy",
+      "Enviri Corporation NVRI key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Enviri Corporation NVRI stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Enviri Corporation NVRI investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Enviri Corporation NVRI market position monopoly commodity pricing power ecosystem",
+      "Enviri Corporation NVRI growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Enviri Corporation NVRI investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Enviri Corporation NVRI investment risk permanent capital loss downside analysis",
+      "Enviri Corporation NVRI opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

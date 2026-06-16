@@ -1,0 +1,162 @@
+{
+  "ticker": "NUAI",
+  "company_name": "New Era Energy & Digital, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "description": "New Era Energy & Digital, Inc. operates as a developer and operator of next-generation digital infrastructure and integrated power assets for advanced artificial intelligence hyperscalers. Its flagship Texas Critical Data Centers project, covering an area of 438 square kilometers, is in Ector County, Texas. The company was formerly known as New Era Helium, Inc. and changed its name to New Era Energy & Digital, Inc. in August 2025. New Era Energy & Digital, Inc. is based in Midland, Texas.",
+  "employees": "5",
+  "exchange": "NGM",
+  "website": "https://www.newerainfra.ai",
+  "current_price": 5.63,
+  "market_cap": 570267968.0,
+  "shares_out": 101290928.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 612192.0,
+      "gross_profit": 0.0,
+      "operating_income": -6125999.0,
+      "net_income": 10145.0,
+      "dna": 885832.0,
+      "operating_cf": -2682921.0,
+      "capex": -3976532.0,
+      "free_cash_flow": -6659453.0,
+      "dividends_paid": 0.0,
+      "buybacks": -59294.0,
+      "total_assets": 7382534.0,
+      "total_liabilities": 6853903.0,
+      "total_equity": 528631.0,
+      "cash": 120010.0,
+      "total_debt": 2535671.0,
+      "current_assets": 2221615.0,
+      "current_liabilities": 3145922.0,
+      "shares_outstanding": 13165152.0,
+      "net_wc": -924307.0,
+      "wc_change": -0.0,
+      "capex_abs": 3976532.0,
+      "maint_capex": 2783572.4,
+      "owner_earnings": -1887595.4,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 532780.0,
+      "gross_profit": 0.0,
+      "operating_income": -12732730.0,
+      "net_income": -13782384.0,
+      "dna": 903062.0,
+      "operating_cf": -5349948.0,
+      "capex": -533054.0,
+      "free_cash_flow": -5883002.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 9182847.0,
+      "total_liabilities": 11231685.0,
+      "total_equity": -2048838.0,
+      "cash": 1053744.0,
+      "total_debt": 4451535.0,
+      "current_assets": 4206013.0,
+      "current_liabilities": 6506617.0,
+      "shares_outstanding": 12990794.0,
+      "net_wc": -2300604.0,
+      "wc_change": 1376297.0,
+      "capex_abs": 533054.0,
+      "maint_capex": 373137.8,
+      "owner_earnings": -11876162.8,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": -12.971747425644242
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 885400.0,
+      "gross_profit": 0.0,
+      "operating_income": -12440625.0,
+      "net_income": -29585804.0,
+      "dna": 910579.0,
+      "operating_cf": -11699112.0,
+      "capex": -1666047.0,
+      "free_cash_flow": -13365159.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 14136873.0,
+      "total_liabilities": 16746170.0,
+      "total_equity": -2609297.0,
+      "cash": 1202728.0,
+      "total_debt": 0.0,
+      "current_assets": 6972136.0,
+      "current_liabilities": 4427038.0,
+      "shares_outstanding": 53449171.0,
+      "net_wc": 2545098.0,
+      "wc_change": -4845702.0,
+      "capex_abs": 1666047.0,
+      "maint_capex": 1166232.9,
+      "owner_earnings": -34687159.9,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": 66.18491685123315
+    }
+  ],
+  "latest_oe": -34687159.9,
+  "latest_cash": 1202728.0,
+  "latest_debt": 0.0,
+  "ev": 569065240.0,
+  "oe_yield": -6.0954627803307755,
+  "roe": 1133.8611127824852,
+  "debt_equity": -0.0,
+  "latest_gm": 0.0,
+  "current_ratio": 1.5748986116676658,
+  "latest_net_income": -29585804.0,
+  "latest_dna": 910579.0,
+  "latest_wc_change": -4845702.0,
+  "latest_maint_capex": 1166232.9,
+  "latest_net_wc": 2545098.0,
+  "latest_current_assets": 6972136.0,
+  "latest_current_liabilities": 4427038.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 360.6% p.a.",
+    "High ROE 1133.9%",
+    "Low leverage (-0.00x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "New Era Energy & Digital, Inc. NUAI revenue predictability recurring demand analysis 2025 2026",
+      "New Era Energy & Digital, Inc. NUAI business model complexity investor circle of competence",
+      "New Era Energy & Digital, Inc. NUAI 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "New Era Energy & Digital, Inc. NUAI competitive moat analysis switching costs brand advantage",
+      "New Era Energy & Digital, Inc. NUAI network effects scale advantages cost leadership",
+      "New Era Energy & Digital, Inc. NUAI patents regulatory barriers intellectual property moat",
+      "New Era Energy & Digital, Inc. NUAI competitive threats risks disruption challenges 2025 2026",
+      "New Era Energy & Digital, Inc. NUAI moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "New Era Energy & Digital, Inc. NUAI CEO management candor shareholder letter transparency",
+      "New Era Energy & Digital, Inc. NUAI executive compensation insider ownership stock options proxy",
+      "New Era Energy & Digital, Inc. NUAI key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "New Era Energy & Digital, Inc. NUAI stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "New Era Energy & Digital, Inc. NUAI investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "New Era Energy & Digital, Inc. NUAI market position monopoly commodity pricing power ecosystem",
+      "New Era Energy & Digital, Inc. NUAI growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "New Era Energy & Digital, Inc. NUAI investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "New Era Energy & Digital, Inc. NUAI investment risk permanent capital loss downside analysis",
+      "New Era Energy & Digital, Inc. NUAI opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

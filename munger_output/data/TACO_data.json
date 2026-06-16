@@ -1,0 +1,132 @@
+{
+  "ticker": "TACO",
+  "company_name": "Berto Acquisition Corp.",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Berto Acquisition Corp. does not have significant operations. It intends to effect a merger, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. The company was incorporated in 2024 and is based in Las Vegas, Nevada.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://www.bertoacq.com",
+  "current_price": 10.38,
+  "market_cap": 389444640.0,
+  "shares_out": 37518750.0,
+  "pe_ratio": 29.657145,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 434044.0,
+      "total_liabilities": 997334.0,
+      "total_equity": -563290.0,
+      "cash": 34044.0,
+      "total_debt": 34043.0,
+      "current_assets": 34044.0,
+      "current_liabilities": 997334.0,
+      "shares_outstanding": 32625000.0,
+      "net_wc": -963290.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -647449.0,
+      "net_income": 7876314.0,
+      "dna": 0.0,
+      "operating_cf": -1264871.0,
+      "capex": 0.0,
+      "free_cash_flow": -1264871.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 309391928.0,
+      "total_liabilities": 12439195.0,
+      "total_equity": 296952733.0,
+      "cash": 578683.0,
+      "total_debt": 322045.0,
+      "current_assets": 732016.0,
+      "current_liabilities": 733345.0,
+      "shares_outstanding": 37518750.0,
+      "net_wc": -1329.0,
+      "wc_change": -961961.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 6914353.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 6914353.0,
+  "latest_cash": 578683.0,
+  "latest_debt": 322045.0,
+  "ev": 389188002.0,
+  "oe_yield": 1.7766100096785613,
+  "roe": 2.6523796970745512,
+  "debt_equity": 0.00108449919536521,
+  "latest_gm": null,
+  "current_ratio": 0.9981877561038802,
+  "latest_net_income": 7876314.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -961961.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": -1329.0,
+  "latest_current_assets": 732016.0,
+  "latest_current_liabilities": 733345.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Berto Acquisition Corp. TACO revenue predictability recurring demand analysis 2025 2026",
+      "Berto Acquisition Corp. TACO business model complexity investor circle of competence",
+      "Berto Acquisition Corp. TACO 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Berto Acquisition Corp. TACO competitive moat analysis switching costs brand advantage",
+      "Berto Acquisition Corp. TACO network effects scale advantages cost leadership",
+      "Berto Acquisition Corp. TACO patents regulatory barriers intellectual property moat",
+      "Berto Acquisition Corp. TACO competitive threats risks disruption challenges 2025 2026",
+      "Berto Acquisition Corp. TACO moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Berto Acquisition Corp. TACO CEO management candor shareholder letter transparency",
+      "Berto Acquisition Corp. TACO executive compensation insider ownership stock options proxy",
+      "Berto Acquisition Corp. TACO key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Berto Acquisition Corp. TACO stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Berto Acquisition Corp. TACO investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Berto Acquisition Corp. TACO market position monopoly commodity pricing power ecosystem",
+      "Berto Acquisition Corp. TACO growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Berto Acquisition Corp. TACO investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Berto Acquisition Corp. TACO investment risk permanent capital loss downside analysis",
+      "Berto Acquisition Corp. TACO opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

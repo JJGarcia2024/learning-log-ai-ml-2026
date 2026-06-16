@@ -1,0 +1,162 @@
+{
+  "ticker": "OCTV",
+  "company_name": "Octave Intelligence plc",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "description": "Octave Intelligence plc provides various software solutions. Its solutions helps organizations to better understand and manage the environments in which they design, build, operate, and protect their assets, people, and critical infrastructure. Its platform connects data, events, and workflows across various environments and applies context-aware intelligence to help customers understand what is happening, what may happen next, and how actions in one area affect conditions in another. The company serves power generation and utilities, data centers and IT infrastructure operators, heavy constru",
+  "employees": "7200",
+  "exchange": "NMS",
+  "website": "https://www.octave.com",
+  "current_price": 18.0,
+  "market_cap": 4831880192.0,
+  "shares_out": 257412788.0,
+  "pe_ratio": 15.652174,
+  "financial_data": [
+    {
+      "fiscal_year": "2022",
+      "revenue": 1368311000.0,
+      "gross_profit": 946850000.0,
+      "operating_income": 297442000.0,
+      "net_income": 256038000.0,
+      "dna": 105641000.0,
+      "operating_cf": 404574000.0,
+      "capex": -108633000.0,
+      "free_cash_flow": 295941000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_equity": null,
+      "cash": null,
+      "total_debt": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "shares_outstanding": null,
+      "net_wc": null,
+      "wc_change": -0.0,
+      "capex_abs": 108633000.0,
+      "maint_capex": 76043100.0,
+      "owner_earnings": 285635900.0,
+      "gross_margin_pct": 69.19844976763324,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2023",
+      "revenue": 1540674000.0,
+      "gross_profit": 1090784000.0,
+      "operating_income": 318872000.0,
+      "net_income": 243905000.0,
+      "dna": 124978000.0,
+      "operating_cf": 430020000.0,
+      "capex": -131423000.0,
+      "free_cash_flow": 298597000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 8475655000.0,
+      "total_liabilities": 899285000.0,
+      "total_equity": 7576370000.0,
+      "cash": 97304000.0,
+      "total_debt": 66308000.0,
+      "current_assets": 602121000.0,
+      "current_liabilities": 570414000.0,
+      "shares_outstanding": 268437788.0,
+      "net_wc": 31707000.0,
+      "wc_change": -0.0,
+      "capex_abs": 131423000.0,
+      "maint_capex": 91996100.0,
+      "owner_earnings": 276886900.0,
+      "gross_margin_pct": 70.79914375137115,
+      "rev_growth_pct": 12.59677076337178
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 1604171000.0,
+      "gross_profit": 1170991000.0,
+      "operating_income": 390480000.0,
+      "net_income": 309090000.0,
+      "dna": 137437000.0,
+      "operating_cf": 496866000.0,
+      "capex": -141381000.0,
+      "free_cash_flow": 355485000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 8428967000.0,
+      "total_liabilities": 891341000.0,
+      "total_equity": 7537626000.0,
+      "cash": 93606000.0,
+      "total_debt": 60543000.0,
+      "current_assets": 559522000.0,
+      "current_liabilities": 554457000.0,
+      "shares_outstanding": 268437788.0,
+      "net_wc": 5065000.0,
+      "wc_change": 26642000.0,
+      "capex_abs": 141381000.0,
+      "maint_capex": 98966700.0,
+      "owner_earnings": 374202300.0,
+      "gross_margin_pct": 72.99664437270091,
+      "rev_growth_pct": 4.121378046231716
+    }
+  ],
+  "latest_oe": 374202300.0,
+  "latest_cash": 93606000.0,
+  "latest_debt": 60543000.0,
+  "ev": 4798817192.0,
+  "oe_yield": 7.79780277156263,
+  "roe": 4.1006279696021,
+  "debt_equity": 0.008032104537953992,
+  "latest_gm": 72.99664437270091,
+  "current_ratio": 1.0091350636749108,
+  "latest_net_income": 309090000.0,
+  "latest_dna": 137437000.0,
+  "latest_wc_change": 26642000.0,
+  "latest_maint_capex": 98966700.0,
+  "latest_net_wc": 5065000.0,
+  "latest_current_assets": 559522000.0,
+  "latest_current_liabilities": 554457000.0,
+  "mos_flag": "YES — yield is attractive vs. risk-free rate",
+  "lolla_signals": [
+    "Pricing power (GM 73.0%)",
+    "OE growing avg 16.0% p.a.",
+    "Low leverage (0.01x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "Octave Intelligence plc OCTV revenue predictability recurring demand analysis 2025 2026",
+      "Octave Intelligence plc OCTV business model complexity investor circle of competence",
+      "Octave Intelligence plc OCTV 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Octave Intelligence plc OCTV competitive moat analysis switching costs brand advantage",
+      "Octave Intelligence plc OCTV network effects scale advantages cost leadership",
+      "Octave Intelligence plc OCTV patents regulatory barriers intellectual property moat",
+      "Octave Intelligence plc OCTV competitive threats risks disruption challenges 2025 2026",
+      "Octave Intelligence plc OCTV moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Octave Intelligence plc OCTV CEO management candor shareholder letter transparency",
+      "Octave Intelligence plc OCTV executive compensation insider ownership stock options proxy",
+      "Octave Intelligence plc OCTV key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Octave Intelligence plc OCTV stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Octave Intelligence plc OCTV investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Octave Intelligence plc OCTV market position monopoly commodity pricing power ecosystem",
+      "Octave Intelligence plc OCTV growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Octave Intelligence plc OCTV investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Octave Intelligence plc OCTV investment risk permanent capital loss downside analysis",
+      "Octave Intelligence plc OCTV opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

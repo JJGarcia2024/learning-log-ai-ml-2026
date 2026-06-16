@@ -1,0 +1,160 @@
+{
+  "ticker": "HQ",
+  "company_name": "Horizon Quantum Holdings Ltd.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "description": "Horizon Quantum Holdings Ltd. develops programming tools and software that simplify and automate the process of developing applications for quantum computers. The company provides programming tools that enable developers to construct reusable quantum circuits from functions written in classical languages such as C and C++. Its offerings include code portability features for compiling and optimizing quantum programs to map to various quantum hardware, and a web-based integrated development environment called Triple Alpha for writing, compiling, and deploying quantum software at different abstra",
+  "employees": "N/A",
+  "exchange": "NCM",
+  "website": "https://www.horizonquantum.com",
+  "current_price": 17.82,
+  "market_cap": 919122368.0,
+  "shares_out": 31833549.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 37855.844942,
+      "gross_profit": 0.0,
+      "operating_income": -3792147.183525,
+      "net_income": -3918471.380981,
+      "dna": 200192.307692,
+      "operating_cf": -3678616.747426,
+      "capex": -443270.745003,
+      "free_cash_flow": -4121887.492429,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 13594507.874016,
+      "total_liabilities": 170682.919443,
+      "total_equity": 13423824.954573,
+      "cash": 12501522.562084,
+      "total_debt": 20639.006663,
+      "current_assets": 12896283.313144,
+      "current_liabilities": 170682.919443,
+      "shares_outstanding": 51196571.0,
+      "net_wc": 12725600.393701,
+      "wc_change": -0.0,
+      "capex_abs": 443270.745003,
+      "maint_capex": 310289.5215021,
+      "owner_earnings": -4028568.5947911,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 264797.393217,
+      "gross_profit": 0.0,
+      "operating_income": -5775086.24304,
+      "net_income": -5504236.022743,
+      "dna": 629018.116555,
+      "operating_cf": -5464465.660927,
+      "capex": -2010917.008084,
+      "free_cash_flow": -7475382.669011,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 8753395.658794,
+      "total_liabilities": 1111585.621502,
+      "total_equity": 7641810.037292,
+      "cash": 4872644.222636,
+      "total_debt": 594782.755805,
+      "current_assets": 5896626.039881,
+      "current_liabilities": 779107.485675,
+      "shares_outstanding": 51196571.0,
+      "net_wc": 5117518.554206001,
+      "wc_change": 7608081.8394949995,
+      "capex_abs": 2010917.008084,
+      "maint_capex": 1407641.9056588,
+      "owner_earnings": 1325222.0276481996,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": 599.4887939305105
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": -10219974.317067,
+      "capex": -400584.481283,
+      "free_cash_flow": -10620558.79835,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 4835563.85711,
+      "total_liabilities": 9501816.483773,
+      "total_equity": -4666252.626664,
+      "cash": 223112.304459,
+      "total_debt": 485323.371469,
+      "current_assets": 970065.374737,
+      "current_liabilities": 9412825.900848,
+      "shares_outstanding": 51196571.0,
+      "net_wc": -8442760.526111,
+      "wc_change": 13560279.080317,
+      "capex_abs": 400584.481283,
+      "maint_capex": 280409.13689809997,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": 0.0
+    }
+  ],
+  "latest_oe": null,
+  "latest_cash": 223112.304459,
+  "latest_debt": 485323.371469,
+  "ev": 919384579.06701,
+  "oe_yield": null,
+  "roe": null,
+  "debt_equity": -0.10400709312131,
+  "latest_gm": null,
+  "current_ratio": 0.1030578260933953,
+  "latest_net_income": null,
+  "latest_dna": null,
+  "latest_wc_change": 13560279.080317,
+  "latest_maint_capex": 280409.13689809997,
+  "latest_net_wc": -8442760.526111,
+  "latest_current_assets": 970065.374737,
+  "latest_current_liabilities": 9412825.900848,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (-0.10x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "Horizon Quantum Holdings Ltd. HQ revenue predictability recurring demand analysis 2025 2026",
+      "Horizon Quantum Holdings Ltd. HQ business model complexity investor circle of competence",
+      "Horizon Quantum Holdings Ltd. HQ 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Horizon Quantum Holdings Ltd. HQ competitive moat analysis switching costs brand advantage",
+      "Horizon Quantum Holdings Ltd. HQ network effects scale advantages cost leadership",
+      "Horizon Quantum Holdings Ltd. HQ patents regulatory barriers intellectual property moat",
+      "Horizon Quantum Holdings Ltd. HQ competitive threats risks disruption challenges 2025 2026",
+      "Horizon Quantum Holdings Ltd. HQ moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Horizon Quantum Holdings Ltd. HQ CEO management candor shareholder letter transparency",
+      "Horizon Quantum Holdings Ltd. HQ executive compensation insider ownership stock options proxy",
+      "Horizon Quantum Holdings Ltd. HQ key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Horizon Quantum Holdings Ltd. HQ stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Horizon Quantum Holdings Ltd. HQ investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Horizon Quantum Holdings Ltd. HQ market position monopoly commodity pricing power ecosystem",
+      "Horizon Quantum Holdings Ltd. HQ growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Horizon Quantum Holdings Ltd. HQ investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Horizon Quantum Holdings Ltd. HQ investment risk permanent capital loss downside analysis",
+      "Horizon Quantum Holdings Ltd. HQ opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

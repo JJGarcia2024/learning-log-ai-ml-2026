@@ -1,0 +1,104 @@
+{
+  "ticker": "WENN",
+  "company_name": "Wen Acquisition Corp.",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Wen Acquisition Corp. focuses on effecting a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization or similar business combination with one or more businesses in the fintech sector. The company was incorporated in 2025 and is based in Oakland, California.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "N/A",
+  "current_price": 10.3,
+  "market_cap": 386443168.0,
+  "shares_out": 30015000.0,
+  "pe_ratio": 31.21212,
+  "financial_data": [
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -756684.0,
+      "net_income": 6877026.0,
+      "dna": 0.0,
+      "operating_cf": -759896.0,
+      "capex": 0.0,
+      "free_cash_flow": -759896.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 308496366.0,
+      "total_liabilities": 14421082.0,
+      "total_equity": 294075284.0,
+      "cash": 553972.0,
+      "total_debt": 0.0,
+      "current_assets": 681487.0,
+      "current_liabilities": 131332.0,
+      "shares_outstanding": 37518750.0,
+      "net_wc": 550155.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 6877026.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 6877026.0,
+  "latest_cash": 553972.0,
+  "latest_debt": 0.0,
+  "ev": 385889196.0,
+  "oe_yield": 1.7821245246783226,
+  "roe": 2.338525668141495,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 5.1890399902537085,
+  "latest_net_income": 6877026.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -0.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 550155.0,
+  "latest_current_assets": 681487.0,
+  "latest_current_liabilities": 131332.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Wen Acquisition Corp. WENN revenue predictability recurring demand analysis 2025 2026",
+      "Wen Acquisition Corp. WENN business model complexity investor circle of competence",
+      "Wen Acquisition Corp. WENN 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Wen Acquisition Corp. WENN competitive moat analysis switching costs brand advantage",
+      "Wen Acquisition Corp. WENN network effects scale advantages cost leadership",
+      "Wen Acquisition Corp. WENN patents regulatory barriers intellectual property moat",
+      "Wen Acquisition Corp. WENN competitive threats risks disruption challenges 2025 2026",
+      "Wen Acquisition Corp. WENN moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Wen Acquisition Corp. WENN CEO management candor shareholder letter transparency",
+      "Wen Acquisition Corp. WENN executive compensation insider ownership stock options proxy",
+      "Wen Acquisition Corp. WENN key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Wen Acquisition Corp. WENN stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Wen Acquisition Corp. WENN investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Wen Acquisition Corp. WENN market position monopoly commodity pricing power ecosystem",
+      "Wen Acquisition Corp. WENN growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Wen Acquisition Corp. WENN investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Wen Acquisition Corp. WENN investment risk permanent capital loss downside analysis",
+      "Wen Acquisition Corp. WENN opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

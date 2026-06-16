@@ -1,0 +1,133 @@
+{
+  "ticker": "PS",
+  "company_name": "Pershing Square Inc.",
+  "sector": "Financial Services",
+  "industry": "Asset Management",
+  "description": "Pershing Square Inc. operates as an alternative asset manager. The company was formerly known as Pershing Square Holdco, L.P. The company was incorporated in 2024 and is based in New York, New York. Pershing Square Inc. operates as a subsidiary of Pershing Square Partner Group, LLC.",
+  "employees": "44",
+  "exchange": "NYQ",
+  "website": "https://pershingsquareinc.com",
+  "current_price": 35.14,
+  "market_cap": 14055999488.0,
+  "shares_out": 400000000.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 455497586.0,
+      "gross_profit": 442333210.0,
+      "operating_income": -19690460.0,
+      "net_income": -14151104.0,
+      "dna": 2778063.0,
+      "operating_cf": 294480882.0,
+      "capex": -1557877.0,
+      "free_cash_flow": 292923005.0,
+      "dividends_paid": 0.0,
+      "buybacks": -298747239.0,
+      "total_assets": 1318792666.0,
+      "total_liabilities": 351534217.0,
+      "total_equity": 0.0,
+      "cash": 964856513.0,
+      "total_debt": 81129394.0,
+      "current_assets": 1211220650.0,
+      "current_liabilities": 100289900.0,
+      "shares_outstanding": 400000000.0,
+      "net_wc": 1110930750.0,
+      "wc_change": -0.0,
+      "capex_abs": 1557877.0,
+      "maint_capex": 1090513.9,
+      "owner_earnings": -12463554.9,
+      "gross_margin_pct": 97.10989115977443,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 750006000.0,
+      "gross_profit": 709201000.0,
+      "operating_income": -354344000.0,
+      "net_income": -210110000.0,
+      "dna": 2300715.0,
+      "operating_cf": -134233082.0,
+      "capex": -449438.0,
+      "free_cash_flow": -134682520.0,
+      "dividends_paid": 0.0,
+      "buybacks": -164393287.0,
+      "total_assets": 2793126000.0,
+      "total_liabilities": 1025147000.0,
+      "total_equity": 1705284000.0,
+      "cash": 6820000.0,
+      "total_debt": 275557000.0,
+      "current_assets": 808512000.0,
+      "current_liabilities": 115235000.0,
+      "shares_outstanding": 400000000.0,
+      "net_wc": 693277000.0,
+      "wc_change": 417653750.0,
+      "capex_abs": 449438.0,
+      "maint_capex": 314606.6,
+      "owner_earnings": 209529858.4,
+      "gross_margin_pct": 94.55937685831847,
+      "rev_growth_pct": 64.65641598372818
+    }
+  ],
+  "latest_oe": 209529858.4,
+  "latest_cash": 6820000.0,
+  "latest_debt": 275557000.0,
+  "ev": 14324736488.0,
+  "oe_yield": 1.4627135275788536,
+  "roe": -12.321114840695158,
+  "debt_equity": 0.1615900929112101,
+  "latest_gm": 94.55937685831847,
+  "current_ratio": 7.016201674838373,
+  "latest_net_income": -210110000.0,
+  "latest_dna": 2300715.0,
+  "latest_wc_change": 417653750.0,
+  "latest_maint_capex": 314606.6,
+  "latest_net_wc": 693277000.0,
+  "latest_current_assets": 808512000.0,
+  "latest_current_liabilities": 115235000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 94.6%)",
+    "Low leverage (0.16x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Pershing Square Inc. PS revenue predictability recurring demand analysis 2025 2026",
+      "Pershing Square Inc. PS business model complexity investor circle of competence",
+      "Pershing Square Inc. PS 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Pershing Square Inc. PS competitive moat analysis switching costs brand advantage",
+      "Pershing Square Inc. PS network effects scale advantages cost leadership",
+      "Pershing Square Inc. PS patents regulatory barriers intellectual property moat",
+      "Pershing Square Inc. PS competitive threats risks disruption challenges 2025 2026",
+      "Pershing Square Inc. PS moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Pershing Square Inc. PS CEO management candor shareholder letter transparency",
+      "Pershing Square Inc. PS executive compensation insider ownership stock options proxy",
+      "Pershing Square Inc. PS key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Pershing Square Inc. PS stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Pershing Square Inc. PS investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Pershing Square Inc. PS market position monopoly commodity pricing power ecosystem",
+      "Pershing Square Inc. PS growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Pershing Square Inc. PS investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Pershing Square Inc. PS investment risk permanent capital loss downside analysis",
+      "Pershing Square Inc. PS opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

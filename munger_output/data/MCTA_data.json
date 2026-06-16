@@ -1,0 +1,162 @@
+{
+  "ticker": "MCTA",
+  "company_name": "Charming Medical Limited",
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
+  "description": "Charming Medical Limited, through its subsidiaries, engage in the provision of beauty, wellness, and postpartum services under the Beauty Lab brand name in Hong Kong. Its services includes womb-warming therapy, BTS (Beauty, Tailor-made, Slim) pelvic detox therapy, agarwood moxibustion therapy, traditional Chinese medicine (TCM)-inspired prenatal massage, and Indonesian traditional abdominal binding. The company also provides TCM-inspired supplements products, which includes Beauty Lab home herbal uterine care patch, probiotic intimate wash, and Yin nourishing pill sets; and beauty products, in",
+  "employees": "49",
+  "exchange": "NCM",
+  "website": "N/A",
+  "current_price": 29.355,
+  "market_cap": 504260192.0,
+  "shares_out": 15178000.0,
+  "pe_ratio": 419.35715,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 3530822.0,
+      "gross_profit": 1493882.0,
+      "operating_income": -287498.0,
+      "net_income": -305117.0,
+      "dna": 211078.0,
+      "operating_cf": 2433803.0,
+      "capex": -606194.0,
+      "free_cash_flow": 1827609.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 6384238.0,
+      "total_liabilities": 7653061.0,
+      "total_equity": -1158610.0,
+      "cash": 1929192.0,
+      "total_debt": 1809514.0,
+      "current_assets": 4119875.0,
+      "current_liabilities": 7168803.0,
+      "shares_outstanding": 16938000.0,
+      "net_wc": -3048928.0,
+      "wc_change": -0.0,
+      "capex_abs": 606194.0,
+      "maint_capex": 424335.8,
+      "owner_earnings": -518374.8,
+      "gross_margin_pct": 42.30975110045196,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 6015375.0,
+      "gross_profit": 3913986.0,
+      "operating_income": 1173956.0,
+      "net_income": 777811.0,
+      "dna": 391704.0,
+      "operating_cf": 295429.0,
+      "capex": -210598.0,
+      "free_cash_flow": 84831.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 4881870.0,
+      "total_liabilities": 6027938.0,
+      "total_equity": -1079439.0,
+      "cash": 2103655.0,
+      "total_debt": 961379.0,
+      "current_assets": 3667427.0,
+      "current_liabilities": 5879688.0,
+      "shares_outstanding": 16938000.0,
+      "net_wc": -2212261.0,
+      "wc_change": -836667.0,
+      "capex_abs": 210598.0,
+      "maint_capex": 147418.59999999998,
+      "owner_earnings": 185429.40000000002,
+      "gross_margin_pct": 65.06636743345177,
+      "rev_growth_pct": 70.36755180521703
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 6221751.0,
+      "gross_profit": 4180388.0,
+      "operating_income": 1615112.0,
+      "net_income": 1199085.0,
+      "dna": 263454.0,
+      "operating_cf": 425888.0,
+      "capex": -287527.0,
+      "free_cash_flow": 138361.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 5355741.0,
+      "total_liabilities": 5306498.0,
+      "total_equity": 49243.0,
+      "cash": 816771.0,
+      "total_debt": 1160639.0,
+      "current_assets": 3367211.0,
+      "current_liabilities": 4948465.0,
+      "shares_outstanding": 16938000.0,
+      "net_wc": -1581254.0,
+      "wc_change": -631007.0,
+      "capex_abs": 287527.0,
+      "maint_capex": 201268.9,
+      "owner_earnings": 630263.1,
+      "gross_margin_pct": 67.1898955776276,
+      "rev_growth_pct": 3.4308085530827315
+    }
+  ],
+  "latest_oe": 630263.1,
+  "latest_cash": 816771.0,
+  "latest_debt": 1160639.0,
+  "ev": 504604060.0,
+  "oe_yield": 0.12490250276622823,
+  "roe": 2435.036451881486,
+  "debt_equity": 23.56962410901042,
+  "latest_gm": 67.1898955776276,
+  "current_ratio": 0.6804556564510409,
+  "latest_net_income": 1199085.0,
+  "latest_dna": 263454.0,
+  "latest_wc_change": -631007.0,
+  "latest_maint_capex": 201268.9,
+  "latest_net_wc": -1581254.0,
+  "latest_current_assets": 3367211.0,
+  "latest_current_liabilities": 4948465.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 67.2%)",
+    "OE growing avg 52.1% p.a.",
+    "High ROE 2435.0%"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "Charming Medical Limited MCTA revenue predictability recurring demand analysis 2025 2026",
+      "Charming Medical Limited MCTA business model complexity investor circle of competence",
+      "Charming Medical Limited MCTA 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Charming Medical Limited MCTA competitive moat analysis switching costs brand advantage",
+      "Charming Medical Limited MCTA network effects scale advantages cost leadership",
+      "Charming Medical Limited MCTA patents regulatory barriers intellectual property moat",
+      "Charming Medical Limited MCTA competitive threats risks disruption challenges 2025 2026",
+      "Charming Medical Limited MCTA moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Charming Medical Limited MCTA CEO management candor shareholder letter transparency",
+      "Charming Medical Limited MCTA executive compensation insider ownership stock options proxy",
+      "Charming Medical Limited MCTA key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Charming Medical Limited MCTA stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Charming Medical Limited MCTA investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Charming Medical Limited MCTA market position monopoly commodity pricing power ecosystem",
+      "Charming Medical Limited MCTA growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Charming Medical Limited MCTA investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Charming Medical Limited MCTA investment risk permanent capital loss downside analysis",
+      "Charming Medical Limited MCTA opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

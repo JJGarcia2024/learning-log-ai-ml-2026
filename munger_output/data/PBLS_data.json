@@ -1,0 +1,133 @@
+{
+  "ticker": "PBLS",
+  "company_name": "Parabilis Medicines, Inc.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "description": "Parabilis Medicines, Inc. operates as a clinical-stage biopharmaceutical company focused on developing helical peptide therapeutics for disease treatment. The company develops stabilized helical peptide therapeutics through its Helicon discovery platform, targeting proteins that are traditionally considered undruggable. Its pipeline includes functional inhibitors of intracellular protein-protein interactions, targeted protein degraders, and targeted radiopharmaceuticals, with a lead clinical program, FOG-001, that acts as a TCF-blocking beta-catenin inhibitor for cancer treatment. The company ",
+  "employees": "145",
+  "exchange": "NMS",
+  "website": "https://parabilismed.com",
+  "current_price": 25.01,
+  "market_cap": 3059034368.0,
+  "shares_out": 120731236.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -126125000.0,
+      "net_income": -117914000.0,
+      "dna": 2100000.0,
+      "operating_cf": -103613000.0,
+      "capex": -879000.0,
+      "free_cash_flow": -104492000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -494000.0,
+      "total_assets": 149253000.0,
+      "total_liabilities": 92814000.0,
+      "total_equity": 56439000.0,
+      "cash": 47284000.0,
+      "total_debt": 66198000.0,
+      "current_assets": 92208000.0,
+      "current_liabilities": 32412000.0,
+      "shares_outstanding": 118750719.0,
+      "net_wc": 59796000.0,
+      "wc_change": -0.0,
+      "capex_abs": 879000.0,
+      "maint_capex": 615300.0,
+      "owner_earnings": -116429300.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -152079000.0,
+      "net_income": -145889000.0,
+      "dna": 2500000.0,
+      "operating_cf": -123713000.0,
+      "capex": -306000.0,
+      "free_cash_flow": -124019000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -62000.0,
+      "total_assets": 80820000.0,
+      "total_liabilities": 97344000.0,
+      "total_equity": -16524000.0,
+      "cash": 27711000.0,
+      "total_debt": 58700000.0,
+      "current_assets": 29358000.0,
+      "current_liabilities": 56791000.0,
+      "shares_outstanding": 118750719.0,
+      "net_wc": -27433000.0,
+      "wc_change": 87229000.0,
+      "capex_abs": 306000.0,
+      "maint_capex": 214200.0,
+      "owner_earnings": -56374200.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -56374200.0,
+  "latest_cash": 27711000.0,
+  "latest_debt": 58700000.0,
+  "ev": 3090023368.0,
+  "oe_yield": -1.8243939700846947,
+  "roe": 882.8915516824013,
+  "debt_equity": -3.5524086177680947,
+  "latest_gm": null,
+  "current_ratio": 0.5169481079748551,
+  "latest_net_income": -145889000.0,
+  "latest_dna": 2500000.0,
+  "latest_wc_change": 87229000.0,
+  "latest_maint_capex": 214200.0,
+  "latest_net_wc": -27433000.0,
+  "latest_current_assets": 29358000.0,
+  "latest_current_liabilities": 56791000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "High ROE 882.9%",
+    "Low leverage (-3.55x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "Parabilis Medicines, Inc. PBLS revenue predictability recurring demand analysis 2025 2026",
+      "Parabilis Medicines, Inc. PBLS business model complexity investor circle of competence",
+      "Parabilis Medicines, Inc. PBLS 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Parabilis Medicines, Inc. PBLS competitive moat analysis switching costs brand advantage",
+      "Parabilis Medicines, Inc. PBLS network effects scale advantages cost leadership",
+      "Parabilis Medicines, Inc. PBLS patents regulatory barriers intellectual property moat",
+      "Parabilis Medicines, Inc. PBLS competitive threats risks disruption challenges 2025 2026",
+      "Parabilis Medicines, Inc. PBLS moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Parabilis Medicines, Inc. PBLS CEO management candor shareholder letter transparency",
+      "Parabilis Medicines, Inc. PBLS executive compensation insider ownership stock options proxy",
+      "Parabilis Medicines, Inc. PBLS key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Parabilis Medicines, Inc. PBLS stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Parabilis Medicines, Inc. PBLS investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Parabilis Medicines, Inc. PBLS market position monopoly commodity pricing power ecosystem",
+      "Parabilis Medicines, Inc. PBLS growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Parabilis Medicines, Inc. PBLS investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Parabilis Medicines, Inc. PBLS investment risk permanent capital loss downside analysis",
+      "Parabilis Medicines, Inc. PBLS opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

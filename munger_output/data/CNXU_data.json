@@ -1,0 +1,133 @@
+{
+  "ticker": "CNXU",
+  "company_name": "Conexeu Sciences Inc.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "description": "Conexeu Sciences Inc. develops collagen-based regenerative tissue scaffold products for applications in medical aesthetics and tissue repair. The company provides patented collagen-based scaffold products, including a collagen extracellular matrix (ECM) scaffold platform for use in medical aesthetics, wound care, tissue repair, facial rejuvenation, and large-volume body contouring such as face, breast, and butt volume restoration. Its CXU collagen gel is an investigational product targeting therapeutic and aesthetic indications, supporting tissue regeneration and aiming to minimize inflammatio",
+  "employees": "N/A",
+  "exchange": "NCM",
+  "website": "https://www.conexeu.com",
+  "current_price": 9.82,
+  "market_cap": 262766800.0,
+  "shares_out": 26758330.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -643042.0,
+      "net_income": -471867.0,
+      "dna": 0.0,
+      "operating_cf": -225439.0,
+      "capex": 0.0,
+      "free_cash_flow": -225439.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 533940.0,
+      "total_liabilities": 438976.0,
+      "total_equity": 94964.0,
+      "cash": 314616.0,
+      "total_debt": 98117.0,
+      "current_assets": 347237.0,
+      "current_liabilities": 340859.0,
+      "shares_outstanding": 20916173.0,
+      "net_wc": 6378.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -471867.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -3958329.0,
+      "net_income": -3923557.0,
+      "dna": 17250.0,
+      "operating_cf": -1669975.0,
+      "capex": -18668.0,
+      "free_cash_flow": -1688643.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 7688711.0,
+      "total_liabilities": 336018.0,
+      "total_equity": 7352693.0,
+      "cash": 4808965.0,
+      "total_debt": 0.0,
+      "current_assets": 7458413.0,
+      "current_liabilities": 336018.0,
+      "shares_outstanding": 20916173.0,
+      "net_wc": 7122395.0,
+      "wc_change": -7116017.0,
+      "capex_abs": 18668.0,
+      "maint_capex": 13067.599999999999,
+      "owner_earnings": -11035391.6,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -11035391.6,
+  "latest_cash": 4808965.0,
+  "latest_debt": 0.0,
+  "ev": 257957835.0,
+  "oe_yield": -4.27798271760189,
+  "roe": -53.36217628017381,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 22.19646864156087,
+  "latest_net_income": -3923557.0,
+  "latest_dna": 17250.0,
+  "latest_wc_change": -7116017.0,
+  "latest_maint_capex": 13067.599999999999,
+  "latest_net_wc": 7122395.0,
+  "latest_current_assets": 7458413.0,
+  "latest_current_liabilities": 336018.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 2238.7% p.a.",
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "Conexeu Sciences Inc. CNXU revenue predictability recurring demand analysis 2025 2026",
+      "Conexeu Sciences Inc. CNXU business model complexity investor circle of competence",
+      "Conexeu Sciences Inc. CNXU 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Conexeu Sciences Inc. CNXU competitive moat analysis switching costs brand advantage",
+      "Conexeu Sciences Inc. CNXU network effects scale advantages cost leadership",
+      "Conexeu Sciences Inc. CNXU patents regulatory barriers intellectual property moat",
+      "Conexeu Sciences Inc. CNXU competitive threats risks disruption challenges 2025 2026",
+      "Conexeu Sciences Inc. CNXU moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Conexeu Sciences Inc. CNXU CEO management candor shareholder letter transparency",
+      "Conexeu Sciences Inc. CNXU executive compensation insider ownership stock options proxy",
+      "Conexeu Sciences Inc. CNXU key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Conexeu Sciences Inc. CNXU stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Conexeu Sciences Inc. CNXU investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Conexeu Sciences Inc. CNXU market position monopoly commodity pricing power ecosystem",
+      "Conexeu Sciences Inc. CNXU growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Conexeu Sciences Inc. CNXU investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Conexeu Sciences Inc. CNXU investment risk permanent capital loss downside analysis",
+      "Conexeu Sciences Inc. CNXU opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

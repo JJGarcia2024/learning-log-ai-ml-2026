@@ -1,0 +1,162 @@
+{
+  "ticker": "HTFL",
+  "company_name": "Heartflow, Inc.",
+  "sector": "Healthcare",
+  "industry": "Health Information Services",
+  "description": "HeartFlow, Inc., a medical technology company, provides non-invasive solutions for diagnosing and managing coronary artery diseases the United States and worldwide. Its HeartFlow Platform uses AI and computational fluid dynamics to creates a personalized 3D model of a patient's heart from a single coronary computed tomography angiography, a specialized type of scan that provides detailed images of the heart's arteries. The company provides Heartflow RoadMap Analysis that offers an intuitive anatomic visualization of the coronary arteries; Heartflow FFRCT Analysis, which calculates blood flow a",
+  "employees": "843",
+  "exchange": "NMS",
+  "website": "https://www.heartflow.com",
+  "current_price": 32.82,
+  "market_cap": 2830424064.0,
+  "shares_out": 86240828.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 87174000.0,
+      "gross_profit": 58051000.0,
+      "operating_income": -72914000.0,
+      "net_income": -95655000.0,
+      "dna": 7633000.0,
+      "operating_cf": -76434000.0,
+      "capex": -6105000.0,
+      "free_cash_flow": -82539000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -228000.0,
+      "total_assets": 185051000.0,
+      "total_liabilities": 962615000.0,
+      "total_equity": -777564000.0,
+      "cash": 122767000.0,
+      "total_debt": 160600000.0,
+      "current_assets": 148447000.0,
+      "current_liabilities": 32815000.0,
+      "shares_outstanding": 80616619.0,
+      "net_wc": 115632000.0,
+      "wc_change": -0.0,
+      "capex_abs": 6105000.0,
+      "maint_capex": 4273500.0,
+      "owner_earnings": -92295500.0,
+      "gross_margin_pct": 66.5921031500218,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 125808000.0,
+      "gross_profit": 94449000.0,
+      "operating_income": -61222000.0,
+      "net_income": -96426000.0,
+      "dna": 8093000.0,
+      "operating_cf": -69001000.0,
+      "capex": -4357000.0,
+      "free_cash_flow": -73358000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 118704000.0,
+      "total_liabilities": 978188000.0,
+      "total_equity": -859484000.0,
+      "cash": 51367000.0,
+      "total_debt": 160384000.0,
+      "current_assets": 82288000.0,
+      "current_liabilities": 33605000.0,
+      "shares_outstanding": 80616619.0,
+      "net_wc": 48683000.0,
+      "wc_change": 66949000.0,
+      "capex_abs": 4357000.0,
+      "maint_capex": 3049900.0,
+      "owner_earnings": -24433900.0,
+      "gross_margin_pct": 75.07392216711179,
+      "rev_growth_pct": 44.31826003166081
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 176034000.0,
+      "gross_profit": 135197000.0,
+      "operating_income": -64066000.0,
+      "net_income": -116791000.0,
+      "dna": 8573000.0,
+      "operating_cf": -54023000.0,
+      "capex": -5025000.0,
+      "free_cash_flow": -59048000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 359452000.0,
+      "total_liabilities": 58805000.0,
+      "total_equity": 300647000.0,
+      "cash": 44776000.0,
+      "total_debt": 22054000.0,
+      "current_assets": 220204000.0,
+      "current_liabilities": 42370000.0,
+      "shares_outstanding": 85280597.0,
+      "net_wc": 177834000.0,
+      "wc_change": -129151000.0,
+      "capex_abs": 5025000.0,
+      "maint_capex": 3517500.0,
+      "owner_earnings": -240886500.0,
+      "gross_margin_pct": 76.80164059215834,
+      "rev_growth_pct": 39.922739412438006
+    }
+  ],
+  "latest_oe": -240886500.0,
+  "latest_cash": 44776000.0,
+  "latest_debt": 22054000.0,
+  "ev": 2807702064.0,
+  "oe_yield": -8.579489365649446,
+  "roe": -38.846554264635934,
+  "debt_equity": 0.07335513076797706,
+  "latest_gm": 76.80164059215834,
+  "current_ratio": 5.197167807410904,
+  "latest_net_income": -116791000.0,
+  "latest_dna": 8573000.0,
+  "latest_wc_change": -129151000.0,
+  "latest_maint_capex": 3517500.0,
+  "latest_net_wc": 177834000.0,
+  "latest_current_assets": 220204000.0,
+  "latest_current_liabilities": 42370000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 76.8%)",
+    "OE growing avg 406.2% p.a.",
+    "Low leverage (0.07x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "Heartflow, Inc. HTFL revenue predictability recurring demand analysis 2025 2026",
+      "Heartflow, Inc. HTFL business model complexity investor circle of competence",
+      "Heartflow, Inc. HTFL 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Heartflow, Inc. HTFL competitive moat analysis switching costs brand advantage",
+      "Heartflow, Inc. HTFL network effects scale advantages cost leadership",
+      "Heartflow, Inc. HTFL patents regulatory barriers intellectual property moat",
+      "Heartflow, Inc. HTFL competitive threats risks disruption challenges 2025 2026",
+      "Heartflow, Inc. HTFL moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Heartflow, Inc. HTFL CEO management candor shareholder letter transparency",
+      "Heartflow, Inc. HTFL executive compensation insider ownership stock options proxy",
+      "Heartflow, Inc. HTFL key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Heartflow, Inc. HTFL stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Heartflow, Inc. HTFL investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Heartflow, Inc. HTFL market position monopoly commodity pricing power ecosystem",
+      "Heartflow, Inc. HTFL growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Heartflow, Inc. HTFL investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Heartflow, Inc. HTFL investment risk permanent capital loss downside analysis",
+      "Heartflow, Inc. HTFL opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

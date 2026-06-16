@@ -1,0 +1,132 @@
+{
+  "ticker": "POLE",
+  "company_name": "Andretti Acquisition Corp. II",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Andretti Acquisition Corp. II does not have significant operations. It focuses on effecting a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. Andretti Acquisition Corp. II was incorporated in 2024 and is based in Alpharetta, Georgia.",
+  "employees": "2",
+  "exchange": "NGM",
+  "website": "https://andrettiacquisition.com",
+  "current_price": 10.74,
+  "market_cap": 316937408.0,
+  "shares_out": 23760000.0,
+  "pe_ratio": 41.307693,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 235507478.0,
+      "total_liabilities": 9850556.0,
+      "total_equity": 225656922.0,
+      "cash": 798454.0,
+      "total_debt": 0.0,
+      "current_assets": 930655.0,
+      "current_liabilities": 75556.0,
+      "shares_outstanding": 29510000.0,
+      "net_wc": 855099.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -1410877.0,
+      "net_income": 8350365.0,
+      "dna": 0.0,
+      "operating_cf": -1199985.0,
+      "capex": 0.0,
+      "free_cash_flow": -1199985.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 244423346.0,
+      "total_liabilities": 10416059.0,
+      "total_equity": 234007287.0,
+      "cash": 48469.0,
+      "total_debt": 450000.0,
+      "current_assets": 162053.0,
+      "current_liabilities": 191059.0,
+      "shares_outstanding": 29510000.0,
+      "net_wc": -29006.0,
+      "wc_change": 884105.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 9234470.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 9234470.0,
+  "latest_cash": 48469.0,
+  "latest_debt": 450000.0,
+  "ev": 317338939.0,
+  "oe_yield": 2.9099706544364543,
+  "roe": 3.568420926994466,
+  "debt_equity": 0.0019230170383540235,
+  "latest_gm": null,
+  "current_ratio": 0.8481830219984403,
+  "latest_net_income": 8350365.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": 884105.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": -29006.0,
+  "latest_current_assets": 162053.0,
+  "latest_current_liabilities": 191059.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Andretti Acquisition Corp. II POLE revenue predictability recurring demand analysis 2025 2026",
+      "Andretti Acquisition Corp. II POLE business model complexity investor circle of competence",
+      "Andretti Acquisition Corp. II POLE 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Andretti Acquisition Corp. II POLE competitive moat analysis switching costs brand advantage",
+      "Andretti Acquisition Corp. II POLE network effects scale advantages cost leadership",
+      "Andretti Acquisition Corp. II POLE patents regulatory barriers intellectual property moat",
+      "Andretti Acquisition Corp. II POLE competitive threats risks disruption challenges 2025 2026",
+      "Andretti Acquisition Corp. II POLE moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Andretti Acquisition Corp. II POLE CEO management candor shareholder letter transparency",
+      "Andretti Acquisition Corp. II POLE executive compensation insider ownership stock options proxy",
+      "Andretti Acquisition Corp. II POLE key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Andretti Acquisition Corp. II POLE stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Andretti Acquisition Corp. II POLE investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Andretti Acquisition Corp. II POLE market position monopoly commodity pricing power ecosystem",
+      "Andretti Acquisition Corp. II POLE growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Andretti Acquisition Corp. II POLE investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Andretti Acquisition Corp. II POLE investment risk permanent capital loss downside analysis",
+      "Andretti Acquisition Corp. II POLE opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

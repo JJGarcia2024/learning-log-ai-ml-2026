@@ -1,0 +1,161 @@
+{
+  "ticker": "BRAI",
+  "company_name": "Braiin Limited",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "description": "Braiin Limited operates as an agriculture and analytics services company that provides solutions to improve farming productivity using IoTs, Wireless Connectivity, Robotics, Software, and AI/ML in Australia and New Zealand. The company was incorporated in 2022 and is based in Subiaco, Australia. As of March 20, 2023, Braiin Limited operates as a subsidiary of Northern Revival Acquisition Corporation.",
+  "employees": "5",
+  "exchange": "NGM",
+  "website": "https://braiin.com",
+  "current_price": 7.35,
+  "market_cap": 1514748416.0,
+  "shares_out": 206088228.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -759142.0,
+      "net_income": -778012.0,
+      "dna": 83453.0,
+      "operating_cf": 0.0,
+      "capex": -312024.0,
+      "free_cash_flow": -612515.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1541429.0,
+      "total_liabilities": 2672229.0,
+      "total_equity": -1130800.0,
+      "cash": 1202698.0,
+      "total_debt": 368071.0,
+      "current_assets": 1253962.0,
+      "current_liabilities": 2689148.0,
+      "shares_outstanding": 206088228.0,
+      "net_wc": -1435186.0,
+      "wc_change": -0.0,
+      "capex_abs": 312024.0,
+      "maint_capex": 218416.8,
+      "owner_earnings": -912975.8,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 23299000.0,
+      "operating_income": -1442374.0,
+      "net_income": -1715375.0,
+      "dna": 148313.0,
+      "operating_cf": 0.0,
+      "capex": -885.0,
+      "free_cash_flow": -707755.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 844848.0,
+      "total_liabilities": 3671056.0,
+      "total_equity": -2826208.0,
+      "cash": 577518.0,
+      "total_debt": 754748.0,
+      "current_assets": 704932.0,
+      "current_liabilities": 3671054.0,
+      "shares_outstanding": 206088228.0,
+      "net_wc": -2966122.0,
+      "wc_change": 1530936.0,
+      "capex_abs": 885.0,
+      "maint_capex": 619.5,
+      "owner_earnings": -36745.5,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 73412000.0,
+      "gross_profit": 23192000.0,
+      "operating_income": -21999000.0,
+      "net_income": -28861000.0,
+      "dna": 10145000.0,
+      "operating_cf": 0.0,
+      "capex": 0.0,
+      "free_cash_flow": -1177659.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 290284000.0,
+      "total_liabilities": 65978000.0,
+      "total_equity": 224306000.0,
+      "cash": 4284000.0,
+      "total_debt": 3439000.0,
+      "current_assets": 39236000.0,
+      "current_liabilities": 24777000.0,
+      "shares_outstanding": 206088228.0,
+      "net_wc": 14459000.0,
+      "wc_change": -17425122.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -36141122.0,
+      "gross_margin_pct": 31.59156541164932,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -36141122.0,
+  "latest_cash": 4284000.0,
+  "latest_debt": 3439000.0,
+  "ev": 1513903416.0,
+  "oe_yield": -2.387280563478166,
+  "roe": -12.866798034827424,
+  "debt_equity": 0.015331734327213718,
+  "latest_gm": 31.59156541164932,
+  "current_ratio": 1.5835654033983129,
+  "latest_net_income": -28861000.0,
+  "latest_dna": 10145000.0,
+  "latest_wc_change": -17425122.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 14459000.0,
+  "latest_current_assets": 39236000.0,
+  "latest_current_liabilities": 24777000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 49079.6% p.a.",
+    "Low leverage (0.02x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "Braiin Limited BRAI revenue predictability recurring demand analysis 2025 2026",
+      "Braiin Limited BRAI business model complexity investor circle of competence",
+      "Braiin Limited BRAI 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Braiin Limited BRAI competitive moat analysis switching costs brand advantage",
+      "Braiin Limited BRAI network effects scale advantages cost leadership",
+      "Braiin Limited BRAI patents regulatory barriers intellectual property moat",
+      "Braiin Limited BRAI competitive threats risks disruption challenges 2025 2026",
+      "Braiin Limited BRAI moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Braiin Limited BRAI CEO management candor shareholder letter transparency",
+      "Braiin Limited BRAI executive compensation insider ownership stock options proxy",
+      "Braiin Limited BRAI key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Braiin Limited BRAI stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Braiin Limited BRAI investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Braiin Limited BRAI market position monopoly commodity pricing power ecosystem",
+      "Braiin Limited BRAI growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Braiin Limited BRAI investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Braiin Limited BRAI investment risk permanent capital loss downside analysis",
+      "Braiin Limited BRAI opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

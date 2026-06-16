@@ -1,0 +1,161 @@
+{
+  "ticker": "BETA",
+  "company_name": "BETA Technologies, Inc.",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "description": "BETA Technologies, Inc., an electric aerospace company, designs, manufactures, and sells electric aircraft, electric propulsion systems, components, and charging systems worldwide. It builds and flown ALIA aircraft consisting of conventional fixed-wing electric aircraft and electric vertical takeoff and landing aircraft. The company is also deploying a network of charging infrastructure. It serves customer base across cargo and logistics, defense, passenger, and medical end markets. The company was founded in 2017 and is headquartered in South Burlington, Vermont.",
+  "employees": "1008",
+  "exchange": "NYQ",
+  "website": "https://beta.team",
+  "current_price": 16.66,
+  "market_cap": 3986030080.0,
+  "shares_out": 222254535.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": 0.0,
+      "net_income": 0.0,
+      "dna": 0.0,
+      "operating_cf": 0.0,
+      "capex": 0.0,
+      "free_cash_flow": 0.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_equity": null,
+      "cash": null,
+      "total_debt": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "shares_outstanding": null,
+      "net_wc": null,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 0.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": 0.0,
+      "net_income": 0.0,
+      "dna": 0.0,
+      "operating_cf": 0.0,
+      "capex": 0.0,
+      "free_cash_flow": 0.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 0.0,
+      "total_liabilities": 0.0,
+      "total_equity": 0.0,
+      "cash": 0.0,
+      "total_debt": 170490000.0,
+      "current_assets": 0.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 0.0,
+      "net_wc": 0.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 0.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 35616000.0,
+      "gross_profit": 25715000.0,
+      "operating_income": -372668000.0,
+      "net_income": -745868000.0,
+      "dna": 22026000.0,
+      "operating_cf": -267798000.0,
+      "capex": -45447000.0,
+      "free_cash_flow": -313245000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 2106265000.0,
+      "total_liabilities": 288429000.0,
+      "total_equity": 1817836000.0,
+      "cash": 1710227000.0,
+      "total_debt": 203899000.0,
+      "current_assets": 1739468000.0,
+      "current_liabilities": 76395000.0,
+      "shares_outstanding": 229228031.0,
+      "net_wc": 1663073000.0,
+      "wc_change": -1663073000.0,
+      "capex_abs": 45447000.0,
+      "maint_capex": 31812899.999999996,
+      "owner_earnings": -2418727900.0,
+      "gross_margin_pct": 72.20069631626235,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -2418727900.0,
+  "latest_cash": 1710227000.0,
+  "latest_debt": 203899000.0,
+  "ev": 2479702080.0,
+  "oe_yield": -97.54106832059438,
+  "roe": -41.030544009470596,
+  "debt_equity": 0.11216578393210389,
+  "latest_gm": 72.20069631626235,
+  "current_ratio": 22.769395902873224,
+  "latest_net_income": -745868000.0,
+  "latest_dna": 22026000.0,
+  "latest_wc_change": -1663073000.0,
+  "latest_maint_capex": 31812899.999999996,
+  "latest_net_wc": 1663073000.0,
+  "latest_current_assets": 1739468000.0,
+  "latest_current_liabilities": 76395000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 72.2%)",
+    "Low leverage (0.11x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Industrials)",
+  "search_queries": {
+    "section_1": [
+      "BETA Technologies, Inc. BETA revenue predictability recurring demand analysis 2025 2026",
+      "BETA Technologies, Inc. BETA business model complexity investor circle of competence",
+      "BETA Technologies, Inc. BETA 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "BETA Technologies, Inc. BETA competitive moat analysis switching costs brand advantage",
+      "BETA Technologies, Inc. BETA network effects scale advantages cost leadership",
+      "BETA Technologies, Inc. BETA patents regulatory barriers intellectual property moat",
+      "BETA Technologies, Inc. BETA competitive threats risks disruption challenges 2025 2026",
+      "BETA Technologies, Inc. BETA moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "BETA Technologies, Inc. BETA CEO management candor shareholder letter transparency",
+      "BETA Technologies, Inc. BETA executive compensation insider ownership stock options proxy",
+      "BETA Technologies, Inc. BETA key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "BETA Technologies, Inc. BETA stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "BETA Technologies, Inc. BETA investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "BETA Technologies, Inc. BETA market position monopoly commodity pricing power ecosystem",
+      "BETA Technologies, Inc. BETA growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "BETA Technologies, Inc. BETA investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "BETA Technologies, Inc. BETA investment risk permanent capital loss downside analysis",
+      "BETA Technologies, Inc. BETA opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

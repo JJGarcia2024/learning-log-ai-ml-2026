@@ -1,0 +1,134 @@
+{
+  "ticker": "ENHA",
+  "company_name": "Enhanced Group Inc.",
+  "sector": "Consumer Defensive",
+  "industry": "Packaged Foods",
+  "description": "Enhanced Group Inc. designs and produces multisport live events under the Enhanced Games brand in the United States. It also engages in distributing digital content through various channels, social media, and streaming platforms; and operation of Live Enhanced, a consumer wellness platform. In addition, the company offers a personalized TRT protocol designed to support drive, energy, and vitality under the Stronger+ brand; clinician-guided longevity pathway comprising treatments, such as injectable NAD+, liposomal NAD+, and injectable Sermorelin under the Longer+ brand; and female hormone ther",
+  "employees": "N/A",
+  "exchange": "NYQ",
+  "website": "https://www.enhanced.com",
+  "current_price": 3.75,
+  "market_cap": 458364224.0,
+  "shares_out": 122230453.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -4451508.0,
+      "net_income": -4699469.0,
+      "dna": 759.0,
+      "operating_cf": -3056335.0,
+      "capex": -2683.0,
+      "free_cash_flow": -3059018.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 4155009.0,
+      "total_liabilities": 9405820.0,
+      "total_equity": -5250811.0,
+      "cash": 4018226.0,
+      "total_debt": 0.0,
+      "current_assets": 4121875.0,
+      "current_liabilities": 1901176.0,
+      "shares_outstanding": 122230453.0,
+      "net_wc": 2220699.0,
+      "wc_change": -0.0,
+      "capex_abs": 2683.0,
+      "maint_capex": 1878.1,
+      "owner_earnings": -4700588.1,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -26889032.0,
+      "net_income": -26661677.0,
+      "dna": 8553.0,
+      "operating_cf": -24363702.0,
+      "capex": -439223.0,
+      "free_cash_flow": -24802925.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 32099048.0,
+      "total_liabilities": 60001892.0,
+      "total_equity": -27902844.0,
+      "cash": 25253578.0,
+      "total_debt": 0.0,
+      "current_assets": 30275240.0,
+      "current_liabilities": 33147340.0,
+      "shares_outstanding": 122230453.0,
+      "net_wc": -2872100.0,
+      "wc_change": 5092799.0,
+      "capex_abs": 439223.0,
+      "maint_capex": 307456.1,
+      "owner_earnings": -21867781.1,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -21867781.1,
+  "latest_cash": 25253578.0,
+  "latest_debt": 0.0,
+  "ev": 433110646.0,
+  "oe_yield": -5.049005676023027,
+  "roe": 95.55182618660663,
+  "debt_equity": -0.0,
+  "latest_gm": null,
+  "current_ratio": 0.9133535300268438,
+  "latest_net_income": -26661677.0,
+  "latest_dna": 8553.0,
+  "latest_wc_change": 5092799.0,
+  "latest_maint_capex": 307456.1,
+  "latest_net_wc": -2872100.0,
+  "latest_current_assets": 30275240.0,
+  "latest_current_liabilities": 33147340.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 365.2% p.a.",
+    "High ROE 95.6%",
+    "Low leverage (-0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Consumer Defensive)",
+  "search_queries": {
+    "section_1": [
+      "Enhanced Group Inc. ENHA revenue predictability recurring demand analysis 2025 2026",
+      "Enhanced Group Inc. ENHA business model complexity investor circle of competence",
+      "Enhanced Group Inc. ENHA 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Enhanced Group Inc. ENHA competitive moat analysis switching costs brand advantage",
+      "Enhanced Group Inc. ENHA network effects scale advantages cost leadership",
+      "Enhanced Group Inc. ENHA patents regulatory barriers intellectual property moat",
+      "Enhanced Group Inc. ENHA competitive threats risks disruption challenges 2025 2026",
+      "Enhanced Group Inc. ENHA moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Enhanced Group Inc. ENHA CEO management candor shareholder letter transparency",
+      "Enhanced Group Inc. ENHA executive compensation insider ownership stock options proxy",
+      "Enhanced Group Inc. ENHA key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Enhanced Group Inc. ENHA stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Enhanced Group Inc. ENHA investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Enhanced Group Inc. ENHA market position monopoly commodity pricing power ecosystem",
+      "Enhanced Group Inc. ENHA growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Enhanced Group Inc. ENHA investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Enhanced Group Inc. ENHA investment risk permanent capital loss downside analysis",
+      "Enhanced Group Inc. ENHA opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

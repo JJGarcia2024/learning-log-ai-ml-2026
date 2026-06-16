@@ -1,0 +1,134 @@
+{
+  "ticker": "NKLR",
+  "company_name": "Terra Innovatum Global N.V.",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
+  "description": "Terra Innovatum Global N.V., a nuclear energy technology company, develops micro-modular nuclear reactors to deliver power solutions. The company offers SOLO, a micro-modular nuclear reactor which generates 1 MWe of electricity baseload to cover carbon-free energy needs ranging from MW to GW. It serves various industries including cement production, food processing, paper mills, chemical plants, pharmaceutical facilities, ceramic industries, glass industries, and mining operations. The company was founded in 2018 and is headquartered in Lucca, Italy.",
+  "employees": "1",
+  "exchange": "NGM",
+  "website": "https://www.terrainnovatum.com",
+  "current_price": 5.11,
+  "market_cap": 359237824.0,
+  "shares_out": 70300948.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -43702.0,
+      "net_income": -4472.0,
+      "dna": 0.0,
+      "operating_cf": -3889.0,
+      "capex": 0.0,
+      "free_cash_flow": -3889.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 11874.0,
+      "total_liabilities": 11878.0,
+      "total_equity": -4.0,
+      "cash": 1677.0,
+      "total_debt": 0.0,
+      "current_assets": 11874.0,
+      "current_liabilities": 9775.0,
+      "shares_outstanding": 70300948.0,
+      "net_wc": 2099.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -4472.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -152303.0,
+      "net_income": -33581.0,
+      "dna": 0.0,
+      "operating_cf": -41192.0,
+      "capex": 0.0,
+      "free_cash_flow": -41192.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 133013.0,
+      "total_liabilities": 165152.0,
+      "total_equity": -32139.0,
+      "cash": 68934.0,
+      "total_debt": 106780.0,
+      "current_assets": 133013.0,
+      "current_liabilities": 52787.0,
+      "shares_outstanding": 70300948.0,
+      "net_wc": 80226.0,
+      "wc_change": -78127.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -111708.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -111708.0,
+  "latest_cash": 68934.0,
+  "latest_debt": 106780.0,
+  "ev": 359275670.0,
+  "oe_yield": -0.031092559092576463,
+  "roe": 104.48676063349825,
+  "debt_equity": -3.322443137620959,
+  "latest_gm": null,
+  "current_ratio": 2.5198060128440716,
+  "latest_net_income": -33581.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -78127.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 80226.0,
+  "latest_current_assets": 133013.0,
+  "latest_current_liabilities": 52787.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 2397.9% p.a.",
+    "High ROE 104.5%",
+    "Low leverage (-3.32x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Utilities",
+  "search_queries": {
+    "section_1": [
+      "Terra Innovatum Global N.V. NKLR revenue predictability recurring demand analysis 2025 2026",
+      "Terra Innovatum Global N.V. NKLR business model complexity investor circle of competence",
+      "Terra Innovatum Global N.V. NKLR 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Terra Innovatum Global N.V. NKLR competitive moat analysis switching costs brand advantage",
+      "Terra Innovatum Global N.V. NKLR network effects scale advantages cost leadership",
+      "Terra Innovatum Global N.V. NKLR patents regulatory barriers intellectual property moat",
+      "Terra Innovatum Global N.V. NKLR competitive threats risks disruption challenges 2025 2026",
+      "Terra Innovatum Global N.V. NKLR moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Terra Innovatum Global N.V. NKLR CEO management candor shareholder letter transparency",
+      "Terra Innovatum Global N.V. NKLR executive compensation insider ownership stock options proxy",
+      "Terra Innovatum Global N.V. NKLR key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Terra Innovatum Global N.V. NKLR stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Terra Innovatum Global N.V. NKLR investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Terra Innovatum Global N.V. NKLR market position monopoly commodity pricing power ecosystem",
+      "Terra Innovatum Global N.V. NKLR growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Terra Innovatum Global N.V. NKLR investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Terra Innovatum Global N.V. NKLR investment risk permanent capital loss downside analysis",
+      "Terra Innovatum Global N.V. NKLR opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

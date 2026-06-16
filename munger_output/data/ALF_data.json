@@ -1,0 +1,133 @@
+{
+  "ticker": "ALF",
+  "company_name": "Centurion Acquisition Corp.",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Centurion Acquisition Corp. does not have significant operations. It focuses on effecting a merger, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. Centurion Acquisition Corp. was incorporated in 2024 and is based in New York, New York.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://www.centurionacquisition.com",
+  "current_price": 10.78,
+  "market_cap": 387406240.0,
+  "shares_out": 28750000.0,
+  "pe_ratio": 33.6875,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -467492.0,
+      "net_income": 7838845.0,
+      "dna": 0.0,
+      "operating_cf": -165249.0,
+      "capex": 0.0,
+      "free_cash_flow": -165249.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 296657187.0,
+      "total_liabilities": 13812496.0,
+      "total_equity": 282844691.0,
+      "cash": 665430.0,
+      "total_debt": 0.0,
+      "current_assets": 798845.0,
+      "current_liabilities": 124996.0,
+      "shares_outstanding": 35937500.0,
+      "net_wc": 673849.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 7838845.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -626249.0,
+      "net_income": 11742335.0,
+      "dna": 0.0,
+      "operating_cf": -564445.0,
+      "capex": 0.0,
+      "free_cash_flow": -564445.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 308335011.0,
+      "total_liabilities": 13747985.0,
+      "total_equity": 294587026.0,
+      "cash": 100985.0,
+      "total_debt": 0.0,
+      "current_assets": 160884.0,
+      "current_liabilities": 60485.0,
+      "shares_outstanding": 35937500.0,
+      "net_wc": 100399.0,
+      "wc_change": 573450.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 12315785.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 12315785.0,
+  "latest_cash": 100985.0,
+  "latest_debt": 0.0,
+  "ev": 387305255.0,
+  "oe_yield": 3.179865194444625,
+  "roe": 3.986032636752985,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 2.659899148549227,
+  "latest_net_income": 11742335.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": 573450.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 100399.0,
+  "latest_current_assets": 160884.0,
+  "latest_current_liabilities": 60485.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 57.1% p.a.",
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Centurion Acquisition Corp. ALF revenue predictability recurring demand analysis 2025 2026",
+      "Centurion Acquisition Corp. ALF business model complexity investor circle of competence",
+      "Centurion Acquisition Corp. ALF 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Centurion Acquisition Corp. ALF competitive moat analysis switching costs brand advantage",
+      "Centurion Acquisition Corp. ALF network effects scale advantages cost leadership",
+      "Centurion Acquisition Corp. ALF patents regulatory barriers intellectual property moat",
+      "Centurion Acquisition Corp. ALF competitive threats risks disruption challenges 2025 2026",
+      "Centurion Acquisition Corp. ALF moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Centurion Acquisition Corp. ALF CEO management candor shareholder letter transparency",
+      "Centurion Acquisition Corp. ALF executive compensation insider ownership stock options proxy",
+      "Centurion Acquisition Corp. ALF key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Centurion Acquisition Corp. ALF stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Centurion Acquisition Corp. ALF investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Centurion Acquisition Corp. ALF market position monopoly commodity pricing power ecosystem",
+      "Centurion Acquisition Corp. ALF growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Centurion Acquisition Corp. ALF investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Centurion Acquisition Corp. ALF investment risk permanent capital loss downside analysis",
+      "Centurion Acquisition Corp. ALF opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

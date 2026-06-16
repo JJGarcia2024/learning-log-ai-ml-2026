@@ -1,0 +1,161 @@
+{
+  "ticker": "NAVN",
+  "company_name": "Navan, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "description": "Navan, Inc. operates an AI-powered software platform to simplify the travel and expense experience, benefiting users, customers, and suppliers. The company offers AI-powered travel, payments, and expense management solutions to streamline the travel lifecycle, from booking and policy enforcement to payment processing, expense reconciliation, and reporting. It serves finance, human resources, travel managers, inventory, and other markets. Navan, Inc. was formerly known as TripActions, Inc. and changed its name to Navan, Inc. in February 2023. The company was incorporated in 2015 and is based in",
+  "employees": "3700",
+  "exchange": "NMS",
+  "website": "https://navan.com",
+  "current_price": 20.1,
+  "market_cap": 5112058368.0,
+  "shares_out": 239026566.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": 0.0,
+      "net_income": 0.0,
+      "dna": 0.0,
+      "operating_cf": 0.0,
+      "capex": 0.0,
+      "free_cash_flow": 0.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_equity": null,
+      "cash": null,
+      "total_debt": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "shares_outstanding": null,
+      "net_wc": null,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 0.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": 0.0,
+      "net_income": 0.0,
+      "dna": 0.0,
+      "operating_cf": 0.0,
+      "capex": 0.0,
+      "free_cash_flow": 0.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 0.0,
+      "total_liabilities": 0.0,
+      "total_equity": 0.0,
+      "cash": 0.0,
+      "total_debt": 0.0,
+      "current_assets": 0.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 0.0,
+      "net_wc": 0.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 0.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2026",
+      "revenue": 702265000.0,
+      "gross_profit": 500471000.0,
+      "operating_income": -196877000.0,
+      "net_income": -398030000.0,
+      "dna": 60247000.0,
+      "operating_cf": 33671000.0,
+      "capex": -18907000.0,
+      "free_cash_flow": 14764000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1708761000.0,
+      "total_liabilities": 500700000.0,
+      "total_equity": 1208061000.0,
+      "cash": 583516000.0,
+      "total_debt": 174355000.0,
+      "current_assets": 1306987000.0,
+      "current_liabilities": 320936000.0,
+      "shares_outstanding": 249174777.0,
+      "net_wc": 986051000.0,
+      "wc_change": -986051000.0,
+      "capex_abs": 18907000.0,
+      "maint_capex": 13234900.0,
+      "owner_earnings": -1337068900.0,
+      "gross_margin_pct": 71.26526311292746,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -1337068900.0,
+  "latest_cash": 583516000.0,
+  "latest_debt": 174355000.0,
+  "ev": 4702897368.0,
+  "oe_yield": -28.43074801287052,
+  "roe": -32.947839554459584,
+  "debt_equity": 0.14432632127020076,
+  "latest_gm": 71.26526311292746,
+  "current_ratio": 4.0724225390732105,
+  "latest_net_income": -398030000.0,
+  "latest_dna": 60247000.0,
+  "latest_wc_change": -986051000.0,
+  "latest_maint_capex": 13234900.0,
+  "latest_net_wc": 986051000.0,
+  "latest_current_assets": 1306987000.0,
+  "latest_current_liabilities": 320936000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 71.3%)",
+    "Low leverage (0.14x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "Navan, Inc. NAVN revenue predictability recurring demand analysis 2025 2026",
+      "Navan, Inc. NAVN business model complexity investor circle of competence",
+      "Navan, Inc. NAVN 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Navan, Inc. NAVN competitive moat analysis switching costs brand advantage",
+      "Navan, Inc. NAVN network effects scale advantages cost leadership",
+      "Navan, Inc. NAVN patents regulatory barriers intellectual property moat",
+      "Navan, Inc. NAVN competitive threats risks disruption challenges 2025 2026",
+      "Navan, Inc. NAVN moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Navan, Inc. NAVN CEO management candor shareholder letter transparency",
+      "Navan, Inc. NAVN executive compensation insider ownership stock options proxy",
+      "Navan, Inc. NAVN key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Navan, Inc. NAVN stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Navan, Inc. NAVN investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Navan, Inc. NAVN market position monopoly commodity pricing power ecosystem",
+      "Navan, Inc. NAVN growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Navan, Inc. NAVN investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Navan, Inc. NAVN investment risk permanent capital loss downside analysis",
+      "Navan, Inc. NAVN opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

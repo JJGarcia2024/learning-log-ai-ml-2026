@@ -1,0 +1,106 @@
+{
+  "ticker": "MALG",
+  "company_name": "Microalliance Group Inc.",
+  "sector": "Consumer Defensive",
+  "industry": "Packaged Foods",
+  "description": "Microalliance Group Inc. develops and sells coffee and liquor products primarily in the People's Republic of China. It offers coffee products, including Chinese black tea, premium black coffee, and other coffee products. The company sells its coffee products wholesale to retail partners and corporate customers, as well as directly to consumers through its e-commerce channels. In addition, it provides pre-opening assistance services to retail partners to operate coffee stores. Further, the company offers liquor products through sales agents, distributors, and franchisees. The company was former",
+  "employees": "30",
+  "exchange": "OID",
+  "website": "N/A",
+  "current_price": 1.76,
+  "market_cap": 1072396352.0,
+  "shares_out": 609316077.0,
+  "pe_ratio": 4.631579,
+  "financial_data": [
+    {
+      "fiscal_year": "2021",
+      "revenue": 37393802.0,
+      "gross_profit": 26971233.0,
+      "operating_income": 24859684.0,
+      "net_income": 18675547.0,
+      "dna": 104192.0,
+      "operating_cf": 1288533.0,
+      "capex": -226302.0,
+      "free_cash_flow": 1062231.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 30992313.0,
+      "total_liabilities": 2746306.0,
+      "total_equity": 28246007.0,
+      "cash": 1190465.0,
+      "total_debt": 83957.0,
+      "current_assets": 30383395.0,
+      "current_liabilities": 2731608.0,
+      "shares_outstanding": 609316077.0,
+      "net_wc": 27651787.0,
+      "wc_change": -0.0,
+      "capex_abs": 226302.0,
+      "maint_capex": 158411.4,
+      "owner_earnings": 18621327.6,
+      "gross_margin_pct": 72.12754937302176,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 18621327.6,
+  "latest_cash": 1190465.0,
+  "latest_debt": 83957.0,
+  "ev": 1071289844.0,
+  "oe_yield": 1.7382156383067515,
+  "roe": 66.11747635692366,
+  "debt_equity": 0.0029723493306505235,
+  "latest_gm": 72.12754937302176,
+  "current_ratio": 11.122897209262822,
+  "latest_net_income": 18675547.0,
+  "latest_dna": 104192.0,
+  "latest_wc_change": -0.0,
+  "latest_maint_capex": 158411.4,
+  "latest_net_wc": 27651787.0,
+  "latest_current_assets": 30383395.0,
+  "latest_current_liabilities": 2731608.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 72.1%)",
+    "High ROE 66.1%",
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Consumer Defensive)",
+  "search_queries": {
+    "section_1": [
+      "Microalliance Group Inc. MALG revenue predictability recurring demand analysis 2025 2026",
+      "Microalliance Group Inc. MALG business model complexity investor circle of competence",
+      "Microalliance Group Inc. MALG 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Microalliance Group Inc. MALG competitive moat analysis switching costs brand advantage",
+      "Microalliance Group Inc. MALG network effects scale advantages cost leadership",
+      "Microalliance Group Inc. MALG patents regulatory barriers intellectual property moat",
+      "Microalliance Group Inc. MALG competitive threats risks disruption challenges 2025 2026",
+      "Microalliance Group Inc. MALG moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Microalliance Group Inc. MALG CEO management candor shareholder letter transparency",
+      "Microalliance Group Inc. MALG executive compensation insider ownership stock options proxy",
+      "Microalliance Group Inc. MALG key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Microalliance Group Inc. MALG stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Microalliance Group Inc. MALG investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Microalliance Group Inc. MALG market position monopoly commodity pricing power ecosystem",
+      "Microalliance Group Inc. MALG growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Microalliance Group Inc. MALG investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Microalliance Group Inc. MALG investment risk permanent capital loss downside analysis",
+      "Microalliance Group Inc. MALG opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

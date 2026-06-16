@@ -1,0 +1,161 @@
+{
+  "ticker": "FLY",
+  "company_name": "Firefly Aerospace Inc.",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "description": "Firefly Aerospace Inc. operates as a space and defense technology company and provides mission solutions for national security, government, and commercial customers in United States. The company offers integrated launch and space services technology that is committed to enabling launch, transit, and operations in space. It also provides Launch solutions, such as Alpha, a responsive launch services; and Eclipse, a medium-lift launch vehicles. In addition, the company offers spacecraft solutions platforms, including Blue Ghost, a lunar delivery and operation service; and Elytra, which provides s",
+  "employees": "1409",
+  "exchange": "NGM",
+  "website": "https://www.fireflyspace.com",
+  "current_price": 33.36,
+  "market_cap": 5478886912.0,
+  "shares_out": 164235217.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 55235000.0,
+      "gross_profit": 26600000.0,
+      "operating_income": -131876000.0,
+      "net_income": -135457000.0,
+      "dna": 4707000.0,
+      "operating_cf": -93434000.0,
+      "capex": -77248000.0,
+      "free_cash_flow": -170682000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 321207000.0,
+      "total_liabilities": 825692000.0,
+      "total_equity": -504485000.0,
+      "cash": 81945000.0,
+      "total_debt": 120949000.0,
+      "current_assets": 149945000.0,
+      "current_liabilities": 136772000.0,
+      "shares_outstanding": 143148000.0,
+      "net_wc": 13173000.0,
+      "wc_change": -0.0,
+      "capex_abs": 77248000.0,
+      "maint_capex": 54073600.0,
+      "owner_earnings": -184823600.0,
+      "gross_margin_pct": 48.15787091518059,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 60792000.0,
+      "gross_profit": -11365000.0,
+      "operating_income": -207711000.0,
+      "net_income": -231133000.0,
+      "dna": 12545000.0,
+      "operating_cf": -157650000.0,
+      "capex": -32697000.0,
+      "free_cash_flow": -190347000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 407332000.0,
+      "total_liabilities": 1174954000.0,
+      "total_equity": -767622000.0,
+      "cash": 123431000.0,
+      "total_debt": 168398000.0,
+      "current_assets": 180717000.0,
+      "current_liabilities": 179377000.0,
+      "shares_outstanding": 143148000.0,
+      "net_wc": 1340000.0,
+      "wc_change": 11833000.0,
+      "capex_abs": 32697000.0,
+      "maint_capex": 22887900.0,
+      "owner_earnings": -229642900.0,
+      "gross_margin_pct": -18.694894065008555,
+      "rev_growth_pct": 10.060649950212719
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 159855000.0,
+      "gross_profit": 30666000.0,
+      "operating_income": -260697000.0,
+      "net_income": -298340000.0,
+      "dna": 23156000.0,
+      "operating_cf": -204924000.0,
+      "capex": -32826000.0,
+      "free_cash_flow": -237750000.0,
+      "dividends_paid": -4990000.0,
+      "buybacks": 0.0,
+      "total_assets": 1824934000.0,
+      "total_liabilities": 634995000.0,
+      "total_equity": 1189939000.0,
+      "cash": 792966000.0,
+      "total_debt": 308593000.0,
+      "current_assets": 963175000.0,
+      "current_liabilities": 213581000.0,
+      "shares_outstanding": 159276000.0,
+      "net_wc": 749594000.0,
+      "wc_change": -748254000.0,
+      "capex_abs": 32826000.0,
+      "maint_capex": 22978200.0,
+      "owner_earnings": -1046416200.0,
+      "gross_margin_pct": 19.18363516937224,
+      "rev_growth_pct": 162.95400710619816
+    }
+  ],
+  "latest_oe": -1046416200.0,
+  "latest_cash": 792966000.0,
+  "latest_debt": 308593000.0,
+  "ev": 4994513912.0,
+  "oe_yield": -20.951312148432354,
+  "roe": -25.07187343216753,
+  "debt_equity": 0.2593351423896519,
+  "latest_gm": 19.18363516937224,
+  "current_ratio": 4.509647393728843,
+  "latest_net_income": -298340000.0,
+  "latest_dna": 23156000.0,
+  "latest_wc_change": -748254000.0,
+  "latest_maint_capex": 22978200.0,
+  "latest_net_wc": 749594000.0,
+  "latest_current_assets": 963175000.0,
+  "latest_current_liabilities": 213581000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 190.0% p.a.",
+    "Low leverage (0.26x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Industrials)",
+  "search_queries": {
+    "section_1": [
+      "Firefly Aerospace Inc. FLY revenue predictability recurring demand analysis 2025 2026",
+      "Firefly Aerospace Inc. FLY business model complexity investor circle of competence",
+      "Firefly Aerospace Inc. FLY 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Firefly Aerospace Inc. FLY competitive moat analysis switching costs brand advantage",
+      "Firefly Aerospace Inc. FLY network effects scale advantages cost leadership",
+      "Firefly Aerospace Inc. FLY patents regulatory barriers intellectual property moat",
+      "Firefly Aerospace Inc. FLY competitive threats risks disruption challenges 2025 2026",
+      "Firefly Aerospace Inc. FLY moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Firefly Aerospace Inc. FLY CEO management candor shareholder letter transparency",
+      "Firefly Aerospace Inc. FLY executive compensation insider ownership stock options proxy",
+      "Firefly Aerospace Inc. FLY key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Firefly Aerospace Inc. FLY stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Firefly Aerospace Inc. FLY investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Firefly Aerospace Inc. FLY market position monopoly commodity pricing power ecosystem",
+      "Firefly Aerospace Inc. FLY growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Firefly Aerospace Inc. FLY investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Firefly Aerospace Inc. FLY investment risk permanent capital loss downside analysis",
+      "Firefly Aerospace Inc. FLY opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

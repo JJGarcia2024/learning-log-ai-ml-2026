@@ -1,0 +1,161 @@
+{
+  "ticker": "IMSR",
+  "company_name": "Terrestrial Energy Inc.",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
+  "description": "Terrestrial Energy Inc. produces carbon free nuclear energy in North Carolina. It offers Pre-construction services, such as site selection and site and use-specific engineering studies for construction and licensing planning preparation; construction services and component supply; and post construction IMSR Core-unit supply and fuel supply. The company was founded in 2013 and is headquartered in Charlotte, North Carolina.",
+  "employees": "74",
+  "exchange": "NMS",
+  "website": "https://www.terrestrialenergy.com",
+  "current_price": 7.56,
+  "market_cap": 976388864.0,
+  "shares_out": 82718567.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 18614.0,
+      "gross_profit": 0.0,
+      "operating_income": -13816180.0,
+      "net_income": -13908462.0,
+      "dna": 1829997.0,
+      "operating_cf": -9163312.0,
+      "capex": -1102580.0,
+      "free_cash_flow": -10265892.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 7889319.0,
+      "total_liabilities": 12765007.0,
+      "total_equity": -5410299.0,
+      "cash": 4600530.0,
+      "total_debt": 10970173.0,
+      "current_assets": 5064649.0,
+      "current_liabilities": 1813881.0,
+      "shares_outstanding": 105782452.0,
+      "net_wc": 3250768.0,
+      "wc_change": -0.0,
+      "capex_abs": 1102580.0,
+      "maint_capex": 771806.0,
+      "owner_earnings": -12850271.0,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 248357.0,
+      "gross_profit": 0.0,
+      "operating_income": -9645538.0,
+      "net_income": -11485410.0,
+      "dna": 1256391.0,
+      "operating_cf": -8202934.0,
+      "capex": -662270.0,
+      "free_cash_flow": -8865204.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 5331604.0,
+      "total_liabilities": 18822156.0,
+      "total_equity": -13490552.0,
+      "cash": 3021795.0,
+      "total_debt": 16983666.0,
+      "current_assets": 3291886.0,
+      "current_liabilities": 1104170.0,
+      "shares_outstanding": 105782452.0,
+      "net_wc": 2187716.0,
+      "wc_change": 1063052.0,
+      "capex_abs": 662270.0,
+      "maint_capex": 463588.99999999994,
+      "owner_earnings": -9629556.0,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": 1234.2484151713763
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -24872979.0,
+      "net_income": -28016641.0,
+      "dna": 1161704.0,
+      "operating_cf": -16472912.0,
+      "capex": -1141457.0,
+      "free_cash_flow": -17614369.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 302980424.0,
+      "total_liabilities": 7574182.0,
+      "total_equity": 295406242.0,
+      "cash": 97164391.0,
+      "total_debt": 2073236.0,
+      "current_assets": 299559936.0,
+      "current_liabilities": 5917531.0,
+      "shares_outstanding": 105782439.0,
+      "net_wc": 293642405.0,
+      "wc_change": -291454689.0,
+      "capex_abs": 1141457.0,
+      "maint_capex": 799019.8999999999,
+      "owner_earnings": -319108645.9,
+      "gross_margin_pct": null,
+      "rev_growth_pct": -100.0
+    }
+  ],
+  "latest_oe": -319108645.9,
+  "latest_cash": 97164391.0,
+  "latest_debt": 2073236.0,
+  "ev": 881297709.0,
+  "oe_yield": -36.20894989754251,
+  "roe": -9.48410595873597,
+  "debt_equity": 0.007018253866145455,
+  "latest_gm": null,
+  "current_ratio": 50.62245318190982,
+  "latest_net_income": -28016641.0,
+  "latest_dna": 1161704.0,
+  "latest_wc_change": -291454689.0,
+  "latest_maint_capex": 799019.8999999999,
+  "latest_net_wc": 293642405.0,
+  "latest_current_assets": 299559936.0,
+  "latest_current_liabilities": 5917531.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 1594.4% p.a.",
+    "Low leverage (0.01x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Utilities",
+  "search_queries": {
+    "section_1": [
+      "Terrestrial Energy Inc. IMSR revenue predictability recurring demand analysis 2025 2026",
+      "Terrestrial Energy Inc. IMSR business model complexity investor circle of competence",
+      "Terrestrial Energy Inc. IMSR 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Terrestrial Energy Inc. IMSR competitive moat analysis switching costs brand advantage",
+      "Terrestrial Energy Inc. IMSR network effects scale advantages cost leadership",
+      "Terrestrial Energy Inc. IMSR patents regulatory barriers intellectual property moat",
+      "Terrestrial Energy Inc. IMSR competitive threats risks disruption challenges 2025 2026",
+      "Terrestrial Energy Inc. IMSR moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Terrestrial Energy Inc. IMSR CEO management candor shareholder letter transparency",
+      "Terrestrial Energy Inc. IMSR executive compensation insider ownership stock options proxy",
+      "Terrestrial Energy Inc. IMSR key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Terrestrial Energy Inc. IMSR stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Terrestrial Energy Inc. IMSR investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Terrestrial Energy Inc. IMSR market position monopoly commodity pricing power ecosystem",
+      "Terrestrial Energy Inc. IMSR growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Terrestrial Energy Inc. IMSR investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Terrestrial Energy Inc. IMSR investment risk permanent capital loss downside analysis",
+      "Terrestrial Energy Inc. IMSR opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

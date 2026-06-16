@@ -1,0 +1,132 @@
+{
+  "ticker": "MWC",
+  "company_name": "Micware Co., Ltd.",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
+  "description": "Micware Co., Ltd. provides software development services and information technology solutions focusing on the automotive and mobility sectors in Japan and internationally. The company operates three segments: Software Defined Vehicles, Location-Based Services, and Others. Its Software Defined Vehicles segment develops and sells software systems designed for SDV, including IVI system software and other mobility-enhancing software products. The Location-Based Services segment engages in the development and licensing of in-vehicle navigation software systems, and other geographic data-based servi",
+  "employees": "561",
+  "exchange": "NGM",
+  "website": "https://www.micware.co.jp",
+  "current_price": 4.23,
+  "market_cap": 249535792.0,
+  "shares_out": 58991914.0,
+  "pe_ratio": 30.214285,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 17516731000.0,
+      "gross_profit": 5323306000.0,
+      "operating_income": 1892397000.0,
+      "net_income": 1370634000.0,
+      "dna": 1075190000.0,
+      "operating_cf": 403053000.0,
+      "capex": -195447000.0,
+      "free_cash_flow": 207606000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -2618591000.0,
+      "total_assets": 15707923000.0,
+      "total_liabilities": 11124240000.0,
+      "total_equity": 4423217000.0,
+      "cash": 4189636000.0,
+      "total_debt": 6500596000.0,
+      "current_assets": 10376320000.0,
+      "current_liabilities": 5599458000.0,
+      "shares_outstanding": 0.0,
+      "net_wc": 4776862000.0,
+      "wc_change": -0.0,
+      "capex_abs": 195447000.0,
+      "maint_capex": 136812900.0,
+      "owner_earnings": 2309011100.0,
+      "gross_margin_pct": 30.38983700782983,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 21119304000.0,
+      "gross_profit": 7389453000.0,
+      "operating_income": 2160301000.0,
+      "net_income": 1330618000.0,
+      "dna": 1371637000.0,
+      "operating_cf": 2229239000.0,
+      "capex": -633697000.0,
+      "free_cash_flow": 1595542000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 22972847000.0,
+      "total_liabilities": 16261799000.0,
+      "total_equity": 6527010000.0,
+      "cash": 7670463000.0,
+      "total_debt": 10173907000.0,
+      "current_assets": 14058123000.0,
+      "current_liabilities": 7319203000.0,
+      "shares_outstanding": 0.0,
+      "net_wc": 6738920000.0,
+      "wc_change": -1962058000.0,
+      "capex_abs": 633697000.0,
+      "maint_capex": 443587900.0,
+      "owner_earnings": 296609100.0,
+      "gross_margin_pct": 34.989093390577644,
+      "rev_growth_pct": 20.5664687092586
+    }
+  ],
+  "latest_oe": 296609100.0,
+  "latest_cash": 7670463000.0,
+  "latest_debt": 10173907000.0,
+  "ev": 2752979792.0,
+  "oe_yield": 10.774111050939382,
+  "roe": 20.386333098922783,
+  "debt_equity": 1.5587393002308867,
+  "latest_gm": 34.989093390577644,
+  "current_ratio": 1.9207177338844135,
+  "latest_net_income": 1330618000.0,
+  "latest_dna": 1371637000.0,
+  "latest_wc_change": -1962058000.0,
+  "latest_maint_capex": 443587900.0,
+  "latest_net_wc": 6738920000.0,
+  "latest_current_assets": 14058123000.0,
+  "latest_current_liabilities": 7319203000.0,
+  "mos_flag": "YES — yield is attractive vs. risk-free rate",
+  "lolla_signals": [
+    "High ROE 20.4%"
+  ],
+  "s1a": "YES — business model is understandable (Consumer Cyclical)",
+  "search_queries": {
+    "section_1": [
+      "Micware Co., Ltd. MWC revenue predictability recurring demand analysis 2025 2026",
+      "Micware Co., Ltd. MWC business model complexity investor circle of competence",
+      "Micware Co., Ltd. MWC 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Micware Co., Ltd. MWC competitive moat analysis switching costs brand advantage",
+      "Micware Co., Ltd. MWC network effects scale advantages cost leadership",
+      "Micware Co., Ltd. MWC patents regulatory barriers intellectual property moat",
+      "Micware Co., Ltd. MWC competitive threats risks disruption challenges 2025 2026",
+      "Micware Co., Ltd. MWC moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Micware Co., Ltd. MWC CEO management candor shareholder letter transparency",
+      "Micware Co., Ltd. MWC executive compensation insider ownership stock options proxy",
+      "Micware Co., Ltd. MWC key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Micware Co., Ltd. MWC stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Micware Co., Ltd. MWC investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Micware Co., Ltd. MWC market position monopoly commodity pricing power ecosystem",
+      "Micware Co., Ltd. MWC growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Micware Co., Ltd. MWC investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Micware Co., Ltd. MWC investment risk permanent capital loss downside analysis",
+      "Micware Co., Ltd. MWC opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

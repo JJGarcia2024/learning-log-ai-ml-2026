@@ -1,0 +1,104 @@
+{
+  "ticker": "JENA",
+  "company_name": "Jena Acquisition Corporation II",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Jena Acquisition Corporation II focuses on effecting a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization or similar business combination with one or more businesses. Jena Acquisition Corporation II was incorporated in 2025 and is based in Las Vegas, Nevada.",
+  "employees": "N/A",
+  "exchange": "NYQ",
+  "website": "N/A",
+  "current_price": 10.33,
+  "market_cap": 299311744.0,
+  "shares_out": 23225000.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -7286767.0,
+      "net_income": -1836775.0,
+      "dna": 0.0,
+      "operating_cf": -510037.0,
+      "capex": 0.0,
+      "free_cash_flow": -510037.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 236574719.0,
+      "total_liabilities": 13825026.0,
+      "total_equity": 222749693.0,
+      "cash": 913121.0,
+      "total_debt": 0.0,
+      "current_assets": 1065070.0,
+      "current_liabilities": 25026.0,
+      "shares_outstanding": 28975000.0,
+      "net_wc": 1040044.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -1836775.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -1836775.0,
+  "latest_cash": 913121.0,
+  "latest_debt": 0.0,
+  "ev": 298398623.0,
+  "oe_yield": -0.615544060335694,
+  "roe": -0.8245914843976911,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 42.55853911931591,
+  "latest_net_income": -1836775.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -0.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 1040044.0,
+  "latest_current_assets": 1065070.0,
+  "latest_current_liabilities": 25026.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Jena Acquisition Corporation II JENA revenue predictability recurring demand analysis 2025 2026",
+      "Jena Acquisition Corporation II JENA business model complexity investor circle of competence",
+      "Jena Acquisition Corporation II JENA 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Jena Acquisition Corporation II JENA competitive moat analysis switching costs brand advantage",
+      "Jena Acquisition Corporation II JENA network effects scale advantages cost leadership",
+      "Jena Acquisition Corporation II JENA patents regulatory barriers intellectual property moat",
+      "Jena Acquisition Corporation II JENA competitive threats risks disruption challenges 2025 2026",
+      "Jena Acquisition Corporation II JENA moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Jena Acquisition Corporation II JENA CEO management candor shareholder letter transparency",
+      "Jena Acquisition Corporation II JENA executive compensation insider ownership stock options proxy",
+      "Jena Acquisition Corporation II JENA key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Jena Acquisition Corporation II JENA stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Jena Acquisition Corporation II JENA investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Jena Acquisition Corporation II JENA market position monopoly commodity pricing power ecosystem",
+      "Jena Acquisition Corporation II JENA growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Jena Acquisition Corporation II JENA investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Jena Acquisition Corporation II JENA investment risk permanent capital loss downside analysis",
+      "Jena Acquisition Corporation II JENA opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

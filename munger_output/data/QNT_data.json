@@ -1,0 +1,134 @@
+{
+  "ticker": "QNT",
+  "company_name": "Quantinuum Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "description": "Quantinuum Inc. manufactures and develops quantum computing hardware and software in United States and Internationally. The company develops a quantum computing platform that offers solutions, such as hardware platforms, developer tools, application libraries, and solution-targeted intellectual property. Its integrated quantum computing platform combines quantum hardware systems and middleware with application software designed to make quantum computing deployable in real-world environments. The company was founded in 2021 and is based in Broomfield, Colorado.",
+  "employees": "679",
+  "exchange": "NGM",
+  "website": "https://www.quantinuum.com",
+  "current_price": 57.91,
+  "market_cap": 1816225280.0,
+  "shares_out": 31362895.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 22979000.0,
+      "gross_profit": 12172000.0,
+      "operating_income": -152754000.0,
+      "net_income": -144071000.0,
+      "dna": 32200000.0,
+      "operating_cf": -120910000.0,
+      "capex": -13982000.0,
+      "free_cash_flow": -134892000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1070357000.0,
+      "total_liabilities": 71724000.0,
+      "total_equity": 998633000.0,
+      "cash": 172343000.0,
+      "total_debt": 7631000.0,
+      "current_assets": 198939000.0,
+      "current_liabilities": 30850000.0,
+      "shares_outstanding": 32862895.0,
+      "net_wc": 168089000.0,
+      "wc_change": -0.0,
+      "capex_abs": 13982000.0,
+      "maint_capex": 9787400.0,
+      "owner_earnings": -121658400.0,
+      "gross_margin_pct": 52.97010313764742,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 30931000.0,
+      "gross_profit": 19227000.0,
+      "operating_income": -530053000.0,
+      "net_income": -71530000.0,
+      "dna": 29800000.0,
+      "operating_cf": -160273000.0,
+      "capex": -75077000.0,
+      "free_cash_flow": -235350000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1845625000.0,
+      "total_liabilities": 158032000.0,
+      "total_equity": 1687593000.0,
+      "cash": 762642000.0,
+      "total_debt": 10456000.0,
+      "current_assets": 801841000.0,
+      "current_liabilities": 56251000.0,
+      "shares_outstanding": 32862895.0,
+      "net_wc": 745590000.0,
+      "wc_change": -577501000.0,
+      "capex_abs": 75077000.0,
+      "maint_capex": 52553900.0,
+      "owner_earnings": -671784900.0,
+      "gross_margin_pct": 62.16093886392292,
+      "rev_growth_pct": 34.60550937812785
+    }
+  ],
+  "latest_oe": -671784900.0,
+  "latest_cash": 762642000.0,
+  "latest_debt": 10456000.0,
+  "ev": 1064039280.0,
+  "oe_yield": -63.135347785281006,
+  "roe": -4.238581221894141,
+  "debt_equity": 0.006195806690357213,
+  "latest_gm": 62.16093886392292,
+  "current_ratio": 14.254697694263212,
+  "latest_net_income": -71530000.0,
+  "latest_dna": 29800000.0,
+  "latest_wc_change": -577501000.0,
+  "latest_maint_capex": 52553900.0,
+  "latest_net_wc": 745590000.0,
+  "latest_current_assets": 801841000.0,
+  "latest_current_liabilities": 56251000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 62.2%)",
+    "OE growing avg 452.2% p.a.",
+    "Low leverage (0.01x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "Quantinuum Inc. QNT revenue predictability recurring demand analysis 2025 2026",
+      "Quantinuum Inc. QNT business model complexity investor circle of competence",
+      "Quantinuum Inc. QNT 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Quantinuum Inc. QNT competitive moat analysis switching costs brand advantage",
+      "Quantinuum Inc. QNT network effects scale advantages cost leadership",
+      "Quantinuum Inc. QNT patents regulatory barriers intellectual property moat",
+      "Quantinuum Inc. QNT competitive threats risks disruption challenges 2025 2026",
+      "Quantinuum Inc. QNT moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Quantinuum Inc. QNT CEO management candor shareholder letter transparency",
+      "Quantinuum Inc. QNT executive compensation insider ownership stock options proxy",
+      "Quantinuum Inc. QNT key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Quantinuum Inc. QNT stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Quantinuum Inc. QNT investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Quantinuum Inc. QNT market position monopoly commodity pricing power ecosystem",
+      "Quantinuum Inc. QNT growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Quantinuum Inc. QNT investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Quantinuum Inc. QNT investment risk permanent capital loss downside analysis",
+      "Quantinuum Inc. QNT opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

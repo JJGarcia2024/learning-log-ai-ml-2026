@@ -1,0 +1,132 @@
+{
+  "ticker": "AVBH",
+  "company_name": "Avidbank Holdings, Inc.",
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
+  "description": "Avidbank Holdings, Inc. operates as a bank holding company for Avidbank that provides financial solutions and services. It offers business and personal deposit products, such as checking, money market, and savings accounts; and certificates of deposit. The company also provides lending products, including working capital lines of credit, equipment loans, acquisition financing, shareholder buyouts, ESOP loans, and owner-occupied real estate loans; sponsor finance comprising acquisition term loans, recapitalization term loans, and working capital lines; and venture lending, such as venture debt,",
+  "employees": "154",
+  "exchange": "NMS",
+  "website": "https://www.avidbank.com",
+  "current_price": 32.01,
+  "market_cap": 350674880.0,
+  "shares_out": 10955167.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 81232000.0,
+      "gross_profit": 0.0,
+      "operating_income": 0.0,
+      "net_income": 21015000.0,
+      "dna": 1648000.0,
+      "operating_cf": 22691000.0,
+      "capex": -47000.0,
+      "free_cash_flow": 22644000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -713000.0,
+      "total_assets": 2304488000.0,
+      "total_liabilities": 2118126000.0,
+      "total_equity": 186362000.0,
+      "cash": 82701000.0,
+      "total_debt": 207000000.0,
+      "current_assets": 0.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 7906761.0,
+      "net_wc": 0.0,
+      "wc_change": -0.0,
+      "capex_abs": 47000.0,
+      "maint_capex": 32900.0,
+      "owner_earnings": 22630100.0,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 30929000.0,
+      "gross_profit": 0.0,
+      "operating_income": 0.0,
+      "net_income": -19553000.0,
+      "dna": 1133000.0,
+      "operating_cf": 39033000.0,
+      "capex": -93000.0,
+      "free_cash_flow": 38940000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -1522000.0,
+      "total_assets": 2569643000.0,
+      "total_liabilities": 2288664000.0,
+      "total_equity": 280979000.0,
+      "cash": 154569000.0,
+      "total_debt": 82000000.0,
+      "current_assets": 0.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 10947967.0,
+      "net_wc": 0.0,
+      "wc_change": -0.0,
+      "capex_abs": 93000.0,
+      "maint_capex": 65099.99999999999,
+      "owner_earnings": -18485100.0,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": -61.92510340752413
+    }
+  ],
+  "latest_oe": -18485100.0,
+  "latest_cash": 154569000.0,
+  "latest_debt": 82000000.0,
+  "ev": 278105880.0,
+  "oe_yield": -6.6467850302194265,
+  "roe": -6.958883048199331,
+  "debt_equity": 0.29183675648358065,
+  "latest_gm": 0.0,
+  "current_ratio": 0.0,
+  "latest_net_income": -19553000.0,
+  "latest_dna": 1133000.0,
+  "latest_wc_change": -0.0,
+  "latest_maint_capex": 65099.99999999999,
+  "latest_net_wc": 0.0,
+  "latest_current_assets": 0.0,
+  "latest_current_liabilities": 0.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.29x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Avidbank Holdings, Inc. AVBH revenue predictability recurring demand analysis 2025 2026",
+      "Avidbank Holdings, Inc. AVBH business model complexity investor circle of competence",
+      "Avidbank Holdings, Inc. AVBH 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Avidbank Holdings, Inc. AVBH competitive moat analysis switching costs brand advantage",
+      "Avidbank Holdings, Inc. AVBH network effects scale advantages cost leadership",
+      "Avidbank Holdings, Inc. AVBH patents regulatory barriers intellectual property moat",
+      "Avidbank Holdings, Inc. AVBH competitive threats risks disruption challenges 2025 2026",
+      "Avidbank Holdings, Inc. AVBH moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Avidbank Holdings, Inc. AVBH CEO management candor shareholder letter transparency",
+      "Avidbank Holdings, Inc. AVBH executive compensation insider ownership stock options proxy",
+      "Avidbank Holdings, Inc. AVBH key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Avidbank Holdings, Inc. AVBH stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Avidbank Holdings, Inc. AVBH investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Avidbank Holdings, Inc. AVBH market position monopoly commodity pricing power ecosystem",
+      "Avidbank Holdings, Inc. AVBH growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Avidbank Holdings, Inc. AVBH investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Avidbank Holdings, Inc. AVBH investment risk permanent capital loss downside analysis",
+      "Avidbank Holdings, Inc. AVBH opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

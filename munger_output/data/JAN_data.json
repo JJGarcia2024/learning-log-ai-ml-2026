@@ -1,0 +1,132 @@
+{
+  "ticker": "JAN",
+  "company_name": "Janus Living, Inc.",
+  "sector": "Real Estate",
+  "industry": "REIT - Residential",
+  "description": "Janus Living, Inc. is the only U.S. publicly traded REIT focused exclusively on the senior housing sector and the only U.S. publicly traded REIT. The firm's entire portfolio is owned and operated under RIDEA structures. The Firm's initial portfolio consisting of 34 senior housing communities, comprised of 10,422 units as of December 31, 2025. It's communities are located primarily in major retirement markets across 10 states, with units in Florida and Texas representing 69% of the total units as of December 31, 2025. All of the communities are owned and operated under RIDEA structures. Service",
+  "employees": "N/A",
+  "exchange": "NYQ",
+  "website": "https://www.janusreit.com",
+  "current_price": 25.19,
+  "market_cap": 5345897472.0,
+  "shares_out": 212222996.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 568475000.0,
+      "gross_profit": 0.0,
+      "operating_income": -11075000.0,
+      "net_income": -50463000.0,
+      "dna": 137186000.0,
+      "operating_cf": 128561000.0,
+      "capex": -65064000.0,
+      "free_cash_flow": 63497000.0,
+      "dividends_paid": -79644000.0,
+      "buybacks": 0.0,
+      "total_assets": 2343302000.0,
+      "total_liabilities": 1034449000.0,
+      "total_equity": 1308853000.0,
+      "cash": 18777000.0,
+      "total_debt": 106247000.0,
+      "current_assets": 179871000.0,
+      "current_liabilities": 928202000.0,
+      "shares_outstanding": 180922996.0,
+      "net_wc": -748331000.0,
+      "wc_change": -0.0,
+      "capex_abs": 65064000.0,
+      "maint_capex": 45544800.0,
+      "owner_earnings": 41178200.0,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 771165000.0,
+      "gross_profit": 0.0,
+      "operating_income": -93879000.0,
+      "net_income": -61102000.0,
+      "dna": 126356000.0,
+      "operating_cf": 136816000.0,
+      "capex": -123921000.0,
+      "free_cash_flow": 12895000.0,
+      "dividends_paid": -32892000.0,
+      "buybacks": 0.0,
+      "total_assets": 3518085000.0,
+      "total_liabilities": 1007880000.0,
+      "total_equity": 1767205000.0,
+      "cash": 828094000.0,
+      "total_debt": 0.0,
+      "current_assets": 916024000.0,
+      "current_liabilities": 1007880000.0,
+      "shares_outstanding": 180922996.0,
+      "net_wc": -91856000.0,
+      "wc_change": -656475000.0,
+      "capex_abs": 123921000.0,
+      "maint_capex": 86744700.0,
+      "owner_earnings": -677965700.0,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": 35.655041998328855
+    }
+  ],
+  "latest_oe": -677965700.0,
+  "latest_cash": 828094000.0,
+  "latest_debt": 0.0,
+  "ev": 4517803472.0,
+  "oe_yield": -15.006533688369347,
+  "roe": -3.4575501993260547,
+  "debt_equity": 0.0,
+  "latest_gm": 0.0,
+  "current_ratio": 0.9088621661308885,
+  "latest_net_income": -61102000.0,
+  "latest_dna": 126356000.0,
+  "latest_wc_change": -656475000.0,
+  "latest_maint_capex": 86744700.0,
+  "latest_net_wc": -91856000.0,
+  "latest_current_assets": 916024000.0,
+  "latest_current_liabilities": 1007880000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Real Estate)",
+  "search_queries": {
+    "section_1": [
+      "Janus Living, Inc. JAN revenue predictability recurring demand analysis 2025 2026",
+      "Janus Living, Inc. JAN business model complexity investor circle of competence",
+      "Janus Living, Inc. JAN 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Janus Living, Inc. JAN competitive moat analysis switching costs brand advantage",
+      "Janus Living, Inc. JAN network effects scale advantages cost leadership",
+      "Janus Living, Inc. JAN patents regulatory barriers intellectual property moat",
+      "Janus Living, Inc. JAN competitive threats risks disruption challenges 2025 2026",
+      "Janus Living, Inc. JAN moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Janus Living, Inc. JAN CEO management candor shareholder letter transparency",
+      "Janus Living, Inc. JAN executive compensation insider ownership stock options proxy",
+      "Janus Living, Inc. JAN key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Janus Living, Inc. JAN stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Janus Living, Inc. JAN investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Janus Living, Inc. JAN market position monopoly commodity pricing power ecosystem",
+      "Janus Living, Inc. JAN growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Janus Living, Inc. JAN investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Janus Living, Inc. JAN investment risk permanent capital loss downside analysis",
+      "Janus Living, Inc. JAN opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

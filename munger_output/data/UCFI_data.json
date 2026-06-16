@@ -1,0 +1,163 @@
+{
+  "ticker": "UCFI",
+  "company_name": "CN Healthy Food Tech Group Corp.",
+  "sector": "Consumer Defensive",
+  "industry": "Packaged Foods",
+  "description": "CN Healthy Food Tech Group Corp., together with its subsidiaries, engages in the research and development, production, and sale of bio-health food in the People's Republic of China. It operates through two segments, Wholesale Distribution and Live-Stream Sales. The company offers cordyceps peptide selenium powders, Baofei granule extract plant drinks, Yancui peptide selenium powders, Ganoderma lucidum and matsutake peptide selenium powders, ginseng peptide selenium powders, collagen peptide prebiotic drinks, plant essential oils, and Shangshangyi congee products. It sells its products through ",
+  "employees": "N/A",
+  "exchange": "NCM",
+  "website": "N/A",
+  "current_price": 5.51,
+  "market_cap": 287814784.0,
+  "shares_out": 52234983.0,
+  "pe_ratio": 30.61111,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": 0.0,
+      "net_income": 0.0,
+      "dna": 0.0,
+      "operating_cf": 14.0,
+      "capex": 0.0,
+      "free_cash_flow": 14.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 15.0,
+      "total_liabilities": 14.0,
+      "total_equity": 1.0,
+      "cash": 15.0,
+      "total_debt": 0.0,
+      "current_assets": 15.0,
+      "current_liabilities": 14.0,
+      "shares_outstanding": 51235000.0,
+      "net_wc": 1.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 0.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 11346907.0,
+      "gross_profit": 7543839.0,
+      "operating_income": 5541901.0,
+      "net_income": 3996003.0,
+      "dna": 194602.0,
+      "operating_cf": 42116405.0,
+      "capex": -52408.0,
+      "free_cash_flow": 42063997.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 50752737.0,
+      "total_liabilities": 39942149.0,
+      "total_equity": 10810588.0,
+      "cash": 41432852.0,
+      "total_debt": 0.0,
+      "current_assets": 44017708.0,
+      "current_liabilities": 39942149.0,
+      "shares_outstanding": 51235000.0,
+      "net_wc": 4075559.0,
+      "wc_change": -4075558.0,
+      "capex_abs": 52408.0,
+      "maint_capex": 36685.6,
+      "owner_earnings": 78361.4,
+      "gross_margin_pct": 66.4836593796001,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 27759850.0,
+      "gross_profit": 18416398.0,
+      "operating_income": 11778439.0,
+      "net_income": 8412519.0,
+      "dna": 613533.0,
+      "operating_cf": -9044499.0,
+      "capex": -753254.0,
+      "free_cash_flow": -9797753.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 44728600.0,
+      "total_liabilities": 24854419.0,
+      "total_equity": 19874181.0,
+      "cash": 33013749.0,
+      "total_debt": 3952849.0,
+      "current_assets": 36891760.0,
+      "current_liabilities": 24610929.0,
+      "shares_outstanding": 52234983.0,
+      "net_wc": 12280831.0,
+      "wc_change": -8205272.0,
+      "capex_abs": 753254.0,
+      "maint_capex": 527277.7999999999,
+      "owner_earnings": 293502.20000000007,
+      "gross_margin_pct": 66.3418498298802,
+      "rev_growth_pct": 144.64684517111138
+    }
+  ],
+  "latest_oe": 293502.20000000007,
+  "latest_cash": 33013749.0,
+  "latest_debt": 3952849.0,
+  "ev": 258753884.0,
+  "oe_yield": 0.11342909929035117,
+  "roe": 42.32888389212114,
+  "debt_equity": 0.19889368019743808,
+  "latest_gm": 66.3418498298802,
+  "current_ratio": 1.498999082887119,
+  "latest_net_income": 8412519.0,
+  "latest_dna": 613533.0,
+  "latest_wc_change": -8205272.0,
+  "latest_maint_capex": 527277.7999999999,
+  "latest_net_wc": 12280831.0,
+  "latest_current_assets": 36891760.0,
+  "latest_current_liabilities": 24610929.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 66.3%)",
+    "OE growing avg inf% p.a.",
+    "High ROE 42.3%",
+    "Low leverage (0.20x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Consumer Defensive)",
+  "search_queries": {
+    "section_1": [
+      "CN Healthy Food Tech Group Corp. UCFI revenue predictability recurring demand analysis 2025 2026",
+      "CN Healthy Food Tech Group Corp. UCFI business model complexity investor circle of competence",
+      "CN Healthy Food Tech Group Corp. UCFI 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "CN Healthy Food Tech Group Corp. UCFI competitive moat analysis switching costs brand advantage",
+      "CN Healthy Food Tech Group Corp. UCFI network effects scale advantages cost leadership",
+      "CN Healthy Food Tech Group Corp. UCFI patents regulatory barriers intellectual property moat",
+      "CN Healthy Food Tech Group Corp. UCFI competitive threats risks disruption challenges 2025 2026",
+      "CN Healthy Food Tech Group Corp. UCFI moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "CN Healthy Food Tech Group Corp. UCFI CEO management candor shareholder letter transparency",
+      "CN Healthy Food Tech Group Corp. UCFI executive compensation insider ownership stock options proxy",
+      "CN Healthy Food Tech Group Corp. UCFI key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "CN Healthy Food Tech Group Corp. UCFI stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "CN Healthy Food Tech Group Corp. UCFI investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "CN Healthy Food Tech Group Corp. UCFI market position monopoly commodity pricing power ecosystem",
+      "CN Healthy Food Tech Group Corp. UCFI growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "CN Healthy Food Tech Group Corp. UCFI investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "CN Healthy Food Tech Group Corp. UCFI investment risk permanent capital loss downside analysis",
+      "CN Healthy Food Tech Group Corp. UCFI opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

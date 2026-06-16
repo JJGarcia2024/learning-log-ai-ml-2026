@@ -1,0 +1,162 @@
+{
+  "ticker": "CV",
+  "company_name": "CapsoVision, Inc.",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
+  "description": "CapsoVision, Inc., a medical technology company, manufactures and markets endoscopic video imaging devices focused on internal imaging of the gastrointestinal system. The company offers CapsoCam Plus, a capsule endoscopy system for visualization of the small bowel mucosa in adults and children aged 2 years and above; and CapsoCam Colon for visualization of the colon and detection and measurement of polyps, as well as develops CapsoColon 3D for large intestines (colon). It also provides CapsoCloud cloud-based software-as-a-service ecosystem as an off-premises video access and download solution;",
+  "employees": "99",
+  "exchange": "NCM",
+  "website": "https://capsovision.com",
+  "current_price": 7.23,
+  "market_cap": 361236704.0,
+  "shares_out": 49963586.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 9753000.0,
+      "gross_profit": 5491000.0,
+      "operating_income": -11347000.0,
+      "net_income": -11305000.0,
+      "dna": 388000.0,
+      "operating_cf": -10802000.0,
+      "capex": -754000.0,
+      "free_cash_flow": -11556000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 21527000.0,
+      "total_liabilities": 131370000.0,
+      "total_equity": -109843000.0,
+      "cash": 14559000.0,
+      "total_debt": 1514000.0,
+      "current_assets": 19202000.0,
+      "current_liabilities": 1507000.0,
+      "shares_outstanding": 46344080.0,
+      "net_wc": 17695000.0,
+      "wc_change": -0.0,
+      "capex_abs": 754000.0,
+      "maint_capex": 527800.0,
+      "owner_earnings": -11444800.0,
+      "gross_margin_pct": 56.30062544857992,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 11756000.0,
+      "gross_profit": 6377000.0,
+      "operating_income": -19917000.0,
+      "net_income": -19898000.0,
+      "dna": 521000.0,
+      "operating_cf": -20091000.0,
+      "capex": -153000.0,
+      "free_cash_flow": -20244000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 16803000.0,
+      "total_liabilities": 146313000.0,
+      "total_equity": -129510000.0,
+      "cash": 9319000.0,
+      "total_debt": 1238000.0,
+      "current_assets": 14847000.0,
+      "current_liabilities": 1801000.0,
+      "shares_outstanding": 46344080.0,
+      "net_wc": 13046000.0,
+      "wc_change": 4649000.0,
+      "capex_abs": 153000.0,
+      "maint_capex": 107100.0,
+      "owner_earnings": -14835100.0,
+      "gross_margin_pct": 54.24464103436543,
+      "rev_growth_pct": 20.53727058341024
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 13554000.0,
+      "gross_profit": 7173000.0,
+      "operating_income": -25516000.0,
+      "net_income": -25315000.0,
+      "dna": 567000.0,
+      "operating_cf": -22864000.0,
+      "capex": -90000.0,
+      "free_cash_flow": -22954000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 18164000.0,
+      "total_liabilities": 4904000.0,
+      "total_equity": 13260000.0,
+      "cash": 10112000.0,
+      "total_debt": 887000.0,
+      "current_assets": 16669000.0,
+      "current_liabilities": 4427000.0,
+      "shares_outstanding": 46865051.0,
+      "net_wc": 12242000.0,
+      "wc_change": 804000.0,
+      "capex_abs": 90000.0,
+      "maint_capex": 62999.99999999999,
+      "owner_earnings": -24007000.0,
+      "gross_margin_pct": 52.92164674634794,
+      "rev_growth_pct": 15.294317795168432
+    }
+  ],
+  "latest_oe": -24007000.0,
+  "latest_cash": 10112000.0,
+  "latest_debt": 887000.0,
+  "ev": 352011704.0,
+  "oe_yield": -6.819943691417715,
+  "roe": -190.91251885369533,
+  "debt_equity": 0.06689291101055807,
+  "latest_gm": 52.92164674634794,
+  "current_ratio": 3.7653038174836233,
+  "latest_net_income": -25315000.0,
+  "latest_dna": 567000.0,
+  "latest_wc_change": 804000.0,
+  "latest_maint_capex": 62999.99999999999,
+  "latest_net_wc": 12242000.0,
+  "latest_current_assets": 16669000.0,
+  "latest_current_liabilities": 4427000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 52.9%)",
+    "OE growing avg 45.7% p.a.",
+    "Low leverage (0.07x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "CapsoVision, Inc. CV revenue predictability recurring demand analysis 2025 2026",
+      "CapsoVision, Inc. CV business model complexity investor circle of competence",
+      "CapsoVision, Inc. CV 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "CapsoVision, Inc. CV competitive moat analysis switching costs brand advantage",
+      "CapsoVision, Inc. CV network effects scale advantages cost leadership",
+      "CapsoVision, Inc. CV patents regulatory barriers intellectual property moat",
+      "CapsoVision, Inc. CV competitive threats risks disruption challenges 2025 2026",
+      "CapsoVision, Inc. CV moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "CapsoVision, Inc. CV CEO management candor shareholder letter transparency",
+      "CapsoVision, Inc. CV executive compensation insider ownership stock options proxy",
+      "CapsoVision, Inc. CV key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "CapsoVision, Inc. CV stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "CapsoVision, Inc. CV investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "CapsoVision, Inc. CV market position monopoly commodity pricing power ecosystem",
+      "CapsoVision, Inc. CV growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "CapsoVision, Inc. CV investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "CapsoVision, Inc. CV investment risk permanent capital loss downside analysis",
+      "CapsoVision, Inc. CV opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

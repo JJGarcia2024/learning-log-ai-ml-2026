@@ -1,0 +1,132 @@
+{
+  "ticker": "EVMN",
+  "company_name": "EVMN",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "description": "Evommune, Inc. operates as a clinical-stage biotechnology company in the United States. The company develops therapies that target key drivers of chronic inflammatory diseases, with initial clinical development programs focusing on chronic spontaneous urticaria, atopic dermatitis, and ulcerative colitis. Its products include EVO756 for the treatment of CSU and AD; and EVO301 for the treatment of AD and UC. The company was incorporated in 2020 and is based in Palo Alto, California.",
+  "employees": "48",
+  "exchange": "NYQ",
+  "website": "https://www.evommune.com",
+  "current_price": 20.84,
+  "market_cap": 750622848.0,
+  "shares_out": 36018372.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": 0.0,
+      "net_income": 0.0,
+      "dna": 0.0,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 0.0,
+      "total_liabilities": 0.0,
+      "total_equity": 0.0,
+      "cash": 0.0,
+      "total_debt": 1022000.0,
+      "current_assets": 0.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 0.0,
+      "net_wc": 0.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 13000000.0,
+      "gross_profit": 0.0,
+      "operating_income": -81071000.0,
+      "net_income": -68870000.0,
+      "dna": 1389000.0,
+      "operating_cf": -76441000.0,
+      "capex": -235000.0,
+      "free_cash_flow": -76676000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 224946000.0,
+      "total_liabilities": 19380000.0,
+      "total_equity": 205566000.0,
+      "cash": 44063000.0,
+      "total_debt": 1713000.0,
+      "current_assets": 153478000.0,
+      "current_liabilities": 17909000.0,
+      "shares_outstanding": 31524093.0,
+      "net_wc": 135569000.0,
+      "wc_change": -135569000.0,
+      "capex_abs": 235000.0,
+      "maint_capex": 164500.0,
+      "owner_earnings": -203214500.0,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -203214500.0,
+  "latest_cash": 44063000.0,
+  "latest_debt": 1713000.0,
+  "ev": 708272848.0,
+  "oe_yield": -28.69155588468923,
+  "roe": -33.502622028934745,
+  "debt_equity": 0.00833309010244885,
+  "latest_gm": 0.0,
+  "current_ratio": 8.569881065386118,
+  "latest_net_income": -68870000.0,
+  "latest_dna": 1389000.0,
+  "latest_wc_change": -135569000.0,
+  "latest_maint_capex": 164500.0,
+  "latest_net_wc": 135569000.0,
+  "latest_current_assets": 153478000.0,
+  "latest_current_liabilities": 17909000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.01x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "EVMN EVMN revenue predictability recurring demand analysis 2025 2026",
+      "EVMN EVMN business model complexity investor circle of competence",
+      "EVMN EVMN 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "EVMN EVMN competitive moat analysis switching costs brand advantage",
+      "EVMN EVMN network effects scale advantages cost leadership",
+      "EVMN EVMN patents regulatory barriers intellectual property moat",
+      "EVMN EVMN competitive threats risks disruption challenges 2025 2026",
+      "EVMN EVMN moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "EVMN EVMN CEO management candor shareholder letter transparency",
+      "EVMN EVMN executive compensation insider ownership stock options proxy",
+      "EVMN EVMN key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "EVMN EVMN stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "EVMN EVMN investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "EVMN EVMN market position monopoly commodity pricing power ecosystem",
+      "EVMN EVMN growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "EVMN EVMN investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "EVMN EVMN investment risk permanent capital loss downside analysis",
+      "EVMN EVMN opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

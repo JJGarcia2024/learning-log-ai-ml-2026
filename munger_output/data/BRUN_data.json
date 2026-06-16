@@ -1,0 +1,161 @@
+{
+  "ticker": "BRUN",
+  "company_name": "Boost Run, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "description": "Boost Run, Inc. develops and provides cloud infrastructure for artificial intelligence (AI) and computing workloads. The company's platform delivers GPU computes, CPU nodes, managed Kubernetes orchestration, shared network storage, networking fabric, and hyperscaler interconnects. The company was founded in 2023 and is based in Northbrook, Illinois.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://boostrun.com",
+  "current_price": 37.46,
+  "market_cap": 2301117952.0,
+  "shares_out": 31895656.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 5673000.0,
+      "total_liabilities": 39000.0,
+      "total_equity": 5634000.0,
+      "cash": 66000.0,
+      "total_debt": 0.0,
+      "current_assets": 182000.0,
+      "current_liabilities": 39000.0,
+      "shares_outstanding": 48778674.0,
+      "net_wc": 143000.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 7935000.0,
+      "gross_profit": 6005000.0,
+      "operating_income": -69000.0,
+      "net_income": -212000.0,
+      "dna": 2534000.0,
+      "operating_cf": 2958000.0,
+      "capex": -4100000.0,
+      "free_cash_flow": -1142000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 13317000.0,
+      "total_liabilities": 5824000.0,
+      "total_equity": 7493000.0,
+      "cash": 335000.0,
+      "total_debt": 4842000.0,
+      "current_assets": 1166000.0,
+      "current_liabilities": 2583000.0,
+      "shares_outstanding": 48778674.0,
+      "net_wc": -1417000.0,
+      "wc_change": 1560000.0,
+      "capex_abs": 4100000.0,
+      "maint_capex": 2870000.0,
+      "owner_earnings": 1012000.0,
+      "gross_margin_pct": 75.67737870195337,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 26887000.0,
+      "gross_profit": 22996000.0,
+      "operating_income": -11053000.0,
+      "net_income": -16274000.0,
+      "dna": 10536000.0,
+      "operating_cf": 24930000.0,
+      "capex": -11569000.0,
+      "free_cash_flow": 13361000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 77434000.0,
+      "total_liabilities": 69298000.0,
+      "total_equity": 8136000.0,
+      "cash": 9747000.0,
+      "total_debt": 46010000.0,
+      "current_assets": 19674000.0,
+      "current_liabilities": 40639000.0,
+      "shares_outstanding": 48778674.0,
+      "net_wc": -20965000.0,
+      "wc_change": 19548000.0,
+      "capex_abs": 11569000.0,
+      "maint_capex": 8098299.999999999,
+      "owner_earnings": 5711700.000000001,
+      "gross_margin_pct": 85.52832223751255,
+      "rev_growth_pct": 238.84057971014494
+    }
+  ],
+  "latest_oe": 5711700.000000001,
+  "latest_cash": 9747000.0,
+  "latest_debt": 46010000.0,
+  "ev": 2337380952.0,
+  "oe_yield": 0.24436324746775814,
+  "roe": -200.02458210422813,
+  "debt_equity": 5.65511307767945,
+  "latest_gm": 85.52832223751255,
+  "current_ratio": 0.48411624301779077,
+  "latest_net_income": -16274000.0,
+  "latest_dna": 10536000.0,
+  "latest_wc_change": 19548000.0,
+  "latest_maint_capex": 8098299.999999999,
+  "latest_net_wc": -20965000.0,
+  "latest_current_assets": 19674000.0,
+  "latest_current_liabilities": 40639000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 85.5%)",
+    "OE growing avg 464.4% p.a."
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "Boost Run, Inc. BRUN revenue predictability recurring demand analysis 2025 2026",
+      "Boost Run, Inc. BRUN business model complexity investor circle of competence",
+      "Boost Run, Inc. BRUN 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Boost Run, Inc. BRUN competitive moat analysis switching costs brand advantage",
+      "Boost Run, Inc. BRUN network effects scale advantages cost leadership",
+      "Boost Run, Inc. BRUN patents regulatory barriers intellectual property moat",
+      "Boost Run, Inc. BRUN competitive threats risks disruption challenges 2025 2026",
+      "Boost Run, Inc. BRUN moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Boost Run, Inc. BRUN CEO management candor shareholder letter transparency",
+      "Boost Run, Inc. BRUN executive compensation insider ownership stock options proxy",
+      "Boost Run, Inc. BRUN key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Boost Run, Inc. BRUN stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Boost Run, Inc. BRUN investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Boost Run, Inc. BRUN market position monopoly commodity pricing power ecosystem",
+      "Boost Run, Inc. BRUN growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Boost Run, Inc. BRUN investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Boost Run, Inc. BRUN investment risk permanent capital loss downside analysis",
+      "Boost Run, Inc. BRUN opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

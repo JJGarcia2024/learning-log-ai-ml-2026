@@ -1,0 +1,161 @@
+{
+  "ticker": "FJET",
+  "company_name": "FJET",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "description": "Starfighters Space, Inc. engages in the operation of a commercial fleet of flight-ready F-104 supersonic aircraft, Lockheed F-104 for the United States Armed Forces. It offers pilot and astronaut training and in-flight testing related services and solutions for defense, civil, academic and commercial industries in the private and public sectors. The company also provides launch and access to space services for commercial, academic, civil and government clients. In addition, it provides airborne testbed for hypersonic research and development, and test and evaluation services. Starfighters Spac",
+  "employees": "N/A",
+  "exchange": "ASE",
+  "website": "https://starfightersspace.com",
+  "current_price": 5.7,
+  "market_cap": 282870208.0,
+  "shares_out": 49626351.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -4085158.0,
+      "net_income": -4681583.0,
+      "dna": 78906.0,
+      "operating_cf": -3362780.0,
+      "capex": 0.0,
+      "free_cash_flow": -3362780.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 3631392.0,
+      "total_liabilities": 11567680.0,
+      "total_equity": -7936288.0,
+      "cash": 1694109.0,
+      "total_debt": 8217326.0,
+      "current_assets": 2140733.0,
+      "current_liabilities": 2820024.0,
+      "shares_outstanding": 27862261.0,
+      "net_wc": -679291.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -4602677.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -4003183.0,
+      "net_income": -7908777.0,
+      "dna": 92702.0,
+      "operating_cf": -3864714.0,
+      "capex": 0.0,
+      "free_cash_flow": -3864714.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 10300586.0,
+      "total_liabilities": 16191042.0,
+      "total_equity": -5890456.0,
+      "cash": 7050610.0,
+      "total_debt": 10565079.0,
+      "current_assets": 8352629.0,
+      "current_liabilities": 16028892.0,
+      "shares_outstanding": 27862261.0,
+      "net_wc": -7676263.0,
+      "wc_change": 6996972.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -819103.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -15116497.0,
+      "net_income": -16543616.0,
+      "dna": 125146.0,
+      "operating_cf": -8227372.0,
+      "capex": -150763.0,
+      "free_cash_flow": -8378135.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 28386884.0,
+      "total_liabilities": 3486332.0,
+      "total_equity": 24900552.0,
+      "cash": 4581128.0,
+      "total_debt": 2016277.0,
+      "current_assets": 20143416.0,
+      "current_liabilities": 3052079.0,
+      "shares_outstanding": 43891846.0,
+      "net_wc": 17091337.0,
+      "wc_change": -24767600.0,
+      "capex_abs": 150763.0,
+      "maint_capex": 105534.09999999999,
+      "owner_earnings": -41291604.1,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -41291604.1,
+  "latest_cash": 4581128.0,
+  "latest_debt": 2016277.0,
+  "ev": 280305357.0,
+  "oe_yield": -14.730936483671982,
+  "roe": -66.43875204051702,
+  "debt_equity": 0.08097318485148441,
+  "latest_gm": null,
+  "current_ratio": 6.599899937059297,
+  "latest_net_income": -16543616.0,
+  "latest_dna": 125146.0,
+  "latest_wc_change": -24767600.0,
+  "latest_maint_capex": 105534.09999999999,
+  "latest_net_wc": 17091337.0,
+  "latest_current_assets": 20143416.0,
+  "latest_current_liabilities": 3052079.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 2429.4% p.a.",
+    "Low leverage (0.08x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Industrials)",
+  "search_queries": {
+    "section_1": [
+      "FJET FJET revenue predictability recurring demand analysis 2025 2026",
+      "FJET FJET business model complexity investor circle of competence",
+      "FJET FJET 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "FJET FJET competitive moat analysis switching costs brand advantage",
+      "FJET FJET network effects scale advantages cost leadership",
+      "FJET FJET patents regulatory barriers intellectual property moat",
+      "FJET FJET competitive threats risks disruption challenges 2025 2026",
+      "FJET FJET moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "FJET FJET CEO management candor shareholder letter transparency",
+      "FJET FJET executive compensation insider ownership stock options proxy",
+      "FJET FJET key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "FJET FJET stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "FJET FJET investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "FJET FJET market position monopoly commodity pricing power ecosystem",
+      "FJET FJET growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "FJET FJET investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "FJET FJET investment risk permanent capital loss downside analysis",
+      "FJET FJET opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

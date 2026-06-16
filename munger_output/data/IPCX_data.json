@@ -1,0 +1,132 @@
+{
+  "ticker": "IPCX",
+  "company_name": "Inflection Point Acquisition Corp. III",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Inflection Point Acquisition Corp. III does not have significant operations. It intends to effect a merger, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. Inflection Point Acquisition Corp was incorporated in 2024 and is headquartered in New York, New York.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "N/A",
+  "current_price": 10.33,
+  "market_cap": 356109504.0,
+  "shares_out": 26040000.0,
+  "pe_ratio": 114.77777,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 326027.0,
+      "total_liabilities": 386823.0,
+      "total_equity": -60796.0,
+      "cash": 0.0,
+      "total_debt": 126884.0,
+      "current_assets": 5532.0,
+      "current_liabilities": 372367.0,
+      "shares_outstanding": 29173333.0,
+      "net_wc": -366835.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -6532315.0,
+      "net_income": 498416.0,
+      "dna": 0.0,
+      "operating_cf": -1442021.0,
+      "capex": 0.0,
+      "free_cash_flow": -1442021.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 261134426.0,
+      "total_liabilities": 15020893.0,
+      "total_equity": 246113533.0,
+      "cash": 1126011.0,
+      "total_debt": 187.0,
+      "current_assets": 1300138.0,
+      "current_liabilities": 457974.0,
+      "shares_outstanding": 34473333.0,
+      "net_wc": 842164.0,
+      "wc_change": -1208999.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -710583.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -710583.0,
+  "latest_cash": 1126011.0,
+  "latest_debt": 187.0,
+  "ev": 354983680.0,
+  "oe_yield": -0.20017342769109836,
+  "roe": 0.20251466626989584,
+  "debt_equity": 7.598119360628576e-07,
+  "latest_gm": null,
+  "current_ratio": 2.8388904173599374,
+  "latest_net_income": 498416.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -1208999.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 842164.0,
+  "latest_current_assets": 1300138.0,
+  "latest_current_liabilities": 457974.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Inflection Point Acquisition Corp. III IPCX revenue predictability recurring demand analysis 2025 2026",
+      "Inflection Point Acquisition Corp. III IPCX business model complexity investor circle of competence",
+      "Inflection Point Acquisition Corp. III IPCX 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Inflection Point Acquisition Corp. III IPCX competitive moat analysis switching costs brand advantage",
+      "Inflection Point Acquisition Corp. III IPCX network effects scale advantages cost leadership",
+      "Inflection Point Acquisition Corp. III IPCX patents regulatory barriers intellectual property moat",
+      "Inflection Point Acquisition Corp. III IPCX competitive threats risks disruption challenges 2025 2026",
+      "Inflection Point Acquisition Corp. III IPCX moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Inflection Point Acquisition Corp. III IPCX CEO management candor shareholder letter transparency",
+      "Inflection Point Acquisition Corp. III IPCX executive compensation insider ownership stock options proxy",
+      "Inflection Point Acquisition Corp. III IPCX key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Inflection Point Acquisition Corp. III IPCX stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Inflection Point Acquisition Corp. III IPCX investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Inflection Point Acquisition Corp. III IPCX market position monopoly commodity pricing power ecosystem",
+      "Inflection Point Acquisition Corp. III IPCX growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Inflection Point Acquisition Corp. III IPCX investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Inflection Point Acquisition Corp. III IPCX investment risk permanent capital loss downside analysis",
+      "Inflection Point Acquisition Corp. III IPCX opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

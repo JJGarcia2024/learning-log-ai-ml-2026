@@ -1,0 +1,132 @@
+{
+  "ticker": "PACH",
+  "company_name": "Pioneer Acquisition I Corp",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Pioneer Acquisition I Corp does not have significant operations. It seeks to effect a merger, share exchange, asset acquisition, share purchase, reorganization or similar business combination with one or more businesses or entities in the healthcare or healthcare-related industries. The company was incorporated in 2024 and is based in Brooklyn, New York.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "N/A",
+  "current_price": 10.24,
+  "market_cap": 323840000.0,
+  "shares_out": 22114799.0,
+  "pe_ratio": 34.13333,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 195889.0,
+      "total_liabilities": 226037.0,
+      "total_equity": -30148.0,
+      "cash": 25092.0,
+      "total_debt": 0.0,
+      "current_assets": 25092.0,
+      "current_liabilities": 226037.0,
+      "shares_outstanding": 27500000.0,
+      "net_wc": -200945.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -559974.0,
+      "net_income": 4782280.0,
+      "dna": 0.0,
+      "operating_cf": -542897.0,
+      "capex": 0.0,
+      "free_cash_flow": -542897.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 259221117.0,
+      "total_liabilities": 12281278.0,
+      "total_equity": 246939839.0,
+      "cash": 764902.0,
+      "total_debt": 0.0,
+      "current_assets": 850498.0,
+      "current_liabilities": 186278.0,
+      "shares_outstanding": 31625000.0,
+      "net_wc": 664220.0,
+      "wc_change": -865165.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 3917115.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 3917115.0,
+  "latest_cash": 764902.0,
+  "latest_debt": 0.0,
+  "ev": 323075098.0,
+  "oe_yield": 1.2124472063148612,
+  "roe": 1.9366174447048214,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 4.565745820762516,
+  "latest_net_income": 4782280.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -865165.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 664220.0,
+  "latest_current_assets": 850498.0,
+  "latest_current_liabilities": 186278.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Pioneer Acquisition I Corp PACH revenue predictability recurring demand analysis 2025 2026",
+      "Pioneer Acquisition I Corp PACH business model complexity investor circle of competence",
+      "Pioneer Acquisition I Corp PACH 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Pioneer Acquisition I Corp PACH competitive moat analysis switching costs brand advantage",
+      "Pioneer Acquisition I Corp PACH network effects scale advantages cost leadership",
+      "Pioneer Acquisition I Corp PACH patents regulatory barriers intellectual property moat",
+      "Pioneer Acquisition I Corp PACH competitive threats risks disruption challenges 2025 2026",
+      "Pioneer Acquisition I Corp PACH moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Pioneer Acquisition I Corp PACH CEO management candor shareholder letter transparency",
+      "Pioneer Acquisition I Corp PACH executive compensation insider ownership stock options proxy",
+      "Pioneer Acquisition I Corp PACH key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Pioneer Acquisition I Corp PACH stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Pioneer Acquisition I Corp PACH investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Pioneer Acquisition I Corp PACH market position monopoly commodity pricing power ecosystem",
+      "Pioneer Acquisition I Corp PACH growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Pioneer Acquisition I Corp PACH investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Pioneer Acquisition I Corp PACH investment risk permanent capital loss downside analysis",
+      "Pioneer Acquisition I Corp PACH opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

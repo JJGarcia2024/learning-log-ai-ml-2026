@@ -1,0 +1,132 @@
+{
+  "ticker": "JBIO",
+  "company_name": "Jade Biosciences, Inc.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "description": "Jade Biosciences, Inc. operates as a biotechnology company that develops therapies for inflammation and immunology indications in patients living with autoimmune diseases. It develops JADE101, a monoclonal antibody to block the A PRoliferation Inducing Ligand protein, which is in phase 1 clinical trial. The company also develops JADE201 and JADE-003, which are in preclinical development stage. Jade Biosciences, Inc. has a collaboration agreement with Paragon Therapeutics, Inc. Jade Biosciences, Inc. is based in Waltham, Massachusetts.",
+  "employees": "55",
+  "exchange": "NCM",
+  "website": "https://jadebiosciences.com",
+  "current_price": 16.1,
+  "market_cap": 979844032.0,
+  "shares_out": 60859875.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 72799000.0,
+      "total_liabilities": 119598000.0,
+      "total_equity": -46799000.0,
+      "cash": 69386000.0,
+      "total_debt": 107600000.0,
+      "current_assets": 69654000.0,
+      "current_liabilities": 11996000.0,
+      "shares_outstanding": 32235926.0,
+      "net_wc": 57658000.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -113542000.0,
+      "net_income": -127410000.0,
+      "dna": 26000.0,
+      "operating_cf": -94689000.0,
+      "capex": -196000.0,
+      "free_cash_flow": -94885000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 349781000.0,
+      "total_liabilities": 17263000.0,
+      "total_equity": 332518000.0,
+      "cash": 88438000.0,
+      "total_debt": 724000.0,
+      "current_assets": 348816000.0,
+      "current_liabilities": 16539000.0,
+      "shares_outstanding": 49316287.0,
+      "net_wc": 332277000.0,
+      "wc_change": -274619000.0,
+      "capex_abs": 196000.0,
+      "maint_capex": 137200.0,
+      "owner_earnings": -402140200.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -402140200.0,
+  "latest_cash": 88438000.0,
+  "latest_debt": 724000.0,
+  "ev": 892130032.0,
+  "oe_yield": -45.0764110135909,
+  "roe": -38.31672270373333,
+  "debt_equity": 0.0021773257387569995,
+  "latest_gm": null,
+  "current_ratio": 21.090513332124072,
+  "latest_net_income": -127410000.0,
+  "latest_dna": 26000.0,
+  "latest_wc_change": -274619000.0,
+  "latest_maint_capex": 137200.0,
+  "latest_net_wc": 332277000.0,
+  "latest_current_assets": 348816000.0,
+  "latest_current_liabilities": 16539000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "Jade Biosciences, Inc. JBIO revenue predictability recurring demand analysis 2025 2026",
+      "Jade Biosciences, Inc. JBIO business model complexity investor circle of competence",
+      "Jade Biosciences, Inc. JBIO 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Jade Biosciences, Inc. JBIO competitive moat analysis switching costs brand advantage",
+      "Jade Biosciences, Inc. JBIO network effects scale advantages cost leadership",
+      "Jade Biosciences, Inc. JBIO patents regulatory barriers intellectual property moat",
+      "Jade Biosciences, Inc. JBIO competitive threats risks disruption challenges 2025 2026",
+      "Jade Biosciences, Inc. JBIO moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Jade Biosciences, Inc. JBIO CEO management candor shareholder letter transparency",
+      "Jade Biosciences, Inc. JBIO executive compensation insider ownership stock options proxy",
+      "Jade Biosciences, Inc. JBIO key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Jade Biosciences, Inc. JBIO stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Jade Biosciences, Inc. JBIO investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Jade Biosciences, Inc. JBIO market position monopoly commodity pricing power ecosystem",
+      "Jade Biosciences, Inc. JBIO growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Jade Biosciences, Inc. JBIO investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Jade Biosciences, Inc. JBIO investment risk permanent capital loss downside analysis",
+      "Jade Biosciences, Inc. JBIO opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

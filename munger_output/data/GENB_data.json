@@ -1,0 +1,133 @@
+{
+  "ticker": "GENB",
+  "company_name": "Generate Biomedicines, Inc.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "description": "Generate Biomedicines, Inc., engaged in the field of generative biology by using machine learning for drug discovery and development through the programming of novel protein therapeutics in the United States. It uses protein-based modalities for drug development. Its product includes GB-0895, is an investigational long-acting anti-TSLP monoclonal antibody in development for severe asthma that is intended to be dosed every six months; GB-4362, an MMAE payload neutralizer monoclonal antibody; GB-5267, A MUC16 CAR-T Cell therapy. In additional, it develops Generate Platform, designed to be a ther",
+  "employees": "312",
+  "exchange": "NMS",
+  "website": "https://generatebiomedicines.com",
+  "current_price": 13.58,
+  "market_cap": 1740853888.0,
+  "shares_out": 128192484.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 20459000.0,
+      "gross_profit": 0.0,
+      "operating_income": -196939000.0,
+      "net_income": -173771000.0,
+      "dna": 15349000.0,
+      "operating_cf": -117750000.0,
+      "capex": -3447000.0,
+      "free_cash_flow": -121197000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 518259000.0,
+      "total_liabilities": 953349000.0,
+      "total_equity": -434519000.0,
+      "cash": 176269000.0,
+      "total_debt": 76972000.0,
+      "current_assets": 407491000.0,
+      "current_liabilities": 86626000.0,
+      "shares_outstanding": 127450201.0,
+      "net_wc": 320865000.0,
+      "wc_change": -0.0,
+      "capex_abs": 3447000.0,
+      "maint_capex": 2412900.0,
+      "owner_earnings": -160834900.0,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 31893000.0,
+      "gross_profit": 0.0,
+      "operating_income": -235065000.0,
+      "net_income": -203154000.0,
+      "dna": 13178000.0,
+      "operating_cf": -200619000.0,
+      "capex": -3514000.0,
+      "free_cash_flow": -204133000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 330182000.0,
+      "total_liabilities": 953379000.0,
+      "total_equity": -615965000.0,
+      "cash": 121650000.0,
+      "total_debt": 68526000.0,
+      "current_assets": 234365000.0,
+      "current_liabilities": 82203000.0,
+      "shares_outstanding": 127450201.0,
+      "net_wc": 152162000.0,
+      "wc_change": 168703000.0,
+      "capex_abs": 3514000.0,
+      "maint_capex": 2459800.0,
+      "owner_earnings": -23732800.0,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": 55.88738452514785
+    }
+  ],
+  "latest_oe": -23732800.0,
+  "latest_cash": 121650000.0,
+  "latest_debt": 68526000.0,
+  "ev": 1687729888.0,
+  "oe_yield": -1.4061965820919324,
+  "roe": 32.98141939882948,
+  "debt_equity": -0.111249827506433,
+  "latest_gm": 0.0,
+  "current_ratio": 2.8510516647810906,
+  "latest_net_income": -203154000.0,
+  "latest_dna": 13178000.0,
+  "latest_wc_change": 168703000.0,
+  "latest_maint_capex": 2459800.0,
+  "latest_net_wc": 152162000.0,
+  "latest_current_assets": 234365000.0,
+  "latest_current_liabilities": 82203000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "High ROE 33.0%",
+    "Low leverage (-0.11x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "Generate Biomedicines, Inc. GENB revenue predictability recurring demand analysis 2025 2026",
+      "Generate Biomedicines, Inc. GENB business model complexity investor circle of competence",
+      "Generate Biomedicines, Inc. GENB 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Generate Biomedicines, Inc. GENB competitive moat analysis switching costs brand advantage",
+      "Generate Biomedicines, Inc. GENB network effects scale advantages cost leadership",
+      "Generate Biomedicines, Inc. GENB patents regulatory barriers intellectual property moat",
+      "Generate Biomedicines, Inc. GENB competitive threats risks disruption challenges 2025 2026",
+      "Generate Biomedicines, Inc. GENB moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Generate Biomedicines, Inc. GENB CEO management candor shareholder letter transparency",
+      "Generate Biomedicines, Inc. GENB executive compensation insider ownership stock options proxy",
+      "Generate Biomedicines, Inc. GENB key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Generate Biomedicines, Inc. GENB stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Generate Biomedicines, Inc. GENB investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Generate Biomedicines, Inc. GENB market position monopoly commodity pricing power ecosystem",
+      "Generate Biomedicines, Inc. GENB growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Generate Biomedicines, Inc. GENB investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Generate Biomedicines, Inc. GENB investment risk permanent capital loss downside analysis",
+      "Generate Biomedicines, Inc. GENB opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

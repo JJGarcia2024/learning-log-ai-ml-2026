@@ -1,0 +1,161 @@
+{
+  "ticker": "EFTY",
+  "company_name": "Etoiles Capital Group Co., Ltd",
+  "sector": "Industrials",
+  "industry": "Consulting Services",
+  "description": "Etoiles Capital Group Co., Ltd, through its subsidiaries, provides integrated investor relations services in Hong Kong, China, and the United States. The company offers public relations management, advertising strategies and publicity materials, investor relations management, due diligence, and value-added services, such as website designing. It also provides support services for corporate events, including roadshows, press conferences, corporate ceremonies, and media interviews. The company was founded in 2013 and is based in Central, Hong Kong. Etoiles Capital Group Co., Ltd is a subsidiary ",
+  "employees": "24",
+  "exchange": "NCM",
+  "website": "https://www.etoilesgroup.com",
+  "current_price": 15.02,
+  "market_cap": 302052224.0,
+  "shares_out": 15110000.0,
+  "pe_ratio": 187.75002,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 63863.0,
+      "gross_profit": 51090.0,
+      "operating_income": 35427.0,
+      "net_income": 32696.0,
+      "dna": 0.0,
+      "operating_cf": 63945.0,
+      "capex": 0.0,
+      "free_cash_flow": 63945.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 70476.0,
+      "total_liabilities": 38834.0,
+      "total_equity": 31642.0,
+      "cash": 70476.0,
+      "total_debt": 0.0,
+      "current_assets": 70476.0,
+      "current_liabilities": 38834.0,
+      "shares_outstanding": 19900000.0,
+      "net_wc": 31642.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 32696.0,
+      "gross_margin_pct": 79.99937365923931,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 2525909.0,
+      "gross_profit": 1991029.0,
+      "operating_income": 1000600.0,
+      "net_income": 852499.0,
+      "dna": 75131.0,
+      "operating_cf": 1622868.0,
+      "capex": -75215.0,
+      "free_cash_flow": 1547653.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 2069102.0,
+      "total_liabilities": 1180908.0,
+      "total_equity": 888194.0,
+      "cash": 1441024.0,
+      "total_debt": 53418.0,
+      "current_assets": 1768932.0,
+      "current_liabilities": 1176331.0,
+      "shares_outstanding": 19900000.0,
+      "net_wc": 592601.0,
+      "wc_change": -560959.0,
+      "capex_abs": 75215.0,
+      "maint_capex": 52650.5,
+      "owner_earnings": 314020.5,
+      "gross_margin_pct": 78.82425693087123,
+      "rev_growth_pct": 3855.1994112396847
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 3222344.0,
+      "gross_profit": 2224869.0,
+      "operating_income": -31908.0,
+      "net_income": -153660.0,
+      "dna": 139495.0,
+      "operating_cf": -910681.0,
+      "capex": -687059.0,
+      "free_cash_flow": -1597740.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 8756855.0,
+      "total_liabilities": 2959843.0,
+      "total_equity": 5797012.0,
+      "cash": 5426805.0,
+      "total_debt": 2081612.0,
+      "current_assets": 5977589.0,
+      "current_liabilities": 1368474.0,
+      "shares_outstanding": 20110000.0,
+      "net_wc": 4609115.0,
+      "wc_change": -4016514.0,
+      "capex_abs": 687059.0,
+      "maint_capex": 480941.3,
+      "owner_earnings": -4511620.3,
+      "gross_margin_pct": 69.04504919400287,
+      "rev_growth_pct": 27.57165836140574
+    }
+  ],
+  "latest_oe": -4511620.3,
+  "latest_cash": 5426805.0,
+  "latest_debt": 2081612.0,
+  "ev": 298707031.0,
+  "oe_yield": -1.5103830281115813,
+  "roe": -2.6506758999291358,
+  "debt_equity": 0.35908361066011246,
+  "latest_gm": 69.04504919400287,
+  "current_ratio": 4.368069104710795,
+  "latest_net_income": -153660.0,
+  "latest_dna": 139495.0,
+  "latest_wc_change": -4016514.0,
+  "latest_maint_capex": 480941.3,
+  "latest_net_wc": 4609115.0,
+  "latest_current_assets": 5977589.0,
+  "latest_current_liabilities": 1368474.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 69.0%)",
+    "Low leverage (0.36x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Industrials)",
+  "search_queries": {
+    "section_1": [
+      "Etoiles Capital Group Co., Ltd EFTY revenue predictability recurring demand analysis 2025 2026",
+      "Etoiles Capital Group Co., Ltd EFTY business model complexity investor circle of competence",
+      "Etoiles Capital Group Co., Ltd EFTY 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Etoiles Capital Group Co., Ltd EFTY competitive moat analysis switching costs brand advantage",
+      "Etoiles Capital Group Co., Ltd EFTY network effects scale advantages cost leadership",
+      "Etoiles Capital Group Co., Ltd EFTY patents regulatory barriers intellectual property moat",
+      "Etoiles Capital Group Co., Ltd EFTY competitive threats risks disruption challenges 2025 2026",
+      "Etoiles Capital Group Co., Ltd EFTY moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Etoiles Capital Group Co., Ltd EFTY CEO management candor shareholder letter transparency",
+      "Etoiles Capital Group Co., Ltd EFTY executive compensation insider ownership stock options proxy",
+      "Etoiles Capital Group Co., Ltd EFTY key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Etoiles Capital Group Co., Ltd EFTY stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Etoiles Capital Group Co., Ltd EFTY investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Etoiles Capital Group Co., Ltd EFTY market position monopoly commodity pricing power ecosystem",
+      "Etoiles Capital Group Co., Ltd EFTY growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Etoiles Capital Group Co., Ltd EFTY investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Etoiles Capital Group Co., Ltd EFTY investment risk permanent capital loss downside analysis",
+      "Etoiles Capital Group Co., Ltd EFTY opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

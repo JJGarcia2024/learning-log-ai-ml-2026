@@ -1,0 +1,132 @@
+{
+  "ticker": "NHIC",
+  "company_name": "NewHold Investment Corp III",
+  "sector": "N/A",
+  "industry": "N/A",
+  "description": "No description available.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "N/A",
+  "current_price": 11.0,
+  "market_cap": 303740416.0,
+  "shares_out": 20905100.0,
+  "pe_ratio": 55.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 382000.0,
+      "total_liabilities": 447000.0,
+      "total_equity": -65000.0,
+      "cash": 55000.0,
+      "total_debt": 240000.0,
+      "current_assets": 55000.0,
+      "current_liabilities": 447000.0,
+      "shares_outstanding": 6545251.0,
+      "net_wc": -392000.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -2090000.0,
+      "net_income": 4918000.0,
+      "dna": 0.0,
+      "operating_cf": -1006000.0,
+      "capex": 0.0,
+      "free_cash_flow": -1006000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 210554000.0,
+      "total_liabilities": 8295000.0,
+      "total_equity": 202259000.0,
+      "cash": 1198000.0,
+      "total_debt": 0.0,
+      "current_assets": 1334000.0,
+      "current_liabilities": 1251000.0,
+      "shares_outstanding": 27612763.0,
+      "net_wc": 83000.0,
+      "wc_change": -475000.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 4443000.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 4443000.0,
+  "latest_cash": 1198000.0,
+  "latest_debt": 0.0,
+  "ev": 302542416.0,
+  "oe_yield": 1.4685544125488839,
+  "roe": 2.431535803103941,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 1.0663469224620303,
+  "latest_net_income": 4918000.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -475000.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 83000.0,
+  "latest_current_assets": 1334000.0,
+  "latest_current_liabilities": 1251000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (N/A)",
+  "search_queries": {
+    "section_1": [
+      "NewHold Investment Corp III NHIC revenue predictability recurring demand analysis 2025 2026",
+      "NewHold Investment Corp III NHIC business model complexity investor circle of competence",
+      "NewHold Investment Corp III NHIC 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "NewHold Investment Corp III NHIC competitive moat analysis switching costs brand advantage",
+      "NewHold Investment Corp III NHIC network effects scale advantages cost leadership",
+      "NewHold Investment Corp III NHIC patents regulatory barriers intellectual property moat",
+      "NewHold Investment Corp III NHIC competitive threats risks disruption challenges 2025 2026",
+      "NewHold Investment Corp III NHIC moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "NewHold Investment Corp III NHIC CEO management candor shareholder letter transparency",
+      "NewHold Investment Corp III NHIC executive compensation insider ownership stock options proxy",
+      "NewHold Investment Corp III NHIC key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "NewHold Investment Corp III NHIC stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "NewHold Investment Corp III NHIC investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "NewHold Investment Corp III NHIC market position monopoly commodity pricing power ecosystem",
+      "NewHold Investment Corp III NHIC growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "NewHold Investment Corp III NHIC investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "NewHold Investment Corp III NHIC investment risk permanent capital loss downside analysis",
+      "NewHold Investment Corp III NHIC opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

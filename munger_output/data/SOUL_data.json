@@ -1,0 +1,132 @@
+{
+  "ticker": "SOUL",
+  "company_name": "Soulpower Acquisition Corporation",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Soulpower Acquisition Corporation does not have significant operations. It intends to effect a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses or entities. The company was incorporated in 2024 and is headquartered in New York, New York.",
+  "employees": "N/A",
+  "exchange": "NYQ",
+  "website": "https://www.soulpowerhq.com",
+  "current_price": 10.345,
+  "market_cap": 351247232.0,
+  "shares_out": 25620000.0,
+  "pe_ratio": 36.94643,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 100548.0,
+      "total_liabilities": 166375.0,
+      "total_equity": -65827.0,
+      "cash": 25386.0,
+      "total_debt": 123295.0,
+      "current_assets": 100548.0,
+      "current_liabilities": 43080.0,
+      "shares_outstanding": 29953333.0,
+      "net_wc": 57468.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -1674325.0,
+      "net_income": 5961658.0,
+      "dna": 0.0,
+      "operating_cf": -2285706.0,
+      "capex": 0.0,
+      "free_cash_flow": -2285706.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 259125506.0,
+      "total_liabilities": 12284427.0,
+      "total_equity": 246841079.0,
+      "cash": 207108.0,
+      "total_debt": 988480.0,
+      "current_assets": 1505530.0,
+      "current_liabilities": 695947.0,
+      "shares_outstanding": 33953333.0,
+      "net_wc": 809583.0,
+      "wc_change": -752115.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 5209543.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 5209543.0,
+  "latest_cash": 207108.0,
+  "latest_debt": 988480.0,
+  "ev": 352028604.0,
+  "oe_yield": 1.4798635510880247,
+  "roe": 2.415180659617843,
+  "debt_equity": 0.004004519847363007,
+  "latest_gm": null,
+  "current_ratio": 2.1632825488147804,
+  "latest_net_income": 5961658.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -752115.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 809583.0,
+  "latest_current_assets": 1505530.0,
+  "latest_current_liabilities": 695947.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Soulpower Acquisition Corporation SOUL revenue predictability recurring demand analysis 2025 2026",
+      "Soulpower Acquisition Corporation SOUL business model complexity investor circle of competence",
+      "Soulpower Acquisition Corporation SOUL 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Soulpower Acquisition Corporation SOUL competitive moat analysis switching costs brand advantage",
+      "Soulpower Acquisition Corporation SOUL network effects scale advantages cost leadership",
+      "Soulpower Acquisition Corporation SOUL patents regulatory barriers intellectual property moat",
+      "Soulpower Acquisition Corporation SOUL competitive threats risks disruption challenges 2025 2026",
+      "Soulpower Acquisition Corporation SOUL moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Soulpower Acquisition Corporation SOUL CEO management candor shareholder letter transparency",
+      "Soulpower Acquisition Corporation SOUL executive compensation insider ownership stock options proxy",
+      "Soulpower Acquisition Corporation SOUL key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Soulpower Acquisition Corporation SOUL stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Soulpower Acquisition Corporation SOUL investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Soulpower Acquisition Corporation SOUL market position monopoly commodity pricing power ecosystem",
+      "Soulpower Acquisition Corporation SOUL growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Soulpower Acquisition Corporation SOUL investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Soulpower Acquisition Corporation SOUL investment risk permanent capital loss downside analysis",
+      "Soulpower Acquisition Corporation SOUL opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

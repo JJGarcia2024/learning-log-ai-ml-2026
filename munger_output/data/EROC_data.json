@@ -1,0 +1,130 @@
+{
+  "ticker": "EROC",
+  "company_name": "ERock, Inc.",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
+  "description": "ERock, Inc. designs, deploys, sells, operates, and maintains distributed power generation systems designed to provide power for commercial and industrial customers in the United States. Its offerings include the design, installation, and operation of modular power systems, as well as ongoing operations and maintenance and asset management services. Its systems support a range of customer applications, including bridge power, backup power, and dispatchable power solutions. The company primarily serves data centers, utilities, and commercial and industrial customers across the United States. The",
+  "employees": "385",
+  "exchange": "NYQ",
+  "website": "https://erock.com",
+  "current_price": 16.14,
+  "market_cap": 777528704.0,
+  "shares_out": 48174023.0,
+  "pe_ratio": 161.4,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 128490000.0,
+      "gross_profit": 17210000.0,
+      "operating_income": -42536000.0,
+      "net_income": -56926000.0,
+      "dna": 5265000.0,
+      "operating_cf": -24210000.0,
+      "capex": -9000000.0,
+      "free_cash_flow": -33210000.0,
+      "dividends_paid": -7694000.0,
+      "buybacks": 0.0,
+      "total_assets": 207684000.0,
+      "total_liabilities": 263304000.0,
+      "total_equity": 0.0,
+      "cash": 21913000.0,
+      "total_debt": 84253000.0,
+      "current_assets": 160909000.0,
+      "current_liabilities": 128531000.0,
+      "shares_outstanding": 48174023.0,
+      "net_wc": 32378000.0,
+      "wc_change": -0.0,
+      "capex_abs": 9000000.0,
+      "maint_capex": 6300000.0,
+      "owner_earnings": -57961000.0,
+      "gross_margin_pct": 13.394038446571718,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 183145000.0,
+      "gross_profit": 37994000.0,
+      "operating_income": -34740000.0,
+      "net_income": -9179000.0,
+      "dna": 7661000.0,
+      "operating_cf": 116501000.0,
+      "capex": -4667000.0,
+      "free_cash_flow": 111834000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 257896000.0,
+      "total_liabilities": 370013000.0,
+      "total_equity": 0.0,
+      "cash": 108097000.0,
+      "total_debt": 72674000.0,
+      "current_assets": 216870000.0,
+      "current_liabilities": 241094000.0,
+      "shares_outstanding": 48174023.0,
+      "net_wc": -24224000.0,
+      "wc_change": 56602000.0,
+      "capex_abs": 4667000.0,
+      "maint_capex": 3266900.0,
+      "owner_earnings": 51817100.0,
+      "gross_margin_pct": 20.74531109230391,
+      "rev_growth_pct": 42.5363841544089
+    }
+  ],
+  "latest_oe": 51817100.0,
+  "latest_cash": 108097000.0,
+  "latest_debt": 72674000.0,
+  "ev": 742105704.0,
+  "oe_yield": 6.982441951423136,
+  "roe": -917900000.0,
+  "debt_equity": 72674000.0,
+  "latest_gm": 20.74531109230391,
+  "current_ratio": 0.8995246667275004,
+  "latest_net_income": -9179000.0,
+  "latest_dna": 7661000.0,
+  "latest_wc_change": 56602000.0,
+  "latest_maint_capex": 3266900.0,
+  "latest_net_wc": -24224000.0,
+  "latest_current_assets": 216870000.0,
+  "latest_current_liabilities": 241094000.0,
+  "mos_flag": "YES — yield is attractive vs. risk-free rate",
+  "lolla_signals": [],
+  "s1a": "YES — business model is understandable (Industrials)",
+  "search_queries": {
+    "section_1": [
+      "ERock, Inc. EROC revenue predictability recurring demand analysis 2025 2026",
+      "ERock, Inc. EROC business model complexity investor circle of competence",
+      "ERock, Inc. EROC 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "ERock, Inc. EROC competitive moat analysis switching costs brand advantage",
+      "ERock, Inc. EROC network effects scale advantages cost leadership",
+      "ERock, Inc. EROC patents regulatory barriers intellectual property moat",
+      "ERock, Inc. EROC competitive threats risks disruption challenges 2025 2026",
+      "ERock, Inc. EROC moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "ERock, Inc. EROC CEO management candor shareholder letter transparency",
+      "ERock, Inc. EROC executive compensation insider ownership stock options proxy",
+      "ERock, Inc. EROC key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "ERock, Inc. EROC stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "ERock, Inc. EROC investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "ERock, Inc. EROC market position monopoly commodity pricing power ecosystem",
+      "ERock, Inc. EROC growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "ERock, Inc. EROC investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "ERock, Inc. EROC investment risk permanent capital loss downside analysis",
+      "ERock, Inc. EROC opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

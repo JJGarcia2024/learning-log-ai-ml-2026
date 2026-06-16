@@ -1,0 +1,132 @@
+{
+  "ticker": "EVAC",
+  "company_name": "EQV Ventures Acquisition Corp. II",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "EQV Ventures Acquisition Corp. II focuses on effecting a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses or entities. The company intends to focus on the energy industry targeting upstream exploration and production sector. EQV Ventures Acquisition Corp. II was incorporated in 2024 and is based in Park City, Utah.",
+  "employees": "N/A",
+  "exchange": "NYQ",
+  "website": "https://www.eqvventuresii.com",
+  "current_price": 10.18,
+  "market_cap": 594999168.0,
+  "shares_out": 46947857.0,
+  "pe_ratio": 30.848484,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 362828.0,
+      "total_liabilities": 394619.0,
+      "total_equity": -31791.0,
+      "cash": 0.0,
+      "total_debt": 0.0,
+      "current_assets": 0.0,
+      "current_liabilities": 394619.0,
+      "shares_outstanding": 55010000.0,
+      "net_wc": -394619.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -742266.0,
+      "net_income": 8916352.0,
+      "dna": 0.0,
+      "operating_cf": -627888.0,
+      "capex": 0.0,
+      "free_cash_flow": -627888.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 470267754.0,
+      "total_liabilities": 18131414.0,
+      "total_equity": 452136340.0,
+      "cash": 1092055.0,
+      "total_debt": 0.0,
+      "current_assets": 1204773.0,
+      "current_liabilities": 152214.0,
+      "shares_outstanding": 58447857.0,
+      "net_wc": 1052559.0,
+      "wc_change": -1447178.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 7469174.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 7469174.0,
+  "latest_cash": 1092055.0,
+  "latest_debt": 0.0,
+  "ev": 593907113.0,
+  "oe_yield": 1.2576333632831906,
+  "roe": 1.9720494043898351,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 7.91499467854468,
+  "latest_net_income": 8916352.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -1447178.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 1052559.0,
+  "latest_current_assets": 1204773.0,
+  "latest_current_liabilities": 152214.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "EQV Ventures Acquisition Corp. II EVAC revenue predictability recurring demand analysis 2025 2026",
+      "EQV Ventures Acquisition Corp. II EVAC business model complexity investor circle of competence",
+      "EQV Ventures Acquisition Corp. II EVAC 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "EQV Ventures Acquisition Corp. II EVAC competitive moat analysis switching costs brand advantage",
+      "EQV Ventures Acquisition Corp. II EVAC network effects scale advantages cost leadership",
+      "EQV Ventures Acquisition Corp. II EVAC patents regulatory barriers intellectual property moat",
+      "EQV Ventures Acquisition Corp. II EVAC competitive threats risks disruption challenges 2025 2026",
+      "EQV Ventures Acquisition Corp. II EVAC moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "EQV Ventures Acquisition Corp. II EVAC CEO management candor shareholder letter transparency",
+      "EQV Ventures Acquisition Corp. II EVAC executive compensation insider ownership stock options proxy",
+      "EQV Ventures Acquisition Corp. II EVAC key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "EQV Ventures Acquisition Corp. II EVAC stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "EQV Ventures Acquisition Corp. II EVAC investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "EQV Ventures Acquisition Corp. II EVAC market position monopoly commodity pricing power ecosystem",
+      "EQV Ventures Acquisition Corp. II EVAC growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "EQV Ventures Acquisition Corp. II EVAC investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "EQV Ventures Acquisition Corp. II EVAC investment risk permanent capital loss downside analysis",
+      "EQV Ventures Acquisition Corp. II EVAC opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

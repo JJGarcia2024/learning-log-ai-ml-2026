@@ -1,0 +1,132 @@
+{
+  "ticker": "JACS",
+  "company_name": "Jackson Acquisition Company II",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Jackson Acquisition Company II does not have significant operations. It intends to effect a merger, share exchange, asset acquisition, share purchase, recapitalization, reorganization, or similar business combination with one or more businesses or entities in the healthcare industry. The company was incorporated in 2024 and is based in Alpharetta, Georgia.",
+  "employees": "N/A",
+  "exchange": "NYQ",
+  "website": "https://jacksonacquisitions.com",
+  "current_price": 10.62,
+  "market_cap": 314245792.0,
+  "shares_out": 23840000.0,
+  "pe_ratio": 35.399998,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 234005881.0,
+      "total_liabilities": 357540.0,
+      "total_equity": 233648341.0,
+      "cash": 949366.0,
+      "total_debt": 198024.0,
+      "current_assets": 1062896.0,
+      "current_liabilities": 357540.0,
+      "shares_outstanding": 29590000.0,
+      "net_wc": 705356.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -569113.0,
+      "net_income": 9115597.0,
+      "dna": 0.0,
+      "operating_cf": -427590.0,
+      "capex": 0.0,
+      "free_cash_flow": -427590.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 243176248.0,
+      "total_liabilities": 412310.0,
+      "total_equity": 242763938.0,
+      "cash": 521776.0,
+      "total_debt": 198024.0,
+      "current_assets": 633060.0,
+      "current_liabilities": 412310.0,
+      "shares_outstanding": 29590000.0,
+      "net_wc": 220750.0,
+      "wc_change": 484606.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 9600203.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 9600203.0,
+  "latest_cash": 521776.0,
+  "latest_debt": 198024.0,
+  "ev": 313922040.0,
+  "oe_yield": 3.0581487684012245,
+  "roe": 3.754922199358951,
+  "debt_equity": 0.0008157059966624862,
+  "latest_gm": null,
+  "current_ratio": 1.5353981227717008,
+  "latest_net_income": 9115597.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": 484606.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 220750.0,
+  "latest_current_assets": 633060.0,
+  "latest_current_liabilities": 412310.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Jackson Acquisition Company II JACS revenue predictability recurring demand analysis 2025 2026",
+      "Jackson Acquisition Company II JACS business model complexity investor circle of competence",
+      "Jackson Acquisition Company II JACS 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Jackson Acquisition Company II JACS competitive moat analysis switching costs brand advantage",
+      "Jackson Acquisition Company II JACS network effects scale advantages cost leadership",
+      "Jackson Acquisition Company II JACS patents regulatory barriers intellectual property moat",
+      "Jackson Acquisition Company II JACS competitive threats risks disruption challenges 2025 2026",
+      "Jackson Acquisition Company II JACS moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Jackson Acquisition Company II JACS CEO management candor shareholder letter transparency",
+      "Jackson Acquisition Company II JACS executive compensation insider ownership stock options proxy",
+      "Jackson Acquisition Company II JACS key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Jackson Acquisition Company II JACS stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Jackson Acquisition Company II JACS investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Jackson Acquisition Company II JACS market position monopoly commodity pricing power ecosystem",
+      "Jackson Acquisition Company II JACS growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Jackson Acquisition Company II JACS investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Jackson Acquisition Company II JACS investment risk permanent capital loss downside analysis",
+      "Jackson Acquisition Company II JACS opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

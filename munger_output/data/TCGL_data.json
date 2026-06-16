@@ -1,0 +1,161 @@
+{
+  "ticker": "TCGL",
+  "company_name": "TechCreate Group Ltd.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "description": "TechCreate Group Ltd. provides technology consultancy and advanced software solutions in Singapore, Brunei, China, and Cambodia. The company offers technology consultancy services in information technology infrastructure, payments, cybersecurity, and digital solutions, as well as system integration, implementation, customization, training, technical support, security and compliance, project management, and maintenance. It also provides payment system engine services, cybersecurity services, digitalization services, e-invoicing services, and cloud and information technology infrastructure servi",
+  "employees": "8",
+  "exchange": "ASE",
+  "website": "https://www.techcreategroup.com",
+  "current_price": 172.84,
+  "market_cap": 3531553280.0,
+  "shares_out": 17859750.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 2879645.0,
+      "gross_profit": 1418867.0,
+      "operating_income": -12570.0,
+      "net_income": -194795.0,
+      "dna": 7450.0,
+      "operating_cf": 141242.0,
+      "capex": -10651.0,
+      "free_cash_flow": 130591.0,
+      "dividends_paid": -306010.0,
+      "buybacks": 0.0,
+      "total_assets": 2396297.0,
+      "total_liabilities": 1744770.0,
+      "total_equity": 651527.0,
+      "cash": 997846.0,
+      "total_debt": 54078.0,
+      "current_assets": 2079679.0,
+      "current_liabilities": 1479356.0,
+      "shares_outstanding": 20050000.0,
+      "net_wc": 600323.0,
+      "wc_change": -0.0,
+      "capex_abs": 10651.0,
+      "maint_capex": 7455.7,
+      "owner_earnings": -194800.7,
+      "gross_margin_pct": 49.272288771706236,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 3104324.0,
+      "gross_profit": 893816.0,
+      "operating_income": -854790.0,
+      "net_income": -1012826.0,
+      "dna": 8933.0,
+      "operating_cf": -1286364.0,
+      "capex": -7848.0,
+      "free_cash_flow": -1294212.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 2827637.0,
+      "total_liabilities": 1952913.0,
+      "total_equity": 874724.0,
+      "cash": 1205951.0,
+      "total_debt": 847178.0,
+      "current_assets": 2679020.0,
+      "current_liabilities": 1289017.0,
+      "shares_outstanding": 20050000.0,
+      "net_wc": 1390003.0,
+      "wc_change": -789680.0,
+      "capex_abs": 7848.0,
+      "maint_capex": 5493.599999999999,
+      "owner_earnings": -1799066.6,
+      "gross_margin_pct": 28.7926131421849,
+      "rev_growth_pct": 7.802315910468138
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 4772866.0,
+      "gross_profit": 1752907.0,
+      "operating_income": -954153.0,
+      "net_income": -1070911.0,
+      "dna": 7813.0,
+      "operating_cf": -5031822.0,
+      "capex": -5852.0,
+      "free_cash_flow": -5037674.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 11942356.0,
+      "total_liabilities": 826478.0,
+      "total_equity": 11115878.0,
+      "cash": 7370340.0,
+      "total_debt": 299196.0,
+      "current_assets": 9738409.0,
+      "current_liabilities": 620823.0,
+      "shares_outstanding": 20432500.0,
+      "net_wc": 9117586.0,
+      "wc_change": -7727583.0,
+      "capex_abs": 5852.0,
+      "maint_capex": 4096.4,
+      "owner_earnings": -8794777.4,
+      "gross_margin_pct": 36.726507720937484,
+      "rev_growth_pct": 53.748964347793596
+    }
+  ],
+  "latest_oe": -8794777.4,
+  "latest_cash": 7370340.0,
+  "latest_debt": 299196.0,
+  "ev": 3524482136.0,
+  "oe_yield": -0.2495338906719884,
+  "roe": -9.634065793093447,
+  "debt_equity": 0.026916092458013664,
+  "latest_gm": 36.726507720937484,
+  "current_ratio": 15.686289006689508,
+  "latest_net_income": -1070911.0,
+  "latest_dna": 7813.0,
+  "latest_wc_change": -7727583.0,
+  "latest_maint_capex": 4096.4,
+  "latest_net_wc": 9117586.0,
+  "latest_current_assets": 9738409.0,
+  "latest_current_liabilities": 620823.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 606.2% p.a.",
+    "Low leverage (0.03x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "TechCreate Group Ltd. TCGL revenue predictability recurring demand analysis 2025 2026",
+      "TechCreate Group Ltd. TCGL business model complexity investor circle of competence",
+      "TechCreate Group Ltd. TCGL 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "TechCreate Group Ltd. TCGL competitive moat analysis switching costs brand advantage",
+      "TechCreate Group Ltd. TCGL network effects scale advantages cost leadership",
+      "TechCreate Group Ltd. TCGL patents regulatory barriers intellectual property moat",
+      "TechCreate Group Ltd. TCGL competitive threats risks disruption challenges 2025 2026",
+      "TechCreate Group Ltd. TCGL moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "TechCreate Group Ltd. TCGL CEO management candor shareholder letter transparency",
+      "TechCreate Group Ltd. TCGL executive compensation insider ownership stock options proxy",
+      "TechCreate Group Ltd. TCGL key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "TechCreate Group Ltd. TCGL stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "TechCreate Group Ltd. TCGL investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "TechCreate Group Ltd. TCGL market position monopoly commodity pricing power ecosystem",
+      "TechCreate Group Ltd. TCGL growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "TechCreate Group Ltd. TCGL investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "TechCreate Group Ltd. TCGL investment risk permanent capital loss downside analysis",
+      "TechCreate Group Ltd. TCGL opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

@@ -1,0 +1,132 @@
+{
+  "ticker": "OBA",
+  "company_name": "Oxley Bridge Acquisition Limited",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Oxley Bridge Acquisition Limited does not have significant operations. It intends to effect a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses in the consumer and technology sectors. The company was incorporated in 2024 and is based in Vancouver, Canada.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://oxleybridgeacquisition.com",
+  "current_price": 10.23,
+  "market_cap": 323523744.0,
+  "shares_out": 25300000.0,
+  "pe_ratio": 31.96875,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 94710.0,
+      "total_liabilities": 118543.0,
+      "total_equity": -23833.0,
+      "cash": 0.0,
+      "total_debt": 66426.0,
+      "current_assets": 0.0,
+      "current_liabilities": 118543.0,
+      "shares_outstanding": 27500000.0,
+      "net_wc": -118543.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -463503.0,
+      "net_income": 4782187.0,
+      "dna": 0.0,
+      "operating_cf": -448134.0,
+      "capex": 0.0,
+      "free_cash_flow": -448134.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 259327478.0,
+      "total_liabilities": 12156507.0,
+      "total_equity": 247170971.0,
+      "cash": 978307.0,
+      "total_debt": 0.0,
+      "current_assets": 1060807.0,
+      "current_liabilities": 111507.0,
+      "shares_outstanding": 31625000.0,
+      "net_wc": 949300.0,
+      "wc_change": -1067843.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 3714344.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 3714344.0,
+  "latest_cash": 978307.0,
+  "latest_debt": 0.0,
+  "ev": 322545437.0,
+  "oe_yield": 1.1515723287072885,
+  "roe": 1.9347688689542755,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 9.513366873828549,
+  "latest_net_income": 4782187.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -1067843.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 949300.0,
+  "latest_current_assets": 1060807.0,
+  "latest_current_liabilities": 111507.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Oxley Bridge Acquisition Limited OBA revenue predictability recurring demand analysis 2025 2026",
+      "Oxley Bridge Acquisition Limited OBA business model complexity investor circle of competence",
+      "Oxley Bridge Acquisition Limited OBA 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Oxley Bridge Acquisition Limited OBA competitive moat analysis switching costs brand advantage",
+      "Oxley Bridge Acquisition Limited OBA network effects scale advantages cost leadership",
+      "Oxley Bridge Acquisition Limited OBA patents regulatory barriers intellectual property moat",
+      "Oxley Bridge Acquisition Limited OBA competitive threats risks disruption challenges 2025 2026",
+      "Oxley Bridge Acquisition Limited OBA moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Oxley Bridge Acquisition Limited OBA CEO management candor shareholder letter transparency",
+      "Oxley Bridge Acquisition Limited OBA executive compensation insider ownership stock options proxy",
+      "Oxley Bridge Acquisition Limited OBA key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Oxley Bridge Acquisition Limited OBA stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Oxley Bridge Acquisition Limited OBA investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Oxley Bridge Acquisition Limited OBA market position monopoly commodity pricing power ecosystem",
+      "Oxley Bridge Acquisition Limited OBA growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Oxley Bridge Acquisition Limited OBA investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Oxley Bridge Acquisition Limited OBA investment risk permanent capital loss downside analysis",
+      "Oxley Bridge Acquisition Limited OBA opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

@@ -1,0 +1,161 @@
+{
+  "ticker": "SPCX",
+  "company_name": "Space Exploration Technologies Corp.",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "description": "Space Exploration Technologies Corp. provides satellite-based broadband services in the United States, Ireland, Canada, and internationally. The company's Connectivity segment operates a high-speed, low-latency broadband network powered by various Starlink satellites in low-earth orbit, delivering connectivity to various consumer, enterprise, and government customers through its Starlink offering. Its Space segment designs, manufactures, and launches reusable rockets to provide access to space. It offers launch services for the deployment of payloads to intended orbits for commercial and gover",
+  "employees": "22000",
+  "exchange": "NMS",
+  "website": "https://www.spacex.com",
+  "current_price": 192.5,
+  "market_cap": 2519989485568.0,
+  "shares_out": 7488063555.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 10387000000.0,
+      "gross_profit": 4277000000.0,
+      "operating_income": 507000000.0,
+      "net_income": -4628000000.0,
+      "dna": 2635000000.0,
+      "operating_cf": 4520000000.0,
+      "capex": -4415000000.0,
+      "free_cash_flow": 105000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -170000000.0,
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_equity": null,
+      "cash": null,
+      "total_debt": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "shares_outstanding": null,
+      "net_wc": null,
+      "wc_change": -0.0,
+      "capex_abs": 4415000000.0,
+      "maint_capex": 3090500000.0,
+      "owner_earnings": -5083500000.0,
+      "gross_margin_pct": 41.17647058823529,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 14015000000.0,
+      "gross_profit": 6019000000.0,
+      "operating_income": 742000000.0,
+      "net_income": 791000000.0,
+      "dna": 3824000000.0,
+      "operating_cf": 5776000000.0,
+      "capex": -11163000000.0,
+      "free_cash_flow": -5387000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -1021000000.0,
+      "total_assets": 57062000000.0,
+      "total_liabilities": 31258000000.0,
+      "total_equity": 25804000000.0,
+      "cash": 11385000000.0,
+      "total_debt": 14175000000.0,
+      "current_assets": 16108000000.0,
+      "current_liabilities": 11791000000.0,
+      "shares_outstanding": 13075865175.0,
+      "net_wc": 4317000000.0,
+      "wc_change": -0.0,
+      "capex_abs": 11163000000.0,
+      "maint_capex": 7814099999.999999,
+      "owner_earnings": -3199099999.999999,
+      "gross_margin_pct": 42.94684266856939,
+      "rev_growth_pct": 34.92827572927699
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 18674000000.0,
+      "gross_profit": 9223000000.0,
+      "operating_income": -2064000000.0,
+      "net_income": -4937000000.0,
+      "dna": 6701000000.0,
+      "operating_cf": 6785000000.0,
+      "capex": -20906000000.0,
+      "free_cash_flow": -14121000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -1125000000.0,
+      "total_assets": 92079000000.0,
+      "total_liabilities": 50754000000.0,
+      "total_equity": 41325000000.0,
+      "cash": 24747000000.0,
+      "total_debt": 23318000000.0,
+      "current_assets": 30952000000.0,
+      "current_liabilities": 21400000000.0,
+      "shares_outstanding": 13075865175.0,
+      "net_wc": 9552000000.0,
+      "wc_change": -5235000000.0,
+      "capex_abs": 20906000000.0,
+      "maint_capex": 14634200000.0,
+      "owner_earnings": -18105200000.0,
+      "gross_margin_pct": 49.389525543536465,
+      "rev_growth_pct": 33.24295397788084
+    }
+  ],
+  "latest_oe": -18105200000.0,
+  "latest_cash": 24747000000.0,
+  "latest_debt": 23318000000.0,
+  "ev": 2518560485568.0,
+  "oe_yield": -0.7188709623512104,
+  "roe": -11.946763460375076,
+  "debt_equity": 0.5642589231699939,
+  "latest_gm": 49.389525543536465,
+  "current_ratio": 1.446355140186916,
+  "latest_net_income": -4937000000.0,
+  "latest_dna": 6701000000.0,
+  "latest_wc_change": -5235000000.0,
+  "latest_maint_capex": 14634200000.0,
+  "latest_net_wc": 9552000000.0,
+  "latest_current_assets": 30952000000.0,
+  "latest_current_liabilities": 21400000000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 49.4%)",
+    "OE growing avg 214.4% p.a."
+  ],
+  "s1a": "YES — business model is understandable (Industrials)",
+  "search_queries": {
+    "section_1": [
+      "Space Exploration Technologies Corp. SPCX revenue predictability recurring demand analysis 2025 2026",
+      "Space Exploration Technologies Corp. SPCX business model complexity investor circle of competence",
+      "Space Exploration Technologies Corp. SPCX 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Space Exploration Technologies Corp. SPCX competitive moat analysis switching costs brand advantage",
+      "Space Exploration Technologies Corp. SPCX network effects scale advantages cost leadership",
+      "Space Exploration Technologies Corp. SPCX patents regulatory barriers intellectual property moat",
+      "Space Exploration Technologies Corp. SPCX competitive threats risks disruption challenges 2025 2026",
+      "Space Exploration Technologies Corp. SPCX moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Space Exploration Technologies Corp. SPCX CEO management candor shareholder letter transparency",
+      "Space Exploration Technologies Corp. SPCX executive compensation insider ownership stock options proxy",
+      "Space Exploration Technologies Corp. SPCX key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Space Exploration Technologies Corp. SPCX stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Space Exploration Technologies Corp. SPCX investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Space Exploration Technologies Corp. SPCX market position monopoly commodity pricing power ecosystem",
+      "Space Exploration Technologies Corp. SPCX growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Space Exploration Technologies Corp. SPCX investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Space Exploration Technologies Corp. SPCX investment risk permanent capital loss downside analysis",
+      "Space Exploration Technologies Corp. SPCX opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

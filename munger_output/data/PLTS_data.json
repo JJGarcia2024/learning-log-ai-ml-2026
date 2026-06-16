@@ -1,0 +1,162 @@
+{
+  "ticker": "PLTS",
+  "company_name": "Platinum Analytics Cayman Limited",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "description": "Platinum Analytics Cayman Limited operates as a software developer for financial institutions in Singapore. The company operates a spot FX trading platform, including the Electronic Communications Network (ECN), which provides brokerage-based trading solutions. Its products portfolio comprises Pricing Engine that enables real-time price discovery by aggregating liquidity, applying customizable spreads, and generating executable pricing for multiple currency pairs, as well as supports differentiated logic for regional trading venues and is optimized for onshore and offshore FX markets; Order Ma",
+  "employees": "6",
+  "exchange": "NCM",
+  "website": "https://www.platinumanalytics.net",
+  "current_price": 17.5,
+  "market_cap": 316034432.0,
+  "shares_out": 11205435.0,
+  "pe_ratio": 1750.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 582253.0,
+      "gross_profit": 278569.0,
+      "operating_income": -1226777.0,
+      "net_income": -1237220.0,
+      "dna": 109012.0,
+      "operating_cf": -869355.0,
+      "capex": -119038.0,
+      "free_cash_flow": -988393.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 697309.0,
+      "total_liabilities": 1692890.0,
+      "total_equity": -995581.0,
+      "cash": 4404.0,
+      "total_debt": 0.0,
+      "current_assets": 559900.0,
+      "current_liabilities": 1533656.0,
+      "shares_outstanding": 17759109.0,
+      "net_wc": -973756.0,
+      "wc_change": -0.0,
+      "capex_abs": 119038.0,
+      "maint_capex": 83326.59999999999,
+      "owner_earnings": -1211534.6,
+      "gross_margin_pct": 47.84329149012543,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 2213787.0,
+      "gross_profit": 1500834.0,
+      "operating_income": 775952.0,
+      "net_income": 778382.0,
+      "dna": 43066.0,
+      "operating_cf": -353164.0,
+      "capex": 0.0,
+      "free_cash_flow": -353164.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 902630.0,
+      "total_liabilities": 1153498.0,
+      "total_equity": -250868.0,
+      "cash": 323738.0,
+      "total_debt": 0.0,
+      "current_assets": 803242.0,
+      "current_liabilities": 266324.0,
+      "shares_outstanding": 17759109.0,
+      "net_wc": 536918.0,
+      "wc_change": -1510674.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -689226.0,
+      "gross_margin_pct": 67.79486915407851,
+      "rev_growth_pct": 280.210492689604
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 1675239.0,
+      "gross_profit": 1081243.0,
+      "operating_income": -1917203.0,
+      "net_income": -2022575.0,
+      "dna": 50224.0,
+      "operating_cf": -5518850.0,
+      "capex": 0.0,
+      "free_cash_flow": -5518850.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 6489699.0,
+      "total_liabilities": 1083825.0,
+      "total_equity": 5405874.0,
+      "cash": 2610933.0,
+      "total_debt": 0.0,
+      "current_assets": 6446498.0,
+      "current_liabilities": 906091.0,
+      "shares_outstanding": 18059109.0,
+      "net_wc": 5540407.0,
+      "wc_change": -5003489.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -6975840.0,
+      "gross_margin_pct": 64.5426115318471,
+      "rev_growth_pct": -24.327001649210157
+    }
+  ],
+  "latest_oe": -6975840.0,
+  "latest_cash": 2610933.0,
+  "latest_debt": 0.0,
+  "ev": 313423499.0,
+  "oe_yield": -2.2256914437675905,
+  "roe": -37.414394046180135,
+  "debt_equity": 0.0,
+  "latest_gm": 64.5426115318471,
+  "current_ratio": 7.114625352199724,
+  "latest_net_income": -2022575.0,
+  "latest_dna": 50224.0,
+  "latest_wc_change": -5003489.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 5540407.0,
+  "latest_current_assets": 6446498.0,
+  "latest_current_liabilities": 906091.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 64.5%)",
+    "OE growing avg 434.5% p.a.",
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "Platinum Analytics Cayman Limited PLTS revenue predictability recurring demand analysis 2025 2026",
+      "Platinum Analytics Cayman Limited PLTS business model complexity investor circle of competence",
+      "Platinum Analytics Cayman Limited PLTS 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Platinum Analytics Cayman Limited PLTS competitive moat analysis switching costs brand advantage",
+      "Platinum Analytics Cayman Limited PLTS network effects scale advantages cost leadership",
+      "Platinum Analytics Cayman Limited PLTS patents regulatory barriers intellectual property moat",
+      "Platinum Analytics Cayman Limited PLTS competitive threats risks disruption challenges 2025 2026",
+      "Platinum Analytics Cayman Limited PLTS moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Platinum Analytics Cayman Limited PLTS CEO management candor shareholder letter transparency",
+      "Platinum Analytics Cayman Limited PLTS executive compensation insider ownership stock options proxy",
+      "Platinum Analytics Cayman Limited PLTS key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Platinum Analytics Cayman Limited PLTS stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Platinum Analytics Cayman Limited PLTS investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Platinum Analytics Cayman Limited PLTS market position monopoly commodity pricing power ecosystem",
+      "Platinum Analytics Cayman Limited PLTS growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Platinum Analytics Cayman Limited PLTS investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Platinum Analytics Cayman Limited PLTS investment risk permanent capital loss downside analysis",
+      "Platinum Analytics Cayman Limited PLTS opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

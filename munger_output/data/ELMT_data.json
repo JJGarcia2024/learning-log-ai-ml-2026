@@ -1,0 +1,132 @@
+{
+  "ticker": "ELMT",
+  "company_name": "The Elmet Group Co.",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "description": "The Elmet Group Co. manufactures and sells precision-engineered components and high-energy systems for the aerospace, defense and government, industrial, medical, semiconductor and electronics, and energy industries. The company operates through Critical Materials Components and Engineered Microwave Products divisions. It provides critical refractory materials, including tungsten, molybdenum, niobium, tantalum, and specialized alloys. The company also offers radio frequency and microwave components and systems, such as waveguides, circulators, loads, pressure windows, and automatic tuning syst",
+  "employees": "532",
+  "exchange": "NCM",
+  "website": "https://theelmetgroup.com",
+  "current_price": 20.64,
+  "market_cap": 618784384.0,
+  "shares_out": 29979863.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 190440000.0,
+      "gross_profit": 40279000.0,
+      "operating_income": 14213000.0,
+      "net_income": 11789000.0,
+      "dna": 5363000.0,
+      "operating_cf": 22265000.0,
+      "capex": -6046000.0,
+      "free_cash_flow": 16219000.0,
+      "dividends_paid": -3706000.0,
+      "buybacks": 0.0,
+      "total_assets": 174480000.0,
+      "total_liabilities": 112887000.0,
+      "total_equity": 53980000.0,
+      "cash": 3613000.0,
+      "total_debt": 61627000.0,
+      "current_assets": 103178000.0,
+      "current_liabilities": 53343000.0,
+      "shares_outstanding": 28847649.0,
+      "net_wc": 49835000.0,
+      "wc_change": -0.0,
+      "capex_abs": 6046000.0,
+      "maint_capex": 4232200.0,
+      "owner_earnings": 12919800.0,
+      "gross_margin_pct": 21.15049359378282,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 201636000.0,
+      "gross_profit": 41019000.0,
+      "operating_income": -565000.0,
+      "net_income": -1733000.0,
+      "dna": 6048000.0,
+      "operating_cf": 10683000.0,
+      "capex": -10378000.0,
+      "free_cash_flow": 305000.0,
+      "dividends_paid": -1724000.0,
+      "buybacks": 0.0,
+      "total_assets": 265906000.0,
+      "total_liabilities": 104357000.0,
+      "total_equity": 161549000.0,
+      "cash": 87001000.0,
+      "total_debt": 46832000.0,
+      "current_assets": 194380000.0,
+      "current_liabilities": 55325000.0,
+      "shares_outstanding": 28847649.0,
+      "net_wc": 139055000.0,
+      "wc_change": -89220000.0,
+      "capex_abs": 10378000.0,
+      "maint_capex": 7264600.0,
+      "owner_earnings": -92169600.0,
+      "gross_margin_pct": 20.34309349520919,
+      "rev_growth_pct": 5.879017013232524
+    }
+  ],
+  "latest_oe": -92169600.0,
+  "latest_cash": 87001000.0,
+  "latest_debt": 46832000.0,
+  "ev": 578615384.0,
+  "oe_yield": -15.92933795897829,
+  "roe": -1.0727395403252264,
+  "debt_equity": 0.2898934688546509,
+  "latest_gm": 20.34309349520919,
+  "current_ratio": 3.513420695887935,
+  "latest_net_income": -1733000.0,
+  "latest_dna": 6048000.0,
+  "latest_wc_change": -89220000.0,
+  "latest_maint_capex": 7264600.0,
+  "latest_net_wc": 139055000.0,
+  "latest_current_assets": 194380000.0,
+  "latest_current_liabilities": 55325000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.29x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Industrials)",
+  "search_queries": {
+    "section_1": [
+      "The Elmet Group Co. ELMT revenue predictability recurring demand analysis 2025 2026",
+      "The Elmet Group Co. ELMT business model complexity investor circle of competence",
+      "The Elmet Group Co. ELMT 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "The Elmet Group Co. ELMT competitive moat analysis switching costs brand advantage",
+      "The Elmet Group Co. ELMT network effects scale advantages cost leadership",
+      "The Elmet Group Co. ELMT patents regulatory barriers intellectual property moat",
+      "The Elmet Group Co. ELMT competitive threats risks disruption challenges 2025 2026",
+      "The Elmet Group Co. ELMT moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "The Elmet Group Co. ELMT CEO management candor shareholder letter transparency",
+      "The Elmet Group Co. ELMT executive compensation insider ownership stock options proxy",
+      "The Elmet Group Co. ELMT key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "The Elmet Group Co. ELMT stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "The Elmet Group Co. ELMT investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "The Elmet Group Co. ELMT market position monopoly commodity pricing power ecosystem",
+      "The Elmet Group Co. ELMT growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "The Elmet Group Co. ELMT investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "The Elmet Group Co. ELMT investment risk permanent capital loss downside analysis",
+      "The Elmet Group Co. ELMT opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

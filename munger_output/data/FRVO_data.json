@@ -1,0 +1,134 @@
+{
+  "ticker": "FRVO",
+  "company_name": "Fervo Energy Company",
+  "sector": "Utilities",
+  "industry": "Utilities - Renewable",
+  "description": "Fervo Energy Company operates as a geothermal energy developer, builds, owns, and operates geothermal power facilities. The company's product incorporates horizontal drilling, advanced computational models, and distributed fiber optic sensing that increase the productivity and lifetime of geothermal wells. The company employs precision directional drilling technology to drill horizontally in geothermal reservoirs and develops a data analytics algorithm that enables the identification of existing resources and optimizes flow distribution through the reservoir for heat mining efficiency. The com",
+  "employees": "199",
+  "exchange": "NMS",
+  "website": "https://fervoenergy.com",
+  "current_price": 35.32,
+  "market_cap": 10386281472.0,
+  "shares_out": 286276919.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 199000.0,
+      "gross_profit": -181000.0,
+      "operating_income": -41838000.0,
+      "net_income": -41110000.0,
+      "dna": 124000.0,
+      "operating_cf": -54748000.0,
+      "capex": -178693000.0,
+      "free_cash_flow": -233441000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 531299000.0,
+      "total_liabilities": 708494000.0,
+      "total_equity": -177195000.0,
+      "cash": 193428000.0,
+      "total_debt": 81798000.0,
+      "current_assets": 205297000.0,
+      "current_liabilities": 66825000.0,
+      "shares_outstanding": 294062333.0,
+      "net_wc": 138472000.0,
+      "wc_change": -0.0,
+      "capex_abs": 178693000.0,
+      "maint_capex": 125085099.99999999,
+      "owner_earnings": -166071100.0,
+      "gross_margin_pct": -90.95477386934674,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 138000.0,
+      "gross_profit": -250000.0,
+      "operating_income": -48806000.0,
+      "net_income": -57788000.0,
+      "dna": 290000.0,
+      "operating_cf": -31757000.0,
+      "capex": -465659000.0,
+      "free_cash_flow": -497416000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -1943000.0,
+      "total_assets": 1365168000.0,
+      "total_liabilities": 1431736000.0,
+      "total_equity": -246498000.0,
+      "cash": 461836000.0,
+      "total_debt": 250298000.0,
+      "current_assets": 482130000.0,
+      "current_liabilities": 151911000.0,
+      "shares_outstanding": 294062333.0,
+      "net_wc": 330219000.0,
+      "wc_change": -191747000.0,
+      "capex_abs": 465659000.0,
+      "maint_capex": 325961300.0,
+      "owner_earnings": -575206300.0,
+      "gross_margin_pct": -181.15942028985506,
+      "rev_growth_pct": -30.65326633165829
+    }
+  ],
+  "latest_oe": -575206300.0,
+  "latest_cash": 461836000.0,
+  "latest_debt": 250298000.0,
+  "ev": 10174743472.0,
+  "oe_yield": -5.65327569764208,
+  "roe": 23.443597919658576,
+  "debt_equity": -1.0154159465796884,
+  "latest_gm": -181.15942028985506,
+  "current_ratio": 3.173766218377866,
+  "latest_net_income": -57788000.0,
+  "latest_dna": 290000.0,
+  "latest_wc_change": -191747000.0,
+  "latest_maint_capex": 325961300.0,
+  "latest_net_wc": 330219000.0,
+  "latest_current_assets": 482130000.0,
+  "latest_current_liabilities": 151911000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 246.4% p.a.",
+    "High ROE 23.4%",
+    "Low leverage (-1.02x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Utilities",
+  "search_queries": {
+    "section_1": [
+      "Fervo Energy Company FRVO revenue predictability recurring demand analysis 2025 2026",
+      "Fervo Energy Company FRVO business model complexity investor circle of competence",
+      "Fervo Energy Company FRVO 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Fervo Energy Company FRVO competitive moat analysis switching costs brand advantage",
+      "Fervo Energy Company FRVO network effects scale advantages cost leadership",
+      "Fervo Energy Company FRVO patents regulatory barriers intellectual property moat",
+      "Fervo Energy Company FRVO competitive threats risks disruption challenges 2025 2026",
+      "Fervo Energy Company FRVO moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Fervo Energy Company FRVO CEO management candor shareholder letter transparency",
+      "Fervo Energy Company FRVO executive compensation insider ownership stock options proxy",
+      "Fervo Energy Company FRVO key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Fervo Energy Company FRVO stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Fervo Energy Company FRVO investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Fervo Energy Company FRVO market position monopoly commodity pricing power ecosystem",
+      "Fervo Energy Company FRVO growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Fervo Energy Company FRVO investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Fervo Energy Company FRVO investment risk permanent capital loss downside analysis",
+      "Fervo Energy Company FRVO opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

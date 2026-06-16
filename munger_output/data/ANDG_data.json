@@ -1,0 +1,161 @@
+{
+  "ticker": "ANDG",
+  "company_name": "ANDG",
+  "sector": "Consumer Cyclical",
+  "industry": "Personal Services",
+  "description": "Andersen Group Inc. provides independent tax, valuation, and financial advisory services to individuals and family offices, businesses, and institutional clients in the United States. The company offers private client services that provides tax and financial services for individuals and families, addressing client matters involving multigenerational wealth, charitable giving and trust and estate planning; business tax services, such as integrated tax-related consulting and compliance services for businesses, helping organizations with managing tax planning, compliance, and reporting needs; alt",
+  "employees": "2271",
+  "exchange": "NYQ",
+  "website": "https://www.andersen.com",
+  "current_price": 37.42,
+  "market_cap": 4225929728.0,
+  "shares_out": 13472214.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": 116859000.0,
+      "net_income": 0.0,
+      "dna": 7691000.0,
+      "operating_cf": 0.0,
+      "capex": 0.0,
+      "free_cash_flow": 0.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 0.0,
+      "total_liabilities": 0.0,
+      "total_equity": 0.0,
+      "cash": 0.0,
+      "total_debt": 0.0,
+      "current_assets": 0.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 109302500.0,
+      "net_wc": 0.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 7691000.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 269816000.0,
+      "operating_income": 129544000.0,
+      "net_income": 134801000.0,
+      "dna": 8325000.0,
+      "operating_cf": 0.0,
+      "capex": 0.0,
+      "free_cash_flow": 0.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 0.0,
+      "total_liabilities": 0.0,
+      "total_equity": 0.0,
+      "cash": 0.0,
+      "total_debt": 108064000.0,
+      "current_assets": 0.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 109302500.0,
+      "net_wc": 0.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 143126000.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 838692000.0,
+      "gross_profit": 243607000.0,
+      "operating_income": 57870000.0,
+      "net_income": -2324000.0,
+      "dna": 9005000.0,
+      "operating_cf": 184619000.0,
+      "capex": -11062000.0,
+      "free_cash_flow": 173557000.0,
+      "dividends_paid": -212153000.0,
+      "buybacks": 0.0,
+      "total_assets": 565140000.0,
+      "total_liabilities": 593517000.0,
+      "total_equity": -134731000.0,
+      "cash": 250280000.0,
+      "total_debt": 460522000.0,
+      "current_assets": 412038000.0,
+      "current_liabilities": 195807000.0,
+      "shares_outstanding": 111816563.0,
+      "net_wc": 216231000.0,
+      "wc_change": -216231000.0,
+      "capex_abs": 11062000.0,
+      "maint_capex": 7743399.999999999,
+      "owner_earnings": -217293400.0,
+      "gross_margin_pct": 29.04606220161871,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -217293400.0,
+  "latest_cash": 250280000.0,
+  "latest_debt": 460522000.0,
+  "ev": 4436171728.0,
+  "oe_yield": -4.898218854524921,
+  "roe": 1.7249185413898804,
+  "debt_equity": -3.418084924776035,
+  "latest_gm": 29.04606220161871,
+  "current_ratio": 2.104306791892016,
+  "latest_net_income": -2324000.0,
+  "latest_dna": 9005000.0,
+  "latest_wc_change": -216231000.0,
+  "latest_maint_capex": 7743399.999999999,
+  "latest_net_wc": 216231000.0,
+  "latest_current_assets": 412038000.0,
+  "latest_current_liabilities": 195807000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 754.6% p.a.",
+    "Low leverage (-3.42x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Consumer Cyclical)",
+  "search_queries": {
+    "section_1": [
+      "ANDG ANDG revenue predictability recurring demand analysis 2025 2026",
+      "ANDG ANDG business model complexity investor circle of competence",
+      "ANDG ANDG 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "ANDG ANDG competitive moat analysis switching costs brand advantage",
+      "ANDG ANDG network effects scale advantages cost leadership",
+      "ANDG ANDG patents regulatory barriers intellectual property moat",
+      "ANDG ANDG competitive threats risks disruption challenges 2025 2026",
+      "ANDG ANDG moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "ANDG ANDG CEO management candor shareholder letter transparency",
+      "ANDG ANDG executive compensation insider ownership stock options proxy",
+      "ANDG ANDG key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "ANDG ANDG stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "ANDG ANDG investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "ANDG ANDG market position monopoly commodity pricing power ecosystem",
+      "ANDG ANDG growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "ANDG ANDG investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "ANDG ANDG investment risk permanent capital loss downside analysis",
+      "ANDG ANDG opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

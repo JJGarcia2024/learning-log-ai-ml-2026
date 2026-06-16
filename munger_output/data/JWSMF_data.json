@@ -1,0 +1,161 @@
+{
+  "ticker": "JWSMF",
+  "company_name": "JWSMF",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Jaws Mustang Acquisition Corporation does not have significant operations. It focuses on effecting a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. The company was incorporated in 2020 and is based in Miami Beach, Florida. Jaws Mustang Acquisition Corporation operates as a subsidiary of Mustang Sponsor LLC.",
+  "employees": "N/A",
+  "exchange": "OID",
+  "website": "https://jawsspac.com/jaws-mustang",
+  "current_price": 10.99,
+  "market_cap": 285349632.0,
+  "shares_out": 25589480.0,
+  "pe_ratio": 53.62038746158861,
+  "financial_data": [
+    {
+      "fiscal_year": "2021",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -1394282.0,
+      "net_income": -8798630.0,
+      "dna": 0.0,
+      "operating_cf": -949767.0,
+      "capex": 0.0,
+      "free_cash_flow": -949767.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1036398194.0,
+      "total_liabilities": 75268768.0,
+      "total_equity": 961129426.0,
+      "cash": 1123063.0,
+      "total_debt": 0.0,
+      "current_assets": 1185491.0,
+      "current_liabilities": 647538.0,
+      "shares_outstanding": 129375000.0,
+      "net_wc": 537953.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -8798630.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2022",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -4194452.0,
+      "net_income": 46703589.0,
+      "dna": 0.0,
+      "operating_cf": -1006255.0,
+      "capex": 0.0,
+      "free_cash_flow": -1006255.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1050467874.0,
+      "total_liabilities": 42634859.0,
+      "total_equity": 1007833015.0,
+      "cash": 116808.0,
+      "total_debt": 0.0,
+      "current_assets": 147610.0,
+      "current_liabilities": 3804109.0,
+      "shares_outstanding": 129375000.0,
+      "net_wc": -3656499.0,
+      "wc_change": 4194452.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 50898041.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2023",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -1286751.0,
+      "net_income": 5321663.0,
+      "dna": 0.0,
+      "operating_cf": -938689.0,
+      "capex": 0.0,
+      "free_cash_flow": -938689.0,
+      "dividends_paid": 0.0,
+      "buybacks": -1032028964.0,
+      "total_assets": 23194091.0,
+      "total_liabilities": 6622195.0,
+      "total_equity": 16571896.0,
+      "cash": 178119.0,
+      "total_debt": 1000000.0,
+      "current_assets": 189945.0,
+      "current_liabilities": 4133195.0,
+      "shares_outstanding": 27978614.0,
+      "net_wc": -3943250.0,
+      "wc_change": 286751.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 5608414.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 5608414.0,
+  "latest_cash": 178119.0,
+  "latest_debt": 1000000.0,
+  "ev": 286171513.0,
+  "oe_yield": 1.9598086270732336,
+  "roe": 32.11257782452895,
+  "debt_equity": 0.06034312549390848,
+  "latest_gm": null,
+  "current_ratio": 0.04595597352653335,
+  "latest_net_income": 5321663.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": 286751.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": -3943250.0,
+  "latest_current_assets": 189945.0,
+  "latest_current_liabilities": 4133195.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "High ROE 32.1%",
+    "Low leverage (0.06x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "JWSMF JWSMF revenue predictability recurring demand analysis 2025 2026",
+      "JWSMF JWSMF business model complexity investor circle of competence",
+      "JWSMF JWSMF 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "JWSMF JWSMF competitive moat analysis switching costs brand advantage",
+      "JWSMF JWSMF network effects scale advantages cost leadership",
+      "JWSMF JWSMF patents regulatory barriers intellectual property moat",
+      "JWSMF JWSMF competitive threats risks disruption challenges 2025 2026",
+      "JWSMF JWSMF moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "JWSMF JWSMF CEO management candor shareholder letter transparency",
+      "JWSMF JWSMF executive compensation insider ownership stock options proxy",
+      "JWSMF JWSMF key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "JWSMF JWSMF stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "JWSMF JWSMF investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "JWSMF JWSMF market position monopoly commodity pricing power ecosystem",
+      "JWSMF JWSMF growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "JWSMF JWSMF investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "JWSMF JWSMF investment risk permanent capital loss downside analysis",
+      "JWSMF JWSMF opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

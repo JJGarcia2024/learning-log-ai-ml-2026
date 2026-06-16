@@ -1,0 +1,160 @@
+{
+  "ticker": "BDCI",
+  "company_name": "BTC Development Corp.",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "BTC Development Corp. focuses on effecting a merger, share exchange, asset acquisition, share purchase, reorganization, or other similar business combination involving one or more businesses or assets. BTC Development Corp. was incorporated in 2023 and is based in Philadelphia, Pennsylvania.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "N/A",
+  "current_price": 10.05,
+  "market_cap": 349204032.0,
+  "shares_out": 26060000.0,
+  "pe_ratio": 100.5,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 6948.0,
+      "total_liabilities": 25000.0,
+      "total_equity": -18052.0,
+      "cash": 0.0,
+      "total_debt": 0.0,
+      "current_assets": 6948.0,
+      "current_liabilities": 25000.0,
+      "shares_outstanding": 30346667.0,
+      "net_wc": -18052.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -33592.0,
+      "net_income": -33592.0,
+      "dna": 0.0,
+      "operating_cf": 0.0,
+      "capex": 0.0,
+      "free_cash_flow": 0.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 329930.0,
+      "total_liabilities": 381574.0,
+      "total_equity": -51644.0,
+      "cash": 0.0,
+      "total_debt": 0.0,
+      "current_assets": 0.0,
+      "current_liabilities": 381574.0,
+      "shares_outstanding": 30346667.0,
+      "net_wc": -381574.0,
+      "wc_change": 363522.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 329930.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -541272.0,
+      "net_income": 1871283.0,
+      "dna": 0.0,
+      "operating_cf": -745838.0,
+      "capex": 0.0,
+      "free_cash_flow": -745838.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 257284312.0,
+      "total_liabilities": 10876958.0,
+      "total_equity": 246407354.0,
+      "cash": 1985699.0,
+      "total_debt": 0.0,
+      "current_assets": 2206132.0,
+      "current_liabilities": 96958.0,
+      "shares_outstanding": 34746667.0,
+      "net_wc": 2109174.0,
+      "wc_change": -2490748.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -619465.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -619465.0,
+  "latest_cash": 1985699.0,
+  "latest_debt": 0.0,
+  "ev": 347218333.0,
+  "oe_yield": -0.178407918339957,
+  "roe": 0.759426603801768,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 22.75348088863219,
+  "latest_net_income": 1871283.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -2490748.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 2109174.0,
+  "latest_current_assets": 2206132.0,
+  "latest_current_liabilities": 96958.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "BTC Development Corp. BDCI revenue predictability recurring demand analysis 2025 2026",
+      "BTC Development Corp. BDCI business model complexity investor circle of competence",
+      "BTC Development Corp. BDCI 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "BTC Development Corp. BDCI competitive moat analysis switching costs brand advantage",
+      "BTC Development Corp. BDCI network effects scale advantages cost leadership",
+      "BTC Development Corp. BDCI patents regulatory barriers intellectual property moat",
+      "BTC Development Corp. BDCI competitive threats risks disruption challenges 2025 2026",
+      "BTC Development Corp. BDCI moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "BTC Development Corp. BDCI CEO management candor shareholder letter transparency",
+      "BTC Development Corp. BDCI executive compensation insider ownership stock options proxy",
+      "BTC Development Corp. BDCI key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "BTC Development Corp. BDCI stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "BTC Development Corp. BDCI investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "BTC Development Corp. BDCI market position monopoly commodity pricing power ecosystem",
+      "BTC Development Corp. BDCI growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "BTC Development Corp. BDCI investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "BTC Development Corp. BDCI investment risk permanent capital loss downside analysis",
+      "BTC Development Corp. BDCI opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

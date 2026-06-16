@@ -1,0 +1,133 @@
+{
+  "ticker": "NUCL",
+  "company_name": "Eagle Nuclear Energy Corp.",
+  "sector": "Energy",
+  "industry": "Uranium",
+  "description": "Eagle Nuclear Energy Corp. operates as a mining and exploration company focused on mineral exploration and development in North America. The company is a nuclear energy company that combines domestic uranium exploration with proprietary Small Modular Reactor (SMR) technology. It also develops modular nuclear reactors to provide power for industrial and grid applications. The company was founded in 2023 and is headquartered in Reno, Nevada.",
+  "employees": "N/A",
+  "exchange": "NCM",
+  "website": "https://eaglenuclear.com",
+  "current_price": 9.22,
+  "market_cap": 272721280.0,
+  "shares_out": 29579313.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -950242.0,
+      "net_income": -1020057.0,
+      "dna": 0.0,
+      "operating_cf": -163524.0,
+      "capex": -70000.0,
+      "free_cash_flow": -233524.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1144.0,
+      "total_liabilities": 624713.0,
+      "total_equity": -623569.0,
+      "cash": 717.0,
+      "total_debt": 0.0,
+      "current_assets": 1144.0,
+      "current_liabilities": 624713.0,
+      "shares_outstanding": 29580033.0,
+      "net_wc": -623569.0,
+      "wc_change": -0.0,
+      "capex_abs": 70000.0,
+      "maint_capex": 49000.0,
+      "owner_earnings": -1069057.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": -314013.0,
+      "operating_income": -5243330.0,
+      "net_income": -5260632.0,
+      "dna": 1515.0,
+      "operating_cf": -5161413.0,
+      "capex": -1260845.0,
+      "free_cash_flow": -6422258.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 2887962.0,
+      "total_liabilities": 898605.0,
+      "total_equity": 1989357.0,
+      "cash": 1301928.0,
+      "total_debt": 88241.0,
+      "current_assets": 1464825.0,
+      "current_liabilities": 843519.0,
+      "shares_outstanding": 29580033.0,
+      "net_wc": 621306.0,
+      "wc_change": -1244875.0,
+      "capex_abs": 1260845.0,
+      "maint_capex": 882591.5,
+      "owner_earnings": -7386583.5,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -7386583.5,
+  "latest_cash": 1301928.0,
+  "latest_debt": 88241.0,
+  "ev": 271507593.0,
+  "oe_yield": -2.7205808199993875,
+  "roe": -264.4388111334466,
+  "debt_equity": 0.04435654334541261,
+  "latest_gm": null,
+  "current_ratio": 1.7365643216098274,
+  "latest_net_income": -5260632.0,
+  "latest_dna": 1515.0,
+  "latest_wc_change": -1244875.0,
+  "latest_maint_capex": 882591.5,
+  "latest_net_wc": 621306.0,
+  "latest_current_assets": 1464825.0,
+  "latest_current_liabilities": 843519.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 590.9% p.a.",
+    "Low leverage (0.04x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Energy",
+  "search_queries": {
+    "section_1": [
+      "Eagle Nuclear Energy Corp. NUCL revenue predictability recurring demand analysis 2025 2026",
+      "Eagle Nuclear Energy Corp. NUCL business model complexity investor circle of competence",
+      "Eagle Nuclear Energy Corp. NUCL 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Eagle Nuclear Energy Corp. NUCL competitive moat analysis switching costs brand advantage",
+      "Eagle Nuclear Energy Corp. NUCL network effects scale advantages cost leadership",
+      "Eagle Nuclear Energy Corp. NUCL patents regulatory barriers intellectual property moat",
+      "Eagle Nuclear Energy Corp. NUCL competitive threats risks disruption challenges 2025 2026",
+      "Eagle Nuclear Energy Corp. NUCL moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Eagle Nuclear Energy Corp. NUCL CEO management candor shareholder letter transparency",
+      "Eagle Nuclear Energy Corp. NUCL executive compensation insider ownership stock options proxy",
+      "Eagle Nuclear Energy Corp. NUCL key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Eagle Nuclear Energy Corp. NUCL stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Eagle Nuclear Energy Corp. NUCL investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Eagle Nuclear Energy Corp. NUCL market position monopoly commodity pricing power ecosystem",
+      "Eagle Nuclear Energy Corp. NUCL growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Eagle Nuclear Energy Corp. NUCL investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Eagle Nuclear Energy Corp. NUCL investment risk permanent capital loss downside analysis",
+      "Eagle Nuclear Energy Corp. NUCL opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

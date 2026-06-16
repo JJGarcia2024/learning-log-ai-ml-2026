@@ -1,0 +1,134 @@
+{
+  "ticker": "ALMR",
+  "company_name": "Alamar Biosciences, Inc.",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
+  "description": "Alamar Biosciences, Inc., a proteomics company, develops a proteomic liquid biopsy platform and sells instruments, consumables, and services to early detection of diseases. The company develops NULISA technology, a proteomics platform that detects and quantifies protein biomarkers. It offers ARGO high throughput (HT) System, a fully automated precision proteomics platform, performs ultra-high sensitivity and multiplexed analysis to support biomarker analysis across the continuum of discovery, translational research and ultimately, and diagnostics. The company's offering is utilized in research",
+  "employees": "222",
+  "exchange": "NMS",
+  "website": "https://alamarbio.com",
+  "current_price": 20.69,
+  "market_cap": 1434048384.0,
+  "shares_out": 69311186.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 25142000.0,
+      "gross_profit": 8607000.0,
+      "operating_income": -49568000.0,
+      "net_income": -47073000.0,
+      "dna": 3194000.0,
+      "operating_cf": -55214000.0,
+      "capex": -3388000.0,
+      "free_cash_flow": -58602000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 149511000.0,
+      "total_liabilities": 282922000.0,
+      "total_equity": -133411000.0,
+      "cash": 26770000.0,
+      "total_debt": 33101000.0,
+      "current_assets": 106697000.0,
+      "current_liabilities": 16591000.0,
+      "shares_outstanding": 66521425.0,
+      "net_wc": 90106000.0,
+      "wc_change": -0.0,
+      "capex_abs": 3388000.0,
+      "maint_capex": 2371600.0,
+      "owner_earnings": -46250600.0,
+      "gross_margin_pct": 34.23355341659375,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 74211000.0,
+      "gross_profit": 41705000.0,
+      "operating_income": -31334000.0,
+      "net_income": -29819000.0,
+      "dna": 3864000.0,
+      "operating_cf": -53608000.0,
+      "capex": -6384000.0,
+      "free_cash_flow": -59992000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 139992000.0,
+      "total_liabilities": 298946000.0,
+      "total_equity": -158954000.0,
+      "cash": 30002000.0,
+      "total_debt": 41473000.0,
+      "current_assets": 94705000.0,
+      "current_liabilities": 23730000.0,
+      "shares_outstanding": 66521425.0,
+      "net_wc": 70975000.0,
+      "wc_change": 19131000.0,
+      "capex_abs": 6384000.0,
+      "maint_capex": 4468800.0,
+      "owner_earnings": -11292800.0,
+      "gross_margin_pct": 56.19786824055733,
+      "rev_growth_pct": 195.16744889030306
+    }
+  ],
+  "latest_oe": -11292800.0,
+  "latest_cash": 30002000.0,
+  "latest_debt": 41473000.0,
+  "ev": 1445519384.0,
+  "oe_yield": -0.7812278496571168,
+  "roe": 18.759515331479548,
+  "debt_equity": -0.2609119619512563,
+  "latest_gm": 56.19786824055733,
+  "current_ratio": 3.9909397387273495,
+  "latest_net_income": -29819000.0,
+  "latest_dna": 3864000.0,
+  "latest_wc_change": 19131000.0,
+  "latest_maint_capex": 4468800.0,
+  "latest_net_wc": 70975000.0,
+  "latest_current_assets": 94705000.0,
+  "latest_current_liabilities": 23730000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 56.2%)",
+    "High ROE 18.8%",
+    "Low leverage (-0.26x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "Alamar Biosciences, Inc. ALMR revenue predictability recurring demand analysis 2025 2026",
+      "Alamar Biosciences, Inc. ALMR business model complexity investor circle of competence",
+      "Alamar Biosciences, Inc. ALMR 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Alamar Biosciences, Inc. ALMR competitive moat analysis switching costs brand advantage",
+      "Alamar Biosciences, Inc. ALMR network effects scale advantages cost leadership",
+      "Alamar Biosciences, Inc. ALMR patents regulatory barriers intellectual property moat",
+      "Alamar Biosciences, Inc. ALMR competitive threats risks disruption challenges 2025 2026",
+      "Alamar Biosciences, Inc. ALMR moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Alamar Biosciences, Inc. ALMR CEO management candor shareholder letter transparency",
+      "Alamar Biosciences, Inc. ALMR executive compensation insider ownership stock options proxy",
+      "Alamar Biosciences, Inc. ALMR key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Alamar Biosciences, Inc. ALMR stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Alamar Biosciences, Inc. ALMR investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Alamar Biosciences, Inc. ALMR market position monopoly commodity pricing power ecosystem",
+      "Alamar Biosciences, Inc. ALMR growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Alamar Biosciences, Inc. ALMR investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Alamar Biosciences, Inc. ALMR investment risk permanent capital loss downside analysis",
+      "Alamar Biosciences, Inc. ALMR opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

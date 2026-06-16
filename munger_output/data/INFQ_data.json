@@ -1,0 +1,133 @@
+{
+  "ticker": "INFQ",
+  "company_name": "Infleqtion, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "description": "Infleqtion, Inc. engages in the development and commercialization of quantum technology products in the United States, Europe, and Asia. It delivers neutral atom solutions for quantum computing, networking, sensing, and security. The company offers quantum sensing, quantum computing and software; quantum clocks and quantum RF sensors; and quantum inertial and gravimetric sensors for GPS-denied environments. It also offers quantum computing; contextual machine learning; quantum software; tiqker atomic clock; quantum RF receiver; inertial sensing; and quantum cores products, as well as quantum o",
+  "employees": "203",
+  "exchange": "NYQ",
+  "website": "https://infleqtion.com",
+  "current_price": 14.82,
+  "market_cap": 3233677824.0,
+  "shares_out": 218196891.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 10950000.0,
+      "gross_profit": 4436000.0,
+      "operating_income": -55797000.0,
+      "net_income": -52766000.0,
+      "dna": 2134000.0,
+      "operating_cf": -47332000.0,
+      "capex": -3676000.0,
+      "free_cash_flow": -51008000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 71885000.0,
+      "total_liabilities": 207054000.0,
+      "total_equity": -135169000.0,
+      "cash": 27462000.0,
+      "total_debt": 5074000.0,
+      "current_assets": 48518000.0,
+      "current_liabilities": 9086000.0,
+      "shares_outstanding": 216471927.0,
+      "net_wc": 39432000.0,
+      "wc_change": -0.0,
+      "capex_abs": 3676000.0,
+      "maint_capex": 2573200.0,
+      "owner_earnings": -53205200.0,
+      "gross_margin_pct": 40.51141552511415,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 28836000.0,
+      "gross_profit": 9064000.0,
+      "operating_income": -39469000.0,
+      "net_income": -53764000.0,
+      "dna": 2616000.0,
+      "operating_cf": -32467000.0,
+      "capex": -2858000.0,
+      "free_cash_flow": -35325000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 86318000.0,
+      "total_liabilities": 269493000.0,
+      "total_equity": -183175000.0,
+      "cash": 47942000.0,
+      "total_debt": 6098000.0,
+      "current_assets": 60951000.0,
+      "current_liabilities": 16727000.0,
+      "shares_outstanding": 216471927.0,
+      "net_wc": 44224000.0,
+      "wc_change": -4792000.0,
+      "capex_abs": 2858000.0,
+      "maint_capex": 2000599.9999999998,
+      "owner_earnings": -57940600.0,
+      "gross_margin_pct": 31.432931058399223,
+      "rev_growth_pct": 163.34246575342465
+    }
+  ],
+  "latest_oe": -57940600.0,
+  "latest_cash": 47942000.0,
+  "latest_debt": 6098000.0,
+  "ev": 3191833824.0,
+  "oe_yield": -1.8152762078130043,
+  "roe": 29.351166916882764,
+  "debt_equity": -0.033290569127883175,
+  "latest_gm": 31.432931058399223,
+  "current_ratio": 3.6438691935194596,
+  "latest_net_income": -53764000.0,
+  "latest_dna": 2616000.0,
+  "latest_wc_change": -4792000.0,
+  "latest_maint_capex": 2000599.9999999998,
+  "latest_net_wc": 44224000.0,
+  "latest_current_assets": 60951000.0,
+  "latest_current_liabilities": 16727000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "High ROE 29.4%",
+    "Low leverage (-0.03x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "Infleqtion, Inc. INFQ revenue predictability recurring demand analysis 2025 2026",
+      "Infleqtion, Inc. INFQ business model complexity investor circle of competence",
+      "Infleqtion, Inc. INFQ 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Infleqtion, Inc. INFQ competitive moat analysis switching costs brand advantage",
+      "Infleqtion, Inc. INFQ network effects scale advantages cost leadership",
+      "Infleqtion, Inc. INFQ patents regulatory barriers intellectual property moat",
+      "Infleqtion, Inc. INFQ competitive threats risks disruption challenges 2025 2026",
+      "Infleqtion, Inc. INFQ moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Infleqtion, Inc. INFQ CEO management candor shareholder letter transparency",
+      "Infleqtion, Inc. INFQ executive compensation insider ownership stock options proxy",
+      "Infleqtion, Inc. INFQ key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Infleqtion, Inc. INFQ stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Infleqtion, Inc. INFQ investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Infleqtion, Inc. INFQ market position monopoly commodity pricing power ecosystem",
+      "Infleqtion, Inc. INFQ growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Infleqtion, Inc. INFQ investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Infleqtion, Inc. INFQ investment risk permanent capital loss downside analysis",
+      "Infleqtion, Inc. INFQ opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

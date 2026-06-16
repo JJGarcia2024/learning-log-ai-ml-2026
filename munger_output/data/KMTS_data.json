@@ -1,0 +1,162 @@
+{
+  "ticker": "KMTS",
+  "company_name": "Kestra Medical Technologies, Ltd.",
+  "sector": "Healthcare",
+  "industry": "Medical Instruments & Supplies",
+  "description": "Kestra Medical Technologies, Ltd. operates as a wearable medical device and digital healthcare company. It focuses on transforming patient outcomes in cardiovascular disease using monitoring and therapeutic intervention technologies that are intuitive, intelligent, and connected. The company's develops and commercializes Cardiac Recovery System platform, a system that integrates monitoring, therapeutic treatment, digital health, and patient support services into a single, unified solution. Its platform provides ASSURE WCD, a wearable cardioverter defibrillator used to protect patients at an el",
+  "employees": "330",
+  "exchange": "NMS",
+  "website": "https://kestramedical.com",
+  "current_price": 20.405,
+  "market_cap": 1191108224.0,
+  "shares_out": 58373353.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 7630000.0,
+      "gross_profit": -10651000.0,
+      "operating_income": -80421000.0,
+      "net_income": -84238000.0,
+      "dna": 4855000.0,
+      "operating_cf": -69642000.0,
+      "capex": -15461000.0,
+      "free_cash_flow": -85103000.0,
+      "dividends_paid": -671000.0,
+      "buybacks": 0.0,
+      "total_assets": 38656000.0,
+      "total_liabilities": 156234000.0,
+      "total_equity": -117578000.0,
+      "cash": 14810000.0,
+      "total_debt": 39134000.0,
+      "current_assets": 18423000.0,
+      "current_liabilities": 36739000.0,
+      "shares_outstanding": 49533819.0,
+      "net_wc": -18316000.0,
+      "wc_change": -0.0,
+      "capex_abs": 15461000.0,
+      "maint_capex": 10822700.0,
+      "owner_earnings": -90205700.0,
+      "gross_margin_pct": -139.59370904325033,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 27814000.0,
+      "gross_profit": 362000.0,
+      "operating_income": -85063000.0,
+      "net_income": -94120000.0,
+      "dna": 11560000.0,
+      "operating_cf": -72235000.0,
+      "capex": -12514000.0,
+      "free_cash_flow": -84749000.0,
+      "dividends_paid": -799000.0,
+      "buybacks": 0.0,
+      "total_assets": 45949000.0,
+      "total_liabilities": 255326000.0,
+      "total_equity": -209377000.0,
+      "cash": 8249000.0,
+      "total_debt": 45169000.0,
+      "current_assets": 14907000.0,
+      "current_liabilities": 32971000.0,
+      "shares_outstanding": 49533819.0,
+      "net_wc": -18064000.0,
+      "wc_change": -252000.0,
+      "capex_abs": 12514000.0,
+      "maint_capex": 8759800.0,
+      "owner_earnings": -91571800.0,
+      "gross_margin_pct": 1.3015028402962536,
+      "rev_growth_pct": 264.53473132372216
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 59815000.0,
+      "gross_profit": 24210000.0,
+      "operating_income": -106378000.0,
+      "net_income": -113814000.0,
+      "dna": 7968000.0,
+      "operating_cf": -77608000.0,
+      "capex": -23591000.0,
+      "free_cash_flow": -101199000.0,
+      "dividends_paid": -1654000.0,
+      "buybacks": 0.0,
+      "total_assets": 295744000.0,
+      "total_liabilities": 90338000.0,
+      "total_equity": 205406000.0,
+      "cash": 237595000.0,
+      "total_debt": 44311000.0,
+      "current_assets": 255328000.0,
+      "current_liabilities": 37977000.0,
+      "shares_outstanding": 51348656.0,
+      "net_wc": 217351000.0,
+      "wc_change": -235415000.0,
+      "capex_abs": 23591000.0,
+      "maint_capex": 16513699.999999998,
+      "owner_earnings": -357774700.0,
+      "gross_margin_pct": 40.47479729164925,
+      "rev_growth_pct": 115.05357014453152
+    }
+  ],
+  "latest_oe": -357774700.0,
+  "latest_cash": 237595000.0,
+  "latest_debt": 44311000.0,
+  "ev": 997824224.0,
+  "oe_yield": -35.855483500468715,
+  "roe": -55.40928697311666,
+  "debt_equity": 0.21572398079900296,
+  "latest_gm": 40.47479729164925,
+  "current_ratio": 6.723227216473129,
+  "latest_net_income": -113814000.0,
+  "latest_dna": 7968000.0,
+  "latest_wc_change": -235415000.0,
+  "latest_maint_capex": 16513699.999999998,
+  "latest_net_wc": 217351000.0,
+  "latest_current_assets": 255328000.0,
+  "latest_current_liabilities": 37977000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 40.5%)",
+    "OE growing avg 146.1% p.a.",
+    "Low leverage (0.22x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "Kestra Medical Technologies, Ltd. KMTS revenue predictability recurring demand analysis 2025 2026",
+      "Kestra Medical Technologies, Ltd. KMTS business model complexity investor circle of competence",
+      "Kestra Medical Technologies, Ltd. KMTS 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Kestra Medical Technologies, Ltd. KMTS competitive moat analysis switching costs brand advantage",
+      "Kestra Medical Technologies, Ltd. KMTS network effects scale advantages cost leadership",
+      "Kestra Medical Technologies, Ltd. KMTS patents regulatory barriers intellectual property moat",
+      "Kestra Medical Technologies, Ltd. KMTS competitive threats risks disruption challenges 2025 2026",
+      "Kestra Medical Technologies, Ltd. KMTS moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Kestra Medical Technologies, Ltd. KMTS CEO management candor shareholder letter transparency",
+      "Kestra Medical Technologies, Ltd. KMTS executive compensation insider ownership stock options proxy",
+      "Kestra Medical Technologies, Ltd. KMTS key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Kestra Medical Technologies, Ltd. KMTS stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Kestra Medical Technologies, Ltd. KMTS investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Kestra Medical Technologies, Ltd. KMTS market position monopoly commodity pricing power ecosystem",
+      "Kestra Medical Technologies, Ltd. KMTS growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Kestra Medical Technologies, Ltd. KMTS investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Kestra Medical Technologies, Ltd. KMTS investment risk permanent capital loss downside analysis",
+      "Kestra Medical Technologies, Ltd. KMTS opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

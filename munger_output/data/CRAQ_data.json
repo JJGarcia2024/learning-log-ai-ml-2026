@@ -1,0 +1,104 @@
+{
+  "ticker": "CRAQ",
+  "company_name": "Cal Redwood Acquisition Corp.",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Cal Redwood Acquisition Corp. does not have significant operations. The company intends to effect a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization or similar business combination with one or more businesses. It also focuses on targeting businesses within the TMT industries. Cal Redwood Acquisition Corp. was incorporated in 2025 and is based in Menlo Park, California.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "N/A",
+  "current_price": 10.275,
+  "market_cap": 400640736.0,
+  "shares_out": 23660000.0,
+  "pe_ratio": 35.431034,
+  "financial_data": [
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": -132300.0,
+      "operating_income": -600294.0,
+      "net_income": 5054949.0,
+      "dna": 0.0,
+      "operating_cf": -446485.0,
+      "capex": 0.0,
+      "free_cash_flow": -446485.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 236871137.0,
+      "total_liabilities": 9379542.0,
+      "total_equity": 227491595.0,
+      "cash": 1096942.0,
+      "total_debt": 301.0,
+      "current_assets": 1199038.0,
+      "current_liabilities": 179542.0,
+      "shares_outstanding": 31325900.0,
+      "net_wc": 1019496.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 5054949.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 5054949.0,
+  "latest_cash": 1096942.0,
+  "latest_debt": 301.0,
+  "ev": 399544095.0,
+  "oe_yield": 1.2651792538693383,
+  "roe": 2.222037697700436,
+  "debt_equity": 1.3231258060325262e-06,
+  "latest_gm": null,
+  "current_ratio": 6.678314823272549,
+  "latest_net_income": 5054949.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -0.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 1019496.0,
+  "latest_current_assets": 1199038.0,
+  "latest_current_liabilities": 179542.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Cal Redwood Acquisition Corp. CRAQ revenue predictability recurring demand analysis 2025 2026",
+      "Cal Redwood Acquisition Corp. CRAQ business model complexity investor circle of competence",
+      "Cal Redwood Acquisition Corp. CRAQ 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Cal Redwood Acquisition Corp. CRAQ competitive moat analysis switching costs brand advantage",
+      "Cal Redwood Acquisition Corp. CRAQ network effects scale advantages cost leadership",
+      "Cal Redwood Acquisition Corp. CRAQ patents regulatory barriers intellectual property moat",
+      "Cal Redwood Acquisition Corp. CRAQ competitive threats risks disruption challenges 2025 2026",
+      "Cal Redwood Acquisition Corp. CRAQ moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Cal Redwood Acquisition Corp. CRAQ CEO management candor shareholder letter transparency",
+      "Cal Redwood Acquisition Corp. CRAQ executive compensation insider ownership stock options proxy",
+      "Cal Redwood Acquisition Corp. CRAQ key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Cal Redwood Acquisition Corp. CRAQ stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Cal Redwood Acquisition Corp. CRAQ investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Cal Redwood Acquisition Corp. CRAQ market position monopoly commodity pricing power ecosystem",
+      "Cal Redwood Acquisition Corp. CRAQ growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Cal Redwood Acquisition Corp. CRAQ investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Cal Redwood Acquisition Corp. CRAQ investment risk permanent capital loss downside analysis",
+      "Cal Redwood Acquisition Corp. CRAQ opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

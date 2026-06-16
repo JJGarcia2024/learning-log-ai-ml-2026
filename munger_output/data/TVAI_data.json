@@ -1,0 +1,132 @@
+{
+  "ticker": "TVAI",
+  "company_name": "Thayer Ventures Acquisition Corporation II",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Thayer Ventures Acquisition Corporation II does not have significant operations. It intends to effect a merger, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. The company was incorporated in 2024 and is based in Valencia, California.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "N/A",
+  "current_price": 10.3,
+  "market_cap": 280117088.0,
+  "shares_out": 20487500.0,
+  "pe_ratio": 41.2,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 622778.0,
+      "total_liabilities": 662195.0,
+      "total_equity": -39417.0,
+      "cash": 0.0,
+      "total_debt": 60400.0,
+      "current_assets": 0.0,
+      "current_liabilities": 662195.0,
+      "shares_outstanding": 23695833.0,
+      "net_wc": -662195.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -1223220.0,
+      "net_income": 3883792.0,
+      "dna": 0.0,
+      "operating_cf": 617097.0,
+      "capex": 0.0,
+      "free_cash_flow": 617097.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 206817707.0,
+      "total_liabilities": 8644400.0,
+      "total_equity": 198173307.0,
+      "cash": 257966.0,
+      "total_debt": 10.0,
+      "current_assets": 436863.0,
+      "current_liabilities": 155510.0,
+      "shares_outstanding": 27195833.0,
+      "net_wc": 281353.0,
+      "wc_change": -943548.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 2940244.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 2940244.0,
+  "latest_cash": 257966.0,
+  "latest_debt": 10.0,
+  "ev": 279859132.0,
+  "oe_yield": 1.0506157076196463,
+  "roe": 1.959795725667534,
+  "debt_equity": 5.046088270606495e-08,
+  "latest_gm": null,
+  "current_ratio": 2.8092277023985597,
+  "latest_net_income": 3883792.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -943548.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 281353.0,
+  "latest_current_assets": 436863.0,
+  "latest_current_liabilities": 155510.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Thayer Ventures Acquisition Corporation II TVAI revenue predictability recurring demand analysis 2025 2026",
+      "Thayer Ventures Acquisition Corporation II TVAI business model complexity investor circle of competence",
+      "Thayer Ventures Acquisition Corporation II TVAI 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Thayer Ventures Acquisition Corporation II TVAI competitive moat analysis switching costs brand advantage",
+      "Thayer Ventures Acquisition Corporation II TVAI network effects scale advantages cost leadership",
+      "Thayer Ventures Acquisition Corporation II TVAI patents regulatory barriers intellectual property moat",
+      "Thayer Ventures Acquisition Corporation II TVAI competitive threats risks disruption challenges 2025 2026",
+      "Thayer Ventures Acquisition Corporation II TVAI moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Thayer Ventures Acquisition Corporation II TVAI CEO management candor shareholder letter transparency",
+      "Thayer Ventures Acquisition Corporation II TVAI executive compensation insider ownership stock options proxy",
+      "Thayer Ventures Acquisition Corporation II TVAI key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Thayer Ventures Acquisition Corporation II TVAI stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Thayer Ventures Acquisition Corporation II TVAI investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Thayer Ventures Acquisition Corporation II TVAI market position monopoly commodity pricing power ecosystem",
+      "Thayer Ventures Acquisition Corporation II TVAI growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Thayer Ventures Acquisition Corporation II TVAI investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Thayer Ventures Acquisition Corporation II TVAI investment risk permanent capital loss downside analysis",
+      "Thayer Ventures Acquisition Corporation II TVAI opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

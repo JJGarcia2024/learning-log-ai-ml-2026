@@ -1,0 +1,134 @@
+{
+  "ticker": "AGGI",
+  "company_name": "BILI Social International, Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "description": "Allied Energy, Inc. operates as an investment holding company and, through its subsidiaries, operates an AI-powered social commerce platform designed to facilitate connections between social media creators and brands. Its services include BILI Base, an AI-powered social commerce platform enabling creators to sell products as retailers; BILI Boost, an AI-enabled search engine and campaign management solution for brands to identify, contract, and collaborate with optimal creators; BILI BoostAI-Enabled Automated Content and Campaign Service, which automates digital marketing campaign execution us",
+  "employees": "15",
+  "exchange": "PNK",
+  "website": "N/A",
+  "current_price": 2.25,
+  "market_cap": 45437464576.0,
+  "shares_out": 20194429021.0,
+  "pe_ratio": 45.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 350676.0,
+      "gross_profit": 232601.0,
+      "operating_income": -503019.0,
+      "net_income": -495281.0,
+      "dna": 0.0,
+      "operating_cf": -462747.0,
+      "capex": -128710.0,
+      "free_cash_flow": -591457.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 469026.0,
+      "total_liabilities": 431775.0,
+      "total_equity": 37251.0,
+      "cash": 291385.0,
+      "total_debt": 16109.0,
+      "current_assets": 340316.0,
+      "current_liabilities": 431775.0,
+      "shares_outstanding": 2396661821.0,
+      "net_wc": -91459.0,
+      "wc_change": -0.0,
+      "capex_abs": 128710.0,
+      "maint_capex": 90097.0,
+      "owner_earnings": -585378.0,
+      "gross_margin_pct": 66.3293182310737,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 1916320.0,
+      "gross_profit": 1639540.0,
+      "operating_income": 1067419.0,
+      "net_income": 1059288.0,
+      "dna": 26515.0,
+      "operating_cf": 53228.0,
+      "capex": 0.0,
+      "free_cash_flow": 53228.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1581923.0,
+      "total_liabilities": 462856.0,
+      "total_equity": 1119067.0,
+      "cash": 298503.0,
+      "total_debt": 0.0,
+      "current_assets": 1473844.0,
+      "current_liabilities": 462856.0,
+      "shares_outstanding": 20194429021.0,
+      "net_wc": 1010988.0,
+      "wc_change": -1102447.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -16644.0,
+      "gross_margin_pct": 85.55669199298656,
+      "rev_growth_pct": 446.46454276882366
+    }
+  ],
+  "latest_oe": -16644.0,
+  "latest_cash": 298503.0,
+  "latest_debt": 0.0,
+  "ev": 45437166073.0,
+  "oe_yield": -3.663080565645206e-05,
+  "roe": 94.65813932499127,
+  "debt_equity": 0.0,
+  "latest_gm": 85.55669199298656,
+  "current_ratio": 3.184238726515374,
+  "latest_net_income": 1059288.0,
+  "latest_dna": 26515.0,
+  "latest_wc_change": -1102447.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 1010988.0,
+  "latest_current_assets": 1473844.0,
+  "latest_current_liabilities": 462856.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 85.6%)",
+    "High ROE 94.7%",
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Communication Services)",
+  "search_queries": {
+    "section_1": [
+      "BILI Social International, Inc. AGGI revenue predictability recurring demand analysis 2025 2026",
+      "BILI Social International, Inc. AGGI business model complexity investor circle of competence",
+      "BILI Social International, Inc. AGGI 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "BILI Social International, Inc. AGGI competitive moat analysis switching costs brand advantage",
+      "BILI Social International, Inc. AGGI network effects scale advantages cost leadership",
+      "BILI Social International, Inc. AGGI patents regulatory barriers intellectual property moat",
+      "BILI Social International, Inc. AGGI competitive threats risks disruption challenges 2025 2026",
+      "BILI Social International, Inc. AGGI moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "BILI Social International, Inc. AGGI CEO management candor shareholder letter transparency",
+      "BILI Social International, Inc. AGGI executive compensation insider ownership stock options proxy",
+      "BILI Social International, Inc. AGGI key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "BILI Social International, Inc. AGGI stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "BILI Social International, Inc. AGGI investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "BILI Social International, Inc. AGGI market position monopoly commodity pricing power ecosystem",
+      "BILI Social International, Inc. AGGI growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "BILI Social International, Inc. AGGI investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "BILI Social International, Inc. AGGI investment risk permanent capital loss downside analysis",
+      "BILI Social International, Inc. AGGI opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

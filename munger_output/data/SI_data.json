@@ -1,0 +1,162 @@
+{
+  "ticker": "SI",
+  "company_name": "Shoulder Innovations, Inc.",
+  "sector": "N/A",
+  "industry": "N/A",
+  "description": "No description available.",
+  "employees": "N/A",
+  "exchange": "NYQ",
+  "website": "N/A",
+  "current_price": 18.12,
+  "market_cap": 375776672.0,
+  "shares_out": 20738226.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 19274000.0,
+      "gross_profit": 15270000.0,
+      "operating_income": -10864000.0,
+      "net_income": -12655000.0,
+      "dna": 1641000.0,
+      "operating_cf": -13144000.0,
+      "capex": -2748000.0,
+      "free_cash_flow": -15892000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 54294000.0,
+      "total_liabilities": 94031000.0,
+      "total_equity": -39737000.0,
+      "cash": 6236000.0,
+      "total_debt": 14465000.0,
+      "current_assets": 47848000.0,
+      "current_liabilities": 4283000.0,
+      "shares_outstanding": 20228510.0,
+      "net_wc": 43565000.0,
+      "wc_change": -0.0,
+      "capex_abs": 2748000.0,
+      "maint_capex": 1923599.9999999998,
+      "owner_earnings": -12937600.0,
+      "gross_margin_pct": 79.22590017640344,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 31623000.0,
+      "gross_profit": 24341000.0,
+      "operating_income": -14653000.0,
+      "net_income": -15619000.0,
+      "dna": 2196000.0,
+      "operating_cf": -14143000.0,
+      "capex": -4015000.0,
+      "free_cash_flow": -18158000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 43080000.0,
+      "total_liabilities": 97775000.0,
+      "total_equity": -54695000.0,
+      "cash": 6123000.0,
+      "total_debt": 14730000.0,
+      "current_assets": 35125000.0,
+      "current_liabilities": 7647000.0,
+      "shares_outstanding": 20228510.0,
+      "net_wc": 27478000.0,
+      "wc_change": 16087000.0,
+      "capex_abs": 4015000.0,
+      "maint_capex": 2810500.0,
+      "owner_earnings": -146500.0,
+      "gross_margin_pct": 76.9724567561585,
+      "rev_growth_pct": 64.07076891148698
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 47317000.0,
+      "gross_profit": 36202000.0,
+      "operating_income": -26297000.0,
+      "net_income": -40359000.0,
+      "dna": 3208000.0,
+      "operating_cf": -28612000.0,
+      "capex": -7408000.0,
+      "free_cash_flow": -36020000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 169907000.0,
+      "total_liabilities": 29157000.0,
+      "total_equity": 140750000.0,
+      "cash": 26871000.0,
+      "total_debt": 15024000.0,
+      "current_assets": 157165000.0,
+      "current_liabilities": 14195000.0,
+      "shares_outstanding": 20623457.0,
+      "net_wc": 142970000.0,
+      "wc_change": -115492000.0,
+      "capex_abs": 7408000.0,
+      "maint_capex": 5185600.0,
+      "owner_earnings": -157828600.0,
+      "gross_margin_pct": 76.50949975695839,
+      "rev_growth_pct": 49.628434999841886
+    }
+  ],
+  "latest_oe": -157828600.0,
+  "latest_cash": 26871000.0,
+  "latest_debt": 15024000.0,
+  "ev": 363929672.0,
+  "oe_yield": -43.36788455105688,
+  "roe": -28.67424511545293,
+  "debt_equity": 0.10674245115452931,
+  "latest_gm": 76.50949975695839,
+  "current_ratio": 11.071856287425149,
+  "latest_net_income": -40359000.0,
+  "latest_dna": 3208000.0,
+  "latest_wc_change": -115492000.0,
+  "latest_maint_capex": 5185600.0,
+  "latest_net_wc": 142970000.0,
+  "latest_current_assets": 157165000.0,
+  "latest_current_liabilities": 14195000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 76.5%)",
+    "OE growing avg 53767.0% p.a.",
+    "Low leverage (0.11x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (N/A)",
+  "search_queries": {
+    "section_1": [
+      "Shoulder Innovations, Inc. SI revenue predictability recurring demand analysis 2025 2026",
+      "Shoulder Innovations, Inc. SI business model complexity investor circle of competence",
+      "Shoulder Innovations, Inc. SI 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Shoulder Innovations, Inc. SI competitive moat analysis switching costs brand advantage",
+      "Shoulder Innovations, Inc. SI network effects scale advantages cost leadership",
+      "Shoulder Innovations, Inc. SI patents regulatory barriers intellectual property moat",
+      "Shoulder Innovations, Inc. SI competitive threats risks disruption challenges 2025 2026",
+      "Shoulder Innovations, Inc. SI moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Shoulder Innovations, Inc. SI CEO management candor shareholder letter transparency",
+      "Shoulder Innovations, Inc. SI executive compensation insider ownership stock options proxy",
+      "Shoulder Innovations, Inc. SI key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Shoulder Innovations, Inc. SI stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Shoulder Innovations, Inc. SI investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Shoulder Innovations, Inc. SI market position monopoly commodity pricing power ecosystem",
+      "Shoulder Innovations, Inc. SI growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Shoulder Innovations, Inc. SI investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Shoulder Innovations, Inc. SI investment risk permanent capital loss downside analysis",
+      "Shoulder Innovations, Inc. SI opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

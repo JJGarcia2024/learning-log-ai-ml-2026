@@ -1,0 +1,162 @@
+{
+  "ticker": "LIFE",
+  "company_name": "Ethos Technologies Inc.",
+  "sector": "Financial Services",
+  "industry": "Insurance Brokers",
+  "description": "Ethos Technologies Inc. provides third-party administrator services for insurance policies in the United States. The company offers Ethos, a three-sided technology platform that serves an ecosystem of consumers, agents, and carriers. It also provides term life insurance, whole life insurance, and indexed universal life insurance products, as well as wills and estate planning, and supplemental health insurance products. The company was formerly known as Ethos Insurance Corporation and changed its name to Ethos Technologies Inc. in August 2016. The company was incorporated in 2016 and is based i",
+  "employees": "614",
+  "exchange": "NMS",
+  "website": "https://www.ethos.com",
+  "current_price": 16.455,
+  "market_cap": 1564434944.0,
+  "shares_out": 30914997.0,
+  "pe_ratio": 21.98753276833776,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 159754000.0,
+      "gross_profit": 153852000.0,
+      "operating_income": -2911000.0,
+      "net_income": 1689000.0,
+      "dna": 5713000.0,
+      "operating_cf": -37124000.0,
+      "capex": -4908000.0,
+      "free_cash_flow": -42032000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 279654000.0,
+      "total_liabilities": 438834000.0,
+      "total_equity": -159180000.0,
+      "cash": 25020000.0,
+      "total_debt": 798000.0,
+      "current_assets": 148875000.0,
+      "current_liabilities": 27093000.0,
+      "shares_outstanding": 62558380.0,
+      "net_wc": 121782000.0,
+      "wc_change": -0.0,
+      "capex_abs": 4908000.0,
+      "maint_capex": 3435600.0,
+      "owner_earnings": 3966400.0,
+      "gross_margin_pct": 96.30556981358839,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 254926000.0,
+      "gross_profit": 248399000.0,
+      "operating_income": 48747000.0,
+      "net_income": 48832000.0,
+      "dna": 5480000.0,
+      "operating_cf": -10908000.0,
+      "capex": -4584000.0,
+      "free_cash_flow": -15492000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 395881000.0,
+      "total_liabilities": 503031000.0,
+      "total_equity": -107150000.0,
+      "cash": 35075000.0,
+      "total_debt": 2617000.0,
+      "current_assets": 174806000.0,
+      "current_liabilities": 67600000.0,
+      "shares_outstanding": 62558380.0,
+      "net_wc": 107206000.0,
+      "wc_change": 14576000.0,
+      "capex_abs": 4584000.0,
+      "maint_capex": 3208800.0,
+      "owner_earnings": 65679200.0,
+      "gross_margin_pct": 97.43964915308756,
+      "rev_growth_pct": 59.5740951713259
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 387608000.0,
+      "gross_profit": 380875000.0,
+      "operating_income": 72922000.0,
+      "net_income": 71151000.0,
+      "dna": 6262000.0,
+      "operating_cf": 36225000.0,
+      "capex": -6277000.0,
+      "free_cash_flow": 29948000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 515337000.0,
+      "total_liabilities": 539453000.0,
+      "total_equity": -24116000.0,
+      "cash": 91091000.0,
+      "total_debt": 2353000.0,
+      "current_assets": 245804000.0,
+      "current_liabilities": 113190000.0,
+      "shares_outstanding": 62558380.0,
+      "net_wc": 132614000.0,
+      "wc_change": -25408000.0,
+      "capex_abs": 6277000.0,
+      "maint_capex": 4393900.0,
+      "owner_earnings": 47611100.0,
+      "gross_margin_pct": 98.26293574952012,
+      "rev_growth_pct": 52.04726077371473
+    }
+  ],
+  "latest_oe": 47611100.0,
+  "latest_cash": 91091000.0,
+  "latest_debt": 2353000.0,
+  "ev": 1475696944.0,
+  "oe_yield": 3.2263467233960745,
+  "roe": -295.0364902968983,
+  "debt_equity": -0.09757007795654338,
+  "latest_gm": 98.26293574952012,
+  "current_ratio": 2.1716052654828166,
+  "latest_net_income": 71151000.0,
+  "latest_dna": 6262000.0,
+  "latest_wc_change": -25408000.0,
+  "latest_maint_capex": 4393900.0,
+  "latest_net_wc": 132614000.0,
+  "latest_current_assets": 245804000.0,
+  "latest_current_liabilities": 113190000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 98.3%)",
+    "OE growing avg 764.2% p.a.",
+    "Low leverage (-0.10x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Ethos Technologies Inc. LIFE revenue predictability recurring demand analysis 2025 2026",
+      "Ethos Technologies Inc. LIFE business model complexity investor circle of competence",
+      "Ethos Technologies Inc. LIFE 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Ethos Technologies Inc. LIFE competitive moat analysis switching costs brand advantage",
+      "Ethos Technologies Inc. LIFE network effects scale advantages cost leadership",
+      "Ethos Technologies Inc. LIFE patents regulatory barriers intellectual property moat",
+      "Ethos Technologies Inc. LIFE competitive threats risks disruption challenges 2025 2026",
+      "Ethos Technologies Inc. LIFE moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Ethos Technologies Inc. LIFE CEO management candor shareholder letter transparency",
+      "Ethos Technologies Inc. LIFE executive compensation insider ownership stock options proxy",
+      "Ethos Technologies Inc. LIFE key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Ethos Technologies Inc. LIFE stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Ethos Technologies Inc. LIFE investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Ethos Technologies Inc. LIFE market position monopoly commodity pricing power ecosystem",
+      "Ethos Technologies Inc. LIFE growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Ethos Technologies Inc. LIFE investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Ethos Technologies Inc. LIFE investment risk permanent capital loss downside analysis",
+      "Ethos Technologies Inc. LIFE opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

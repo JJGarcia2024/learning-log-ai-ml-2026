@@ -1,0 +1,161 @@
+{
+  "ticker": "ASST",
+  "company_name": "Strive, Inc.",
+  "sector": "Financial Services",
+  "industry": "Asset Management",
+  "description": "Strive, Inc. is a privately owned investment manager. It primarily provides its services to investment companies. The firm is a large advisory firm, an investment adviser to an investment company which provides portfolio management for investment companies. The firm invests in exchange traded funds. The firm conducts in-house research to make its investments. Strive, Inc. was founded in 2022 and is based in Dallas, Texas.",
+  "employees": "28",
+  "exchange": "NGM",
+  "website": "https://www.strive.com",
+  "current_price": 16.67,
+  "market_cap": 1320108416.0,
+  "shares_out": 69410645.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 2449739.0,
+      "gross_profit": -10273069.0,
+      "operating_income": -18021877.0,
+      "net_income": -16910416.0,
+      "dna": 98327.0,
+      "operating_cf": -16415574.0,
+      "capex": -973399.0,
+      "free_cash_flow": -17388973.0,
+      "dividends_paid": 0.0,
+      "buybacks": -45000.0,
+      "total_assets": 20194064.0,
+      "total_liabilities": 4136412.0,
+      "total_equity": 16057652.0,
+      "cash": 2086142.0,
+      "total_debt": 2881968.0,
+      "current_assets": 16160427.0,
+      "current_liabilities": 1515636.0,
+      "shares_outstanding": 31767014.0,
+      "net_wc": 14644791.0,
+      "wc_change": -0.0,
+      "capex_abs": 973399.0,
+      "maint_capex": 681379.2999999999,
+      "owner_earnings": -17493468.3,
+      "gross_margin_pct": -419.353612772626,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 3650000.0,
+      "gross_profit": -10352000.0,
+      "operating_income": -22654000.0,
+      "net_income": -21580000.0,
+      "dna": 192000.0,
+      "operating_cf": -21595000.0,
+      "capex": -24000.0,
+      "free_cash_flow": -21619000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -85000.0,
+      "total_assets": 28197000.0,
+      "total_liabilities": 4855000.0,
+      "total_equity": 23342000.0,
+      "cash": 6155000.0,
+      "total_debt": 1516000.0,
+      "current_assets": 23761000.0,
+      "current_liabilities": 3339000.0,
+      "shares_outstanding": 31767014.0,
+      "net_wc": 20422000.0,
+      "wc_change": -5777209.0,
+      "capex_abs": 24000.0,
+      "maint_capex": 16800.0,
+      "owner_earnings": -27182009.0,
+      "gross_margin_pct": -283.6164383561644,
+      "rev_growth_pct": 48.99546441478051
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 745527000.0,
+      "total_liabilities": 14289000.0,
+      "total_equity": 731238000.0,
+      "cash": 67499000.0,
+      "total_debt": 3512000.0,
+      "current_assets": 71776000.0,
+      "current_liabilities": 10777000.0,
+      "shares_outstanding": 44713285.0,
+      "net_wc": 60999000.0,
+      "wc_change": -40577000.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": 0.0
+    }
+  ],
+  "latest_oe": null,
+  "latest_cash": 67499000.0,
+  "latest_debt": 3512000.0,
+  "ev": 1256121416.0,
+  "oe_yield": null,
+  "roe": null,
+  "debt_equity": 0.004802813858141946,
+  "latest_gm": null,
+  "current_ratio": 6.6601094924375985,
+  "latest_net_income": null,
+  "latest_dna": null,
+  "latest_wc_change": -40577000.0,
+  "latest_maint_capex": null,
+  "latest_net_wc": 60999000.0,
+  "latest_current_assets": 71776000.0,
+  "latest_current_liabilities": 10777000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 27.7% p.a.",
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Strive, Inc. ASST revenue predictability recurring demand analysis 2025 2026",
+      "Strive, Inc. ASST business model complexity investor circle of competence",
+      "Strive, Inc. ASST 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Strive, Inc. ASST competitive moat analysis switching costs brand advantage",
+      "Strive, Inc. ASST network effects scale advantages cost leadership",
+      "Strive, Inc. ASST patents regulatory barriers intellectual property moat",
+      "Strive, Inc. ASST competitive threats risks disruption challenges 2025 2026",
+      "Strive, Inc. ASST moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Strive, Inc. ASST CEO management candor shareholder letter transparency",
+      "Strive, Inc. ASST executive compensation insider ownership stock options proxy",
+      "Strive, Inc. ASST key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Strive, Inc. ASST stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Strive, Inc. ASST investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Strive, Inc. ASST market position monopoly commodity pricing power ecosystem",
+      "Strive, Inc. ASST growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Strive, Inc. ASST investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Strive, Inc. ASST investment risk permanent capital loss downside analysis",
+      "Strive, Inc. ASST opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

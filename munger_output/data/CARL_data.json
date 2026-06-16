@@ -1,0 +1,162 @@
+{
+  "ticker": "CARL",
+  "company_name": "Carlsmed, Inc.",
+  "sector": "Healthcare",
+  "industry": "Health Information Services",
+  "description": "Carlsmed, Inc., a commercial-stage medical technology company, designs, manufactures, and markets AI-enabled personalized spine surgery solutions. The company develops aprevo, a comprehensive technology platform for spine fusion surgery procedures. Its aprevo platform includes proprietary surgical planning software, using outcomes-based algorithms that are aided with artificial intelligence, and resulting custom-built, anatomically designed vertebral interbody implants. The company was incorporated in 2018 and is based in Carlsbad, California.",
+  "employees": "127",
+  "exchange": "NMS",
+  "website": "https://carlsmed.com",
+  "current_price": 11.035,
+  "market_cap": 299985728.0,
+  "shares_out": 27184933.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 13778000.0,
+      "gross_profit": 9903000.0,
+      "operating_income": -18591000.0,
+      "net_income": -18898000.0,
+      "dna": 136000.0,
+      "operating_cf": -17480000.0,
+      "capex": -135000.0,
+      "free_cash_flow": -17615000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 14024000.0,
+      "total_liabilities": 60154000.0,
+      "total_equity": -46130000.0,
+      "cash": 7222000.0,
+      "total_debt": 11387000.0,
+      "current_assets": 11765000.0,
+      "current_liabilities": 7440000.0,
+      "shares_outstanding": 26516274.0,
+      "net_wc": 4325000.0,
+      "wc_change": -0.0,
+      "capex_abs": 135000.0,
+      "maint_capex": 94500.0,
+      "owner_earnings": -18856500.0,
+      "gross_margin_pct": 71.87545362171578,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 27165000.0,
+      "gross_profit": 20048000.0,
+      "operating_income": -24122000.0,
+      "net_income": -24257000.0,
+      "dna": 145000.0,
+      "operating_cf": -25466000.0,
+      "capex": -180000.0,
+      "free_cash_flow": -25646000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 51824000.0,
+      "total_liabilities": 122454000.0,
+      "total_equity": -70630000.0,
+      "cash": 40125000.0,
+      "total_debt": 17180000.0,
+      "current_assets": 49351000.0,
+      "current_liabilities": 8818000.0,
+      "shares_outstanding": 26516274.0,
+      "net_wc": 40533000.0,
+      "wc_change": -36208000.0,
+      "capex_abs": 180000.0,
+      "maint_capex": 125999.99999999999,
+      "owner_earnings": -60446000.0,
+      "gross_margin_pct": 73.80084667771028,
+      "rev_growth_pct": 97.16214254608798
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 50511000.0,
+      "gross_profit": 38040000.0,
+      "operating_income": -30574000.0,
+      "net_income": -29634000.0,
+      "dna": 281000.0,
+      "operating_cf": -28977000.0,
+      "capex": -1357000.0,
+      "free_cash_flow": -30334000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 130120000.0,
+      "total_liabilities": 31251000.0,
+      "total_equity": 98869000.0,
+      "cash": 85793000.0,
+      "total_debt": 17414000.0,
+      "current_assets": 126673000.0,
+      "current_liabilities": 14280000.0,
+      "shares_outstanding": 26664243.0,
+      "net_wc": 112393000.0,
+      "wc_change": -71860000.0,
+      "capex_abs": 1357000.0,
+      "maint_capex": 949899.9999999999,
+      "owner_earnings": -102162900.0,
+      "gross_margin_pct": 75.31032844330939,
+      "rev_growth_pct": 85.94146880176699
+    }
+  ],
+  "latest_oe": -102162900.0,
+  "latest_cash": 85793000.0,
+  "latest_debt": 17414000.0,
+  "ev": 231606728.0,
+  "oe_yield": -44.11050615075396,
+  "roe": -29.97299456857053,
+  "debt_equity": 0.17613205352537195,
+  "latest_gm": 75.31032844330939,
+  "current_ratio": 8.870658263305321,
+  "latest_net_income": -29634000.0,
+  "latest_dna": 281000.0,
+  "latest_wc_change": -71860000.0,
+  "latest_maint_capex": 949899.9999999999,
+  "latest_net_wc": 112393000.0,
+  "latest_current_assets": 126673000.0,
+  "latest_current_liabilities": 14280000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 75.3%)",
+    "OE growing avg 144.8% p.a.",
+    "Low leverage (0.18x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "Carlsmed, Inc. CARL revenue predictability recurring demand analysis 2025 2026",
+      "Carlsmed, Inc. CARL business model complexity investor circle of competence",
+      "Carlsmed, Inc. CARL 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Carlsmed, Inc. CARL competitive moat analysis switching costs brand advantage",
+      "Carlsmed, Inc. CARL network effects scale advantages cost leadership",
+      "Carlsmed, Inc. CARL patents regulatory barriers intellectual property moat",
+      "Carlsmed, Inc. CARL competitive threats risks disruption challenges 2025 2026",
+      "Carlsmed, Inc. CARL moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Carlsmed, Inc. CARL CEO management candor shareholder letter transparency",
+      "Carlsmed, Inc. CARL executive compensation insider ownership stock options proxy",
+      "Carlsmed, Inc. CARL key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Carlsmed, Inc. CARL stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Carlsmed, Inc. CARL investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Carlsmed, Inc. CARL market position monopoly commodity pricing power ecosystem",
+      "Carlsmed, Inc. CARL growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Carlsmed, Inc. CARL investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Carlsmed, Inc. CARL investment risk permanent capital loss downside analysis",
+      "Carlsmed, Inc. CARL opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

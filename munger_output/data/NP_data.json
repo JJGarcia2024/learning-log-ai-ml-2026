@@ -1,0 +1,162 @@
+{
+  "ticker": "NP",
+  "company_name": "Neptune Insurance Holdings Inc.",
+  "sector": "Financial Services",
+  "industry": "Insurance Brokers",
+  "description": "Neptune Insurance Holdings Inc., through its subsidiary, Neptune Flood Incorporated, operates as an insurance agency that engages in selling residential and commercial flood insurance policies on behalf of insurance carrier partners in the United States. The company offers primary and excess flood, parametric earthquake, and indemnity earthquake insurance through a network of agencies. Neptune Insurance Holdings Inc. was founded in 2016 and is based in Saint Petersburg, Florida.",
+  "employees": "62",
+  "exchange": "NYQ",
+  "website": "https://www.neptuneflood.com",
+  "current_price": 27.56,
+  "market_cap": 3812399872.0,
+  "shares_out": 94895913.0,
+  "pe_ratio": 101.90040552749045,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 84870000.0,
+      "gross_profit": 54509000.0,
+      "operating_income": 45431000.0,
+      "net_income": 17886000.0,
+      "dna": 2182000.0,
+      "operating_cf": 18647000.0,
+      "capex": -4030000.0,
+      "free_cash_flow": 14617000.0,
+      "dividends_paid": -339023000.0,
+      "buybacks": -10000000.0,
+      "total_assets": 41668000.0,
+      "total_liabilities": 202071000.0,
+      "total_equity": -160403000.0,
+      "cash": 8133000.0,
+      "total_debt": 174863000.0,
+      "current_assets": 29860000.0,
+      "current_liabilities": 29108000.0,
+      "shares_outstanding": 135200000.0,
+      "net_wc": 752000.0,
+      "wc_change": -0.0,
+      "capex_abs": 4030000.0,
+      "maint_capex": 2821000.0,
+      "owner_earnings": 17247000.0,
+      "gross_margin_pct": 64.22646400377047,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 119299000.0,
+      "gross_profit": 79230000.0,
+      "operating_income": 68446000.0,
+      "net_income": 34592000.0,
+      "dna": 3027000.0,
+      "operating_cf": 49926000.0,
+      "capex": -3713000.0,
+      "free_cash_flow": 46213000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 48152000.0,
+      "total_liabilities": 173667000.0,
+      "total_equity": -125515000.0,
+      "cash": 7094000.0,
+      "total_debt": 133651000.0,
+      "current_assets": 35225000.0,
+      "current_liabilities": 48566000.0,
+      "shares_outstanding": 135200000.0,
+      "net_wc": -13341000.0,
+      "wc_change": 14093000.0,
+      "capex_abs": 3713000.0,
+      "maint_capex": 2599100.0,
+      "owner_earnings": 49112900.0,
+      "gross_margin_pct": 66.41296238862019,
+      "rev_growth_pct": 40.56674914575233
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 159551000.0,
+      "gross_profit": 93604000.0,
+      "operating_income": 79868000.0,
+      "net_income": 37413000.0,
+      "dna": 3713000.0,
+      "operating_cf": 51670000.0,
+      "capex": -3977000.0,
+      "free_cash_flow": 47693000.0,
+      "dividends_paid": -175000000.0,
+      "buybacks": 0.0,
+      "total_assets": 65299000.0,
+      "total_liabilities": 292793000.0,
+      "total_equity": -227494000.0,
+      "cash": 8036000.0,
+      "total_debt": 240000000.0,
+      "current_assets": 52462000.0,
+      "current_liabilities": 52793000.0,
+      "shares_outstanding": 138153530.0,
+      "net_wc": -331000.0,
+      "wc_change": -13010000.0,
+      "capex_abs": 3977000.0,
+      "maint_capex": 2783900.0,
+      "owner_earnings": 25332100.0,
+      "gross_margin_pct": 58.66713464660202,
+      "rev_growth_pct": 33.74043370019866
+    }
+  ],
+  "latest_oe": 25332100.0,
+  "latest_cash": 8036000.0,
+  "latest_debt": 240000000.0,
+  "ev": 4044363872.0,
+  "oe_yield": 0.6263556099731671,
+  "roe": -16.445708458245054,
+  "debt_equity": -1.0549728784055843,
+  "latest_gm": 58.66713464660202,
+  "current_ratio": 0.9937302293864717,
+  "latest_net_income": 37413000.0,
+  "latest_dna": 3713000.0,
+  "latest_wc_change": -13010000.0,
+  "latest_maint_capex": 2783900.0,
+  "latest_net_wc": -331000.0,
+  "latest_current_assets": 52462000.0,
+  "latest_current_liabilities": 52793000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 58.7%)",
+    "OE growing avg 68.2% p.a.",
+    "Low leverage (-1.05x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Neptune Insurance Holdings Inc. NP revenue predictability recurring demand analysis 2025 2026",
+      "Neptune Insurance Holdings Inc. NP business model complexity investor circle of competence",
+      "Neptune Insurance Holdings Inc. NP 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Neptune Insurance Holdings Inc. NP competitive moat analysis switching costs brand advantage",
+      "Neptune Insurance Holdings Inc. NP network effects scale advantages cost leadership",
+      "Neptune Insurance Holdings Inc. NP patents regulatory barriers intellectual property moat",
+      "Neptune Insurance Holdings Inc. NP competitive threats risks disruption challenges 2025 2026",
+      "Neptune Insurance Holdings Inc. NP moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Neptune Insurance Holdings Inc. NP CEO management candor shareholder letter transparency",
+      "Neptune Insurance Holdings Inc. NP executive compensation insider ownership stock options proxy",
+      "Neptune Insurance Holdings Inc. NP key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Neptune Insurance Holdings Inc. NP stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Neptune Insurance Holdings Inc. NP investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Neptune Insurance Holdings Inc. NP market position monopoly commodity pricing power ecosystem",
+      "Neptune Insurance Holdings Inc. NP growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Neptune Insurance Holdings Inc. NP investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Neptune Insurance Holdings Inc. NP investment risk permanent capital loss downside analysis",
+      "Neptune Insurance Holdings Inc. NP opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

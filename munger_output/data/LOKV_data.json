@@ -1,0 +1,132 @@
+{
+  "ticker": "LOKV",
+  "company_name": "Live Oak Acquisition Corp. V",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Live Oak Acquisition Corp. V does not have significant operations. It intends to effect a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. The company was incorporated in 2024 and is based in Memphis, Tennessee.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://www.liveoakacq.com",
+  "current_price": 9.91,
+  "market_cap": 284912480.0,
+  "shares_out": 23000000.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 67546.0,
+      "total_liabilities": 61117.0,
+      "total_equity": 6429.0,
+      "cash": 0.0,
+      "total_debt": 58367.0,
+      "current_assets": 67546.0,
+      "current_liabilities": 61117.0,
+      "shares_outstanding": 25000000.0,
+      "net_wc": 6429.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -9113588.0,
+      "net_income": -16495381.0,
+      "dna": 0.0,
+      "operating_cf": -1275338.0,
+      "capex": 0.0,
+      "free_cash_flow": -1275338.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 240473275.0,
+      "total_liabilities": 30185375.0,
+      "total_equity": 210287900.0,
+      "cash": 1329433.0,
+      "total_debt": 0.0,
+      "current_assets": 1416813.0,
+      "current_liabilities": 1111287.0,
+      "shares_outstanding": 28750000.0,
+      "net_wc": 305526.0,
+      "wc_change": -299097.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -16794478.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -16794478.0,
+  "latest_cash": 1329433.0,
+  "latest_debt": 0.0,
+  "ev": 283583047.0,
+  "oe_yield": -5.922243299684977,
+  "roe": -7.844189323303909,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 1.2749298786002177,
+  "latest_net_income": -16495381.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -299097.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 305526.0,
+  "latest_current_assets": 1416813.0,
+  "latest_current_liabilities": 1111287.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Live Oak Acquisition Corp. V LOKV revenue predictability recurring demand analysis 2025 2026",
+      "Live Oak Acquisition Corp. V LOKV business model complexity investor circle of competence",
+      "Live Oak Acquisition Corp. V LOKV 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Live Oak Acquisition Corp. V LOKV competitive moat analysis switching costs brand advantage",
+      "Live Oak Acquisition Corp. V LOKV network effects scale advantages cost leadership",
+      "Live Oak Acquisition Corp. V LOKV patents regulatory barriers intellectual property moat",
+      "Live Oak Acquisition Corp. V LOKV competitive threats risks disruption challenges 2025 2026",
+      "Live Oak Acquisition Corp. V LOKV moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Live Oak Acquisition Corp. V LOKV CEO management candor shareholder letter transparency",
+      "Live Oak Acquisition Corp. V LOKV executive compensation insider ownership stock options proxy",
+      "Live Oak Acquisition Corp. V LOKV key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Live Oak Acquisition Corp. V LOKV stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Live Oak Acquisition Corp. V LOKV investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Live Oak Acquisition Corp. V LOKV market position monopoly commodity pricing power ecosystem",
+      "Live Oak Acquisition Corp. V LOKV growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Live Oak Acquisition Corp. V LOKV investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Live Oak Acquisition Corp. V LOKV investment risk permanent capital loss downside analysis",
+      "Live Oak Acquisition Corp. V LOKV opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

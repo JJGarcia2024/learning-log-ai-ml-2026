@@ -1,0 +1,160 @@
+{
+  "ticker": "SVMB",
+  "company_name": "Jingbo Technology, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "description": "Jingbo Technology, Inc. provides smart parking application software and platform business in China. It offers smart parking projects, smart parking mobile applications, and cloud platform construction services. Jingbo Technology, Inc. is based in Fuyang, China.",
+  "employees": "154",
+  "exchange": "OID",
+  "website": "N/A",
+  "current_price": 1.0,
+  "market_cap": 555315392.0,
+  "shares_out": 555315412.0,
+  "pe_ratio": 6.6666665,
+  "financial_data": [
+    {
+      "fiscal_year": "2022",
+      "revenue": 3563527.0,
+      "gross_profit": -1007580.0,
+      "operating_income": -6144737.0,
+      "net_income": -6627894.0,
+      "dna": 2181396.0,
+      "operating_cf": -17094189.0,
+      "capex": -2839639.0,
+      "free_cash_flow": -19933828.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 18357783.0,
+      "total_liabilities": 36791471.0,
+      "total_equity": -17807037.0,
+      "cash": 106542.0,
+      "total_debt": 34656088.0,
+      "current_assets": 6889070.0,
+      "current_liabilities": 3279881.0,
+      "shares_outstanding": 309500.0,
+      "net_wc": 3609189.0,
+      "wc_change": -0.0,
+      "capex_abs": 2839639.0,
+      "maint_capex": 1987747.2999999998,
+      "owner_earnings": -6434245.3,
+      "gross_margin_pct": -28.274796290304522,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2023",
+      "revenue": 3723088.0,
+      "gross_profit": -409393.0,
+      "operating_income": -5768337.0,
+      "net_income": -6395388.0,
+      "dna": 1559215.0,
+      "operating_cf": 102130.0,
+      "capex": -4463462.0,
+      "free_cash_flow": -4361332.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 12876636.0,
+      "total_liabilities": 36764281.0,
+      "total_equity": -22871082.0,
+      "cash": 483705.0,
+      "total_debt": 33333422.0,
+      "current_assets": 3117996.0,
+      "current_liabilities": 3902103.0,
+      "shares_outstanding": 5309500.0,
+      "net_wc": -784107.0,
+      "wc_change": 4393296.0,
+      "capex_abs": 4463462.0,
+      "maint_capex": 3124423.4,
+      "owner_earnings": -3567300.4,
+      "gross_margin_pct": -10.996060259655426,
+      "rev_growth_pct": 4.47761445332111
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": 0.0,
+      "net_income": 0.0,
+      "dna": 0.0,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 0.0,
+      "total_liabilities": 0.0,
+      "total_equity": 0.0,
+      "cash": 0.0,
+      "total_debt": 0.0,
+      "current_assets": 0.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 0.0,
+      "net_wc": 0.0,
+      "wc_change": -784107.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": -100.0
+    }
+  ],
+  "latest_oe": null,
+  "latest_cash": 0.0,
+  "latest_debt": 0.0,
+  "ev": 555315392.0,
+  "oe_yield": null,
+  "roe": 0.0,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 0.0,
+  "latest_net_income": 0.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -784107.0,
+  "latest_maint_capex": null,
+  "latest_net_wc": 0.0,
+  "latest_current_assets": 0.0,
+  "latest_current_liabilities": 0.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "Jingbo Technology, Inc. SVMB revenue predictability recurring demand analysis 2025 2026",
+      "Jingbo Technology, Inc. SVMB business model complexity investor circle of competence",
+      "Jingbo Technology, Inc. SVMB 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Jingbo Technology, Inc. SVMB competitive moat analysis switching costs brand advantage",
+      "Jingbo Technology, Inc. SVMB network effects scale advantages cost leadership",
+      "Jingbo Technology, Inc. SVMB patents regulatory barriers intellectual property moat",
+      "Jingbo Technology, Inc. SVMB competitive threats risks disruption challenges 2025 2026",
+      "Jingbo Technology, Inc. SVMB moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Jingbo Technology, Inc. SVMB CEO management candor shareholder letter transparency",
+      "Jingbo Technology, Inc. SVMB executive compensation insider ownership stock options proxy",
+      "Jingbo Technology, Inc. SVMB key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Jingbo Technology, Inc. SVMB stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Jingbo Technology, Inc. SVMB investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Jingbo Technology, Inc. SVMB market position monopoly commodity pricing power ecosystem",
+      "Jingbo Technology, Inc. SVMB growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Jingbo Technology, Inc. SVMB investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Jingbo Technology, Inc. SVMB investment risk permanent capital loss downside analysis",
+      "Jingbo Technology, Inc. SVMB opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

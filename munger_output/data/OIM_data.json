@@ -1,0 +1,105 @@
+{
+  "ticker": "OIM",
+  "company_name": "OneIM Acquisition Corp.",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "OneIM Acquisition Corp. does not have significant operations. It focuses on effecting a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or similar business combination with one or more businesses. OneIM Acquisition Corp. was incorporated in 2025 and is based in New York, New York.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://www.oneimacquisitioncorp.com",
+  "current_price": 10.04,
+  "market_cap": 362820512.0,
+  "shares_out": 28750000.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -59134.0,
+      "net_income": -59134.0,
+      "dna": 0.0,
+      "operating_cf": 0.0,
+      "capex": 0.0,
+      "free_cash_flow": 0.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 479596.0,
+      "total_liabilities": 513730.0,
+      "total_equity": -34134.0,
+      "cash": 0.0,
+      "total_debt": 0.0,
+      "current_assets": 0.0,
+      "current_liabilities": 513730.0,
+      "shares_outstanding": 32387500.0,
+      "net_wc": -513730.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -59134.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -59134.0,
+  "latest_cash": 0.0,
+  "latest_debt": 0.0,
+  "ev": 362820512.0,
+  "oe_yield": -0.01629841699798935,
+  "roe": 173.24075701646453,
+  "debt_equity": -0.0,
+  "latest_gm": null,
+  "current_ratio": 0.0,
+  "latest_net_income": -59134.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -0.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": -513730.0,
+  "latest_current_assets": 0.0,
+  "latest_current_liabilities": 513730.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "High ROE 173.2%",
+    "Low leverage (-0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "OneIM Acquisition Corp. OIM revenue predictability recurring demand analysis 2025 2026",
+      "OneIM Acquisition Corp. OIM business model complexity investor circle of competence",
+      "OneIM Acquisition Corp. OIM 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "OneIM Acquisition Corp. OIM competitive moat analysis switching costs brand advantage",
+      "OneIM Acquisition Corp. OIM network effects scale advantages cost leadership",
+      "OneIM Acquisition Corp. OIM patents regulatory barriers intellectual property moat",
+      "OneIM Acquisition Corp. OIM competitive threats risks disruption challenges 2025 2026",
+      "OneIM Acquisition Corp. OIM moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "OneIM Acquisition Corp. OIM CEO management candor shareholder letter transparency",
+      "OneIM Acquisition Corp. OIM executive compensation insider ownership stock options proxy",
+      "OneIM Acquisition Corp. OIM key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "OneIM Acquisition Corp. OIM stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "OneIM Acquisition Corp. OIM investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "OneIM Acquisition Corp. OIM market position monopoly commodity pricing power ecosystem",
+      "OneIM Acquisition Corp. OIM growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "OneIM Acquisition Corp. OIM investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "OneIM Acquisition Corp. OIM investment risk permanent capital loss downside analysis",
+      "OneIM Acquisition Corp. OIM opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

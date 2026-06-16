@@ -1,0 +1,133 @@
+{
+  "ticker": "ZSQR",
+  "company_name": "Z Squared Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "description": "Z Squared Inc. an integrated computing infrastructure company, operates advanced computing equipment distributed across North Carolina, South Carolina, and Iowa. The company manages and optimizes a fleet of specialized computing hardware, supported by dynamic power management strategies, real time analytics dashboards, and a comprehensive in house repair and lifecycle management program designed to maximize hardware efficiency and reduce capital waste. The company was founded in 2022 and is based in Fort Lauderdale, Florida.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://ir.zsquaredinc.com",
+  "current_price": 12.77,
+  "market_cap": 656780160.0,
+  "shares_out": 51431493.0,
+  "pe_ratio": null,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -60.0,
+      "net_income": -60.0,
+      "dna": 0.0,
+      "operating_cf": 0.0,
+      "capex": 0.0,
+      "free_cash_flow": 0.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 0.0,
+      "total_liabilities": 60.0,
+      "total_equity": -60.0,
+      "cash": 0.0,
+      "total_debt": 0.0,
+      "current_assets": 0.0,
+      "current_liabilities": 60.0,
+      "shares_outstanding": 51431493.0,
+      "net_wc": -60.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -60.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -60.0,
+      "net_income": -60.0,
+      "dna": 0.0,
+      "operating_cf": 0.0,
+      "capex": 0.0,
+      "free_cash_flow": 0.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 0.0,
+      "total_liabilities": 120.0,
+      "total_equity": -120.0,
+      "cash": 0.0,
+      "total_debt": 0.0,
+      "current_assets": 0.0,
+      "current_liabilities": 120.0,
+      "shares_outstanding": 51431493.0,
+      "net_wc": -120.0,
+      "wc_change": 60.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 0.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 0.0,
+  "latest_cash": 0.0,
+  "latest_debt": 0.0,
+  "ev": 656780160.0,
+  "oe_yield": 0.0,
+  "roe": 50.0,
+  "debt_equity": -0.0,
+  "latest_gm": null,
+  "current_ratio": 0.0,
+  "latest_net_income": -60.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": 60.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": -120.0,
+  "latest_current_assets": 0.0,
+  "latest_current_liabilities": 120.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "High ROE 50.0%",
+    "Low leverage (-0.00x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "Z Squared Inc. ZSQR revenue predictability recurring demand analysis 2025 2026",
+      "Z Squared Inc. ZSQR business model complexity investor circle of competence",
+      "Z Squared Inc. ZSQR 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Z Squared Inc. ZSQR competitive moat analysis switching costs brand advantage",
+      "Z Squared Inc. ZSQR network effects scale advantages cost leadership",
+      "Z Squared Inc. ZSQR patents regulatory barriers intellectual property moat",
+      "Z Squared Inc. ZSQR competitive threats risks disruption challenges 2025 2026",
+      "Z Squared Inc. ZSQR moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Z Squared Inc. ZSQR CEO management candor shareholder letter transparency",
+      "Z Squared Inc. ZSQR executive compensation insider ownership stock options proxy",
+      "Z Squared Inc. ZSQR key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Z Squared Inc. ZSQR stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Z Squared Inc. ZSQR investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Z Squared Inc. ZSQR market position monopoly commodity pricing power ecosystem",
+      "Z Squared Inc. ZSQR growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Z Squared Inc. ZSQR investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Z Squared Inc. ZSQR investment risk permanent capital loss downside analysis",
+      "Z Squared Inc. ZSQR opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

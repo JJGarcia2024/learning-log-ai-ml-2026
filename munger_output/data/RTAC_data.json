@@ -1,0 +1,132 @@
+{
+  "ticker": "RTAC",
+  "company_name": "Renatus Tactical Acquisition Corp I",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Renatus Tactical Acquisition Corp I does not have significant operations. It intends to effecting a merger, share exchange, asset acquisition, share purchase, reorganization or similar business combination with one or more businesses. The company was incorporated in 2024 and is based in Coral Gables, Florida.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://www.RTAC1.com",
+  "current_price": 10.42,
+  "market_cap": 397758240.0,
+  "shares_out": 24150000.0,
+  "pe_ratio": 35.931034,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 624375.0,
+      "total_liabilities": 599375.0,
+      "total_equity": 25000.0,
+      "cash": 0.0,
+      "total_debt": 0.0,
+      "current_assets": 26577.0,
+      "current_liabilities": 599375.0,
+      "shares_outstanding": 27096774.0,
+      "net_wc": -572798.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -1025873.0,
+      "net_income": 5055742.0,
+      "dna": 0.0,
+      "operating_cf": -991948.0,
+      "capex": 0.0,
+      "free_cash_flow": -991948.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 248611625.0,
+      "total_liabilities": 10423035.0,
+      "total_equity": 238188590.0,
+      "cash": 4031.0,
+      "total_debt": 250000.0,
+      "current_assets": 428133.0,
+      "current_liabilities": 40100.0,
+      "shares_outstanding": 31161288.0,
+      "net_wc": 388033.0,
+      "wc_change": -960831.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 4094911.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 4094911.0,
+  "latest_cash": 4031.0,
+  "latest_debt": 250000.0,
+  "ev": 398004209.0,
+  "oe_yield": 1.0288612299574953,
+  "roe": 2.1225794233048694,
+  "debt_equity": 0.001049588479448155,
+  "latest_gm": null,
+  "current_ratio": 10.676633416458852,
+  "latest_net_income": 5055742.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -960831.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 388033.0,
+  "latest_current_assets": 428133.0,
+  "latest_current_liabilities": 40100.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Renatus Tactical Acquisition Corp I RTAC revenue predictability recurring demand analysis 2025 2026",
+      "Renatus Tactical Acquisition Corp I RTAC business model complexity investor circle of competence",
+      "Renatus Tactical Acquisition Corp I RTAC 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Renatus Tactical Acquisition Corp I RTAC competitive moat analysis switching costs brand advantage",
+      "Renatus Tactical Acquisition Corp I RTAC network effects scale advantages cost leadership",
+      "Renatus Tactical Acquisition Corp I RTAC patents regulatory barriers intellectual property moat",
+      "Renatus Tactical Acquisition Corp I RTAC competitive threats risks disruption challenges 2025 2026",
+      "Renatus Tactical Acquisition Corp I RTAC moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Renatus Tactical Acquisition Corp I RTAC CEO management candor shareholder letter transparency",
+      "Renatus Tactical Acquisition Corp I RTAC executive compensation insider ownership stock options proxy",
+      "Renatus Tactical Acquisition Corp I RTAC key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Renatus Tactical Acquisition Corp I RTAC stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Renatus Tactical Acquisition Corp I RTAC investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Renatus Tactical Acquisition Corp I RTAC market position monopoly commodity pricing power ecosystem",
+      "Renatus Tactical Acquisition Corp I RTAC growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Renatus Tactical Acquisition Corp I RTAC investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Renatus Tactical Acquisition Corp I RTAC investment risk permanent capital loss downside analysis",
+      "Renatus Tactical Acquisition Corp I RTAC opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

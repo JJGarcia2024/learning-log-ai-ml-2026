@@ -1,0 +1,161 @@
+{
+  "ticker": "HNGE",
+  "company_name": "Hinge Health, Inc.",
+  "sector": "Healthcare",
+  "industry": "Health Information Services",
+  "description": "Hinge Health, Inc. focuses on building a health system that scales and automates the delivery of care using technology. It designs its platform to address musculoskeletal system care (MSK), including acute injury, chronic pain, and post-surgical rehabilitation. The company also provides personalized and automated MSK care through AI-powered motion tracking technology and a proprietary electrical nerve stimulation wearable device. It primarily serves self-insured employers. The company was founded in 2012 and is headquartered in San Francisco, California.",
+  "employees": "1437",
+  "exchange": "NYQ",
+  "website": "https://www.hingehealth.com",
+  "current_price": 68.35,
+  "market_cap": 5288931840.0,
+  "shares_out": 54655926.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 292730000.0,
+      "gross_profit": 194179000.0,
+      "operating_income": -130514000.0,
+      "net_income": -108141000.0,
+      "dna": 5627000.0,
+      "operating_cf": -63909000.0,
+      "capex": -4615000.0,
+      "free_cash_flow": -68524000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 622528000.0,
+      "total_liabilities": 195250000.0,
+      "total_equity": 427278000.0,
+      "cash": 234952000.0,
+      "total_debt": 15732000.0,
+      "current_assets": 529880000.0,
+      "current_liabilities": 184155000.0,
+      "shares_outstanding": 78015947.0,
+      "net_wc": 345725000.0,
+      "wc_change": -0.0,
+      "capex_abs": 4615000.0,
+      "maint_capex": 3230500.0,
+      "owner_earnings": -105744500.0,
+      "gross_margin_pct": 66.33382297680457,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 390404000.0,
+      "gross_profit": 299902000.0,
+      "operating_income": -31910000.0,
+      "net_income": -11933000.0,
+      "dna": 5950000.0,
+      "operating_cf": 49002000.0,
+      "capex": -3773000.0,
+      "free_cash_flow": 45229000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 673259000.0,
+      "total_liabilities": 256557000.0,
+      "total_equity": 416702000.0,
+      "cash": 300785000.0,
+      "total_debt": 11072000.0,
+      "current_assets": 583446000.0,
+      "current_liabilities": 249299000.0,
+      "shares_outstanding": 78015947.0,
+      "net_wc": 334147000.0,
+      "wc_change": 11578000.0,
+      "capex_abs": 3773000.0,
+      "maint_capex": 2641100.0,
+      "owner_earnings": 2953900.0,
+      "gross_margin_pct": 76.81837276257414,
+      "rev_growth_pct": 33.36658354114712
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 587860000.0,
+      "gross_profit": 468222000.0,
+      "operating_income": -546371000.0,
+      "net_income": -528261000.0,
+      "dna": 5133000.0,
+      "operating_cf": 171441000.0,
+      "capex": -6064000.0,
+      "free_cash_flow": 165377000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -65028000.0,
+      "total_assets": 744761000.0,
+      "total_liabilities": 366225000.0,
+      "total_equity": 378536000.0,
+      "cash": 207995000.0,
+      "total_debt": 8039000.0,
+      "current_assets": 533904000.0,
+      "current_liabilities": 362409000.0,
+      "shares_outstanding": 79171304.0,
+      "net_wc": 171495000.0,
+      "wc_change": 162652000.0,
+      "capex_abs": 6064000.0,
+      "maint_capex": 4244800.0,
+      "owner_earnings": -364720800.0,
+      "gross_margin_pct": 79.64855577858674,
+      "rev_growth_pct": 50.577350641899166
+    }
+  ],
+  "latest_oe": -364720800.0,
+  "latest_cash": 207995000.0,
+  "latest_debt": 8039000.0,
+  "ev": 5088975840.0,
+  "oe_yield": -7.166880163455443,
+  "roe": -139.5537016294355,
+  "debt_equity": 0.021237081809920323,
+  "latest_gm": 79.64855577858674,
+  "current_ratio": 1.4732084468100959,
+  "latest_net_income": -528261000.0,
+  "latest_dna": 5133000.0,
+  "latest_wc_change": 162652000.0,
+  "latest_maint_capex": 4244800.0,
+  "latest_net_wc": 171495000.0,
+  "latest_current_assets": 533904000.0,
+  "latest_current_liabilities": 362409000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 79.6%)",
+    "Low leverage (0.02x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "Hinge Health, Inc. HNGE revenue predictability recurring demand analysis 2025 2026",
+      "Hinge Health, Inc. HNGE business model complexity investor circle of competence",
+      "Hinge Health, Inc. HNGE 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Hinge Health, Inc. HNGE competitive moat analysis switching costs brand advantage",
+      "Hinge Health, Inc. HNGE network effects scale advantages cost leadership",
+      "Hinge Health, Inc. HNGE patents regulatory barriers intellectual property moat",
+      "Hinge Health, Inc. HNGE competitive threats risks disruption challenges 2025 2026",
+      "Hinge Health, Inc. HNGE moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Hinge Health, Inc. HNGE CEO management candor shareholder letter transparency",
+      "Hinge Health, Inc. HNGE executive compensation insider ownership stock options proxy",
+      "Hinge Health, Inc. HNGE key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Hinge Health, Inc. HNGE stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Hinge Health, Inc. HNGE investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Hinge Health, Inc. HNGE market position monopoly commodity pricing power ecosystem",
+      "Hinge Health, Inc. HNGE growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Hinge Health, Inc. HNGE investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Hinge Health, Inc. HNGE investment risk permanent capital loss downside analysis",
+      "Hinge Health, Inc. HNGE opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

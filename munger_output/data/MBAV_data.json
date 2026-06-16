@@ -1,0 +1,132 @@
+{
+  "ticker": "MBAV",
+  "company_name": "M3-Brigade Acquisition V Corp.",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "M3-Brigade Acquisition V Corp. does not have significant operations. It intends to effect a merger, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. M3-Brigade Acquisition V Corp. was incorporated in 2024 and is based in New York, New York.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://www.m3-brigade.com",
+  "current_price": 10.74,
+  "market_cap": 385968736.0,
+  "shares_out": 28750000.0,
+  "pe_ratio": 71.6,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 295809536.0,
+      "total_liabilities": 14127705.0,
+      "total_equity": 281681831.0,
+      "cash": 821188.0,
+      "total_debt": 0.0,
+      "current_assets": 1073283.0,
+      "current_liabilities": 727705.0,
+      "shares_outstanding": 35937500.0,
+      "net_wc": 345578.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -6484916.0,
+      "net_income": 5778750.0,
+      "dna": 0.0,
+      "operating_cf": -1465482.0,
+      "capex": 0.0,
+      "free_cash_flow": -1465482.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 308181330.0,
+      "total_liabilities": 20696309.0,
+      "total_equity": 287485021.0,
+      "cash": 1175051.0,
+      "total_debt": 2500000.0,
+      "current_assets": 1300422.0,
+      "current_liabilities": 7296309.0,
+      "shares_outstanding": 35937500.0,
+      "net_wc": -5995887.0,
+      "wc_change": 6341465.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 12120215.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 12120215.0,
+  "latest_cash": 1175051.0,
+  "latest_debt": 2500000.0,
+  "ev": 387293685.0,
+  "oe_yield": 3.1294636265499656,
+  "roe": 2.0101047282042566,
+  "debt_equity": 0.008696105248558324,
+  "latest_gm": null,
+  "current_ratio": 0.1782301160764984,
+  "latest_net_income": 5778750.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": 6341465.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": -5995887.0,
+  "latest_current_assets": 1300422.0,
+  "latest_current_liabilities": 7296309.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.01x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "M3-Brigade Acquisition V Corp. MBAV revenue predictability recurring demand analysis 2025 2026",
+      "M3-Brigade Acquisition V Corp. MBAV business model complexity investor circle of competence",
+      "M3-Brigade Acquisition V Corp. MBAV 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "M3-Brigade Acquisition V Corp. MBAV competitive moat analysis switching costs brand advantage",
+      "M3-Brigade Acquisition V Corp. MBAV network effects scale advantages cost leadership",
+      "M3-Brigade Acquisition V Corp. MBAV patents regulatory barriers intellectual property moat",
+      "M3-Brigade Acquisition V Corp. MBAV competitive threats risks disruption challenges 2025 2026",
+      "M3-Brigade Acquisition V Corp. MBAV moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "M3-Brigade Acquisition V Corp. MBAV CEO management candor shareholder letter transparency",
+      "M3-Brigade Acquisition V Corp. MBAV executive compensation insider ownership stock options proxy",
+      "M3-Brigade Acquisition V Corp. MBAV key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "M3-Brigade Acquisition V Corp. MBAV stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "M3-Brigade Acquisition V Corp. MBAV investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "M3-Brigade Acquisition V Corp. MBAV market position monopoly commodity pricing power ecosystem",
+      "M3-Brigade Acquisition V Corp. MBAV growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "M3-Brigade Acquisition V Corp. MBAV investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "M3-Brigade Acquisition V Corp. MBAV investment risk permanent capital loss downside analysis",
+      "M3-Brigade Acquisition V Corp. MBAV opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

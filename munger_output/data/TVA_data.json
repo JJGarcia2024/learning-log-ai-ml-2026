@@ -1,0 +1,132 @@
+{
+  "ticker": "TVA",
+  "company_name": "Texas Ventures Acquisition III Corp",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Texas Ventures Acquisition III Corp does not have significant operations. It focuses on effecting a merger, share exchange, asset acquisition, share purchase, reorganization or similar business combination with one or more businesses in any business or industry. The company was incorporated in 2024 and is based in Mountainside, New Jersey.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "N/A",
+  "current_price": 10.46,
+  "market_cap": 313800000.0,
+  "shares_out": 22500000.0,
+  "pe_ratio": 43.583336,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 255223.0,
+      "total_liabilities": 274960.0,
+      "total_equity": -19737.0,
+      "cash": 2232.0,
+      "total_debt": 152200.0,
+      "current_assets": 6798.0,
+      "current_liabilities": 274960.0,
+      "shares_outstanding": 26666667.0,
+      "net_wc": -268162.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -718934.0,
+      "net_income": 5926421.0,
+      "dna": 0.0,
+      "operating_cf": -437989.0,
+      "capex": 0.0,
+      "free_cash_flow": -437989.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 233452498.0,
+      "total_liabilities": 9233852.0,
+      "total_equity": 224218646.0,
+      "cash": 856131.0,
+      "total_debt": 0.0,
+      "current_assets": 958631.0,
+      "current_liabilities": 233852.0,
+      "shares_outstanding": 30000000.0,
+      "net_wc": 724779.0,
+      "wc_change": -992941.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 4933480.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 4933480.0,
+  "latest_cash": 856131.0,
+  "latest_debt": 0.0,
+  "ev": 312943869.0,
+  "oe_yield": 1.576474406021995,
+  "roe": 2.643143692875569,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 4.099306398918975,
+  "latest_net_income": 5926421.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -992941.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 724779.0,
+  "latest_current_assets": 958631.0,
+  "latest_current_liabilities": 233852.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Texas Ventures Acquisition III Corp TVA revenue predictability recurring demand analysis 2025 2026",
+      "Texas Ventures Acquisition III Corp TVA business model complexity investor circle of competence",
+      "Texas Ventures Acquisition III Corp TVA 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Texas Ventures Acquisition III Corp TVA competitive moat analysis switching costs brand advantage",
+      "Texas Ventures Acquisition III Corp TVA network effects scale advantages cost leadership",
+      "Texas Ventures Acquisition III Corp TVA patents regulatory barriers intellectual property moat",
+      "Texas Ventures Acquisition III Corp TVA competitive threats risks disruption challenges 2025 2026",
+      "Texas Ventures Acquisition III Corp TVA moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Texas Ventures Acquisition III Corp TVA CEO management candor shareholder letter transparency",
+      "Texas Ventures Acquisition III Corp TVA executive compensation insider ownership stock options proxy",
+      "Texas Ventures Acquisition III Corp TVA key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Texas Ventures Acquisition III Corp TVA stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Texas Ventures Acquisition III Corp TVA investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Texas Ventures Acquisition III Corp TVA market position monopoly commodity pricing power ecosystem",
+      "Texas Ventures Acquisition III Corp TVA growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Texas Ventures Acquisition III Corp TVA investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Texas Ventures Acquisition III Corp TVA investment risk permanent capital loss downside analysis",
+      "Texas Ventures Acquisition III Corp TVA opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

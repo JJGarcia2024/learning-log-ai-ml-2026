@@ -1,0 +1,134 @@
+{
+  "ticker": "COAG",
+  "company_name": "Hemab Therapeutics Holdings, Inc.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "description": "Hemab Therapeutics Holdings, Inc. operates as a clinical-stage biotechnology company developing therapies that reimagine the treatment of blood coagulation disorders to sustain life and human resilience in United States of America and Denmark. Its products includes (HMB-001), is a bispecific antibody currently in Phase 1/2 clinical development for the prophylactic treatment of Glanzmann thrombasthenia and Phase 2 clinical development for the prophylactic treatment of Factor VII deficiency; and second clinical-stage asset, HMB-002, is a monovalent antibody in Phase 1/2 clinical development for ",
+  "employees": "59",
+  "exchange": "NMS",
+  "website": "https://www.hemab.com",
+  "current_price": 25.08,
+  "market_cap": 1171371648.0,
+  "shares_out": 46705410.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -50383000.0,
+      "net_income": -48707000.0,
+      "dna": 248000.0,
+      "operating_cf": -45592000.0,
+      "capex": -282000.0,
+      "free_cash_flow": -45874000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 96278000.0,
+      "total_liabilities": 211551000.0,
+      "total_equity": -115273000.0,
+      "cash": 74407000.0,
+      "total_debt": 1725000.0,
+      "current_assets": 93235000.0,
+      "current_liabilities": 6685000.0,
+      "shares_outstanding": 44192910.0,
+      "net_wc": 86550000.0,
+      "wc_change": -0.0,
+      "capex_abs": 282000.0,
+      "maint_capex": 197400.0,
+      "owner_earnings": -48656400.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -70119000.0,
+      "net_income": -63913000.0,
+      "dna": 304000.0,
+      "operating_cf": -61475000.0,
+      "capex": -16000.0,
+      "free_cash_flow": -61491000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 194783000.0,
+      "total_liabilities": 371418000.0,
+      "total_equity": -176635000.0,
+      "cash": 87974000.0,
+      "total_debt": 1220000.0,
+      "current_assets": 192551000.0,
+      "current_liabilities": 10677000.0,
+      "shares_outstanding": 44192910.0,
+      "net_wc": 181874000.0,
+      "wc_change": -95324000.0,
+      "capex_abs": 16000.0,
+      "maint_capex": 11200.0,
+      "owner_earnings": -158944200.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -158944200.0,
+  "latest_cash": 87974000.0,
+  "latest_debt": 1220000.0,
+  "ev": 1084617648.0,
+  "oe_yield": -14.65439920630906,
+  "roe": 36.18365556090243,
+  "debt_equity": -0.0069068984063181136,
+  "latest_gm": null,
+  "current_ratio": 18.034185632668354,
+  "latest_net_income": -63913000.0,
+  "latest_dna": 304000.0,
+  "latest_wc_change": -95324000.0,
+  "latest_maint_capex": 11200.0,
+  "latest_net_wc": 181874000.0,
+  "latest_current_assets": 192551000.0,
+  "latest_current_liabilities": 10677000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 226.7% p.a.",
+    "High ROE 36.2%",
+    "Low leverage (-0.01x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "Hemab Therapeutics Holdings, Inc. COAG revenue predictability recurring demand analysis 2025 2026",
+      "Hemab Therapeutics Holdings, Inc. COAG business model complexity investor circle of competence",
+      "Hemab Therapeutics Holdings, Inc. COAG 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Hemab Therapeutics Holdings, Inc. COAG competitive moat analysis switching costs brand advantage",
+      "Hemab Therapeutics Holdings, Inc. COAG network effects scale advantages cost leadership",
+      "Hemab Therapeutics Holdings, Inc. COAG patents regulatory barriers intellectual property moat",
+      "Hemab Therapeutics Holdings, Inc. COAG competitive threats risks disruption challenges 2025 2026",
+      "Hemab Therapeutics Holdings, Inc. COAG moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Hemab Therapeutics Holdings, Inc. COAG CEO management candor shareholder letter transparency",
+      "Hemab Therapeutics Holdings, Inc. COAG executive compensation insider ownership stock options proxy",
+      "Hemab Therapeutics Holdings, Inc. COAG key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Hemab Therapeutics Holdings, Inc. COAG stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Hemab Therapeutics Holdings, Inc. COAG investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Hemab Therapeutics Holdings, Inc. COAG market position monopoly commodity pricing power ecosystem",
+      "Hemab Therapeutics Holdings, Inc. COAG growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Hemab Therapeutics Holdings, Inc. COAG investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Hemab Therapeutics Holdings, Inc. COAG investment risk permanent capital loss downside analysis",
+      "Hemab Therapeutics Holdings, Inc. COAG opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

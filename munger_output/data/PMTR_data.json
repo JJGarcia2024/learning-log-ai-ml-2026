@@ -1,0 +1,104 @@
+{
+  "ticker": "PMTR",
+  "company_name": "Perimeter Acquisition Corp. I",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Perimeter Acquisition Corp. I does not have significant operations. It intends to effect a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses or entities. The company was incorporated in 2025 and is based in Dallas, Texas.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://www.perimeteracq.com",
+  "current_price": 10.41,
+  "market_cap": 320893440.0,
+  "shares_out": 24788000.0,
+  "pe_ratio": 40.038464,
+  "financial_data": [
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": -124740.0,
+      "operating_income": -942576.0,
+      "net_income": 5307942.0,
+      "dna": 0.0,
+      "operating_cf": -581331.0,
+      "capex": 0.0,
+      "free_cash_flow": -581331.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 248643694.0,
+      "total_liabilities": 9301632.0,
+      "total_equity": 239342062.0,
+      "cash": 762932.0,
+      "total_debt": 483000.0,
+      "current_assets": 859260.0,
+      "current_liabilities": 366132.0,
+      "shares_outstanding": 30825500.0,
+      "net_wc": 493128.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 5307942.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 5307942.0,
+  "latest_cash": 762932.0,
+  "latest_debt": 483000.0,
+  "ev": 320613508.0,
+  "oe_yield": 1.6555578188552178,
+  "roe": 2.217722182070948,
+  "debt_equity": 0.0020180322504282596,
+  "latest_gm": null,
+  "current_ratio": 2.3468585100455575,
+  "latest_net_income": 5307942.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -0.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 493128.0,
+  "latest_current_assets": 859260.0,
+  "latest_current_liabilities": 366132.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Perimeter Acquisition Corp. I PMTR revenue predictability recurring demand analysis 2025 2026",
+      "Perimeter Acquisition Corp. I PMTR business model complexity investor circle of competence",
+      "Perimeter Acquisition Corp. I PMTR 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Perimeter Acquisition Corp. I PMTR competitive moat analysis switching costs brand advantage",
+      "Perimeter Acquisition Corp. I PMTR network effects scale advantages cost leadership",
+      "Perimeter Acquisition Corp. I PMTR patents regulatory barriers intellectual property moat",
+      "Perimeter Acquisition Corp. I PMTR competitive threats risks disruption challenges 2025 2026",
+      "Perimeter Acquisition Corp. I PMTR moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Perimeter Acquisition Corp. I PMTR CEO management candor shareholder letter transparency",
+      "Perimeter Acquisition Corp. I PMTR executive compensation insider ownership stock options proxy",
+      "Perimeter Acquisition Corp. I PMTR key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Perimeter Acquisition Corp. I PMTR stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Perimeter Acquisition Corp. I PMTR investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Perimeter Acquisition Corp. I PMTR market position monopoly commodity pricing power ecosystem",
+      "Perimeter Acquisition Corp. I PMTR growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Perimeter Acquisition Corp. I PMTR investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Perimeter Acquisition Corp. I PMTR investment risk permanent capital loss downside analysis",
+      "Perimeter Acquisition Corp. I PMTR opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

@@ -1,0 +1,160 @@
+{
+  "ticker": "INIO",
+  "company_name": "Innio N.V.",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
+  "description": "Innio N.V., through its subsidiaries, provides power generation equipment and services under the Jenbacher and Waukesha brands in Germany, rest of Europe, the United States, rest of North America, and internationally. It operates in two segments, Equipment and Services. The Equipment segment designs, manufactures, and sells new engines, product-related equipment, and related solutions for data center, power solutions, and compression end-markets. The Services segment provides aftermarket services through an engine's lifecycle, including service agreements, spare parts, overhauls, remanufacturi",
+  "employees": "5202",
+  "exchange": "NMS",
+  "website": "https://www.innio.com/en",
+  "current_price": 34.72,
+  "market_cap": 26040000512.0,
+  "shares_out": 750000000.0,
+  "pe_ratio": 248.00002,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 2015000000.0,
+      "gross_profit": 673400000.0,
+      "operating_income": 238700000.0,
+      "net_income": 78700000.0,
+      "dna": 132500000.0,
+      "operating_cf": 149300000.0,
+      "capex": -78200000.0,
+      "free_cash_flow": 71100000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_equity": null,
+      "cash": null,
+      "total_debt": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "shares_outstanding": null,
+      "net_wc": null,
+      "wc_change": -0.0,
+      "capex_abs": 78200000.0,
+      "maint_capex": 54740000.0,
+      "owner_earnings": 156460000.0,
+      "gross_margin_pct": 33.41935483870967,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 2159100000.0,
+      "gross_profit": 771400000.0,
+      "operating_income": 297800000.0,
+      "net_income": 92000000.0,
+      "dna": 145500000.0,
+      "operating_cf": 392000000.0,
+      "capex": -86600000.0,
+      "free_cash_flow": 305400000.0,
+      "dividends_paid": -163400000.0,
+      "buybacks": 0.0,
+      "total_assets": 3844900000.0,
+      "total_liabilities": 3082200000.0,
+      "total_equity": 762700000.0,
+      "cash": 378400000.0,
+      "total_debt": 1916000000.0,
+      "current_assets": 1042800000.0,
+      "current_liabilities": 902800000.0,
+      "shares_outstanding": 750000000.0,
+      "net_wc": 140000000.0,
+      "wc_change": -0.0,
+      "capex_abs": 86600000.0,
+      "maint_capex": 60619999.99999999,
+      "owner_earnings": 176880000.0,
+      "gross_margin_pct": 35.727849566949196,
+      "rev_growth_pct": 7.151364764267987
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 2636800000.0,
+      "gross_profit": 911800000.0,
+      "operating_income": 346500000.0,
+      "net_income": 144300000.0,
+      "dna": 153500000.0,
+      "operating_cf": 547900000.0,
+      "capex": -171200000.0,
+      "free_cash_flow": 376700000.0,
+      "dividends_paid": -723800000.0,
+      "buybacks": 0.0,
+      "total_assets": 4902500000.0,
+      "total_liabilities": 4674400000.0,
+      "total_equity": 217800000.0,
+      "cash": 689500000.0,
+      "total_debt": 2728100000.0,
+      "current_assets": 1793800000.0,
+      "current_liabilities": 1375800000.0,
+      "shares_outstanding": 750000000.0,
+      "net_wc": 418000000.0,
+      "wc_change": -278000000.0,
+      "capex_abs": 171200000.0,
+      "maint_capex": 119839999.99999999,
+      "owner_earnings": -100039999.99999999,
+      "gross_margin_pct": 34.57979368932039,
+      "rev_growth_pct": 22.124959473854844
+    }
+  ],
+  "latest_oe": -100039999.99999999,
+  "latest_cash": 689500000.0,
+  "latest_debt": 2728100000.0,
+  "ev": 28078600512.0,
+  "oe_yield": -0.35628556329666683,
+  "roe": 66.2534435261708,
+  "debt_equity": 12.525711662075299,
+  "latest_gm": 34.57979368932039,
+  "current_ratio": 1.3038232301206572,
+  "latest_net_income": 144300000.0,
+  "latest_dna": 153500000.0,
+  "latest_wc_change": -278000000.0,
+  "latest_maint_capex": 119839999.99999999,
+  "latest_net_wc": 418000000.0,
+  "latest_current_assets": 1793800000.0,
+  "latest_current_liabilities": 1375800000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "High ROE 66.3%"
+  ],
+  "s1a": "YES — business model is understandable (Industrials)",
+  "search_queries": {
+    "section_1": [
+      "Innio N.V. INIO revenue predictability recurring demand analysis 2025 2026",
+      "Innio N.V. INIO business model complexity investor circle of competence",
+      "Innio N.V. INIO 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Innio N.V. INIO competitive moat analysis switching costs brand advantage",
+      "Innio N.V. INIO network effects scale advantages cost leadership",
+      "Innio N.V. INIO patents regulatory barriers intellectual property moat",
+      "Innio N.V. INIO competitive threats risks disruption challenges 2025 2026",
+      "Innio N.V. INIO moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Innio N.V. INIO CEO management candor shareholder letter transparency",
+      "Innio N.V. INIO executive compensation insider ownership stock options proxy",
+      "Innio N.V. INIO key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Innio N.V. INIO stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Innio N.V. INIO investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Innio N.V. INIO market position monopoly commodity pricing power ecosystem",
+      "Innio N.V. INIO growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Innio N.V. INIO investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Innio N.V. INIO investment risk permanent capital loss downside analysis",
+      "Innio N.V. INIO opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

@@ -1,0 +1,161 @@
+{
+  "ticker": "OBOCY",
+  "company_name": "OBOCY",
+  "sector": "N/A",
+  "industry": "N/A",
+  "description": "No description available.",
+  "employees": "N/A",
+  "exchange": "PNK",
+  "website": "N/A",
+  "current_price": 15.2,
+  "market_cap": 972650304.0,
+  "shares_out": 63990151.0,
+  "pe_ratio": 10.783262793791573,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": 0.0,
+      "net_income": 0.0,
+      "dna": 0.0,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 0.0,
+      "total_liabilities": 0.0,
+      "total_equity": 0.0,
+      "cash": 0.0,
+      "total_debt": 0.0,
+      "current_assets": 0.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 0.0,
+      "net_wc": 0.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": 0.0,
+      "net_income": 0.0,
+      "dna": 0.0,
+      "operating_cf": 0.0,
+      "capex": 0.0,
+      "free_cash_flow": 0.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 0.0,
+      "total_liabilities": 0.0,
+      "total_equity": 0.0,
+      "cash": 83600000.0,
+      "total_debt": 0.0,
+      "current_assets": 596500000.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 0.0,
+      "net_wc": 596500000.0,
+      "wc_change": -596500000.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -596500000.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 1679900000.0,
+      "gross_profit": 886500000.0,
+      "operating_income": 233200000.0,
+      "net_income": 90200000.0,
+      "dna": 172000000.0,
+      "operating_cf": 333200000.0,
+      "capex": -108700000.0,
+      "free_cash_flow": 224500000.0,
+      "dividends_paid": -15100000.0,
+      "buybacks": 0.0,
+      "total_assets": 2049600000.0,
+      "total_liabilities": 1652100000.0,
+      "total_equity": 390100000.0,
+      "cash": 90400000.0,
+      "total_debt": 1051100000.0,
+      "current_assets": 632400000.0,
+      "current_liabilities": 667600000.0,
+      "shares_outstanding": 63990151.0,
+      "net_wc": -35200000.0,
+      "wc_change": 631700000.0,
+      "capex_abs": 108700000.0,
+      "maint_capex": 76090000.0,
+      "owner_earnings": 817810000.0,
+      "gross_margin_pct": 52.77099827370677,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 817810000.0,
+  "latest_cash": 90400000.0,
+  "latest_debt": 1051100000.0,
+  "ev": 1933350304.0,
+  "oe_yield": 42.30014593361556,
+  "roe": 23.122276339400155,
+  "debt_equity": 2.694437323763138,
+  "latest_gm": 52.77099827370677,
+  "current_ratio": 0.9472738166566806,
+  "latest_net_income": 90200000.0,
+  "latest_dna": 172000000.0,
+  "latest_wc_change": 631700000.0,
+  "latest_maint_capex": 76090000.0,
+  "latest_net_wc": -35200000.0,
+  "latest_current_assets": 632400000.0,
+  "latest_current_liabilities": 667600000.0,
+  "mos_flag": "YES — yield is attractive vs. risk-free rate",
+  "lolla_signals": [
+    "Pricing power (GM 52.8%)",
+    "High ROE 23.1%"
+  ],
+  "s1a": "YES — business model is understandable (N/A)",
+  "search_queries": {
+    "section_1": [
+      "OBOCY OBOCY revenue predictability recurring demand analysis 2025 2026",
+      "OBOCY OBOCY business model complexity investor circle of competence",
+      "OBOCY OBOCY 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "OBOCY OBOCY competitive moat analysis switching costs brand advantage",
+      "OBOCY OBOCY network effects scale advantages cost leadership",
+      "OBOCY OBOCY patents regulatory barriers intellectual property moat",
+      "OBOCY OBOCY competitive threats risks disruption challenges 2025 2026",
+      "OBOCY OBOCY moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "OBOCY OBOCY CEO management candor shareholder letter transparency",
+      "OBOCY OBOCY executive compensation insider ownership stock options proxy",
+      "OBOCY OBOCY key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "OBOCY OBOCY stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "OBOCY OBOCY investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "OBOCY OBOCY market position monopoly commodity pricing power ecosystem",
+      "OBOCY OBOCY growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "OBOCY OBOCY investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "OBOCY OBOCY investment risk permanent capital loss downside analysis",
+      "OBOCY OBOCY opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

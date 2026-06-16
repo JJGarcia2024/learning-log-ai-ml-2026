@@ -1,0 +1,161 @@
+{
+  "ticker": "LLYVA",
+  "company_name": "Liberty Live Holdings, Inc.",
+  "sector": "Communication Services",
+  "industry": "Entertainment",
+  "description": "Liberty Live Holdings, Inc. operates as a live entertainment company. It promotes live music events; manages artists and athletes, and engages in music venue operations. The company also sells tickets for events and third-party clients. In addition, it offers advertising services; and creates and maintains relationships with sponsors. Liberty Live Holdings, Inc. is headquartered in Englewood, Colorado.",
+  "employees": "300",
+  "exchange": "NMS",
+  "website": "https://libertyliveholdings.com",
+  "current_price": 96.85,
+  "market_cap": 8910628864.0,
+  "shares_out": 25573685.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -11000000.0,
+      "net_income": -142000000.0,
+      "dna": 0.0,
+      "operating_cf": -13000000.0,
+      "capex": 0.0,
+      "free_cash_flow": -13000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1162000000.0,
+      "total_liabilities": 1327000000.0,
+      "total_equity": -188000000.0,
+      "cash": 305000000.0,
+      "total_debt": 1317000000.0,
+      "current_assets": 305000000.0,
+      "current_liabilities": 80000000.0,
+      "shares_outstanding": 91693753.0,
+      "net_wc": 225000000.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -142000000.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 340493000.0,
+      "gross_profit": 47258000.0,
+      "operating_income": -49208000.0,
+      "net_income": -112764000.0,
+      "dna": 27447000.0,
+      "operating_cf": -25228000.0,
+      "capex": 0.0,
+      "free_cash_flow": -25228000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1585026000.0,
+      "total_liabilities": 1762148000.0,
+      "total_equity": -199235000.0,
+      "cash": 67296000.0,
+      "total_debt": 1556399000.0,
+      "current_assets": 472376000.0,
+      "current_liabilities": 187499000.0,
+      "shares_outstanding": 91833039.0,
+      "net_wc": 284877000.0,
+      "wc_change": -59877000.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -145194000.0,
+      "gross_margin_pct": 13.879286798847554,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 381951000.0,
+      "gross_profit": 73522000.0,
+      "operating_income": -51732000.0,
+      "net_income": -86967000.0,
+      "dna": 26120000.0,
+      "operating_cf": -29455000.0,
+      "capex": 0.0,
+      "free_cash_flow": -29455000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1888893000.0,
+      "total_liabilities": 1916028000.0,
+      "total_equity": -49081000.0,
+      "cash": 38105000.0,
+      "total_debt": 1666546000.0,
+      "current_assets": 629464000.0,
+      "current_liabilities": 1896721000.0,
+      "shares_outstanding": 91931500.0,
+      "net_wc": -1267257000.0,
+      "wc_change": 1552134000.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 1491287000.0,
+      "gross_margin_pct": 19.24906597966755,
+      "rev_growth_pct": 12.17587439389356
+    }
+  ],
+  "latest_oe": 1491287000.0,
+  "latest_cash": 38105000.0,
+  "latest_debt": 1666546000.0,
+  "ev": 10539069864.0,
+  "oe_yield": 14.150081736283287,
+  "roe": 177.19076628430554,
+  "debt_equity": -33.955013141541535,
+  "latest_gm": 19.24906597966755,
+  "current_ratio": 0.3318695791315644,
+  "latest_net_income": -86967000.0,
+  "latest_dna": 26120000.0,
+  "latest_wc_change": 1552134000.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": -1267257000.0,
+  "latest_current_assets": 629464000.0,
+  "latest_current_liabilities": 1896721000.0,
+  "mos_flag": "YES — yield is attractive vs. risk-free rate",
+  "lolla_signals": [
+    "High ROE 177.2%",
+    "Low leverage (-33.96x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Communication Services)",
+  "search_queries": {
+    "section_1": [
+      "Liberty Live Holdings, Inc. LLYVA revenue predictability recurring demand analysis 2025 2026",
+      "Liberty Live Holdings, Inc. LLYVA business model complexity investor circle of competence",
+      "Liberty Live Holdings, Inc. LLYVA 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Liberty Live Holdings, Inc. LLYVA competitive moat analysis switching costs brand advantage",
+      "Liberty Live Holdings, Inc. LLYVA network effects scale advantages cost leadership",
+      "Liberty Live Holdings, Inc. LLYVA patents regulatory barriers intellectual property moat",
+      "Liberty Live Holdings, Inc. LLYVA competitive threats risks disruption challenges 2025 2026",
+      "Liberty Live Holdings, Inc. LLYVA moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Liberty Live Holdings, Inc. LLYVA CEO management candor shareholder letter transparency",
+      "Liberty Live Holdings, Inc. LLYVA executive compensation insider ownership stock options proxy",
+      "Liberty Live Holdings, Inc. LLYVA key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Liberty Live Holdings, Inc. LLYVA stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Liberty Live Holdings, Inc. LLYVA investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Liberty Live Holdings, Inc. LLYVA market position monopoly commodity pricing power ecosystem",
+      "Liberty Live Holdings, Inc. LLYVA growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Liberty Live Holdings, Inc. LLYVA investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Liberty Live Holdings, Inc. LLYVA investment risk permanent capital loss downside analysis",
+      "Liberty Live Holdings, Inc. LLYVA opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

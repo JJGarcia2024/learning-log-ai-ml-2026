@@ -1,0 +1,132 @@
+{
+  "ticker": "GTERA",
+  "company_name": "Globa Terra Acquisition Corporation",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Globa Terra Acquisition Corporation does not have significant operations. It focuses on effecting a merger, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. The company was incorporated in 2024 and is based in Miami, Florida.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://globaterra.com",
+  "current_price": 10.31,
+  "market_cap": 304765504.0,
+  "shares_out": 17893817.0,
+  "pe_ratio": 25.146343,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 577682.0,
+      "total_liabilities": 552682.0,
+      "total_equity": 25000.0,
+      "cash": 0.0,
+      "total_debt": 0.0,
+      "current_assets": 2343.0,
+      "current_liabilities": 552682.0,
+      "shares_outstanding": 20683600.0,
+      "net_wc": -550339.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -502917.0,
+      "net_income": 2882536.0,
+      "dna": 0.0,
+      "operating_cf": -437150.0,
+      "capex": 0.0,
+      "free_cash_flow": -437150.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 179071521.0,
+      "total_liabilities": 1210014.0,
+      "total_equity": 177861507.0,
+      "cash": 551127.0,
+      "total_debt": 0.0,
+      "current_assets": 690568.0,
+      "current_liabilities": 95271.0,
+      "shares_outstanding": 23727000.0,
+      "net_wc": 595297.0,
+      "wc_change": -1145636.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 1736900.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 1736900.0,
+  "latest_cash": 551127.0,
+  "latest_debt": 0.0,
+  "ev": 304214377.0,
+  "oe_yield": 0.5709460601857091,
+  "roe": 1.6206632051082308,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 7.248459657188441,
+  "latest_net_income": 2882536.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -1145636.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 595297.0,
+  "latest_current_assets": 690568.0,
+  "latest_current_liabilities": 95271.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Globa Terra Acquisition Corporation GTERA revenue predictability recurring demand analysis 2025 2026",
+      "Globa Terra Acquisition Corporation GTERA business model complexity investor circle of competence",
+      "Globa Terra Acquisition Corporation GTERA 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Globa Terra Acquisition Corporation GTERA competitive moat analysis switching costs brand advantage",
+      "Globa Terra Acquisition Corporation GTERA network effects scale advantages cost leadership",
+      "Globa Terra Acquisition Corporation GTERA patents regulatory barriers intellectual property moat",
+      "Globa Terra Acquisition Corporation GTERA competitive threats risks disruption challenges 2025 2026",
+      "Globa Terra Acquisition Corporation GTERA moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Globa Terra Acquisition Corporation GTERA CEO management candor shareholder letter transparency",
+      "Globa Terra Acquisition Corporation GTERA executive compensation insider ownership stock options proxy",
+      "Globa Terra Acquisition Corporation GTERA key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Globa Terra Acquisition Corporation GTERA stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Globa Terra Acquisition Corporation GTERA investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Globa Terra Acquisition Corporation GTERA market position monopoly commodity pricing power ecosystem",
+      "Globa Terra Acquisition Corporation GTERA growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Globa Terra Acquisition Corporation GTERA investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Globa Terra Acquisition Corporation GTERA investment risk permanent capital loss downside analysis",
+      "Globa Terra Acquisition Corporation GTERA opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

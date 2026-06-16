@@ -1,0 +1,162 @@
+{
+  "ticker": "SGP",
+  "company_name": "SpyGlass Pharma, Inc.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "description": "SpyGlass Pharma, Inc. operates as a biopharmaceutical company that provides treatment and drug delivery for patients living with chronic eye conditions. The company develops the Bimatoprost Drug Pad-IOL System (BIM-IOL System), including novel and proprietary drug pads attached to an intraocular lens (IOL), which is designed to be implanted during routine cataract surgery to reduce elevated intraocular pressure (IOP) in patients. It also develops a non-IOL-based, ring-shaped, sustained-release implant with bimatoprost. SpyGlass Pharma, Inc. was formerly known as SpyGlass Ophthalmics, Inc. and ",
+  "employees": "65",
+  "exchange": "NMS",
+  "website": "https://www.spyglasspharma.com",
+  "current_price": 18.94,
+  "market_cap": 633227776.0,
+  "shares_out": 33433355.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -14230365.0,
+      "net_income": -13318990.0,
+      "dna": 122668.0,
+      "operating_cf": -12277733.0,
+      "capex": -216542.0,
+      "free_cash_flow": -12494275.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 41149466.0,
+      "total_liabilities": 74134984.0,
+      "total_equity": -32985518.0,
+      "cash": 15848682.0,
+      "total_debt": 0.0,
+      "current_assets": 40614859.0,
+      "current_liabilities": 1588656.0,
+      "shares_outstanding": 31911164.0,
+      "net_wc": 39026203.0,
+      "wc_change": -0.0,
+      "capex_abs": 216542.0,
+      "maint_capex": 151579.4,
+      "owner_earnings": -13347901.4,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -27064000.0,
+      "net_income": -29164000.0,
+      "dna": 271000.0,
+      "operating_cf": -22027000.0,
+      "capex": -1991000.0,
+      "free_cash_flow": -24018000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 23318000.0,
+      "total_liabilities": 83792000.0,
+      "total_equity": -60474000.0,
+      "cash": 16268000.0,
+      "total_debt": 3897000.0,
+      "current_assets": 17406000.0,
+      "current_liabilities": 7791000.0,
+      "shares_outstanding": 31911164.0,
+      "net_wc": 9615000.0,
+      "wc_change": 29411203.0,
+      "capex_abs": 1991000.0,
+      "maint_capex": 1393700.0,
+      "owner_earnings": -875497.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -41449000.0,
+      "net_income": -39869000.0,
+      "dna": 612000.0,
+      "operating_cf": -32701000.0,
+      "capex": -789000.0,
+      "free_cash_flow": -33490000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -1450000.0,
+      "total_assets": 115866000.0,
+      "total_liabilities": 214703000.0,
+      "total_equity": -98837000.0,
+      "cash": 96358000.0,
+      "total_debt": 1582000.0,
+      "current_assets": 108768000.0,
+      "current_liabilities": 8584000.0,
+      "shares_outstanding": 31911164.0,
+      "net_wc": 100184000.0,
+      "wc_change": -90569000.0,
+      "capex_abs": 789000.0,
+      "maint_capex": 552300.0,
+      "owner_earnings": -130378300.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -130378300.0,
+  "latest_cash": 96358000.0,
+  "latest_debt": 1582000.0,
+  "ev": 538451776.0,
+  "oe_yield": -24.21355185575616,
+  "roe": 40.338132480751135,
+  "debt_equity": -0.01600615154243856,
+  "latest_gm": null,
+  "current_ratio": 12.671015843429636,
+  "latest_net_income": -39869000.0,
+  "latest_dna": 612000.0,
+  "latest_wc_change": -90569000.0,
+  "latest_maint_capex": 552300.0,
+  "latest_net_wc": 100184000.0,
+  "latest_current_assets": 108768000.0,
+  "latest_current_liabilities": 8584000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 7349.2% p.a.",
+    "High ROE 40.3%",
+    "Low leverage (-0.02x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "SpyGlass Pharma, Inc. SGP revenue predictability recurring demand analysis 2025 2026",
+      "SpyGlass Pharma, Inc. SGP business model complexity investor circle of competence",
+      "SpyGlass Pharma, Inc. SGP 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "SpyGlass Pharma, Inc. SGP competitive moat analysis switching costs brand advantage",
+      "SpyGlass Pharma, Inc. SGP network effects scale advantages cost leadership",
+      "SpyGlass Pharma, Inc. SGP patents regulatory barriers intellectual property moat",
+      "SpyGlass Pharma, Inc. SGP competitive threats risks disruption challenges 2025 2026",
+      "SpyGlass Pharma, Inc. SGP moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "SpyGlass Pharma, Inc. SGP CEO management candor shareholder letter transparency",
+      "SpyGlass Pharma, Inc. SGP executive compensation insider ownership stock options proxy",
+      "SpyGlass Pharma, Inc. SGP key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "SpyGlass Pharma, Inc. SGP stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "SpyGlass Pharma, Inc. SGP investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "SpyGlass Pharma, Inc. SGP market position monopoly commodity pricing power ecosystem",
+      "SpyGlass Pharma, Inc. SGP growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "SpyGlass Pharma, Inc. SGP investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "SpyGlass Pharma, Inc. SGP investment risk permanent capital loss downside analysis",
+      "SpyGlass Pharma, Inc. SGP opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

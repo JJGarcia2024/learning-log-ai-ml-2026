@@ -1,0 +1,132 @@
+{
+  "ticker": "SBXD",
+  "company_name": "SilverBox Corp IV",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "SilverBox Corp IV does not have significant operations. It intends to effect a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. The company focus for the target business in the field of consumer, food and agriculture, e-commerce, internet and retail, financial services and technology, media, entertainment, hospitality, business services, software, SaaS, telecommunications services and technology, industrial technology, infrastructure, and energy transition sectors. The company was incorporated ",
+  "employees": "N/A",
+  "exchange": "NYQ",
+  "website": "https://www.sbcap.com/silverbox-corp-iv/",
+  "current_price": 10.79,
+  "market_cap": 274659456.0,
+  "shares_out": 20455000.0,
+  "pe_ratio": 56.789474,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 205656766.0,
+      "total_liabilities": 10905533.0,
+      "total_equity": 194751233.0,
+      "cash": 819362.0,
+      "total_debt": 0.0,
+      "current_assets": 937154.0,
+      "current_liabilities": 125355.0,
+      "shares_outstanding": 25455000.0,
+      "net_wc": 811799.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": -53000.0,
+      "operating_income": -2976600.0,
+      "net_income": 5715932.0,
+      "dna": 0.0,
+      "operating_cf": -988431.0,
+      "capex": 0.0,
+      "free_cash_flow": -988431.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 213486048.0,
+      "total_liabilities": 12965883.0,
+      "total_equity": 200520165.0,
+      "cash": 20931.0,
+      "total_debt": 0.0,
+      "current_assets": 138878.0,
+      "current_liabilities": 278646.0,
+      "shares_outstanding": 25455000.0,
+      "net_wc": -139768.0,
+      "wc_change": 951567.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 6667499.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 6667499.0,
+  "latest_cash": 20931.0,
+  "latest_debt": 0.0,
+  "ev": 274638525.0,
+  "oe_yield": 2.4277362398447195,
+  "roe": 2.850552212541816,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 0.4984029916094256,
+  "latest_net_income": 5715932.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": 951567.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": -139768.0,
+  "latest_current_assets": 138878.0,
+  "latest_current_liabilities": 278646.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "SilverBox Corp IV SBXD revenue predictability recurring demand analysis 2025 2026",
+      "SilverBox Corp IV SBXD business model complexity investor circle of competence",
+      "SilverBox Corp IV SBXD 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "SilverBox Corp IV SBXD competitive moat analysis switching costs brand advantage",
+      "SilverBox Corp IV SBXD network effects scale advantages cost leadership",
+      "SilverBox Corp IV SBXD patents regulatory barriers intellectual property moat",
+      "SilverBox Corp IV SBXD competitive threats risks disruption challenges 2025 2026",
+      "SilverBox Corp IV SBXD moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "SilverBox Corp IV SBXD CEO management candor shareholder letter transparency",
+      "SilverBox Corp IV SBXD executive compensation insider ownership stock options proxy",
+      "SilverBox Corp IV SBXD key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "SilverBox Corp IV SBXD stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "SilverBox Corp IV SBXD investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "SilverBox Corp IV SBXD market position monopoly commodity pricing power ecosystem",
+      "SilverBox Corp IV SBXD growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "SilverBox Corp IV SBXD investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "SilverBox Corp IV SBXD investment risk permanent capital loss downside analysis",
+      "SilverBox Corp IV SBXD opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

@@ -1,0 +1,161 @@
+{
+  "ticker": "MMED",
+  "company_name": "MiniMed Group, Inc.",
+  "sector": "Healthcare",
+  "industry": "Medical Instruments & Supplies",
+  "description": "MiniMed Group, Inc. operates as a medical technology company that develops, manufactures, and markets medical equipment for the management of diabetes. The company offers technologies including insulin delivery devices, including insulin pumps and pens, continuous glucose monitors, other consumables, supplies, and related software and services. It serves people with diabetes who require insulin therapy, which represents all people with T1D and a subset of those with T2D. The company's platform includes Automated Insulin Delivery (AID) systems for glucose sensing and automated insulin dosing an",
+  "employees": "N/A",
+  "exchange": "NMS",
+  "website": "https://www.minimed.com",
+  "current_price": 15.0,
+  "market_cap": 4212300032.0,
+  "shares_out": 280819988.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 2245000000.0,
+      "gross_profit": 1308000000.0,
+      "operating_income": -69000000.0,
+      "net_income": -96000000.0,
+      "dna": 115000000.0,
+      "operating_cf": -6000000.0,
+      "capex": -167000000.0,
+      "free_cash_flow": -173000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_equity": null,
+      "cash": null,
+      "total_debt": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "shares_outstanding": null,
+      "net_wc": null,
+      "wc_change": -0.0,
+      "capex_abs": 167000000.0,
+      "maint_capex": 116900000.0,
+      "owner_earnings": -97900000.0,
+      "gross_margin_pct": 58.26280623608018,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 2469000000.0,
+      "gross_profit": 1436000000.0,
+      "operating_income": -69000000.0,
+      "net_income": -112000000.0,
+      "dna": 129000000.0,
+      "operating_cf": 41000000.0,
+      "capex": -148000000.0,
+      "free_cash_flow": -107000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 4094000000.0,
+      "total_liabilities": 646000000.0,
+      "total_equity": 3448000000.0,
+      "cash": 54000000.0,
+      "total_debt": 8000000.0,
+      "current_assets": 895000000.0,
+      "current_liabilities": 518000000.0,
+      "shares_outstanding": 280813348.0,
+      "net_wc": 377000000.0,
+      "wc_change": -0.0,
+      "capex_abs": 148000000.0,
+      "maint_capex": 103600000.0,
+      "owner_earnings": -86600000.0,
+      "gross_margin_pct": 58.16119886593762,
+      "rev_growth_pct": 9.977728285077948
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 2715000000.0,
+      "gross_profit": 1525000000.0,
+      "operating_income": -36000000.0,
+      "net_income": -250000000.0,
+      "dna": 143000000.0,
+      "operating_cf": 140000000.0,
+      "capex": -193000000.0,
+      "free_cash_flow": -53000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 4201000000.0,
+      "total_liabilities": 870000000.0,
+      "total_equity": 3331000000.0,
+      "cash": 11000000.0,
+      "total_debt": 11000000.0,
+      "current_assets": 939000000.0,
+      "current_liabilities": 710000000.0,
+      "shares_outstanding": 280813348.0,
+      "net_wc": 229000000.0,
+      "wc_change": 148000000.0,
+      "capex_abs": 193000000.0,
+      "maint_capex": 135100000.0,
+      "owner_earnings": -94100000.0,
+      "gross_margin_pct": 56.16942909760589,
+      "rev_growth_pct": 9.963547995139743
+    }
+  ],
+  "latest_oe": -94100000.0,
+  "latest_cash": 11000000.0,
+  "latest_debt": 11000000.0,
+  "ev": 4212300032.0,
+  "oe_yield": -2.233933938350572,
+  "roe": -7.505253677574301,
+  "debt_equity": 0.003302311618132693,
+  "latest_gm": 56.16942909760589,
+  "current_ratio": 1.3225352112676056,
+  "latest_net_income": -250000000.0,
+  "latest_dna": 143000000.0,
+  "latest_wc_change": 148000000.0,
+  "latest_maint_capex": 135100000.0,
+  "latest_net_wc": 229000000.0,
+  "latest_current_assets": 939000000.0,
+  "latest_current_liabilities": 710000000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 56.2%)",
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "MiniMed Group, Inc. MMED revenue predictability recurring demand analysis 2025 2026",
+      "MiniMed Group, Inc. MMED business model complexity investor circle of competence",
+      "MiniMed Group, Inc. MMED 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "MiniMed Group, Inc. MMED competitive moat analysis switching costs brand advantage",
+      "MiniMed Group, Inc. MMED network effects scale advantages cost leadership",
+      "MiniMed Group, Inc. MMED patents regulatory barriers intellectual property moat",
+      "MiniMed Group, Inc. MMED competitive threats risks disruption challenges 2025 2026",
+      "MiniMed Group, Inc. MMED moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "MiniMed Group, Inc. MMED CEO management candor shareholder letter transparency",
+      "MiniMed Group, Inc. MMED executive compensation insider ownership stock options proxy",
+      "MiniMed Group, Inc. MMED key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "MiniMed Group, Inc. MMED stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "MiniMed Group, Inc. MMED investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "MiniMed Group, Inc. MMED market position monopoly commodity pricing power ecosystem",
+      "MiniMed Group, Inc. MMED growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "MiniMed Group, Inc. MMED investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "MiniMed Group, Inc. MMED investment risk permanent capital loss downside analysis",
+      "MiniMed Group, Inc. MMED opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

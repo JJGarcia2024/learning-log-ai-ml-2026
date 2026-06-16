@@ -1,0 +1,132 @@
+{
+  "ticker": "TACH",
+  "company_name": "Titan Acquisition Corp",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Titan Acquisition Corp. focuses on effecting a merger, share exchange, asset acquisition, share purchase, reorganization or similar business combination with one or more businesses. The company was incorporated in 2024 and is based in Brooklyn, New York.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://titan-spac.com",
+  "current_price": 10.41,
+  "market_cap": 359144992.0,
+  "shares_out": 27600000.0,
+  "pe_ratio": 32.53125,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -253240.0,
+      "net_income": -253240.0,
+      "dna": 0.0,
+      "operating_cf": 0.0,
+      "capex": 0.0,
+      "free_cash_flow": 0.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 345330.0,
+      "total_liabilities": 573570.0,
+      "total_equity": -228240.0,
+      "cash": 25000.0,
+      "total_debt": 74200.0,
+      "current_assets": 25000.0,
+      "current_liabilities": 573570.0,
+      "shares_outstanding": 30000000.0,
+      "net_wc": -548570.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -253240.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -1013476.0,
+      "net_income": 7236195.0,
+      "dna": 0.0,
+      "operating_cf": -675813.0,
+      "capex": 0.0,
+      "free_cash_flow": -675813.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 286457271.0,
+      "total_liabilities": 13838202.0,
+      "total_equity": 272619069.0,
+      "cash": 720301.0,
+      "total_debt": 0.0,
+      "current_assets": 829217.0,
+      "current_liabilities": 698202.0,
+      "shares_outstanding": 34500000.0,
+      "net_wc": 131015.0,
+      "wc_change": -679585.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 6556610.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 6556610.0,
+  "latest_cash": 720301.0,
+  "latest_debt": 0.0,
+  "ev": 358424691.0,
+  "oe_yield": 1.829285248654926,
+  "roe": 2.6543245953202192,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 1.1876462685583828,
+  "latest_net_income": 7236195.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -679585.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 131015.0,
+  "latest_current_assets": 829217.0,
+  "latest_current_liabilities": 698202.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Titan Acquisition Corp TACH revenue predictability recurring demand analysis 2025 2026",
+      "Titan Acquisition Corp TACH business model complexity investor circle of competence",
+      "Titan Acquisition Corp TACH 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Titan Acquisition Corp TACH competitive moat analysis switching costs brand advantage",
+      "Titan Acquisition Corp TACH network effects scale advantages cost leadership",
+      "Titan Acquisition Corp TACH patents regulatory barriers intellectual property moat",
+      "Titan Acquisition Corp TACH competitive threats risks disruption challenges 2025 2026",
+      "Titan Acquisition Corp TACH moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Titan Acquisition Corp TACH CEO management candor shareholder letter transparency",
+      "Titan Acquisition Corp TACH executive compensation insider ownership stock options proxy",
+      "Titan Acquisition Corp TACH key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Titan Acquisition Corp TACH stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Titan Acquisition Corp TACH investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Titan Acquisition Corp TACH market position monopoly commodity pricing power ecosystem",
+      "Titan Acquisition Corp TACH growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Titan Acquisition Corp TACH investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Titan Acquisition Corp TACH investment risk permanent capital loss downside analysis",
+      "Titan Acquisition Corp TACH opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

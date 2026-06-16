@@ -1,0 +1,162 @@
+{
+  "ticker": "PXED",
+  "company_name": "Phoenix Education Partners, Inc.",
+  "sector": "Consumer Defensive",
+  "industry": "Education & Training Services",
+  "description": "Phoenix Education Partners, Inc., through its subsidiary, The University of Phoenix, Inc., provides online higher education for working adults in the United States. It develops talent solutions programs for employers, including a talent-sourcing platform that connects employers with students whose skills profiles align with job postings; and an AI-powered tool that scans an employer's inventory of sought-after skills and designs development pathways to internal job opportunities. The company was formerly known as AP VIII Queso Holdings, L.P. and changed its name to Phoenix Education Partners, ",
+  "employees": "3400",
+  "exchange": "NYQ",
+  "website": "https://www.phoenixeducationpartners.com",
+  "current_price": 29.75,
+  "market_cap": 1065376512.0,
+  "shares_out": 35810977.0,
+  "pe_ratio": 10.897436,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 835245000.0,
+      "gross_profit": 455986000.0,
+      "operating_income": 127202000.0,
+      "net_income": 64930000.0,
+      "dna": 23906000.0,
+      "operating_cf": 105682000.0,
+      "capex": -15717000.0,
+      "free_cash_flow": 89965000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 682261000.0,
+      "total_liabilities": 378891000.0,
+      "total_equity": 0.0,
+      "cash": 240660000.0,
+      "total_debt": 98310000.0,
+      "current_assets": 401889000.0,
+      "current_liabilities": 272549000.0,
+      "shares_outstanding": 0.0,
+      "net_wc": 129340000.0,
+      "wc_change": -0.0,
+      "capex_abs": 15717000.0,
+      "maint_capex": 11001900.0,
+      "owner_earnings": 77834100.0,
+      "gross_margin_pct": 54.59308346652778,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 950015000.0,
+      "gross_profit": 546092000.0,
+      "operating_income": 202099000.0,
+      "net_income": 113130000.0,
+      "dna": 21056000.0,
+      "operating_cf": 163236000.0,
+      "capex": -22589000.0,
+      "free_cash_flow": 140647000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -69959000.0,
+      "total_assets": 695250000.0,
+      "total_liabilities": 346320000.0,
+      "total_equity": 0.0,
+      "cash": 297339000.0,
+      "total_debt": 84215000.0,
+      "current_assets": 441466000.0,
+      "current_liabilities": 250508000.0,
+      "shares_outstanding": 0.0,
+      "net_wc": 190958000.0,
+      "wc_change": -61618000.0,
+      "capex_abs": 22589000.0,
+      "maint_capex": 15812299.999999998,
+      "owner_earnings": 56755700.0,
+      "gross_margin_pct": 57.482460803250476,
+      "rev_growth_pct": 13.740878424893289
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 1007192000.0,
+      "gross_profit": 571200000.0,
+      "operating_income": 218566000.0,
+      "net_income": 133878000.0,
+      "dna": 22013000.0,
+      "operating_cf": 87387000.0,
+      "capex": -22457000.0,
+      "free_cash_flow": 64930000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -214402000.0,
+      "total_assets": 493562000.0,
+      "total_liabilities": 253507000.0,
+      "total_equity": 0.0,
+      "cash": 136504000.0,
+      "total_debt": 73300000.0,
+      "current_assets": 265950000.0,
+      "current_liabilities": 162045000.0,
+      "shares_outstanding": 35596255.0,
+      "net_wc": 103905000.0,
+      "wc_change": 87053000.0,
+      "capex_abs": 22457000.0,
+      "maint_capex": 15719899.999999998,
+      "owner_earnings": 227224100.0,
+      "gross_margin_pct": 56.71212638702452,
+      "rev_growth_pct": 6.018536549422904
+    }
+  ],
+  "latest_oe": 227224100.0,
+  "latest_cash": 136504000.0,
+  "latest_debt": 73300000.0,
+  "ev": 1002172512.0,
+  "oe_yield": 22.673152304540558,
+  "roe": 13387800000.0,
+  "debt_equity": 73300000.0,
+  "latest_gm": 56.71212638702452,
+  "current_ratio": 1.641210774784782,
+  "latest_net_income": 133878000.0,
+  "latest_dna": 22013000.0,
+  "latest_wc_change": 87053000.0,
+  "latest_maint_capex": 15719899.999999998,
+  "latest_net_wc": 103905000.0,
+  "latest_current_assets": 265950000.0,
+  "latest_current_liabilities": 162045000.0,
+  "mos_flag": "YES — yield is attractive vs. risk-free rate",
+  "lolla_signals": [
+    "Pricing power (GM 56.7%)",
+    "OE growing avg 136.6% p.a.",
+    "High ROE 13387800000.0%"
+  ],
+  "s1a": "YES — business model is understandable (Consumer Defensive)",
+  "search_queries": {
+    "section_1": [
+      "Phoenix Education Partners, Inc. PXED revenue predictability recurring demand analysis 2025 2026",
+      "Phoenix Education Partners, Inc. PXED business model complexity investor circle of competence",
+      "Phoenix Education Partners, Inc. PXED 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Phoenix Education Partners, Inc. PXED competitive moat analysis switching costs brand advantage",
+      "Phoenix Education Partners, Inc. PXED network effects scale advantages cost leadership",
+      "Phoenix Education Partners, Inc. PXED patents regulatory barriers intellectual property moat",
+      "Phoenix Education Partners, Inc. PXED competitive threats risks disruption challenges 2025 2026",
+      "Phoenix Education Partners, Inc. PXED moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Phoenix Education Partners, Inc. PXED CEO management candor shareholder letter transparency",
+      "Phoenix Education Partners, Inc. PXED executive compensation insider ownership stock options proxy",
+      "Phoenix Education Partners, Inc. PXED key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Phoenix Education Partners, Inc. PXED stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Phoenix Education Partners, Inc. PXED investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Phoenix Education Partners, Inc. PXED market position monopoly commodity pricing power ecosystem",
+      "Phoenix Education Partners, Inc. PXED growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Phoenix Education Partners, Inc. PXED investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Phoenix Education Partners, Inc. PXED investment risk permanent capital loss downside analysis",
+      "Phoenix Education Partners, Inc. PXED opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

@@ -1,0 +1,132 @@
+{
+  "ticker": "NPAC",
+  "company_name": "New Providence Acquisition Corp. III",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "New Providence Acquisition Corp. III does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or related business combination with one or more businesses. The company was incorporated in 2024 and is based in Palm Beach, Florida.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "N/A",
+  "current_price": 10.37,
+  "market_cap": 398112832.0,
+  "shares_out": 30887075.0,
+  "pe_ratio": 33.45161,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 77492.0,
+      "total_liabilities": 71022.0,
+      "total_equity": 6470.0,
+      "cash": 0.0,
+      "total_debt": 68020.0,
+      "current_assets": 23784.0,
+      "current_liabilities": 71022.0,
+      "shares_outstanding": 34456250.0,
+      "net_wc": -47238.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -669420.0,
+      "net_income": 7675973.0,
+      "dna": 0.0,
+      "operating_cf": -739616.0,
+      "capex": 0.0,
+      "free_cash_flow": -739616.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 310806263.0,
+      "total_liabilities": 12884684.0,
+      "total_equity": 297921579.0,
+      "cash": 701592.0,
+      "total_debt": 0.0,
+      "current_assets": 810120.0,
+      "current_liabilities": 95684.0,
+      "shares_outstanding": 38390825.0,
+      "net_wc": 714436.0,
+      "wc_change": -761674.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 6914299.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 6914299.0,
+  "latest_cash": 701592.0,
+  "latest_debt": 0.0,
+  "ev": 397411240.0,
+  "oe_yield": 1.7398347867564088,
+  "roe": 2.576507893709841,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 8.466619288491284,
+  "latest_net_income": 7675973.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -761674.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 714436.0,
+  "latest_current_assets": 810120.0,
+  "latest_current_liabilities": 95684.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "New Providence Acquisition Corp. III NPAC revenue predictability recurring demand analysis 2025 2026",
+      "New Providence Acquisition Corp. III NPAC business model complexity investor circle of competence",
+      "New Providence Acquisition Corp. III NPAC 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "New Providence Acquisition Corp. III NPAC competitive moat analysis switching costs brand advantage",
+      "New Providence Acquisition Corp. III NPAC network effects scale advantages cost leadership",
+      "New Providence Acquisition Corp. III NPAC patents regulatory barriers intellectual property moat",
+      "New Providence Acquisition Corp. III NPAC competitive threats risks disruption challenges 2025 2026",
+      "New Providence Acquisition Corp. III NPAC moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "New Providence Acquisition Corp. III NPAC CEO management candor shareholder letter transparency",
+      "New Providence Acquisition Corp. III NPAC executive compensation insider ownership stock options proxy",
+      "New Providence Acquisition Corp. III NPAC key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "New Providence Acquisition Corp. III NPAC stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "New Providence Acquisition Corp. III NPAC investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "New Providence Acquisition Corp. III NPAC market position monopoly commodity pricing power ecosystem",
+      "New Providence Acquisition Corp. III NPAC growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "New Providence Acquisition Corp. III NPAC investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "New Providence Acquisition Corp. III NPAC investment risk permanent capital loss downside analysis",
+      "New Providence Acquisition Corp. III NPAC opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

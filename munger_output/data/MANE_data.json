@@ -1,0 +1,162 @@
+{
+  "ticker": "MANE",
+  "company_name": "MANE",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "description": "Veradermics, Incorporated, a clinical-stage biopharmaceutical company, focused on developing novel therapeutics for dermatologic and aesthetic conditions. The company develops treatments for Pattern Hair Loss affecting adults and children. The company's products include VDPHL01, an oral, non-hormonal treatment for men and women with PHL for chronic hair loss therapy. Additionally, it engages in the development of VDMN, a dissolvable microarray patch technology for immunotherapy of common warts; VDAA for the treatment of alopecia areata; and VDMC for the treatment of molluscum contagiosum. Its ",
+  "employees": "24",
+  "exchange": "NYQ",
+  "website": "https://www.veradermics.com",
+  "current_price": 96.27,
+  "market_cap": 4022034176.0,
+  "shares_out": 41778687.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -17324000.0,
+      "net_income": -16490000.0,
+      "dna": 0.0,
+      "operating_cf": -13510000.0,
+      "capex": 0.0,
+      "free_cash_flow": -13510000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 17562000.0,
+      "total_liabilities": 39804000.0,
+      "total_equity": -22242000.0,
+      "cash": 16296000.0,
+      "total_debt": 786000.0,
+      "current_assets": 17562000.0,
+      "current_liabilities": 3052000.0,
+      "shares_outstanding": 35077084.0,
+      "net_wc": 14510000.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -16490000.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -26384000.0,
+      "net_income": -26488000.0,
+      "dna": 0.0,
+      "operating_cf": -23688000.0,
+      "capex": 0.0,
+      "free_cash_flow": -23688000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 55535000.0,
+      "total_liabilities": 104015000.0,
+      "total_equity": -48480000.0,
+      "cash": 53084000.0,
+      "total_debt": 0.0,
+      "current_assets": 55535000.0,
+      "current_liabilities": 4718000.0,
+      "shares_outstanding": 35077084.0,
+      "net_wc": 50817000.0,
+      "wc_change": -36307000.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -62795000.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -71557000.0,
+      "net_income": -69995000.0,
+      "dna": 0.0,
+      "operating_cf": -71602000.0,
+      "capex": -24000.0,
+      "free_cash_flow": -71626000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 152619000.0,
+      "total_liabilities": 273633000.0,
+      "total_equity": -121014000.0,
+      "cash": 21766000.0,
+      "total_debt": 4000.0,
+      "current_assets": 152494000.0,
+      "current_liabilities": 9152000.0,
+      "shares_outstanding": 37340290.0,
+      "net_wc": 143342000.0,
+      "wc_change": -92525000.0,
+      "capex_abs": 24000.0,
+      "maint_capex": 16800.0,
+      "owner_earnings": -162536800.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -162536800.0,
+  "latest_cash": 21766000.0,
+  "latest_debt": 4000.0,
+  "ev": 4000272176.0,
+  "oe_yield": -4.0631435274618175,
+  "roe": 57.8404151585767,
+  "debt_equity": -3.305402680681574e-05,
+  "latest_gm": null,
+  "current_ratio": 16.66236888111888,
+  "latest_net_income": -69995000.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -92525000.0,
+  "latest_maint_capex": 16800.0,
+  "latest_net_wc": 143342000.0,
+  "latest_current_assets": 152494000.0,
+  "latest_current_liabilities": 9152000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 219.8% p.a.",
+    "High ROE 57.8%",
+    "Low leverage (-0.00x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "MANE MANE revenue predictability recurring demand analysis 2025 2026",
+      "MANE MANE business model complexity investor circle of competence",
+      "MANE MANE 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "MANE MANE competitive moat analysis switching costs brand advantage",
+      "MANE MANE network effects scale advantages cost leadership",
+      "MANE MANE patents regulatory barriers intellectual property moat",
+      "MANE MANE competitive threats risks disruption challenges 2025 2026",
+      "MANE MANE moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "MANE MANE CEO management candor shareholder letter transparency",
+      "MANE MANE executive compensation insider ownership stock options proxy",
+      "MANE MANE key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "MANE MANE stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "MANE MANE investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "MANE MANE market position monopoly commodity pricing power ecosystem",
+      "MANE MANE growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "MANE MANE investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "MANE MANE investment risk permanent capital loss downside analysis",
+      "MANE MANE opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

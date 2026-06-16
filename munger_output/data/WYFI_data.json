@@ -1,0 +1,162 @@
+{
+  "ticker": "WYFI",
+  "company_name": "WhiteFiber, Inc.",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
+  "description": "WhiteFiber, Inc. provides artificial intelligence (AI) infrastructure solutions. It operates through two segments, cloud services and colocation services. The company designs, develops, and operates data centers. It also offers hosting, colocation, and cloud-based high-performance computing (HPC) graphics processing unit (GPU) services. In addition, the company provides data center infrastructure and cloud services for enterprises, research institutions, and AI and machine learning (ML) driven businesses. Further, it serves healthcare, finance, and technologies; and GPU cloud customers. The co",
+  "employees": "83",
+  "exchange": "NCM",
+  "website": "https://www.whitefiber.com",
+  "current_price": 29.98,
+  "market_cap": 1157654144.0,
+  "shares_out": 38614216.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 78927726.0,
+      "total_liabilities": 29277487.0,
+      "total_equity": 49650239.0,
+      "cash": 652566.0,
+      "total_debt": 6216255.0,
+      "current_assets": 15550182.0,
+      "current_liabilities": 23042678.0,
+      "shares_outstanding": 36418750.0,
+      "net_wc": -7492496.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 47639237.0,
+      "gross_profit": 27423406.0,
+      "operating_income": 628385.0,
+      "net_income": 1369842.0,
+      "dna": 16511406.0,
+      "operating_cf": 18749568.0,
+      "capex": -79026998.0,
+      "free_cash_flow": -60277430.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 229132863.0,
+      "total_liabilities": 59406108.0,
+      "total_equity": 169726755.0,
+      "cash": 11671984.0,
+      "total_debt": 13383121.0,
+      "current_assets": 46504840.0,
+      "current_liabilities": 45760542.0,
+      "shares_outstanding": 36418750.0,
+      "net_wc": 744298.0,
+      "wc_change": -8236794.0,
+      "capex_abs": 79026998.0,
+      "maint_capex": 55318898.599999994,
+      "owner_earnings": -45674444.599999994,
+      "gross_margin_pct": 57.564746471485265,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 79164252.0,
+      "gross_profit": 49127354.0,
+      "operating_income": -26820776.0,
+      "net_income": -24682538.0,
+      "dna": 23440884.0,
+      "operating_cf": 45655356.0,
+      "capex": -268402549.0,
+      "free_cash_flow": -222747193.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 651352198.0,
+      "total_liabilities": 168888158.0,
+      "total_equity": 482464040.0,
+      "cash": 114441279.0,
+      "total_debt": 23396028.0,
+      "current_assets": 167749997.0,
+      "current_liabilities": 82525542.0,
+      "shares_outstanding": 38344239.0,
+      "net_wc": 85224455.0,
+      "wc_change": -84480157.0,
+      "capex_abs": 268402549.0,
+      "maint_capex": 187881784.29999998,
+      "owner_earnings": -273603595.29999995,
+      "gross_margin_pct": 62.057497871640344,
+      "rev_growth_pct": 66.17447504459402
+    }
+  ],
+  "latest_oe": -273603595.29999995,
+  "latest_cash": 114441279.0,
+  "latest_debt": 23396028.0,
+  "ev": 1066608893.0,
+  "oe_yield": -25.651726429023874,
+  "roe": -5.115933199912682,
+  "debt_equity": 0.04849279129694308,
+  "latest_gm": 62.057497871640344,
+  "current_ratio": 2.0327039718200215,
+  "latest_net_income": -24682538.0,
+  "latest_dna": 23440884.0,
+  "latest_wc_change": -84480157.0,
+  "latest_maint_capex": 187881784.29999998,
+  "latest_net_wc": 85224455.0,
+  "latest_current_assets": 167749997.0,
+  "latest_current_liabilities": 82525542.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 62.1%)",
+    "OE growing avg 499.0% p.a.",
+    "Low leverage (0.05x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "WhiteFiber, Inc. WYFI revenue predictability recurring demand analysis 2025 2026",
+      "WhiteFiber, Inc. WYFI business model complexity investor circle of competence",
+      "WhiteFiber, Inc. WYFI 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "WhiteFiber, Inc. WYFI competitive moat analysis switching costs brand advantage",
+      "WhiteFiber, Inc. WYFI network effects scale advantages cost leadership",
+      "WhiteFiber, Inc. WYFI patents regulatory barriers intellectual property moat",
+      "WhiteFiber, Inc. WYFI competitive threats risks disruption challenges 2025 2026",
+      "WhiteFiber, Inc. WYFI moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "WhiteFiber, Inc. WYFI CEO management candor shareholder letter transparency",
+      "WhiteFiber, Inc. WYFI executive compensation insider ownership stock options proxy",
+      "WhiteFiber, Inc. WYFI key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "WhiteFiber, Inc. WYFI stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "WhiteFiber, Inc. WYFI investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "WhiteFiber, Inc. WYFI market position monopoly commodity pricing power ecosystem",
+      "WhiteFiber, Inc. WYFI growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "WhiteFiber, Inc. WYFI investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "WhiteFiber, Inc. WYFI investment risk permanent capital loss downside analysis",
+      "WhiteFiber, Inc. WYFI opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

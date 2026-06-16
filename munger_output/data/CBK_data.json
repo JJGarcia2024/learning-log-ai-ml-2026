@@ -1,0 +1,160 @@
+{
+  "ticker": "CBK",
+  "company_name": "Commercial Bancgroup, Inc.",
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
+  "description": "Commercial Bancgroup, Inc. operates as the bank holding company for Commercial Bank that provides a range of banking and financial services to individual and corporate customers in the United States. The company accepts various deposit products, including demand deposit accounts, interest-bearing products, savings accounts, and certificates of deposit products. It also offers real estate, commercial, and consumer loans, such as installment loans, secured and unsecured personal lines of credit, and overdraft protection lines. In addition, the company provides treasury management services, remot",
+  "employees": "287",
+  "exchange": "NCM",
+  "website": "https://www.cbtn.com",
+  "current_price": 30.755,
+  "market_cap": 421382528.0,
+  "shares_out": 13701269.0,
+  "pe_ratio": 11.062949,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 81666381.0,
+      "gross_profit": 0.0,
+      "operating_income": 0.0,
+      "net_income": 30692971.0,
+      "dna": 3539550.0,
+      "operating_cf": 38887070.0,
+      "capex": -3165972.0,
+      "free_cash_flow": 35721098.0,
+      "dividends_paid": -1495287.0,
+      "buybacks": -2105085.0,
+      "total_assets": 2196609429.0,
+      "total_liabilities": 2000832106.0,
+      "total_equity": 190375030.0,
+      "cash": 145080341.0,
+      "total_debt": 143216982.0,
+      "current_assets": 0.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 13174223.0,
+      "net_wc": 0.0,
+      "wc_change": -0.0,
+      "capex_abs": 3165972.0,
+      "maint_capex": 2216180.4,
+      "owner_earnings": 32016340.6,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 87702017.0,
+      "gross_profit": 0.0,
+      "operating_income": 0.0,
+      "net_income": 31409926.0,
+      "dna": 4109259.0,
+      "operating_cf": 38675935.0,
+      "capex": -3041086.0,
+      "free_cash_flow": 35634849.0,
+      "dividends_paid": -2002669.0,
+      "buybacks": -1829803.0,
+      "total_assets": 2301211138.0,
+      "total_liabilities": 2080955355.0,
+      "total_equity": 220255783.0,
+      "cash": 134455154.0,
+      "total_debt": 105772642.0,
+      "current_assets": 0.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 13174223.0,
+      "net_wc": 0.0,
+      "wc_change": -0.0,
+      "capex_abs": 3041086.0,
+      "maint_capex": 2128760.1999999997,
+      "owner_earnings": 33390424.8,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": 7.390600545896597
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 90323098.0,
+      "gross_profit": 0.0,
+      "operating_income": 0.0,
+      "net_income": 37196198.0,
+      "dna": 3706284.0,
+      "operating_cf": 37094507.0,
+      "capex": -1865126.0,
+      "free_cash_flow": 35229381.0,
+      "dividends_paid": -2002079.0,
+      "buybacks": -980800.0,
+      "total_assets": 2291454981.0,
+      "total_liabilities": 2006111149.0,
+      "total_equity": 285343832.0,
+      "cash": 118990185.0,
+      "total_debt": 148010465.0,
+      "current_assets": 0.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 13697987.0,
+      "net_wc": 0.0,
+      "wc_change": -0.0,
+      "capex_abs": 1865126.0,
+      "maint_capex": 1305588.2,
+      "owner_earnings": 39596893.8,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": 2.988621116889467
+    }
+  ],
+  "latest_oe": 39596893.8,
+  "latest_cash": 118990185.0,
+  "latest_debt": 148010465.0,
+  "ev": 450402808.0,
+  "oe_yield": 8.79144026118061,
+  "roe": 13.035571065016047,
+  "debt_equity": 0.5187091795977563,
+  "latest_gm": 0.0,
+  "current_ratio": 0.0,
+  "latest_net_income": 37196198.0,
+  "latest_dna": 3706284.0,
+  "latest_wc_change": -0.0,
+  "latest_maint_capex": 1305588.2,
+  "latest_net_wc": 0.0,
+  "latest_current_assets": 0.0,
+  "latest_current_liabilities": 0.0,
+  "mos_flag": "YES — yield is attractive vs. risk-free rate",
+  "lolla_signals": [
+    "OE growing avg 11.4% p.a."
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Commercial Bancgroup, Inc. CBK revenue predictability recurring demand analysis 2025 2026",
+      "Commercial Bancgroup, Inc. CBK business model complexity investor circle of competence",
+      "Commercial Bancgroup, Inc. CBK 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Commercial Bancgroup, Inc. CBK competitive moat analysis switching costs brand advantage",
+      "Commercial Bancgroup, Inc. CBK network effects scale advantages cost leadership",
+      "Commercial Bancgroup, Inc. CBK patents regulatory barriers intellectual property moat",
+      "Commercial Bancgroup, Inc. CBK competitive threats risks disruption challenges 2025 2026",
+      "Commercial Bancgroup, Inc. CBK moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Commercial Bancgroup, Inc. CBK CEO management candor shareholder letter transparency",
+      "Commercial Bancgroup, Inc. CBK executive compensation insider ownership stock options proxy",
+      "Commercial Bancgroup, Inc. CBK key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Commercial Bancgroup, Inc. CBK stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Commercial Bancgroup, Inc. CBK investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Commercial Bancgroup, Inc. CBK market position monopoly commodity pricing power ecosystem",
+      "Commercial Bancgroup, Inc. CBK growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Commercial Bancgroup, Inc. CBK investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Commercial Bancgroup, Inc. CBK investment risk permanent capital loss downside analysis",
+      "Commercial Bancgroup, Inc. CBK opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

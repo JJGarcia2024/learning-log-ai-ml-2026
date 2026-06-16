@@ -1,0 +1,132 @@
+{
+  "ticker": "DMII",
+  "company_name": "Drugs Made In America Acquisition II Corp.",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Drugs Made In America Acquisition II Corp. does not have significant operations. The company focuses on effecting a merger, share exchange, asset acquisition, share purchase, recapitalization, reorganization, or other similar business combination with one or more businesses. It intends to source and evaluate companies focused on the pharmaceutical sector. Drugs Made In America Acquisition II Corp. was incorporated in 2024 and is based in New York, New York.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "N/A",
+  "current_price": 10.08,
+  "market_cap": 642096000.0,
+  "shares_out": 63700000.0,
+  "pe_ratio": 72.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 138064.0,
+      "total_liabilities": 254783.0,
+      "total_equity": -116719.0,
+      "cash": 17035.0,
+      "total_debt": 250100.0,
+      "current_assets": 59615.0,
+      "current_liabilities": 254783.0,
+      "shares_outstanding": 63700000.0,
+      "net_wc": -195168.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -1300498.0,
+      "net_income": 4187050.0,
+      "dna": 0.0,
+      "operating_cf": -1018231.0,
+      "capex": 0.0,
+      "free_cash_flow": -1018231.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 504959837.0,
+      "total_liabilities": 17800864.0,
+      "total_equity": 487158973.0,
+      "cash": 223.0,
+      "total_debt": 0.0,
+      "current_assets": 26037.0,
+      "current_liabilities": 300864.0,
+      "shares_outstanding": 63700000.0,
+      "net_wc": -274827.0,
+      "wc_change": 79659.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 4266709.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 4266709.0,
+  "latest_cash": 223.0,
+  "latest_debt": 0.0,
+  "ev": 642095777.0,
+  "oe_yield": 0.6644972841800827,
+  "roe": 0.8594832964310399,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 0.08654076260370135,
+  "latest_net_income": 4187050.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": 79659.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": -274827.0,
+  "latest_current_assets": 26037.0,
+  "latest_current_liabilities": 300864.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Drugs Made In America Acquisition II Corp. DMII revenue predictability recurring demand analysis 2025 2026",
+      "Drugs Made In America Acquisition II Corp. DMII business model complexity investor circle of competence",
+      "Drugs Made In America Acquisition II Corp. DMII 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Drugs Made In America Acquisition II Corp. DMII competitive moat analysis switching costs brand advantage",
+      "Drugs Made In America Acquisition II Corp. DMII network effects scale advantages cost leadership",
+      "Drugs Made In America Acquisition II Corp. DMII patents regulatory barriers intellectual property moat",
+      "Drugs Made In America Acquisition II Corp. DMII competitive threats risks disruption challenges 2025 2026",
+      "Drugs Made In America Acquisition II Corp. DMII moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Drugs Made In America Acquisition II Corp. DMII CEO management candor shareholder letter transparency",
+      "Drugs Made In America Acquisition II Corp. DMII executive compensation insider ownership stock options proxy",
+      "Drugs Made In America Acquisition II Corp. DMII key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Drugs Made In America Acquisition II Corp. DMII stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Drugs Made In America Acquisition II Corp. DMII investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Drugs Made In America Acquisition II Corp. DMII market position monopoly commodity pricing power ecosystem",
+      "Drugs Made In America Acquisition II Corp. DMII growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Drugs Made In America Acquisition II Corp. DMII investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Drugs Made In America Acquisition II Corp. DMII investment risk permanent capital loss downside analysis",
+      "Drugs Made In America Acquisition II Corp. DMII opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

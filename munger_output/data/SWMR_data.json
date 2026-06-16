@@ -1,0 +1,135 @@
+{
+  "ticker": "SWMR",
+  "company_name": "Swarmer, Inc",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "description": "Swarmer, Inc develops autonomous drone swarm software and artificial intelligence solutions in the United States. The company specializes in software platforms and AI systems for military organizations to deploy and coordinate unmanned systems operations. Its services include autonomous swarm coordination, multi-domain unmanned systems integration, AI-powered collaborative autonomy, and command and control software for distributed robotic operations. The company's products include STYX AI Command & Control System, a platform enabling operators to manage autonomous drones through an intuitive i",
+  "employees": "49",
+  "exchange": "NCM",
+  "website": "https://www.getswarmer.com",
+  "current_price": 41.96,
+  "market_cap": 453114368.0,
+  "shares_out": 10798722.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 329410.0,
+      "gross_profit": 141562.0,
+      "operating_income": -1238731.0,
+      "net_income": -2069642.0,
+      "dna": 3503.0,
+      "operating_cf": -1046126.0,
+      "capex": -8956.0,
+      "free_cash_flow": -1055082.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 2147903.0,
+      "total_liabilities": 4217119.0,
+      "total_equity": -2069216.0,
+      "cash": 2081086.0,
+      "total_debt": 0.0,
+      "current_assets": 2142502.0,
+      "current_liabilities": 252119.0,
+      "shares_outstanding": 12348579.0,
+      "net_wc": 1890383.0,
+      "wc_change": -0.0,
+      "capex_abs": 8956.0,
+      "maint_capex": 6269.2,
+      "owner_earnings": -2072408.2,
+      "gross_margin_pct": 42.97440879147567,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 309920.0,
+      "gross_profit": 127757.0,
+      "operating_income": -5116107.0,
+      "net_income": -8529263.0,
+      "dna": 39026.0,
+      "operating_cf": -4622351.0,
+      "capex": -246993.0,
+      "free_cash_flow": -4869344.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 10336680.0,
+      "total_liabilities": 20277139.0,
+      "total_equity": -9940459.0,
+      "cash": 9283566.0,
+      "total_debt": 146976.0,
+      "current_assets": 9399039.0,
+      "current_liabilities": 1187193.0,
+      "shares_outstanding": 12348579.0,
+      "net_wc": 8211846.0,
+      "wc_change": -6321463.0,
+      "capex_abs": 246993.0,
+      "maint_capex": 172895.09999999998,
+      "owner_earnings": -14984595.1,
+      "gross_margin_pct": 41.22257356737222,
+      "rev_growth_pct": -5.916638839136635
+    }
+  ],
+  "latest_oe": -14984595.1,
+  "latest_cash": 9283566.0,
+  "latest_debt": 146976.0,
+  "ev": 443977778.0,
+  "oe_yield": -3.375077727426259,
+  "roe": 85.80351269493693,
+  "debt_equity": -0.014785635150248092,
+  "latest_gm": 41.22257356737222,
+  "current_ratio": 7.917026970340964,
+  "latest_net_income": -8529263.0,
+  "latest_dna": 39026.0,
+  "latest_wc_change": -6321463.0,
+  "latest_maint_capex": 172895.09999999998,
+  "latest_net_wc": 8211846.0,
+  "latest_current_assets": 9399039.0,
+  "latest_current_liabilities": 1187193.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 41.2%)",
+    "OE growing avg 623.1% p.a.",
+    "High ROE 85.8%",
+    "Low leverage (-0.01x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "Swarmer, Inc SWMR revenue predictability recurring demand analysis 2025 2026",
+      "Swarmer, Inc SWMR business model complexity investor circle of competence",
+      "Swarmer, Inc SWMR 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Swarmer, Inc SWMR competitive moat analysis switching costs brand advantage",
+      "Swarmer, Inc SWMR network effects scale advantages cost leadership",
+      "Swarmer, Inc SWMR patents regulatory barriers intellectual property moat",
+      "Swarmer, Inc SWMR competitive threats risks disruption challenges 2025 2026",
+      "Swarmer, Inc SWMR moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Swarmer, Inc SWMR CEO management candor shareholder letter transparency",
+      "Swarmer, Inc SWMR executive compensation insider ownership stock options proxy",
+      "Swarmer, Inc SWMR key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Swarmer, Inc SWMR stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Swarmer, Inc SWMR investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Swarmer, Inc SWMR market position monopoly commodity pricing power ecosystem",
+      "Swarmer, Inc SWMR growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Swarmer, Inc SWMR investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Swarmer, Inc SWMR investment risk permanent capital loss downside analysis",
+      "Swarmer, Inc SWMR opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

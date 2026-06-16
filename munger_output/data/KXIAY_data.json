@@ -1,0 +1,133 @@
+{
+  "ticker": "KXIAY",
+  "company_name": "KXIAY",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "description": "Kioxia Holdings Corporation manufactures and sells memory and solid-state drives (SSDs) in Japan and internationally. It offers flash memory technology products, including 3d flash memory/ BiCS FLASH; UFS & e-MMC for consumer, industrial, and automotive applications; SLD (Single-Level Cell) NAND flash Memory; and XL-FLASH storage class memory. The company also provides enterprise, cloud data center, and client SSDs. The company was formerly known as Toshiba Memory Holdings Corporation and changed its name to Kioxia Holdings Corporation in October 2019. Kioxia Holdings Corporation was incorpora",
+  "employees": "N/A",
+  "exchange": "PNK",
+  "website": "https://www.kioxia-holdings.com",
+  "current_price": 59.9,
+  "market_cap": 327105609728.0,
+  "shares_out": 5460861290.0,
+  "pe_ratio": 84.3662,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 1076584000000.0,
+      "gross_profit": -129343000000.0,
+      "operating_income": -252698000000.0,
+      "net_income": -243728000000.0,
+      "dna": 346066000000.0,
+      "operating_cf": 195111000000.0,
+      "capex": -305097000000.0,
+      "free_cash_flow": -109986000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1871091000000.0,
+      "total_liabilities": 718072000000.0,
+      "total_equity": 1153019000000.0,
+      "cash": 473000000.0,
+      "total_debt": 700420000000.0,
+      "current_assets": 720414000000.0,
+      "current_liabilities": 715658000000.0,
+      "shares_outstanding": 539062500.0,
+      "net_wc": 4756000000.0,
+      "wc_change": -0.0,
+      "capex_abs": 305097000000.0,
+      "maint_capex": 213567900000.0,
+      "owner_earnings": -111229900000.0,
+      "gross_margin_pct": -12.014204186575315,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 1706460000000.0,
+      "gross_profit": 569433000000.0,
+      "operating_income": 451748000000.0,
+      "net_income": 272315000000.0,
+      "dna": 312307000000.0,
+      "operating_cf": 476416000000.0,
+      "capex": -225603000000.0,
+      "free_cash_flow": 250813000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1618948000000.0,
+      "total_liabilities": 448559000000.0,
+      "total_equity": 1170389000000.0,
+      "cash": 676000000.0,
+      "total_debt": 439541000000.0,
+      "current_assets": 181786000000.0,
+      "current_liabilities": 146574000000.0,
+      "shares_outstanding": 539355180.0,
+      "net_wc": 35212000000.0,
+      "wc_change": -30456000000.0,
+      "capex_abs": 225603000000.0,
+      "maint_capex": 157922100000.0,
+      "owner_earnings": 396243900000.0,
+      "gross_margin_pct": 33.36925565205161,
+      "rev_growth_pct": 58.50690703187118
+    }
+  ],
+  "latest_oe": 396243900000.0,
+  "latest_cash": 676000000.0,
+  "latest_debt": 439541000000.0,
+  "ev": 765970609728.0,
+  "oe_yield": 51.7309535075645,
+  "roe": 23.267050527645083,
+  "debt_equity": 0.37555120562479655,
+  "latest_gm": 33.36925565205161,
+  "current_ratio": 1.2402336021395337,
+  "latest_net_income": 272315000000.0,
+  "latest_dna": 312307000000.0,
+  "latest_wc_change": -30456000000.0,
+  "latest_maint_capex": 157922100000.0,
+  "latest_net_wc": 35212000000.0,
+  "latest_current_assets": 181786000000.0,
+  "latest_current_liabilities": 146574000000.0,
+  "mos_flag": "YES — yield is attractive vs. risk-free rate",
+  "lolla_signals": [
+    "High ROE 23.3%",
+    "Low leverage (0.38x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "KXIAY KXIAY revenue predictability recurring demand analysis 2025 2026",
+      "KXIAY KXIAY business model complexity investor circle of competence",
+      "KXIAY KXIAY 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "KXIAY KXIAY competitive moat analysis switching costs brand advantage",
+      "KXIAY KXIAY network effects scale advantages cost leadership",
+      "KXIAY KXIAY patents regulatory barriers intellectual property moat",
+      "KXIAY KXIAY competitive threats risks disruption challenges 2025 2026",
+      "KXIAY KXIAY moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "KXIAY KXIAY CEO management candor shareholder letter transparency",
+      "KXIAY KXIAY executive compensation insider ownership stock options proxy",
+      "KXIAY KXIAY key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "KXIAY KXIAY stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "KXIAY KXIAY investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "KXIAY KXIAY market position monopoly commodity pricing power ecosystem",
+      "KXIAY KXIAY growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "KXIAY KXIAY investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "KXIAY KXIAY investment risk permanent capital loss downside analysis",
+      "KXIAY KXIAY opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

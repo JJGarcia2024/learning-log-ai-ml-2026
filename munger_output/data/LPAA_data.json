@@ -1,0 +1,133 @@
+{
+  "ticker": "LPAA",
+  "company_name": "Launch One Acquisition Corp.",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Launch One Acquisition Corp. does not have significant operations. It intends to effect a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. The company was incorporated in 2024 and is based in Oakland, California.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://www.launchoneacquisitioncorp.com",
+  "current_price": 10.81,
+  "market_cap": 310787520.0,
+  "shares_out": 23000000.0,
+  "pe_ratio": 40.037037,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -400002.0,
+      "net_income": 5129519.0,
+      "dna": 0.0,
+      "operating_cf": -472305.0,
+      "capex": 0.0,
+      "free_cash_flow": -472305.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 236639418.0,
+      "total_liabilities": 11059180.0,
+      "total_equity": 225580238.0,
+      "cash": 850338.0,
+      "total_debt": 0.0,
+      "current_assets": 1056301.0,
+      "current_liabilities": 109180.0,
+      "shares_outstanding": 28750000.0,
+      "net_wc": 947121.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 5129519.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -1611081.0,
+      "net_income": 8309154.0,
+      "dna": 0.0,
+      "operating_cf": -820192.0,
+      "capex": 0.0,
+      "free_cash_flow": -820192.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 245630529.0,
+      "total_liabilities": 11741137.0,
+      "total_equity": 233889392.0,
+      "cash": 30146.0,
+      "total_debt": 0.0,
+      "current_assets": 181176.0,
+      "current_liabilities": 791137.0,
+      "shares_outstanding": 28750000.0,
+      "net_wc": -609961.0,
+      "wc_change": 1557082.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 9866236.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 9866236.0,
+  "latest_cash": 30146.0,
+  "latest_debt": 0.0,
+  "ev": 310757374.0,
+  "oe_yield": 3.174900042758116,
+  "roe": 3.5525997690395466,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 0.22900711254814274,
+  "latest_net_income": 8309154.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": 1557082.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": -609961.0,
+  "latest_current_assets": 181176.0,
+  "latest_current_liabilities": 791137.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 92.3% p.a.",
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Launch One Acquisition Corp. LPAA revenue predictability recurring demand analysis 2025 2026",
+      "Launch One Acquisition Corp. LPAA business model complexity investor circle of competence",
+      "Launch One Acquisition Corp. LPAA 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Launch One Acquisition Corp. LPAA competitive moat analysis switching costs brand advantage",
+      "Launch One Acquisition Corp. LPAA network effects scale advantages cost leadership",
+      "Launch One Acquisition Corp. LPAA patents regulatory barriers intellectual property moat",
+      "Launch One Acquisition Corp. LPAA competitive threats risks disruption challenges 2025 2026",
+      "Launch One Acquisition Corp. LPAA moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Launch One Acquisition Corp. LPAA CEO management candor shareholder letter transparency",
+      "Launch One Acquisition Corp. LPAA executive compensation insider ownership stock options proxy",
+      "Launch One Acquisition Corp. LPAA key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Launch One Acquisition Corp. LPAA stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Launch One Acquisition Corp. LPAA investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Launch One Acquisition Corp. LPAA market position monopoly commodity pricing power ecosystem",
+      "Launch One Acquisition Corp. LPAA growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Launch One Acquisition Corp. LPAA investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Launch One Acquisition Corp. LPAA investment risk permanent capital loss downside analysis",
+      "Launch One Acquisition Corp. LPAA opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

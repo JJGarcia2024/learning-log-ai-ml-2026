@@ -1,0 +1,162 @@
+{
+  "ticker": "AII",
+  "company_name": "American Integrity Insurance Group, Inc.",
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
+  "description": "American Integrity Insurance Group, Inc., together with its subsidiaries, operates as an insurance company in the United States. The company offers personal residential property insurance for single-family homeowners and condominium owners, as well as coverage for vacant dwellings and investment properties. It also provides manufactured home, commercial residential, dwelling property, and specialty insurance products. In addition, the company offers optional endorsements that provide higher levels of standard coverage and optional coverage, such as personal injury, animal liability, identity r",
+  "employees": "313",
+  "exchange": "NYQ",
+  "website": "https://www.aii.com",
+  "current_price": 16.67,
+  "market_cap": 326578912.0,
+  "shares_out": 19590817.0,
+  "pe_ratio": 3.516878,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 200871000.0,
+      "gross_profit": 0.0,
+      "operating_income": 0.0,
+      "net_income": 37797000.0,
+      "dna": 1224000.0,
+      "operating_cf": 64438000.0,
+      "capex": -756000.0,
+      "free_cash_flow": 63682000.0,
+      "dividends_paid": -1837000.0,
+      "buybacks": 0.0,
+      "total_assets": 862035000.0,
+      "total_liabilities": 728069000.0,
+      "total_equity": 133966000.0,
+      "cash": 61645000.0,
+      "total_debt": 6082000.0,
+      "current_assets": 0.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 19581828.0,
+      "net_wc": 0.0,
+      "wc_change": -0.0,
+      "capex_abs": 756000.0,
+      "maint_capex": 529200.0,
+      "owner_earnings": 38491800.0,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 204354000.0,
+      "gross_profit": 0.0,
+      "operating_income": 0.0,
+      "net_income": 39742000.0,
+      "dna": 2841000.0,
+      "operating_cf": 148909000.0,
+      "capex": -1307000.0,
+      "free_cash_flow": 147602000.0,
+      "dividends_paid": -12024000.0,
+      "buybacks": 0.0,
+      "total_assets": 1198145000.0,
+      "total_liabilities": 1035753000.0,
+      "total_equity": 162392000.0,
+      "cash": 173220000.0,
+      "total_debt": 3641000.0,
+      "current_assets": 0.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 19581828.0,
+      "net_wc": 0.0,
+      "wc_change": -0.0,
+      "capex_abs": 1307000.0,
+      "maint_capex": 914900.0,
+      "owner_earnings": 41668100.0,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": 1.7339486536135151
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 276485000.0,
+      "gross_profit": 0.0,
+      "operating_income": 0.0,
+      "net_income": 99621000.0,
+      "dna": 2280000.0,
+      "operating_cf": 138192000.0,
+      "capex": -5017000.0,
+      "free_cash_flow": 133175000.0,
+      "dividends_paid": -22875000.0,
+      "buybacks": 0.0,
+      "total_assets": 1225074000.0,
+      "total_liabilities": 888052000.0,
+      "total_equity": 337022000.0,
+      "cash": 203902000.0,
+      "total_debt": 1076000.0,
+      "current_assets": 0.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 19579009.0,
+      "net_wc": 0.0,
+      "wc_change": -0.0,
+      "capex_abs": 5017000.0,
+      "maint_capex": 3511900.0,
+      "owner_earnings": 98389100.0,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": 35.297082513677246
+    }
+  ],
+  "latest_oe": 98389100.0,
+  "latest_cash": 203902000.0,
+  "latest_debt": 1076000.0,
+  "ev": 123752912.0,
+  "oe_yield": 79.5044725897036,
+  "roe": 29.559197915863063,
+  "debt_equity": 0.003192669914723668,
+  "latest_gm": 0.0,
+  "current_ratio": 0.0,
+  "latest_net_income": 99621000.0,
+  "latest_dna": 2280000.0,
+  "latest_wc_change": -0.0,
+  "latest_maint_capex": 3511900.0,
+  "latest_net_wc": 0.0,
+  "latest_current_assets": 0.0,
+  "latest_current_liabilities": 0.0,
+  "mos_flag": "YES — yield is attractive vs. risk-free rate",
+  "lolla_signals": [
+    "OE growing avg 72.2% p.a.",
+    "High ROE 29.6%",
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "American Integrity Insurance Group, Inc. AII revenue predictability recurring demand analysis 2025 2026",
+      "American Integrity Insurance Group, Inc. AII business model complexity investor circle of competence",
+      "American Integrity Insurance Group, Inc. AII 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "American Integrity Insurance Group, Inc. AII competitive moat analysis switching costs brand advantage",
+      "American Integrity Insurance Group, Inc. AII network effects scale advantages cost leadership",
+      "American Integrity Insurance Group, Inc. AII patents regulatory barriers intellectual property moat",
+      "American Integrity Insurance Group, Inc. AII competitive threats risks disruption challenges 2025 2026",
+      "American Integrity Insurance Group, Inc. AII moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "American Integrity Insurance Group, Inc. AII CEO management candor shareholder letter transparency",
+      "American Integrity Insurance Group, Inc. AII executive compensation insider ownership stock options proxy",
+      "American Integrity Insurance Group, Inc. AII key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "American Integrity Insurance Group, Inc. AII stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "American Integrity Insurance Group, Inc. AII investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "American Integrity Insurance Group, Inc. AII market position monopoly commodity pricing power ecosystem",
+      "American Integrity Insurance Group, Inc. AII growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "American Integrity Insurance Group, Inc. AII investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "American Integrity Insurance Group, Inc. AII investment risk permanent capital loss downside analysis",
+      "American Integrity Insurance Group, Inc. AII opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

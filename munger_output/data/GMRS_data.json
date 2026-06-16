@@ -1,0 +1,160 @@
+{
+  "ticker": "GMRS",
+  "company_name": "GMR Solutions Inc.",
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
+  "description": "GMR Solutions Inc. operates as a provider of emergency medical services (EMS), essential alternate-site, out-of-hospital care, and mobile clinical practice groups in United States. It offers emergent medical services; non-emergent services; and other solutions, such as membership programs, standby and special events, national ambulance contract with the federal emergency management agency, and other state agency and health system contracts to coordinate EMS responses. It serves health systems, large regional systems, and smaller independent hospitals, local communities, health systems, payors,",
+  "employees": "34000",
+  "exchange": "NYQ",
+  "website": "https://globalmedicalresponse.com",
+  "current_price": 12.03,
+  "market_cap": 649760896.0,
+  "shares_out": 54011711.0,
+  "pe_ratio": 6.3989363,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 5394711000.0,
+      "gross_profit": 2078610000.0,
+      "operating_income": 421109000.0,
+      "net_income": -202662000.0,
+      "dna": 314446000.0,
+      "operating_cf": 257752000.0,
+      "capex": -171009000.0,
+      "free_cash_flow": 86743000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_equity": null,
+      "cash": null,
+      "total_debt": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "shares_outstanding": null,
+      "net_wc": null,
+      "wc_change": -0.0,
+      "capex_abs": 171009000.0,
+      "maint_capex": 119706299.99999999,
+      "owner_earnings": -7922299.999999985,
+      "gross_margin_pct": 38.530516277887735,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 5976198000.0,
+      "gross_profit": 2438715000.0,
+      "operating_income": 721521000.0,
+      "net_income": 20409000.0,
+      "dna": 297796000.0,
+      "operating_cf": 246212000.0,
+      "capex": -268617000.0,
+      "free_cash_flow": -22405000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -1010000.0,
+      "total_assets": 7116596000.0,
+      "total_liabilities": 6928601000.0,
+      "total_equity": 187995000.0,
+      "cash": 352293000.0,
+      "total_debt": 4860360000.0,
+      "current_assets": 1817535000.0,
+      "current_liabilities": 1015432000.0,
+      "shares_outstanding": 54021728.0,
+      "net_wc": 802103000.0,
+      "wc_change": -0.0,
+      "capex_abs": 268617000.0,
+      "maint_capex": 188031900.0,
+      "owner_earnings": 130173100.0,
+      "gross_margin_pct": 40.807131892216425,
+      "rev_growth_pct": 10.778835047883017
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 5739776000.0,
+      "gross_profit": 2232705000.0,
+      "operating_income": 824118000.0,
+      "net_income": 206227000.0,
+      "dna": 329591000.0,
+      "operating_cf": 641146000.0,
+      "capex": -258542000.0,
+      "free_cash_flow": 382604000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -86000.0,
+      "total_assets": 7482045000.0,
+      "total_liabilities": 7277890000.0,
+      "total_equity": 204155000.0,
+      "cash": 609349000.0,
+      "total_debt": 5371449000.0,
+      "current_assets": 2132081000.0,
+      "current_liabilities": 1064429000.0,
+      "shares_outstanding": 54021728.0,
+      "net_wc": 1067652000.0,
+      "wc_change": -265549000.0,
+      "capex_abs": 258542000.0,
+      "maint_capex": 180979400.0,
+      "owner_earnings": 89289600.0,
+      "gross_margin_pct": 38.89881765420811,
+      "rev_growth_pct": -3.956060358107283
+    }
+  ],
+  "latest_oe": 89289600.0,
+  "latest_cash": 609349000.0,
+  "latest_debt": 5371449000.0,
+  "ev": 5411860896.0,
+  "oe_yield": 1.6498871962136996,
+  "roe": 101.0149151380079,
+  "debt_equity": 26.310641424407926,
+  "latest_gm": 38.89881765420811,
+  "current_ratio": 2.0030279144968803,
+  "latest_net_income": 206227000.0,
+  "latest_dna": 329591000.0,
+  "latest_wc_change": -265549000.0,
+  "latest_maint_capex": 180979400.0,
+  "latest_net_wc": 1067652000.0,
+  "latest_current_assets": 2132081000.0,
+  "latest_current_liabilities": 1064429000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "High ROE 101.0%"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "GMR Solutions Inc. GMRS revenue predictability recurring demand analysis 2025 2026",
+      "GMR Solutions Inc. GMRS business model complexity investor circle of competence",
+      "GMR Solutions Inc. GMRS 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "GMR Solutions Inc. GMRS competitive moat analysis switching costs brand advantage",
+      "GMR Solutions Inc. GMRS network effects scale advantages cost leadership",
+      "GMR Solutions Inc. GMRS patents regulatory barriers intellectual property moat",
+      "GMR Solutions Inc. GMRS competitive threats risks disruption challenges 2025 2026",
+      "GMR Solutions Inc. GMRS moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "GMR Solutions Inc. GMRS CEO management candor shareholder letter transparency",
+      "GMR Solutions Inc. GMRS executive compensation insider ownership stock options proxy",
+      "GMR Solutions Inc. GMRS key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "GMR Solutions Inc. GMRS stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "GMR Solutions Inc. GMRS investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "GMR Solutions Inc. GMRS market position monopoly commodity pricing power ecosystem",
+      "GMR Solutions Inc. GMRS growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "GMR Solutions Inc. GMRS investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "GMR Solutions Inc. GMRS investment risk permanent capital loss downside analysis",
+      "GMR Solutions Inc. GMRS opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

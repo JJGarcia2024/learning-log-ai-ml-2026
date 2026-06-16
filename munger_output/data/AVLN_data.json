@@ -1,0 +1,134 @@
+{
+  "ticker": "AVLN",
+  "company_name": "Avalyn Pharma Inc.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "description": "Avalyn Pharma Inc. operates as a clinical-stage biopharmaceutical company developing inhaled medicines to treat rare respiratory diseases, including pulmonary fibrosis and other interstitial lung diseases. The company provides inhaled formulations of oral medicines directly to the lungs. Its current pipeline is focused on treating pulmonary fibrosis. Its products include AP01 and AP02, inhaled formulations of pirfenidone and nintedanib for the treatment of progressive pulmonary fibrosis and idiopathic pulmonary fibrosis; and AP03, a fixed-dose combination of inhaled pirfenidone and nintedanib ",
+  "employees": "50",
+  "exchange": "NMS",
+  "website": "https://www.avalynpharma.com",
+  "current_price": 28.75,
+  "market_cap": 1274576512.0,
+  "shares_out": 44333095.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -57121000.0,
+      "net_income": -49744000.0,
+      "dna": 29000.0,
+      "operating_cf": -48368000.0,
+      "capex": -95000.0,
+      "free_cash_flow": -48463000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 124519000.0,
+      "total_liabilities": 299041000.0,
+      "total_equity": -174522000.0,
+      "cash": 23955000.0,
+      "total_debt": 0.0,
+      "current_assets": 114387000.0,
+      "current_liabilities": 8744000.0,
+      "shares_outstanding": 41812047.0,
+      "net_wc": 105643000.0,
+      "wc_change": -0.0,
+      "capex_abs": 95000.0,
+      "maint_capex": 66500.0,
+      "owner_earnings": -49781500.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -91292000.0,
+      "net_income": -85204000.0,
+      "dna": 42000.0,
+      "operating_cf": -81484000.0,
+      "capex": -344000.0,
+      "free_cash_flow": -81828000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 148881000.0,
+      "total_liabilities": 387537000.0,
+      "total_equity": -238656000.0,
+      "cash": 52315000.0,
+      "total_debt": 1669000.0,
+      "current_assets": 143560000.0,
+      "current_liabilities": 14091000.0,
+      "shares_outstanding": 41812047.0,
+      "net_wc": 129469000.0,
+      "wc_change": -23826000.0,
+      "capex_abs": 344000.0,
+      "maint_capex": 240799.99999999997,
+      "owner_earnings": -109228800.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -109228800.0,
+  "latest_cash": 52315000.0,
+  "latest_debt": 1669000.0,
+  "ev": 1223930512.0,
+  "oe_yield": -8.924428219500095,
+  "roe": 35.701595602038076,
+  "debt_equity": -0.006993329310807187,
+  "latest_gm": null,
+  "current_ratio": 10.188063302817401,
+  "latest_net_income": -85204000.0,
+  "latest_dna": 42000.0,
+  "latest_wc_change": -23826000.0,
+  "latest_maint_capex": 240799.99999999997,
+  "latest_net_wc": 129469000.0,
+  "latest_current_assets": 143560000.0,
+  "latest_current_liabilities": 14091000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 119.4% p.a.",
+    "High ROE 35.7%",
+    "Low leverage (-0.01x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "Avalyn Pharma Inc. AVLN revenue predictability recurring demand analysis 2025 2026",
+      "Avalyn Pharma Inc. AVLN business model complexity investor circle of competence",
+      "Avalyn Pharma Inc. AVLN 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Avalyn Pharma Inc. AVLN competitive moat analysis switching costs brand advantage",
+      "Avalyn Pharma Inc. AVLN network effects scale advantages cost leadership",
+      "Avalyn Pharma Inc. AVLN patents regulatory barriers intellectual property moat",
+      "Avalyn Pharma Inc. AVLN competitive threats risks disruption challenges 2025 2026",
+      "Avalyn Pharma Inc. AVLN moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Avalyn Pharma Inc. AVLN CEO management candor shareholder letter transparency",
+      "Avalyn Pharma Inc. AVLN executive compensation insider ownership stock options proxy",
+      "Avalyn Pharma Inc. AVLN key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Avalyn Pharma Inc. AVLN stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Avalyn Pharma Inc. AVLN investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Avalyn Pharma Inc. AVLN market position monopoly commodity pricing power ecosystem",
+      "Avalyn Pharma Inc. AVLN growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Avalyn Pharma Inc. AVLN investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Avalyn Pharma Inc. AVLN investment risk permanent capital loss downside analysis",
+      "Avalyn Pharma Inc. AVLN opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

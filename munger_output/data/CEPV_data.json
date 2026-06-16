@@ -1,0 +1,161 @@
+{
+  "ticker": "CEPV",
+  "company_name": "Cantor Equity Partners V, Inc.",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Cantor Equity Partners V, Inc. focuses on effecting a merger, share exchange, asset acquisition, share purchase, reorganization or similar business combination with one or more businesses in the financial services, healthcare, real estate services, technology and software industries. The company was formerly known as CF International Acquisition Corp. VII. The company was incorporated in 2021 and is based in New York, New York.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "N/A",
+  "current_price": 10.29,
+  "market_cap": 327119104.0,
+  "shares_out": 25540000.0,
+  "pe_ratio": 93.545456,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -3472.0,
+      "net_income": -3472.0,
+      "dna": 0.0,
+      "operating_cf": 0.0,
+      "capex": 0.0,
+      "free_cash_flow": 0.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 5164.0,
+      "total_liabilities": 0.0,
+      "total_equity": 5164.0,
+      "cash": 0.0,
+      "total_debt": 0.0,
+      "current_assets": 5164.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 25500000.0,
+      "net_wc": 5164.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -3472.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -7046.0,
+      "net_income": -7046.0,
+      "dna": 0.0,
+      "operating_cf": 0.0,
+      "capex": 0.0,
+      "free_cash_flow": 0.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 306.0,
+      "total_liabilities": 2188.0,
+      "total_equity": -1882.0,
+      "cash": 0.0,
+      "total_debt": 0.0,
+      "current_assets": 0.0,
+      "current_liabilities": 2188.0,
+      "shares_outstanding": 25500000.0,
+      "net_wc": -2188.0,
+      "wc_change": 7352.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 306.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -187125.0,
+      "net_income": 1230175.0,
+      "dna": 0.0,
+      "operating_cf": -57976.0,
+      "capex": 0.0,
+      "free_cash_flow": -57976.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 251996009.0,
+      "total_liabilities": 91177.0,
+      "total_equity": 251904832.0,
+      "cash": 169132.0,
+      "total_debt": 0.0,
+      "current_assets": 299132.0,
+      "current_liabilities": 91177.0,
+      "shares_outstanding": 31790000.0,
+      "net_wc": 207955.0,
+      "wc_change": -210143.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 1020032.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 1020032.0,
+  "latest_cash": 169132.0,
+  "latest_debt": 0.0,
+  "ev": 326949972.0,
+  "oe_yield": 0.31198412214575755,
+  "roe": 0.4883491079678852,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 3.2807835309343365,
+  "latest_net_income": 1230175.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -210143.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 207955.0,
+  "latest_current_assets": 299132.0,
+  "latest_current_liabilities": 91177.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 166567.5% p.a.",
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Cantor Equity Partners V, Inc. CEPV revenue predictability recurring demand analysis 2025 2026",
+      "Cantor Equity Partners V, Inc. CEPV business model complexity investor circle of competence",
+      "Cantor Equity Partners V, Inc. CEPV 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Cantor Equity Partners V, Inc. CEPV competitive moat analysis switching costs brand advantage",
+      "Cantor Equity Partners V, Inc. CEPV network effects scale advantages cost leadership",
+      "Cantor Equity Partners V, Inc. CEPV patents regulatory barriers intellectual property moat",
+      "Cantor Equity Partners V, Inc. CEPV competitive threats risks disruption challenges 2025 2026",
+      "Cantor Equity Partners V, Inc. CEPV moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Cantor Equity Partners V, Inc. CEPV CEO management candor shareholder letter transparency",
+      "Cantor Equity Partners V, Inc. CEPV executive compensation insider ownership stock options proxy",
+      "Cantor Equity Partners V, Inc. CEPV key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Cantor Equity Partners V, Inc. CEPV stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Cantor Equity Partners V, Inc. CEPV investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Cantor Equity Partners V, Inc. CEPV market position monopoly commodity pricing power ecosystem",
+      "Cantor Equity Partners V, Inc. CEPV growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Cantor Equity Partners V, Inc. CEPV investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Cantor Equity Partners V, Inc. CEPV investment risk permanent capital loss downside analysis",
+      "Cantor Equity Partners V, Inc. CEPV opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

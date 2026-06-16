@@ -1,0 +1,161 @@
+{
+  "ticker": "NTSK",
+  "company_name": "Netskope, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "description": "Netskope, Inc., a cybersecurity company, provides security, networking, and analytics solutions to largest enterprises to mid-sized companies worldwide. The company develops Netskope One platform, a cloud-native platform for securing and accelerating the digital interactions of enterprises. Its platform offers security products comprising cloud inline security, cloud access security broker, data loss prevention, threat protection, secure web gateway, private access, remote browser isolation, Software-as-a-Service (SaaS) security posture management, data security posture management, and enterpr",
+  "employees": "3281",
+  "exchange": "NMS",
+  "website": "https://www.netskope.com",
+  "current_price": 8.81,
+  "market_cap": 3558567424.0,
+  "shares_out": 251821667.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 406883000.0,
+      "gross_profit": 243250000.0,
+      "operating_income": -312798000.0,
+      "net_income": -344852000.0,
+      "dna": 49548000.0,
+      "operating_cf": -167166000.0,
+      "capex": -41152000.0,
+      "free_cash_flow": -208318000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 773788000.0,
+      "total_liabilities": 1030608000.0,
+      "total_equity": -256820000.0,
+      "cash": 163054000.0,
+      "total_debt": 508503000.0,
+      "current_assets": 480131000.0,
+      "current_liabilities": 427558000.0,
+      "shares_outstanding": 382073197.0,
+      "net_wc": 52573000.0,
+      "wc_change": -0.0,
+      "capex_abs": 41152000.0,
+      "maint_capex": 28806400.0,
+      "owner_earnings": -324110400.0,
+      "gross_margin_pct": 59.783770764568686,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 538268000.0,
+      "gross_profit": 347899000.0,
+      "operating_income": -255741000.0,
+      "net_income": -354510000.0,
+      "dna": 51544000.0,
+      "operating_cf": -110678000.0,
+      "capex": -40422000.0,
+      "free_cash_flow": -151100000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 858506000.0,
+      "total_liabilities": 1344095000.0,
+      "total_equity": -485589000.0,
+      "cash": 166012000.0,
+      "total_debt": 662697000.0,
+      "current_assets": 528405000.0,
+      "current_liabilities": 526708000.0,
+      "shares_outstanding": 382073197.0,
+      "net_wc": 1697000.0,
+      "wc_change": 50876000.0,
+      "capex_abs": 40422000.0,
+      "maint_capex": 28295400.0,
+      "owner_earnings": -280385400.0,
+      "gross_margin_pct": 64.63304524883515,
+      "rev_growth_pct": 32.29060933978565
+    },
+    {
+      "fiscal_year": "2026",
+      "revenue": 708997000.0,
+      "gross_profit": 482669000.0,
+      "operating_income": -652579000.0,
+      "net_income": -679388000.0,
+      "dna": 45902000.0,
+      "operating_cf": 38073000.0,
+      "capex": -25700000.0,
+      "free_cash_flow": 12373000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -565000.0,
+      "total_assets": 1772292000.0,
+      "total_liabilities": 1577761000.0,
+      "total_equity": 194531000.0,
+      "cash": 432583000.0,
+      "total_debt": 755153000.0,
+      "current_assets": 1448967000.0,
+      "current_liabilities": 681532000.0,
+      "shares_outstanding": 398408260.0,
+      "net_wc": 767435000.0,
+      "wc_change": -765738000.0,
+      "capex_abs": 25700000.0,
+      "maint_capex": 17990000.0,
+      "owner_earnings": -1417214000.0,
+      "gross_margin_pct": 68.0777210622894,
+      "rev_growth_pct": 31.718214718318748
+    }
+  ],
+  "latest_oe": -1417214000.0,
+  "latest_cash": 432583000.0,
+  "latest_debt": 755153000.0,
+  "ev": 3881137424.0,
+  "oe_yield": -36.51542950363718,
+  "roe": -349.2440793498209,
+  "debt_equity": 3.881915992823766,
+  "latest_gm": 68.0777210622894,
+  "current_ratio": 2.1260439715229804,
+  "latest_net_income": -679388000.0,
+  "latest_dna": 45902000.0,
+  "latest_wc_change": -765738000.0,
+  "latest_maint_capex": 17990000.0,
+  "latest_net_wc": 767435000.0,
+  "latest_current_assets": 1448967000.0,
+  "latest_current_liabilities": 681532000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 68.1%)",
+    "OE growing avg 196.0% p.a."
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "Netskope, Inc. NTSK revenue predictability recurring demand analysis 2025 2026",
+      "Netskope, Inc. NTSK business model complexity investor circle of competence",
+      "Netskope, Inc. NTSK 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Netskope, Inc. NTSK competitive moat analysis switching costs brand advantage",
+      "Netskope, Inc. NTSK network effects scale advantages cost leadership",
+      "Netskope, Inc. NTSK patents regulatory barriers intellectual property moat",
+      "Netskope, Inc. NTSK competitive threats risks disruption challenges 2025 2026",
+      "Netskope, Inc. NTSK moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Netskope, Inc. NTSK CEO management candor shareholder letter transparency",
+      "Netskope, Inc. NTSK executive compensation insider ownership stock options proxy",
+      "Netskope, Inc. NTSK key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Netskope, Inc. NTSK stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Netskope, Inc. NTSK investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Netskope, Inc. NTSK market position monopoly commodity pricing power ecosystem",
+      "Netskope, Inc. NTSK growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Netskope, Inc. NTSK investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Netskope, Inc. NTSK investment risk permanent capital loss downside analysis",
+      "Netskope, Inc. NTSK opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

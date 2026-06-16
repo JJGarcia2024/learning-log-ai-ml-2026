@@ -1,0 +1,102 @@
+{
+  "ticker": "CHRN",
+  "company_name": "ChronoScale Corporation",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
+  "description": "ChronoScale Corporation designs and develops a compute platform to support artificial intelligence (AI) workloads. The company focuses on large-scale deployments and provides dedicated compute environments engineered for performance, consistency, and long-term operational execution. The company is based in Dallas, Texas. ChronoScale Corporation operates as a subsidiary of Applied Digital Corporation.",
+  "employees": "N/A",
+  "exchange": "NCM",
+  "website": "https://chronoscale.com",
+  "current_price": 19.15,
+  "market_cap": 2740238080.0,
+  "shares_out": 143093381.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2025",
+      "revenue": 84376000.0,
+      "gross_profit": -30924000.0,
+      "operating_income": -57624000.0,
+      "net_income": -72730000.0,
+      "dna": 80656000.0,
+      "operating_cf": -7222000.0,
+      "capex": -1376000.0,
+      "free_cash_flow": -8598000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 304200000.0,
+      "total_liabilities": 228048000.0,
+      "total_equity": 76152000.0,
+      "cash": 2398000.0,
+      "total_debt": 219920000.0,
+      "current_assets": 6409000.0,
+      "current_liabilities": 157628000.0,
+      "shares_outstanding": 143093381.0,
+      "net_wc": -151219000.0,
+      "wc_change": -0.0,
+      "capex_abs": 1376000.0,
+      "maint_capex": 963199.9999999999,
+      "owner_earnings": 6962800.0,
+      "gross_margin_pct": -36.65023229354319,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 6962800.0,
+  "latest_cash": 2398000.0,
+  "latest_debt": 219920000.0,
+  "ev": 2957760080.0,
+  "oe_yield": 0.2354078698634678,
+  "roe": -95.50635570963337,
+  "debt_equity": 2.887908393738838,
+  "latest_gm": -36.65023229354319,
+  "current_ratio": 0.04065901997107113,
+  "latest_net_income": -72730000.0,
+  "latest_dna": 80656000.0,
+  "latest_wc_change": -0.0,
+  "latest_maint_capex": 963199.9999999999,
+  "latest_net_wc": -151219000.0,
+  "latest_current_assets": 6409000.0,
+  "latest_current_liabilities": 157628000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "ChronoScale Corporation CHRN revenue predictability recurring demand analysis 2025 2026",
+      "ChronoScale Corporation CHRN business model complexity investor circle of competence",
+      "ChronoScale Corporation CHRN 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "ChronoScale Corporation CHRN competitive moat analysis switching costs brand advantage",
+      "ChronoScale Corporation CHRN network effects scale advantages cost leadership",
+      "ChronoScale Corporation CHRN patents regulatory barriers intellectual property moat",
+      "ChronoScale Corporation CHRN competitive threats risks disruption challenges 2025 2026",
+      "ChronoScale Corporation CHRN moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "ChronoScale Corporation CHRN CEO management candor shareholder letter transparency",
+      "ChronoScale Corporation CHRN executive compensation insider ownership stock options proxy",
+      "ChronoScale Corporation CHRN key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "ChronoScale Corporation CHRN stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "ChronoScale Corporation CHRN investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "ChronoScale Corporation CHRN market position monopoly commodity pricing power ecosystem",
+      "ChronoScale Corporation CHRN growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "ChronoScale Corporation CHRN investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "ChronoScale Corporation CHRN investment risk permanent capital loss downside analysis",
+      "ChronoScale Corporation CHRN opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

@@ -1,0 +1,132 @@
+{
+  "ticker": "BLUW",
+  "company_name": "Blue Water Acquisition Corp. III",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Blue Water Acquisition Corp. III does not have significant operations. The company focuses on effecting a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization, or other similar business combination with one or more businesses. It intends to target businesses in the artificial intelligence, biotechnology, healthcare, and technology sectors. Blue Water Acquisition Corp. III was incorporated in 2024 and is based in Mountainside, New Jersey.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://www.bluewater-acquisition.com",
+  "current_price": 10.31,
+  "market_cap": 333095488.0,
+  "shares_out": 25983000.0,
+  "pe_ratio": 35.551727,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -48541.0,
+      "net_income": -48541.0,
+      "dna": 0.0,
+      "operating_cf": 0.0,
+      "capex": 0.0,
+      "free_cash_flow": 0.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 25000.0,
+      "total_liabilities": 48541.0,
+      "total_equity": -23541.0,
+      "cash": 0.0,
+      "total_debt": 1505.0,
+      "current_assets": 0.0,
+      "current_liabilities": 48541.0,
+      "shares_outstanding": 28120000.0,
+      "net_wc": -48541.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -48541.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -1074259.0,
+      "net_income": 4667721.0,
+      "dna": 0.0,
+      "operating_cf": -938877.0,
+      "capex": 0.0,
+      "free_cash_flow": -938877.0,
+      "dividends_paid": -188273.0,
+      "buybacks": 0.0,
+      "total_assets": 258910967.0,
+      "total_liabilities": 9045149.0,
+      "total_equity": 249865818.0,
+      "cash": 0.0,
+      "total_debt": 0.0,
+      "current_assets": 81145.0,
+      "current_liabilities": 190149.0,
+      "shares_outstanding": 32308000.0,
+      "net_wc": -109004.0,
+      "wc_change": 60463.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 4728184.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 4728184.0,
+  "latest_cash": 0.0,
+  "latest_debt": 0.0,
+  "ev": 333095488.0,
+  "oe_yield": 1.4194680415484944,
+  "roe": 1.8680910567767217,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 0.42674429000415465,
+  "latest_net_income": 4667721.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": 60463.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": -109004.0,
+  "latest_current_assets": 81145.0,
+  "latest_current_liabilities": 190149.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Blue Water Acquisition Corp. III BLUW revenue predictability recurring demand analysis 2025 2026",
+      "Blue Water Acquisition Corp. III BLUW business model complexity investor circle of competence",
+      "Blue Water Acquisition Corp. III BLUW 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Blue Water Acquisition Corp. III BLUW competitive moat analysis switching costs brand advantage",
+      "Blue Water Acquisition Corp. III BLUW network effects scale advantages cost leadership",
+      "Blue Water Acquisition Corp. III BLUW patents regulatory barriers intellectual property moat",
+      "Blue Water Acquisition Corp. III BLUW competitive threats risks disruption challenges 2025 2026",
+      "Blue Water Acquisition Corp. III BLUW moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Blue Water Acquisition Corp. III BLUW CEO management candor shareholder letter transparency",
+      "Blue Water Acquisition Corp. III BLUW executive compensation insider ownership stock options proxy",
+      "Blue Water Acquisition Corp. III BLUW key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Blue Water Acquisition Corp. III BLUW stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Blue Water Acquisition Corp. III BLUW investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Blue Water Acquisition Corp. III BLUW market position monopoly commodity pricing power ecosystem",
+      "Blue Water Acquisition Corp. III BLUW growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Blue Water Acquisition Corp. III BLUW investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Blue Water Acquisition Corp. III BLUW investment risk permanent capital loss downside analysis",
+      "Blue Water Acquisition Corp. III BLUW opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

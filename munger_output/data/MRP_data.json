@@ -1,0 +1,162 @@
+{
+  "ticker": "MRP",
+  "company_name": "Millrose Properties, Inc.",
+  "sector": "Real Estate",
+  "industry": "REIT - Residential",
+  "description": "Millrose Properties, Inc. is the premier homesite option platform for residential homebuilders. The company specializes in the acquisition and horizontal development of land to provide a predictable, just-in-time supply of finished homesites  the scarcest and mission-critical resource in the homebuilding industry. Unlike traditional land bankers, Millrose utilizes a proprietary technology platform that provides real-time feedback and data analytics to drive acquisition decisions. Every transaction in the Millrose portfolio undergoes rigorous independent due diligence to ensure attractive yiel",
+  "employees": "N/A",
+  "exchange": "NYQ",
+  "website": "https://millroseproperties.com",
+  "current_price": 29.07,
+  "market_cap": 4827013120.0,
+  "shares_out": 154228116.0,
+  "pe_ratio": 10.456835,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -209792000.0,
+      "net_income": -209792000.0,
+      "dna": 0.0,
+      "operating_cf": -865120000.0,
+      "capex": 0.0,
+      "free_cash_flow": -865120000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 100.0,
+      "total_liabilities": 0.0,
+      "total_equity": 100.0,
+      "cash": 100.0,
+      "total_debt": 0.0,
+      "current_assets": 100.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 166000265.0,
+      "net_wc": 100.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -209792000.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -246221000.0,
+      "net_income": -246221000.0,
+      "dna": 0.0,
+      "operating_cf": -917194000.0,
+      "capex": 0.0,
+      "free_cash_flow": -917194000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 5465290000.0,
+      "total_liabilities": 306918000.0,
+      "total_equity": 5158372000.0,
+      "cash": 0.0,
+      "total_debt": 24188000.0,
+      "current_assets": 5465290000.0,
+      "current_liabilities": 282730000.0,
+      "shares_outstanding": 166000265.0,
+      "net_wc": 5182560000.0,
+      "wc_change": -5182559900.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -5428780900.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 600461000.0,
+      "gross_profit": 512710000.0,
+      "operating_income": 486068000.0,
+      "net_income": 379864000.0,
+      "dna": 0.0,
+      "operating_cf": 3672821000.0,
+      "capex": 0.0,
+      "free_cash_flow": 3672821000.0,
+      "dividends_paid": -298806000.0,
+      "buybacks": 0.0,
+      "total_assets": 9258107000.0,
+      "total_liabilities": 3401845000.0,
+      "total_equity": 5856262000.0,
+      "cash": 35046000.0,
+      "total_debt": 2112062000.0,
+      "current_assets": 364045000.0,
+      "current_liabilities": 185446000.0,
+      "shares_outstanding": 166003497.0,
+      "net_wc": 178599000.0,
+      "wc_change": 5003961000.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 5383825000.0,
+      "gross_margin_pct": 85.3860617092534,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 5383825000.0,
+  "latest_cash": 35046000.0,
+  "latest_debt": 2112062000.0,
+  "ev": 6904029120.0,
+  "oe_yield": 77.98091384643523,
+  "roe": 6.486458426894153,
+  "debt_equity": 0.36065018948947297,
+  "latest_gm": 85.3860617092534,
+  "current_ratio": 1.9630782006621874,
+  "latest_net_income": 379864000.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": 5003961000.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 178599000.0,
+  "latest_current_assets": 364045000.0,
+  "latest_current_liabilities": 185446000.0,
+  "mos_flag": "YES — yield is attractive vs. risk-free rate",
+  "lolla_signals": [
+    "Pricing power (GM 85.4%)",
+    "OE growing avg 1144.3% p.a.",
+    "Low leverage (0.36x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Real Estate)",
+  "search_queries": {
+    "section_1": [
+      "Millrose Properties, Inc. MRP revenue predictability recurring demand analysis 2025 2026",
+      "Millrose Properties, Inc. MRP business model complexity investor circle of competence",
+      "Millrose Properties, Inc. MRP 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Millrose Properties, Inc. MRP competitive moat analysis switching costs brand advantage",
+      "Millrose Properties, Inc. MRP network effects scale advantages cost leadership",
+      "Millrose Properties, Inc. MRP patents regulatory barriers intellectual property moat",
+      "Millrose Properties, Inc. MRP competitive threats risks disruption challenges 2025 2026",
+      "Millrose Properties, Inc. MRP moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Millrose Properties, Inc. MRP CEO management candor shareholder letter transparency",
+      "Millrose Properties, Inc. MRP executive compensation insider ownership stock options proxy",
+      "Millrose Properties, Inc. MRP key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Millrose Properties, Inc. MRP stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Millrose Properties, Inc. MRP investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Millrose Properties, Inc. MRP market position monopoly commodity pricing power ecosystem",
+      "Millrose Properties, Inc. MRP growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Millrose Properties, Inc. MRP investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Millrose Properties, Inc. MRP investment risk permanent capital loss downside analysis",
+      "Millrose Properties, Inc. MRP opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

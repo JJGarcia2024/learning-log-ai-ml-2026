@@ -1,0 +1,134 @@
+{
+  "ticker": "HAWK",
+  "company_name": "HawkEye 360, Inc.",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "description": "HawkEye 360, Inc. operates as a space-enabled defense technology company in the United States. The company offers a shareable, battlefield-proven RF intelligence platform and database for warfighters during varied cycles of geopolitical volatility. The company's solutions include customized SIGINT solutions including hardware, algorithms, and software capabilities; monitoring maritime activity in a customer's regional domain; tracking military radar and air defense systems; tracking extremist group communications, movement, and activity; maintaining border security and providing tactical ISR o",
+  "employees": "395",
+  "exchange": "NYQ",
+  "website": "https://www.he360.com",
+  "current_price": 25.12,
+  "market_cap": 2338280704.0,
+  "shares_out": 93084412.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 67559000.0,
+      "gross_profit": 47211000.0,
+      "operating_income": -34686000.0,
+      "net_income": -28997000.0,
+      "dna": 25185000.0,
+      "operating_cf": 11966000.0,
+      "capex": -35751000.0,
+      "free_cash_flow": -23785000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 261040000.0,
+      "total_liabilities": 375107000.0,
+      "total_equity": -114067000.0,
+      "cash": 67179000.0,
+      "total_debt": 9785000.0,
+      "current_assets": 126789000.0,
+      "current_liabilities": 23250000.0,
+      "shares_outstanding": 93084412.0,
+      "net_wc": 103539000.0,
+      "wc_change": -0.0,
+      "capex_abs": 35751000.0,
+      "maint_capex": 25025700.0,
+      "owner_earnings": -28837700.0,
+      "gross_margin_pct": 69.88114092866977,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 177416000.0,
+      "gross_profit": 93561000.0,
+      "operating_income": -19327000.0,
+      "net_income": -10179000.0,
+      "dna": 23568000.0,
+      "operating_cf": -17339000.0,
+      "capex": -11067000.0,
+      "free_cash_flow": -28406000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -2420000.0,
+      "total_assets": 826547000.0,
+      "total_liabilities": 90572000.0,
+      "total_equity": 735975000.0,
+      "cash": 431931000.0,
+      "total_debt": 16330000.0,
+      "current_assets": 505198000.0,
+      "current_liabilities": 38437000.0,
+      "shares_outstanding": 93084412.0,
+      "net_wc": 466761000.0,
+      "wc_change": -363222000.0,
+      "capex_abs": 11067000.0,
+      "maint_capex": 7746899.999999999,
+      "owner_earnings": -357579900.0,
+      "gross_margin_pct": 52.73537899625739,
+      "rev_growth_pct": 162.6089788185142
+    }
+  ],
+  "latest_oe": -357579900.0,
+  "latest_cash": 431931000.0,
+  "latest_debt": 16330000.0,
+  "ev": 1922679704.0,
+  "oe_yield": -18.597996289037646,
+  "roe": -1.383063283399572,
+  "debt_equity": 0.02218825367709501,
+  "latest_gm": 52.73537899625739,
+  "current_ratio": 13.14353357442048,
+  "latest_net_income": -10179000.0,
+  "latest_dna": 23568000.0,
+  "latest_wc_change": -363222000.0,
+  "latest_maint_capex": 7746899.999999999,
+  "latest_net_wc": 466761000.0,
+  "latest_current_assets": 505198000.0,
+  "latest_current_liabilities": 38437000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 52.7%)",
+    "OE growing avg 1140.0% p.a.",
+    "Low leverage (0.02x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Industrials)",
+  "search_queries": {
+    "section_1": [
+      "HawkEye 360, Inc. HAWK revenue predictability recurring demand analysis 2025 2026",
+      "HawkEye 360, Inc. HAWK business model complexity investor circle of competence",
+      "HawkEye 360, Inc. HAWK 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "HawkEye 360, Inc. HAWK competitive moat analysis switching costs brand advantage",
+      "HawkEye 360, Inc. HAWK network effects scale advantages cost leadership",
+      "HawkEye 360, Inc. HAWK patents regulatory barriers intellectual property moat",
+      "HawkEye 360, Inc. HAWK competitive threats risks disruption challenges 2025 2026",
+      "HawkEye 360, Inc. HAWK moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "HawkEye 360, Inc. HAWK CEO management candor shareholder letter transparency",
+      "HawkEye 360, Inc. HAWK executive compensation insider ownership stock options proxy",
+      "HawkEye 360, Inc. HAWK key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "HawkEye 360, Inc. HAWK stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "HawkEye 360, Inc. HAWK investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "HawkEye 360, Inc. HAWK market position monopoly commodity pricing power ecosystem",
+      "HawkEye 360, Inc. HAWK growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "HawkEye 360, Inc. HAWK investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "HawkEye 360, Inc. HAWK investment risk permanent capital loss downside analysis",
+      "HawkEye 360, Inc. HAWK opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

@@ -1,0 +1,161 @@
+{
+  "ticker": "WLTH",
+  "company_name": "Wealthfront Corporation",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "description": "Wealthfront Corporation is a privately owned investment manager. It primarily provides its services to individuals. It also caters to high net worth individuals, charitable organizations, and corporations. The firm invests in the public equity and fixed income funds. It also invests in mutual funds and exchange traded funds. It conducts in-house research to make its investments. Wealthfront Corporation was formerly known as Wealthfront Inc. and is based in Redwood City, California with an additional office in Palo Alto, California.",
+  "employees": "396",
+  "exchange": "NMS",
+  "website": "https://www.wealthfront.com",
+  "current_price": 8.8,
+  "market_cap": 1314378752.0,
+  "shares_out": 149361216.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 216714000.0,
+      "gross_profit": 193816000.0,
+      "operating_income": 81575000.0,
+      "net_income": 76966000.0,
+      "dna": 6037000.0,
+      "operating_cf": 72918000.0,
+      "capex": -5163000.0,
+      "free_cash_flow": 67755000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 231152000.0,
+      "total_liabilities": 412007000.0,
+      "total_equity": -180855000.0,
+      "cash": 86721000.0,
+      "total_debt": 87622000.0,
+      "current_assets": 200561000.0,
+      "current_liabilities": 139862000.0,
+      "shares_outstanding": 146268749.0,
+      "net_wc": 60699000.0,
+      "wc_change": -0.0,
+      "capex_abs": 5163000.0,
+      "maint_capex": 3614100.0,
+      "owner_earnings": 79388900.0,
+      "gross_margin_pct": 89.4340005721827,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 308859000.0,
+      "gross_profit": 277895000.0,
+      "operating_income": 121473000.0,
+      "net_income": 194447000.0,
+      "dna": 6236000.0,
+      "operating_cf": 123150000.0,
+      "capex": -5843000.0,
+      "free_cash_flow": 117307000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -37037000.0,
+      "total_assets": 435206000.0,
+      "total_liabilities": 419868000.0,
+      "total_equity": 15338000.0,
+      "cash": 142860000.0,
+      "total_debt": 13352000.0,
+      "current_assets": 346450000.0,
+      "current_liabilities": 173223000.0,
+      "shares_outstanding": 146268749.0,
+      "net_wc": 173227000.0,
+      "wc_change": -112528000.0,
+      "capex_abs": 5843000.0,
+      "maint_capex": 4090099.9999999995,
+      "owner_earnings": 84064900.0,
+      "gross_margin_pct": 89.97471338053934,
+      "rev_growth_pct": 42.51917273457184
+    },
+    {
+      "fiscal_year": "2026",
+      "revenue": 364993000.0,
+      "gross_profit": 326986000.0,
+      "operating_income": -111171000.0,
+      "net_income": -42066000.0,
+      "dna": 7397000.0,
+      "operating_cf": 152189000.0,
+      "capex": -1138000.0,
+      "free_cash_flow": 151051000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -459000.0,
+      "total_assets": 1415729000.0,
+      "total_liabilities": 801040000.0,
+      "total_equity": 614689000.0,
+      "cash": 440805000.0,
+      "total_debt": 10393000.0,
+      "current_assets": 1275784000.0,
+      "current_liabilities": 792755000.0,
+      "shares_outstanding": 150305463.0,
+      "net_wc": 483029000.0,
+      "wc_change": -309802000.0,
+      "capex_abs": 1138000.0,
+      "maint_capex": 796600.0,
+      "owner_earnings": -345267600.0,
+      "gross_margin_pct": 89.58692358483587,
+      "rev_growth_pct": 18.174636322723316
+    }
+  ],
+  "latest_oe": -345267600.0,
+  "latest_cash": 440805000.0,
+  "latest_debt": 10393000.0,
+  "ev": 883966752.0,
+  "oe_yield": -39.05888985290705,
+  "roe": -6.843460676862609,
+  "debt_equity": 0.016907737083305542,
+  "latest_gm": 89.58692358483587,
+  "current_ratio": 1.6093042617202036,
+  "latest_net_income": -42066000.0,
+  "latest_dna": 7397000.0,
+  "latest_wc_change": -309802000.0,
+  "latest_maint_capex": 796600.0,
+  "latest_net_wc": 483029000.0,
+  "latest_current_assets": 1275784000.0,
+  "latest_current_liabilities": 792755000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 89.6%)",
+    "Low leverage (0.02x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "Wealthfront Corporation WLTH revenue predictability recurring demand analysis 2025 2026",
+      "Wealthfront Corporation WLTH business model complexity investor circle of competence",
+      "Wealthfront Corporation WLTH 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Wealthfront Corporation WLTH competitive moat analysis switching costs brand advantage",
+      "Wealthfront Corporation WLTH network effects scale advantages cost leadership",
+      "Wealthfront Corporation WLTH patents regulatory barriers intellectual property moat",
+      "Wealthfront Corporation WLTH competitive threats risks disruption challenges 2025 2026",
+      "Wealthfront Corporation WLTH moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Wealthfront Corporation WLTH CEO management candor shareholder letter transparency",
+      "Wealthfront Corporation WLTH executive compensation insider ownership stock options proxy",
+      "Wealthfront Corporation WLTH key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Wealthfront Corporation WLTH stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Wealthfront Corporation WLTH investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Wealthfront Corporation WLTH market position monopoly commodity pricing power ecosystem",
+      "Wealthfront Corporation WLTH growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Wealthfront Corporation WLTH investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Wealthfront Corporation WLTH investment risk permanent capital loss downside analysis",
+      "Wealthfront Corporation WLTH opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

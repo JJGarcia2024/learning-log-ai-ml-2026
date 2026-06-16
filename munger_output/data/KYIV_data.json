@@ -1,0 +1,161 @@
+{
+  "ticker": "KYIV",
+  "company_name": "Kyivstar Group Ltd.",
+  "sector": "Communication Services",
+  "industry": "Telecom Services",
+  "description": "Kyivstar Group Ltd. provides a range of mobile communication and broadband services for individual and corporate customers in Ukraine. The company offers a range of connectivity and digital services, including mobile and fixed-line voice and data, ride-hailing, e-health, digital TV, a suite of self-service options, and enterprise solutions, such as Big Data, cloud, and cybersecurity under Kyivstar TV, Helsi, MyKyivstar, Kyivstar.Tech, and Uklon platforms. It also provides internet services such as corporate internet access, fixed-line telephone, data transmission and fixed-mobile convergence, ",
+  "employees": "5469",
+  "exchange": "NMS",
+  "website": "https://investors.kyivstar.ua",
+  "current_price": 13.75,
+  "market_cap": 3174374656.0,
+  "shares_out": 230863624.0,
+  "pe_ratio": 19.097221,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 915000000.0,
+      "gross_profit": 611000000.0,
+      "operating_income": 366000000.0,
+      "net_income": 281000000.0,
+      "dna": 177000000.0,
+      "operating_cf": 413000000.0,
+      "capex": -143000000.0,
+      "free_cash_flow": 270000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1983000000.0,
+      "total_liabilities": 1096000000.0,
+      "total_equity": 887000000.0,
+      "cash": 143000000.0,
+      "total_debt": 898000000.0,
+      "current_assets": 704000000.0,
+      "current_liabilities": 265000000.0,
+      "shares_outstanding": 230863523.0,
+      "net_wc": 439000000.0,
+      "wc_change": -0.0,
+      "capex_abs": 143000000.0,
+      "maint_capex": 100100000.0,
+      "owner_earnings": 357900000.0,
+      "gross_margin_pct": 66.77595628415301,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 919000000.0,
+      "gross_profit": 590000000.0,
+      "operating_income": 354000000.0,
+      "net_income": 283000000.0,
+      "dna": 166000000.0,
+      "operating_cf": 430000000.0,
+      "capex": -248000000.0,
+      "free_cash_flow": 182000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 2209000000.0,
+      "total_liabilities": 1129000000.0,
+      "total_equity": 1080000000.0,
+      "cash": 674000000.0,
+      "total_debt": 894000000.0,
+      "current_assets": 1208000000.0,
+      "current_liabilities": 887000000.0,
+      "shares_outstanding": 230863524.0,
+      "net_wc": 321000000.0,
+      "wc_change": 118000000.0,
+      "capex_abs": 248000000.0,
+      "maint_capex": 173600000.0,
+      "owner_earnings": 393400000.0,
+      "gross_margin_pct": 64.20021762785638,
+      "rev_growth_pct": 0.43715846994536456
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 1157000000.0,
+      "gross_profit": 745000000.0,
+      "operating_income": 446000000.0,
+      "net_income": 124000000.0,
+      "dna": 213000000.0,
+      "operating_cf": 558000000.0,
+      "capex": -333000000.0,
+      "free_cash_flow": 225000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 2122000000.0,
+      "total_liabilities": 823000000.0,
+      "total_equity": 1299000000.0,
+      "cash": 455000000.0,
+      "total_debt": 516000000.0,
+      "current_assets": 692000000.0,
+      "current_liabilities": 498000000.0,
+      "shares_outstanding": 230863624.0,
+      "net_wc": 194000000.0,
+      "wc_change": 127000000.0,
+      "capex_abs": 333000000.0,
+      "maint_capex": 233100000.0,
+      "owner_earnings": 230900000.0,
+      "gross_margin_pct": 64.39066551426103,
+      "rev_growth_pct": 25.897714907508163
+    }
+  ],
+  "latest_oe": 230900000.0,
+  "latest_cash": 455000000.0,
+  "latest_debt": 516000000.0,
+  "ev": 3235374656.0,
+  "oe_yield": 7.1367314314524934,
+  "roe": 9.545804464973056,
+  "debt_equity": 0.3972286374133949,
+  "latest_gm": 64.39066551426103,
+  "current_ratio": 1.3895582329317269,
+  "latest_net_income": 124000000.0,
+  "latest_dna": 213000000.0,
+  "latest_wc_change": 127000000.0,
+  "latest_maint_capex": 233100000.0,
+  "latest_net_wc": 194000000.0,
+  "latest_current_assets": 692000000.0,
+  "latest_current_liabilities": 498000000.0,
+  "mos_flag": "YES — yield is attractive vs. risk-free rate",
+  "lolla_signals": [
+    "Pricing power (GM 64.4%)",
+    "Low leverage (0.40x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Communication Services)",
+  "search_queries": {
+    "section_1": [
+      "Kyivstar Group Ltd. KYIV revenue predictability recurring demand analysis 2025 2026",
+      "Kyivstar Group Ltd. KYIV business model complexity investor circle of competence",
+      "Kyivstar Group Ltd. KYIV 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Kyivstar Group Ltd. KYIV competitive moat analysis switching costs brand advantage",
+      "Kyivstar Group Ltd. KYIV network effects scale advantages cost leadership",
+      "Kyivstar Group Ltd. KYIV patents regulatory barriers intellectual property moat",
+      "Kyivstar Group Ltd. KYIV competitive threats risks disruption challenges 2025 2026",
+      "Kyivstar Group Ltd. KYIV moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Kyivstar Group Ltd. KYIV CEO management candor shareholder letter transparency",
+      "Kyivstar Group Ltd. KYIV executive compensation insider ownership stock options proxy",
+      "Kyivstar Group Ltd. KYIV key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Kyivstar Group Ltd. KYIV stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Kyivstar Group Ltd. KYIV investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Kyivstar Group Ltd. KYIV market position monopoly commodity pricing power ecosystem",
+      "Kyivstar Group Ltd. KYIV growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Kyivstar Group Ltd. KYIV investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Kyivstar Group Ltd. KYIV investment risk permanent capital loss downside analysis",
+      "Kyivstar Group Ltd. KYIV opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

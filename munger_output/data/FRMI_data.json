@@ -1,0 +1,104 @@
+{
+  "ticker": "FRMI",
+  "company_name": "Fermi Inc.",
+  "sector": "Real Estate",
+  "industry": "REIT - Specialty",
+  "description": "Fermi Inc. engages in the development of private power campus for AI-centric customers in the United States. The company also develops, owns, and leases grid-independent energy generation and high-performance computing campuses; develops and operates integrated power generation and computing infrastructure. It also engages in acquisition of land, permitting, construction, and long-term leases. The company was founded and incorporated on January 10th, 2025 is headquartered in Amarillo, Texas, USA.",
+  "employees": "35",
+  "exchange": "NMS",
+  "website": "https://www.fermiamerica.com",
+  "current_price": 7.48,
+  "market_cap": 4772863488.0,
+  "shares_out": 638083359.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -177779000.0,
+      "net_income": -486379000.0,
+      "dna": 0.0,
+      "operating_cf": -34151000.0,
+      "capex": -569304000.0,
+      "free_cash_flow": -603455000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1413314000.0,
+      "total_liabilities": 317442000.0,
+      "total_equity": 1095872000.0,
+      "cash": 408529000.0,
+      "total_debt": 131119000.0,
+      "current_assets": 408529000.0,
+      "current_liabilities": 176572000.0,
+      "shares_outstanding": 629839790.0,
+      "net_wc": 231957000.0,
+      "wc_change": -0.0,
+      "capex_abs": 569304000.0,
+      "maint_capex": 398512800.0,
+      "owner_earnings": -884891800.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -884891800.0,
+  "latest_cash": 408529000.0,
+  "latest_debt": 131119000.0,
+  "ev": 4495453488.0,
+  "oe_yield": -19.684149827422264,
+  "roe": -44.38282938153361,
+  "debt_equity": 0.11964809758803947,
+  "latest_gm": null,
+  "current_ratio": 2.3136680787440818,
+  "latest_net_income": -486379000.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -0.0,
+  "latest_maint_capex": 398512800.0,
+  "latest_net_wc": 231957000.0,
+  "latest_current_assets": 408529000.0,
+  "latest_current_liabilities": 176572000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.12x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Real Estate)",
+  "search_queries": {
+    "section_1": [
+      "Fermi Inc. FRMI revenue predictability recurring demand analysis 2025 2026",
+      "Fermi Inc. FRMI business model complexity investor circle of competence",
+      "Fermi Inc. FRMI 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Fermi Inc. FRMI competitive moat analysis switching costs brand advantage",
+      "Fermi Inc. FRMI network effects scale advantages cost leadership",
+      "Fermi Inc. FRMI patents regulatory barriers intellectual property moat",
+      "Fermi Inc. FRMI competitive threats risks disruption challenges 2025 2026",
+      "Fermi Inc. FRMI moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Fermi Inc. FRMI CEO management candor shareholder letter transparency",
+      "Fermi Inc. FRMI executive compensation insider ownership stock options proxy",
+      "Fermi Inc. FRMI key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Fermi Inc. FRMI stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Fermi Inc. FRMI investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Fermi Inc. FRMI market position monopoly commodity pricing power ecosystem",
+      "Fermi Inc. FRMI growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Fermi Inc. FRMI investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Fermi Inc. FRMI investment risk permanent capital loss downside analysis",
+      "Fermi Inc. FRMI opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

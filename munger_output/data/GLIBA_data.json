@@ -1,0 +1,160 @@
+{
+  "ticker": "GLIBA",
+  "company_name": "Liberty Capital Corporation",
+  "sector": "Communication Services",
+  "industry": "Telecom Services",
+  "description": "Liberty Capital Corporation, through its subsidiaries, provides a range of data, wireless, video, voice, and managed services in Alaska. The company also offers wireless and wireline telecommunication services; and owns and operates a statewide wireless network. It serves residential customers, businesses, governmental entities, and educational and medical institutions under the GCI brand name. The company was formerly known as GCI Liberty, Inc. and changed its name to Liberty Capital Corporation in May 2026. The company was founded in 1979 and is based in Englewood, Colorado.",
+  "employees": "1880",
+  "exchange": "NMS",
+  "website": "https://www.libertycapitalcorp.com",
+  "current_price": 21.44,
+  "market_cap": 855563072.0,
+  "shares_out": 3650938.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 904000000.0,
+      "gross_profit": 632000000.0,
+      "operating_income": 112000000.0,
+      "net_income": 41000000.0,
+      "dna": 230000000.0,
+      "operating_cf": 276000000.0,
+      "capex": -222000000.0,
+      "free_cash_flow": 54000000.0,
+      "dividends_paid": -65000000.0,
+      "buybacks": 0.0,
+      "total_assets": 3331000000.0,
+      "total_liabilities": 1828000000.0,
+      "total_equity": 1483000000.0,
+      "cash": 79000000.0,
+      "total_debt": 1104000000.0,
+      "current_assets": 314000000.0,
+      "current_liabilities": 170000000.0,
+      "shares_outstanding": 30560578.0,
+      "net_wc": 144000000.0,
+      "wc_change": -0.0,
+      "capex_abs": 222000000.0,
+      "maint_capex": 155400000.0,
+      "owner_earnings": 115600000.0,
+      "gross_margin_pct": 69.91150442477876,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 940000000.0,
+      "gross_profit": 661000000.0,
+      "operating_income": 140000000.0,
+      "net_income": 70000000.0,
+      "dna": 259000000.0,
+      "operating_cf": 278000000.0,
+      "capex": -247000000.0,
+      "free_cash_flow": 31000000.0,
+      "dividends_paid": -150000000.0,
+      "buybacks": 0.0,
+      "total_assets": 3382000000.0,
+      "total_liabilities": 1953000000.0,
+      "total_equity": 1414000000.0,
+      "cash": 74000000.0,
+      "total_debt": 1141000000.0,
+      "current_assets": 319000000.0,
+      "current_liabilities": 192000000.0,
+      "shares_outstanding": 30560578.0,
+      "net_wc": 127000000.0,
+      "wc_change": 17000000.0,
+      "capex_abs": 247000000.0,
+      "maint_capex": 172900000.0,
+      "owner_earnings": 173100000.0,
+      "gross_margin_pct": 70.31914893617022,
+      "rev_growth_pct": 3.9823008849557473
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 952000000.0,
+      "gross_profit": 699000000.0,
+      "operating_income": 178000000.0,
+      "net_income": -309000000.0,
+      "dna": 262000000.0,
+      "operating_cf": 370000000.0,
+      "capex": -248000000.0,
+      "free_cash_flow": 122000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 3234000000.0,
+      "total_liabilities": 1528000000.0,
+      "total_equity": 1688000000.0,
+      "cash": 416000000.0,
+      "total_debt": 1052000000.0,
+      "current_assets": 615000000.0,
+      "current_liabilities": 196000000.0,
+      "shares_outstanding": 39803594.0,
+      "net_wc": 419000000.0,
+      "wc_change": -292000000.0,
+      "capex_abs": 248000000.0,
+      "maint_capex": 173600000.0,
+      "owner_earnings": -512600000.0,
+      "gross_margin_pct": 73.42436974789915,
+      "rev_growth_pct": 1.2765957446808418
+    }
+  ],
+  "latest_oe": -512600000.0,
+  "latest_cash": 416000000.0,
+  "latest_debt": 1052000000.0,
+  "ev": 1491563072.0,
+  "oe_yield": -34.36663253620696,
+  "roe": -18.305687203791468,
+  "debt_equity": 0.6232227488151659,
+  "latest_gm": 73.42436974789915,
+  "current_ratio": 3.1377551020408165,
+  "latest_net_income": -309000000.0,
+  "latest_dna": 262000000.0,
+  "latest_wc_change": -292000000.0,
+  "latest_maint_capex": 173600000.0,
+  "latest_net_wc": 419000000.0,
+  "latest_current_assets": 615000000.0,
+  "latest_current_liabilities": 196000000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 73.4%)"
+  ],
+  "s1a": "YES — business model is understandable (Communication Services)",
+  "search_queries": {
+    "section_1": [
+      "Liberty Capital Corporation GLIBA revenue predictability recurring demand analysis 2025 2026",
+      "Liberty Capital Corporation GLIBA business model complexity investor circle of competence",
+      "Liberty Capital Corporation GLIBA 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Liberty Capital Corporation GLIBA competitive moat analysis switching costs brand advantage",
+      "Liberty Capital Corporation GLIBA network effects scale advantages cost leadership",
+      "Liberty Capital Corporation GLIBA patents regulatory barriers intellectual property moat",
+      "Liberty Capital Corporation GLIBA competitive threats risks disruption challenges 2025 2026",
+      "Liberty Capital Corporation GLIBA moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Liberty Capital Corporation GLIBA CEO management candor shareholder letter transparency",
+      "Liberty Capital Corporation GLIBA executive compensation insider ownership stock options proxy",
+      "Liberty Capital Corporation GLIBA key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Liberty Capital Corporation GLIBA stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Liberty Capital Corporation GLIBA investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Liberty Capital Corporation GLIBA market position monopoly commodity pricing power ecosystem",
+      "Liberty Capital Corporation GLIBA growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Liberty Capital Corporation GLIBA investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Liberty Capital Corporation GLIBA investment risk permanent capital loss downside analysis",
+      "Liberty Capital Corporation GLIBA opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

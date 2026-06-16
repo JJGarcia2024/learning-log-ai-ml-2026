@@ -1,0 +1,160 @@
+{
+  "ticker": "CDNL",
+  "company_name": "Cardinal Infrastructure Group Inc.",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
+  "description": "Cardinal Infrastructure Group Inc., a civil contracting company, provides site development and infrastructure services to the residential, commercial, industrial, municipal, and state infrastructure markets in the southeastern United States. It offers wet utility installations, such as water, sewer, and stormwater systems, as well as grading, site clearing, erosion control, drilling and blasting, paving, and other related site services. The company was formerly known as Civil Infrastructure Group Inc. and changed its name to Cardinal Infrastructure Group Inc. in September 2025. The company was",
+  "employees": "1480",
+  "exchange": "NMS",
+  "website": "https://cardinalinfrastructuregroup.com",
+  "current_price": 71.415,
+  "market_cap": 1092148480.0,
+  "shares_out": 15292984.0,
+  "pe_ratio": 51.010715,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": 0.0,
+      "net_income": 0.0,
+      "dna": 13184441.0,
+      "operating_cf": 0.0,
+      "capex": 0.0,
+      "free_cash_flow": 0.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 0.0,
+      "total_liabilities": 0.0,
+      "total_equity": 0.0,
+      "cash": 0.0,
+      "total_debt": 0.0,
+      "current_assets": 0.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 13218750.0,
+      "net_wc": 0.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 13184441.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": 35947900.0,
+      "net_income": 21357346.0,
+      "dna": 18749586.0,
+      "operating_cf": 0.0,
+      "capex": 0.0,
+      "free_cash_flow": 0.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 0.0,
+      "total_liabilities": 0.0,
+      "total_equity": 0.0,
+      "cash": 0.0,
+      "total_debt": 0.0,
+      "current_assets": 0.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 13218750.0,
+      "net_wc": 0.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 40106932.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 456045369.0,
+      "gross_profit": 96147790.0,
+      "operating_income": 40247006.0,
+      "net_income": 22686057.0,
+      "dna": 32374761.0,
+      "operating_cf": 37900887.0,
+      "capex": -43815228.0,
+      "free_cash_flow": -5914341.0,
+      "dividends_paid": -23430129.0,
+      "buybacks": 0.0,
+      "total_assets": 394587355.0,
+      "total_liabilities": 255049532.0,
+      "total_equity": 58461241.0,
+      "cash": 97149425.0,
+      "total_debt": 137271408.0,
+      "current_assets": 215651152.0,
+      "current_liabilities": 91647314.0,
+      "shares_outstanding": 14947318.0,
+      "net_wc": 124003838.0,
+      "wc_change": -124003838.0,
+      "capex_abs": 43815228.0,
+      "maint_capex": 30670659.599999998,
+      "owner_earnings": -99613679.6,
+      "gross_margin_pct": 21.08294405243703,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -99613679.6,
+  "latest_cash": 97149425.0,
+  "latest_debt": 137271408.0,
+  "ev": 1132270463.0,
+  "oe_yield": -8.79769302963792,
+  "roe": 38.80529494746784,
+  "debt_equity": 2.3480755052736564,
+  "latest_gm": 21.08294405243703,
+  "current_ratio": 2.3530547987472934,
+  "latest_net_income": 22686057.0,
+  "latest_dna": 32374761.0,
+  "latest_wc_change": -124003838.0,
+  "latest_maint_capex": 30670659.599999998,
+  "latest_net_wc": 124003838.0,
+  "latest_current_assets": 215651152.0,
+  "latest_current_liabilities": 91647314.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "High ROE 38.8%"
+  ],
+  "s1a": "YES — business model is understandable (Industrials)",
+  "search_queries": {
+    "section_1": [
+      "Cardinal Infrastructure Group Inc. CDNL revenue predictability recurring demand analysis 2025 2026",
+      "Cardinal Infrastructure Group Inc. CDNL business model complexity investor circle of competence",
+      "Cardinal Infrastructure Group Inc. CDNL 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Cardinal Infrastructure Group Inc. CDNL competitive moat analysis switching costs brand advantage",
+      "Cardinal Infrastructure Group Inc. CDNL network effects scale advantages cost leadership",
+      "Cardinal Infrastructure Group Inc. CDNL patents regulatory barriers intellectual property moat",
+      "Cardinal Infrastructure Group Inc. CDNL competitive threats risks disruption challenges 2025 2026",
+      "Cardinal Infrastructure Group Inc. CDNL moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Cardinal Infrastructure Group Inc. CDNL CEO management candor shareholder letter transparency",
+      "Cardinal Infrastructure Group Inc. CDNL executive compensation insider ownership stock options proxy",
+      "Cardinal Infrastructure Group Inc. CDNL key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Cardinal Infrastructure Group Inc. CDNL stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Cardinal Infrastructure Group Inc. CDNL investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Cardinal Infrastructure Group Inc. CDNL market position monopoly commodity pricing power ecosystem",
+      "Cardinal Infrastructure Group Inc. CDNL growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Cardinal Infrastructure Group Inc. CDNL investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Cardinal Infrastructure Group Inc. CDNL investment risk permanent capital loss downside analysis",
+      "Cardinal Infrastructure Group Inc. CDNL opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

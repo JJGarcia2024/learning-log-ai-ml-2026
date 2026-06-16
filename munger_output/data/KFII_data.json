@@ -1,0 +1,132 @@
+{
+  "ticker": "KFII",
+  "company_name": "K&F Growth Acquisition Corp. II",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "K&F Growth Acquisition Corp. II does not have significant operations. It focuses on effecting a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. The company was incorporated in 2024 and is based in Manhattan Beach, California.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "N/A",
+  "current_price": 10.54,
+  "market_cap": 413758880.0,
+  "shares_out": 29672727.0,
+  "pe_ratio": 37.642857,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 204624.0,
+      "total_liabilities": 242837.0,
+      "total_equity": -38213.0,
+      "cash": 0.0,
+      "total_debt": 217521.0,
+      "current_assets": 4684.0,
+      "current_liabilities": 242837.0,
+      "shares_outstanding": 34162310.0,
+      "net_wc": -238153.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -742263.0,
+      "net_income": 10196396.0,
+      "dna": 0.0,
+      "operating_cf": -849099.0,
+      "capex": 0.0,
+      "free_cash_flow": -849099.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 300603350.0,
+      "total_liabilities": 10145764.0,
+      "total_equity": 290457586.0,
+      "cash": 577446.0,
+      "total_debt": 0.0,
+      "current_assets": 727191.0,
+      "current_liabilities": 83264.0,
+      "shares_outstanding": 39256060.0,
+      "net_wc": 643927.0,
+      "wc_change": -882080.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 9314316.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 9314316.0,
+  "latest_cash": 577446.0,
+  "latest_debt": 0.0,
+  "ev": 413181434.0,
+  "oe_yield": 2.2542919970600614,
+  "roe": 3.5104595271269656,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 8.733558320522675,
+  "latest_net_income": 10196396.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -882080.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 643927.0,
+  "latest_current_assets": 727191.0,
+  "latest_current_liabilities": 83264.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "K&F Growth Acquisition Corp. II KFII revenue predictability recurring demand analysis 2025 2026",
+      "K&F Growth Acquisition Corp. II KFII business model complexity investor circle of competence",
+      "K&F Growth Acquisition Corp. II KFII 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "K&F Growth Acquisition Corp. II KFII competitive moat analysis switching costs brand advantage",
+      "K&F Growth Acquisition Corp. II KFII network effects scale advantages cost leadership",
+      "K&F Growth Acquisition Corp. II KFII patents regulatory barriers intellectual property moat",
+      "K&F Growth Acquisition Corp. II KFII competitive threats risks disruption challenges 2025 2026",
+      "K&F Growth Acquisition Corp. II KFII moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "K&F Growth Acquisition Corp. II KFII CEO management candor shareholder letter transparency",
+      "K&F Growth Acquisition Corp. II KFII executive compensation insider ownership stock options proxy",
+      "K&F Growth Acquisition Corp. II KFII key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "K&F Growth Acquisition Corp. II KFII stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "K&F Growth Acquisition Corp. II KFII investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "K&F Growth Acquisition Corp. II KFII market position monopoly commodity pricing power ecosystem",
+      "K&F Growth Acquisition Corp. II KFII growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "K&F Growth Acquisition Corp. II KFII investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "K&F Growth Acquisition Corp. II KFII investment risk permanent capital loss downside analysis",
+      "K&F Growth Acquisition Corp. II KFII opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

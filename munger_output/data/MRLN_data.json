@@ -1,0 +1,133 @@
+{
+  "ticker": "MRLN",
+  "company_name": "Merlin, Inc.",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "description": "Merlin, Inc., an aerospace and defense technology company, develops AI-powered autonomous flight software and systems for aircraft in the United States and New Zealand. The company provides an aircraft-agnostic, AI-powered software platform that enables autonomous flight for both legacy and next-generation airborne systems. Its main product, the Merlin Pilot, is an integrated hardware and software solution that manages navigation, communication with air traffic control, obstacle avoidance, and real-time decision-making using sensor technologies and natural language processing. The company supp",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://www.merlinlabs.com",
+  "current_price": 6.99,
+  "market_cap": 674703104.0,
+  "shares_out": 96524052.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 1003000.0,
+      "gross_profit": 268000.0,
+      "operating_income": -38436000.0,
+      "net_income": -36463000.0,
+      "dna": 1797000.0,
+      "operating_cf": -31696000.0,
+      "capex": -4844000.0,
+      "free_cash_flow": -36540000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -1510000.0,
+      "total_assets": 62415000.0,
+      "total_liabilities": 140489000.0,
+      "total_equity": -78074000.0,
+      "cash": 50485000.0,
+      "total_debt": 3812000.0,
+      "current_assets": 52653000.0,
+      "current_liabilities": 4768000.0,
+      "shares_outstanding": 82691551.0,
+      "net_wc": 47885000.0,
+      "wc_change": -0.0,
+      "capex_abs": 4844000.0,
+      "maint_capex": 3390800.0,
+      "owner_earnings": -38056800.0,
+      "gross_margin_pct": 26.719840478564304,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 1229000.0,
+      "gross_profit": -7271000.0,
+      "operating_income": -54025000.0,
+      "net_income": -55253000.0,
+      "dna": 2041000.0,
+      "operating_cf": -45537000.0,
+      "capex": -1904000.0,
+      "free_cash_flow": -47441000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 49194000.0,
+      "total_liabilities": 180716000.0,
+      "total_equity": -131522000.0,
+      "cash": 37195000.0,
+      "total_debt": 37259000.0,
+      "current_assets": 39148000.0,
+      "current_liabilities": 24188000.0,
+      "shares_outstanding": 82691551.0,
+      "net_wc": 14960000.0,
+      "wc_change": 32925000.0,
+      "capex_abs": 1904000.0,
+      "maint_capex": 1332800.0,
+      "owner_earnings": -21619800.0,
+      "gross_margin_pct": -591.6192026037429,
+      "rev_growth_pct": 22.532402791625117
+    }
+  ],
+  "latest_oe": -21619800.0,
+  "latest_cash": 37195000.0,
+  "latest_debt": 37259000.0,
+  "ev": 674767104.0,
+  "oe_yield": -3.2040388264096524,
+  "roe": 42.010462128009,
+  "debt_equity": -0.2832910083484132,
+  "latest_gm": -591.6192026037429,
+  "current_ratio": 1.618488506697536,
+  "latest_net_income": -55253000.0,
+  "latest_dna": 2041000.0,
+  "latest_wc_change": 32925000.0,
+  "latest_maint_capex": 1332800.0,
+  "latest_net_wc": 14960000.0,
+  "latest_current_assets": 39148000.0,
+  "latest_current_liabilities": 24188000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "High ROE 42.0%",
+    "Low leverage (-0.28x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Industrials)",
+  "search_queries": {
+    "section_1": [
+      "Merlin, Inc. MRLN revenue predictability recurring demand analysis 2025 2026",
+      "Merlin, Inc. MRLN business model complexity investor circle of competence",
+      "Merlin, Inc. MRLN 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Merlin, Inc. MRLN competitive moat analysis switching costs brand advantage",
+      "Merlin, Inc. MRLN network effects scale advantages cost leadership",
+      "Merlin, Inc. MRLN patents regulatory barriers intellectual property moat",
+      "Merlin, Inc. MRLN competitive threats risks disruption challenges 2025 2026",
+      "Merlin, Inc. MRLN moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Merlin, Inc. MRLN CEO management candor shareholder letter transparency",
+      "Merlin, Inc. MRLN executive compensation insider ownership stock options proxy",
+      "Merlin, Inc. MRLN key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Merlin, Inc. MRLN stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Merlin, Inc. MRLN investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Merlin, Inc. MRLN market position monopoly commodity pricing power ecosystem",
+      "Merlin, Inc. MRLN growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Merlin, Inc. MRLN investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Merlin, Inc. MRLN investment risk permanent capital loss downside analysis",
+      "Merlin, Inc. MRLN opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

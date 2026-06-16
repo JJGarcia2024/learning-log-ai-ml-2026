@@ -1,0 +1,161 @@
+{
+  "ticker": "SOBO",
+  "company_name": "South Bow Corporation",
+  "sector": "Energy",
+  "industry": "Oil & Gas Midstream",
+  "description": "South Bow Corporation operates as an energy infrastructure company. It operates through three segments: Keystone Pipeline System, Marketing, and Intra-Alberta & Other. The Keystone Pipeline System segment consists of the company's main liquids pipeline network, which transports crude oil from Hardisty, Alberta, to key U.S. markets including Wood River, Patoka, Illinois, Cushing, Oklahoma, and the Gulf Coast. The Marketing segment provides crude oil marketing services, including transportation, storage, and logistics, and engages in physical crude oil trading and hedging activities. The Intra-A",
+  "employees": "N/A",
+  "exchange": "NYQ",
+  "website": "https://www.southbow.com",
+  "current_price": 37.63,
+  "market_cap": 7849039872.0,
+  "shares_out": 208584627.0,
+  "pe_ratio": 18.909548,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 2005000000.0,
+      "gross_profit": 1410000000.0,
+      "operating_income": 700000000.0,
+      "net_income": 442000000.0,
+      "dna": 244000000.0,
+      "operating_cf": 779000000.0,
+      "capex": -37000000.0,
+      "free_cash_flow": 742000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 12032000000.0,
+      "total_liabilities": 9192000000.0,
+      "total_equity": 2840000000.0,
+      "cash": 262000000.0,
+      "total_debt": 5967000000.0,
+      "current_assets": 2614000000.0,
+      "current_liabilities": 2075000000.0,
+      "shares_outstanding": 207570409.0,
+      "net_wc": 539000000.0,
+      "wc_change": -0.0,
+      "capex_abs": 37000000.0,
+      "maint_capex": 25900000.0,
+      "owner_earnings": 660100000.0,
+      "gross_margin_pct": 70.32418952618454,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 2120000000.0,
+      "gross_profit": 1498000000.0,
+      "operating_income": 745000000.0,
+      "net_income": 316000000.0,
+      "dna": 246000000.0,
+      "operating_cf": 529000000.0,
+      "capex": -122000000.0,
+      "free_cash_flow": 407000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 11329000000.0,
+      "total_liabilities": 8719000000.0,
+      "total_equity": 2610000000.0,
+      "cash": 397000000.0,
+      "total_debt": 5738000000.0,
+      "current_assets": 2198000000.0,
+      "current_liabilities": 1761000000.0,
+      "shares_outstanding": 208041109.0,
+      "net_wc": 437000000.0,
+      "wc_change": 102000000.0,
+      "capex_abs": 122000000.0,
+      "maint_capex": 85400000.0,
+      "owner_earnings": 578600000.0,
+      "gross_margin_pct": 70.66037735849056,
+      "rev_growth_pct": 5.735660847880308
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 1986000000.0,
+      "gross_profit": 1426000000.0,
+      "operating_income": 715000000.0,
+      "net_income": 433000000.0,
+      "dna": 247000000.0,
+      "operating_cf": 717000000.0,
+      "capex": -178000000.0,
+      "free_cash_flow": 539000000.0,
+      "dividends_paid": -416000000.0,
+      "buybacks": 0.0,
+      "total_assets": 11193000000.0,
+      "total_liabilities": 8484000000.0,
+      "total_equity": 2709000000.0,
+      "cash": 549000000.0,
+      "total_debt": 5791000000.0,
+      "current_assets": 2015000000.0,
+      "current_liabilities": 1341000000.0,
+      "shares_outstanding": 208250512.0,
+      "net_wc": 674000000.0,
+      "wc_change": -237000000.0,
+      "capex_abs": 178000000.0,
+      "maint_capex": 124599999.99999999,
+      "owner_earnings": 318400000.0,
+      "gross_margin_pct": 71.80261832829808,
+      "rev_growth_pct": -6.320754716981137
+    }
+  ],
+  "latest_oe": 318400000.0,
+  "latest_cash": 549000000.0,
+  "latest_debt": 5791000000.0,
+  "ev": 13091039872.0,
+  "oe_yield": 2.432197924024473,
+  "roe": 15.983757844222959,
+  "debt_equity": 2.137689184200812,
+  "latest_gm": 71.80261832829808,
+  "current_ratio": 1.5026099925428784,
+  "latest_net_income": 433000000.0,
+  "latest_dna": 247000000.0,
+  "latest_wc_change": -237000000.0,
+  "latest_maint_capex": 124599999.99999999,
+  "latest_net_wc": 674000000.0,
+  "latest_current_assets": 2015000000.0,
+  "latest_current_liabilities": 1341000000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 71.8%)",
+    "High ROE 16.0%"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Energy",
+  "search_queries": {
+    "section_1": [
+      "South Bow Corporation SOBO revenue predictability recurring demand analysis 2025 2026",
+      "South Bow Corporation SOBO business model complexity investor circle of competence",
+      "South Bow Corporation SOBO 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "South Bow Corporation SOBO competitive moat analysis switching costs brand advantage",
+      "South Bow Corporation SOBO network effects scale advantages cost leadership",
+      "South Bow Corporation SOBO patents regulatory barriers intellectual property moat",
+      "South Bow Corporation SOBO competitive threats risks disruption challenges 2025 2026",
+      "South Bow Corporation SOBO moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "South Bow Corporation SOBO CEO management candor shareholder letter transparency",
+      "South Bow Corporation SOBO executive compensation insider ownership stock options proxy",
+      "South Bow Corporation SOBO key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "South Bow Corporation SOBO stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "South Bow Corporation SOBO investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "South Bow Corporation SOBO market position monopoly commodity pricing power ecosystem",
+      "South Bow Corporation SOBO growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "South Bow Corporation SOBO investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "South Bow Corporation SOBO investment risk permanent capital loss downside analysis",
+      "South Bow Corporation SOBO opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

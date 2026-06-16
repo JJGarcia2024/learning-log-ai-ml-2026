@@ -1,0 +1,161 @@
+{
+  "ticker": "CCIX",
+  "company_name": "Churchill Capital Corp IX",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Churchill Capital Corp IX does not have significant operations. It focuses on effecting a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. Churchill Capital Corp IX was incorporated in 2023 and is based in New York, New York.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://churchillcapital9.com",
+  "current_price": 10.81,
+  "market_cap": 396321632.0,
+  "shares_out": 29475000.0,
+  "pe_ratio": 54.050003,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 65353.0,
+      "total_liabilities": 59311.0,
+      "total_equity": 6042.0,
+      "cash": 0.0,
+      "total_debt": 37500.0,
+      "current_assets": 0.0,
+      "current_liabilities": 59311.0,
+      "shares_outstanding": 31900000.0,
+      "net_wc": -59311.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -830773.0,
+      "net_income": 8791874.0,
+      "dna": 0.0,
+      "operating_cf": -1319931.0,
+      "capex": 0.0,
+      "free_cash_flow": -1319931.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 299124430.0,
+      "total_liabilities": 10137500.0,
+      "total_equity": 288986930.0,
+      "cash": 2412564.0,
+      "total_debt": 0.0,
+      "current_assets": 2849738.0,
+      "current_liabilities": 75000.0,
+      "shares_outstanding": 36662500.0,
+      "net_wc": 2774738.0,
+      "wc_change": -2834049.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 5957825.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -3938049.0,
+      "net_income": 8556703.0,
+      "dna": 0.0,
+      "operating_cf": -3410095.0,
+      "capex": 0.0,
+      "free_cash_flow": -3410095.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 307779102.0,
+      "total_liabilities": 10235469.0,
+      "total_equity": 297543633.0,
+      "cash": 2469.0,
+      "total_debt": 0.0,
+      "current_assets": 161703.0,
+      "current_liabilities": 172969.0,
+      "shares_outstanding": 36662500.0,
+      "net_wc": -11266.0,
+      "wc_change": 2786004.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 11342707.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 11342707.0,
+  "latest_cash": 2469.0,
+  "latest_debt": 0.0,
+  "ev": 396319163.0,
+  "oe_yield": 2.8620132607617563,
+  "roe": 2.8757809110974994,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 0.934866941475062,
+  "latest_net_income": 8556703.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": 2786004.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": -11266.0,
+  "latest_current_assets": 161703.0,
+  "latest_current_liabilities": 172969.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 90.4% p.a.",
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Churchill Capital Corp IX CCIX revenue predictability recurring demand analysis 2025 2026",
+      "Churchill Capital Corp IX CCIX business model complexity investor circle of competence",
+      "Churchill Capital Corp IX CCIX 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Churchill Capital Corp IX CCIX competitive moat analysis switching costs brand advantage",
+      "Churchill Capital Corp IX CCIX network effects scale advantages cost leadership",
+      "Churchill Capital Corp IX CCIX patents regulatory barriers intellectual property moat",
+      "Churchill Capital Corp IX CCIX competitive threats risks disruption challenges 2025 2026",
+      "Churchill Capital Corp IX CCIX moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Churchill Capital Corp IX CCIX CEO management candor shareholder letter transparency",
+      "Churchill Capital Corp IX CCIX executive compensation insider ownership stock options proxy",
+      "Churchill Capital Corp IX CCIX key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Churchill Capital Corp IX CCIX stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Churchill Capital Corp IX CCIX investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Churchill Capital Corp IX CCIX market position monopoly commodity pricing power ecosystem",
+      "Churchill Capital Corp IX CCIX growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Churchill Capital Corp IX CCIX investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Churchill Capital Corp IX CCIX investment risk permanent capital loss downside analysis",
+      "Churchill Capital Corp IX CCIX opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

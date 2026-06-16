@@ -1,0 +1,133 @@
+{
+  "ticker": "SPTX",
+  "company_name": "Seaport Therapeutics, Inc.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "description": "Seaport Therapeutics, Inc. operates as a clinical-stage biopharmaceutical company advancing the development of novel neuropsychiatric medicines. The company develops therapeutic candidates for conditions such as depression and anxiety disorders using its proprietary Glyph technology platform. The Glyph platform is designed to enable oral bioavailability, bypass first-pass metabolism, and reduce liver enzyme elevations or hepatotoxicity and other side effects. All therapeutic candidates in development are based on this platform, with research and development activities focused on neuropsychiatr",
+  "employees": "58",
+  "exchange": "NMS",
+  "website": "https://www.seaporttx.com",
+  "current_price": 17.44,
+  "market_cap": 933572864.0,
+  "shares_out": 53530550.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -52416000.0,
+      "net_income": -46879000.0,
+      "dna": 214000.0,
+      "operating_cf": -29629000.0,
+      "capex": -113000.0,
+      "free_cash_flow": -29742000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 315777000.0,
+      "total_liabilities": 340626000.0,
+      "total_equity": -24849000.0,
+      "cash": 309099000.0,
+      "total_debt": 5006000.0,
+      "current_assets": 310152000.0,
+      "current_liabilities": 11149000.0,
+      "shares_outstanding": 53027817.0,
+      "net_wc": 299003000.0,
+      "wc_change": -0.0,
+      "capex_abs": 113000.0,
+      "maint_capex": 79100.0,
+      "owner_earnings": -46744100.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -87294000.0,
+      "net_income": -74881000.0,
+      "dna": 1405000.0,
+      "operating_cf": -77942000.0,
+      "capex": -356000.0,
+      "free_cash_flow": -78298000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 249009000.0,
+      "total_liabilities": 341554000.0,
+      "total_equity": -92545000.0,
+      "cash": 46042000.0,
+      "total_debt": 5081000.0,
+      "current_assets": 223230000.0,
+      "current_liabilities": 12782000.0,
+      "shares_outstanding": 53027817.0,
+      "net_wc": 210448000.0,
+      "wc_change": 88555000.0,
+      "capex_abs": 356000.0,
+      "maint_capex": 249199.99999999997,
+      "owner_earnings": 14829800.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 14829800.0,
+  "latest_cash": 46042000.0,
+  "latest_debt": 5081000.0,
+  "ev": 892611864.0,
+  "oe_yield": 1.661394005401658,
+  "roe": 80.91306931762927,
+  "debt_equity": -0.05490302015235831,
+  "latest_gm": null,
+  "current_ratio": 17.464403066812704,
+  "latest_net_income": -74881000.0,
+  "latest_dna": 1405000.0,
+  "latest_wc_change": 88555000.0,
+  "latest_maint_capex": 249199.99999999997,
+  "latest_net_wc": 210448000.0,
+  "latest_current_assets": 223230000.0,
+  "latest_current_liabilities": 12782000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "High ROE 80.9%",
+    "Low leverage (-0.05x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "Seaport Therapeutics, Inc. SPTX revenue predictability recurring demand analysis 2025 2026",
+      "Seaport Therapeutics, Inc. SPTX business model complexity investor circle of competence",
+      "Seaport Therapeutics, Inc. SPTX 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Seaport Therapeutics, Inc. SPTX competitive moat analysis switching costs brand advantage",
+      "Seaport Therapeutics, Inc. SPTX network effects scale advantages cost leadership",
+      "Seaport Therapeutics, Inc. SPTX patents regulatory barriers intellectual property moat",
+      "Seaport Therapeutics, Inc. SPTX competitive threats risks disruption challenges 2025 2026",
+      "Seaport Therapeutics, Inc. SPTX moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Seaport Therapeutics, Inc. SPTX CEO management candor shareholder letter transparency",
+      "Seaport Therapeutics, Inc. SPTX executive compensation insider ownership stock options proxy",
+      "Seaport Therapeutics, Inc. SPTX key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Seaport Therapeutics, Inc. SPTX stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Seaport Therapeutics, Inc. SPTX investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Seaport Therapeutics, Inc. SPTX market position monopoly commodity pricing power ecosystem",
+      "Seaport Therapeutics, Inc. SPTX growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Seaport Therapeutics, Inc. SPTX investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Seaport Therapeutics, Inc. SPTX investment risk permanent capital loss downside analysis",
+      "Seaport Therapeutics, Inc. SPTX opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

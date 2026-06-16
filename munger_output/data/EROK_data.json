@@ -1,0 +1,134 @@
+{
+  "ticker": "EROK",
+  "company_name": "EagleRock Land LLC",
+  "sector": "Energy",
+  "industry": "Oil & Gas Equipment & Services",
+  "description": "EagleRock Land, LLC operates as a land management company. The company owns or controls approximately 236,000 total surface acres across the Permian Basin. It also owns interest in approximately 70,000 acres pursuant to an acreage dedication related to Midland Basin water infrastructure assets. The company was founded in 2023 and is based in Houston, Texas.",
+  "employees": "N/A",
+  "exchange": "NYQ",
+  "website": "https://www.erok.com",
+  "current_price": 20.28,
+  "market_cap": 558829376.0,
+  "shares_out": 27555689.0,
+  "pe_ratio": 2028.0001,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 17701000.0,
+      "gross_profit": 5446000.0,
+      "operating_income": 2648000.0,
+      "net_income": -1075000.0,
+      "dna": 4000000.0,
+      "operating_cf": 907000.0,
+      "capex": -1206000.0,
+      "free_cash_flow": -299000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 86694000.0,
+      "total_liabilities": 87769000.0,
+      "total_equity": 0.0,
+      "cash": 1062000.0,
+      "total_debt": 72005000.0,
+      "current_assets": 7708000.0,
+      "current_liabilities": 10248000.0,
+      "shares_outstanding": 24960689.0,
+      "net_wc": -2540000.0,
+      "wc_change": -0.0,
+      "capex_abs": 1206000.0,
+      "maint_capex": 844200.0,
+      "owner_earnings": 2080800.0,
+      "gross_margin_pct": 30.766623354612733,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 141438000.0,
+      "gross_profit": 69452000.0,
+      "operating_income": 4098000.0,
+      "net_income": 357000.0,
+      "dna": 15000000.0,
+      "operating_cf": 14138000.0,
+      "capex": -5279000.0,
+      "free_cash_flow": 8859000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1520636000.0,
+      "total_liabilities": 9908000.0,
+      "total_equity": 0.0,
+      "cash": 15218000.0,
+      "total_debt": 0.0,
+      "current_assets": 34003000.0,
+      "current_liabilities": 7371000.0,
+      "shares_outstanding": 24960689.0,
+      "net_wc": 26632000.0,
+      "wc_change": -29172000.0,
+      "capex_abs": 5279000.0,
+      "maint_capex": 3695299.9999999995,
+      "owner_earnings": -17510300.0,
+      "gross_margin_pct": 49.10420113406581,
+      "rev_growth_pct": 699.0396022823569
+    }
+  ],
+  "latest_oe": -17510300.0,
+  "latest_cash": 15218000.0,
+  "latest_debt": 0.0,
+  "ev": 543611376.0,
+  "oe_yield": -3.2211062485197144,
+  "roe": 35700000.0,
+  "debt_equity": 0.0,
+  "latest_gm": 49.10420113406581,
+  "current_ratio": 4.613078279744946,
+  "latest_net_income": 357000.0,
+  "latest_dna": 15000000.0,
+  "latest_wc_change": -29172000.0,
+  "latest_maint_capex": 3695299.9999999995,
+  "latest_net_wc": 26632000.0,
+  "latest_current_assets": 34003000.0,
+  "latest_current_liabilities": 7371000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 49.1%)",
+    "High ROE 35700000.0%",
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Energy",
+  "search_queries": {
+    "section_1": [
+      "EagleRock Land LLC EROK revenue predictability recurring demand analysis 2025 2026",
+      "EagleRock Land LLC EROK business model complexity investor circle of competence",
+      "EagleRock Land LLC EROK 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "EagleRock Land LLC EROK competitive moat analysis switching costs brand advantage",
+      "EagleRock Land LLC EROK network effects scale advantages cost leadership",
+      "EagleRock Land LLC EROK patents regulatory barriers intellectual property moat",
+      "EagleRock Land LLC EROK competitive threats risks disruption challenges 2025 2026",
+      "EagleRock Land LLC EROK moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "EagleRock Land LLC EROK CEO management candor shareholder letter transparency",
+      "EagleRock Land LLC EROK executive compensation insider ownership stock options proxy",
+      "EagleRock Land LLC EROK key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "EagleRock Land LLC EROK stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "EagleRock Land LLC EROK investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "EagleRock Land LLC EROK market position monopoly commodity pricing power ecosystem",
+      "EagleRock Land LLC EROK growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "EagleRock Land LLC EROK investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "EagleRock Land LLC EROK investment risk permanent capital loss downside analysis",
+      "EagleRock Land LLC EROK opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

@@ -1,0 +1,161 @@
+{
+  "ticker": "FDXF",
+  "company_name": "FedEx Freight Holding Company, Inc.",
+  "sector": "Industrials",
+  "industry": "Integrated Freight & Logistics",
+  "description": "FedEx Freight Holding Company, Inc. provides less-than-truckload freight transportation services. It operates in the United States, Canada, Mexico, Puerto Rico, and the U.S. Virgin Islands. The company was incorporated in 2025 and is based in Memphis, Tennessee.",
+  "employees": "40000",
+  "exchange": "NYQ",
+  "website": "https://www.fedexfreight.com",
+  "current_price": 167.16,
+  "market_cap": 24891154432.0,
+  "shares_out": 148906159.0,
+  "pe_ratio": 36.657894,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 10084000000.0,
+      "gross_profit": 3636000000.0,
+      "operating_income": 1894000000.0,
+      "net_income": 1581000000.0,
+      "dna": 387000000.0,
+      "operating_cf": 1752000000.0,
+      "capex": -558000000.0,
+      "free_cash_flow": 1194000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_equity": null,
+      "cash": null,
+      "total_debt": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "shares_outstanding": null,
+      "net_wc": null,
+      "wc_change": -0.0,
+      "capex_abs": 558000000.0,
+      "maint_capex": 390600000.0,
+      "owner_earnings": 1577400000.0,
+      "gross_margin_pct": 36.05712019040063,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 9424000000.0,
+      "gross_profit": 3274000000.0,
+      "operating_income": 1753000000.0,
+      "net_income": 1574000000.0,
+      "dna": 404000000.0,
+      "operating_cf": 1541000000.0,
+      "capex": -461000000.0,
+      "free_cash_flow": 1080000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 5048000000.0,
+      "total_liabilities": 2924000000.0,
+      "total_equity": 2124000000.0,
+      "cash": 106000000.0,
+      "total_debt": 1451000000.0,
+      "current_assets": 305000000.0,
+      "current_liabilities": 1049000000.0,
+      "shares_outstanding": 148906159.0,
+      "net_wc": -744000000.0,
+      "wc_change": -0.0,
+      "capex_abs": 461000000.0,
+      "maint_capex": 322700000.0,
+      "owner_earnings": 1655300000.0,
+      "gross_margin_pct": 34.74108658743633,
+      "rev_growth_pct": -6.545021816739394
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 8887000000.0,
+      "gross_profit": 2767000000.0,
+      "operating_income": 1339000000.0,
+      "net_income": 1079000000.0,
+      "dna": 416000000.0,
+      "operating_cf": 1531000000.0,
+      "capex": -437000000.0,
+      "free_cash_flow": 1094000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 6201000000.0,
+      "total_liabilities": 2468000000.0,
+      "total_equity": 3733000000.0,
+      "cash": 109000000.0,
+      "total_debt": 1436000000.0,
+      "current_assets": 1345000000.0,
+      "current_liabilities": 766000000.0,
+      "shares_outstanding": 148906159.0,
+      "net_wc": 579000000.0,
+      "wc_change": -1323000000.0,
+      "capex_abs": 437000000.0,
+      "maint_capex": 305900000.0,
+      "owner_earnings": -133900000.0,
+      "gross_margin_pct": 31.13536626533138,
+      "rev_growth_pct": -5.698217317487265
+    }
+  ],
+  "latest_oe": -133900000.0,
+  "latest_cash": 109000000.0,
+  "latest_debt": 1436000000.0,
+  "ev": 26218154432.0,
+  "oe_yield": -0.5107148191810605,
+  "roe": 28.904366461291186,
+  "debt_equity": 0.38467720332172517,
+  "latest_gm": 31.13536626533138,
+  "current_ratio": 1.7558746736292428,
+  "latest_net_income": 1079000000.0,
+  "latest_dna": 416000000.0,
+  "latest_wc_change": -1323000000.0,
+  "latest_maint_capex": 305900000.0,
+  "latest_net_wc": 579000000.0,
+  "latest_current_assets": 1345000000.0,
+  "latest_current_liabilities": 766000000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "High ROE 28.9%",
+    "Low leverage (0.38x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Industrials)",
+  "search_queries": {
+    "section_1": [
+      "FedEx Freight Holding Company, Inc. FDXF revenue predictability recurring demand analysis 2025 2026",
+      "FedEx Freight Holding Company, Inc. FDXF business model complexity investor circle of competence",
+      "FedEx Freight Holding Company, Inc. FDXF 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "FedEx Freight Holding Company, Inc. FDXF competitive moat analysis switching costs brand advantage",
+      "FedEx Freight Holding Company, Inc. FDXF network effects scale advantages cost leadership",
+      "FedEx Freight Holding Company, Inc. FDXF patents regulatory barriers intellectual property moat",
+      "FedEx Freight Holding Company, Inc. FDXF competitive threats risks disruption challenges 2025 2026",
+      "FedEx Freight Holding Company, Inc. FDXF moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "FedEx Freight Holding Company, Inc. FDXF CEO management candor shareholder letter transparency",
+      "FedEx Freight Holding Company, Inc. FDXF executive compensation insider ownership stock options proxy",
+      "FedEx Freight Holding Company, Inc. FDXF key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "FedEx Freight Holding Company, Inc. FDXF stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "FedEx Freight Holding Company, Inc. FDXF investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "FedEx Freight Holding Company, Inc. FDXF market position monopoly commodity pricing power ecosystem",
+      "FedEx Freight Holding Company, Inc. FDXF growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "FedEx Freight Holding Company, Inc. FDXF investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "FedEx Freight Holding Company, Inc. FDXF investment risk permanent capital loss downside analysis",
+      "FedEx Freight Holding Company, Inc. FDXF opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

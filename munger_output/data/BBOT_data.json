@@ -1,0 +1,161 @@
+{
+  "ticker": "BBOT",
+  "company_name": "BridgeBio Oncology Therapeutics, Inc.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "description": "BridgeBio Oncology Therapeutics, Inc., a clinical-stage biotechnology company, engages in the development of small-molecule therapeutics for the treatment of renin-angiotensin system and phosphoinositide 3-kinase malignancies in the United States. The company develops BBO-8520, an orally bioavailable small molecule direct inhibitor, which is in Phase I clinical trial for the treatment of patients with KRASG12C mutant non-small cell lung cancer; and BBO-11818, an orally bioavailable small molecule pan-KRAS inhibitor, which is in Phase I clinical trial for the treatment of patients with KRAS G12",
+  "employees": "106",
+  "exchange": "NGM",
+  "website": "https://bbotx.com",
+  "current_price": 7.73,
+  "market_cap": 619227904.0,
+  "shares_out": 80107104.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -64771000.0,
+      "net_income": -64699000.0,
+      "dna": 92000.0,
+      "operating_cf": -52079000.0,
+      "capex": -414000.0,
+      "free_cash_flow": -52493000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 5942000.0,
+      "total_liabilities": 121583000.0,
+      "total_equity": -115641000.0,
+      "cash": 250000.0,
+      "total_debt": 0.0,
+      "current_assets": 3937000.0,
+      "current_liabilities": 16775000.0,
+      "shares_outstanding": 79196710.0,
+      "net_wc": -12838000.0,
+      "wc_change": -0.0,
+      "capex_abs": 414000.0,
+      "maint_capex": 289800.0,
+      "owner_earnings": -64896800.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -80863000.0,
+      "net_income": -74275000.0,
+      "dna": 208000.0,
+      "operating_cf": -55027000.0,
+      "capex": -49000.0,
+      "free_cash_flow": -55076000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 164301000.0,
+      "total_liabilities": 342938000.0,
+      "total_equity": -178637000.0,
+      "cash": 30851000.0,
+      "total_debt": 0.0,
+      "current_assets": 158693000.0,
+      "current_liabilities": 19580000.0,
+      "shares_outstanding": 79196710.0,
+      "net_wc": 139113000.0,
+      "wc_change": -151951000.0,
+      "capex_abs": 49000.0,
+      "maint_capex": 34300.0,
+      "owner_earnings": -226052300.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -145819000.0,
+      "net_income": -134044000.0,
+      "dna": 610000.0,
+      "operating_cf": -113894000.0,
+      "capex": -606000.0,
+      "free_cash_flow": -114500000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 448381000.0,
+      "total_liabilities": 37285000.0,
+      "total_equity": 411096000.0,
+      "cash": 373687000.0,
+      "total_debt": 2766000.0,
+      "current_assets": 432396000.0,
+      "current_liabilities": 35041000.0,
+      "shares_outstanding": 79991768.0,
+      "net_wc": 397355000.0,
+      "wc_change": -258242000.0,
+      "capex_abs": 606000.0,
+      "maint_capex": 424200.0,
+      "owner_earnings": -392100200.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -392100200.0,
+  "latest_cash": 373687000.0,
+  "latest_debt": 2766000.0,
+  "ev": 248306904.0,
+  "oe_yield": -157.9095037969625,
+  "roe": -32.60649580633234,
+  "debt_equity": 0.006728355420631677,
+  "latest_gm": null,
+  "current_ratio": 12.339716332296453,
+  "latest_net_income": -134044000.0,
+  "latest_dna": 610000.0,
+  "latest_wc_change": -258242000.0,
+  "latest_maint_capex": 424200.0,
+  "latest_net_wc": 397355000.0,
+  "latest_current_assets": 432396000.0,
+  "latest_current_liabilities": 35041000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 160.9% p.a.",
+    "Low leverage (0.01x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "BridgeBio Oncology Therapeutics, Inc. BBOT revenue predictability recurring demand analysis 2025 2026",
+      "BridgeBio Oncology Therapeutics, Inc. BBOT business model complexity investor circle of competence",
+      "BridgeBio Oncology Therapeutics, Inc. BBOT 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "BridgeBio Oncology Therapeutics, Inc. BBOT competitive moat analysis switching costs brand advantage",
+      "BridgeBio Oncology Therapeutics, Inc. BBOT network effects scale advantages cost leadership",
+      "BridgeBio Oncology Therapeutics, Inc. BBOT patents regulatory barriers intellectual property moat",
+      "BridgeBio Oncology Therapeutics, Inc. BBOT competitive threats risks disruption challenges 2025 2026",
+      "BridgeBio Oncology Therapeutics, Inc. BBOT moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "BridgeBio Oncology Therapeutics, Inc. BBOT CEO management candor shareholder letter transparency",
+      "BridgeBio Oncology Therapeutics, Inc. BBOT executive compensation insider ownership stock options proxy",
+      "BridgeBio Oncology Therapeutics, Inc. BBOT key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "BridgeBio Oncology Therapeutics, Inc. BBOT stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "BridgeBio Oncology Therapeutics, Inc. BBOT investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "BridgeBio Oncology Therapeutics, Inc. BBOT market position monopoly commodity pricing power ecosystem",
+      "BridgeBio Oncology Therapeutics, Inc. BBOT growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "BridgeBio Oncology Therapeutics, Inc. BBOT investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "BridgeBio Oncology Therapeutics, Inc. BBOT investment risk permanent capital loss downside analysis",
+      "BridgeBio Oncology Therapeutics, Inc. BBOT opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

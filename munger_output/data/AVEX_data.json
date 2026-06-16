@@ -1,0 +1,132 @@
+{
+  "ticker": "AVEX",
+  "company_name": "AEVEX Corp.",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "description": "AEVEX Corp. operates as a defense technology contractor and enabler of the U.S. Unmanned Aerial Systems (UAS) dominance strategy mission. The company operates in two segments, Tactical Systems and Global Solutions. The Tactical Systems designs and manufactures battle-tested, autonomous, modular, and attritable unmanned systems, including UAS and unmanned surface vehicles with other mission critical products. The Global Solutions provides bespoke mission solutions, including AI-enabled airborne intelligence, surveillance, and reconnaissance (ISR), C-UAS, additive manufacturing, and specialized ",
+  "employees": "650",
+  "exchange": "NYQ",
+  "website": "https://www.aevex.com",
+  "current_price": 21.69,
+  "market_cap": 1224841472.0,
+  "shares_out": 56470333.0,
+  "pe_ratio": 52.90244,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 392192000.0,
+      "gross_profit": 110272000.0,
+      "operating_income": 45376000.0,
+      "net_income": 78549000.0,
+      "dna": 21342000.0,
+      "operating_cf": 64912000.0,
+      "capex": -8478000.0,
+      "free_cash_flow": 56434000.0,
+      "dividends_paid": -90853000.0,
+      "buybacks": 0.0,
+      "total_assets": 556631000.0,
+      "total_liabilities": 392357000.0,
+      "total_equity": 159529000.0,
+      "cash": 45603000.0,
+      "total_debt": 270726000.0,
+      "current_assets": 100376000.0,
+      "current_liabilities": 39564000.0,
+      "shares_outstanding": 48344176.0,
+      "net_wc": 60812000.0,
+      "wc_change": -0.0,
+      "capex_abs": 8478000.0,
+      "maint_capex": 5934600.0,
+      "owner_earnings": 93956400.0,
+      "gross_margin_pct": 28.116840731070496,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 432933000.0,
+      "gross_profit": 94303000.0,
+      "operating_income": 4326000.0,
+      "net_income": -847000.0,
+      "dna": 21369000.0,
+      "operating_cf": -97639000.0,
+      "capex": -8467000.0,
+      "free_cash_flow": -106106000.0,
+      "dividends_paid": -5000000.0,
+      "buybacks": 0.0,
+      "total_assets": 805643000.0,
+      "total_liabilities": 215574000.0,
+      "total_equity": 246136000.0,
+      "cash": 167465000.0,
+      "total_debt": 106983000.0,
+      "current_assets": 326131000.0,
+      "current_liabilities": 59616000.0,
+      "shares_outstanding": 48344176.0,
+      "net_wc": 266515000.0,
+      "wc_change": -205703000.0,
+      "capex_abs": 8467000.0,
+      "maint_capex": 5926900.0,
+      "owner_earnings": -191107900.0,
+      "gross_margin_pct": 21.782354313484998,
+      "rev_growth_pct": 10.388024233028714
+    }
+  ],
+  "latest_oe": -191107900.0,
+  "latest_cash": 167465000.0,
+  "latest_debt": 106983000.0,
+  "ev": 1164359472.0,
+  "oe_yield": -16.413135684956234,
+  "roe": -0.3441186986056489,
+  "debt_equity": 0.43464994962134756,
+  "latest_gm": 21.782354313484998,
+  "current_ratio": 5.470528046162104,
+  "latest_net_income": -847000.0,
+  "latest_dna": 21369000.0,
+  "latest_wc_change": -205703000.0,
+  "latest_maint_capex": 5926900.0,
+  "latest_net_wc": 266515000.0,
+  "latest_current_assets": 326131000.0,
+  "latest_current_liabilities": 59616000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.43x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Industrials)",
+  "search_queries": {
+    "section_1": [
+      "AEVEX Corp. AVEX revenue predictability recurring demand analysis 2025 2026",
+      "AEVEX Corp. AVEX business model complexity investor circle of competence",
+      "AEVEX Corp. AVEX 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "AEVEX Corp. AVEX competitive moat analysis switching costs brand advantage",
+      "AEVEX Corp. AVEX network effects scale advantages cost leadership",
+      "AEVEX Corp. AVEX patents regulatory barriers intellectual property moat",
+      "AEVEX Corp. AVEX competitive threats risks disruption challenges 2025 2026",
+      "AEVEX Corp. AVEX moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "AEVEX Corp. AVEX CEO management candor shareholder letter transparency",
+      "AEVEX Corp. AVEX executive compensation insider ownership stock options proxy",
+      "AEVEX Corp. AVEX key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "AEVEX Corp. AVEX stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "AEVEX Corp. AVEX investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "AEVEX Corp. AVEX market position monopoly commodity pricing power ecosystem",
+      "AEVEX Corp. AVEX growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "AEVEX Corp. AVEX investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "AEVEX Corp. AVEX investment risk permanent capital loss downside analysis",
+      "AEVEX Corp. AVEX opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

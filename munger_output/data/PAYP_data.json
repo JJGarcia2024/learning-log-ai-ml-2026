@@ -1,0 +1,161 @@
+{
+  "ticker": "PAYP",
+  "company_name": "PayPay Corporation",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "description": "PayPay Corporation, a financial technology company, provides a digital finance platform with services that inlclude easy-to-use payments and other financial services in Japan. The company operates through two segments, Payment and Financial Service. The Payment segment provides payment settlement and related services through its  PayPay app; and payment credit services, such as revolving and installment payment options and cash advances. The Financial service segment offers internet banking, securities intermediary, PayPay Point investment-related, and loan management services. It also provide",
+  "employees": "N/A",
+  "exchange": "NMS",
+  "website": "https://paypay.ne.jp",
+  "current_price": 14.25,
+  "market_cap": 9645448192.0,
+  "shares_out": 676873535.0,
+  "pe_ratio": 12.837837,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 197212000000.0,
+      "gross_profit": 166736000000.0,
+      "operating_income": -6585000000.0,
+      "net_income": -25856000000.0,
+      "dna": 14655000000.0,
+      "operating_cf": -194702000000.0,
+      "capex": -29381000000.0,
+      "free_cash_flow": -224083000000.0,
+      "dividends_paid": -4929000000.0,
+      "buybacks": 0.0,
+      "total_assets": 3288268000000.0,
+      "total_liabilities": 3096728000000.0,
+      "total_equity": 72057000000.0,
+      "cash": 859313000000.0,
+      "total_debt": 503238000000.0,
+      "current_assets": 2645142000000.0,
+      "current_liabilities": 675802000000.0,
+      "shares_outstanding": 668625454.0,
+      "net_wc": 1969340000000.0,
+      "wc_change": -0.0,
+      "capex_abs": 29381000000.0,
+      "maint_capex": 20566700000.0,
+      "owner_earnings": -31767700000.0,
+      "gross_margin_pct": 84.54657931566031,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 248011000000.0,
+      "gross_profit": 210247000000.0,
+      "operating_income": 14295000000.0,
+      "net_income": -3350000000.0,
+      "dna": 18591000000.0,
+      "operating_cf": 49975000000.0,
+      "capex": -22495000000.0,
+      "free_cash_flow": 27480000000.0,
+      "dividends_paid": -179000000.0,
+      "buybacks": 0.0,
+      "total_assets": 3806382000000.0,
+      "total_liabilities": 3615131000000.0,
+      "total_equity": 65162000000.0,
+      "cash": 742693000000.0,
+      "total_debt": 610952000000.0,
+      "current_assets": 2144314000000.0,
+      "current_liabilities": 3363769000000.0,
+      "shares_outstanding": 668625454.0,
+      "net_wc": -1219455000000.0,
+      "wc_change": 3188795000000.0,
+      "capex_abs": 22495000000.0,
+      "maint_capex": 15746499999.999998,
+      "owner_earnings": 3188289500000.0,
+      "gross_margin_pct": 84.77325602493437,
+      "rev_growth_pct": 25.75857452893333
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 292037000000.0,
+      "gross_profit": 250554000000.0,
+      "operating_income": 58782000000.0,
+      "net_income": 36170000000.0,
+      "dna": 21391000000.0,
+      "operating_cf": 155849000000.0,
+      "capex": -22086000000.0,
+      "free_cash_flow": 133763000000.0,
+      "dividends_paid": -283000000.0,
+      "buybacks": 0.0,
+      "total_assets": 4042105000000.0,
+      "total_liabilities": 3818374000000.0,
+      "total_equity": 99895000000.0,
+      "cash": 369077000000.0,
+      "total_debt": 411675000000.0,
+      "current_assets": 1863613000000.0,
+      "current_liabilities": 3592117000000.0,
+      "shares_outstanding": 668625454.0,
+      "net_wc": -1728504000000.0,
+      "wc_change": 509049000000.0,
+      "capex_abs": 22086000000.0,
+      "maint_capex": 15460199999.999998,
+      "owner_earnings": 551149800000.0,
+      "gross_margin_pct": 85.79529306218048,
+      "rev_growth_pct": 17.75163198406522
+    }
+  ],
+  "latest_oe": 551149800000.0,
+  "latest_cash": 369077000000.0,
+  "latest_debt": 411675000000.0,
+  "ev": 52243448192.0,
+  "oe_yield": 1054.9644387454448,
+  "roe": 36.20801841934031,
+  "debt_equity": 4.121077130987537,
+  "latest_gm": 85.79529306218048,
+  "current_ratio": 0.5188063195046264,
+  "latest_net_income": 36170000000.0,
+  "latest_dna": 21391000000.0,
+  "latest_wc_change": 509049000000.0,
+  "latest_maint_capex": 15460199999.999998,
+  "latest_net_wc": -1728504000000.0,
+  "latest_current_assets": 1863613000000.0,
+  "latest_current_liabilities": 3592117000000.0,
+  "mos_flag": "YES — yield is attractive vs. risk-free rate",
+  "lolla_signals": [
+    "Pricing power (GM 85.8%)",
+    "High ROE 36.2%"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "PayPay Corporation PAYP revenue predictability recurring demand analysis 2025 2026",
+      "PayPay Corporation PAYP business model complexity investor circle of competence",
+      "PayPay Corporation PAYP 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "PayPay Corporation PAYP competitive moat analysis switching costs brand advantage",
+      "PayPay Corporation PAYP network effects scale advantages cost leadership",
+      "PayPay Corporation PAYP patents regulatory barriers intellectual property moat",
+      "PayPay Corporation PAYP competitive threats risks disruption challenges 2025 2026",
+      "PayPay Corporation PAYP moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "PayPay Corporation PAYP CEO management candor shareholder letter transparency",
+      "PayPay Corporation PAYP executive compensation insider ownership stock options proxy",
+      "PayPay Corporation PAYP key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "PayPay Corporation PAYP stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "PayPay Corporation PAYP investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "PayPay Corporation PAYP market position monopoly commodity pricing power ecosystem",
+      "PayPay Corporation PAYP growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "PayPay Corporation PAYP investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "PayPay Corporation PAYP investment risk permanent capital loss downside analysis",
+      "PayPay Corporation PAYP opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

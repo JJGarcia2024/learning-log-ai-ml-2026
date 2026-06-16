@@ -1,0 +1,132 @@
+{
+  "ticker": "HVII",
+  "company_name": "Hennessy Capital Investment Corp. VII",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Hennessy Capital Investment Corp. VII does not have significant operations. It focuses on effecting a merger, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. The company was incorporated in 2024 and is based in Zephyr Cove, Nevada.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://www.hennessycapital7.com",
+  "current_price": 10.43,
+  "market_cap": 271423360.0,
+  "shares_out": 19690000.0,
+  "pe_ratio": 86.91667,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 993266.0,
+      "total_liabilities": 1016218.0,
+      "total_equity": -22952.0,
+      "cash": 20005.0,
+      "total_debt": 76790.0,
+      "current_assets": 40834.0,
+      "current_liabilities": 566218.0,
+      "shares_outstanding": 24883333.0,
+      "net_wc": -525384.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -3656556.0,
+      "net_income": 3687416.0,
+      "dna": 0.0,
+      "operating_cf": -1883274.0,
+      "capex": 0.0,
+      "free_cash_flow": -1883274.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 198284635.0,
+      "total_liabilities": 10376953.0,
+      "total_equity": 187907682.0,
+      "cash": 984245.0,
+      "total_debt": 0.0,
+      "current_assets": 1326329.0,
+      "current_liabilities": 326953.0,
+      "shares_outstanding": 26023333.0,
+      "net_wc": 999376.0,
+      "wc_change": -1524760.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 2162656.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 2162656.0,
+  "latest_cash": 984245.0,
+  "latest_debt": 0.0,
+  "ev": 270439115.0,
+  "oe_yield": 0.7996831375520511,
+  "roe": 1.9623551101013528,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 4.056635051521167,
+  "latest_net_income": 3687416.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -1524760.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 999376.0,
+  "latest_current_assets": 1326329.0,
+  "latest_current_liabilities": 326953.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Hennessy Capital Investment Corp. VII HVII revenue predictability recurring demand analysis 2025 2026",
+      "Hennessy Capital Investment Corp. VII HVII business model complexity investor circle of competence",
+      "Hennessy Capital Investment Corp. VII HVII 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Hennessy Capital Investment Corp. VII HVII competitive moat analysis switching costs brand advantage",
+      "Hennessy Capital Investment Corp. VII HVII network effects scale advantages cost leadership",
+      "Hennessy Capital Investment Corp. VII HVII patents regulatory barriers intellectual property moat",
+      "Hennessy Capital Investment Corp. VII HVII competitive threats risks disruption challenges 2025 2026",
+      "Hennessy Capital Investment Corp. VII HVII moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Hennessy Capital Investment Corp. VII HVII CEO management candor shareholder letter transparency",
+      "Hennessy Capital Investment Corp. VII HVII executive compensation insider ownership stock options proxy",
+      "Hennessy Capital Investment Corp. VII HVII key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Hennessy Capital Investment Corp. VII HVII stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Hennessy Capital Investment Corp. VII HVII investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Hennessy Capital Investment Corp. VII HVII market position monopoly commodity pricing power ecosystem",
+      "Hennessy Capital Investment Corp. VII HVII growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Hennessy Capital Investment Corp. VII HVII investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Hennessy Capital Investment Corp. VII HVII investment risk permanent capital loss downside analysis",
+      "Hennessy Capital Investment Corp. VII HVII opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

@@ -1,0 +1,132 @@
+{
+  "ticker": "KOYN",
+  "company_name": "CSLM Digital Asset Acquisition Corp III, Ltd",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "CSLM Digital Asset Acquisition Corp III, Ltd does not have significant operations. It focuses on effecting a merger, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. The company was incorporated in 2024 and is based in Fort Lauderdale, Florida.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "N/A",
+  "current_price": 10.13,
+  "market_cap": 319681696.0,
+  "shares_out": 23891250.0,
+  "pe_ratio": 101.3,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 35480.0,
+      "total_liabilities": 58300.0,
+      "total_equity": -22820.0,
+      "cash": 0.0,
+      "total_debt": 11394.0,
+      "current_assets": 0.0,
+      "current_liabilities": 58300.0,
+      "shares_outstanding": 28441667.0,
+      "net_wc": -58300.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -1384634.0,
+      "net_income": 1847947.0,
+      "dna": 0.0,
+      "operating_cf": -770100.0,
+      "capex": 0.0,
+      "free_cash_flow": -770100.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 236485789.0,
+      "total_liabilities": 9409558.0,
+      "total_equity": 227076231.0,
+      "cash": 3108288.0,
+      "total_debt": 0.0,
+      "current_assets": 3183288.0,
+      "current_liabilities": 209558.0,
+      "shares_outstanding": 31557917.0,
+      "net_wc": 2973730.0,
+      "wc_change": -3032030.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -1184083.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -1184083.0,
+  "latest_cash": 3108288.0,
+  "latest_debt": 0.0,
+  "ev": 316573408.0,
+  "oe_yield": -0.37403109992106476,
+  "roe": 0.8138002783743579,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 15.190486643315932,
+  "latest_net_income": 1847947.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -3032030.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 2973730.0,
+  "latest_current_assets": 3183288.0,
+  "latest_current_liabilities": 209558.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "CSLM Digital Asset Acquisition Corp III, Ltd KOYN revenue predictability recurring demand analysis 2025 2026",
+      "CSLM Digital Asset Acquisition Corp III, Ltd KOYN business model complexity investor circle of competence",
+      "CSLM Digital Asset Acquisition Corp III, Ltd KOYN 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "CSLM Digital Asset Acquisition Corp III, Ltd KOYN competitive moat analysis switching costs brand advantage",
+      "CSLM Digital Asset Acquisition Corp III, Ltd KOYN network effects scale advantages cost leadership",
+      "CSLM Digital Asset Acquisition Corp III, Ltd KOYN patents regulatory barriers intellectual property moat",
+      "CSLM Digital Asset Acquisition Corp III, Ltd KOYN competitive threats risks disruption challenges 2025 2026",
+      "CSLM Digital Asset Acquisition Corp III, Ltd KOYN moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "CSLM Digital Asset Acquisition Corp III, Ltd KOYN CEO management candor shareholder letter transparency",
+      "CSLM Digital Asset Acquisition Corp III, Ltd KOYN executive compensation insider ownership stock options proxy",
+      "CSLM Digital Asset Acquisition Corp III, Ltd KOYN key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "CSLM Digital Asset Acquisition Corp III, Ltd KOYN stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "CSLM Digital Asset Acquisition Corp III, Ltd KOYN investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "CSLM Digital Asset Acquisition Corp III, Ltd KOYN market position monopoly commodity pricing power ecosystem",
+      "CSLM Digital Asset Acquisition Corp III, Ltd KOYN growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "CSLM Digital Asset Acquisition Corp III, Ltd KOYN investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "CSLM Digital Asset Acquisition Corp III, Ltd KOYN investment risk permanent capital loss downside analysis",
+      "CSLM Digital Asset Acquisition Corp III, Ltd KOYN opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

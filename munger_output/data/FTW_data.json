@@ -1,0 +1,133 @@
+{
+  "ticker": "FTW",
+  "company_name": "Presidio Production Company",
+  "sector": "Energy",
+  "industry": "Oil & Gas E&P",
+  "description": "Presidio Production Company acquires, operates, explores, and optimizes oil and gas producing properties. The company's assets are mainly concentrated in the oil and gas industry, enabling its clients to generate profit through leading operational practices and modern development technologies. Presidio Production Company was incorporated in 2016 and is based in Fort Worth, Texas.",
+  "employees": "125",
+  "exchange": "NYQ",
+  "website": "https://www.bypresidio.com",
+  "current_price": 12.26,
+  "market_cap": 339439488.0,
+  "shares_out": 27686745.0,
+  "pe_ratio": 33.135136,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 230100000.0,
+      "gross_profit": 136491000.0,
+      "operating_income": 79288000.0,
+      "net_income": 95660000.0,
+      "dna": 32144000.0,
+      "operating_cf": 21710000.0,
+      "capex": -5825000.0,
+      "free_cash_flow": 15885000.0,
+      "dividends_paid": -36800000.0,
+      "buybacks": 0.0,
+      "total_assets": 466716000.0,
+      "total_liabilities": 595472000.0,
+      "total_equity": -128756000.0,
+      "cash": 7106000.0,
+      "total_debt": 362437000.0,
+      "current_assets": 49040000.0,
+      "current_liabilities": 130823000.0,
+      "shares_outstanding": 27652068.0,
+      "net_wc": -81783000.0,
+      "wc_change": -0.0,
+      "capex_abs": 5825000.0,
+      "maint_capex": 4077499.9999999995,
+      "owner_earnings": 123726500.0,
+      "gross_margin_pct": 59.31812255541069,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 192216000.0,
+      "gross_profit": 106175000.0,
+      "operating_income": 55026000.0,
+      "net_income": 100898000.0,
+      "dna": 37185000.0,
+      "operating_cf": 53573000.0,
+      "capex": -6575000.0,
+      "free_cash_flow": 46998000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 502063000.0,
+      "total_liabilities": 529921000.0,
+      "total_equity": -27858000.0,
+      "cash": 88815000.0,
+      "total_debt": 310036000.0,
+      "current_assets": 135532000.0,
+      "current_liabilities": 151837000.0,
+      "shares_outstanding": 27652068.0,
+      "net_wc": -16305000.0,
+      "wc_change": -65478000.0,
+      "capex_abs": 6575000.0,
+      "maint_capex": 4602500.0,
+      "owner_earnings": 68002500.0,
+      "gross_margin_pct": 55.23733716235901,
+      "rev_growth_pct": -16.46414602346806
+    }
+  ],
+  "latest_oe": 68002500.0,
+  "latest_cash": 88815000.0,
+  "latest_debt": 310036000.0,
+  "ev": 560660488.0,
+  "oe_yield": 12.128998111241968,
+  "roe": -362.1868045085792,
+  "debt_equity": -11.129155000358963,
+  "latest_gm": 55.23733716235901,
+  "current_ratio": 0.8926151069897325,
+  "latest_net_income": 100898000.0,
+  "latest_dna": 37185000.0,
+  "latest_wc_change": -65478000.0,
+  "latest_maint_capex": 4602500.0,
+  "latest_net_wc": -16305000.0,
+  "latest_current_assets": 135532000.0,
+  "latest_current_liabilities": 151837000.0,
+  "mos_flag": "YES — yield is attractive vs. risk-free rate",
+  "lolla_signals": [
+    "Pricing power (GM 55.2%)",
+    "Low leverage (-11.13x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Energy",
+  "search_queries": {
+    "section_1": [
+      "Presidio Production Company FTW revenue predictability recurring demand analysis 2025 2026",
+      "Presidio Production Company FTW business model complexity investor circle of competence",
+      "Presidio Production Company FTW 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Presidio Production Company FTW competitive moat analysis switching costs brand advantage",
+      "Presidio Production Company FTW network effects scale advantages cost leadership",
+      "Presidio Production Company FTW patents regulatory barriers intellectual property moat",
+      "Presidio Production Company FTW competitive threats risks disruption challenges 2025 2026",
+      "Presidio Production Company FTW moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Presidio Production Company FTW CEO management candor shareholder letter transparency",
+      "Presidio Production Company FTW executive compensation insider ownership stock options proxy",
+      "Presidio Production Company FTW key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Presidio Production Company FTW stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Presidio Production Company FTW investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Presidio Production Company FTW market position monopoly commodity pricing power ecosystem",
+      "Presidio Production Company FTW growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Presidio Production Company FTW investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Presidio Production Company FTW investment risk permanent capital loss downside analysis",
+      "Presidio Production Company FTW opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

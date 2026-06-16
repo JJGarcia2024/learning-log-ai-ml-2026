@@ -1,0 +1,133 @@
+{
+  "ticker": "SHAZ",
+  "company_name": "SharonAI Holdings Inc.",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
+  "description": "SharonAI Holdings Inc. operates as a computing company specializing in accelerated compute platforms, AI infrastructure, and cloud GPU environments. It operates through a hybrid model that combines deployment in data centers with the development of its data center facilities in strategic locations. Its platform integrates compute, storage, networking, and automation into a unified enterprise solution serving AI labs, hyperscale customers, research institutions, and regulated industries. The company was formerly known as Roth CH Holding Inc. SharonAI Holdings Inc. was founded in 2024 and is bas",
+  "employees": "25",
+  "exchange": "NCM",
+  "website": "https://www.sharonai.com",
+  "current_price": 70.21,
+  "market_cap": 1185186304.0,
+  "shares_out": 16607910.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 438292.0,
+      "gross_profit": -281701.0,
+      "operating_income": -4303258.0,
+      "net_income": -3905281.0,
+      "dna": 1130781.0,
+      "operating_cf": -2205993.0,
+      "capex": -2947244.0,
+      "free_cash_flow": -5153237.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 32146452.0,
+      "total_liabilities": 2237507.0,
+      "total_equity": 29822849.0,
+      "cash": 4424805.0,
+      "total_debt": 952142.0,
+      "current_assets": 6210169.0,
+      "current_liabilities": 1149884.0,
+      "shares_outstanding": 18273974.0,
+      "net_wc": 5060285.0,
+      "wc_change": -0.0,
+      "capex_abs": 2947244.0,
+      "maint_capex": 2063070.7999999998,
+      "owner_earnings": -4837570.8,
+      "gross_margin_pct": -64.27244850464987,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 1566631.0,
+      "gross_profit": 100807.0,
+      "operating_income": -14801744.0,
+      "net_income": -39623909.0,
+      "dna": 3702411.0,
+      "operating_cf": -2638947.0,
+      "capex": -10950712.0,
+      "free_cash_flow": -13589659.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 133140150.0,
+      "total_liabilities": 143288407.0,
+      "total_equity": -10039372.0,
+      "cash": 71073024.0,
+      "total_debt": 136263155.0,
+      "current_assets": 88417454.0,
+      "current_liabilities": 139370326.0,
+      "shares_outstanding": 11968505.0,
+      "net_wc": -50952872.0,
+      "wc_change": 56013157.0,
+      "capex_abs": 10950712.0,
+      "maint_capex": 7665498.399999999,
+      "owner_earnings": 12426160.600000001,
+      "gross_margin_pct": 6.434635852348128,
+      "rev_growth_pct": 257.4400171575114
+    }
+  ],
+  "latest_oe": 12426160.600000001,
+  "latest_cash": 71073024.0,
+  "latest_debt": 136263155.0,
+  "ev": 1250376435.0,
+  "oe_yield": 0.9937935690542665,
+  "roe": 394.6851356837858,
+  "debt_equity": -13.572876371151501,
+  "latest_gm": 6.434635852348128,
+  "current_ratio": 0.6344065952748076,
+  "latest_net_income": -39623909.0,
+  "latest_dna": 3702411.0,
+  "latest_wc_change": 56013157.0,
+  "latest_maint_capex": 7665498.399999999,
+  "latest_net_wc": -50952872.0,
+  "latest_current_assets": 88417454.0,
+  "latest_current_liabilities": 139370326.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "High ROE 394.7%",
+    "Low leverage (-13.57x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "SharonAI Holdings Inc. SHAZ revenue predictability recurring demand analysis 2025 2026",
+      "SharonAI Holdings Inc. SHAZ business model complexity investor circle of competence",
+      "SharonAI Holdings Inc. SHAZ 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "SharonAI Holdings Inc. SHAZ competitive moat analysis switching costs brand advantage",
+      "SharonAI Holdings Inc. SHAZ network effects scale advantages cost leadership",
+      "SharonAI Holdings Inc. SHAZ patents regulatory barriers intellectual property moat",
+      "SharonAI Holdings Inc. SHAZ competitive threats risks disruption challenges 2025 2026",
+      "SharonAI Holdings Inc. SHAZ moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "SharonAI Holdings Inc. SHAZ CEO management candor shareholder letter transparency",
+      "SharonAI Holdings Inc. SHAZ executive compensation insider ownership stock options proxy",
+      "SharonAI Holdings Inc. SHAZ key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "SharonAI Holdings Inc. SHAZ stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "SharonAI Holdings Inc. SHAZ investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "SharonAI Holdings Inc. SHAZ market position monopoly commodity pricing power ecosystem",
+      "SharonAI Holdings Inc. SHAZ growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "SharonAI Holdings Inc. SHAZ investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "SharonAI Holdings Inc. SHAZ investment risk permanent capital loss downside analysis",
+      "SharonAI Holdings Inc. SHAZ opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

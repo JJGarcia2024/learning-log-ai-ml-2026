@@ -1,0 +1,132 @@
+{
+  "ticker": "OYSE",
+  "company_name": "Oyster Enterprises II Acquisition Corp",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Oyster Enterprises II Acquisition Corp does not have significant operations. It intends to effect a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. The company was incorporated in 2024 and is based in Miami, Florida.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://www.oysteracquisition.com",
+  "current_price": 10.28,
+  "market_cap": 348638496.0,
+  "shares_out": 26008000.0,
+  "pe_ratio": 34.266663,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 145359.0,
+      "total_liabilities": 167803.0,
+      "total_equity": -22444.0,
+      "cash": 0.0,
+      "total_debt": 167059.0,
+      "current_assets": 0.0,
+      "current_liabilities": 167803.0,
+      "shares_outstanding": 29520000.0,
+      "net_wc": -167803.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -456691.0,
+      "net_income": 5784370.0,
+      "dna": 0.0,
+      "operating_cf": -567932.0,
+      "capex": 0.0,
+      "free_cash_flow": -567932.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 260284528.0,
+      "total_liabilities": 8972542.0,
+      "total_equity": 251311986.0,
+      "cash": 864584.0,
+      "total_debt": 0.0,
+      "current_assets": 1000238.0,
+      "current_liabilities": 117542.0,
+      "shares_outstanding": 33914250.0,
+      "net_wc": 882696.0,
+      "wc_change": -1050499.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 4733871.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 4733871.0,
+  "latest_cash": 864584.0,
+  "latest_debt": 0.0,
+  "ev": 347773912.0,
+  "oe_yield": 1.361192095397886,
+  "roe": 2.301668970138177,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 8.509622092528629,
+  "latest_net_income": 5784370.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -1050499.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 882696.0,
+  "latest_current_assets": 1000238.0,
+  "latest_current_liabilities": 117542.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Oyster Enterprises II Acquisition Corp OYSE revenue predictability recurring demand analysis 2025 2026",
+      "Oyster Enterprises II Acquisition Corp OYSE business model complexity investor circle of competence",
+      "Oyster Enterprises II Acquisition Corp OYSE 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Oyster Enterprises II Acquisition Corp OYSE competitive moat analysis switching costs brand advantage",
+      "Oyster Enterprises II Acquisition Corp OYSE network effects scale advantages cost leadership",
+      "Oyster Enterprises II Acquisition Corp OYSE patents regulatory barriers intellectual property moat",
+      "Oyster Enterprises II Acquisition Corp OYSE competitive threats risks disruption challenges 2025 2026",
+      "Oyster Enterprises II Acquisition Corp OYSE moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Oyster Enterprises II Acquisition Corp OYSE CEO management candor shareholder letter transparency",
+      "Oyster Enterprises II Acquisition Corp OYSE executive compensation insider ownership stock options proxy",
+      "Oyster Enterprises II Acquisition Corp OYSE key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Oyster Enterprises II Acquisition Corp OYSE stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Oyster Enterprises II Acquisition Corp OYSE investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Oyster Enterprises II Acquisition Corp OYSE market position monopoly commodity pricing power ecosystem",
+      "Oyster Enterprises II Acquisition Corp OYSE growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Oyster Enterprises II Acquisition Corp OYSE investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Oyster Enterprises II Acquisition Corp OYSE investment risk permanent capital loss downside analysis",
+      "Oyster Enterprises II Acquisition Corp OYSE opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

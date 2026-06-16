@@ -1,0 +1,162 @@
+{
+  "ticker": "SPGNY",
+  "company_name": "Springer Nature AG & Co. KGaA",
+  "sector": "Communication Services",
+  "industry": "Publishing",
+  "description": "Springer Nature AG & Co. KGaA, together with its subsidiaries, engages in the publishing business in Germany, the United Kingdom, the United States, and internationally. The company operates through three segments: Research, Education, and Health. It offers journals across various academic disciplines under the Nature Portfolio and Springer brand names; books in print and digital formats across various scientific disciplines, including monographs, textbooks, conference proceedings, handbook series, reference works, and briefs under the Springer and Palgrave Macmillan brand names; and support s",
+  "employees": "9479",
+  "exchange": "PNK",
+  "website": "https://www.springernature.com",
+  "current_price": 11.36,
+  "market_cap": 2259378944.0,
+  "shares_out": 198888989.0,
+  "pe_ratio": 5.4615383,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 1853000000.0,
+      "gross_profit": 1593300000.0,
+      "operating_income": 405600000.0,
+      "net_income": 15500000.0,
+      "dna": 276900000.0,
+      "operating_cf": 491900000.0,
+      "capex": -45100000.0,
+      "free_cash_flow": 446800000.0,
+      "dividends_paid": -200000.0,
+      "buybacks": 0.0,
+      "total_assets": 5411200000.0,
+      "total_liabilities": 5373200000.0,
+      "total_equity": 35500000.0,
+      "cash": 273900000.0,
+      "total_debt": 3642500000.0,
+      "current_assets": 890500000.0,
+      "current_liabilities": 1074500000.0,
+      "shares_outstanding": 0.0,
+      "net_wc": -184000000.0,
+      "wc_change": -0.0,
+      "capex_abs": 45100000.0,
+      "maint_capex": 31569999.999999996,
+      "owner_earnings": 260830000.0,
+      "gross_margin_pct": 85.98488936859148,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 1847100000.0,
+      "gross_profit": 1609500000.0,
+      "operating_income": 404400000.0,
+      "net_income": 68300000.0,
+      "dna": 284000000.0,
+      "operating_cf": 531200000.0,
+      "capex": -41500000.0,
+      "free_cash_flow": 489700000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 5388600000.0,
+      "total_liabilities": 3574600000.0,
+      "total_equity": 1810700000.0,
+      "cash": 300100000.0,
+      "total_debt": 1893100000.0,
+      "current_assets": 852900000.0,
+      "current_liabilities": 819400000.0,
+      "shares_outstanding": 198888989.0,
+      "net_wc": 33500000.0,
+      "wc_change": -217500000.0,
+      "capex_abs": 41500000.0,
+      "maint_capex": 29050000.0,
+      "owner_earnings": 105750000.0,
+      "gross_margin_pct": 87.13659249634563,
+      "rev_growth_pct": -0.31840259039395136
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 1926400000.0,
+      "gross_profit": 1681100000.0,
+      "operating_income": 462800000.0,
+      "net_income": 355700000.0,
+      "dna": 265000000.0,
+      "operating_cf": 549200000.0,
+      "capex": -29000000.0,
+      "free_cash_flow": 520200000.0,
+      "dividends_paid": -25900000.0,
+      "buybacks": -1600000.0,
+      "total_assets": 4984900000.0,
+      "total_liabilities": 2956400000.0,
+      "total_equity": 2026400000.0,
+      "cash": 269700000.0,
+      "total_debt": 1508300000.0,
+      "current_assets": 760100000.0,
+      "current_liabilities": 708700000.0,
+      "shares_outstanding": 198888989.0,
+      "net_wc": 51400000.0,
+      "wc_change": -17900000.0,
+      "capex_abs": 29000000.0,
+      "maint_capex": 20300000.0,
+      "owner_earnings": 582500000.0,
+      "gross_margin_pct": 87.26640365448505,
+      "rev_growth_pct": 4.29321639326512
+    }
+  ],
+  "latest_oe": 582500000.0,
+  "latest_cash": 269700000.0,
+  "latest_debt": 1508300000.0,
+  "ev": 3497978944.0,
+  "oe_yield": 16.652473023005136,
+  "roe": 17.55329648637979,
+  "debt_equity": 0.7443249111725228,
+  "latest_gm": 87.26640365448505,
+  "current_ratio": 1.0725271624100465,
+  "latest_net_income": 355700000.0,
+  "latest_dna": 265000000.0,
+  "latest_wc_change": -17900000.0,
+  "latest_maint_capex": 20300000.0,
+  "latest_net_wc": 51400000.0,
+  "latest_current_assets": 760100000.0,
+  "latest_current_liabilities": 708700000.0,
+  "mos_flag": "YES — yield is attractive vs. risk-free rate",
+  "lolla_signals": [
+    "Pricing power (GM 87.3%)",
+    "OE growing avg 195.7% p.a.",
+    "High ROE 17.6%"
+  ],
+  "s1a": "YES — business model is understandable (Communication Services)",
+  "search_queries": {
+    "section_1": [
+      "Springer Nature AG & Co. KGaA SPGNY revenue predictability recurring demand analysis 2025 2026",
+      "Springer Nature AG & Co. KGaA SPGNY business model complexity investor circle of competence",
+      "Springer Nature AG & Co. KGaA SPGNY 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Springer Nature AG & Co. KGaA SPGNY competitive moat analysis switching costs brand advantage",
+      "Springer Nature AG & Co. KGaA SPGNY network effects scale advantages cost leadership",
+      "Springer Nature AG & Co. KGaA SPGNY patents regulatory barriers intellectual property moat",
+      "Springer Nature AG & Co. KGaA SPGNY competitive threats risks disruption challenges 2025 2026",
+      "Springer Nature AG & Co. KGaA SPGNY moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Springer Nature AG & Co. KGaA SPGNY CEO management candor shareholder letter transparency",
+      "Springer Nature AG & Co. KGaA SPGNY executive compensation insider ownership stock options proxy",
+      "Springer Nature AG & Co. KGaA SPGNY key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Springer Nature AG & Co. KGaA SPGNY stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Springer Nature AG & Co. KGaA SPGNY investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Springer Nature AG & Co. KGaA SPGNY market position monopoly commodity pricing power ecosystem",
+      "Springer Nature AG & Co. KGaA SPGNY growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Springer Nature AG & Co. KGaA SPGNY investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Springer Nature AG & Co. KGaA SPGNY investment risk permanent capital loss downside analysis",
+      "Springer Nature AG & Co. KGaA SPGNY opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

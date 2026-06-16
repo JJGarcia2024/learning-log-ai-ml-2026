@@ -1,0 +1,161 @@
+{
+  "ticker": "NMAX",
+  "company_name": "NMAX",
+  "sector": "Communication Services",
+  "industry": "Broadcasting",
+  "description": "Newsmax Inc., through its subsidiaries, operates as a television broadcaster and multi-platform content publisher in the United States. It operates through two segments, Broadcasting and Digital. The Broadcasting segment produces and licenses news, business news, and lifestyle content for distribution through cable television systems, direct broadcast satellite operators, and telecommunication companies. This segment also provides programming services through Newsmax and Newsmax2, which offer 24/7 television news and informational programming channels through cable and digital streaming platfo",
+  "employees": "500",
+  "exchange": "NYQ",
+  "website": "https://www.newsmax.com",
+  "current_price": 7.82,
+  "market_cap": 1010036288.0,
+  "shares_out": 89921348.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 135276027.0,
+      "gross_profit": 55820031.0,
+      "operating_income": -21166911.0,
+      "net_income": -41777166.0,
+      "dna": 3673715.0,
+      "operating_cf": -3831504.0,
+      "capex": -916994.0,
+      "free_cash_flow": -4748498.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 71609831.0,
+      "total_liabilities": 95193927.0,
+      "total_equity": -23584096.0,
+      "cash": 6037211.0,
+      "total_debt": 12405459.0,
+      "current_assets": 35416417.0,
+      "current_liabilities": 51847951.0,
+      "shares_outstanding": 128414048.0,
+      "net_wc": -16431534.0,
+      "wc_change": -0.0,
+      "capex_abs": 916994.0,
+      "maint_capex": 641895.7999999999,
+      "owner_earnings": -38745346.8,
+      "gross_margin_pct": 41.26380130900799,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 171016455.0,
+      "gross_profit": 77995174.0,
+      "operating_income": -69808240.0,
+      "net_income": -72171928.0,
+      "dna": 6172395.0,
+      "operating_cf": -48687432.0,
+      "capex": -996291.0,
+      "free_cash_flow": -49683723.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 146072863.0,
+      "total_liabilities": 155139691.0,
+      "total_equity": -9066828.0,
+      "cash": 24052887.0,
+      "total_debt": 8272525.0,
+      "current_assets": 121347554.0,
+      "current_liabilities": 122647346.0,
+      "shares_outstanding": 128414048.0,
+      "net_wc": -1299792.0,
+      "wc_change": -15131742.0,
+      "capex_abs": 996291.0,
+      "maint_capex": 697403.7,
+      "owner_earnings": -81828678.7,
+      "gross_margin_pct": 45.60682420881663,
+      "rev_growth_pct": 26.420370846639372
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 189254921.0,
+      "gross_profit": 74422373.0,
+      "operating_income": -99854569.0,
+      "net_income": -99495119.0,
+      "dna": 6327229.0,
+      "operating_cf": -104454878.0,
+      "capex": -2650515.0,
+      "free_cash_flow": -107105393.0,
+      "dividends_paid": -915069.0,
+      "buybacks": 0.0,
+      "total_assets": 239843078.0,
+      "total_liabilities": 133794526.0,
+      "total_equity": 106048552.0,
+      "cash": 20433021.0,
+      "total_debt": 9355066.0,
+      "current_assets": 195460807.0,
+      "current_liabilities": 81276164.0,
+      "shares_outstanding": 129129119.0,
+      "net_wc": 114184643.0,
+      "wc_change": -115484435.0,
+      "capex_abs": 2650515.0,
+      "maint_capex": 1855360.4999999998,
+      "owner_earnings": -210507685.5,
+      "gross_margin_pct": 39.32387734319469,
+      "rev_growth_pct": 10.664743342972471
+    }
+  ],
+  "latest_oe": -210507685.5,
+  "latest_cash": 20433021.0,
+  "latest_debt": 9355066.0,
+  "ev": 998958333.0,
+  "oe_yield": -21.07271930630164,
+  "roe": -93.82034655220941,
+  "debt_equity": 0.08821493385407092,
+  "latest_gm": 39.32387734319469,
+  "current_ratio": 2.4048970495211854,
+  "latest_net_income": -99495119.0,
+  "latest_dna": 6327229.0,
+  "latest_wc_change": -115484435.0,
+  "latest_maint_capex": 1855360.4999999998,
+  "latest_net_wc": 114184643.0,
+  "latest_current_assets": 195460807.0,
+  "latest_current_liabilities": 81276164.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 134.2% p.a.",
+    "Low leverage (0.09x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Communication Services)",
+  "search_queries": {
+    "section_1": [
+      "NMAX NMAX revenue predictability recurring demand analysis 2025 2026",
+      "NMAX NMAX business model complexity investor circle of competence",
+      "NMAX NMAX 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "NMAX NMAX competitive moat analysis switching costs brand advantage",
+      "NMAX NMAX network effects scale advantages cost leadership",
+      "NMAX NMAX patents regulatory barriers intellectual property moat",
+      "NMAX NMAX competitive threats risks disruption challenges 2025 2026",
+      "NMAX NMAX moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "NMAX NMAX CEO management candor shareholder letter transparency",
+      "NMAX NMAX executive compensation insider ownership stock options proxy",
+      "NMAX NMAX key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "NMAX NMAX stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "NMAX NMAX investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "NMAX NMAX market position monopoly commodity pricing power ecosystem",
+      "NMAX NMAX growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "NMAX NMAX investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "NMAX NMAX investment risk permanent capital loss downside analysis",
+      "NMAX NMAX opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

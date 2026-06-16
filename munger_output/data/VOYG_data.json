@@ -1,0 +1,160 @@
+{
+  "ticker": "VOYG",
+  "company_name": "Voyager Technologies, Inc.",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "description": "Voyager Technologies, Inc. operates as a defense technology and space solutions company in the United States, Europe, the Middle East, and internationally. It operates through three segments: Defense & National Security, Space Solutions, and Starlab Space Stations. The Defense & National Security segment provides defense systems, including solid propulsion subsystems; signal intelligence systems; space-qualified radiation-hardened laser and radio frequency (RF) communications systems and advanced electro-optical and digital systems comprising transceivers, mission-data transmitters, and comman",
+  "employees": "800",
+  "exchange": "NYQ",
+  "website": "https://voyagertechnologies.com",
+  "current_price": 40.31,
+  "market_cap": 2388857344.0,
+  "shares_out": 53503581.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 136062000.0,
+      "gross_profit": 27785000.0,
+      "operating_income": -14173000.0,
+      "net_income": -25438000.0,
+      "dna": 12929000.0,
+      "operating_cf": -15381000.0,
+      "capex": -17210000.0,
+      "free_cash_flow": -32591000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 188888000.0,
+      "total_liabilities": 158603000.0,
+      "total_equity": -12475000.0,
+      "cash": 30279000.0,
+      "total_debt": 86328000.0,
+      "current_assets": 69198000.0,
+      "current_liabilities": 111218000.0,
+      "shares_outstanding": 56545916.0,
+      "net_wc": -42020000.0,
+      "wc_change": -0.0,
+      "capex_abs": 17210000.0,
+      "maint_capex": 12047000.0,
+      "owner_earnings": -24556000.0,
+      "gross_margin_pct": 20.420837559347945,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 144180000.0,
+      "gross_profit": 34915000.0,
+      "operating_income": -44848000.0,
+      "net_income": -62072000.0,
+      "dna": 16377000.0,
+      "operating_cf": -25502000.0,
+      "capex": -82703000.0,
+      "free_cash_flow": -108205000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 247596000.0,
+      "total_liabilities": 187669000.0,
+      "total_equity": 23792000.0,
+      "cash": 55930000.0,
+      "total_debt": 98224000.0,
+      "current_assets": 101581000.0,
+      "current_liabilities": 87411000.0,
+      "shares_outstanding": 56545916.0,
+      "net_wc": 14170000.0,
+      "wc_change": -56190000.0,
+      "capex_abs": 82703000.0,
+      "maint_capex": 57892100.0,
+      "owner_earnings": -159777100.0,
+      "gross_margin_pct": 24.21625745595783,
+      "rev_growth_pct": 5.966397671649681
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 166419000.0,
+      "gross_profit": 29875000.0,
+      "operating_income": -108498000.0,
+      "net_income": -104814000.0,
+      "dna": 16392000.0,
+      "operating_cf": -60943000.0,
+      "capex": -144673000.0,
+      "free_cash_flow": -205616000.0,
+      "dividends_paid": -27584000.0,
+      "buybacks": -161893000.0,
+      "total_assets": 1050454000.0,
+      "total_liabilities": 620921000.0,
+      "total_equity": 383720000.0,
+      "cash": 491329000.0,
+      "total_debt": 466801000.0,
+      "current_assets": 581300000.0,
+      "current_liabilities": 133027000.0,
+      "shares_outstanding": 59142425.0,
+      "net_wc": 448273000.0,
+      "wc_change": -434103000.0,
+      "capex_abs": 144673000.0,
+      "maint_capex": 101271100.0,
+      "owner_earnings": -623796100.0,
+      "gross_margin_pct": 17.95167619081956,
+      "rev_growth_pct": 15.424469413233455
+    }
+  ],
+  "latest_oe": -623796100.0,
+  "latest_cash": 491329000.0,
+  "latest_debt": 466801000.0,
+  "ev": 2364329344.0,
+  "oe_yield": -26.38363820095615,
+  "roe": -27.31522985510268,
+  "debt_equity": 1.2165146460961118,
+  "latest_gm": 17.95167619081956,
+  "current_ratio": 4.36978959158667,
+  "latest_net_income": -104814000.0,
+  "latest_dna": 16392000.0,
+  "latest_wc_change": -434103000.0,
+  "latest_maint_capex": 101271100.0,
+  "latest_net_wc": 448273000.0,
+  "latest_current_assets": 581300000.0,
+  "latest_current_liabilities": 133027000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 420.5% p.a."
+  ],
+  "s1a": "YES — business model is understandable (Industrials)",
+  "search_queries": {
+    "section_1": [
+      "Voyager Technologies, Inc. VOYG revenue predictability recurring demand analysis 2025 2026",
+      "Voyager Technologies, Inc. VOYG business model complexity investor circle of competence",
+      "Voyager Technologies, Inc. VOYG 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Voyager Technologies, Inc. VOYG competitive moat analysis switching costs brand advantage",
+      "Voyager Technologies, Inc. VOYG network effects scale advantages cost leadership",
+      "Voyager Technologies, Inc. VOYG patents regulatory barriers intellectual property moat",
+      "Voyager Technologies, Inc. VOYG competitive threats risks disruption challenges 2025 2026",
+      "Voyager Technologies, Inc. VOYG moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Voyager Technologies, Inc. VOYG CEO management candor shareholder letter transparency",
+      "Voyager Technologies, Inc. VOYG executive compensation insider ownership stock options proxy",
+      "Voyager Technologies, Inc. VOYG key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Voyager Technologies, Inc. VOYG stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Voyager Technologies, Inc. VOYG investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Voyager Technologies, Inc. VOYG market position monopoly commodity pricing power ecosystem",
+      "Voyager Technologies, Inc. VOYG growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Voyager Technologies, Inc. VOYG investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Voyager Technologies, Inc. VOYG investment risk permanent capital loss downside analysis",
+      "Voyager Technologies, Inc. VOYG opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

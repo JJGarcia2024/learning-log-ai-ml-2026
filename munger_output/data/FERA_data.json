@@ -1,0 +1,132 @@
+{
+  "ticker": "FERA",
+  "company_name": "Fifth Era Acquisition Corp I",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Fifth Era Acquisition Corp I does not have significant operations. It focuses on entering a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization or similar business combination with one or more businesses. The company was incorporated in 2024 and is based in Grand Cayman, Cayman Islands.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "N/A",
+  "current_price": 10.41,
+  "market_cap": 325486016.0,
+  "shares_out": 23600000.0,
+  "pe_ratio": 69.399994,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 164243.0,
+      "total_liabilities": 216142.0,
+      "total_equity": -51899.0,
+      "cash": 0.0,
+      "total_debt": 172920.0,
+      "current_assets": 0.0,
+      "current_liabilities": 216142.0,
+      "shares_outstanding": 27266667.0,
+      "net_wc": -216142.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -3724686.0,
+      "net_income": 4130222.0,
+      "dna": 0.0,
+      "operating_cf": -890559.0,
+      "capex": 0.0,
+      "free_cash_flow": -890559.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 238584003.0,
+      "total_liabilities": 14063559.0,
+      "total_equity": 224520444.0,
+      "cash": 543258.0,
+      "total_debt": 0.0,
+      "current_assets": 702904.0,
+      "current_liabilities": 3113559.0,
+      "shares_outstanding": 31266667.0,
+      "net_wc": -2410655.0,
+      "wc_change": 2194513.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 6324735.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 6324735.0,
+  "latest_cash": 543258.0,
+  "latest_debt": 0.0,
+  "ev": 324942758.0,
+  "oe_yield": 1.9464151282916113,
+  "roe": 1.839575018834365,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 0.22575579907109516,
+  "latest_net_income": 4130222.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": 2194513.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": -2410655.0,
+  "latest_current_assets": 702904.0,
+  "latest_current_liabilities": 3113559.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Fifth Era Acquisition Corp I FERA revenue predictability recurring demand analysis 2025 2026",
+      "Fifth Era Acquisition Corp I FERA business model complexity investor circle of competence",
+      "Fifth Era Acquisition Corp I FERA 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Fifth Era Acquisition Corp I FERA competitive moat analysis switching costs brand advantage",
+      "Fifth Era Acquisition Corp I FERA network effects scale advantages cost leadership",
+      "Fifth Era Acquisition Corp I FERA patents regulatory barriers intellectual property moat",
+      "Fifth Era Acquisition Corp I FERA competitive threats risks disruption challenges 2025 2026",
+      "Fifth Era Acquisition Corp I FERA moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Fifth Era Acquisition Corp I FERA CEO management candor shareholder letter transparency",
+      "Fifth Era Acquisition Corp I FERA executive compensation insider ownership stock options proxy",
+      "Fifth Era Acquisition Corp I FERA key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Fifth Era Acquisition Corp I FERA stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Fifth Era Acquisition Corp I FERA investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Fifth Era Acquisition Corp I FERA market position monopoly commodity pricing power ecosystem",
+      "Fifth Era Acquisition Corp I FERA growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Fifth Era Acquisition Corp I FERA investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Fifth Era Acquisition Corp I FERA investment risk permanent capital loss downside analysis",
+      "Fifth Era Acquisition Corp I FERA opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

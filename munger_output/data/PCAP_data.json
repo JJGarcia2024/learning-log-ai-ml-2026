@@ -1,0 +1,104 @@
+{
+  "ticker": "PCAP",
+  "company_name": "ProCap Acquisition Corp",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "ProCap Acquisition Corp does not have significant operations. It focuses on effecting a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. The company was incorporated in 2025 and is based in New York, New York.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "N/A",
+  "current_price": 10.28,
+  "market_cap": 389920384.0,
+  "shares_out": 25430000.0,
+  "pe_ratio": 32.125,
+  "financial_data": [
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -470085.0,
+      "net_income": 5659179.0,
+      "dna": 0.0,
+      "operating_cf": -486104.0,
+      "capex": 0.0,
+      "free_cash_flow": -486104.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 257302148.0,
+      "total_liabilities": 11365789.0,
+      "total_equity": 245936359.0,
+      "cash": 1069737.0,
+      "total_debt": 23345.0,
+      "current_assets": 1194095.0,
+      "current_liabilities": 115789.0,
+      "shares_outstanding": 31680000.0,
+      "net_wc": 1078306.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 5659179.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 5659179.0,
+  "latest_cash": 1069737.0,
+  "latest_debt": 23345.0,
+  "ev": 388873992.0,
+  "oe_yield": 1.4552732032539732,
+  "roe": 2.301074563765498,
+  "debt_equity": 9.492293085464439e-05,
+  "latest_gm": null,
+  "current_ratio": 10.312680824603373,
+  "latest_net_income": 5659179.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -0.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 1078306.0,
+  "latest_current_assets": 1194095.0,
+  "latest_current_liabilities": 115789.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "ProCap Acquisition Corp PCAP revenue predictability recurring demand analysis 2025 2026",
+      "ProCap Acquisition Corp PCAP business model complexity investor circle of competence",
+      "ProCap Acquisition Corp PCAP 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "ProCap Acquisition Corp PCAP competitive moat analysis switching costs brand advantage",
+      "ProCap Acquisition Corp PCAP network effects scale advantages cost leadership",
+      "ProCap Acquisition Corp PCAP patents regulatory barriers intellectual property moat",
+      "ProCap Acquisition Corp PCAP competitive threats risks disruption challenges 2025 2026",
+      "ProCap Acquisition Corp PCAP moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "ProCap Acquisition Corp PCAP CEO management candor shareholder letter transparency",
+      "ProCap Acquisition Corp PCAP executive compensation insider ownership stock options proxy",
+      "ProCap Acquisition Corp PCAP key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "ProCap Acquisition Corp PCAP stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "ProCap Acquisition Corp PCAP investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "ProCap Acquisition Corp PCAP market position monopoly commodity pricing power ecosystem",
+      "ProCap Acquisition Corp PCAP growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "ProCap Acquisition Corp PCAP investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "ProCap Acquisition Corp PCAP investment risk permanent capital loss downside analysis",
+      "ProCap Acquisition Corp PCAP opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

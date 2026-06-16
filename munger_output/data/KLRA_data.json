@@ -1,0 +1,133 @@
+{
+  "ticker": "KLRA",
+  "company_name": "Kailera Therapeutics, Inc.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "description": "Kailera Therapeutics, Inc. operates as a clinical-stage biopharmaceutical company developing therapies for obesity and related conditions. The company develops clinical- and preclinical-stage therapies, with a product pipeline that includes injectable peptides, oral peptides, and oral small molecules. Key programs include KAI-9531, an injectable GLP-1/GIP receptor dual agonist; KAI-7535, an oral small molecule GLP-1 receptor agonist; and KAI-4729, an injectable GLP-1/GIP/glucagon receptor tri-agonist. Kailera Therapeutics holds exclusive rights for global development and commercialization of f",
+  "employees": "145",
+  "exchange": "NMS",
+  "website": "https://www.kailera.com",
+  "current_price": 19.67,
+  "market_cap": 2548555520.0,
+  "shares_out": 129565608.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 178445000.0,
+      "total_liabilities": 397217000.0,
+      "total_equity": -218772000.0,
+      "cash": 175178000.0,
+      "total_debt": 509000.0,
+      "current_assets": 177611000.0,
+      "current_liabilities": 6911000.0,
+      "shares_outstanding": 117948773.0,
+      "net_wc": 170700000.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -158340000.0,
+      "net_income": -148955000.0,
+      "dna": 310000.0,
+      "operating_cf": -120210000.0,
+      "capex": -2088000.0,
+      "free_cash_flow": -122298000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 692294000.0,
+      "total_liabilities": 1048752000.0,
+      "total_equity": -356458000.0,
+      "cash": 160267000.0,
+      "total_debt": 10753000.0,
+      "current_assets": 557537000.0,
+      "current_liabilities": 46405000.0,
+      "shares_outstanding": 117948773.0,
+      "net_wc": 511132000.0,
+      "wc_change": -340432000.0,
+      "capex_abs": 2088000.0,
+      "maint_capex": 1461600.0,
+      "owner_earnings": -490538600.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -490538600.0,
+  "latest_cash": 160267000.0,
+  "latest_debt": 10753000.0,
+  "ev": 2399041520.0,
+  "oe_yield": -20.447274293110194,
+  "roe": 41.78753177092393,
+  "debt_equity": -0.030166246794853812,
+  "latest_gm": null,
+  "current_ratio": 12.014588945156772,
+  "latest_net_income": -148955000.0,
+  "latest_dna": 310000.0,
+  "latest_wc_change": -340432000.0,
+  "latest_maint_capex": 1461600.0,
+  "latest_net_wc": 511132000.0,
+  "latest_current_assets": 557537000.0,
+  "latest_current_liabilities": 46405000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "High ROE 41.8%",
+    "Low leverage (-0.03x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "Kailera Therapeutics, Inc. KLRA revenue predictability recurring demand analysis 2025 2026",
+      "Kailera Therapeutics, Inc. KLRA business model complexity investor circle of competence",
+      "Kailera Therapeutics, Inc. KLRA 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Kailera Therapeutics, Inc. KLRA competitive moat analysis switching costs brand advantage",
+      "Kailera Therapeutics, Inc. KLRA network effects scale advantages cost leadership",
+      "Kailera Therapeutics, Inc. KLRA patents regulatory barriers intellectual property moat",
+      "Kailera Therapeutics, Inc. KLRA competitive threats risks disruption challenges 2025 2026",
+      "Kailera Therapeutics, Inc. KLRA moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Kailera Therapeutics, Inc. KLRA CEO management candor shareholder letter transparency",
+      "Kailera Therapeutics, Inc. KLRA executive compensation insider ownership stock options proxy",
+      "Kailera Therapeutics, Inc. KLRA key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Kailera Therapeutics, Inc. KLRA stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Kailera Therapeutics, Inc. KLRA investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Kailera Therapeutics, Inc. KLRA market position monopoly commodity pricing power ecosystem",
+      "Kailera Therapeutics, Inc. KLRA growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Kailera Therapeutics, Inc. KLRA investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Kailera Therapeutics, Inc. KLRA investment risk permanent capital loss downside analysis",
+      "Kailera Therapeutics, Inc. KLRA opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

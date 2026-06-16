@@ -1,0 +1,161 @@
+{
+  "ticker": "VIA",
+  "company_name": "VIA",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "description": "Via Transportation, Inc. provides a platform that transforms global transportation systems into digital networks in the United States, Germany, and internationally. The company's Via platform designed to address workflows for the end-to-end management of transit networks, including planning and scheduling, operating software, tech-enabled services, passenger tools, and data and insights. It offers technology-enabled services, including driver management, fleet management, autonomous vehicles, and customer support services. In addition, the company's end to end hosted platform allows for the in",
+  "employees": "1040",
+  "exchange": "NYQ",
+  "website": "https://www.ridewithvia.com",
+  "current_price": 14.98,
+  "market_cap": 1275427968.0,
+  "shares_out": 77449688.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 248854000.0,
+      "gross_profit": 99408000.0,
+      "operating_income": -114455000.0,
+      "net_income": -116686000.0,
+      "dna": 8020000.0,
+      "operating_cf": -92618000.0,
+      "capex": -4802000.0,
+      "free_cash_flow": -97420000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 367944000.0,
+      "total_liabilities": 1286512000.0,
+      "total_equity": -918076000.0,
+      "cash": 71737000.0,
+      "total_debt": 17829000.0,
+      "current_assets": 142716000.0,
+      "current_liabilities": 75585000.0,
+      "shares_outstanding": 79357039.0,
+      "net_wc": 67131000.0,
+      "wc_change": -0.0,
+      "capex_abs": 4802000.0,
+      "maint_capex": 3361400.0,
+      "owner_earnings": -112027400.0,
+      "gross_margin_pct": 39.94631390293104,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 337630000.0,
+      "gross_profit": 130840000.0,
+      "operating_income": -83896000.0,
+      "net_income": -90281000.0,
+      "dna": 9126000.0,
+      "operating_cf": -69962000.0,
+      "capex": -4451000.0,
+      "free_cash_flow": -74413000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 378769000.0,
+      "total_liabilities": 1366624000.0,
+      "total_equity": -987092000.0,
+      "cash": 77905000.0,
+      "total_debt": 82606000.0,
+      "current_assets": 163202000.0,
+      "current_liabilities": 76549000.0,
+      "shares_outstanding": 79357039.0,
+      "net_wc": 86653000.0,
+      "wc_change": -19522000.0,
+      "capex_abs": 4451000.0,
+      "maint_capex": 3115700.0,
+      "owner_earnings": -103792700.0,
+      "gross_margin_pct": 38.7524805260196,
+      "rev_growth_pct": 35.67392929187394
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 434337000.0,
+      "gross_profit": 171800000.0,
+      "operating_income": -76616000.0,
+      "net_income": -96361000.0,
+      "dna": 8529000.0,
+      "operating_cf": -30869000.0,
+      "capex": -5914000.0,
+      "free_cash_flow": -36783000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 733095000.0,
+      "total_liabilities": 105359000.0,
+      "total_equity": 627736000.0,
+      "cash": 370914000.0,
+      "total_debt": 19127000.0,
+      "current_assets": 469551000.0,
+      "current_liabilities": 94235000.0,
+      "shares_outstanding": 81122858.0,
+      "net_wc": 375316000.0,
+      "wc_change": -288663000.0,
+      "capex_abs": 5914000.0,
+      "maint_capex": 4139799.9999999995,
+      "owner_earnings": -380634800.0,
+      "gross_margin_pct": 39.55453944747972,
+      "rev_growth_pct": 28.64289310783994
+    }
+  ],
+  "latest_oe": -380634800.0,
+  "latest_cash": 370914000.0,
+  "latest_debt": 19127000.0,
+  "ev": 923640968.0,
+  "oe_yield": -41.21025519517666,
+  "roe": -15.350561382492003,
+  "debt_equity": 0.030469815336383446,
+  "latest_gm": 39.55453944747972,
+  "current_ratio": 4.982766488035231,
+  "latest_net_income": -96361000.0,
+  "latest_dna": 8529000.0,
+  "latest_wc_change": -288663000.0,
+  "latest_maint_capex": 4139799.9999999995,
+  "latest_net_wc": 375316000.0,
+  "latest_current_assets": 469551000.0,
+  "latest_current_liabilities": 94235000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 129.7% p.a.",
+    "Low leverage (0.03x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Technology",
+  "search_queries": {
+    "section_1": [
+      "VIA VIA revenue predictability recurring demand analysis 2025 2026",
+      "VIA VIA business model complexity investor circle of competence",
+      "VIA VIA 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "VIA VIA competitive moat analysis switching costs brand advantage",
+      "VIA VIA network effects scale advantages cost leadership",
+      "VIA VIA patents regulatory barriers intellectual property moat",
+      "VIA VIA competitive threats risks disruption challenges 2025 2026",
+      "VIA VIA moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "VIA VIA CEO management candor shareholder letter transparency",
+      "VIA VIA executive compensation insider ownership stock options proxy",
+      "VIA VIA key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "VIA VIA stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "VIA VIA investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "VIA VIA market position monopoly commodity pricing power ecosystem",
+      "VIA VIA growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "VIA VIA investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "VIA VIA investment risk permanent capital loss downside analysis",
+      "VIA VIA opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

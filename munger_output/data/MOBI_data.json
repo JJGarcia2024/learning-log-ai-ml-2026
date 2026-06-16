@@ -1,0 +1,135 @@
+{
+  "ticker": "MOBI",
+  "company_name": "Mobia Medical, Inc.",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
+  "description": "Mobia Medical, Inc. develops and commercializes neurostimulation medical devices, including implantable systems for stroke rehabilitation and other neurological conditions. The company provides neurostimulation systems and devices that combine vagus nerve stimulation with therapy to address chronic neurological conditions. Its main product, the Vivistim System, is an FDA-approved implantable device designed to aid in the rehabilitation of upper limb motor function in post-stroke patients. The paired VNS platform is used to help patients relearn movements and improve motor deficits, and it is b",
+  "employees": "167",
+  "exchange": "NMS",
+  "website": "https://www.mobia.com",
+  "current_price": 11.01,
+  "market_cap": 366071552.0,
+  "shares_out": 33249006.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 15644398.0,
+      "gross_profit": 12451225.0,
+      "operating_income": -24236290.0,
+      "net_income": -24603014.0,
+      "dna": 116010.0,
+      "operating_cf": -24315301.0,
+      "capex": -40848.0,
+      "free_cash_flow": -24356149.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 22091037.0,
+      "total_liabilities": 128126840.0,
+      "total_equity": -106035803.0,
+      "cash": 14620320.0,
+      "total_debt": 7720766.0,
+      "current_assets": 21174741.0,
+      "current_liabilities": 4596806.0,
+      "shares_outstanding": 33085391.0,
+      "net_wc": 16577935.0,
+      "wc_change": -0.0,
+      "capex_abs": 40848.0,
+      "maint_capex": 28593.6,
+      "owner_earnings": -24515597.6,
+      "gross_margin_pct": 79.5890324447128,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 32040978.0,
+      "gross_profit": 25975023.0,
+      "operating_income": -46367901.0,
+      "net_income": -46498188.0,
+      "dna": 151657.0,
+      "operating_cf": -45694990.0,
+      "capex": -364411.0,
+      "free_cash_flow": -46059401.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 48148699.0,
+      "total_liabilities": 198922286.0,
+      "total_equity": -150773587.0,
+      "cash": 33587308.0,
+      "total_debt": 8435336.0,
+      "current_assets": 46357242.0,
+      "current_liabilities": 10206207.0,
+      "shares_outstanding": 33085391.0,
+      "net_wc": 36151035.0,
+      "wc_change": -19573100.0,
+      "capex_abs": 364411.0,
+      "maint_capex": 255087.69999999998,
+      "owner_earnings": -66174718.7,
+      "gross_margin_pct": 81.06813406257449,
+      "rev_growth_pct": 104.80799580782846
+    }
+  ],
+  "latest_oe": -66174718.7,
+  "latest_cash": 33587308.0,
+  "latest_debt": 8435336.0,
+  "ev": 340919580.0,
+  "oe_yield": -19.41065359167696,
+  "roe": 30.839743833911704,
+  "debt_equity": -0.05594704064445983,
+  "latest_gm": 81.06813406257449,
+  "current_ratio": 4.542063667726904,
+  "latest_net_income": -46498188.0,
+  "latest_dna": 151657.0,
+  "latest_wc_change": -19573100.0,
+  "latest_maint_capex": 255087.69999999998,
+  "latest_net_wc": 36151035.0,
+  "latest_current_assets": 46357242.0,
+  "latest_current_liabilities": 10206207.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 81.1%)",
+    "OE growing avg 169.9% p.a.",
+    "High ROE 30.8%",
+    "Low leverage (-0.06x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "Mobia Medical, Inc. MOBI revenue predictability recurring demand analysis 2025 2026",
+      "Mobia Medical, Inc. MOBI business model complexity investor circle of competence",
+      "Mobia Medical, Inc. MOBI 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Mobia Medical, Inc. MOBI competitive moat analysis switching costs brand advantage",
+      "Mobia Medical, Inc. MOBI network effects scale advantages cost leadership",
+      "Mobia Medical, Inc. MOBI patents regulatory barriers intellectual property moat",
+      "Mobia Medical, Inc. MOBI competitive threats risks disruption challenges 2025 2026",
+      "Mobia Medical, Inc. MOBI moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Mobia Medical, Inc. MOBI CEO management candor shareholder letter transparency",
+      "Mobia Medical, Inc. MOBI executive compensation insider ownership stock options proxy",
+      "Mobia Medical, Inc. MOBI key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Mobia Medical, Inc. MOBI stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Mobia Medical, Inc. MOBI investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Mobia Medical, Inc. MOBI market position monopoly commodity pricing power ecosystem",
+      "Mobia Medical, Inc. MOBI growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Mobia Medical, Inc. MOBI investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Mobia Medical, Inc. MOBI investment risk permanent capital loss downside analysis",
+      "Mobia Medical, Inc. MOBI opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

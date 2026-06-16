@@ -1,0 +1,161 @@
+{
+  "ticker": "FIGR",
+  "company_name": "Figure Technology Solutions, Inc.",
+  "sector": "Financial Services",
+  "industry": "Capital Markets",
+  "description": "Figure Technology Solutions, Inc., a financial technology company, provides blockchain-based products and solutions in the United States. The company offers a suite of blockchain-based solutions for its marketplaces, including lending, trading, and investing activities in areas, such as consumer credit and digital assets. It also provides technology-enabled loan origination system and pairs this system with a distribution marketplace; Figure Connect that provides access to a deep and broad pool of capital markets partners; and develops an exchange for digital assets and credit, which offers in",
+  "employees": "602",
+  "exchange": "NMS",
+  "website": "https://www.figure.com",
+  "current_price": 28.99,
+  "market_cap": 6409713664.0,
+  "shares_out": 182622749.0,
+  "pe_ratio": 35.353657,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 166892000.0,
+      "gross_profit": 148169000.0,
+      "operating_income": -46032000.0,
+      "net_income": -47935000.0,
+      "dna": 19384000.0,
+      "operating_cf": -33352000.0,
+      "capex": -17262000.0,
+      "free_cash_flow": -50614000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 660068000.0,
+      "total_liabilities": 437645000.0,
+      "total_equity": 217070000.0,
+      "cash": 116548000.0,
+      "total_debt": 414987000.0,
+      "current_assets": 458280000.0,
+      "current_liabilities": 406876000.0,
+      "shares_outstanding": 208516488.0,
+      "net_wc": 51404000.0,
+      "wc_change": -0.0,
+      "capex_abs": 17262000.0,
+      "maint_capex": 12083400.0,
+      "owner_earnings": -40634400.0,
+      "gross_margin_pct": 88.78136759101695,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 278923000.0,
+      "gross_profit": 257355000.0,
+      "operating_income": 23691000.0,
+      "net_income": 17214000.0,
+      "dna": 17113000.0,
+      "operating_cf": -127012000.0,
+      "capex": -16628000.0,
+      "free_cash_flow": -143640000.0,
+      "dividends_paid": -2765000.0,
+      "buybacks": -1001000.0,
+      "total_assets": 1159578000.0,
+      "total_liabilities": 796203000.0,
+      "total_equity": 355098000.0,
+      "cash": 289670000.0,
+      "total_debt": 688585000.0,
+      "current_assets": 854690000.0,
+      "current_liabilities": 625531000.0,
+      "shares_outstanding": 208516488.0,
+      "net_wc": 229159000.0,
+      "wc_change": -177755000.0,
+      "capex_abs": 16628000.0,
+      "maint_capex": 11639600.0,
+      "owner_earnings": -155067600.0,
+      "gross_margin_pct": 92.26739996343076,
+      "rev_growth_pct": 67.12784315605302
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 434491000.0,
+      "gross_profit": 404977000.0,
+      "operating_income": 103117000.0,
+      "net_income": 133858000.0,
+      "dna": 16254000.0,
+      "operating_cf": 62568000.0,
+      "capex": -20649000.0,
+      "free_cash_flow": 41919000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 2317523000.0,
+      "total_liabilities": 1080325000.0,
+      "total_equity": 1228834000.0,
+      "cash": 1198141000.0,
+      "total_debt": 945182000.0,
+      "current_assets": 1861207000.0,
+      "current_liabilities": 846009000.0,
+      "shares_outstanding": 216378454.0,
+      "net_wc": 1015198000.0,
+      "wc_change": -786039000.0,
+      "capex_abs": 20649000.0,
+      "maint_capex": 14454300.0,
+      "owner_earnings": -650381300.0,
+      "gross_margin_pct": 93.20722408519394,
+      "rev_growth_pct": 55.774532756352116
+    }
+  ],
+  "latest_oe": -650381300.0,
+  "latest_cash": 1198141000.0,
+  "latest_debt": 945182000.0,
+  "ev": 6156754664.0,
+  "oe_yield": -10.56370337124091,
+  "roe": 10.893090523211434,
+  "debt_equity": 0.769169798361699,
+  "latest_gm": 93.20722408519394,
+  "current_ratio": 2.1999848701373153,
+  "latest_net_income": 133858000.0,
+  "latest_dna": 16254000.0,
+  "latest_wc_change": -786039000.0,
+  "latest_maint_capex": 14454300.0,
+  "latest_net_wc": 1015198000.0,
+  "latest_current_assets": 1861207000.0,
+  "latest_current_liabilities": 846009000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 93.2%)",
+    "OE growing avg 300.5% p.a."
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Figure Technology Solutions, Inc. FIGR revenue predictability recurring demand analysis 2025 2026",
+      "Figure Technology Solutions, Inc. FIGR business model complexity investor circle of competence",
+      "Figure Technology Solutions, Inc. FIGR 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Figure Technology Solutions, Inc. FIGR competitive moat analysis switching costs brand advantage",
+      "Figure Technology Solutions, Inc. FIGR network effects scale advantages cost leadership",
+      "Figure Technology Solutions, Inc. FIGR patents regulatory barriers intellectual property moat",
+      "Figure Technology Solutions, Inc. FIGR competitive threats risks disruption challenges 2025 2026",
+      "Figure Technology Solutions, Inc. FIGR moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Figure Technology Solutions, Inc. FIGR CEO management candor shareholder letter transparency",
+      "Figure Technology Solutions, Inc. FIGR executive compensation insider ownership stock options proxy",
+      "Figure Technology Solutions, Inc. FIGR key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Figure Technology Solutions, Inc. FIGR stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Figure Technology Solutions, Inc. FIGR investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Figure Technology Solutions, Inc. FIGR market position monopoly commodity pricing power ecosystem",
+      "Figure Technology Solutions, Inc. FIGR growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Figure Technology Solutions, Inc. FIGR investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Figure Technology Solutions, Inc. FIGR investment risk permanent capital loss downside analysis",
+      "Figure Technology Solutions, Inc. FIGR opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

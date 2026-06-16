@@ -1,0 +1,160 @@
+{
+  "ticker": "WBI",
+  "company_name": "WaterBridge Infrastructure LLC",
+  "sector": "Energy",
+  "industry": "Oil & Gas Equipment & Services",
+  "description": "WaterBridge Infrastructure LLC, water infrastructure company, provides water management solutions through integrated pipeline and water handling networks in the United States. It offers produced water handling and gathering pipeline services; brackish water, recycled water, and produced water solutions; and gas transportation services. The company was incorporated in 2025 and is headquartered in Houston, Texas.",
+  "employees": "540",
+  "exchange": "NYQ",
+  "website": "https://www.wbinfra.com",
+  "current_price": 32.27,
+  "market_cap": 1517208320.0,
+  "shares_out": 47016059.0,
+  "pe_ratio": 461.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 200767000.0,
+      "gross_profit": 55302000.0,
+      "operating_income": 40588000.0,
+      "net_income": 14667000.0,
+      "dna": 49691000.0,
+      "operating_cf": 48473000.0,
+      "capex": -147969000.0,
+      "free_cash_flow": -99496000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_equity": null,
+      "cash": null,
+      "total_debt": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "shares_outstanding": null,
+      "net_wc": null,
+      "wc_change": -0.0,
+      "capex_abs": 147969000.0,
+      "maint_capex": 103578300.0,
+      "owner_earnings": -39220300.0,
+      "gross_margin_pct": 27.545363530859156,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 316296000.0,
+      "gross_profit": 88448000.0,
+      "operating_income": 56280000.0,
+      "net_income": 2992000.0,
+      "dna": 80064000.0,
+      "operating_cf": 73859000.0,
+      "capex": -159921000.0,
+      "free_cash_flow": -86062000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1350587000.0,
+      "total_liabilities": 687538000.0,
+      "total_equity": 663049000.0,
+      "cash": 13284000.0,
+      "total_debt": 595779000.0,
+      "current_assets": 120338000.0,
+      "current_liabilities": 83468000.0,
+      "shares_outstanding": 38509850.0,
+      "net_wc": 36870000.0,
+      "wc_change": -0.0,
+      "capex_abs": 159921000.0,
+      "maint_capex": 111944700.0,
+      "owner_earnings": -28888700.0,
+      "gross_margin_pct": 27.963679591268935,
+      "rev_growth_pct": 57.54381945240004
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 525553000.0,
+      "gross_profit": 142241000.0,
+      "operating_income": 90842000.0,
+      "net_income": 11887000.0,
+      "dna": 142731000.0,
+      "operating_cf": 159695000.0,
+      "capex": -278569000.0,
+      "free_cash_flow": -118874000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 3700020000.0,
+      "total_liabilities": 1852411000.0,
+      "total_equity": 602306000.0,
+      "cash": 51543000.0,
+      "total_debt": 1451784000.0,
+      "current_assets": 261125000.0,
+      "current_liabilities": 188940000.0,
+      "shares_outstanding": 43264850.0,
+      "net_wc": 72185000.0,
+      "wc_change": -35315000.0,
+      "capex_abs": 278569000.0,
+      "maint_capex": 194998300.0,
+      "owner_earnings": -75695300.0,
+      "gross_margin_pct": 27.065015326713006,
+      "rev_growth_pct": 66.15859827503353
+    }
+  ],
+  "latest_oe": -75695300.0,
+  "latest_cash": 51543000.0,
+  "latest_debt": 1451784000.0,
+  "ev": 2917449320.0,
+  "oe_yield": -2.5945712057819055,
+  "roe": 1.9735815349672756,
+  "debt_equity": 2.4103761211078756,
+  "latest_gm": 27.065015326713006,
+  "current_ratio": 1.3820525034402455,
+  "latest_net_income": 11887000.0,
+  "latest_dna": 142731000.0,
+  "latest_wc_change": -35315000.0,
+  "latest_maint_capex": 194998300.0,
+  "latest_net_wc": 72185000.0,
+  "latest_current_assets": 261125000.0,
+  "latest_current_liabilities": 188940000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 67.8% p.a."
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Energy",
+  "search_queries": {
+    "section_1": [
+      "WaterBridge Infrastructure LLC WBI revenue predictability recurring demand analysis 2025 2026",
+      "WaterBridge Infrastructure LLC WBI business model complexity investor circle of competence",
+      "WaterBridge Infrastructure LLC WBI 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "WaterBridge Infrastructure LLC WBI competitive moat analysis switching costs brand advantage",
+      "WaterBridge Infrastructure LLC WBI network effects scale advantages cost leadership",
+      "WaterBridge Infrastructure LLC WBI patents regulatory barriers intellectual property moat",
+      "WaterBridge Infrastructure LLC WBI competitive threats risks disruption challenges 2025 2026",
+      "WaterBridge Infrastructure LLC WBI moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "WaterBridge Infrastructure LLC WBI CEO management candor shareholder letter transparency",
+      "WaterBridge Infrastructure LLC WBI executive compensation insider ownership stock options proxy",
+      "WaterBridge Infrastructure LLC WBI key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "WaterBridge Infrastructure LLC WBI stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "WaterBridge Infrastructure LLC WBI investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "WaterBridge Infrastructure LLC WBI market position monopoly commodity pricing power ecosystem",
+      "WaterBridge Infrastructure LLC WBI growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "WaterBridge Infrastructure LLC WBI investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "WaterBridge Infrastructure LLC WBI investment risk permanent capital loss downside analysis",
+      "WaterBridge Infrastructure LLC WBI opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

@@ -1,0 +1,132 @@
+{
+  "ticker": "CBIO",
+  "company_name": "Crescent Biopharma, Inc.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "description": "Crescent Biopharma, Inc., a biotechnology company, researches and develops cancer therapy candidates in the United States. Its pipeline includes CR-001, which is in Phase 3 clinical trial, a proprietary anti-PD-1/anti-VEGF bispecific antibody to treat solid tumors; and CR-002, and CR-003. The company has a strategic partnership with Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd. for the development and commercialization of oncology therapeutics. The company was formerly known as GlycoMimetics, Inc. The company was founded in 2024 and is headquartered in Waltham, Massachusetts.",
+  "employees": "55",
+  "exchange": "NCM",
+  "website": "https://crescentbiopharma.com",
+  "current_price": 18.19,
+  "market_cap": 501586048.0,
+  "shares_out": 27571935.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 35617000.0,
+      "total_liabilities": 51096000.0,
+      "total_equity": -15479000.0,
+      "cash": 34766000.0,
+      "total_debt": 37482000.0,
+      "current_assets": 34804000.0,
+      "current_liabilities": 9614000.0,
+      "shares_outstanding": 19500000.0,
+      "net_wc": 25190000.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 10844000.0,
+      "gross_profit": 0.0,
+      "operating_income": -152632000.0,
+      "net_income": -153942000.0,
+      "dna": 84000.0,
+      "operating_cf": -71532000.0,
+      "capex": -72919000.0,
+      "free_cash_flow": -144451000.0,
+      "dividends_paid": 0.0,
+      "buybacks": -177000.0,
+      "total_assets": 240293000.0,
+      "total_liabilities": 37281000.0,
+      "total_equity": 203012000.0,
+      "cash": 213192000.0,
+      "total_debt": 1644000.0,
+      "current_assets": 236655000.0,
+      "current_liabilities": 36072000.0,
+      "shares_outstanding": 30446767.0,
+      "net_wc": 200583000.0,
+      "wc_change": -175393000.0,
+      "capex_abs": 72919000.0,
+      "maint_capex": 51043300.0,
+      "owner_earnings": -380294300.0,
+      "gross_margin_pct": 0.0,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -380294300.0,
+  "latest_cash": 213192000.0,
+  "latest_debt": 1644000.0,
+  "ev": 290038048.0,
+  "oe_yield": -131.11876273557047,
+  "roe": -75.82901503359408,
+  "debt_equity": 0.008098043465410912,
+  "latest_gm": 0.0,
+  "current_ratio": 6.56062874251497,
+  "latest_net_income": -153942000.0,
+  "latest_dna": 84000.0,
+  "latest_wc_change": -175393000.0,
+  "latest_maint_capex": 51043300.0,
+  "latest_net_wc": 200583000.0,
+  "latest_current_assets": 236655000.0,
+  "latest_current_liabilities": 36072000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.01x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "Crescent Biopharma, Inc. CBIO revenue predictability recurring demand analysis 2025 2026",
+      "Crescent Biopharma, Inc. CBIO business model complexity investor circle of competence",
+      "Crescent Biopharma, Inc. CBIO 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Crescent Biopharma, Inc. CBIO competitive moat analysis switching costs brand advantage",
+      "Crescent Biopharma, Inc. CBIO network effects scale advantages cost leadership",
+      "Crescent Biopharma, Inc. CBIO patents regulatory barriers intellectual property moat",
+      "Crescent Biopharma, Inc. CBIO competitive threats risks disruption challenges 2025 2026",
+      "Crescent Biopharma, Inc. CBIO moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Crescent Biopharma, Inc. CBIO CEO management candor shareholder letter transparency",
+      "Crescent Biopharma, Inc. CBIO executive compensation insider ownership stock options proxy",
+      "Crescent Biopharma, Inc. CBIO key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Crescent Biopharma, Inc. CBIO stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Crescent Biopharma, Inc. CBIO investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Crescent Biopharma, Inc. CBIO market position monopoly commodity pricing power ecosystem",
+      "Crescent Biopharma, Inc. CBIO growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Crescent Biopharma, Inc. CBIO investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Crescent Biopharma, Inc. CBIO investment risk permanent capital loss downside analysis",
+      "Crescent Biopharma, Inc. CBIO opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

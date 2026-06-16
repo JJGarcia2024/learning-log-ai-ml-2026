@@ -1,0 +1,161 @@
+{
+  "ticker": "GSRF",
+  "company_name": "GSR IV Acquisition Corp.",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "GSR IV Acquisition Corp. does not have significant operations. It focuses on effecting a merger, share exchange, asset acquisition, share purchase, recapitalization, reorganization, or similar business combination with one or more businesses. GSR IV Acquisition Corp. was incorporated in 2023 and is based in Austin, Texas.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "N/A",
+  "current_price": 10.15,
+  "market_cap": 298465824.0,
+  "shares_out": 23655500.0,
+  "pe_ratio": 72.5,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 9184.0,
+      "total_liabilities": 0.0,
+      "total_equity": 9184.0,
+      "cash": 0.0,
+      "total_debt": 0.0,
+      "current_assets": 9184.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 26360500.0,
+      "net_wc": 9184.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -10117.0,
+      "net_income": -10117.0,
+      "dna": 0.0,
+      "operating_cf": 0.0,
+      "capex": 0.0,
+      "free_cash_flow": 0.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 2867.0,
+      "total_liabilities": 3800.0,
+      "total_equity": -933.0,
+      "cash": 0.0,
+      "total_debt": 0.0,
+      "current_assets": 2867.0,
+      "current_liabilities": 3800.0,
+      "shares_outstanding": 26360500.0,
+      "net_wc": -933.0,
+      "wc_change": 10117.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 0.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -567012.0,
+      "net_income": 2320989.0,
+      "dna": 0.0,
+      "operating_cf": -611118.0,
+      "capex": 0.0,
+      "free_cash_flow": -611118.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 234586860.0,
+      "total_liabilities": 9220900.0,
+      "total_equity": 225365960.0,
+      "cash": 1550075.0,
+      "total_debt": 0.0,
+      "current_assets": 1698887.0,
+      "current_liabilities": 20900.0,
+      "shares_outstanding": 29405500.0,
+      "net_wc": 1677987.0,
+      "wc_change": -1678920.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 642069.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 642069.0,
+  "latest_cash": 1550075.0,
+  "latest_debt": 0.0,
+  "ev": 296915749.0,
+  "oe_yield": 0.21624619177745266,
+  "roe": 1.0298755854699617,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 81.28645933014354,
+  "latest_net_income": 2320989.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -1678920.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 1677987.0,
+  "latest_current_assets": 1698887.0,
+  "latest_current_liabilities": 20900.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg inf% p.a.",
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "GSR IV Acquisition Corp. GSRF revenue predictability recurring demand analysis 2025 2026",
+      "GSR IV Acquisition Corp. GSRF business model complexity investor circle of competence",
+      "GSR IV Acquisition Corp. GSRF 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "GSR IV Acquisition Corp. GSRF competitive moat analysis switching costs brand advantage",
+      "GSR IV Acquisition Corp. GSRF network effects scale advantages cost leadership",
+      "GSR IV Acquisition Corp. GSRF patents regulatory barriers intellectual property moat",
+      "GSR IV Acquisition Corp. GSRF competitive threats risks disruption challenges 2025 2026",
+      "GSR IV Acquisition Corp. GSRF moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "GSR IV Acquisition Corp. GSRF CEO management candor shareholder letter transparency",
+      "GSR IV Acquisition Corp. GSRF executive compensation insider ownership stock options proxy",
+      "GSR IV Acquisition Corp. GSRF key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "GSR IV Acquisition Corp. GSRF stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "GSR IV Acquisition Corp. GSRF investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "GSR IV Acquisition Corp. GSRF market position monopoly commodity pricing power ecosystem",
+      "GSR IV Acquisition Corp. GSRF growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "GSR IV Acquisition Corp. GSRF investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "GSR IV Acquisition Corp. GSRF investment risk permanent capital loss downside analysis",
+      "GSR IV Acquisition Corp. GSRF opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

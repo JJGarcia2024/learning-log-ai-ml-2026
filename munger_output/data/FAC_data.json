@@ -1,0 +1,133 @@
+{
+  "ticker": "FAC",
+  "company_name": "Factorial Energy Inc.",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment & Parts",
+  "description": "Factorial Energy Inc. manufactures and sells solid-state batteries for the eMobility, defense, and AI/robotics markets. The company offers products, such as high-performing solid-state battery cells, and utilizes advanced manufacturing techniques, including a proprietary dry-coating process. The company was founded in 2013 and is headquartered in Billerica, Massachusetts.",
+  "employees": "N/A",
+  "exchange": "NCM",
+  "website": "https://factorialenergy.com",
+  "current_price": 15.55,
+  "market_cap": 1670318720.0,
+  "shares_out": 107415994.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -56520000.0,
+      "net_income": -54344000.0,
+      "dna": 9131000.0,
+      "operating_cf": -37210000.0,
+      "capex": -1983000.0,
+      "free_cash_flow": -39193000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 116033000.0,
+      "total_liabilities": 272529000.0,
+      "total_equity": -156496000.0,
+      "cash": 48252000.0,
+      "total_debt": 19234000.0,
+      "current_assets": 49638000.0,
+      "current_liabilities": 4419000.0,
+      "shares_outstanding": 107023245.0,
+      "net_wc": 45219000.0,
+      "wc_change": -0.0,
+      "capex_abs": 1983000.0,
+      "maint_capex": 1388100.0,
+      "owner_earnings": -46601100.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -46525000.0,
+      "net_income": -73845000.0,
+      "dna": 6733000.0,
+      "operating_cf": -30162000.0,
+      "capex": -1094000.0,
+      "free_cash_flow": -31256000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 62784000.0,
+      "total_liabilities": 284178000.0,
+      "total_equity": -221394000.0,
+      "cash": 28891000.0,
+      "total_debt": 27426000.0,
+      "current_assets": 32891000.0,
+      "current_liabilities": 5079000.0,
+      "shares_outstanding": 107023245.0,
+      "net_wc": 27812000.0,
+      "wc_change": 17407000.0,
+      "capex_abs": 1094000.0,
+      "maint_capex": 765800.0,
+      "owner_earnings": -50470800.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -50470800.0,
+  "latest_cash": 28891000.0,
+  "latest_debt": 27426000.0,
+  "ev": 1668853720.0,
+  "oe_yield": -3.024279443736986,
+  "roe": 33.354562454267054,
+  "debt_equity": -0.12387869589961788,
+  "latest_gm": null,
+  "current_ratio": 6.47588107895255,
+  "latest_net_income": -73845000.0,
+  "latest_dna": 6733000.0,
+  "latest_wc_change": 17407000.0,
+  "latest_maint_capex": 765800.0,
+  "latest_net_wc": 27812000.0,
+  "latest_current_assets": 32891000.0,
+  "latest_current_liabilities": 5079000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "High ROE 33.4%",
+    "Low leverage (-0.12x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Industrials)",
+  "search_queries": {
+    "section_1": [
+      "Factorial Energy Inc. FAC revenue predictability recurring demand analysis 2025 2026",
+      "Factorial Energy Inc. FAC business model complexity investor circle of competence",
+      "Factorial Energy Inc. FAC 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Factorial Energy Inc. FAC competitive moat analysis switching costs brand advantage",
+      "Factorial Energy Inc. FAC network effects scale advantages cost leadership",
+      "Factorial Energy Inc. FAC patents regulatory barriers intellectual property moat",
+      "Factorial Energy Inc. FAC competitive threats risks disruption challenges 2025 2026",
+      "Factorial Energy Inc. FAC moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Factorial Energy Inc. FAC CEO management candor shareholder letter transparency",
+      "Factorial Energy Inc. FAC executive compensation insider ownership stock options proxy",
+      "Factorial Energy Inc. FAC key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Factorial Energy Inc. FAC stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Factorial Energy Inc. FAC investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Factorial Energy Inc. FAC market position monopoly commodity pricing power ecosystem",
+      "Factorial Energy Inc. FAC growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Factorial Energy Inc. FAC investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Factorial Energy Inc. FAC investment risk permanent capital loss downside analysis",
+      "Factorial Energy Inc. FAC opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

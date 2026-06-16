@@ -1,0 +1,161 @@
+{
+  "ticker": "ARXS",
+  "company_name": "Arxis, Inc.",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "description": "Arxis, Inc. designs and manufactures electronic and mechanical components for mission critical applications in the United States. The company operates through two segments: Electronic Components and Mechanical Components. Its Electronic Components segment provides engineered electronic components and interconnect solutions, including connectors, cable assemblies, microelectronic packaging, radio frequency (RF) and microwave products, power products, sensors, capacitors. and resistors. The Mechanical Components segment offers precision and self-lubricating bearings, seals, springs, gaskets and ",
+  "employees": "5753",
+  "exchange": "NMS",
+  "website": "https://www.arxis.com",
+  "current_price": 40.97,
+  "market_cap": 16811413504.0,
+  "shares_out": 69657950.0,
+  "pe_ratio": 2048.5,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 424495000.0,
+      "gross_profit": 194017000.0,
+      "operating_income": 54321000.0,
+      "net_income": -59918000.0,
+      "dna": 65324000.0,
+      "operating_cf": -7919000.0,
+      "capex": -12502000.0,
+      "free_cash_flow": -20421000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_equity": null,
+      "cash": null,
+      "total_debt": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "shares_outstanding": null,
+      "net_wc": null,
+      "wc_change": -0.0,
+      "capex_abs": 12502000.0,
+      "maint_capex": 8751400.0,
+      "owner_earnings": -3345400.0,
+      "gross_margin_pct": 45.705367554388154,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 742992000.0,
+      "gross_profit": 331139000.0,
+      "operating_income": 102591000.0,
+      "net_income": -55472000.0,
+      "dna": 96303000.0,
+      "operating_cf": 70946000.0,
+      "capex": -28889000.0,
+      "free_cash_flow": 42057000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 6317590000.0,
+      "total_liabilities": 3340463000.0,
+      "total_equity": 2977127000.0,
+      "cash": 110838000.0,
+      "total_debt": 2594295000.0,
+      "current_assets": 712060000.0,
+      "current_liabilities": 263021000.0,
+      "shares_outstanding": 404330766.0,
+      "net_wc": 449039000.0,
+      "wc_change": -0.0,
+      "capex_abs": 28889000.0,
+      "maint_capex": 20222300.0,
+      "owner_earnings": 20608700.0,
+      "gross_margin_pct": 44.568312983181514,
+      "rev_growth_pct": 75.029623434905
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 1601074000.0,
+      "gross_profit": 758059000.0,
+      "operating_income": 107905000.0,
+      "net_income": -49833000.0,
+      "dna": 200111000.0,
+      "operating_cf": 251196000.0,
+      "capex": -42425000.0,
+      "free_cash_flow": 208771000.0,
+      "dividends_paid": -363811000.0,
+      "buybacks": -2047000.0,
+      "total_assets": 6903287000.0,
+      "total_liabilities": 2702331000.0,
+      "total_equity": 4200956000.0,
+      "cash": 561359000.0,
+      "total_debt": 1959661000.0,
+      "current_assets": 1214534000.0,
+      "current_liabilities": 240093000.0,
+      "shares_outstanding": 404330766.0,
+      "net_wc": 974441000.0,
+      "wc_change": -525402000.0,
+      "capex_abs": 42425000.0,
+      "maint_capex": 29697499.999999996,
+      "owner_earnings": -404821500.0,
+      "gross_margin_pct": 47.34690588942173,
+      "rev_growth_pct": 115.49007257144086
+    }
+  ],
+  "latest_oe": -404821500.0,
+  "latest_cash": 561359000.0,
+  "latest_debt": 1959661000.0,
+  "ev": 18209715504.0,
+  "oe_yield": -2.2231072193910757,
+  "roe": -1.186229991459087,
+  "debt_equity": 0.466479772699357,
+  "latest_gm": 47.34690588942173,
+  "current_ratio": 5.058598126559292,
+  "latest_net_income": -49833000.0,
+  "latest_dna": 200111000.0,
+  "latest_wc_change": -525402000.0,
+  "latest_maint_capex": 29697499.999999996,
+  "latest_net_wc": 974441000.0,
+  "latest_current_assets": 1214534000.0,
+  "latest_current_liabilities": 240093000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Pricing power (GM 47.3%)",
+    "Low leverage (0.47x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Industrials)",
+  "search_queries": {
+    "section_1": [
+      "Arxis, Inc. ARXS revenue predictability recurring demand analysis 2025 2026",
+      "Arxis, Inc. ARXS business model complexity investor circle of competence",
+      "Arxis, Inc. ARXS 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Arxis, Inc. ARXS competitive moat analysis switching costs brand advantage",
+      "Arxis, Inc. ARXS network effects scale advantages cost leadership",
+      "Arxis, Inc. ARXS patents regulatory barriers intellectual property moat",
+      "Arxis, Inc. ARXS competitive threats risks disruption challenges 2025 2026",
+      "Arxis, Inc. ARXS moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Arxis, Inc. ARXS CEO management candor shareholder letter transparency",
+      "Arxis, Inc. ARXS executive compensation insider ownership stock options proxy",
+      "Arxis, Inc. ARXS key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Arxis, Inc. ARXS stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Arxis, Inc. ARXS investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Arxis, Inc. ARXS market position monopoly commodity pricing power ecosystem",
+      "Arxis, Inc. ARXS growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Arxis, Inc. ARXS investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Arxis, Inc. ARXS investment risk permanent capital loss downside analysis",
+      "Arxis, Inc. ARXS opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

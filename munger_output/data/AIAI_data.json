@@ -1,0 +1,132 @@
+{
+  "ticker": "AIAI",
+  "company_name": "AIAI Holdings Corporation",
+  "sector": "Industrials",
+  "industry": "Conglomerates",
+  "description": "AIAI Holdings Corporation engages in the creation of an AI-powered ecosystem by acquiring and scaling companies internationally. Its proprietary AI application enhances the operating performance of portfolio companies across various verticals, such as construction, healthcare, defense, blockchain data infrastructure, digital assets, and government services. The company was formerly known as MXLII Corporation and changed its name to AIAI Holdings Corporation in November 2025. AIAI Holdings Corporation was incorporated in 2024 and is based in Dallas, Texas.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://www.aiaiholdings.com",
+  "current_price": 14.84,
+  "market_cap": 1043459648.0,
+  "shares_out": 70313990.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": 23616400000.0,
+      "gross_profit": 4861900000.0,
+      "operating_income": -18816800000.0,
+      "net_income": -15261900000.0,
+      "dna": 0.0,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 0.0,
+      "total_liabilities": 0.0,
+      "total_equity": 0.0,
+      "cash": 0.0,
+      "total_debt": 0.0,
+      "current_assets": 0.0,
+      "current_liabilities": 0.0,
+      "shares_outstanding": 70313990.0,
+      "net_wc": 0.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": 20.586964990430378,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 271996000.0,
+      "gross_profit": 40792000.0,
+      "operating_income": -201925000.0,
+      "net_income": -159699000.0,
+      "dna": 0.0,
+      "operating_cf": -2487000.0,
+      "capex": 0.0,
+      "free_cash_flow": -2487000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 1778493000.0,
+      "total_liabilities": 415543000.0,
+      "total_equity": 1362950000.0,
+      "cash": 32880000.0,
+      "total_debt": 48418000.0,
+      "current_assets": 106241000.0,
+      "current_liabilities": 95609000.0,
+      "shares_outstanding": 70313990.0,
+      "net_wc": 10632000.0,
+      "wc_change": -10632000.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -170331000.0,
+      "gross_margin_pct": 14.997279371755468,
+      "rev_growth_pct": -98.8482749275927
+    }
+  ],
+  "latest_oe": -170331000.0,
+  "latest_cash": 32880000.0,
+  "latest_debt": 48418000.0,
+  "ev": 1058997648.0,
+  "oe_yield": -16.08417169969012,
+  "roe": -11.717157636010125,
+  "debt_equity": 0.03552441395502403,
+  "latest_gm": 14.997279371755468,
+  "current_ratio": 1.1112029202271754,
+  "latest_net_income": -159699000.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -10632000.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 10632000.0,
+  "latest_current_assets": 106241000.0,
+  "latest_current_liabilities": 95609000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.04x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Industrials)",
+  "search_queries": {
+    "section_1": [
+      "AIAI Holdings Corporation AIAI revenue predictability recurring demand analysis 2025 2026",
+      "AIAI Holdings Corporation AIAI business model complexity investor circle of competence",
+      "AIAI Holdings Corporation AIAI 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "AIAI Holdings Corporation AIAI competitive moat analysis switching costs brand advantage",
+      "AIAI Holdings Corporation AIAI network effects scale advantages cost leadership",
+      "AIAI Holdings Corporation AIAI patents regulatory barriers intellectual property moat",
+      "AIAI Holdings Corporation AIAI competitive threats risks disruption challenges 2025 2026",
+      "AIAI Holdings Corporation AIAI moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "AIAI Holdings Corporation AIAI CEO management candor shareholder letter transparency",
+      "AIAI Holdings Corporation AIAI executive compensation insider ownership stock options proxy",
+      "AIAI Holdings Corporation AIAI key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "AIAI Holdings Corporation AIAI stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "AIAI Holdings Corporation AIAI investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "AIAI Holdings Corporation AIAI market position monopoly commodity pricing power ecosystem",
+      "AIAI Holdings Corporation AIAI growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "AIAI Holdings Corporation AIAI investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "AIAI Holdings Corporation AIAI investment risk permanent capital loss downside analysis",
+      "AIAI Holdings Corporation AIAI opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

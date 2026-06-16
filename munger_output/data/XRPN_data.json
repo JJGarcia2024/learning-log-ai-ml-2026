@@ -1,0 +1,104 @@
+{
+  "ticker": "XRPN",
+  "company_name": "Armada Acquisition Corp. II",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Armada Acquisition Corp. II focuses on effecting a merger, share exchange, asset acquisition, share purchase, recapitalization, reorganization or other similar business combination with one or more businesses in the technological services. The company was incorporated in 2024 and is based in Miami, Florida.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://armadaacq.com",
+  "current_price": 10.42,
+  "market_cap": 411277408.0,
+  "shares_out": 23710000.0,
+  "pe_ratio": 80.15385,
+  "financial_data": [
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -1706183.0,
+      "net_income": 1771983.0,
+      "dna": 0.0,
+      "operating_cf": -349425.0,
+      "capex": 0.0,
+      "free_cash_flow": -349425.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 235199591.0,
+      "total_liabilities": 10715994.0,
+      "total_equity": 224483597.0,
+      "cash": 361105.0,
+      "total_debt": 0.0,
+      "current_assets": 548532.0,
+      "current_liabilities": 1478430.0,
+      "shares_outstanding": 31590000.0,
+      "net_wc": -929898.0,
+      "wc_change": -0.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 1771983.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 1771983.0,
+  "latest_cash": 361105.0,
+  "latest_debt": 0.0,
+  "ev": 410916303.0,
+  "oe_yield": 0.4312272321792012,
+  "roe": 0.7893596786940296,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 0.37102331527363486,
+  "latest_net_income": 1771983.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -0.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": -929898.0,
+  "latest_current_assets": 548532.0,
+  "latest_current_liabilities": 1478430.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Armada Acquisition Corp. II XRPN revenue predictability recurring demand analysis 2025 2026",
+      "Armada Acquisition Corp. II XRPN business model complexity investor circle of competence",
+      "Armada Acquisition Corp. II XRPN 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Armada Acquisition Corp. II XRPN competitive moat analysis switching costs brand advantage",
+      "Armada Acquisition Corp. II XRPN network effects scale advantages cost leadership",
+      "Armada Acquisition Corp. II XRPN patents regulatory barriers intellectual property moat",
+      "Armada Acquisition Corp. II XRPN competitive threats risks disruption challenges 2025 2026",
+      "Armada Acquisition Corp. II XRPN moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Armada Acquisition Corp. II XRPN CEO management candor shareholder letter transparency",
+      "Armada Acquisition Corp. II XRPN executive compensation insider ownership stock options proxy",
+      "Armada Acquisition Corp. II XRPN key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Armada Acquisition Corp. II XRPN stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Armada Acquisition Corp. II XRPN investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Armada Acquisition Corp. II XRPN market position monopoly commodity pricing power ecosystem",
+      "Armada Acquisition Corp. II XRPN growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Armada Acquisition Corp. II XRPN investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Armada Acquisition Corp. II XRPN investment risk permanent capital loss downside analysis",
+      "Armada Acquisition Corp. II XRPN opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

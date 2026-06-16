@@ -1,0 +1,132 @@
+{
+  "ticker": "SZZL",
+  "company_name": "Sizzle Acquisition Corp. II",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Sizzle Acquisition Corp. II does not have significant operations. It focuses on effecting a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization or similar business combination with one or more businesses. The company was incorporated in 2024 and is based in Washington, District Of Columbia.",
+  "employees": "N/A",
+  "exchange": "NGM",
+  "website": "https://www.sizzlespacII.com",
+  "current_price": 10.36,
+  "market_cap": 323922656.0,
+  "shares_out": 23600000.0,
+  "pe_ratio": 33.419353,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 149460.0,
+      "total_liabilities": 191790.0,
+      "total_equity": -42330.0,
+      "cash": 0.0,
+      "total_debt": 121550.0,
+      "current_assets": 0.0,
+      "current_liabilities": 191790.0,
+      "shares_outstanding": 27266667.0,
+      "net_wc": -191790.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -537453.0,
+      "net_income": 6469756.0,
+      "dna": 0.0,
+      "operating_cf": -600842.0,
+      "capex": 0.0,
+      "free_cash_flow": -600842.0,
+      "dividends_paid": 0.0,
+      "buybacks": -306752.0,
+      "total_assets": 237962086.0,
+      "total_liabilities": 11088927.0,
+      "total_equity": 226873159.0,
+      "cash": 805124.0,
+      "total_debt": 0.0,
+      "current_assets": 931516.0,
+      "current_liabilities": 138927.0,
+      "shares_outstanding": 31266667.0,
+      "net_wc": 792589.0,
+      "wc_change": -984379.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": 5485377.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": 5485377.0,
+  "latest_cash": 805124.0,
+  "latest_debt": 0.0,
+  "ev": 323117532.0,
+  "oe_yield": 1.6976414018908763,
+  "roe": 2.851706225856361,
+  "debt_equity": 0.0,
+  "latest_gm": null,
+  "current_ratio": 6.705075327330181,
+  "latest_net_income": 6469756.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -984379.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 792589.0,
+  "latest_current_assets": 931516.0,
+  "latest_current_liabilities": 138927.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Sizzle Acquisition Corp. II SZZL revenue predictability recurring demand analysis 2025 2026",
+      "Sizzle Acquisition Corp. II SZZL business model complexity investor circle of competence",
+      "Sizzle Acquisition Corp. II SZZL 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Sizzle Acquisition Corp. II SZZL competitive moat analysis switching costs brand advantage",
+      "Sizzle Acquisition Corp. II SZZL network effects scale advantages cost leadership",
+      "Sizzle Acquisition Corp. II SZZL patents regulatory barriers intellectual property moat",
+      "Sizzle Acquisition Corp. II SZZL competitive threats risks disruption challenges 2025 2026",
+      "Sizzle Acquisition Corp. II SZZL moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Sizzle Acquisition Corp. II SZZL CEO management candor shareholder letter transparency",
+      "Sizzle Acquisition Corp. II SZZL executive compensation insider ownership stock options proxy",
+      "Sizzle Acquisition Corp. II SZZL key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Sizzle Acquisition Corp. II SZZL stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Sizzle Acquisition Corp. II SZZL investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Sizzle Acquisition Corp. II SZZL market position monopoly commodity pricing power ecosystem",
+      "Sizzle Acquisition Corp. II SZZL growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Sizzle Acquisition Corp. II SZZL investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Sizzle Acquisition Corp. II SZZL investment risk permanent capital loss downside analysis",
+      "Sizzle Acquisition Corp. II SZZL opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

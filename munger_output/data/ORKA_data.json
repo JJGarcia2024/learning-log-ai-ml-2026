@@ -1,0 +1,132 @@
+{
+  "ticker": "ORKA",
+  "company_name": "Oruka Therapeutics, Inc.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "description": "Oruka Therapeutics, Inc., a clinical-stage biopharmaceutical company, focuses on developing novel monoclonal antibody therapeutics for psoriasis (PsO), and other inflammatory and immunology (I&I) indications. Its lead products include ORKA-001 that targets p19 subunit of interleukin-23, which is in phase 2a trial for the treatment of PsO; and ORKA-002 that targets interleukin-17A and interleukin-17F, which is in phase 2 trial for the treatment of PsO, psoriatic arthritis, and other conditions. The company also develops ORKA-003 for targeting an undisclosed pathway; and ORKA-021, a sequential c",
+  "employees": "68",
+  "exchange": "NGM",
+  "website": "https://orukatx.com",
+  "current_price": 68.86,
+  "market_cap": 4153091328.0,
+  "shares_out": 60312101.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 396019000.0,
+      "total_liabilities": 16729000.0,
+      "total_equity": 379290000.0,
+      "cash": 61575000.0,
+      "total_debt": 968000.0,
+      "current_assets": 376869000.0,
+      "current_liabilities": 13043000.0,
+      "shares_outstanding": 37440510.0,
+      "net_wc": 363826000.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -122051000.0,
+      "net_income": -105433000.0,
+      "dna": 83000.0,
+      "operating_cf": -88210000.0,
+      "capex": -209000.0,
+      "free_cash_flow": -88419000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 488617000.0,
+      "total_liabilities": 19618000.0,
+      "total_equity": 468999000.0,
+      "cash": 46935000.0,
+      "total_debt": 1932000.0,
+      "current_assets": 343857000.0,
+      "current_liabilities": 15374000.0,
+      "shares_outstanding": 48722309.0,
+      "net_wc": 328483000.0,
+      "wc_change": 35343000.0,
+      "capex_abs": 209000.0,
+      "maint_capex": 146300.0,
+      "owner_earnings": -70153300.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -70153300.0,
+  "latest_cash": 46935000.0,
+  "latest_debt": 1932000.0,
+  "ev": 4108088328.0,
+  "oe_yield": -1.7076872354921773,
+  "roe": -22.48043172799942,
+  "debt_equity": 0.00411941176846859,
+  "latest_gm": null,
+  "current_ratio": 22.366137634968126,
+  "latest_net_income": -105433000.0,
+  "latest_dna": 83000.0,
+  "latest_wc_change": 35343000.0,
+  "latest_maint_capex": 146300.0,
+  "latest_net_wc": 328483000.0,
+  "latest_current_assets": 343857000.0,
+  "latest_current_liabilities": 15374000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "REVIEW (analyst confirmed) — complex sector: Healthcare",
+  "search_queries": {
+    "section_1": [
+      "Oruka Therapeutics, Inc. ORKA revenue predictability recurring demand analysis 2025 2026",
+      "Oruka Therapeutics, Inc. ORKA business model complexity investor circle of competence",
+      "Oruka Therapeutics, Inc. ORKA 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Oruka Therapeutics, Inc. ORKA competitive moat analysis switching costs brand advantage",
+      "Oruka Therapeutics, Inc. ORKA network effects scale advantages cost leadership",
+      "Oruka Therapeutics, Inc. ORKA patents regulatory barriers intellectual property moat",
+      "Oruka Therapeutics, Inc. ORKA competitive threats risks disruption challenges 2025 2026",
+      "Oruka Therapeutics, Inc. ORKA moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Oruka Therapeutics, Inc. ORKA CEO management candor shareholder letter transparency",
+      "Oruka Therapeutics, Inc. ORKA executive compensation insider ownership stock options proxy",
+      "Oruka Therapeutics, Inc. ORKA key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Oruka Therapeutics, Inc. ORKA stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Oruka Therapeutics, Inc. ORKA investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Oruka Therapeutics, Inc. ORKA market position monopoly commodity pricing power ecosystem",
+      "Oruka Therapeutics, Inc. ORKA growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Oruka Therapeutics, Inc. ORKA investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Oruka Therapeutics, Inc. ORKA investment risk permanent capital loss downside analysis",
+      "Oruka Therapeutics, Inc. ORKA opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

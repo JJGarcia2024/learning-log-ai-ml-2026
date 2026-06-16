@@ -1,0 +1,161 @@
+{
+  "ticker": "CGEH",
+  "company_name": "Capstone Energy+, Inc.",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
+  "description": "Capstone Energy+, Inc. provides customized microgrid solutions, on-site resilient energy-as-a-service (EaaS) solutions, and on-site energy technology systems. The company's solutions include stationary distributed power generation applications and distribution networks, including cogeneration, integrated combined heat and power, renewable energy, natural resources, and critical power supply, as well as combined cooling, heat, and power. Its inverter-based technologies solve resiliency by connecting to the electric grid or be the backbone of a localized microgrid; energy conversion products inc",
+  "employees": "100",
+  "exchange": "OQX",
+  "website": "https://www.capstonegreenenergy.com",
+  "current_price": 11.5,
+  "market_cap": 351330912.0,
+  "shares_out": 30217394.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2022",
+      "revenue": 69645000.0,
+      "gross_profit": 8538000.0,
+      "operating_income": -17801000.0,
+      "net_income": -20211000.0,
+      "dna": 2572000.0,
+      "operating_cf": -27498000.0,
+      "capex": -9924000.0,
+      "free_cash_flow": -37422000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 100773000.0,
+      "total_liabilities": 95359000.0,
+      "total_equity": 5414000.0,
+      "cash": 22559000.0,
+      "total_debt": 57433000.0,
+      "current_assets": 71208000.0,
+      "current_liabilities": 37620000.0,
+      "shares_outstanding": 15296735.0,
+      "net_wc": 33588000.0,
+      "wc_change": -0.0,
+      "capex_abs": 9924000.0,
+      "maint_capex": 6946800.0,
+      "owner_earnings": -24585800.0,
+      "gross_margin_pct": 12.259315097996986,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 91219000.0,
+      "gross_profit": 14284000.0,
+      "operating_income": -20354000.0,
+      "net_income": 7392000.0,
+      "dna": 3988000.0,
+      "operating_cf": -27658000.0,
+      "capex": -4674000.0,
+      "free_cash_flow": -32332000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 84206000.0,
+      "total_liabilities": 84993000.0,
+      "total_equity": -14646000.0,
+      "cash": 2085000.0,
+      "total_debt": 44743000.0,
+      "current_assets": 34728000.0,
+      "current_liabilities": 73227000.0,
+      "shares_outstanding": 19049264.0,
+      "net_wc": -38499000.0,
+      "wc_change": 72087000.0,
+      "capex_abs": 4674000.0,
+      "maint_capex": 3271800.0,
+      "owner_earnings": 80195200.0,
+      "gross_margin_pct": 15.659018406253084,
+      "rev_growth_pct": 30.977098140570035
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 85564000.0,
+      "gross_profit": 23298000.0,
+      "operating_income": -5574000.0,
+      "net_income": -7190000.0,
+      "dna": 3858000.0,
+      "operating_cf": 7688000.0,
+      "capex": -879000.0,
+      "free_cash_flow": 6809000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 74864000.0,
+      "total_liabilities": 82625000.0,
+      "total_equity": -21620000.0,
+      "cash": 8671000.0,
+      "total_debt": 42973000.0,
+      "current_assets": 36089000.0,
+      "current_liabilities": 52578000.0,
+      "shares_outstanding": 19152062.0,
+      "net_wc": -16489000.0,
+      "wc_change": -22010000.0,
+      "capex_abs": 879000.0,
+      "maint_capex": 615300.0,
+      "owner_earnings": -25957300.0,
+      "gross_margin_pct": 27.228741059324012,
+      "rev_growth_pct": -6.199366360078495
+    }
+  ],
+  "latest_oe": -25957300.0,
+  "latest_cash": 8671000.0,
+  "latest_debt": 42973000.0,
+  "ev": 385632912.0,
+  "oe_yield": -6.731090421037507,
+  "roe": 33.256244218316375,
+  "debt_equity": -1.987650323774283,
+  "latest_gm": 27.228741059324012,
+  "current_ratio": 0.6863897447601659,
+  "latest_net_income": -7190000.0,
+  "latest_dna": 3858000.0,
+  "latest_wc_change": -22010000.0,
+  "latest_maint_capex": 615300.0,
+  "latest_net_wc": -16489000.0,
+  "latest_current_assets": 36089000.0,
+  "latest_current_liabilities": 52578000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "High ROE 33.3%",
+    "Low leverage (-1.99x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Industrials)",
+  "search_queries": {
+    "section_1": [
+      "Capstone Energy+, Inc. CGEH revenue predictability recurring demand analysis 2025 2026",
+      "Capstone Energy+, Inc. CGEH business model complexity investor circle of competence",
+      "Capstone Energy+, Inc. CGEH 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Capstone Energy+, Inc. CGEH competitive moat analysis switching costs brand advantage",
+      "Capstone Energy+, Inc. CGEH network effects scale advantages cost leadership",
+      "Capstone Energy+, Inc. CGEH patents regulatory barriers intellectual property moat",
+      "Capstone Energy+, Inc. CGEH competitive threats risks disruption challenges 2025 2026",
+      "Capstone Energy+, Inc. CGEH moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Capstone Energy+, Inc. CGEH CEO management candor shareholder letter transparency",
+      "Capstone Energy+, Inc. CGEH executive compensation insider ownership stock options proxy",
+      "Capstone Energy+, Inc. CGEH key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Capstone Energy+, Inc. CGEH stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Capstone Energy+, Inc. CGEH investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Capstone Energy+, Inc. CGEH market position monopoly commodity pricing power ecosystem",
+      "Capstone Energy+, Inc. CGEH growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Capstone Energy+, Inc. CGEH investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Capstone Energy+, Inc. CGEH investment risk permanent capital loss downside analysis",
+      "Capstone Energy+, Inc. CGEH opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

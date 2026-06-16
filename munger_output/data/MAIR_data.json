@@ -1,0 +1,161 @@
+{
+  "ticker": "MAIR",
+  "company_name": "Madison Air Solutions Corporation",
+  "sector": "Industrials",
+  "industry": "Building Products & Equipment",
+  "description": "Madison Air Solutions Corporation manufactures and sells indoor air quality products and solutions in the United States and internationally. It offers heating, air filtration and purification, air movement, and air conditioning solutions under the Reznor, AprilAire, Big Ass Fans, Nortek Air Solutions and, Roberts-Gordon. The company also provides related services, such as custom design, installation, repair, and maintenance. The company distributes through various customer bases and sales channels, including direct sales to national, regional and local companies; manufacturers' sales represent",
+  "employees": "8650",
+  "exchange": "NYQ",
+  "website": "https://www.madisonair.com",
+  "current_price": 38.9,
+  "market_cap": 19501242368.0,
+  "shares_out": 176888113.0,
+  "pe_ratio": 111.14286,
+  "financial_data": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 2556200000.0,
+      "gross_profit": 937800000.0,
+      "operating_income": 418800000.0,
+      "net_income": 58200000.0,
+      "dna": 148200000.0,
+      "operating_cf": 288100000.0,
+      "capex": -26100000.0,
+      "free_cash_flow": 262000000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 6384400000.0,
+      "total_liabilities": 5238000000.0,
+      "total_equity": 1010600000.0,
+      "cash": 287100000.0,
+      "total_debt": 4141300000.0,
+      "current_assets": 1083600000.0,
+      "current_liabilities": 541500000.0,
+      "shares_outstanding": 488926325.0,
+      "net_wc": 542100000.0,
+      "wc_change": -0.0,
+      "capex_abs": 26100000.0,
+      "maint_capex": 18270000.0,
+      "owner_earnings": 188130000.0,
+      "gross_margin_pct": 36.687270166653626,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2024",
+      "revenue": 2624700000.0,
+      "gross_profit": 1006900000.0,
+      "operating_income": 486500000.0,
+      "net_income": 175200000.0,
+      "dna": 140800000.0,
+      "operating_cf": 17900000.0,
+      "capex": -28200000.0,
+      "free_cash_flow": -10300000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 5453000000.0,
+      "total_liabilities": 5545500000.0,
+      "total_equity": -58100000.0,
+      "cash": 339900000.0,
+      "total_debt": 4150500000.0,
+      "current_assets": 1152100000.0,
+      "current_liabilities": 521900000.0,
+      "shares_outstanding": 488926325.0,
+      "net_wc": 630200000.0,
+      "wc_change": -88100000.0,
+      "capex_abs": 28200000.0,
+      "maint_capex": 19740000.0,
+      "owner_earnings": 208160000.0,
+      "gross_margin_pct": 38.362479521469126,
+      "rev_growth_pct": 2.6797590172912944
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 3518900000.0,
+      "gross_profit": 1364300000.0,
+      "operating_income": 501600000.0,
+      "net_income": 30800000.0,
+      "dna": 190000000.0,
+      "operating_cf": 480400000.0,
+      "capex": -40600000.0,
+      "free_cash_flow": 439800000.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 8177100000.0,
+      "total_liabilities": 8095000000.0,
+      "total_equity": -37000000.0,
+      "cash": 208400000.0,
+      "total_debt": 5650400000.0,
+      "current_assets": 1136000000.0,
+      "current_liabilities": 681400000.0,
+      "shares_outstanding": 488926325.0,
+      "net_wc": 454600000.0,
+      "wc_change": 175600000.0,
+      "capex_abs": 40600000.0,
+      "maint_capex": 28420000.0,
+      "owner_earnings": 367980000.0,
+      "gross_margin_pct": 38.77063855182017,
+      "rev_growth_pct": 34.06865546538651
+    }
+  ],
+  "latest_oe": 367980000.0,
+  "latest_cash": 208400000.0,
+  "latest_debt": 5650400000.0,
+  "ev": 24943242368.0,
+  "oe_yield": 1.4752693117077922,
+  "roe": -83.24324324324324,
+  "debt_equity": -152.7135135135135,
+  "latest_gm": 38.77063855182017,
+  "current_ratio": 1.6671558555914294,
+  "latest_net_income": 30800000.0,
+  "latest_dna": 190000000.0,
+  "latest_wc_change": 175600000.0,
+  "latest_maint_capex": 28420000.0,
+  "latest_net_wc": 454600000.0,
+  "latest_current_assets": 1136000000.0,
+  "latest_current_liabilities": 681400000.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "OE growing avg 43.7% p.a.",
+    "Low leverage (-152.71x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Industrials)",
+  "search_queries": {
+    "section_1": [
+      "Madison Air Solutions Corporation MAIR revenue predictability recurring demand analysis 2025 2026",
+      "Madison Air Solutions Corporation MAIR business model complexity investor circle of competence",
+      "Madison Air Solutions Corporation MAIR 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Madison Air Solutions Corporation MAIR competitive moat analysis switching costs brand advantage",
+      "Madison Air Solutions Corporation MAIR network effects scale advantages cost leadership",
+      "Madison Air Solutions Corporation MAIR patents regulatory barriers intellectual property moat",
+      "Madison Air Solutions Corporation MAIR competitive threats risks disruption challenges 2025 2026",
+      "Madison Air Solutions Corporation MAIR moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Madison Air Solutions Corporation MAIR CEO management candor shareholder letter transparency",
+      "Madison Air Solutions Corporation MAIR executive compensation insider ownership stock options proxy",
+      "Madison Air Solutions Corporation MAIR key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Madison Air Solutions Corporation MAIR stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Madison Air Solutions Corporation MAIR investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Madison Air Solutions Corporation MAIR market position monopoly commodity pricing power ecosystem",
+      "Madison Air Solutions Corporation MAIR growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Madison Air Solutions Corporation MAIR investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Madison Air Solutions Corporation MAIR investment risk permanent capital loss downside analysis",
+      "Madison Air Solutions Corporation MAIR opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}

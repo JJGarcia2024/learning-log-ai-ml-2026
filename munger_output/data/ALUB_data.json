@@ -1,0 +1,132 @@
+{
+  "ticker": "ALUB",
+  "company_name": "Alussa Energy Acquisition Corp. II",
+  "sector": "Financial Services",
+  "industry": "Shell Companies",
+  "description": "Alussa Energy Acquisition Corp. II focuses on effecting a merger, amalgamation, capital share exchange, asset acquisition, share purchase, reorganization or similar business combination with one or more businesses. The company was incorporated in 2024 and is based in Austin, Texas.",
+  "employees": "N/A",
+  "exchange": "NYQ",
+  "website": "https://www.alussaenergy.com/copy-of-alussa-energy-acquisition-corp",
+  "current_price": 10.03,
+  "market_cap": 360453120.0,
+  "shares_out": 28750000.0,
+  "pe_ratio": 0.0,
+  "financial_data": [
+    {
+      "fiscal_year": "2024",
+      "revenue": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "dna": null,
+      "operating_cf": null,
+      "capex": null,
+      "free_cash_flow": null,
+      "dividends_paid": null,
+      "buybacks": null,
+      "total_assets": 622706.0,
+      "total_liabilities": 671941.0,
+      "total_equity": -49235.0,
+      "cash": 4200.0,
+      "total_debt": 25000.0,
+      "current_assets": 4200.0,
+      "current_liabilities": 671941.0,
+      "shares_outstanding": 31250000.0,
+      "net_wc": -667741.0,
+      "wc_change": -0.0,
+      "capex_abs": null,
+      "maint_capex": null,
+      "owner_earnings": null,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    },
+    {
+      "fiscal_year": "2025",
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "operating_income": -8844519.0,
+      "net_income": -7403644.0,
+      "dna": 0.0,
+      "operating_cf": -330856.0,
+      "capex": 0.0,
+      "free_cash_flow": -330856.0,
+      "dividends_paid": 0.0,
+      "buybacks": 0.0,
+      "total_assets": 290243281.0,
+      "total_liabilities": 18716728.0,
+      "total_equity": 271526553.0,
+      "cash": 1163106.0,
+      "total_debt": 197917.0,
+      "current_assets": 1243906.0,
+      "current_liabilities": 269315.0,
+      "shares_outstanding": 35937500.0,
+      "net_wc": 974591.0,
+      "wc_change": -1642332.0,
+      "capex_abs": 0.0,
+      "maint_capex": 0.0,
+      "owner_earnings": -9045976.0,
+      "gross_margin_pct": null,
+      "rev_growth_pct": null
+    }
+  ],
+  "latest_oe": -9045976.0,
+  "latest_cash": 1163106.0,
+  "latest_debt": 197917.0,
+  "ev": 359487931.0,
+  "oe_yield": -2.5163504028734693,
+  "roe": -2.726674028082992,
+  "debt_equity": 0.0007289047712398132,
+  "latest_gm": null,
+  "current_ratio": 4.618777268254646,
+  "latest_net_income": -7403644.0,
+  "latest_dna": 0.0,
+  "latest_wc_change": -1642332.0,
+  "latest_maint_capex": 0.0,
+  "latest_net_wc": 974591.0,
+  "latest_current_assets": 1243906.0,
+  "latest_current_liabilities": 269315.0,
+  "mos_flag": "NO — yield does not compensate for business risk",
+  "lolla_signals": [
+    "Low leverage (0.00x D/E)"
+  ],
+  "s1a": "YES — business model is understandable (Financial Services)",
+  "search_queries": {
+    "section_1": [
+      "Alussa Energy Acquisition Corp. II ALUB revenue predictability recurring demand analysis 2025 2026",
+      "Alussa Energy Acquisition Corp. II ALUB business model complexity investor circle of competence",
+      "Alussa Energy Acquisition Corp. II ALUB 10 year earnings outlook business stability forecast"
+    ],
+    "section_2": [
+      "Alussa Energy Acquisition Corp. II ALUB competitive moat analysis switching costs brand advantage",
+      "Alussa Energy Acquisition Corp. II ALUB network effects scale advantages cost leadership",
+      "Alussa Energy Acquisition Corp. II ALUB patents regulatory barriers intellectual property moat",
+      "Alussa Energy Acquisition Corp. II ALUB competitive threats risks disruption challenges 2025 2026",
+      "Alussa Energy Acquisition Corp. II ALUB moat widening narrowing competitive position trend"
+    ],
+    "section_3": [
+      "Alussa Energy Acquisition Corp. II ALUB CEO management candor shareholder letter transparency",
+      "Alussa Energy Acquisition Corp. II ALUB executive compensation insider ownership stock options proxy",
+      "Alussa Energy Acquisition Corp. II ALUB key man risk CEO succession plan leadership"
+    ],
+    "section_5": [
+      "Alussa Energy Acquisition Corp. II ALUB stock valuation fair value analyst price target 2025 2026"
+    ],
+    "section_6": [
+      "Alussa Energy Acquisition Corp. II ALUB investor sentiment hype contrarian analysis bias"
+    ],
+    "section_7": [
+      "Alussa Energy Acquisition Corp. II ALUB market position monopoly commodity pricing power ecosystem",
+      "Alussa Energy Acquisition Corp. II ALUB growth engines expansion opportunities critical mass"
+    ],
+    "section_8": [
+      "Alussa Energy Acquisition Corp. II ALUB investment thesis bull bear case converging forces"
+    ],
+    "section_9": [
+      "Alussa Energy Acquisition Corp. II ALUB investment risk permanent capital loss downside analysis",
+      "Alussa Energy Acquisition Corp. II ALUB opportunity cost alternative investments comparison"
+    ]
+  },
+  "risk_free_rate": 4.35,
+  "maint_capex_ratio": 0.7,
+  "fetch_date": "2026-06-16"
+}
