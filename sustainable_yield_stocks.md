@@ -655,3 +655,96 @@
 | NEM | Newmont Corporation | 4.38% | 53.2% | 20.9% |
 | VALU | Value Line, Inc. | 4.86% | 58.8% | 20.8% |
 | SBC | SBC Medical Group Holdings Incorporated | 2.65% | 73.3% | 20.5% |
+## The Sustainable Hidden Gems
+> **Filters Applied:** 7% $\leq$ OE Yield $\leq$ 15%, Gross Margin $\geq$ 40%, Debt-to-Equity $\leq$ 0.5
+>
+> *These are companies that offer a massive margin of safety alongside incredibly strong underlying business economics (high margins, very low debt).*
+
+| Ticker | Company Name | OE Yield | Gross Margin | D/E Ratio |
+|--------|--------------|----------|--------------|-----------|
+| CRM | Salesforce, Inc. | 14.74% | 77.7% | 0.29x |
+| SD | SandRidge Energy, Inc. | 14.24% | 43.1% | 0.00x |
+| CURB | Curbline Properties Corp. | 14.23% | 74.9% | 0.22x |
+| ZD | Ziff Davis, Inc. | 13.84% | 85.8% | 0.49x |
+| ETD | Ethan Allen Interiors Inc. | 13.65% | 60.5% | 0.26x |
+| IIPR | Innovative Industrial Properties, Inc. | 13.49% | 88.7% | 0.21x |
+| PWP | Perella Weinberg Partners | 13.37% | 43.3% | -1.46x |
+| AD | Array Digital Infrastructure, Inc. | 13.07% | 51.2% | 0.47x |
+| BIPC | Brookfield Infrastructure Corporation | 12.71% | 63.6% | -10.21x |
+| PYPL | PayPal Holdings, Inc. | 12.68% | 46.6% | 0.49x |
+| AUPH | Aurinia Pharmaceuticals Inc. | 12.53% | 88.5% | 0.13x |
+| TRMD | TORM plc | 12.29% | 52.5% | 0.46x |
+| FTW | Presidio Production Company | 12.13% | 55.2% | -11.13x |
+| CART | Maplebear Inc. | 12.03% | 73.7% | 0.01x |
+| BCRX | BioCryst Pharmaceuticals, Inc. | 11.95% | 97.8% | -3.68x |
+| EDU | New Oriental Education & Technology Group Inc. | 11.74% | 55.4% | 0.22x |
+| FRPH | FRP Holdings, Inc. | 11.69% | 90.9% | 0.45x |
+| WEYS | Weyco Group, Inc. | 11.54% | 43.2% | 0.05x |
+| BIO | Bio-Rad Laboratories, Inc. | 11.49% | 51.9% | 0.19x |
+| BBWI | Bath & Body Works, Inc. | 11.37% | 43.7% | -3.87x |
+| WDAY | Workday, Inc. | 11.28% | 75.7% | 0.49x |
+| HSTM | HealthStream, Inc. | 11.06% | 64.7% | 0.04x |
+| FC | Franklin Covey Co. | 10.97% | 76.2% | 0.01x |
+| LZB | La-Z-Boy Incorporated | 10.80% | 43.9% | 0.48x |
+| YALA | Yalla Group Limited | 10.78% | 67.3% | 0.00x |
+| MKTX | MarketAxess Holdings Inc. | 10.71% | 59.4% | 0.25x |
+| SAM | The Boston Beer Company, Inc. | 10.56% | 48.5% | 0.04x |
+| STRA | Strategic Education, Inc. | 10.45% | 49.0% | 0.07x |
+| VSNT | Versant Media Group, Inc. | 10.42% | 56.1% | 0.10x |
+| LULU | lululemon athletica inc. | 10.35% | 56.6% | 0.36x |
+| NLCP | NewLake Capital Partners, Inc. | 10.28% | 97.7% | 0.02x |
+| EOG | EOG Resources, Inc. | 10.27% | 63.4% | 0.28x |
+| SU | Suncor Energy Inc. | 10.16% | 41.4% | 0.32x |
+| PATH | UiPath, Inc. | 10.15% | 83.2% | 0.04x |
+| RVTY | Revvity, Inc. | 10.10% | 54.8% | 0.47x |
+| SEIC | SEI Investments Company | 10.01% | 53.5% | 0.01x |
+| TTD | The Trade Desk, Inc. | 9.96% | 78.6% | 0.18x |
+| SPSC | SPS Commerce, Inc. | 9.95% | 69.2% | 0.01x |
+| GPOR | Gulfport Energy Corporation | 9.87% | 70.7% | 0.43x |
+| DCBO | Docebo Inc. | 9.81% | 80.3% | 0.03x |
+| DV | DoubleVerify Holdings, Inc. | 9.77% | 82.2% | 0.09x |
+| DOCS | Doximity, Inc. | 9.72% | 89.1% | 0.01x |
+| NRDS | NerdWallet, Inc. | 9.65% | 92.4% | 0.04x |
+| CRMD | CorMedix Inc. | 9.44% | 88.5% | 0.37x |
+| MTCH | Match Group, Inc. | 9.43% | 72.8% | -15.67x |
+| RAMP | LiveRamp Holdings, Inc. | 9.37% | 70.7% | 0.03x |
+| USNA | USANA Health Sciences, Inc. | 9.34% | 78.3% | 0.04x |
+| SCMWY | Swisscom AG | 9.29% | 80.0% | 0.30x |
+| RSKD | Riskified Ltd. | 9.28% | 51.7% | 0.08x |
+| SBAC | SBA Communications Corporation | 9.14% | 75.5% | -3.16x |
+| SCHL | Scholastic Corporation | 9.05% | 55.8% | 0.40x |
+| TRI | Thomson Reuters Corporation | 8.84% | 75.8% | 0.20x |
+| AYI | Acuity Inc. | 8.81% | 47.8% | 0.37x |
+| PSO | Pearson plc | 8.77% | 52.0% | 0.41x |
+| ZIP | ZipRecruiter, Inc. | 8.76% | 89.2% | -7.22x |
+| OGC | OceanaGold Corporation | 8.63% | 46.4% | 0.02x |
+| SRAD | Sportradar Group AG | 8.62% | 57.5% | 0.06x |
+| DDS | Dillard's, Inc. | 8.61% | 40.3% | 0.31x |
+| FHI | Federated Hermes, Inc. | 8.53% | 67.9% | 0.38x |
+| NATR | Nature's Sunshine Products, Inc. | 8.44% | 72.4% | 0.12x |
+| SSRM | SSR Mining Inc. | 8.42% | 52.8% | 0.11x |
+| TROW | T. Rowe Price Group, Inc. | 8.29% | 51.3% | 0.04x |
+| REGN | Regeneron Pharmaceuticals, Inc. | 8.21% | 85.4% | 0.09x |
+| LSPD | Lightspeed Commerce Inc. | 8.02% | 42.9% | 0.01x |
+| ZM | Zoom Communications, Inc. | 7.95% | 77.0% | 0.01x |
+| VTEX | VTEX | 7.92% | 77.5% | 0.01x |
+| PEGA | Pegasystems Inc. | 7.81% | 75.9% | 0.10x |
+| OCTV | Octave Intelligence plc | 7.80% | 73.0% | 0.01x |
+| MNSKY | MONY Group plc | 7.78% | 64.4% | 0.15x |
+| DECK | Deckers Outdoor Corporation | 7.70% | 57.7% | 0.15x |
+| ESTC | Elastic N.V. | 7.63% | 76.1% | 0.46x |
+| ALC | Alcon Inc. | 7.56% | 55.2% | 0.02x |
+| MGY | Magnolia Oil & Gas Corporation | 7.55% | 47.3% | 0.21x |
+| GSL | Global Ship Lease, Inc. | 7.49% | 52.8% | 0.38x |
+| TRMB | Trimble Inc. | 7.48% | 69.1% | 0.24x |
+| CDNA | CareDx, Inc. | 7.44% | 67.6% | 0.09x |
+| INDV | Indivior Pharmaceuticals, Inc. | 7.41% | 80.1% | -3.55x |
+| WAY | Waystar Holding Corp. | 7.40% | 68.3% | 0.38x |
+| IVT | InvenTrust Properties Corp. | 7.36% | 71.8% | 0.46x |
+| EQT | EQT Corporation | 7.29% | 45.9% | 0.33x |
+| PBI | Pitney Bowes Inc. | 7.25% | 54.1% | -2.64x |
+| TRNO | Terreno Realty Corporation | 7.14% | 75.8% | 0.23x |
+| KYIV | Kyivstar Group Ltd. | 7.14% | 64.4% | 0.40x |
+| PRDO | Perdoceo Education Corporation | 7.10% | 76.7% | 0.12x |
+| YETI | YETI Holdings, Inc. | 7.06% | 57.4% | 0.35x |
+| PUGBY | PUGBY | 7.05% | 75.1% | 0.35x |
