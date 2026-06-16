@@ -176,7 +176,18 @@ if __name__ == "__main__":
     ACCOUNT_BALANCE = 10.0     # $10 Micro-Lot Account
     RISK_PERCENTAGE = 1.0      
     
-    ASSETS = ['EURUSD=X']
+    ASSETS = [
+        # Majors
+        'EURUSD=X', 'GBPUSD=X', 'USDJPY=X', 'AUDUSD=X', 'USDCHF=X', 'NZDUSD=X', 'USDCAD=X',
+        # Minors & Crosses
+        'EURGBP=X', 'EURAUD=X', 'EURCAD=X', 'EURCHF=X', 'EURJPY=X', 'EURNZD=X',
+        'GBPJPY=X', 'AUDJPY=X', 'CADJPY=X', 'CHFJPY=X', 'NZDJPY=X',
+        'GBPAUD=X', 'GBPCAD=X', 'GBPCHF=X', 'GBPNZD=X',
+        'AUDCAD=X', 'AUDCHF=X', 'AUDNZD=X', 'CADCHF=X', 'NZDCAD=X', 'NZDCHF=X',
+        # Exotics
+        'USDSGD=X', 'USDHKD=X', 'USDMXN=X', 'USDZAR=X', 'USDTHB=X', 'USDTRY=X', 'USDINR=X', 'USDNOK=X', 'USDSEK=X', 'USDDKK=X', 'USDPLN=X',
+        'EURTRY=X', 'EURZAR=X', 'GBPZAR=X'
+    ]
     
     for asset in ASSETS:
         generate_report(asset, ACCOUNT_BALANCE, risk_pct=RISK_PERCENTAGE, interval='1d')

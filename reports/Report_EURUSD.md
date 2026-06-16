@@ -1,6 +1,6 @@
 # Systematic Trading Report: EURUSD=X
 
-**Generated:** 2026-06-16 19:45 | **Timeframe:** 1d
+**Generated:** 2026-06-16 19:51 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - **NEWS 1 (Reuters):** Dollar falls to 10-day low on US-Iran war deal
@@ -15,11 +15,11 @@
 - **NEWS 10 (Investing.com):** Euro’s global role stays flat despite US policy uncertainty
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 1.16023
+- **Current Price:** 1.16036
 - **Regime/Trend:** DOWNTREND (Momentum Continuation)
 - **EMA 50 (Med):** 1.16398
 - **EMA 200 (Long):** 1.16603
-- **RSI (14):** 43.64 (Overbought >70, Oversold <30)
+- **RSI (14):** 43.88 (Overbought >70, Oversold <30)
 - **ATR (14):** 0.00588 (Current Volatility)
 
 ## 3. Execution Criteria
