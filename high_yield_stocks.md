@@ -23,6 +23,7 @@
 | CFR | Cullen/Frost Bankers, Inc. | 135.77% |
 | TCOM | Trip.com Group Limited | 134.45% |
 | BAP | Credicorp Ltd. | 134.08% |
+| BPHLF | Bank of the Philippine Islands | 128.17% |
 | SONY | Sony Group Corporation | 124.11% |
 | WU | The Western Union Company | 116.56% |
 | DIDIY | DiDi Global Inc. | 113.56% |
@@ -35,6 +36,7 @@
 | IMOS | ChipMOS TECHNOLOGIES INC. | 89.26% |
 | PRG | PROG Holdings, Inc. | 87.93% |
 | TLK | Perusahaan Perseroan (Persero) PT Telekomunikasi Indonesia Tbk | 87.68% |
+| UVRBF | Universal Robina Corporation | 86.98% |
 | DRD | DRDGOLD Limited | 85.90% |
 | MBSHY | MBSHY | 84.24% |
 | KARO | Karooooo Ltd. | 83.71% |
@@ -47,6 +49,7 @@
 | LYFT | Lyft, Inc. | 65.18% |
 | SLDE | Slide Insurance Holdings, Inc. | 60.90% |
 | PSLV | Sprott Physical Silver Trust | 60.43% |
+| DMCHY | DMCI Holdings, Inc. | 59.26% |
 | ARVN | Arvinas, Inc. | 57.94% |
 | TSAT | Telesat Corporation | 57.10% |
 | DCOM | Dime Commercial Bancshares, Inc. | 55.79% |
@@ -62,6 +65,7 @@
 | ASR | Grupo Aeroportuario del Sureste, S. A. B. de C. V. | 47.96% |
 | RIGL | Rigel Pharmaceuticals, Inc. | 47.59% |
 | KERCY | KERCY | 47.16% |
+| PRGLY | Puregold Price Club, Inc. | 43.39% |
 | IFS | Intercorp Financial Services Inc. | 43.12% |
 | OBOCY | OBOCY | 42.30% |
 | TIMB | TIM S.A. | 41.69% |
@@ -106,6 +110,7 @@
 | IBTA | Ibotta, Inc. | 28.06% |
 | CCU | Compañía Cervecerías Unidas S.A. | 27.71% |
 | OVLY | Oak Valley Bancorp | 27.66% |
+| SVTMF | SM Investments Corporation | 27.65% |
 | AZUL | Azul S.A. | 27.45% |
 | XP | XP Inc. | 27.08% |
 | KOF | Coca-Cola FEMSA, S.A.B. de C.V. | 26.88% |
@@ -149,6 +154,7 @@
 | NCZ | Virtus Convertible & Income Fund II | 21.45% |
 | OLPX | Olaplex Holdings, Inc. | 21.40% |
 | ITRI | Itron, Inc. | 21.22% |
+| JBFCY | Jollibee Foods Corporation | 21.19% |
 | KNOP | KNOT Offshore Partners LP | 21.11% |
 | SUI | Sun Communities, Inc. | 21.11% |
 | BVENY | BVENY | 20.96% |
@@ -171,9 +177,12 @@
 | SPFI | South Plains Financial, Inc. | 19.96% |
 | INTR | Inter & Co, Inc. | 19.72% |
 | WTM | White Mountains Insurance Group, Ltd. | 19.63% |
+| ABTZY | Aboitiz Equity Ventures, Inc. | 19.62% |
 | FLYW | Flywire Corporation | 19.56% |
 | DDD | 3D Systems Corporation | 19.44% |
+| AYAAF | Ayala Land, Inc. | 19.43% |
 | GIB | CGI Inc. | 19.08% |
+| SPHXF | SM Prime Holdings, Inc. | 19.01% |
 | HRB | H&R Block, Inc. | 18.89% |
 | PTXKY | PT XLSMART Telecom Sejahtera Tbk | 18.80% |
 | NNDM | Nano Dimension Ltd. | 18.61% |
@@ -461,6 +470,7 @@
 | G | Genpact Limited | 10.51% |
 | CCC | CCC Intelligent Solutions Holdings Inc. | 10.50% |
 | LKNCY | Luckin Coffee Inc. | 10.49% |
+| GTMEF | Globe Telecom, Inc. | 10.47% |
 | GTY | Getty Realty Corp. | 10.47% |
 | STRA | Strategic Education, Inc. | 10.45% |
 | BGR | BlackRock Energy and Resources Trust | 10.45% |
@@ -740,6 +750,7 @@
 | LXRX | Lexicon Pharmaceuticals, Inc. | 7.81% |
 | OCTV | Octave Intelligence plc | 7.80% |
 | SBH | Sally Beauty Holdings, Inc. | 7.79% |
+| AYYLF | Ayala Corporation | 7.78% |
 | MNSKY | MONY Group plc | 7.78% |
 | GNW | Genworth Financial, Inc. | 7.77% |
 | THO | THOR Industries, Inc. | 7.77% |

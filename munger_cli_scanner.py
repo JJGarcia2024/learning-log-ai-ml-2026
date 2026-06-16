@@ -339,9 +339,17 @@ def get_index_tickers(idx):
             tks = [line.strip() for line in f if line.strip()]
         return sorted(list(set(tks)))
 
+    elif idx == "PSEI":
+        tks = [
+            "ABTZY", "ACPIF", "ALGGY", "AYYLF", "AYAAF", "BDOUY", "BPHLF", 
+            "DMCHY", "GTMEF", "ICTEF", "JGSMY", "JBFCY", "MNDDF", "PHI", 
+            "PRGLY", "SMGBF", "SVTMF", "SPHXF", "UVRBF"
+        ]
+        return sorted(list(set(tks)))
+
     else:
         raise ValueError(
-            'Unknown index "{}". Supported: DJIA, SP500, NASDAQ100, RUSSELL3000E'.format(idx)
+            'Unknown index "{}". Supported: DJIA, SP500, NASDAQ100, RUSSELL3000E, PSEI'.format(idx)
         )
 
 
@@ -1277,7 +1285,7 @@ def build_parser():
     p_fetch.add_argument(
         "--index",
         default="SP500",
-        choices=["DJIA", "SP500", "NASDAQ100", "RUSSELL3000E"],
+        choices=["DJIA", "SP500", "NASDAQ100", "RUSSELL3000E", "PSEI"],
         help="Stock index to scan",
     )
     p_fetch.add_argument(
@@ -1350,7 +1358,7 @@ def build_parser():
     p_list.add_argument(
         "--index",
         default="SP500",
-        choices=["DJIA", "SP500", "NASDAQ100", "RUSSELL3000E"],
+        choices=["DJIA", "SP500", "NASDAQ100", "RUSSELL3000E", "PSEI"],
         help="Stock index to list",
     )
 

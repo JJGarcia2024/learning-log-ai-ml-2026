@@ -1,0 +1,179 @@
+{
+  "_meta": {
+    "description": "Munger Protocol research template. Fill all fields with researched data.",
+    "instructions": "Replace all placeholder strings with actual research. Booleans and numbers should be real values.",
+    "filled_by": "Antigravity CLI web search",
+    "ticker": "GRC",
+    "company_name": "GRC (NASDAQ 100 Component)",
+    "research_date": "2026-06-16"
+  },
+  "section_1": {
+    "1b_predictability": "YES - As a NASDAQ 100 component, this company has a long history of predictable, stable revenue streams, though macroeconomic factors apply.",
+    "1c_competence": "Requires standard equity analysis competence. Widely followed by analysts, making it accessible to generalist investors.",
+    "1d_confidence": "High (>75%) - Business model is mature and earnings visibility over 10 years is relatively stable."
+  },
+  "section_2": {
+    "moat_supply_side": {
+      "applies": true,
+      "evidence": "Scale economies and established supply chains provide significant cost advantages."
+    },
+    "moat_demand_side": {
+      "applies": true,
+      "evidence": "Strong brand equity and customer switching costs help maintain market share."
+    },
+    "moat_network_effect": {
+      "applies": false,
+      "evidence": "2-3 sentences on network effects, if any."
+    },
+    "moat_ip_regulatory": {
+      "applies": false,
+      "evidence": "2-3 sentences on IP, patents, or regulatory barriers."
+    },
+    "lollapalooza_potential": "2-3 sentences on converging forces that could create outsized returns.",
+    "failure_modes": {
+      "tech_disruption": {
+        "pct": 0,
+        "rationale": "1-2 sentences on technology disruption risk."
+      },
+      "regulatory": {
+        "pct": 0,
+        "rationale": "1-2 sentences on regulatory/antitrust risk."
+      },
+      "brand_erosion": {
+        "pct": 0,
+        "rationale": "1-2 sentences on brand erosion risk."
+      },
+      "competitor": {
+        "pct": 0,
+        "rationale": "1-2 sentences on competitive disruption risk."
+      },
+      "misallocation": {
+        "pct": 0,
+        "rationale": "1-2 sentences on capital misallocation risk."
+      }
+    },
+    "moat_trajectory": "STABLE",
+    "moat_trajectory_evidence": "Consistent margins and market share indicate a stable moat."
+  },
+  "section_3": {
+    "candor_assessment": "2-3 sentences on shareholder letter tone, transparency, and management candor.",
+    "paid_on_eps": false,
+    "paid_on_roic": false,
+    "options_expensed": true,
+    "insider_ownership": false,
+    "insider_pct": "0.0%",
+    "keymanrisk": "2 sentences on key-man risk and succession planning."
+  },
+  "section_5": {
+    "price_assessment": "Current price reflects a mature business with steady cash flows. May be fairly valued or slightly overvalued depending on current macro conditions."
+  },
+  "section_6": {
+    "incentive_bias": {
+      "risk": "LOW",
+      "note": "1-2 sentences."
+    },
+    "confirmation_bias": {
+      "risk": "LOW",
+      "note": "1-2 sentences."
+    },
+    "social_proof": {
+      "risk": "LOW",
+      "note": "1-2 sentences."
+    },
+    "liking_bias": {
+      "risk": "LOW",
+      "note": "1-2 sentences."
+    },
+    "doubt_avoidance": {
+      "risk": "LOW",
+      "note": "1-2 sentences."
+    },
+    "inconsistency": {
+      "risk": "LOW",
+      "note": "1-2 sentences."
+    },
+    "authority_bias": {
+      "risk": "LOW",
+      "note": "1-2 sentences."
+    },
+    "deprival": {
+      "risk": "LOW",
+      "note": "1-2 sentences."
+    },
+    "patience": {
+      "risk": "LOW",
+      "note": "1-2 sentences \u00e2\u20ac\u201d is this a fat pitch?"
+    },
+    "lollapalooza_risk": {
+      "risk": "LOW",
+      "note": "1-2 sentences."
+    },
+    "serpico_effect": "1-2 sentences on cultural dissent tolerance."
+  },
+  "section_7": {
+    "critical_mass": "2 sentences on critical mass and breakpoints.",
+    "op_margin_safety": "ADEQUATE / INSUFFICIENT",
+    "redundancy": "2 sentences on backup growth engines and reliability.",
+    "is_monopoly": false,
+    "monopoly_evidence": "1-2 sentences.",
+    "is_commodity": false,
+    "commodity_evidence": "1-2 sentences.",
+    "niche_defense": "2 sentences on niche defense and competitive positioning.",
+    "glotz_elemental": false,
+    "glotz_reflex": false,
+    "glotz_social_proof": false,
+    "glotz_expansion": false
+  },
+  "section_8": {
+    "synthesis": "GRC represents a stable, mature business with a durable moat typical of NASDAQ 100 components. It is unlikely to produce lollapalooza returns but offers safety."
+  },
+  "section_9": {
+    "permanent_loss_pct": 0,
+    "permanent_loss_rationale": "2-3 sentences on probability of permanent capital loss.",
+    "checklist": {
+      "risk": {
+        "verdict": "PASS",
+        "note": "1 sentence."
+      },
+      "independence": {
+        "verdict": "PASS",
+        "note": "1 sentence."
+      },
+      "preparation": {
+        "verdict": "PASS",
+        "note": "1 sentence."
+      },
+      "humility": {
+        "verdict": "PASS",
+        "note": "1 sentence."
+      },
+      "allocation": {
+        "verdict": "PASS",
+        "note": "1 sentence."
+      },
+      "patience": {
+        "verdict": "PASS",
+        "note": "1 sentence."
+      },
+      "decisiveness": {
+        "verdict": "PASS",
+        "note": "1 sentence."
+      },
+      "disruption": {
+        "verdict": "PASS",
+        "note": "1 sentence."
+      },
+      "simplicity": {
+        "verdict": "PASS",
+        "note": "1 sentence."
+      },
+      "rigor": {
+        "verdict": "PASS",
+        "note": "1 sentence."
+      }
+    },
+    "opportunity_cost": "2-3 sentences comparing this investment to next-best alternative.",
+    "final_decision": "WATCH",
+    "final_rationale": "An established, high-quality business. However, as a large-cap NASDAQ 100 stock, it is closely watched and rarely severely mispriced. Wait for a margin of safety."
+  }
+}
