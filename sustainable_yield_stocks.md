@@ -599,3 +599,59 @@
 | CNO | CNO Financial Group, Inc. | 7.02% |
 | AVB | AvalonBay Communities, Inc. | 7.02% |
 | MPB | Mid Penn Bancorp, Inc. | 7.02% |
+
+## Great Businesses at a Fair Price (The Munger Premium)
+> **Filters Applied:** 2% $\leq$ OE Yield < 7%, Gross Margin $\geq$ 50%, ROE $\geq$ 20%, Debt/Equity $\leq$ 1.0
+>
+> *These companies are priced at a premium (lower yield), but their exceptional gross margins and extremely high returns on equity indicate they have massive pricing power, impenetrable moats, and the ability to compound capital over the long term. They are the definition of "a great business at a fair price."*
+
+| Ticker | Company Name | OE Yield | Gross Margin | ROE |
+|--------|--------------|----------|--------------|-----|
+| BEPC | Brookfield Renewable Corporation | 6.80% | 59.9% | 577.3% |
+| FTNT | Fortinet, Inc. | 2.59% | 80.5% | 149.8% |
+| MANH | Manhattan Associates, Inc. | 2.32% | 56.3% | 69.9% |
+| TGTX | TG Therapeutics, Inc. | 5.66% | 83.7% | 69.0% |
+| MSB | Mesabi Trust | 5.48% | 97.2% | 68.0% |
+| IDXX | IDEXX Laboratories, Inc. | 2.57% | 61.8% | 66.0% |
+| DAVE | Dave Inc. | 3.13% | 86.7% | 55.5% |
+| V | Visa Inc. | 4.01% | 80.4% | 52.9% |
+| PLTK | Playtika Holding Corp. | 5.94% | 72.5% | 50.2% |
+| GFI | Gold Fields Limited | 6.51% | 55.3% | 42.3% |
+| EVER | EverQuote, Inc. | 5.42% | 97.2% | 41.7% |
+| RACE | Ferrari N.V. | 2.61% | 51.7% | 40.9% |
+| CTAS | Cintas Corporation | 2.19% | 50.0% | 38.7% |
+| ROL | Rollins, Inc. | 3.16% | 52.8% | 38.3% |
+| IDCC | InterDigital, Inc. | 4.22% | 88.8% | 36.9% |
+| EXEL | Exelixis, Inc. | 6.22% | 96.4% | 36.2% |
+| QLYS | Qualys, Inc. | 4.59% | 82.8% | 35.3% |
+| MRK | Merck & Co., Inc. | 5.14% | 74.8% | 34.7% |
+| WDFC | WD-40 Company | 2.12% | 55.1% | 33.9% |
+| JNJ | Johnson & Johnson | 5.83% | 67.9% | 32.9% |
+| ACAD | ACADIA Pharmaceuticals Inc. | 4.49% | 91.7% | 31.9% |
+| DUOL | Duolingo, Inc. | 4.08% | 72.2% | 30.7% |
+| PG | The Procter & Gamble Company | 4.76% | 51.2% | 30.7% |
+| ABNB | Airbnb, Inc. | 5.62% | 83.0% | 30.6% |
+| NVS | Novartis AG | 4.60% | 75.8% | 30.3% |
+| VLTO | Veralto Corporation | 3.50% | 59.9% | 30.3% |
+| WSE | Wise Group plc | 3.52% | 72.4% | 30.1% |
+| MSFT | Microsoft Corporation | 2.51% | 68.8% | 29.6% |
+| LOPE | Grand Canyon Education, Inc. | 6.60% | 53.2% | 28.9% |
+| FUTU | Futu Holdings Limited | 4.02% | 87.1% | 28.3% |
+| KGC | Kinross Gold Corporation | 5.80% | 52.7% | 27.9% |
+| FDS | FactSet Research Systems Inc. | 6.83% | 52.7% | 27.3% |
+| HLNE | Hamilton Lane Incorporated | 5.26% | 69.9% | 27.2% |
+| BLND | Blend Labs, Inc. | 6.98% | 73.8% | 26.4% |
+| PAYC | Paycom Software, Inc. | 6.07% | 83.2% | 26.2% |
+| NVEC | NVE Corporation | 2.74% | 78.7% | 26.1% |
+| APPF | AppFolio, Inc. | 3.38% | 63.7% | 26.0% |
+| NSSC | Napco Security Technologies, Inc. | 4.14% | 55.6% | 25.7% |
+| WAT | Waters Corporation | 2.06% | 59.3% | 25.1% |
+| CSHR | CoinShares PLC | 6.26% | 75.7% | 24.0% |
+| PBYI | Puma Biotechnology, Inc. | 3.38% | 74.5% | 23.9% |
+| EPAC | Enerpac Tool Group Corp. | 5.18% | 50.5% | 21.4% |
+| CMCL | Caledonia Mining Corporation Plc | 6.79% | 51.2% | 21.3% |
+| VRTX | Vertex Pharmaceuticals Incorporated | 2.29% | 86.2% | 21.2% |
+| AZN | AstraZeneca PLC | 3.83% | 81.9% | 21.0% |
+| NEM | Newmont Corporation | 4.38% | 53.2% | 20.9% |
+| VALU | Value Line, Inc. | 4.86% | 58.8% | 20.8% |
+| SBC | SBC Medical Group Holdings Incorporated | 2.65% | 73.3% | 20.5% |
