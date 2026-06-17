@@ -1,17 +1,21 @@
 # Systematic Trading Report: GBPCHF=X
 
-**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- No tier-one news or fundamental data detected immediately via API.
+- **2026-06-10 (Unbiased):** The top 10 strongest currencies in the world [2026] - Unbiased
+- **2026-05-28 (CryptoRank):** British Pound Edges Higher Against US Dollar, but Iran Worries Weigh on Outlook - CryptoRank
+- **2026-06-07 (inkorr.com):** June 7 Exchange Rates Released by Ukraine's Central Bank: US Dollar, Euro, and British Pound All Climb - inkorr.com
+- **2026-06-08 (inkorr.com):** June 8 Exchange Rates Released by Ukraine’s Central Bank: Dollar and Euro Dip - inkorr.com
+- **2026-06-10 (inkorr.com):** June 10 Exchange Rates Released by Ukraine’s Central Bank: Dollar Rises by 50 Kopiyok - inkorr.com
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 1.06449
+- **Current Price:** 1.06338
 - **Regime/Trend:** RANGING/COMPRESSION (Mean-Reversion)
-- **EMA 50 (Med):** 1.05935
-- **EMA 200 (Long):** 1.06359
-- **RSI (14):** 60.67 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00493 (Current Volatility)
+- **EMA 50 (Med):** 1.05931
+- **EMA 200 (Long):** 1.06357
+- **RSI (14):** 58.84 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.00499 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)
@@ -20,7 +24,7 @@
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
 
 ### 3b. Directional Bias (No Open Trade)
-**BIAS:** 🔴 **SELL (Mean-Reversion from upper range)**
+**BIAS:** ⚪ **NEUTRAL — Wait for a clear range breakout**
 > *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
 
 ### 3c. Trade Management (Existing Open Trade)
@@ -35,7 +39,7 @@
 
 > **Theoretical Sizing (If a setup was present):**
 - **Standard Lot Size:** 0.000 Lots (100,000 units)
-- **XM Micro Account Lot Size:** 0.014 Micro Lots (1,000 units)
+- **XM Micro Account Lot Size:** 0.013 Micro Lots (1,000 units)
 > *Note: XM Micro Accounts require a minimum deposit of just $5 and help manage risk. Adjust sizing dynamically for pairs with varying pip values.*
 
 ## 5. Pre-Trade Diagnostic Check

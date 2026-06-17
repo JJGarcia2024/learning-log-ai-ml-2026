@@ -1,27 +1,20 @@
 # Synthetic Metals Trading Report: XAUGBP
 
-**Generated:** 2026-06-17 08:34 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 *(Note: Prices mathematically synthesized via USD Futures + Global Forex Rates)*
 
 ## 1. Macroeconomic Context & Fundamentals
-- **NEWS 1 (Yahoo Personal Finance):** Silver prices today, Tuesday, June 16: Best opening price in over a week ahead of Fed meeting
-- **NEWS 2 (Yahoo Personal Finance):** Gold prices today, Tuesday, June 16: Prices firming ahead of Fed meeting
-- **NEWS 3 (Zacks):** Why the Market Dipped But AngloGold Ashanti (AU) Gained Today
-- **NEWS 4 (Zacks):** Agnico Eagle Mines (AEM) Rises As Market Takes a Dip: Key Facts
-- **NEWS 5 (Bloomberg):** Gold Advances as Trump Touts Reopening of Hormuz This Week
-- **NEWS 6 (Moneywise):** CFA Institute wants ‘stronger safeguards’ to protect Americans from big changes to their 401(k) plans. Are you safe?
-- **NEWS 7 (24/7 Wall St.):** DGP vs. UGL: Which 2x Gold Play Costs You More Than the Leverage?
-- **NEWS 8 (MediaPost):** Thar's Gold In Them Thar LLMs, Just Not For Ad Spending Growth
-- **NEWS 9 (Insider Monkey):** B2Gold Corp (BTG) Up More Than 8.5% in Mid-June, Here’s Why
-- **NEWS 10 (MT Newswires):** K2 Gold Up After Saying Mobilization of Drill Rig to Dragonfly Target Has Begun
+- **2026-06-14 (Ahram Online):** Egyptian pound strengthens against dollar, gold rebounds at week's start - Economy - Business - Ahram Online
+- **2026-05-25 (Ahram Online):** Egyptian pound stabilizes near EGP 52 to dollar on Monday COB, gold prices rise - Economy - Business - Ahram Online
+- **2026-05-21 (Ahram Online):** Egyptian pound steadies near EGP 53 against dollar - Economy - Business - Ahram Online
 
 ## 2. Technical Architecture & Regime
-- **Current Synthetic Price:** 3248.51069
+- **Current Synthetic Price:** 3237.80611
 - **Regime/Trend:** RANGING/COMPRESSION (Mean-Reversion)
-- **EMA 50 (Med):** 3365.36591
-- **EMA 200 (Long):** 3267.34459
-- **RSI (14):** 46.13 (Overbought >70, Oversold <30)
-- **ATR (14):** 71.72026 (Current Volatility)
+- **EMA 50 (Med):** 3359.59685
+- **EMA 200 (Long):** 3266.85021
+- **RSI (14):** 41.45 (Overbought >70, Oversold <30)
+- **ATR (14):** 65.94119 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)
@@ -44,7 +37,7 @@
 - **Risk Limit:** 1.0% / Risking strictly $0.10
 
 > **Theoretical Sizing (If a setup was present):**
-- **Stop Loss Distance (1.5 ATR):** 107.58039 points
+- **Stop Loss Distance (1.5 ATR):** 98.91179 points
 - **Standard Lot Size:** 0.000 Lots (100,000 units)
 - **XM Micro Account Lot Size:** 0.000 Micro Lots (1,000 units)
 > *Note: XM Micro Accounts require a minimum deposit of just $5 and help manage risk. Adjust sizing dynamically for pairs with varying pip values.*

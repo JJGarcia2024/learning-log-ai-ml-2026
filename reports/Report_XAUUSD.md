@@ -1,27 +1,27 @@
 # Synthetic Metals Trading Report: XAUUSD
 
-**Generated:** 2026-06-17 08:34 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 *(Note: Prices mathematically synthesized via USD Futures + Global Forex Rates)*
 
 ## 1. Macroeconomic Context & Fundamentals
-- **NEWS 1 (Yahoo Personal Finance):** Silver prices today, Tuesday, June 16: Best opening price in over a week ahead of Fed meeting
-- **NEWS 2 (Yahoo Personal Finance):** Gold prices today, Tuesday, June 16: Prices firming ahead of Fed meeting
-- **NEWS 3 (Zacks):** Why the Market Dipped But AngloGold Ashanti (AU) Gained Today
-- **NEWS 4 (Zacks):** Agnico Eagle Mines (AEM) Rises As Market Takes a Dip: Key Facts
-- **NEWS 5 (Bloomberg):** Gold Advances as Trump Touts Reopening of Hormuz This Week
-- **NEWS 6 (Moneywise):** CFA Institute wants ‘stronger safeguards’ to protect Americans from big changes to their 401(k) plans. Are you safe?
-- **NEWS 7 (24/7 Wall St.):** DGP vs. UGL: Which 2x Gold Play Costs You More Than the Leverage?
-- **NEWS 8 (MediaPost):** Thar's Gold In Them Thar LLMs, Just Not For Ad Spending Growth
-- **NEWS 9 (Insider Monkey):** B2Gold Corp (BTG) Up More Than 8.5% in Mid-June, Here’s Why
-- **NEWS 10 (MT Newswires):** K2 Gold Up After Saying Mobilization of Drill Rig to Dragonfly Target Has Begun
+- **2026-06-16 (Investing News Network):** WGC: Central Banks Plan to Boost Gold Allocations as US Dollar Outlook Declines - Investing News Network
+- **2026-06-16 (South China Morning Post):** Central banks expand bullion holdings as US dollar’s dominance wavers - South China Morning Post
+- **2026-06-12 (The Real Economy Blog):** Market Minute: Why the dollar has held up but not gold - The Real Economy Blog
+- **2026-06-16 (KITCO):** Barclays sees gold hitting $4,791 in 2026, $4,900 in 2027 as Iran correction fades, structural drivers reemerge - KITCO
+- **2026-06-15 (FOREX.com):** Gold forecast: US-Iran deal optimism lifts metal ahead of central banks - FOREX.com
+- **2026-06-16 (Mining.com):** Switzerland loses its shine as central bank gold vault - Mining.com
+- **2026-06-16 (World Gold Council):** Central banks set to step up gold buying over the next year - World Gold Council
+- **2026-06-06 (Barron's):** The Move Into Gold by Other Nations Has Happened Before. It’s Bad News for the U.S. Dollar. - Barron's
+- **2026-06-16 (IndexBox):** Central Banks Reduce Swiss Gold Holdings, Favor Dollar Alternatives in 2026 - News and Statistics - IndexBox
+- **2026-06-16 (Arab News):** Central bank gold appetite hits record as Middle East risks sharpen focus - Arab News
 
 ## 2. Technical Architecture & Regime
-- **Current Synthetic Price:** 4358.20020
+- **Current Synthetic Price:** 4348.50000
 - **Regime/Trend:** RANGING/COMPRESSION (Mean-Reversion)
-- **EMA 50 (Med):** 4524.22070
-- **EMA 200 (Long):** 4394.32542
-- **RSI (14):** 45.33 (Overbought >70, Oversold <30)
-- **ATR (14):** 109.01414 (Current Volatility)
+- **EMA 50 (Med):** 4516.30068
+- **EMA 200 (Long):** 4392.81988
+- **RSI (14):** 41.58 (Overbought >70, Oversold <30)
+- **ATR (14):** 101.31412 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)
@@ -44,7 +44,7 @@
 - **Risk Limit:** 1.0% / Risking strictly $0.10
 
 > **Theoretical Sizing (If a setup was present):**
-- **Stop Loss Distance (1.5 ATR):** 163.52121 points
+- **Stop Loss Distance (1.5 ATR):** 151.97118 points
 - **Standard Lot Size:** 0.000 Lots (100,000 units)
 - **XM Micro Account Lot Size:** 0.000 Micro Lots (1,000 units)
 > *Note: XM Micro Accounts require a minimum deposit of just $5 and help manage risk. Adjust sizing dynamically for pairs with varying pip values.*

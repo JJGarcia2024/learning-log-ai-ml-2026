@@ -1,16 +1,21 @@
 # Systematic Trading Report: USDNOK=X
 
-**Generated:** 2026-06-17 08:34 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- No tier-one news or fundamental data detected immediately via API.
+- **2026-06-16 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
+- **2026-06-12 (FOREX.com):** Australian Dollar / Norwegian Krone - AUD/NOK - FOREX.com
+- **2026-06-08 (CryptoRank):** Norges Bank’s Hawkish Stance Bolsters Norwegian Krone Crosses, BBH Analysts Say - CryptoRank
+- **2026-06-12 (FOREX.com):** Canadian Dollar / Norwegian Krone - CAD/NOK - FOREX.com
+- **2026-06-12 (FOREX.com):** U.S. Dollar to Norwegian Krone - USD/NOK Exchange Rate Chart - FOREX.com
+- **2026-06-08 (VT Markets):** Norway May CPI in spotlight as Norges Bank surprise hike keeps further tightening in play - VT Markets
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 9.46597
+- **Current Price:** 9.46548
 - **Regime/Trend:** RANGING/COMPRESSION (Mean-Reversion)
-- **EMA 50 (Med):** 9.39354
+- **EMA 50 (Med):** 9.39352
 - **EMA 200 (Long):** 9.65649
-- **RSI (14):** 69.63 (Overbought >70, Oversold <30)
+- **RSI (14):** 69.56 (Overbought >70, Oversold <30)
 - **ATR (14):** 0.08342 (Current Volatility)
 
 ## 3. Execution Criteria

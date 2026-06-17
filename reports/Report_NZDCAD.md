@@ -1,17 +1,26 @@
 # Systematic Trading Report: NZDCAD=X
 
-**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- No tier-one news or fundamental data detected immediately via API.
+- **2026-06-16 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
+- **2026-06-15 (CryptoRank):** New Zealand Dollar Rises as Global Risk Aversion Eases - CryptoRank
+- **2026-06-12 (Exchange Rates UK):** FX Daily Briefing, Outlook: Pound Sterling Steady As UK Economy Contracts On Iran War - Exchange Rates UK
+- **2026-06-04 (FXStreet):** New Zealand Dollar rebounds against USD as markets price in further RBNZ rate hikes - FXStreet
+- **2026-06-11 (CryptoRank):** New Zealand Dollar Holds Ground as Mixed China Inflation Data and US CPI Loom - CryptoRank
+- **2026-06-12 (Bitcoin World):** New Zealand Dollar Nears 0.5800 As Iran Tensions Boost USD, Countering Hawkish RBNZ - Bitcoin World
+- **2026-06-01 (CryptoRank):** Euro Strengthens Against Canadian Dollar After Stronger-Than-Expected German Retail Sales - CryptoRank
+- **2026-06-09 (CryptoRank):** New Zealand Dollar Slips as Markets Eye China Trade Data Release - CryptoRank
+- **2026-06-16 (TMGM):** Canadian Dollar steadies as US Dollar holds ground amid market caution - TMGM
+- **2026-05-29 (TorFX News):** US dollar tumbles on weaker-than-expected US growth figures - TorFX News
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 0.81592
+- **Current Price:** 0.81499
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 0.81033
-- **EMA 200 (Long):** 0.80888
-- **RSI (14):** 50.62 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00603 (Current Volatility)
+- **EMA 50 (Med):** 0.81030
+- **EMA 200 (Long):** 0.80887
+- **RSI (14):** 49.55 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.00604 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)

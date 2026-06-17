@@ -1,25 +1,25 @@
 # Systematic Trading Report: EURUSD=X
 
-**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- **NEWS 1 (Reuters):** Dollar falls to 10-day low on US-Iran war deal
-- **NEWS 2 (The Wall Street Journal):** The WSJ Dollar Index Falls 0.31% to 96.27
-- **NEWS 3 (Barrons.com):** Euro Falls After ECB Decision
-- **NEWS 4 (FX Empire):** ECB Set to Raise Rates as Inflation Risks Keep Door Open to Further Tightening
-- **NEWS 5 (The Wall Street Journal):** Treasury Yields, Dollar Briefly Rise on Trump’s Iran Retaliation Threat
-- **NEWS 6 (Investing.com):** Why low FX volatility may open the door to dollar hedging
-- **NEWS 7 (Associated Press):** Putin rejects Zelenskyy's offer to meet, saying he sees 'no point' in it
-- **NEWS 8 (Reuters):** Yen touches 160, dollar slips from two-month high amid Iran talks
-- **NEWS 9 (FX Empire):** Some Losses for the Dollar Ahead of the NFP
-- **NEWS 10 (Investing.com):** Euro’s global role stays flat despite US policy uncertainty
+- **2026-06-15 (Investing.com):** Dollar eases on U.S.-Iran peace deal at the start of huge week for central banks - Investing.com
+- **2026-06-16 (IndexBox):** Dollar Resilient Post US-Iran Deal as FX Markets Shift Focus to Central Banks and FOMC - News and Statistics - IndexBox
+- **2026-06-01 (European Central Bank):** From money market funds to stablecoins: lessons for central banks - European Central Bank
+- **2026-06-05 (Meduza):** Russia’s central bank ties euro rate to dollar and European Central Bank benchmarks in bid to curb wild swings - Meduza
+- **2026-05-25 (FOREX.com):** EUR/USD Forecast: Euro starts the week with strength - FOREX.com
+- **2026-05-31 (WTVB):** Dollar steadies as markets await signals on Iran war, central banks - WTVB
+- **2026-06-16 (NEWS.am):** US dollar, euro exchange rates increase in Armenia - NEWS.am
+- **2026-06-02 (European Policy Centre (EPC)):** The EU’s financial security in a shifting transatlantic relationship - European Policy Centre (EPC)
+- **2026-06-02 (Financial Times):** Gold replaces US Treasuries as world’s top reserve asset, ECB says - Financial Times
+- **2026-05-28 (South China Morning Post):** For a yuan in deeper markets, Fed ex-head cites dollar playbook, flags risks - South China Morning Post
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 1.16184
+- **Current Price:** 1.16171
 - **Regime/Trend:** DOWNTREND (Momentum Continuation)
-- **EMA 50 (Med):** 1.16387
+- **EMA 50 (Med):** 1.16386
 - **EMA 200 (Long):** 1.16594
-- **RSI (14):** 50.09 (Overbought >70, Oversold <30)
+- **RSI (14):** 49.86 (Overbought >70, Oversold <30)
 - **ATR (14):** 0.00560 (Current Volatility)
 
 ## 3. Execution Criteria

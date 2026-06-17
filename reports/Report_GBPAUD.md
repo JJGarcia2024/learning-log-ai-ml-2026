@@ -1,17 +1,22 @@
 # Systematic Trading Report: GBPAUD=X
 
-**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- No tier-one news or fundamental data detected immediately via API.
+- **2026-05-28 (CryptoRank):** British Pound Edges Higher Against US Dollar, but Iran Worries Weigh on Outlook - CryptoRank
+- **2026-06-11 (Khabarhub):** NRB fixes foreign currency exchange rates for today - Khabarhub
+- **2026-06-10 (CME Group):** Australian Dollar futures hit a 2-month low on rate shifts. - CME Group
+- **2026-05-26 (CryptoRank):** British Pound Retreats as Renewed Iran Tensions Boost Safe-Haven Demand for US Dollar - CryptoRank
+- **2026-06-15 (TMGM):** British Pound picks up amid peace hopes with central banks coming into focus - TMGM
+- **2026-05-29 (myRepublica):** Forex update: US dollar, Japanese yen and Saudi riyal remain stable against Nepali rupee - myRepublica
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 1.89981
+- **Current Price:** 1.90197
 - **Regime/Trend:** RANGING/COMPRESSION (Mean-Reversion)
-- **EMA 50 (Med):** 1.89179
-- **EMA 200 (Long):** 1.94935
-- **RSI (14):** 64.38 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00964 (Current Volatility)
+- **EMA 50 (Med):** 1.89187
+- **EMA 200 (Long):** 1.94937
+- **RSI (14):** 65.50 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.00978 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)

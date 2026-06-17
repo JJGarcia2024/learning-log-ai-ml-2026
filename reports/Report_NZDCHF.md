@@ -1,16 +1,16 @@
 # Systematic Trading Report: NZDCHF=X
 
-**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - No tier-one news or fundamental data detected immediately via API.
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 0.46221
+- **Current Price:** 0.46113
 - **Regime/Trend:** DOWNTREND (Momentum Continuation)
-- **EMA 50 (Med):** 0.46234
-- **EMA 200 (Long):** 0.46464
-- **RSI (14):** 45.53 (Overbought >70, Oversold <30)
+- **EMA 50 (Med):** 0.46230
+- **EMA 200 (Long):** 0.46463
+- **RSI (14):** 42.75 (Overbought >70, Oversold <30)
 - **ATR (14):** 0.00324 (Current Volatility)
 
 ## 3. Execution Criteria

@@ -1,27 +1,27 @@
 # Synthetic Metals Trading Report: XAUEUR
 
-**Generated:** 2026-06-17 08:34 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 *(Note: Prices mathematically synthesized via USD Futures + Global Forex Rates)*
 
 ## 1. Macroeconomic Context & Fundamentals
-- **NEWS 1 (Yahoo Personal Finance):** Silver prices today, Tuesday, June 16: Best opening price in over a week ahead of Fed meeting
-- **NEWS 2 (Yahoo Personal Finance):** Gold prices today, Tuesday, June 16: Prices firming ahead of Fed meeting
-- **NEWS 3 (Zacks):** Why the Market Dipped But AngloGold Ashanti (AU) Gained Today
-- **NEWS 4 (Zacks):** Agnico Eagle Mines (AEM) Rises As Market Takes a Dip: Key Facts
-- **NEWS 5 (Bloomberg):** Gold Advances as Trump Touts Reopening of Hormuz This Week
-- **NEWS 6 (Moneywise):** CFA Institute wants ‘stronger safeguards’ to protect Americans from big changes to their 401(k) plans. Are you safe?
-- **NEWS 7 (24/7 Wall St.):** DGP vs. UGL: Which 2x Gold Play Costs You More Than the Leverage?
-- **NEWS 8 (MediaPost):** Thar's Gold In Them Thar LLMs, Just Not For Ad Spending Growth
-- **NEWS 9 (Insider Monkey):** B2Gold Corp (BTG) Up More Than 8.5% in Mid-June, Here’s Why
-- **NEWS 10 (MT Newswires):** K2 Gold Up After Saying Mobilization of Drill Rig to Dragonfly Target Has Begun
+- **2026-06-11 (KITCO):** Gold price continues to struggle against euro as ECB raises interest rates by 25 basis points - KITCO
+- **2026-06-03 (Yahoo Finance):** Gold overtakes US Treasuries as top global reserve asset - Yahoo Finance
+- **2026-06-02 (BullionVault):** Gold Rally Fades as India Joins Iran-War Central Bank Sellers - BullionVault
+- **2026-06-03 (South China Morning Post):** China among top buyers as gold overtakes US Treasuries in global reserves: ECB - South China Morning Post
+- **2026-06-02 (Financial Times):** Gold replaces US Treasuries as world’s top reserve asset, ECB says - Financial Times
+- **2026-06-04 (World Socialist Web Site):** ECB reports shift away from US Treasury bonds towards gold - World Socialist Web Site
+- **2026-06-02 (Mining.com):** Gold overtakes US Treasuries in global reserve shift: ECB - Mining.com
+- **2026-06-02 (KITCO):** Central banks see gold as the reserve asset of choice - ECB report - KITCO
+- **2026-06-03 (Bernama):** Gold Surpasses US Treasuries, Euro In Global Official Reserves: ECB - Bernama
+- **2026-06-02 (Firstpost):** Gold overtakes US Treasury as world’s top reserve asset — due to relentless buying by central banks - Firstpost
 
 ## 2. Technical Architecture & Regime
-- **Current Synthetic Price:** 3758.94779
+- **Current Synthetic Price:** 3743.18884
 - **Regime/Trend:** RANGING/COMPRESSION (Mean-Reversion)
-- **EMA 50 (Med):** 3885.83572
-- **EMA 200 (Long):** 3766.78533
-- **RSI (14):** 46.24 (Overbought >70, Oversold <30)
-- **ATR (14):** 81.39461 (Current Volatility)
+- **EMA 50 (Med):** 3879.35455
+- **EMA 200 (Long):** 3766.31857
+- **RSI (14):** 41.60 (Overbought >70, Oversold <30)
+- **ATR (14):** 75.04653 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)
@@ -44,7 +44,7 @@
 - **Risk Limit:** 1.0% / Risking strictly $0.10
 
 > **Theoretical Sizing (If a setup was present):**
-- **Stop Loss Distance (1.5 ATR):** 122.09192 points
+- **Stop Loss Distance (1.5 ATR):** 112.56980 points
 - **Standard Lot Size:** 0.000 Lots (100,000 units)
 - **XM Micro Account Lot Size:** 0.000 Micro Lots (1,000 units)
 > *Note: XM Micro Accounts require a minimum deposit of just $5 and help manage risk. Adjust sizing dynamically for pairs with varying pip values.*

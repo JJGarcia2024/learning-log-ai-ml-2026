@@ -1,17 +1,19 @@
 # Systematic Trading Report: USDHKD=X
 
-**Generated:** 2026-06-17 08:34 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- No tier-one news or fundamental data detected immediately via API.
+- **2026-06-16 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
+- **2026-06-12 (FOREX.com):** EUR / Hong Kong Dollar - EUR/HKD - FOREX.com
+- **2026-06-01 (Nomad Capitalist):** The Largest Value Banknotes in the World - Nomad Capitalist
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 7.83260
+- **Current Price:** 7.83280
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 7.83218
+- **EMA 50 (Med):** 7.83219
 - **EMA 200 (Long):** 7.82043
-- **RSI (14):** 46.39 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00325 (Current Volatility)
+- **RSI (14):** 47.01 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.00332 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)
@@ -35,7 +37,7 @@
 
 > **Theoretical Sizing (If a setup was present):**
 - **Standard Lot Size:** 0.000 Lots (100,000 units)
-- **XM Micro Account Lot Size:** 0.021 Micro Lots (1,000 units)
+- **XM Micro Account Lot Size:** 0.020 Micro Lots (1,000 units)
 > *Note: XM Micro Accounts require a minimum deposit of just $5 and help manage risk. Adjust sizing dynamically for pairs with varying pip values.*
 
 ## 5. Pre-Trade Diagnostic Check

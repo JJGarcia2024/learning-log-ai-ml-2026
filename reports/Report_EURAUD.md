@@ -1,17 +1,21 @@
 # Systematic Trading Report: EURAUD=X
 
-**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- No tier-one news or fundamental data detected immediately via API.
+- **2026-06-16 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
+- **2026-06-12 (FOREX.com):** EUR / Australian Dollar - EUR/AUD - FOREX.com
+- **2026-05-28 (AFR):** Aussie dollar is set to buy a few extra croissants this year - AFR
+- **2026-06-01 (CryptoRank):** Euro Strengthens Against Canadian Dollar After Stronger-Than-Expected German Retail Sales - CryptoRank
+- **2026-06-01 (Profit by Pakistan Today):** Dollar steadies as markets await signals on Iran war, central banks - Profit by Pakistan Today
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 1.64285
+- **Current Price:** 1.64473
 - **Regime/Trend:** RANGING/COMPRESSION (Mean-Reversion)
-- **EMA 50 (Med):** 1.63809
-- **EMA 200 (Long):** 1.69025
-- **RSI (14):** 62.80 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00795 (Current Volatility)
+- **EMA 50 (Med):** 1.63816
+- **EMA 200 (Long):** 1.69027
+- **RSI (14):** 64.01 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.00806 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)

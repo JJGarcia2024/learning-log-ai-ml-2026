@@ -1,24 +1,26 @@
 # Systematic Trading Report: EURGBP=X
 
-**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- **NEWS 1 (FX Empire):** Pound Mostly Steady After Weaker GDP
-- **NEWS 2 (Yahoo Finance UK):** ECB holds interest rates at 2% after eurozone inflation drops in January
-- **NEWS 3 (Yahoo Finance UK):** Eurozone economy expands 0.3% in final quarter of 2025, above expectations
-- **NEWS 4 (FX Empire):** Mixed Performance by the Pound After Weaker Job Data
-- **NEWS 5 (FX Empire):** Limited Downside for the Pound Despite Weaker Jobs and GDP
-- **NEWS 6 (Yahoo Finance UK):** Gold holds five-day rally amid bets on Fed interest rate cut and US shutdown
-- **NEWS 7 (Yahoo Finance UK):** Eurozone inflation hits 2% ECB target after June interest rate cut
-- **NEWS 8 (FX Empire):** The EUR/USD Paradox: A Strong Euro in a Weak Economy
+- **2026-06-12 (FXStreet):** Euro supported by hawkish ECB rhetoric as British Pound struggles after weak GDP - FXStreet
+- **2026-06-12 (CryptoRank):** Euro Gains Momentum on Hawkish ECB Rhetoric as British Pound Struggles After Weak GDP Data - CryptoRank
+- **2026-06-10 (EUbusiness.com):** June currency outlook – Euro currency news - EUbusiness.com
+- **2026-06-09 (TMGM):** Euro holds losses against British Pound despite stronger Germany’s Industrial Production data - TMGM
+- **2026-06-11 (CryptoRank):** Euro Stalls Against British Pound as Markets Eye ECB Rate Decision - CryptoRank
+- **2026-06-11 (FXStreet):** Euro hesitates near lows against the British Pound with the ECB in focus - FXStreet
+- **2026-05-26 (TMGM):** Euro strengthens against British Pound as ECB signals June hike - TMGM
+- **2026-06-08 (CryptoRank):** British Pound Forecast: ING Sees Further Losses Against Euro and US Dollar - CryptoRank
+- **2026-05-27 (FXStreet):** Euro drifts higher against British Pound on hawkish ECB signals - FXStreet
+- **2026-06-02 (CryptoRank):** Euro Holds Steady Against British Pound as Markets Await Eurozone Inflation Data - CryptoRank
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 0.86474
+- **Current Price:** 0.86471
 - **Regime/Trend:** DOWNTREND (Momentum Continuation)
 - **EMA 50 (Med):** 0.86578
 - **EMA 200 (Long):** 0.86705
-- **RSI (14):** 44.67 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00205 (Current Volatility)
+- **RSI (14):** 44.52 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.00206 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)

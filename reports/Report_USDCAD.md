@@ -1,17 +1,26 @@
 # Systematic Trading Report: USDCAD=X
 
-**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- No tier-one news or fundamental data detected immediately via API.
+- **2026-06-17 (FXStreet):** Why is the Canadian Dollar steadying despite a decline in oil prices - FXStreet
+- **2026-06-12 (The Real Economy Blog):** Market Minute: Why the dollar has held up but not gold - The Real Economy Blog
+- **2026-06-05 (Morningstar):** Why Is the Canadian Dollar Falling? - Morningstar
+- **2026-06-12 (Kavout):** Is the Canadian Dollar Still a Petrocurrency in Today's Market - Kavout
+- **2026-06-09 (Bloomberg.com):** Canada Dollar Hits 2026 Low as Traders See Central Bank on Hold - Bloomberg.com
+- **2026-05-27 (FOREX.com):** Canadian Dollar Analysis: Can USD/CAD continue to hold its bullish strength? - FOREX.com
+- **2026-06-15 (VT Markets):** USD/CAD Holds Near 1.3950 as Oil Slump Offsets Softer Dollar Ahead of Fed Meeting - VT Markets
+- **2026-05-26 (Reuters):** Canadian dollar edges lower as focus turns to domestic GDP data - Reuters
+- **2026-06-15 (CEOWORLD magazine):** Are Central Banks Rethinking Their Dependence on the U.S. Dollar? - CEOWORLD magazine
+- **2026-06-08 (Moomoo):** The U.S. dollar has risen against the Canadian dollar for seven consecutive sessions—will the Bank of Canada step in to stabilize the situation this time? - Moomoo
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 1.39921
+- **Current Price:** 1.39971
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 1.38141
+- **EMA 50 (Med):** 1.38143
 - **EMA 200 (Long):** 1.37725
-- **RSI (14):** 74.35 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00570 (Current Volatility)
+- **RSI (14):** 74.76 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.00572 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)

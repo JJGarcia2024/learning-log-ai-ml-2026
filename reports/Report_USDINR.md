@@ -1,17 +1,26 @@
 # Systematic Trading Report: USDINR=X
 
-**Generated:** 2026-06-17 08:34 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- No tier-one news or fundamental data detected immediately via API.
+- **2026-05-21 (Reuters):** India's central bank revives aggressive pre-market intervention to arrest rupee's slide, bankers say - Reuters
+- **2026-05-20 (TradingView):** USD/INR forecast: Here’s why the Indian rupee is soaring today - TradingView
+- **2026-06-08 (VT Markets):** India Gold Prices Slip as Softer US Inflation and Central Bank Buying Support Bullish Outlook - VT Markets
+- **2026-05-22 (marketscreener.com):** INDIA RUPEE-Rupee jumps past 96/USD on firm central bank intervention - marketscreener.com
+- **2026-05-20 (Moneycontrol.com):** RBI announces $5 billion US Dollar/INR swap auction on May 26 to inject liquidity - Moneycontrol.com
+- **2026-05-20 (The Times of India):** RBI announces $5 billion dollar-rupee swap, auction scheduled for May 26 - The Times of India
+- **2026-05-22 (India Infoline):** RBI's $5 Billion Rupee-Dollar Swap: What It Means and Why It Matters - India Infoline
+- **2026-05-21 (WION):** RBI announces $5 billion USD/INR swap auction to ease banking liquidity crunch amid rupee slide - WION
+- **2026-06-08 (ANI News):** RBI launches twin USD-INR forex swap facilities to attract foreign currency inflows and support external financing - ANI News
+- **2026-06-08 (Upstox):** Banking stocks rally as RBI introduces US dollar-rupee forex swap facility for FCNR deposits - Upstox
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 94.74170
+- **Current Price:** 94.44250
 - **Regime/Trend:** RANGING/COMPRESSION (Mean-Reversion)
-- **EMA 50 (Med):** 94.83604
-- **EMA 200 (Long):** 91.85165
-- **RSI (14):** 41.22 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.97676 (Current Volatility)
+- **EMA 50 (Med):** 94.82061
+- **EMA 200 (Long):** 91.87743
+- **RSI (14):** 38.16 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.93696 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)
@@ -20,13 +29,13 @@
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
 
 ### 3b. Directional Bias (No Open Trade)
-**BIAS:** ⚪ **NEUTRAL — Wait for a clear range breakout**
+**BIAS:** 🟢 **BUY (Mean-Reversion from lower range)**
 > *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
 
 ### 3c. Trade Management (Existing Open Trade)
 | Existing Position | Recommendation |
 |---|---|
-| 📈 **Holding a BUY** | ⚠️ CONSIDER CLOSING — EMA 9 just crossed below EMA 21, momentum fading. |
+| 📈 **Holding a BUY** | 🟡 MONITOR — Mixed signals. Trail stop-loss and wait for clarity. |
 | 📉 **Holding a SELL** | 🟡 MONITOR — Mixed signals. Trail stop-loss and wait for clarity. |
 
 ## 4. Risk & Portfolio Defense

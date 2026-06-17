@@ -1,16 +1,20 @@
 # Systematic Trading Report: USDDKK=X
 
-**Generated:** 2026-06-17 08:34 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- No tier-one news or fundamental data detected immediately via API.
+- **2026-06-16 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
+- **2026-06-12 (FOREX.com):** U.S. Dollar to Danish Krone - USD/DKK Exchange Rate Chart - FOREX.com
+- **2026-06-16 (IndexBox):** ING FX Analysis: Dollar Demand, Yen Pressure, and Central Bank Divergence (June 2026) - News and Statistics - IndexBox
+- **2026-06-12 (FOREX.com):** U.S. Dollar / Danish Krone - USD/DKK - FOREX.com
+- **2026-06-03 (TMGM):** Danish Krone: Record low against Euro tests central bank stance – Danske Bank - TMGM
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 6.43428
+- **Current Price:** 6.43502
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 6.42073
-- **EMA 200 (Long):** 6.40689
-- **RSI (14):** 50.99 (Overbought >70, Oversold <30)
+- **EMA 50 (Med):** 6.42076
+- **EMA 200 (Long):** 6.40690
+- **RSI (14):** 51.24 (Overbought >70, Oversold <30)
 - **ATR (14):** 0.03037 (Current Volatility)
 
 ## 3. Execution Criteria

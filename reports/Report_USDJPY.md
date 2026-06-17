@@ -1,17 +1,25 @@
 # Systematic Trading Report: USDJPY=X
 
-**Generated:** 2026-06-17 08:34 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- **NEWS 1 (Barrons.com):** Why a Plunging Dollar Is Missing Out on the Relief Rally
-- **NEWS 2 (The Wall Street Journal):** How Markets Reacted to Trump's Iran Post, in Charts
+- **2026-06-16 (The New York Times):** Japan Raises Rates to 31-Year High to Ward Off War Inflation - The New York Times
+- **2026-06-16 (CNBC):** Bank of Japan hikes rates to 1%, highest since 1995, as yen and inflation worries take hold - CNBC
+- **2026-06-17 (Reuters):** Dollar on the defensive ahead of first Fed decision under Warsh - Reuters
+- **2026-06-16 (ING Think):** FX Daily: Dollar shrugs off oil sell-off - ING Think
+- **2026-06-16 (AP News):** Bank of Japan raises its key interest rate to a three-decade high of 1%, citing inflation - AP News
+- **2026-06-16 (KITCO):** Dollar drifts, no respite for yen after BOJ hikes rates as expected - KITCO
+- **2026-06-16 (TradingView):** USD/JPY: Dollar Stays Strong Above ¥160.20 as Bank of Japan Hikes Rates to 31-Year High - TradingView
+- **2026-06-16 (investingLive):** Intervention risks abound as the Japanese yen can't get off the floor - investingLive
+- **2026-06-15 (Investing.com):** BOJ preview June: 25 bps rate hike expected, hawkish outlook in focus - Investing.com
+- **2026-06-16 (The Japan Times):** Bank of Japan takes rates to 1%, the highest level since 1995 - The Japan Times
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 160.37801
+- **Current Price:** 160.28300
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 159.09972
-- **EMA 200 (Long):** 155.78355
-- **RSI (14):** 63.91 (Overbought >70, Oversold <30)
+- **EMA 50 (Med):** 159.09600
+- **EMA 200 (Long):** 155.78260
+- **RSI (14):** 62.69 (Overbought >70, Oversold <30)
 - **ATR (14):** 0.40135 (Current Volatility)
 
 ## 3. Execution Criteria

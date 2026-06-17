@@ -1,17 +1,23 @@
 # Systematic Trading Report: AUDCAD=X
 
-**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- No tier-one news or fundamental data detected immediately via API.
+- **2026-06-15 (CEOWORLD magazine):** Are Central Banks Rethinking Their Dependence on the U.S. Dollar? - CEOWORLD magazine
+- **2026-06-01 (CryptoRank):** Euro Strengthens Against Canadian Dollar After Stronger-Than-Expected German Retail Sales - CryptoRank
+- **2026-06-15 (Ratopati):** Nepal Rastra Bank Sets Foreign Exchange Rates - Ratopati
+- **2026-06-13 (Ratopati):** Nepal Rastra Bank Sets Foreign Exchange Rates - Ratopati
+- **2026-06-03 (Ratopati):** Nepal Rastra Bank Sets Foreign Exchange Rates for Thursday - Ratopati
+- **2026-05-30 (Ratopati):** Nepal Rastra Bank Sets Foreign Exchange Rates - Ratopati
+- **2026-05-18 (Ratopati):** Nepal Rastra Bank Sets Today's Foreign Exchange Rates - Ratopati
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 0.98884
+- **Current Price:** 0.98810
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 0.98135
-- **EMA 200 (Long):** 0.95105
-- **RSI (14):** 51.70 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00598 (Current Volatility)
+- **EMA 50 (Med):** 0.98133
+- **EMA 200 (Long):** 0.95104
+- **RSI (14):** 50.77 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.00601 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)

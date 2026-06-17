@@ -1,18 +1,26 @@
 # Systematic Trading Report: AUDJPY=X
 
-**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- **NEWS 1 (FX Empire):** Further Strength for the Australian Dollar After Higher Inflation
-- **NEWS 2 (FX Empire):** Some Gains for the Aussie Dollar After the RBA Unexpectedly Holds
+- **2026-06-16 (FXStreet):** Australian Dollar softens against Japanese Yen as BoJ hikes rate to highest since 1995 - FXStreet
+- **2026-05-22 (CryptoRank):** Australian Dollar Faces Repricing Headwinds Against Japanese Yen, Rabobank Warns - CryptoRank
+- **2026-06-05 (FXStreet):** AUD/JPY Price Forecast: Tumbles below 113.00 on suspected Yen intervention, uptrend still intact - FXStreet
+- **2026-06-03 (CryptoRank):** Australian Dollar Slips from Multi-Decade High Against Yen After Weaker GDP Data - CryptoRank
+- **2026-06-03 (FXStreet):** AUD/JPY gains ground to near 111.00 as BoJ signals prolonged rate hold - FXStreet
+- **2026-06-09 (FXStreet):** Australian Dollar holds gains against Japanese Yen as China’s Trade Balance rises more than expected - FXStreet
+- **2026-05-20 (Reuters):** Dollar dips on hopes for Iran deal, yen near danger zone - Reuters
+- **2026-05-26 (FXStreet):** Australian Dollar loses ground against Japanese Yen on Middle East uncertainty - FXStreet
+- **2026-05-22 (FXStreet):** Australian Dollar: Rate repricing weighs against Japanese Yen – Rabobank - FXStreet
+- **2026-05-19 (FXStreet):** Australian Dollar falls vs Japanese Yen as RBA Minutes flag inflation, growth risks - FXStreet
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 113.36500
+- **Current Price:** 113.17300
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 113.03408
-- **EMA 200 (Long):** 107.68291
-- **RSI (14):** 45.18 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.72272 (Current Volatility)
+- **EMA 50 (Med):** 113.02655
+- **EMA 200 (Long):** 107.68100
+- **RSI (14):** 43.24 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.73307 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)

@@ -1,17 +1,17 @@
 # Systematic Trading Report: EURCHF=X
 
-**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - No tier-one news or fundamental data detected immediately via API.
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 0.92054
+- **Current Price:** 0.91964
 - **Regime/Trend:** RANGING/COMPRESSION (Mean-Reversion)
-- **EMA 50 (Med):** 0.91731
-- **EMA 200 (Long):** 0.92224
-- **RSI (14):** 61.27 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00316 (Current Volatility)
+- **EMA 50 (Med):** 0.91728
+- **EMA 200 (Long):** 0.92223
+- **RSI (14):** 59.07 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.00323 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)
@@ -20,7 +20,7 @@
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
 
 ### 3b. Directional Bias (No Open Trade)
-**BIAS:** 🔴 **SELL (Mean-Reversion from upper range)**
+**BIAS:** ⚪ **NEUTRAL — Wait for a clear range breakout**
 > *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
 
 ### 3c. Trade Management (Existing Open Trade)

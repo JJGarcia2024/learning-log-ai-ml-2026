@@ -1,16 +1,21 @@
 # Systematic Trading Report: USDPLN=X
 
-**Generated:** 2026-06-17 08:34 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- No tier-one news or fundamental data detected immediately via API.
+- **2026-06-16 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
+- **2026-06-12 (FOREX.com):** British Pound / Polish Zloty - GBP/PLN - FOREX.com
+- **2026-06-15 (inkorr.com):** Official Dollar Exchange Rate for June 15 Revealed by Ukraine's Central Bank - inkorr.com
+- **2026-06-07 (inkorr.com):** June 7 Exchange Rates Released by Ukraine's Central Bank: US Dollar, Euro, and British Pound All Climb - inkorr.com
+- **2026-06-01 (MEXC):** Polish Zloty Holds Tight Range as NBP Maintains Pause, BBH Reports - MEXC
+- **2026-05-26 (inkorr.com):** Ukrainian Hryvnia Strengthens Against Dollar but Weakens Against Euro: NBU Sets May 26 Exchange Rates - inkorr.com
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 3.64810
+- **Current Price:** 3.64750
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 3.64440
-- **EMA 200 (Long):** 3.63874
-- **RSI (14):** 51.40 (Overbought >70, Oversold <30)
+- **EMA 50 (Med):** 3.64438
+- **EMA 200 (Long):** 3.63873
+- **RSI (14):** 51.21 (Overbought >70, Oversold <30)
 - **ATR (14):** 0.02622 (Current Volatility)
 
 ## 3. Execution Criteria

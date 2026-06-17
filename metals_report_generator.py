@@ -1,9 +1,11 @@
 import yfinance as yf
 import pandas as pd
 import numpy as np
-from datetime import datetime
+from datetime import datetime, timedelta
 import os
-
+import urllib.request
+import urllib.parse
+import xml.etree.ElementTree as ET
 def calculate_indicators(df):
     df['EMA_9'] = df['Close'].ewm(span=9, adjust=False).mean()
     df['EMA_21'] = df['Close'].ewm(span=21, adjust=False).mean()
@@ -81,37 +83,98 @@ def fetch_synthetic_metal(symbol, interval='1d'):
     return pd.DataFrame()
 
 def get_fundamental_data(symbol):
-    base_metal = symbol[:3]
-    metal_futures = {'XAU': 'GC=F', 'XAG': 'SI=F', 'XPT': 'PL=F', 'XPD': 'PA=F'}
-    future_ticker = metal_futures.get(base_metal, 'GC=F')
+    """
+    Scours the web (via Google News RSS) for recent macroeconomic news related to the metals and currencies.
+    Filters for news within the last 30 days. Fallbacks to yfinance if no results found.
+    """
+    clean_sym = symbol.replace('=X', '')
+    if len(clean_sym) == 6:
+        base = clean_sym[:3]
+        quote = clean_sym[3:]
+    else:
+        base = clean_sym
+        quote = 'economy'
+        
+    names = {
+        'USD': 'US Dollar', 'EUR': 'Euro', 'GBP': 'British Pound', 
+        'JPY': 'Japanese Yen', 'AUD': 'Australian Dollar', 'NZD': 'New Zealand Dollar',
+        'CAD': 'Canadian Dollar', 'CHF': 'Swiss Franc', 
+        'XAU': 'Gold', 'XAG': 'Silver', 'XPT': 'Platinum', 'XPD': 'Palladium',
+        'GC=F': 'Gold', 'SI=F': 'Silver', 'PL=F': 'Platinum', 'PA=F': 'Palladium'
+    }
+    
+    base_name = names.get(base, base)
+    quote_name = names.get(quote, quote)
+    
+    query = f'"{base_name}" "{quote_name}" (forex OR economy OR central bank)'
+    if base == quote or quote == 'economy':
+        query = f'"{base_name}" (forex OR economy OR central bank)'
+        
+    encoded_query = urllib.parse.quote(query)
+    url = f'https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en'
+    
+    parsed_news = []
     
     try:
-        ticker_obj = yf.Ticker(future_ticker)
-        news = ticker_obj.news
-        parsed_news = []
-        for item in (news[:10] if news else []):
-            if 'content' in item:
-                content = item['content']
-                title = content.get('title', 'No Title provided.')
-                provider = content.get('provider', {}).get('displayName', 'Unknown')
-                parsed_news.append({'title': title, 'publisher': provider})
-            else:
-                title = item.get('title', 'No Title provided.')
-                provider = item.get('publisher', 'Unknown')
-                parsed_news.append({'title': title, 'publisher': provider})
-        return parsed_news
-    except Exception:
-        return []
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=10) as response:
+            xml_data = response.read()
+            root = ET.fromstring(xml_data)
+            items = root.findall('.//item')
+            
+            thirty_days_ago = datetime.now() - timedelta(days=30)
+            
+            for item in items:
+                title = item.find('title').text
+                pubDate_str = item.find('pubDate').text
+                source = item.find('source').text if item.find('source') is not None else 'News'
+                
+                try:
+                    pubDate = datetime.strptime(pubDate_str, '%a, %d %b %Y %H:%M:%S %Z')
+                    if pubDate < thirty_days_ago:
+                        continue
+                    date_display = pubDate.strftime('%Y-%m-%d')
+                except Exception:
+                    date_display = pubDate_str[:16]
+                
+                parsed_news.append({'title': title, 'publisher': source, 'date': date_display})
+                if len(parsed_news) >= 10:
+                    break
+    except Exception as e:
+        print(f"Error fetching RSS news for {symbol}: {e}")
+        
+    if not parsed_news:
+        base_metal = symbol[:3]
+        metal_futures = {'XAU': 'GC=F', 'XAG': 'SI=F', 'XPT': 'PL=F', 'XPD': 'PA=F'}
+        future_ticker = metal_futures.get(base_metal, 'GC=F')
+        
+        try:
+            ticker_obj = yf.Ticker(future_ticker)
+            news = ticker_obj.news
+            for item in (news[:10] if news else []):
+                if 'content' in item:
+                    content = item['content']
+                    title = content.get('title', 'No Title provided.')
+                    provider = content.get('provider', {}).get('displayName', 'Unknown')
+                    parsed_news.append({'title': title, 'publisher': provider, 'date': 'Recent'})
+                else:
+                    title = item.get('title', 'No Title provided.')
+                    provider = item.get('publisher', 'Unknown')
+                    parsed_news.append({'title': title, 'publisher': provider, 'date': 'Recent'})
+        except Exception:
+            pass
+            
+    return parsed_news
 
 def generate_report(symbol, account_balance, risk_pct=1.0, interval='1d'):
     df = fetch_synthetic_metal(symbol, interval=interval)
     if df.empty:
         print(f"Failed to fetch data for {symbol}")
-        return
+        return None
         
     df = calculate_indicators(df)
     if len(df) < 2:
-        return
+        return None
         
     latest = df.iloc[-1]
     prev = df.iloc[-2]
@@ -227,7 +290,8 @@ def generate_report(symbol, account_balance, risk_pct=1.0, interval='1d'):
         for i, article in enumerate(news_items, 1):
             title = article.get('title', 'No Title provided.')
             publisher = article.get('publisher', 'Unknown')
-            md += f"- **NEWS {i} ({publisher}):** {title}\n"
+            date_str = article.get('date', '')
+            md += f"- **{date_str} ({publisher}):** {title}\n"
     else:
         md += "- No tier-one news or fundamental data detected immediately via API.\n"
         
@@ -293,6 +357,7 @@ def generate_report(symbol, account_balance, risk_pct=1.0, interval='1d'):
         f.write(md)
         
     print(f"Generated Markdown report: {filename}")
+    return {'symbol': symbol.replace('=X', ''), 'lots': xm_micro_lots}
 
 if __name__ == "__main__":
     ACCOUNT_BALANCE = 10.0     
@@ -307,5 +372,32 @@ if __name__ == "__main__":
         'XPTUSD=X', 'XPTEUR=X', 'XPDUSD=X', 'XPDEUR=X'
     ]
     
+    tradeable_pairs = []
+    
     for asset in ASSETS:
-        generate_report(asset, ACCOUNT_BALANCE, risk_pct=RISK_PERCENTAGE, interval='1d')
+        result = generate_report(asset, ACCOUNT_BALANCE, risk_pct=RISK_PERCENTAGE, interval='1d')
+        if result and result['lots'] >= 0.01:
+            tradeable_pairs.append(result)
+            
+    # Write summary document
+    tradeable_pairs.sort(key=lambda x: x['lots'], reverse=True)
+    
+    summary_md = "# Tradeable Metals Universe (>= 0.01 Micro Lots)\n\n"
+    summary_md += f"**Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M')}\n"
+    summary_md += f"**Parameters:** ${ACCOUNT_BALANCE} Account | {RISK_PERCENTAGE}% Risk\n\n"
+    summary_md += "| Pair | Allowable XM Micro Lots |\n"
+    summary_md += "|---|---|\n"
+    
+    for item in tradeable_pairs:
+        summary_md += f"| **{item['symbol']}** | {item['lots']:.3f} |\n"
+        
+    if not tradeable_pairs:
+        summary_md += "| *None* | *N/A* |\n"
+        
+    if not os.path.exists('reports'):
+        os.makedirs('reports')
+        
+    with open('reports/Tradeable_Metals_Universe.md', 'w', encoding='utf-8') as f:
+        f.write(summary_md)
+        
+    print(f"Generated summary: reports/Tradeable_Metals_Universe.md with {len(tradeable_pairs)} pairs.")

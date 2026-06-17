@@ -1,16 +1,25 @@
 # Systematic Trading Report: USDSGD=X
 
-**Generated:** 2026-06-17 08:34 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- No tier-one news or fundamental data detected immediately via API.
+- **2026-06-12 (FOREX.com):** EUR / Singapore Dollar - EUR/SGD - FOREX.com
+- **2026-05-25 (CryptoRank):** Singapore Dollar: UOB Maintains Range Trade Bias Against US Dollar - CryptoRank
+- **2026-06-01 (Nomad Capitalist):** The Largest Value Banknotes in the World - Nomad Capitalist
+- **2026-06-02 (Bitcoin World):** Singapore Dollar Stays In Range Against US Dollar, Says UOB - Bitcoin World
+- **2026-06-16 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
+- **2026-05-25 (Bitcoin World):** Singapore Dollar: UOB Maintains Range Trade Bias Against US Dollar - Bitcoin World
+- **2026-06-08 (Bitcoin World):** Singapore Dollar: UOB Sees Further Weakness Against US Dollar, Targeting 1.2960 - Bitcoin World
+- **2026-05-23 (Bitcoin World):** Singapore Dollar Shows Mild Bullish Bias Against US Dollar, But Stays Within Tight Range: UOB - Bitcoin World
+- **2026-06-05 (Bitcoin World):** Singapore Dollar Holds Firm Against US Dollar, Mild Upside Seen: OCBC - Bitcoin World
+- **2026-06-08 (MEXC):** Singapore Dollar: UOB Sees Further Weakness Against US Dollar, Targeting 1.2960 - MEXC
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 1.28180
+- **Current Price:** 1.28150
 - **Regime/Trend:** RANGING/COMPRESSION (Mean-Reversion)
-- **EMA 50 (Med):** 1.27919
+- **EMA 50 (Med):** 1.27918
 - **EMA 200 (Long):** 1.28064
-- **RSI (14):** 56.53 (Overbought >70, Oversold <30)
+- **RSI (14):** 55.96 (Overbought >70, Oversold <30)
 - **ATR (14):** 0.00441 (Current Volatility)
 
 ## 3. Execution Criteria

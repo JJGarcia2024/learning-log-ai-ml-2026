@@ -1,17 +1,21 @@
 # Systematic Trading Report: CADJPY=X
 
-**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- No tier-one news or fundamental data detected immediately via API.
+- **2026-05-29 (myRepublica):** Forex update: US dollar, Japanese yen and Saudi riyal remain stable against Nepali rupee - myRepublica
+- **2026-06-09 (CryptoRank):** Japanese Yen Completes Round-Trip to Tokyo’s Record Intervention Zone Ahead of US CPI - CryptoRank
+- **2026-06-15 (CryptoRank):** Japanese Yen Flatlines as US-Iran Deal Hopes Clash with BoJ Rate Hike Bets - CryptoRank
+- **2026-06-15 (CryptoRank):** Dollar Eases as Reports of U.S.-Iran Peace Deal Emerge, Central Bank Decisions Loom - CryptoRank
+- **2026-05-21 (Bitcoin World):** Japanese Yen Catches A Break, No Thanks To The BoJ - Bitcoin World
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 114.62700
+- **Current Price:** 114.52000
 - **Regime/Trend:** RANGING/COMPRESSION (Mean-Reversion)
-- **EMA 50 (Med):** 115.16249
-- **EMA 200 (Long):** 113.10218
-- **RSI (14):** 37.70 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.45007 (Current Volatility)
+- **EMA 50 (Med):** 115.15829
+- **EMA 200 (Long):** 113.10111
+- **RSI (14):** 34.95 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.45364 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)

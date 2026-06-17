@@ -1,17 +1,23 @@
 # Systematic Trading Report: EURCAD=X
 
-**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- No tier-one news or fundamental data detected immediately via API.
+- **2026-06-16 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
+- **2026-06-01 (CryptoRank):** Euro Strengthens Against Canadian Dollar After Stronger-Than-Expected German Retail Sales - CryptoRank
+- **2026-05-26 (FXStreet):** Euro struggles against Canadian Dollar as oil prices rebound - FXStreet
+- **2026-05-25 (FXStreet):** Euro rises against Canadian Dollar due to lower oil prices, risk-on mood - FXStreet
+- **2026-05-19 (FXStreet):** Canadian Dollar gains against Euro despite softer domestic inflation data - FXStreet
+- **2026-05-26 (Bitcoin World):** Euro Slides Against Canadian Dollar As Oil Price Rebound Bolsters Loonie - Bitcoin World
+- **2026-05-20 (Bitcoin World):** Euro Strengthens Against Canadian Dollar As Oil Prices Retreat - Bitcoin World
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 1.62474
+- **Current Price:** 1.62536
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 1.60747
+- **EMA 50 (Med):** 1.60749
 - **EMA 200 (Long):** 1.60552
-- **RSI (14):** 70.37 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00692 (Current Volatility)
+- **RSI (14):** 70.81 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.00694 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)

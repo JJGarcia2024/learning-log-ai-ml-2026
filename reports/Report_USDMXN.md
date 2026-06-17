@@ -1,6 +1,6 @@
 # Systematic Trading Report: USDMXN=X
 
-**Generated:** 2026-06-17 08:34 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - No tier-one news or fundamental data detected immediately via API.

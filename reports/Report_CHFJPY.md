@@ -1,17 +1,17 @@
 # Systematic Trading Report: CHFJPY=X
 
-**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - No tier-one news or fundamental data detected immediately via API.
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 202.33099
+- **Current Price:** 202.39999
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 201.80713
-- **EMA 200 (Long):** 196.97069
-- **RSI (14):** 48.73 (Overbought >70, Oversold <30)
-- **ATR (14):** 1.09593 (Current Volatility)
+- **EMA 50 (Med):** 201.80984
+- **EMA 200 (Long):** 196.97138
+- **RSI (14):** 49.21 (Overbought >70, Oversold <30)
+- **ATR (14):** 1.09957 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)

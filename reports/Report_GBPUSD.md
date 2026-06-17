@@ -1,26 +1,26 @@
 # Systematic Trading Report: GBPUSD=X
 
-**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- **NEWS 1 (Reuters):** Yen touches 160, dollar slips from two-month high amid Iran talks
-- **NEWS 2 (Reuters):** Dollar climbs as US strikes on Iran dent ceasefire optimism
-- **NEWS 3 (Reuters):** Dollar drifts lower as oil falls on Hormuz deal optimism
-- **NEWS 4 (Investing.com):** Deutsche Bank sees room for a further rally in EUR/GBP
-- **NEWS 5 (PA Media: Money):** UK borrowing costs hit 28-year-high as City braces for Burnham challenge
-- **NEWS 6 (Barrons.com):** U.K. PM Starmer Is in Danger. Why the Timing of His Exit Matters for Markets.
-- **NEWS 7 (The Wall Street Journal):** U.K.’s Starmer Fights for Job as Leadership Crisis Spills Into Markets
-- **NEWS 8 (Investing.com):** Sterling Today: Pound jumps as dollar sells off on Iran-Hormuz deal hopes
-- **NEWS 9 (Barchart):** Hedge Funds Are Shorting the U.S. Dollar So Make This 1 Trade Now
-- **NEWS 10 (Investing.com):** FTSE 100 today: UK stocks gain, pound above $1.35 amid U.S.-Iran talks hopes
+- **2026-06-12 (Peter G. Peterson Foundation):** The U.S. Dollar Is the World’s Reserve Currency. Why Does That Matter? - Peter G. Peterson Foundation
+- **2026-06-15 (FXStreet):** British Pound picks up amid peace hopes with central banks coming into focus - FXStreet
+- **2026-06-12 (CryptoRank):** British Pound Maintains Bullish Bias Against US Dollar in Higher Range, UOB Says - CryptoRank
+- **2026-06-15 (TMGM):** British Pound picks up amid peace hopes with central banks coming into focus - TMGM
+- **2026-06-15 (Investing.com Nigeria):** Dollar dips on US-Iran peace deal ahead of blockbuster central bank week - Investing.com Nigeria
+- **2026-06-09 (Mitrade):** British Pound edges higher on weaker Dollar as UK political, growth risks cap gains - Mitrade
+- **2026-06-10 (CryptoRank):** British Pound Holds Gains Against US Dollar as Scotiabank Sees Limited Data Risk - CryptoRank
+- **2026-05-29 (FXStreet):** British Pound rebounds as US Dollar weakens on Iran deal hopes - FXStreet
+- **2026-06-12 (CryptoRank):** British Pound Holds Steady Against US Dollar Ahead of Key BoE Decision and Data Releases: Scotiabank - CryptoRank
+- **2026-06-08 (FXStreet):** British Pound: Seen lower against Euro and US Dollar – ING - FXStreet
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 1.34308
+- **Current Price:** 1.34304
 - **Regime/Trend:** DOWNTREND (Momentum Continuation)
 - **EMA 50 (Med):** 1.34414
 - **EMA 200 (Long):** 1.34466
-- **RSI (14):** 52.00 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00670 (Current Volatility)
+- **RSI (14):** 51.95 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.00672 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)

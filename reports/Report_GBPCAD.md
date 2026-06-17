@@ -1,17 +1,23 @@
 # Systematic Trading Report: GBPCAD=X
 
-**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- No tier-one news or fundamental data detected immediately via API.
+- **2026-06-16 (CryptoRank):** Canadian Dollar Slides as Risk Aversion and Dovish BoC Tone Weigh on Sentiment - CryptoRank
+- **2026-06-12 (CryptoRank):** GBP/USD Price Forecast: Pound Targets 1.3400 as Dollar Weakens, but Resistance Caps Gains - CryptoRank
+- **2026-06-12 (FOREX.com):** British Pound to Canadian Dollar - GBP/CAD Exchange Rate Chart - FOREX.com
+- **2026-06-16 (CryptoRank):** British Pound Edges Lower as Traders Await US-Iran Deal Developments - CryptoRank
+- **2026-06-12 (CryptoRank):** Euro Gains Momentum on Hawkish ECB Rhetoric as British Pound Struggles After Weak GDP Data - CryptoRank
+- **2026-06-12 (Investing.com South Africa):** Week Ahead: Central Bank Decisions, US Retail Sales, and Japan Inflation in Focus - Investing.com South Africa
+- **2026-05-26 (Ratopati):** Nepal Rastra Bank Sets Foreign Exchange Rates - Ratopati
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 1.87876
+- **Current Price:** 1.87966
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 1.85645
+- **EMA 50 (Med):** 1.85648
 - **EMA 200 (Long):** 1.85155
-- **RSI (14):** 70.50 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00801 (Current Volatility)
+- **RSI (14):** 70.98 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.00805 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)

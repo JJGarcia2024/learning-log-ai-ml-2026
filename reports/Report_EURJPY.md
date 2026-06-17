@@ -1,17 +1,25 @@
 # Systematic Trading Report: EURJPY=X
 
-**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- **NEWS 1 (FX Empire):** Mixed Performance by the Yen Ahead of Inflation and the BoJ’s Meeting
-- **NEWS 2 (FX Empire):** The EUR/USD Paradox: A Strong Euro in a Weak Economy
+- **2026-06-16 (FXStreet):** Japanese Yen gives up some gains against Euro as BoJ hikes rates by 25 bps to 1%, as expected - FXStreet
+- **2026-06-15 (CryptoRank):** Euro Rallies Against Yen as US-Iran Deal Eases Geopolitical Risk, BoJ Decision Looms - CryptoRank
+- **2026-06-12 (VT Markets):** Euro climbs against yen as ECB hike bets rise and traders await Bank of Japan decision - VT Markets
+- **2026-06-09 (TradingPedia):** Euro Advances vs Yen on ECB Hike, Japan Risk Outlook FX - TradingPedia
+- **2026-06-10 (FXStreet):** Euro strengthens against Japanese Yen due to ECB rate hike odds - FXStreet
+- **2026-06-03 (CryptoRank):** Japanese Yen Surges Against Euro as Takaichi Reaffirms Intervention Stance - CryptoRank
+- **2026-05-27 (TMGM):** Euro hits fresh monthly highs with Japanese Yen weakness raising intervention concerns - TMGM
+- **2026-05-19 (FXStreet):** Euro struggles against Japanese Yen despite hawkish ECB tone - FXStreet
+- **2026-06-10 (TMGM):** Euro strengthens against Japanese Yen due to ECB rate hike odds - TMGM
+- **2026-05-27 (Bitget):** Euro hits fresh monthly highs with Japanese Yen weakness raising intervention concerns - Bitget
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 186.26900
+- **Current Price:** 186.15500
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 185.14885
-- **EMA 200 (Long):** 181.61998
-- **RSI (14):** 62.47 (Overbought >70, Oversold <30)
+- **EMA 50 (Med):** 185.14438
+- **EMA 200 (Long):** 181.61885
+- **RSI (14):** 61.24 (Overbought >70, Oversold <30)
 - **ATR (14):** 0.80793 (Current Volatility)
 
 ## 3. Execution Criteria

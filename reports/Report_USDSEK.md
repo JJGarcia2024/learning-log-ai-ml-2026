@@ -1,16 +1,22 @@
 # Systematic Trading Report: USDSEK=X
 
-**Generated:** 2026-06-17 08:34 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- No tier-one news or fundamental data detected immediately via API.
+- **2026-06-15 (CryptoRank):** Swedish Krona Struggles as Riksbank Maintains Cautious Stance, BBH Analysts Say - CryptoRank
+- **2026-06-12 (FOREX.com):** EUR / Swedish Krona - EUR/SEK - FOREX.com
+- **2026-06-16 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
+- **2026-05-26 (MUFG Research):** FX Weekly - MUFG Research
+- **2026-06-01 (Bitcoin World):** Swedish Krona Gains Ground As Solid Economic Data Supports SEK, Says Danske Bank - Bitcoin World
+- **2026-05-28 (Traders Union):** US Dollar vs Swedish Krona price prediction: kr 9.2200 support in focus as USD/SEK trades in narrow range - Traders Union
+- **2026-05-27 (Traders Union):** Kr 9.3180 resistance keeps US Dollar vs Swedish Krona in a narrow range - Traders Union
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 9.35492
+- **Current Price:** 9.34815
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 9.32722
-- **EMA 200 (Long):** 9.31138
-- **RSI (14):** 54.75 (Overbought >70, Oversold <30)
+- **EMA 50 (Med):** 9.32695
+- **EMA 200 (Long):** 9.31131
+- **RSI (14):** 54.13 (Overbought >70, Oversold <30)
 - **ATR (14):** 0.08987 (Current Volatility)
 
 ## 3. Execution Criteria

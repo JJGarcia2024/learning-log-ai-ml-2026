@@ -1,17 +1,19 @@
 # Systematic Trading Report: EURZAR=X
 
-**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- No tier-one news or fundamental data detected immediately via API.
+- **2026-06-16 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
+- **2026-06-03 (Investing.com):** UBS recommends selling EUR/ZAR upside on rand strength - Investing.com
+- **2026-06-12 (FOREX.com):** EUR / South African Rand - EUR/ZAR - FOREX.com
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 18.78845
+- **Current Price:** 18.79405
 - **Regime/Trend:** DOWNTREND (Momentum Continuation)
-- **EMA 50 (Med):** 19.12626
-- **EMA 200 (Long):** 19.49895
-- **RSI (14):** 38.02 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.15600 (Current Volatility)
+- **EMA 50 (Med):** 19.12648
+- **EMA 200 (Long):** 19.49901
+- **RSI (14):** 38.37 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.15637 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)

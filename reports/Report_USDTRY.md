@@ -1,17 +1,17 @@
 # Systematic Trading Report: USDTRY=X
 
-**Generated:** 2026-06-17 08:34 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- No tier-one news or fundamental data detected immediately via API.
+- **2026-06-16 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 46.30920
+- **Current Price:** 46.30650
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 45.49920
-- **EMA 200 (Long):** 43.70388
+- **EMA 50 (Med):** 45.49910
+- **EMA 200 (Long):** 43.70385
 - **RSI (14):** 99.76 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.06335 (Current Volatility)
+- **ATR (14):** 0.06378 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)

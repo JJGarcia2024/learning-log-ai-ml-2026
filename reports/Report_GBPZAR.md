@@ -1,17 +1,20 @@
 # Systematic Trading Report: GBPZAR=X
 
-**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
+**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- No tier-one news or fundamental data detected immediately via API.
+- **2026-06-12 (FOREX.com):** British Pound to South African Rand - GBP/ZAR Exchange Rate Chart - FOREX.com
+- **2026-06-12 (FOREX.com):** U.S. Dollar / South African Rand - USD/ZAR - FOREX.com
+- **2026-06-12 (FOREX.com):** South African Rand / Japanese Yen - ZAR/JPY - FOREX.com
+- **2026-06-05 (capetown.today):** Where does the rate sit today? - capetown.today
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 21.71514
+- **Current Price:** 21.73140
 - **Regime/Trend:** DOWNTREND (Momentum Continuation)
-- **EMA 50 (Med):** 22.08994
-- **EMA 200 (Long):** 22.49008
-- **RSI (14):** 40.49 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.19075 (Current Volatility)
+- **EMA 50 (Med):** 22.09058
+- **EMA 200 (Long):** 22.49024
+- **RSI (14):** 41.17 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.19203 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)
