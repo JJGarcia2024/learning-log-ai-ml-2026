@@ -1,22 +1,33 @@
 # Systematic Trading Report: EURTRY=X
 
-**Generated:** 2026-06-16 19:51 | **Timeframe:** 1d
+**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - No tier-one news or fundamental data detected immediately via API.
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 53.74168
+- **Current Price:** 53.94940
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 52.94618
-- **EMA 200 (Long):** 50.93775
-- **RSI (14):** 62.42 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.31348 (Current Volatility)
+- **EMA 50 (Med):** 52.98320
+- **EMA 200 (Long):** 50.97881
+- **RSI (14):** 69.87 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.30648 (Current Volatility)
 
 ## 3. Execution Criteria
+### 3a. Trigger Signal (Specific System Entry)
 **ACTION SIGNAL:** ⏸️ **NO ENTRY (WAIT)**
 
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
+
+### 3b. Directional Bias (No Open Trade)
+**BIAS:** 🟢 **BUY**
+> *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
+
+### 3c. Trade Management (Existing Open Trade)
+| Existing Position | Recommendation |
+|---|---|
+| 📈 **Holding a BUY** | ✅ HOLD — Uptrend intact, momentum and RSI support continuation. |
+| 📉 **Holding a SELL** | 🔴 CLOSE SELL — Trend reversed to Uptrend. Exit to protect capital. |
 
 ## 4. Risk & Portfolio Defense
 - **Capital Base:** $10.00

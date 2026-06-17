@@ -1,22 +1,33 @@
 # Systematic Trading Report: CADCHF=X
 
-**Generated:** 2026-06-16 19:51 | **Timeframe:** 1d
+**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - No tier-one news or fundamental data detected immediately via API.
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 0.56753
+- **Current Price:** 0.56645
 - **Regime/Trend:** DOWNTREND (Momentum Continuation)
-- **EMA 50 (Med):** 0.57070
-- **EMA 200 (Long):** 0.57424
-- **RSI (14):** 47.37 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00324 (Current Volatility)
+- **EMA 50 (Med):** 0.57054
+- **EMA 200 (Long):** 0.57435
+- **RSI (14):** 43.65 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.00323 (Current Volatility)
 
 ## 3. Execution Criteria
+### 3a. Trigger Signal (Specific System Entry)
 **ACTION SIGNAL:** ⏸️ **NO ENTRY (WAIT)**
 
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
+
+### 3b. Directional Bias (No Open Trade)
+**BIAS:** 🔴 **SELL**
+> *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
+
+### 3c. Trade Management (Existing Open Trade)
+| Existing Position | Recommendation |
+|---|---|
+| 📈 **Holding a BUY** | 🔴 CLOSE BUY — Trend reversed to Downtrend. Exit to protect capital. |
+| 📉 **Holding a SELL** | ✅ HOLD — Downtrend intact, momentum and RSI support continuation. |
 
 ## 4. Risk & Portfolio Defense
 - **Capital Base:** $10.00

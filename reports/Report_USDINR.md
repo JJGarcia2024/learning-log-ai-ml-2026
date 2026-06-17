@@ -1,22 +1,33 @@
 # Systematic Trading Report: USDINR=X
 
-**Generated:** 2026-06-16 19:51 | **Timeframe:** 1d
+**Generated:** 2026-06-17 08:34 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - No tier-one news or fundamental data detected immediately via API.
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 94.55000
+- **Current Price:** 94.74170
 - **Regime/Trend:** RANGING/COMPRESSION (Mean-Reversion)
-- **EMA 50 (Med):** 94.82853
-- **EMA 200 (Long):** 91.86062
-- **RSI (14):** 40.06 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.97011 (Current Volatility)
+- **EMA 50 (Med):** 94.83604
+- **EMA 200 (Long):** 91.85165
+- **RSI (14):** 41.22 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.97676 (Current Volatility)
 
 ## 3. Execution Criteria
+### 3a. Trigger Signal (Specific System Entry)
 **ACTION SIGNAL:** ⏸️ **NO ENTRY (WAIT)**
 
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
+
+### 3b. Directional Bias (No Open Trade)
+**BIAS:** ⚪ **NEUTRAL — Wait for a clear range breakout**
+> *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
+
+### 3c. Trade Management (Existing Open Trade)
+| Existing Position | Recommendation |
+|---|---|
+| 📈 **Holding a BUY** | ⚠️ CONSIDER CLOSING — EMA 9 just crossed below EMA 21, momentum fading. |
+| 📉 **Holding a SELL** | 🟡 MONITOR — Mixed signals. Trail stop-loss and wait for clarity. |
 
 ## 4. Risk & Portfolio Defense
 - **Capital Base:** $10.00

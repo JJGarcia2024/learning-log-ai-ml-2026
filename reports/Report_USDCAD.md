@@ -1,22 +1,33 @@
 # Systematic Trading Report: USDCAD=X
 
-**Generated:** 2026-06-16 19:51 | **Timeframe:** 1d
+**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - No tier-one news or fundamental data detected immediately via API.
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 1.40068
+- **Current Price:** 1.39921
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 1.38075
-- **EMA 200 (Long):** 1.37712
-- **RSI (14):** 77.95 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00613 (Current Volatility)
+- **EMA 50 (Med):** 1.38141
+- **EMA 200 (Long):** 1.37725
+- **RSI (14):** 74.35 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.00570 (Current Volatility)
 
 ## 3. Execution Criteria
+### 3a. Trigger Signal (Specific System Entry)
 **ACTION SIGNAL:** ⏸️ **NO ENTRY (WAIT)**
 
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
+
+### 3b. Directional Bias (No Open Trade)
+**BIAS:** 🟡 **BUY (CAUTION — RSI Overbought, consider waiting for a pullback)**
+> *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
+
+### 3c. Trade Management (Existing Open Trade)
+| Existing Position | Recommendation |
+|---|---|
+| 📈 **Holding a BUY** | 🟡 MONITOR — Mixed signals. Trail stop-loss and wait for clarity. |
+| 📉 **Holding a SELL** | 🔴 CLOSE SELL — Trend reversed to Uptrend. Exit to protect capital. |
 
 ## 4. Risk & Portfolio Defense
 - **Capital Base:** $10.00
@@ -24,7 +35,7 @@
 
 > **Theoretical Sizing (If a setup was present):**
 - **Standard Lot Size:** 0.000 Lots (100,000 units)
-- **XM Micro Account Lot Size:** 0.011 Micro Lots (1,000 units)
+- **XM Micro Account Lot Size:** 0.012 Micro Lots (1,000 units)
 > *Note: XM Micro Accounts require a minimum deposit of just $5 and help manage risk. Adjust sizing dynamically for pairs with varying pip values.*
 
 ## 5. Pre-Trade Diagnostic Check

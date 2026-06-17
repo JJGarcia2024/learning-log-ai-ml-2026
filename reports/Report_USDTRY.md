@@ -1,22 +1,33 @@
 # Systematic Trading Report: USDTRY=X
 
-**Generated:** 2026-06-16 19:51 | **Timeframe:** 1d
+**Generated:** 2026-06-17 08:34 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - No tier-one news or fundamental data detected immediately via API.
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 46.29300
+- **Current Price:** 46.30920
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 45.46648
-- **EMA 200 (Long):** 43.67631
-- **RSI (14):** 99.53 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.07146 (Current Volatility)
+- **EMA 50 (Med):** 45.49920
+- **EMA 200 (Long):** 43.70388
+- **RSI (14):** 99.76 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.06335 (Current Volatility)
 
 ## 3. Execution Criteria
+### 3a. Trigger Signal (Specific System Entry)
 **ACTION SIGNAL:** ⏸️ **NO ENTRY (WAIT)**
 
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
+
+### 3b. Directional Bias (No Open Trade)
+**BIAS:** 🟡 **BUY (CAUTION — RSI Overbought, consider waiting for a pullback)**
+> *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
+
+### 3c. Trade Management (Existing Open Trade)
+| Existing Position | Recommendation |
+|---|---|
+| 📈 **Holding a BUY** | ⚠️ CONSIDER PARTIAL CLOSE — RSI extreme overbought (>75), reversal risk elevated. |
+| 📉 **Holding a SELL** | 🔴 CLOSE SELL — Trend reversed to Uptrend. Exit to protect capital. |
 
 ## 4. Risk & Portfolio Defense
 - **Capital Base:** $10.00

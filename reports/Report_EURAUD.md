@@ -1,22 +1,33 @@
 # Systematic Trading Report: EURAUD=X
 
-**Generated:** 2026-06-16 19:51 | **Timeframe:** 1d
+**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - No tier-one news or fundamental data detected immediately via API.
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 1.64078
+- **Current Price:** 1.64285
 - **Regime/Trend:** RANGING/COMPRESSION (Mean-Reversion)
-- **EMA 50 (Med):** 1.63797
-- **EMA 200 (Long):** 1.69107
-- **RSI (14):** 65.72 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00836 (Current Volatility)
+- **EMA 50 (Med):** 1.63809
+- **EMA 200 (Long):** 1.69025
+- **RSI (14):** 62.80 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.00795 (Current Volatility)
 
 ## 3. Execution Criteria
+### 3a. Trigger Signal (Specific System Entry)
 **ACTION SIGNAL:** ⏸️ **NO ENTRY (WAIT)**
 
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
+
+### 3b. Directional Bias (No Open Trade)
+**BIAS:** 🔴 **SELL (Mean-Reversion from upper range)**
+> *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
+
+### 3c. Trade Management (Existing Open Trade)
+| Existing Position | Recommendation |
+|---|---|
+| 📈 **Holding a BUY** | 🟡 MONITOR — Mixed signals. Trail stop-loss and wait for clarity. |
+| 📉 **Holding a SELL** | 🟡 MONITOR — Mixed signals. Trail stop-loss and wait for clarity. |
 
 ## 4. Risk & Portfolio Defense
 - **Capital Base:** $10.00

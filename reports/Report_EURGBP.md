@@ -1,6 +1,6 @@
 # Systematic Trading Report: EURGBP=X
 
-**Generated:** 2026-06-16 19:51 | **Timeframe:** 1d
+**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - **NEWS 1 (FX Empire):** Pound Mostly Steady After Weaker GDP
@@ -13,17 +13,28 @@
 - **NEWS 8 (FX Empire):** The EUR/USD Paradox: A Strong Euro in a Weak Economy
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 0.86468
+- **Current Price:** 0.86474
 - **Regime/Trend:** DOWNTREND (Momentum Continuation)
-- **EMA 50 (Med):** 0.86585
-- **EMA 200 (Long):** 0.86704
-- **RSI (14):** 49.71 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00218 (Current Volatility)
+- **EMA 50 (Med):** 0.86578
+- **EMA 200 (Long):** 0.86705
+- **RSI (14):** 44.67 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.00205 (Current Volatility)
 
 ## 3. Execution Criteria
+### 3a. Trigger Signal (Specific System Entry)
 **ACTION SIGNAL:** ⏸️ **NO ENTRY (WAIT)**
 
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
+
+### 3b. Directional Bias (No Open Trade)
+**BIAS:** 🔴 **SELL**
+> *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
+
+### 3c. Trade Management (Existing Open Trade)
+| Existing Position | Recommendation |
+|---|---|
+| 📈 **Holding a BUY** | 🔴 CLOSE BUY — Trend reversed to Downtrend. Exit to protect capital. |
+| 📉 **Holding a SELL** | ✅ HOLD — Downtrend intact, momentum and RSI support continuation. |
 
 ## 4. Risk & Portfolio Defense
 - **Capital Base:** $10.00
@@ -31,7 +42,7 @@
 
 > **Theoretical Sizing (If a setup was present):**
 - **Standard Lot Size:** 0.000 Lots (100,000 units)
-- **XM Micro Account Lot Size:** 0.031 Micro Lots (1,000 units)
+- **XM Micro Account Lot Size:** 0.032 Micro Lots (1,000 units)
 > *Note: XM Micro Accounts require a minimum deposit of just $5 and help manage risk. Adjust sizing dynamically for pairs with varying pip values.*
 
 ## 5. Pre-Trade Diagnostic Check

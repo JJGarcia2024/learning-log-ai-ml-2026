@@ -1,6 +1,6 @@
 # Systematic Trading Report: EURUSD=X
 
-**Generated:** 2026-06-16 19:51 | **Timeframe:** 1d
+**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - **NEWS 1 (Reuters):** Dollar falls to 10-day low on US-Iran war deal
@@ -15,17 +15,28 @@
 - **NEWS 10 (Investing.com):** Euro’s global role stays flat despite US policy uncertainty
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 1.16036
+- **Current Price:** 1.16184
 - **Regime/Trend:** DOWNTREND (Momentum Continuation)
-- **EMA 50 (Med):** 1.16398
-- **EMA 200 (Long):** 1.16603
-- **RSI (14):** 43.88 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00588 (Current Volatility)
+- **EMA 50 (Med):** 1.16387
+- **EMA 200 (Long):** 1.16594
+- **RSI (14):** 50.09 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.00560 (Current Volatility)
 
 ## 3. Execution Criteria
+### 3a. Trigger Signal (Specific System Entry)
 **ACTION SIGNAL:** ⏸️ **NO ENTRY (WAIT)**
 
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
+
+### 3b. Directional Bias (No Open Trade)
+**BIAS:** 🔴 **SELL**
+> *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
+
+### 3c. Trade Management (Existing Open Trade)
+| Existing Position | Recommendation |
+|---|---|
+| 📈 **Holding a BUY** | 🔴 CLOSE BUY — Trend reversed to Downtrend. Exit to protect capital. |
+| 📉 **Holding a SELL** | ✅ HOLD — Downtrend intact, momentum and RSI support continuation. |
 
 ## 4. Risk & Portfolio Defense
 - **Capital Base:** $10.00
@@ -33,7 +44,7 @@
 
 > **Theoretical Sizing (If a setup was present):**
 - **Standard Lot Size:** 0.000 Lots (100,000 units)
-- **XM Micro Account Lot Size:** 0.011 Micro Lots (1,000 units)
+- **XM Micro Account Lot Size:** 0.012 Micro Lots (1,000 units)
 > *Note: XM Micro Accounts require a minimum deposit of just $5 and help manage risk. Adjust sizing dynamically for pairs with varying pip values.*
 
 ## 5. Pre-Trade Diagnostic Check

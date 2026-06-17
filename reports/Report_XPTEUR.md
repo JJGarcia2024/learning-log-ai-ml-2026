@@ -1,6 +1,6 @@
 # Synthetic Metals Trading Report: XPTEUR
 
-**Generated:** 2026-06-16 20:08 | **Timeframe:** 1d
+**Generated:** 2026-06-17 08:34 | **Timeframe:** 1d
 *(Note: Prices mathematically synthesized via USD Futures + Global Forex Rates)*
 
 ## 1. Macroeconomic Context & Fundamentals
@@ -16,24 +16,35 @@
 - **NEWS 10 (MT Newswires):** TD Sees Higher Oil Prices Lifting Canada's Export Values in Q2
 
 ## 2. Technical Architecture & Regime
-- **Current Synthetic Price:** 1560.57338
+- **Current Synthetic Price:** 1562.93628
 - **Regime/Trend:** RANGING/COMPRESSION (Mean-Reversion)
-- **EMA 50 (Med):** 1653.60359
-- **EMA 200 (Long):** 1601.46587
-- **RSI (14):** 39.38 (Overbought >70, Oversold <30)
-- **ATR (14):** 36.06577 (Current Volatility)
+- **EMA 50 (Med):** 1653.69659
+- **EMA 200 (Long):** 1602.12867
+- **RSI (14):** 39.72 (Overbought >70, Oversold <30)
+- **ATR (14):** 35.23115 (Current Volatility)
 
 ## 3. Execution Criteria
+### 3a. Trigger Signal (Specific System Entry)
 **ACTION SIGNAL:** ⏸️ **NO ENTRY (WAIT)**
 
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
+
+### 3b. Directional Bias (No Open Trade)
+**BIAS:** 🟢 **BUY (Mean-Reversion from lower range)**
+> *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
+
+### 3c. Trade Management (Existing Open Trade)
+| Existing Position | Recommendation |
+|---|---|
+| 📈 **Holding a BUY** | 🟡 MONITOR — Mixed signals. Trail stop-loss and wait for clarity. |
+| 📉 **Holding a SELL** | 🟡 MONITOR — Mixed signals. Trail stop-loss and wait for clarity. |
 
 ## 4. Risk & Portfolio Defense
 - **Capital Base:** $10.00
 - **Risk Limit:** 1.0% / Risking strictly $0.10
 
 > **Theoretical Sizing (If a setup was present):**
-- **Stop Loss Distance (1.5 ATR):** 54.09865 points
+- **Stop Loss Distance (1.5 ATR):** 52.84672 points
 - **Standard Lot Size:** 0.000 Lots (100,000 units)
 - **XM Micro Account Lot Size:** 0.000 Micro Lots (1,000 units)
 > *Note: XM Micro Accounts require a minimum deposit of just $5 and help manage risk. Adjust sizing dynamically for pairs with varying pip values.*

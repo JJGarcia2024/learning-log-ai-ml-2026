@@ -1,22 +1,33 @@
 # Systematic Trading Report: GBPNZD=X
 
-**Generated:** 2026-06-16 19:51 | **Timeframe:** 1d
+**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - No tier-one news or fundamental data detected immediately via API.
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 2.30195
+- **Current Price:** 2.30232
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 2.29004
-- **EMA 200 (Long):** 2.28933
-- **RSI (14):** 49.60 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.01783 (Current Volatility)
+- **EMA 50 (Med):** 2.29052
+- **EMA 200 (Long):** 2.28866
+- **RSI (14):** 62.37 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.01547 (Current Volatility)
 
 ## 3. Execution Criteria
+### 3a. Trigger Signal (Specific System Entry)
 **ACTION SIGNAL:** ⏸️ **NO ENTRY (WAIT)**
 
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
+
+### 3b. Directional Bias (No Open Trade)
+**BIAS:** 🟢 **BUY**
+> *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
+
+### 3c. Trade Management (Existing Open Trade)
+| Existing Position | Recommendation |
+|---|---|
+| 📈 **Holding a BUY** | ✅ HOLD — Uptrend intact, momentum and RSI support continuation. |
+| 📉 **Holding a SELL** | 🔴 CLOSE SELL — Trend reversed to Uptrend. Exit to protect capital. |
 
 ## 4. Risk & Portfolio Defense
 - **Capital Base:** $10.00

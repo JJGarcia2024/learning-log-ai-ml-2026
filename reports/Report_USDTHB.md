@@ -1,22 +1,33 @@
 # Systematic Trading Report: USDTHB=X
 
-**Generated:** 2026-06-16 19:51 | **Timeframe:** 1d
+**Generated:** 2026-06-17 08:34 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - No tier-one news or fundamental data detected immediately via API.
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 32.50000
+- **Current Price:** 32.49000
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 32.48007
-- **EMA 200 (Long):** 32.17874
-- **RSI (14):** 44.41 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.21021 (Current Volatility)
+- **EMA 50 (Med):** 32.48159
+- **EMA 200 (Long):** 32.18882
+- **RSI (14):** 42.99 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.19879 (Current Volatility)
 
 ## 3. Execution Criteria
+### 3a. Trigger Signal (Specific System Entry)
 **ACTION SIGNAL:** ⏸️ **NO ENTRY (WAIT)**
 
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
+
+### 3b. Directional Bias (No Open Trade)
+**BIAS:** 🟢 **BUY**
+> *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
+
+### 3c. Trade Management (Existing Open Trade)
+| Existing Position | Recommendation |
+|---|---|
+| 📈 **Holding a BUY** | ✅ HOLD — Uptrend intact, momentum and RSI support continuation. |
+| 📉 **Holding a SELL** | 🔴 CLOSE SELL — Trend reversed to Uptrend. Exit to protect capital. |
 
 ## 4. Risk & Portfolio Defense
 - **Capital Base:** $10.00

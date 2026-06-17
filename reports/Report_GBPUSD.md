@@ -1,6 +1,6 @@
 # Systematic Trading Report: GBPUSD=X
 
-**Generated:** 2026-06-16 19:51 | **Timeframe:** 1d
+**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - **NEWS 1 (Reuters):** Yen touches 160, dollar slips from two-month high amid Iran talks
@@ -15,17 +15,28 @@
 - **NEWS 10 (Investing.com):** FTSE 100 today: UK stocks gain, pound above $1.35 amid U.S.-Iran talks hopes
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 1.34158
+- **Current Price:** 1.34308
 - **Regime/Trend:** DOWNTREND (Momentum Continuation)
-- **EMA 50 (Med):** 1.34419
-- **EMA 200 (Long):** 1.34462
-- **RSI (14):** 44.79 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00721 (Current Volatility)
+- **EMA 50 (Med):** 1.34414
+- **EMA 200 (Long):** 1.34466
+- **RSI (14):** 52.00 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.00670 (Current Volatility)
 
 ## 3. Execution Criteria
+### 3a. Trigger Signal (Specific System Entry)
 **ACTION SIGNAL:** ⏸️ **NO ENTRY (WAIT)**
 
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
+
+### 3b. Directional Bias (No Open Trade)
+**BIAS:** 🔴 **SELL**
+> *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
+
+### 3c. Trade Management (Existing Open Trade)
+| Existing Position | Recommendation |
+|---|---|
+| 📈 **Holding a BUY** | 🔴 CLOSE BUY — Trend reversed to Downtrend. Exit to protect capital. |
+| 📉 **Holding a SELL** | ✅ HOLD — Downtrend intact, momentum and RSI support continuation. |
 
 ## 4. Risk & Portfolio Defense
 - **Capital Base:** $10.00
@@ -33,7 +44,7 @@
 
 > **Theoretical Sizing (If a setup was present):**
 - **Standard Lot Size:** 0.000 Lots (100,000 units)
-- **XM Micro Account Lot Size:** 0.009 Micro Lots (1,000 units)
+- **XM Micro Account Lot Size:** 0.010 Micro Lots (1,000 units)
 > *Note: XM Micro Accounts require a minimum deposit of just $5 and help manage risk. Adjust sizing dynamically for pairs with varying pip values.*
 
 ## 5. Pre-Trade Diagnostic Check

@@ -1,6 +1,6 @@
 # Systematic Trading Report: GBPJPY=X
 
-**Generated:** 2026-06-16 19:51 | **Timeframe:** 1d
+**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - **NEWS 1 (FX Empire):** Pound Mostly Steady After Weaker GDP
@@ -12,17 +12,28 @@
 - **NEWS 7 (FX Empire):** Some Recovery for the Pound as Bonds’ Selloff Eases
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 215.08501
+- **Current Price:** 215.39400
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 213.77335
-- **EMA 200 (Long):** 209.41385
-- **RSI (14):** 59.06 (Overbought >70, Oversold <30)
-- **ATR (14):** 1.04379 (Current Volatility)
+- **EMA 50 (Med):** 213.83181
+- **EMA 200 (Long):** 209.43990
+- **RSI (14):** 63.51 (Overbought >70, Oversold <30)
+- **ATR (14):** 1.02714 (Current Volatility)
 
 ## 3. Execution Criteria
+### 3a. Trigger Signal (Specific System Entry)
 **ACTION SIGNAL:** ⏸️ **NO ENTRY (WAIT)**
 
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
+
+### 3b. Directional Bias (No Open Trade)
+**BIAS:** 🟢 **BUY**
+> *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
+
+### 3c. Trade Management (Existing Open Trade)
+| Existing Position | Recommendation |
+|---|---|
+| 📈 **Holding a BUY** | ✅ HOLD — Uptrend intact, momentum and RSI support continuation. |
+| 📉 **Holding a SELL** | 🔴 CLOSE SELL — Trend reversed to Uptrend. Exit to protect capital. |
 
 ## 4. Risk & Portfolio Defense
 - **Capital Base:** $10.00

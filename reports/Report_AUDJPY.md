@@ -1,23 +1,34 @@
 # Systematic Trading Report: AUDJPY=X
 
-**Generated:** 2026-06-16 19:51 | **Timeframe:** 1d
+**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - **NEWS 1 (FX Empire):** Further Strength for the Australian Dollar After Higher Inflation
 - **NEWS 2 (FX Empire):** Some Gains for the Aussie Dollar After the RBA Unexpectedly Holds
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 113.34900
+- **Current Price:** 113.36500
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 113.02181
-- **EMA 200 (Long):** 107.58100
-- **RSI (14):** 41.63 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.77614 (Current Volatility)
+- **EMA 50 (Med):** 113.03408
+- **EMA 200 (Long):** 107.68291
+- **RSI (14):** 45.18 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.72272 (Current Volatility)
 
 ## 3. Execution Criteria
+### 3a. Trigger Signal (Specific System Entry)
 **ACTION SIGNAL:** ⏸️ **NO ENTRY (WAIT)**
 
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
+
+### 3b. Directional Bias (No Open Trade)
+**BIAS:** 🟢 **BUY**
+> *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
+
+### 3c. Trade Management (Existing Open Trade)
+| Existing Position | Recommendation |
+|---|---|
+| 📈 **Holding a BUY** | 🟡 MONITOR — Mixed signals. Trail stop-loss and wait for clarity. |
+| 📉 **Holding a SELL** | 🔴 CLOSE SELL — Trend reversed to Uptrend. Exit to protect capital. |
 
 ## 4. Risk & Portfolio Defense
 - **Capital Base:** $10.00

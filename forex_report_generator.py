@@ -82,6 +82,58 @@ def generate_report(symbol, account_balance, risk_pct=1.0, interval='1d'):
             signal = "SELL"
             reason = "RSI Overbought (>70) Rally in broader Downtrend regime."
 
+    # --- Always-on Directional Bias (for new entries with no open trade) ---
+    if uptrend:
+        if latest['RSI'] >= 70:
+            bias = "BUY (CAUTION \u2014 RSI Overbought, consider waiting for a pullback)"
+            bias_emoji = "\U0001f7e1"  # yellow circle
+        else:
+            bias = "BUY"
+            bias_emoji = "\U0001f7e2"  # green circle
+    elif downtrend:
+        if latest['RSI'] <= 30:
+            bias = "SELL (CAUTION \u2014 RSI Oversold, consider waiting for a bounce)"
+            bias_emoji = "\U0001f7e1"
+        else:
+            bias = "SELL"
+            bias_emoji = "\U0001f534"  # red circle
+    else:  # Ranging / Compression
+        if latest['RSI'] > 60:
+            bias = "SELL (Mean-Reversion from upper range)"
+            bias_emoji = "\U0001f534"
+        elif latest['RSI'] < 40:
+            bias = "BUY (Mean-Reversion from lower range)"
+            bias_emoji = "\U0001f7e2"
+        else:
+            bias = "NEUTRAL \u2014 Wait for a clear range breakout"
+            bias_emoji = "\u26aa"  # white/grey circle
+
+    # --- Trade Management for Existing Positions ---
+    ema9_crossed_below = latest['EMA_9'] < latest['EMA_21'] and prev['EMA_9'] >= prev['EMA_21']
+    ema9_crossed_above = latest['EMA_9'] > latest['EMA_21'] and prev['EMA_9'] <= prev['EMA_21']
+
+    if uptrend and latest['EMA_9'] > latest['EMA_21'] and latest['RSI'] < 70:
+        hold_buy = "\u2705 HOLD \u2014 Uptrend intact, momentum and RSI support continuation."
+    elif downtrend:
+        hold_buy = "\U0001f534 CLOSE BUY \u2014 Trend reversed to Downtrend. Exit to protect capital."
+    elif ema9_crossed_below:
+        hold_buy = "\u26a0\ufe0f CONSIDER CLOSING \u2014 EMA 9 just crossed below EMA 21, momentum fading."
+    elif latest['RSI'] > 75:
+        hold_buy = "\u26a0\ufe0f CONSIDER PARTIAL CLOSE \u2014 RSI extreme overbought (>75), reversal risk elevated."
+    else:
+        hold_buy = "\U0001f7e1 MONITOR \u2014 Mixed signals. Trail stop-loss and wait for clarity."
+
+    if downtrend and latest['EMA_9'] < latest['EMA_21'] and latest['RSI'] > 30:
+        hold_sell = "\u2705 HOLD \u2014 Downtrend intact, momentum and RSI support continuation."
+    elif uptrend:
+        hold_sell = "\U0001f534 CLOSE SELL \u2014 Trend reversed to Uptrend. Exit to protect capital."
+    elif ema9_crossed_above:
+        hold_sell = "\u26a0\ufe0f CONSIDER CLOSING \u2014 EMA 9 just crossed above EMA 21, momentum fading."
+    elif latest['RSI'] < 25:
+        hold_sell = "\u26a0\ufe0f CONSIDER PARTIAL CLOSE \u2014 RSI extreme oversold (<25), reversal risk elevated."
+    else:
+        hold_sell = "\U0001f7e1 MONITOR \u2014 Mixed signals. Trail stop-loss and wait for clarity."
+
     risk_amount = account_balance * (risk_pct / 100)
     atr = latest['ATR']
     
@@ -129,14 +181,25 @@ def generate_report(symbol, account_balance, risk_pct=1.0, interval='1d'):
     md += f"- **ATR (14):** {latest['ATR']:.5f} (Current Volatility)\n"
     
     md += "\n## 3. Execution Criteria\n"
+
+    md += "### 3a. Trigger Signal (Specific System Entry)\n"
     if signal == "NO ENTRY (WAIT)":
-        md += f"**ACTION SIGNAL:** ⏸️ **{signal}**\n\n"
+        md += f"**ACTION SIGNAL:** \u23f8\ufe0f **{signal}**\n\n"
     elif signal == "BUY":
-        md += f"**ACTION SIGNAL:** 🟢 **{signal}**\n\n"
+        md += f"**ACTION SIGNAL:** \U0001f7e2 **{signal}**\n\n"
     elif signal == "SELL":
-        md += f"**ACTION SIGNAL:** 🔴 **{signal}**\n\n"
-        
-    md += f"**JUSTIFICATION:** {reason}\n"
+        md += f"**ACTION SIGNAL:** \U0001f534 **{signal}**\n\n"
+    md += f"**JUSTIFICATION:** {reason}\n\n"
+
+    md += "### 3b. Directional Bias (No Open Trade)\n"
+    md += f"**BIAS:** {bias_emoji} **{bias}**\n"
+    md += "> *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*\n\n"
+
+    md += "### 3c. Trade Management (Existing Open Trade)\n"
+    md += "| Existing Position | Recommendation |\n"
+    md += "|---|---|\n"
+    md += f"| \U0001f4c8 **Holding a BUY** | {hold_buy} |\n"
+    md += f"| \U0001f4c9 **Holding a SELL** | {hold_sell} |\n"
     
     md += "\n## 4. Risk & Portfolio Defense\n"
     md += f"- **Capital Base:** ${account_balance:,.2f}\n"

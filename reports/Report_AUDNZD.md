@@ -1,22 +1,33 @@
 # Systematic Trading Report: AUDNZD=X
 
-**Generated:** 2026-06-16 19:51 | **Timeframe:** 1d
+**Generated:** 2026-06-17 08:33 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - No tier-one news or fundamental data detected immediately via API.
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 1.21310
+- **Current Price:** 1.21182
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 1.21072
-- **EMA 200 (Long):** 1.17529
-- **RSI (14):** 37.73 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00818 (Current Volatility)
+- **EMA 50 (Med):** 1.21078
+- **EMA 200 (Long):** 1.17564
+- **RSI (14):** 51.41 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.00684 (Current Volatility)
 
 ## 3. Execution Criteria
+### 3a. Trigger Signal (Specific System Entry)
 **ACTION SIGNAL:** ⏸️ **NO ENTRY (WAIT)**
 
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
+
+### 3b. Directional Bias (No Open Trade)
+**BIAS:** 🟢 **BUY**
+> *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
+
+### 3c. Trade Management (Existing Open Trade)
+| Existing Position | Recommendation |
+|---|---|
+| 📈 **Holding a BUY** | 🟡 MONITOR — Mixed signals. Trail stop-loss and wait for clarity. |
+| 📉 **Holding a SELL** | 🔴 CLOSE SELL — Trend reversed to Uptrend. Exit to protect capital. |
 
 ## 4. Risk & Portfolio Defense
 - **Capital Base:** $10.00
@@ -24,7 +35,7 @@
 
 > **Theoretical Sizing (If a setup was present):**
 - **Standard Lot Size:** 0.000 Lots (100,000 units)
-- **XM Micro Account Lot Size:** 0.008 Micro Lots (1,000 units)
+- **XM Micro Account Lot Size:** 0.010 Micro Lots (1,000 units)
 > *Note: XM Micro Accounts require a minimum deposit of just $5 and help manage risk. Adjust sizing dynamically for pairs with varying pip values.*
 
 ## 5. Pre-Trade Diagnostic Check

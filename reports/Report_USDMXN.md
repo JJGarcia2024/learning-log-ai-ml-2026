@@ -1,22 +1,33 @@
 # Systematic Trading Report: USDMXN=X
 
-**Generated:** 2026-06-16 19:51 | **Timeframe:** 1d
+**Generated:** 2026-06-17 08:34 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - No tier-one news or fundamental data detected immediately via API.
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 17.19240
+- **Current Price:** 17.19700
 - **Regime/Trend:** DOWNTREND (Momentum Continuation)
-- **EMA 50 (Med):** 17.37698
-- **EMA 200 (Long):** 17.78265
-- **RSI (14):** 43.95 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.13117 (Current Volatility)
+- **EMA 50 (Med):** 17.37068
+- **EMA 200 (Long):** 17.77521
+- **RSI (14):** 38.38 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.12286 (Current Volatility)
 
 ## 3. Execution Criteria
+### 3a. Trigger Signal (Specific System Entry)
 **ACTION SIGNAL:** ⏸️ **NO ENTRY (WAIT)**
 
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
+
+### 3b. Directional Bias (No Open Trade)
+**BIAS:** 🔴 **SELL**
+> *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
+
+### 3c. Trade Management (Existing Open Trade)
+| Existing Position | Recommendation |
+|---|---|
+| 📈 **Holding a BUY** | 🔴 CLOSE BUY — Trend reversed to Downtrend. Exit to protect capital. |
+| 📉 **Holding a SELL** | ✅ HOLD — Downtrend intact, momentum and RSI support continuation. |
 
 ## 4. Risk & Portfolio Defense
 - **Capital Base:** $10.00
