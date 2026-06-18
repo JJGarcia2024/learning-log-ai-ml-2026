@@ -89,7 +89,7 @@ class MainActivity : ComponentActivity() {
 
             var showSettings by remember { mutableStateOf(false) }
 
-            val isDark = settings.forceDarkMode || isSystemInDarkTheme()
+            val isDark = settings.forceDarkMode || isSystemInDarkTheme() || settings.wallpaperUri.isNotEmpty()
 
             TwinklingTreasureTheme(darkTheme = isDark) {
                 if (showSettings && !isInPip) {
@@ -153,7 +153,7 @@ class MainActivity : ComponentActivity() {
 
     override fun onResume() {
         super.onResume()
-        viewModel.setInPipMode(false)
+        if (!isInPictureInPictureMode) viewModel.setInPipMode(false)
     }
 
     override fun onUserLeaveHint() {
