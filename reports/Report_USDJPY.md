@@ -1,26 +1,26 @@
 # Systematic Trading Report: USDJPY=X
 
-**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
+**Generated:** 2026-06-18 20:42 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- **2026-06-16 (The New York Times):** Japan Raises Rates to 31-Year High to Ward Off War Inflation - The New York Times
-- **2026-06-16 (CNBC):** Bank of Japan hikes rates to 1%, highest since 1995, as yen and inflation worries take hold - CNBC
-- **2026-06-17 (Reuters):** Dollar on the defensive ahead of first Fed decision under Warsh - Reuters
-- **2026-06-16 (ING Think):** FX Daily: Dollar shrugs off oil sell-off - ING Think
-- **2026-06-16 (AP News):** Bank of Japan raises its key interest rate to a three-decade high of 1%, citing inflation - AP News
-- **2026-06-16 (KITCO):** Dollar drifts, no respite for yen after BOJ hikes rates as expected - KITCO
-- **2026-06-16 (TradingView):** USD/JPY: Dollar Stays Strong Above ¥160.20 as Bank of Japan Hikes Rates to 31-Year High - TradingView
-- **2026-06-16 (investingLive):** Intervention risks abound as the Japanese yen can't get off the floor - investingLive
-- **2026-06-15 (Investing.com):** BOJ preview June: 25 bps rate hike expected, hawkish outlook in focus - Investing.com
-- **2026-06-16 (The Japan Times):** Bank of Japan takes rates to 1%, the highest level since 1995 - The Japan Times
+- **2026-06-18 (CNBC):** Dollar clings to two-month peak as Fed rate-hike bets mount, yen slides - CNBC
+- **2026-06-18 (Reuters):** Dollar hits one-year high on Fed hike bets; Japan warns on yen - Reuters
+- **2026-06-16 (ABC News - Breaking News, Latest News and Videos):** Bank of Japan raises its key interest rate to a three-decade high of 1%, citing inflation - ABC News - Breaking News, Latest News and Videos
+- **2026-06-17 (FXStreet):** Japanese Yen tumbles as Fed signals higher rate path - FXStreet
+- **2026-06-16 (Investing.com):** US Dollar Retreat Faces a Reality Check but Central Banks Take Control - Investing.com
+- **2026-06-16 (Modern Diplomacy):** Why is Yen Still Weak Despite the Bank of Japan’s Interest Rate Hike? - Modern Diplomacy
+- **2026-06-18 (The Star):** Dollar holds two-month high on rate hike bets, yen slides - The Star
+- **2026-06-02 (FOREX.com):** Japanese Yen Forecast: USD/JPY moves closer to 160 yen per dollar - FOREX.com
+- **2026-06-15 (TMGM):** The Bank of Japan can't save the Japanese Yen - TMGM
+- **2026-06-18 (Devdiscourse):** FOREX-Dollar hovers near two-month high on Fed hike bets; Japan warns on yen - Devdiscourse
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 160.28300
+- **Current Price:** 160.86800
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 159.09600
-- **EMA 200 (Long):** 155.78260
-- **RSI (14):** 62.69 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.40135 (Current Volatility)
+- **EMA 50 (Med):** 159.17063
+- **EMA 200 (Long):** 155.88260
+- **RSI (14):** 75.74 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.41228 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)
@@ -29,13 +29,13 @@
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
 
 ### 3b. Directional Bias (No Open Trade)
-**BIAS:** 🟢 **BUY**
+**BIAS:** 🟡 **BUY (CAUTION — RSI Overbought, consider waiting for a pullback)**
 > *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
 
 ### 3c. Trade Management (Existing Open Trade)
 | Existing Position | Recommendation |
 |---|---|
-| 📈 **Holding a BUY** | ✅ HOLD — Uptrend intact, momentum and RSI support continuation. |
+| 📈 **Holding a BUY** | ⚠️ CONSIDER PARTIAL CLOSE — RSI extreme overbought (>75), reversal risk elevated. |
 | 📉 **Holding a SELL** | 🔴 CLOSE SELL — Trend reversed to Uptrend. Exit to protect capital. |
 
 ## 4. Risk & Portfolio Defense

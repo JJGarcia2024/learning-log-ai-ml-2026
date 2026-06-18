@@ -1,17 +1,17 @@
 # Systematic Trading Report: CHFJPY=X
 
-**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
+**Generated:** 2026-06-18 20:42 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- No tier-one news or fundamental data detected immediately via API.
+- **2026-06-18 (France 24):** Swiss central bank holds interest rates, with eye on currency risks - France 24
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 202.39999
-- **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 201.80984
-- **EMA 200 (Long):** 196.97138
-- **RSI (14):** 49.21 (Overbought >70, Oversold <30)
-- **ATR (14):** 1.09957 (Current Volatility)
+- **Current Price:** 200.10899
+- **Regime/Trend:** RANGING/COMPRESSION (Mean-Reversion)
+- **EMA 50 (Med):** 201.73676
+- **EMA 200 (Long):** 197.00994
+- **RSI (14):** 32.11 (Overbought >70, Oversold <30)
+- **ATR (14):** 1.16566 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)
@@ -20,14 +20,14 @@
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
 
 ### 3b. Directional Bias (No Open Trade)
-**BIAS:** 🟢 **BUY**
+**BIAS:** 🟢 **BUY (Mean-Reversion from lower range)**
 > *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
 
 ### 3c. Trade Management (Existing Open Trade)
 | Existing Position | Recommendation |
 |---|---|
 | 📈 **Holding a BUY** | 🟡 MONITOR — Mixed signals. Trail stop-loss and wait for clarity. |
-| 📉 **Holding a SELL** | 🔴 CLOSE SELL — Trend reversed to Uptrend. Exit to protect capital. |
+| 📉 **Holding a SELL** | 🟡 MONITOR — Mixed signals. Trail stop-loss and wait for clarity. |
 
 ## 4. Risk & Portfolio Defense
 - **Capital Base:** $10.00

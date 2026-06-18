@@ -1,21 +1,20 @@
 # Systematic Trading Report: EURAUD=X
 
-**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
+**Generated:** 2026-06-18 20:42 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- **2026-06-16 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
-- **2026-06-12 (FOREX.com):** EUR / Australian Dollar - EUR/AUD - FOREX.com
+- **2026-06-18 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
 - **2026-05-28 (AFR):** Aussie dollar is set to buy a few extra croissants this year - AFR
 - **2026-06-01 (CryptoRank):** Euro Strengthens Against Canadian Dollar After Stronger-Than-Expected German Retail Sales - CryptoRank
 - **2026-06-01 (Profit by Pakistan Today):** Dollar steadies as markets await signals on Iran war, central banks - Profit by Pakistan Today
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 1.64473
-- **Regime/Trend:** RANGING/COMPRESSION (Mean-Reversion)
-- **EMA 50 (Med):** 1.63816
-- **EMA 200 (Long):** 1.69027
-- **RSI (14):** 64.01 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00806 (Current Volatility)
+- **Current Price:** 1.63509
+- **Regime/Trend:** DOWNTREND (Momentum Continuation)
+- **EMA 50 (Med):** 1.63798
+- **EMA 200 (Long):** 1.68951
+- **RSI (14):** 56.87 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.00814 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)
@@ -24,13 +23,13 @@
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
 
 ### 3b. Directional Bias (No Open Trade)
-**BIAS:** 🔴 **SELL (Mean-Reversion from upper range)**
+**BIAS:** 🔴 **SELL**
 > *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
 
 ### 3c. Trade Management (Existing Open Trade)
 | Existing Position | Recommendation |
 |---|---|
-| 📈 **Holding a BUY** | 🟡 MONITOR — Mixed signals. Trail stop-loss and wait for clarity. |
+| 📈 **Holding a BUY** | 🔴 CLOSE BUY — Trend reversed to Downtrend. Exit to protect capital. |
 | 📉 **Holding a SELL** | 🟡 MONITOR — Mixed signals. Trail stop-loss and wait for clarity. |
 
 ## 4. Risk & Portfolio Defense

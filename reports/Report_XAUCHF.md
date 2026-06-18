@@ -1,27 +1,19 @@
 # Synthetic Metals Trading Report: XAUCHF
 
-**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
+**Generated:** 2026-06-18 20:42 | **Timeframe:** 1d
 *(Note: Prices mathematically synthesized via USD Futures + Global Forex Rates)*
 
 ## 1. Macroeconomic Context & Fundamentals
-- **Recent (Yahoo Personal Finance):** Silver prices today, Tuesday, June 16: Best opening price in over a week ahead of Fed meeting
-- **Recent (Yahoo Personal Finance):** Gold prices today, Tuesday, June 16: Prices firming ahead of Fed meeting
-- **Recent (TheStreet):** Analysts are watching key Bitcoin level for next bull run
-- **Recent (Reuters):** Gold extends gains as rate-hike bets ease ahead of Fed verdict
-- **Recent (The Wall Street Journal):** Gold Edges Higher Amid Improved Sentiment
-- **Recent (Proactive):** AIC Mines high-grade Jolly results support Jericho copper mine start-up
-- **Recent (Zacks):** Why the Market Dipped But AngloGold Ashanti (AU) Gained Today
-- **Recent (Zacks):** Agnico Eagle Mines (AEM) Rises As Market Takes a Dip: Key Facts
-- **Recent (Bloomberg):** Gold Advances as Trump Touts Reopening of Hormuz This Week
-- **Recent (Moneywise):** CFA Institute wants ‘stronger safeguards’ to protect Americans from big changes to their 401(k) plans. Are you safe?
+- **2026-06-18 (France 24):** Swiss central bank holds interest rates, with eye on currency risks - France 24
+- **2026-06-17 (Geomechanics.io):** Switzerland loses its shine as central bank gold vault: demand signals for miners - Geomechanics.io
 
 ## 2. Technical Architecture & Regime
-- **Current Synthetic Price:** 3443.40300
+- **Current Synthetic Price:** 3436.77537
 - **Regime/Trend:** RANGING/COMPRESSION (Mean-Reversion)
-- **EMA 50 (Med):** 3558.60605
-- **EMA 200 (Long):** 3470.86427
-- **RSI (14):** 42.88 (Overbought >70, Oversold <30)
-- **ATR (14):** 66.67699 (Current Volatility)
+- **EMA 50 (Med):** 3554.34450
+- **EMA 200 (Long):** 3471.72057
+- **RSI (14):** 40.44 (Overbought >70, Oversold <30)
+- **ATR (14):** 67.95851 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)
@@ -44,7 +36,7 @@
 - **Risk Limit:** 1.0% / Risking strictly $0.10
 
 > **Theoretical Sizing (If a setup was present):**
-- **Stop Loss Distance (1.5 ATR):** 100.01548 points
+- **Stop Loss Distance (1.5 ATR):** 101.93776 points
 - **Standard Lot Size:** 0.000 Lots (100,000 units)
 - **XM Micro Account Lot Size:** 0.000 Micro Lots (1,000 units)
 > *Note: XM Micro Accounts require a minimum deposit of just $5 and help manage risk. Adjust sizing dynamically for pairs with varying pip values.*

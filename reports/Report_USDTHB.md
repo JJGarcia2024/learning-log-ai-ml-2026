@@ -1,18 +1,18 @@
 # Systematic Trading Report: USDTHB=X
 
-**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
+**Generated:** 2026-06-18 20:42 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- **2026-06-16 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
+- **2026-06-18 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
 - **2026-06-11 (CryptoRank):** Thai Baht Faces Renewed Pressure as Energy Shock Risks Intensify, MUFG Warns - CryptoRank
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 32.51000
+- **Current Price:** 32.74000
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 32.48238
-- **EMA 200 (Long):** 32.18902
-- **RSI (14):** 43.76 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.20236 (Current Volatility)
+- **EMA 50 (Med):** 32.49248
+- **EMA 200 (Long):** 32.20282
+- **RSI (14):** 58.05 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.20743 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)

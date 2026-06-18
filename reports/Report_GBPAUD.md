@@ -1,22 +1,22 @@
 # Systematic Trading Report: GBPAUD=X
 
-**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
+**Generated:** 2026-06-18 20:42 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- **2026-05-28 (CryptoRank):** British Pound Edges Higher Against US Dollar, but Iran Worries Weigh on Outlook - CryptoRank
+- **2026-05-26 (CryptoRank):** British Pound Retreats as Renewed Iran Tensions Boost Safe-Haven Demand for US Dollar - CryptoRank
 - **2026-06-11 (Khabarhub):** NRB fixes foreign currency exchange rates for today - Khabarhub
 - **2026-06-10 (CME Group):** Australian Dollar futures hit a 2-month low on rate shifts. - CME Group
-- **2026-05-26 (CryptoRank):** British Pound Retreats as Renewed Iran Tensions Boost Safe-Haven Demand for US Dollar - CryptoRank
+- **2026-06-05 (CryptoRank):** Pound falls against Dollar amid escalating US-Iran tensions - CryptoRank
 - **2026-06-15 (TMGM):** British Pound picks up amid peace hopes with central banks coming into focus - TMGM
 - **2026-05-29 (myRepublica):** Forex update: US dollar, Japanese yen and Saudi riyal remain stable against Nepali rupee - myRepublica
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 1.90197
-- **Regime/Trend:** RANGING/COMPRESSION (Mean-Reversion)
-- **EMA 50 (Med):** 1.89187
-- **EMA 200 (Long):** 1.94937
-- **RSI (14):** 65.50 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00978 (Current Volatility)
+- **Current Price:** 1.88720
+- **Regime/Trend:** DOWNTREND (Momentum Continuation)
+- **EMA 50 (Med):** 1.89161
+- **EMA 200 (Long):** 1.94785
+- **RSI (14):** 56.96 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.01025 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)
@@ -25,13 +25,13 @@
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
 
 ### 3b. Directional Bias (No Open Trade)
-**BIAS:** 🔴 **SELL (Mean-Reversion from upper range)**
+**BIAS:** 🔴 **SELL**
 > *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
 
 ### 3c. Trade Management (Existing Open Trade)
 | Existing Position | Recommendation |
 |---|---|
-| 📈 **Holding a BUY** | 🟡 MONITOR — Mixed signals. Trail stop-loss and wait for clarity. |
+| 📈 **Holding a BUY** | 🔴 CLOSE BUY — Trend reversed to Downtrend. Exit to protect capital. |
 | 📉 **Holding a SELL** | 🟡 MONITOR — Mixed signals. Trail stop-loss and wait for clarity. |
 
 ## 4. Risk & Portfolio Defense

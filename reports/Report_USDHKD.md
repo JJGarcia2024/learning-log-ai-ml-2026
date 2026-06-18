@@ -1,19 +1,17 @@
 # Systematic Trading Report: USDHKD=X
 
-**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
+**Generated:** 2026-06-18 20:42 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- **2026-06-16 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
-- **2026-06-12 (FOREX.com):** EUR / Hong Kong Dollar - EUR/HKD - FOREX.com
-- **2026-06-01 (Nomad Capitalist):** The Largest Value Banknotes in the World - Nomad Capitalist
+- **2026-06-18 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 7.83280
+- **Current Price:** 7.83734
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 7.83219
-- **EMA 200 (Long):** 7.82043
-- **RSI (14):** 47.01 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.00332 (Current Volatility)
+- **EMA 50 (Med):** 7.83238
+- **EMA 200 (Long):** 7.82059
+- **RSI (14):** 60.46 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.00337 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)

@@ -1,17 +1,17 @@
 # Systematic Trading Report: USDMXN=X
 
-**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
+**Generated:** 2026-06-18 20:42 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - No tier-one news or fundamental data detected immediately via API.
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 17.19700
+- **Current Price:** 17.35200
 - **Regime/Trend:** DOWNTREND (Momentum Continuation)
-- **EMA 50 (Med):** 17.37068
-- **EMA 200 (Long):** 17.77521
-- **RSI (14):** 38.38 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.12286 (Current Volatility)
+- **EMA 50 (Med):** 17.37031
+- **EMA 200 (Long):** 17.77822
+- **RSI (14):** 52.52 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.13128 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)

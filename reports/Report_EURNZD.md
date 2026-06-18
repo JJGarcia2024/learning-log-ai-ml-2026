@@ -1,21 +1,22 @@
 # Systematic Trading Report: EURNZD=X
 
-**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
+**Generated:** 2026-06-18 20:42 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- **2026-06-16 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
+- **2026-06-18 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
 - **2026-05-25 (CryptoRank):** Euro Rallies as Iran Ceasefire Hopes Weigh on the US Dollar - CryptoRank
+- **2026-06-14 (Investopedia):** The Forex 3-Session Trading System - Investopedia
 - **2026-06-01 (CryptoRank):** Euro Strengthens Against Canadian Dollar After Stronger-Than-Expected German Retail Sales - CryptoRank
 - **2026-06-16 (FXStreet):** Japanese Yen gives up some gains against Euro as BoJ hikes rates by 25 bps to 1%, as expected - FXStreet
 - **2026-05-27 (Pound Sterling Live):** New Zealand Dollar Outlook Tilts on RBNZ's Hawkish Shift - Pound Sterling Live
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 1.99405
+- **Current Price:** 1.98749
 - **Regime/Trend:** RANGING/COMPRESSION (Mean-Reversion)
-- **EMA 50 (Med):** 1.98327
-- **EMA 200 (Long):** 1.98458
-- **RSI (14):** 61.99 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.01354 (Current Volatility)
+- **EMA 50 (Med):** 1.98332
+- **EMA 200 (Long):** 1.98443
+- **RSI (14):** 66.92 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.01224 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)

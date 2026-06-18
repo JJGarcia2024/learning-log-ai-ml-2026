@@ -1,22 +1,22 @@
 # Systematic Trading Report: EURTRY=X
 
-**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
+**Generated:** 2026-06-18 20:42 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- **2026-06-16 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
-- **2026-06-11 (ING Think):** FX Daily: Euro already prices a hawkish ECB - ING Think
+- **2026-06-18 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
 - **2026-05-27 (Reuters):** ECB tells banks to invest more to get a grip on AI security risk - Reuters
+- **2026-06-11 (ING Think):** FX Daily: Euro already prices a hawkish ECB - ING Think
 - **2026-06-08 (Reuters):** Time to nip inflation in the bud: Five questions for the ECB - Reuters
 - **2026-06-11 (Irish Examiner):** ECB increases interest rates by quarter-point as Iran war fuels European inflation - Irish Examiner
 - **2026-06-11 (Traders Union):** European Central Bank rate hike anchors Euro vs Turkish Lira consolidation - Traders Union
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 53.87690
+- **Current Price:** 53.25428
 - **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 52.98036
-- **EMA 200 (Long):** 50.97809
-- **RSI (14):** 68.47 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.30681 (Current Volatility)
+- **EMA 50 (Med):** 52.99284
+- **EMA 200 (Long):** 50.99772
+- **RSI (14):** 43.84 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.33404 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)

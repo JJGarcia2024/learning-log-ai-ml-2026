@@ -1,22 +1,20 @@
 # Systematic Trading Report: USDZAR=X
 
-**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
+**Generated:** 2026-06-18 20:42 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
-- **2026-06-12 (FOREX.com):** U.S. Dollar / South African Rand - USD/ZAR - FOREX.com
 - **2026-05-29 (LiteFinance):** Dollar to Rand (USDZAR) Forecast for 2026, 2027, 2028–2030 and Beyond - LiteFinance
 - **2026-05-28 (Cape Argus):** How USD ZAR is quietly setting up for a decisive move as SARB weighs a possible rate hike against the 3 percent inflation target - Cape Argus
-- **2026-06-16 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
-- **2026-05-19 (Daily Forex):** USD/ZAR Forecast Today 19/05: Rand Faces Risk-Off Pressure - Daily Forex
+- **2026-06-18 (Центральный Банк России):** Official exchange rates on selected date | Bank of Russia - Центральный Банк России
 - **2026-05-20 (TradingView):** USD/ZAR forecast: rand outlook as South African inflation jumps to 4% - TradingView
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 16.17040
+- **Current Price:** 16.39000
 - **Regime/Trend:** DOWNTREND (Momentum Continuation)
-- **EMA 50 (Med):** 16.43183
-- **EMA 200 (Long):** 16.72628
-- **RSI (14):** 42.45 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.19063 (Current Volatility)
+- **EMA 50 (Med):** 16.43088
+- **EMA 200 (Long):** 16.73560
+- **RSI (14):** 56.28 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.19562 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)

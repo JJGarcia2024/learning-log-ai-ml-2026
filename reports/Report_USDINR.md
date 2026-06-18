@@ -1,12 +1,12 @@
 # Systematic Trading Report: USDINR=X
 
-**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
+**Generated:** 2026-06-18 20:42 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - **2026-05-21 (Reuters):** India's central bank revives aggressive pre-market intervention to arrest rupee's slide, bankers say - Reuters
 - **2026-05-20 (TradingView):** USD/INR forecast: Here’s why the Indian rupee is soaring today - TradingView
-- **2026-06-08 (VT Markets):** India Gold Prices Slip as Softer US Inflation and Central Bank Buying Support Bullish Outlook - VT Markets
-- **2026-05-22 (marketscreener.com):** INDIA RUPEE-Rupee jumps past 96/USD on firm central bank intervention - marketscreener.com
+- **2026-06-11 (EBC Financial Group):** USD/INR: RBI’s New Dollar Swap Windows Give the Rupee a Policy Lifeline - EBC Financial Group
+- **2026-05-22 (NDTV Profit):** Rupee Extends Recovery To Move Below Rs 96 Per US Dollar On RBI Intervention, Cooling Crude Oil - NDTV Profit
 - **2026-05-20 (Moneycontrol.com):** RBI announces $5 billion US Dollar/INR swap auction on May 26 to inject liquidity - Moneycontrol.com
 - **2026-05-20 (The Times of India):** RBI announces $5 billion dollar-rupee swap, auction scheduled for May 26 - The Times of India
 - **2026-05-22 (India Infoline):** RBI's $5 Billion Rupee-Dollar Swap: What It Means and Why It Matters - India Infoline
@@ -15,12 +15,12 @@
 - **2026-06-08 (Upstox):** Banking stocks rally as RBI introduces US dollar-rupee forex swap facility for FCNR deposits - Upstox
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 94.44250
+- **Current Price:** 94.32300
 - **Regime/Trend:** RANGING/COMPRESSION (Mean-Reversion)
-- **EMA 50 (Med):** 94.82061
-- **EMA 200 (Long):** 91.87743
-- **RSI (14):** 38.16 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.93696 (Current Volatility)
+- **EMA 50 (Med):** 94.81791
+- **EMA 200 (Long):** 91.92536
+- **RSI (14):** 38.01 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.88525 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)

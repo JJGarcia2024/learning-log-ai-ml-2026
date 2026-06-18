@@ -1,26 +1,24 @@
 # Systematic Trading Report: EURJPY=X
 
-**Generated:** 2026-06-17 13:44 | **Timeframe:** 1d
+**Generated:** 2026-06-18 20:42 | **Timeframe:** 1d
 
 ## 1. Macroeconomic Context & Fundamentals
 - **2026-06-16 (FXStreet):** Japanese Yen gives up some gains against Euro as BoJ hikes rates by 25 bps to 1%, as expected - FXStreet
 - **2026-06-15 (CryptoRank):** Euro Rallies Against Yen as US-Iran Deal Eases Geopolitical Risk, BoJ Decision Looms - CryptoRank
 - **2026-06-12 (VT Markets):** Euro climbs against yen as ECB hike bets rise and traders await Bank of Japan decision - VT Markets
-- **2026-06-09 (TradingPedia):** Euro Advances vs Yen on ECB Hike, Japan Risk Outlook FX - TradingPedia
-- **2026-06-10 (FXStreet):** Euro strengthens against Japanese Yen due to ECB rate hike odds - FXStreet
 - **2026-06-03 (CryptoRank):** Japanese Yen Surges Against Euro as Takaichi Reaffirms Intervention Stance - CryptoRank
 - **2026-05-27 (TMGM):** Euro hits fresh monthly highs with Japanese Yen weakness raising intervention concerns - TMGM
-- **2026-05-19 (FXStreet):** Euro struggles against Japanese Yen despite hawkish ECB tone - FXStreet
 - **2026-06-10 (TMGM):** Euro strengthens against Japanese Yen due to ECB rate hike odds - TMGM
 - **2026-05-27 (Bitget):** Euro hits fresh monthly highs with Japanese Yen weakness raising intervention concerns - Bitget
+- **2026-06-10 (MEXC):** Euro Strengthens Against Japanese Yen as Markets Bet on ECB Rate Hike - MEXC
 
 ## 2. Technical Architecture & Regime
-- **Current Price:** 186.15500
-- **Regime/Trend:** UPTREND (Momentum Continuation)
-- **EMA 50 (Med):** 185.14438
-- **EMA 200 (Long):** 181.61885
-- **RSI (14):** 61.24 (Overbought >70, Oversold <30)
-- **ATR (14):** 0.80793 (Current Volatility)
+- **Current Price:** 184.48500
+- **Regime/Trend:** RANGING/COMPRESSION (Mean-Reversion)
+- **EMA 50 (Med):** 185.12175
+- **EMA 200 (Long):** 181.62972
+- **RSI (14):** 39.23 (Overbought >70, Oversold <30)
+- **ATR (14):** 0.89028 (Current Volatility)
 
 ## 3. Execution Criteria
 ### 3a. Trigger Signal (Specific System Entry)
@@ -29,14 +27,14 @@
 **JUSTIFICATION:** No clear setup based on system parameters. Wait for high-probability alignment.
 
 ### 3b. Directional Bias (No Open Trade)
-**BIAS:** 🟢 **BUY**
+**BIAS:** 🟢 **BUY (Mean-Reversion from lower range)**
 > *Reflects current trend & momentum. Only enter when your system trigger fires (3a above).*
 
 ### 3c. Trade Management (Existing Open Trade)
 | Existing Position | Recommendation |
 |---|---|
-| 📈 **Holding a BUY** | ✅ HOLD — Uptrend intact, momentum and RSI support continuation. |
-| 📉 **Holding a SELL** | 🔴 CLOSE SELL — Trend reversed to Uptrend. Exit to protect capital. |
+| 📈 **Holding a BUY** | 🟡 MONITOR — Mixed signals. Trail stop-loss and wait for clarity. |
+| 📉 **Holding a SELL** | 🟡 MONITOR — Mixed signals. Trail stop-loss and wait for clarity. |
 
 ## 4. Risk & Portfolio Defense
 - **Capital Base:** $10.00
