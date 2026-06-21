@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sleep Timer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Display:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    /* ─── Reset & Base ─── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue-deep:   #0d1b3e;
+      --blue-mid:    #1a3a8f;
+      --blue-vivid:  #2979ff;
+      --blue-light:  #82b1ff;
+      --gold:        #ffd740;
+      --gold-soft:   #ffab40;
+      --gold-glow:   rgba(255,215,64,.35);
+      --white:       #ffffff;
+      --radius:      20px;
+      --transition:  .35s cubic-bezier(.4,0,.2,1);
+    }
+
+    [data-theme="dark"] {
+      --bg:          #06091a;
+      --surface:     rgba(15,25,60,.75);
+      --surface2:    rgba(25,40,90,.6);
+      --text:        #e8eeff;
+      --text-sub:    #8fa3d0;
+      --border:      rgba(130,177,255,.15);
+      --shadow:      0 8px 40px rgba(0,0,40,.7);
+    }
+
+    [data-theme="light"] {
+      --bg:          #e8f0ff;
+      --surface:     rgba(255,255,255,.8);
+      --surface2:    rgba(230,240,255,.85);
+      --text:        #0d1b3e;
+      --text-sub:    #3a5a9f;
+      --border:      rgba(41,121,255,.2);
+      --shadow:      0 8px 40px rgba(0,40,160,.12);
+    }
+
+    body {
+      font-family: 'Google Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      transition: background var(--transition), color var(--transition);
+    }
+
+    /* ─── Wallpaper layer ─── */
+    #wallpaper-layer {
+      position: fixed; inset: 0; z-index: 0;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: opacity .5s ease;
+      pointer-events: none;
+    }
+
+    /* ─── Animated gradient background ─── */
+    #bg-canvas {
+      position: fixed; inset: 0; z-index: 0;
+      pointer-events: none;
+    }
+
+    /* ─── Main layout ─── */
+    .app-shell {
+      position: relative; z-index: 10;
+      display: flex; flex-direction: column;
+      align-items: center; gap: 28px;
+      padding: 32px 24px;
+      width: 100%; max-width: 680px;
+    }
+
+    /* ─── Header bar ─── */
+    .header {
+      width: 100%;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+
+    .logo {
+      display: flex; align-items: center; gap: 10px;
+      font-size: 1.15rem; font-weight: 700;
+      color: var(--gold);
+      text-shadow: 0 0 18px var(--gold-glow);
+    }
+
+    .logo svg { width: 28px; height: 28px; }
+
+    .header-actions { display: flex; gap: 10px; }
+
+    .icon-btn {
+      width: 42px; height: 42px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--surface);
+      color: var(--text);
+      backdrop-filter: blur(12px);
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: background var(--transition), border-color var(--transition), transform .15s;
+      font-size: 1.1rem;
+    }
+
+    .icon-btn:hover { border-color: var(--gold); transform: scale(1.08); }
+    .icon-btn.active { background: var(--blue-mid); border-color: var(--gold); }
+
+    /* ─── Status badge ─── */
+    .status-badge {
+      display: flex; align-items: center; gap: 8px;
+      padding: 6px 18px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      backdrop-filter: blur(12px);
+      font-size: .82rem; font-weight: 500;
+      color: var(--text-sub);
+      letter-spacing: .04em;
+    }
+
+    .dot {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: #4caf50;
+      box-shadow: 0 0 8px #4caf50;
+      animation: pulse-dot 2s infinite;
+    }
+    .dot.waiting { background: var(--gold); box-shadow: 0 0 8px var(--gold-glow); }
+
+    @keyframes pulse-dot {
+      0%,100% { opacity: 1; transform: scale(1); }
+      50%       { opacity: .6; transform: scale(.8); }
+    }
+
+    /* ─── Ring + clock block ─── */
+    .clock-ring-wrap {
+      position: relative;
+      width: 320px; height: 320px;
+      display: flex; align-items: center; justify-content: center;
+    }
+
+    .ring-svg {
+      position: absolute; inset: 0;
+      width: 100%; height: 100%;
+      transform: rotate(-90deg);
+    }
+
+    .ring-track { fill: none; stroke: var(--border); stroke-width: 6; }
+
+    .ring-progress {
+      fill: none;
+      stroke-width: 6;
+      stroke-linecap: round;
+      stroke: url(#ring-grad);
+      transition: stroke-dashoffset 1s linear;
+    }
+
+    .ring-glow {
+      fill: none;
+      stroke-width: 14;
+      stroke-linecap: round;
+      stroke: url(#ring-grad);
+      opacity: .18;
+      filter: blur(4px);
+      transition: stroke-dashoffset 1s linear;
+    }
+
+    .clock-inner {
+      display: flex; flex-direction: column;
+      align-items: center; gap: 4px;
+      z-index: 1;
+    }
+
+    .clock-label {
+      font-size: .78rem; font-weight: 500;
+      letter-spacing: .12em; text-transform: uppercase;
+      color: var(--text-sub);
+    }
+
+    .countdown {
+      font-family: 'Google Sans Display', sans-serif;
+      font-size: 4.2rem; font-weight: 700;
+      letter-spacing: -.02em;
+      background: linear-gradient(135deg, var(--blue-light) 0%, var(--white) 40%, var(--gold) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      filter: drop-shadow(0 0 24px rgba(130,177,255,.4));
+      line-height: 1;
+    }
+
+    .live-clock {
+      font-size: .95rem; font-weight: 400;
+      color: var(--text-sub);
+      margin-top: 4px;
+    }
+
+    .end-label {
+      font-size: .72rem; letter-spacing: .08em;
+      color: var(--gold);
+      margin-top: 6px;
+      font-weight: 500;
+    }
+
+    /* ─── Segment cards ─── */
+    .segment-row {
+      display: grid; grid-template-columns: 1fr 1fr 1fr;
+      gap: 14px; width: 100%;
+    }
+
+    .seg-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      backdrop-filter: blur(16px);
+      border-radius: var(--radius);
+      padding: 18px 14px;
+      display: flex; flex-direction: column;
+      align-items: center; gap: 4px;
+      transition: border-color var(--transition), transform .2s;
+    }
+
+    .seg-card:hover { border-color: var(--blue-vivid); transform: translateY(-2px); }
+
+    .seg-num {
+      font-family: 'Google Sans Display', sans-serif;
+      font-size: 2rem; font-weight: 700;
+      color: var(--gold);
+      text-shadow: 0 0 20px var(--gold-glow);
+    }
+
+    .seg-label {
+      font-size: .7rem; font-weight: 500;
+      letter-spacing: .1em; text-transform: uppercase;
+      color: var(--text-sub);
+    }
+
+    /* ─── Progress bar ─── */
+    .progress-wrap {
+      width: 100%;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      backdrop-filter: blur(12px);
+      border-radius: 999px;
+      height: 10px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--blue-vivid), var(--gold));
+      box-shadow: 0 0 12px var(--gold-glow);
+      transition: width 1s linear;
+    }
+
+    /* ─── CTA buttons ─── */
+    .actions-row {
+      display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;
+    }
+
+    .btn {
+      display: flex; align-items: center; gap: 8px;
+      padding: 12px 24px;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      font-family: 'Google Sans', sans-serif;
+      font-size: .9rem; font-weight: 500;
+      cursor: pointer;
+      backdrop-filter: blur(12px);
+      transition: background var(--transition), border-color var(--transition), transform .15s;
+    }
+
+    .btn:hover { transform: translateY(-2px); border-color: var(--blue-light); }
+
+    .btn-gold {
+      background: linear-gradient(135deg, #b8860b, var(--gold));
+      border-color: var(--gold);
+      color: #06091a;
+      box-shadow: 0 4px 24px var(--gold-glow);
+    }
+    .btn-gold:hover { box-shadow: 0 6px 32px rgba(255,215,64,.5); }
+
+    .btn-blue {
+      background: linear-gradient(135deg, var(--blue-mid), var(--blue-vivid));
+      border-color: var(--blue-vivid);
+      color: var(--white);
+      box-shadow: 0 4px 24px rgba(41,121,255,.25);
+    }
+
+    /* ─── Settings panel ─── */
+    .settings-overlay {
+      position: fixed; inset: 0; z-index: 50;
+      background: rgba(0,0,0,.55);
+      backdrop-filter: blur(6px);
+      display: flex; align-items: center; justify-content: center;
+      opacity: 0; pointer-events: none;
+      transition: opacity var(--transition);
+    }
+
+    .settings-overlay.open { opacity: 1; pointer-events: all; }
+
+    .settings-panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      backdrop-filter: blur(24px);
+      border-radius: 24px;
+      padding: 32px;
+      width: 100%; max-width: 440px;
+      box-shadow: var(--shadow);
+      transform: translateY(20px) scale(.97);
+      transition: transform var(--transition);
+    }
+
+    .settings-overlay.open .settings-panel { transform: none; }
+
+    .settings-title {
+      font-size: 1.2rem; font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 24px;
+      display: flex; align-items: center; gap: 10px;
+    }
+
+    .settings-row {
+      margin-bottom: 22px;
+    }
+
+    .settings-row label {
+      display: block; font-size: .82rem; font-weight: 500;
+      letter-spacing: .06em; text-transform: uppercase;
+      color: var(--text-sub); margin-bottom: 10px;
+    }
+
+    .slider-wrap {
+      display: flex; align-items: center; gap: 14px;
+    }
+
+    input[type="range"] {
+      flex: 1; height: 6px; accent-color: var(--gold);
+      cursor: pointer;
+    }
+
+    .slider-val {
+      min-width: 40px; text-align: right;
+      font-size: .88rem; font-weight: 600; color: var(--gold);
+    }
+
+    .wallpaper-upload {
+      display: flex; align-items: center; gap: 10px;
+    }
+
+    .upload-btn {
+      flex: 1; padding: 11px 18px;
+      border: 1.5px dashed var(--border);
+      border-radius: 12px;
+      background: var(--surface2);
+      color: var(--text-sub);
+      cursor: pointer; font-family: 'Google Sans', sans-serif;
+      font-size: .88rem; text-align: center;
+      transition: border-color var(--transition);
+    }
+
+    .upload-btn:hover { border-color: var(--gold); color: var(--gold); }
+
+    .clear-wp {
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: transparent; color: var(--text-sub);
+      cursor: pointer; font-size: .82rem;
+      font-family: 'Google Sans', sans-serif;
+      transition: border-color var(--transition), color var(--transition);
+    }
+
+    .clear-wp:hover { border-color: #ef5350; color: #ef5350; }
+
+    .toggle-row {
+      display: flex; align-items: center; justify-content: space-between;
+    }
+
+    .toggle {
+      position: relative; width: 48px; height: 26px;
+    }
+
+    .toggle input { opacity: 0; width: 0; height: 0; }
+
+    .toggle-thumb {
+      position: absolute; inset: 0;
+      background: var(--surface2);
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      cursor: pointer;
+      transition: background var(--transition);
+    }
+
+    .toggle-thumb::after {
+      content: '';
+      position: absolute;
+      top: 3px; left: 3px;
+      width: 18px; height: 18px;
+      border-radius: 50%;
+      background: var(--text-sub);
+      transition: transform .25s, background .25s;
+    }
+
+    .toggle input:checked + .toggle-thumb { background: var(--blue-mid); }
+    .toggle input:checked + .toggle-thumb::after { transform: translateX(22px); background: var(--gold); }
+
+    .settings-close {
+      margin-top: 24px; width: 100%;
+      padding: 13px; border-radius: 14px;
+      background: linear-gradient(135deg, var(--blue-mid), var(--blue-vivid));
+      border: none; color: var(--white);
+      font-family: 'Google Sans', sans-serif;
+      font-size: 1rem; font-weight: 600;
+      cursor: pointer;
+      transition: opacity .2s;
+    }
+
+    .settings-close:hover { opacity: .9; }
+
+    /* ─── PiP canvas (hidden) ─── */
+    #pip-canvas { display: none; }
+    #pip-video  { display: none; }
+
+    /* ─── Particles ─── */
+    .star {
+      position: fixed;
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 1;
+      animation: float-star linear infinite;
+    }
+
+    @keyframes float-star {
+      from { transform: translateY(0) scale(1); opacity: var(--star-opacity); }
+      to   { transform: translateY(-110vh) scale(.5); opacity: 0; }
+    }
+
+    /* ─── Notification toast ─── */
+    .toast {
+      position: fixed; bottom: 32px; left: 50%; transform: translateX(-50%) translateY(80px);
+      background: var(--surface);
+      border: 1px solid var(--gold);
+      backdrop-filter: blur(16px);
+      border-radius: 14px;
+      padding: 14px 24px;
+      font-size: .9rem; font-weight: 500;
+      color: var(--text);
+      box-shadow: 0 8px 32px var(--gold-glow);
+      z-index: 200;
+      transition: transform .4s cubic-bezier(.34,1.56,.64,1);
+    }
+
+    .toast.show { transform: translateX(-50%) translateY(0); }
+
+    /* ─── Scrollbar ─── */
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 999px; }
+  </style>
+</head>
+<body>
+
+<!-- Background canvas for animated gradient -->
+<canvas id="bg-canvas"></canvas>
+
+<!-- Wallpaper layer -->
+<div id="wallpaper-layer"></div>
+
+<!-- Hidden PiP elements -->
+<canvas id="pip-canvas" width="400" height="200"></canvas>
+<video id="pip-video" muted playsinline></video>
+
+<!-- Settings Overlay -->
+<div class="settings-overlay" id="settings-overlay">
+  <div class="settings-panel">
+    <div class="settings-title">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+      </svg>
+      Settings
+    </div>
+
+    <!-- Theme toggle -->
+    <div class="settings-row">
+      <div class="toggle-row">
+        <label style="margin:0; text-transform:none; font-size:.9rem; color:var(--text);">Light Mode</label>
+        <label class="toggle">
+          <input type="checkbox" id="theme-toggle" />
+          <span class="toggle-thumb"></span>
+        </label>
+      </div>
+    </div>
+
+    <!-- Wallpaper upload -->
+    <div class="settings-row">
+      <label>Wallpaper</label>
+      <div class="wallpaper-upload">
+        <label class="upload-btn" for="wp-input">Click to choose image</label>
+        <input type="file" id="wp-input" accept="image/*" style="display:none" />
+        <button class="clear-wp" id="clear-wp">Clear</button>
+      </div>
+    </div>
+
+    <!-- Wallpaper transparency -->
+    <div class="settings-row">
+      <label>Wallpaper Opacity</label>
+      <div class="slider-wrap">
+        <input type="range" id="wp-opacity" min="0" max="100" value="50" />
+        <span class="slider-val" id="wp-opacity-val">50%</span>
+      </div>
+    </div>
+
+    <!-- Sleep start time -->
+    <div class="settings-row">
+      <label>Sleep Starts At</label>
+      <input type="time" id="sleep-start" value="21:00"
+        style="width:100%; padding:10px 14px; border-radius:12px; border:1px solid var(--border);
+               background:var(--surface2); color:var(--text); font-family:'Google Sans',sans-serif;
+               font-size:.95rem; outline:none;" />
+    </div>
+
+    <!-- Sleep end time -->
+    <div class="settings-row">
+      <label>Wake Up At</label>
+      <input type="time" id="sleep-end" value="06:30"
+        style="width:100%; padding:10px 14px; border-radius:12px; border:1px solid var(--border);
+               background:var(--surface2); color:var(--text); font-family:'Google Sans',sans-serif;
+               font-size:.95rem; outline:none;" />
+    </div>
+
+    <button class="settings-close" id="close-settings">Done</button>
+  </div>
+</div>
+
+<!-- Toast notification -->
+<div class="toast" id="toast"></div>
+
+<!-- App Shell -->
+<div class="app-shell">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="logo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="currentColor" stroke="none"/>
+      </svg>
+      Sleep Timer
+    </div>
+    <div class="header-actions">
+      <button class="icon-btn" id="pip-btn" title="Picture-in-Picture">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="3" width="20" height="14" rx="2"/><rect x="12" y="11" width="8" height="6" rx="1" fill="currentColor" stroke="none"/>
+        </svg>
+      </button>
+      <button class="icon-btn" id="settings-btn" title="Settings">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Status badge -->
+  <div class="status-badge">
+    <span class="dot" id="status-dot"></span>
+    <span id="status-text">Calculating…</span>
+  </div>
+
+  <!-- Ring + Countdown -->
+  <div class="clock-ring-wrap">
+    <svg class="ring-svg" viewBox="0 0 320 320">
+      <defs>
+        <linearGradient id="ring-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%"   stop-color="#2979ff"/>
+          <stop offset="60%"  stop-color="#82b1ff"/>
+          <stop offset="100%" stop-color="#ffd740"/>
+        </linearGradient>
+      </defs>
+      <circle class="ring-track"    cx="160" cy="160" r="145" />
+      <circle class="ring-glow"     cx="160" cy="160" r="145" id="ring-glow-el" />
+      <circle class="ring-progress" cx="160" cy="160" r="145" id="ring-progress-el" />
+    </svg>
+    <div class="clock-inner">
+      <span class="clock-label" id="countdown-label">Time Remaining</span>
+      <span class="countdown" id="countdown-display">--:--:--</span>
+      <span class="live-clock" id="live-clock">--:--:-- --</span>
+      <span class="end-label" id="end-label">Wake up at 6:30 AM</span>
+    </div>
+  </div>
+
+  <!-- H / M / S segment cards -->
+  <div class="segment-row">
+    <div class="seg-card">
+      <span class="seg-num" id="seg-h">--</span>
+      <span class="seg-label">Hours</span>
+    </div>
+    <div class="seg-card">
+      <span class="seg-num" id="seg-m">--</span>
+      <span class="seg-label">Minutes</span>
+    </div>
+    <div class="seg-card">
+      <span class="seg-num" id="seg-s">--</span>
+      <span class="seg-label">Seconds</span>
+    </div>
+  </div>
+
+  <!-- Linear progress -->
+  <div class="progress-wrap">
+    <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+  </div>
+
+  <!-- Action buttons -->
+  <div class="actions-row">
+    <button class="btn btn-blue" id="pip-btn-main">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="3" width="20" height="14" rx="2"/><rect x="12" y="11" width="8" height="6" rx="1" fill="currentColor" stroke="none"/>
+      </svg>
+      Float Window
+    </button>
+    <button class="btn btn-gold" id="settings-btn-main">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+      </svg>
+      Customize
+    </button>
+  </div>
+</div>
+
+<script>
+/* ─────────────────────────────────────────
+   State
+───────────────────────────────────────── */
+const state = {
+  sleepH: 21, sleepM: 0,
+  wakeH:  6,  wakeM:  30,
+  totalSecs:  0,
+  remainSecs: 0,
+  active: false,
+  pipActive: false,
+};
+
+const CIRC = 2 * Math.PI * 145;
+
+/* ─── DOM refs ─── */
+const $ = id => document.getElementById(id);
+const countdownEl  = $('countdown-display');
+const countLabelEl = $('countdown-label');
+const liveClockEl  = $('live-clock');
+const endLabelEl   = $('end-label');
+const statusDotEl  = $('status-dot');
+const statusTextEl = $('status-text');
+const segH         = $('seg-h');
+const segM         = $('seg-m');
+const segS         = $('seg-s');
+const progressEl   = $('progress-fill');
+const ringEl       = $('ring-progress-el');
+const ringGlowEl   = $('ring-glow-el');
+const pipCanvas    = $('pip-canvas');
+const pipVideo     = $('pip-video');
+const wpLayer      = $('wallpaper-layer');
+const toast        = $('toast');
+
+/* ─── Ring setup ─── */
+ringEl.style.strokeDasharray    = CIRC;
+ringEl.style.strokeDashoffset   = CIRC;
+ringGlowEl.style.strokeDasharray  = CIRC;
+ringGlowEl.style.strokeDashoffset = CIRC;
+
+/* ─────────────────────────────────────────
+   Animated background (gradient blobs)
+───────────────────────────────────────── */
+(function initBg() {
+  const cv  = $('bg-canvas');
+  const ctx = cv.getContext('2d');
+  let W, H, blobs;
+
+  function resize() {
+    W = cv.width  = window.innerWidth;
+    H = cv.height = window.innerHeight;
+  }
+
+  function makeBlobs() {
+    blobs = [
+      { x: W*.2, y: H*.3, r: Math.min(W,H)*.45, c1:'#0d2870', c2:'#03042a', vx:.18, vy:.12 },
+      { x: W*.8, y: H*.7, r: Math.min(W,H)*.4,  c1:'#1a3a8f', c2:'#0a0e2a', vx:-.14, vy:.18 },
+      { x: W*.5, y: H*.15, r: Math.min(W,H)*.3, c1:'#b8860b22', c2:'transparent', vx:.1, vy:-.1 },
+    ];
+  }
+
+  function draw(t) {
+    ctx.clearRect(0,0,W,H);
+    blobs.forEach(b => {
+      b.x += b.vx; b.y += b.vy;
+      if (b.x < -b.r || b.x > W+b.r) b.vx *= -1;
+      if (b.y < -b.r || b.y > H+b.r) b.vy *= -1;
+      const g = ctx.createRadialGradient(b.x, b.y, 0, b.x, b.y, b.r);
+      g.addColorStop(0, b.c1);
+      g.addColorStop(1, b.c2);
+      ctx.beginPath();
+      ctx.arc(b.x, b.y, b.r, 0, 2*Math.PI);
+      ctx.fillStyle = g;
+      ctx.fill();
+    });
+    requestAnimationFrame(draw);
+  }
+
+  resize(); makeBlobs();
+  window.addEventListener('resize', () => { resize(); makeBlobs(); });
+  requestAnimationFrame(draw);
+})();
+
+/* ─────────────────────────────────────────
+   Stars / floating particles
+───────────────────────────────────────── */
+(function spawnStars() {
+  for (let i = 0; i < 60; i++) {
+    const s = document.createElement('div');
+    s.className = 'star';
+    const size = Math.random() * 3 + 1;
+    const isGold = Math.random() < .25;
+    s.style.cssText = `
+      width:${size}px; height:${size}px;
+      left:${Math.random()*100}vw;
+      top:${Math.random()*100}vh;
+      background:${isGold ? '#ffd740' : '#82b1ff'};
+      box-shadow: 0 0 ${size*3}px ${isGold ? '#ffd74088' : '#82b1ff66'};
+      --star-opacity:${Math.random()*.6+.2};
+      animation-duration:${Math.random()*20+15}s;
+      animation-delay:-${Math.random()*20}s;
+    `;
+    document.body.appendChild(s);
+  }
+})();
+
+/* ─────────────────────────────────────────
+   Time helpers
+───────────────────────────────────────── */
+function pad(n) { return String(n).padStart(2,'0'); }
+
+function toMins(h, m) { return h * 60 + m; }
+
+function secsUntilWake() {
+  const now = new Date();
+  const nowM = now.getHours()*60 + now.getMinutes();
+  const nowSecs = nowM * 60 + now.getSeconds();
+
+  const sleepMin = toMins(state.sleepH, state.sleepM);
+  const wakeMin  = toMins(state.wakeH,  state.wakeM);
+
+  /* night window: sleepMin > wakeMin means crosses midnight */
+  const crossesMidnight = sleepMin > wakeMin;
+
+  let inWindow = false;
+  if (crossesMidnight) {
+    inWindow = nowM >= sleepMin || nowM < wakeMin;
+  } else {
+    inWindow = nowM >= sleepMin && nowM < wakeMin;
+  }
+
+  if (!inWindow) return -1;
+
+  /* seconds until wakeMin */
+  const wakeSecOfDay = wakeMin * 60;
+  let nowSecOfDay    = nowM * 60 + now.getSeconds();
+  let diff = wakeSecOfDay - nowSecOfDay;
+  if (diff < 0) diff += 86400;
+  return diff;
+}
+
+function totalWindowSecs() {
+  const sleepMin = toMins(state.sleepH, state.sleepM);
+  const wakeMin  = toMins(state.wakeH,  state.wakeM);
+  let dur = wakeMin - sleepMin;
+  if (dur <= 0) dur += 1440;
+  return dur * 60;
+}
+
+function secsUntilSleep() {
+  const now = new Date();
+  const nowM = now.getHours()*60 + now.getMinutes();
+  const nowSecs = nowM*60 + now.getSeconds();
+  const sleepMin = toMins(state.sleepH, state.sleepM);
+  const sleepSec = sleepMin * 60;
+  let diff = sleepSec - nowSecs;
+  if (diff < 0) diff += 86400;
+  return diff;
+}
+
+function fmt12(h, m) {
+  const ampm = h >= 12 ? 'PM' : 'AM';
+  const hh = h % 12 || 12;
+  return `${hh}:${pad(m)} ${ampm}`;
+}
+
+/* ─────────────────────────────────────────
+   Tick — runs every second
+───────────────────────────────────────── */
+function tick() {
+  const now = new Date();
+  const h = now.getHours(), mi = now.getMinutes(), sc = now.getSeconds();
+  const ampm = h >= 12 ? 'PM' : 'AM';
+  liveClockEl.textContent = `${h % 12 || 12}:${pad(mi)}:${pad(sc)} ${ampm}`;
+
+  const remain = secsUntilWake();
+
+  if (remain >= 0) {
+    /* Active sleep window */
+    if (!state.active) {
+      state.active = true;
+      state.totalSecs = totalWindowSecs();
+      statusDotEl.classList.remove('waiting');
+      showToast('Sleep timer started');
+      if (document.pictureInPictureEnabled) startPip();
+    }
+
+    state.remainSecs = remain;
+    const rh = Math.floor(remain / 3600);
+    const rm = Math.floor((remain % 3600) / 60);
+    const rs = remain % 60;
+
+    countdownEl.textContent = `${pad(rh)}:${pad(rm)}:${pad(rs)}`;
+    countLabelEl.textContent = 'Time Remaining';
+    segH.textContent = pad(rh);
+    segM.textContent = pad(rm);
+    segS.textContent = pad(rs);
+
+    const pct = 1 - remain / state.totalSecs;
+    const off = CIRC * (1 - pct);
+    ringEl.style.strokeDashoffset      = off;
+    ringGlowEl.style.strokeDashoffset  = off;
+    progressEl.style.width = (pct * 100) + '%';
+
+    endLabelEl.textContent  = `Wake up at ${fmt12(state.wakeH, state.wakeM)}`;
+    statusTextEl.textContent = 'Sleep timer active';
+
+    if (remain === 0) {
+      /* Wake time reached */
+      state.active = false;
+      showToast('Good morning! Time to wake up!');
+    }
+
+  } else {
+    /* Waiting for sleep window */
+    if (state.active) state.active = false;
+    statusDotEl.classList.add('waiting');
+
+    const toSleep = secsUntilSleep();
+    const sh = Math.floor(toSleep / 3600);
+    const sm = Math.floor((toSleep % 3600) / 60);
+    const ss = toSleep % 60;
+
+    countdownEl.textContent = `${pad(sh)}:${pad(sm)}:${pad(ss)}`;
+    countLabelEl.textContent = 'Starts In';
+    segH.textContent = pad(sh);
+    segM.textContent = pad(sm);
+    segS.textContent = pad(ss);
+
+    const pct = 1 - toSleep / 86400;
+    const off = CIRC * (1 - Math.max(0, Math.min(1, pct)));
+    ringEl.style.strokeDashoffset      = off;
+    ringGlowEl.style.strokeDashoffset  = off;
+    progressEl.style.width = '0%';
+
+    endLabelEl.textContent  = `Starts at ${fmt12(state.sleepH, state.sleepM)}`;
+    statusTextEl.textContent = `Waiting • Starts ${fmt12(state.sleepH, state.sleepM)}`;
+  }
+
+  drawPip();
+}
+
+setInterval(tick, 1000);
+tick();
+
+/* ─────────────────────────────────────────
+   Picture-in-Picture
+───────────────────────────────────────── */
+function drawPip() {
+  const ctx = pipCanvas.getContext('2d');
+  const W = pipCanvas.width, H = pipCanvas.height;
+
+  /* background */
+  const grad = ctx.createLinearGradient(0,0,W,H);
+  grad.addColorStop(0, '#06091a');
+  grad.addColorStop(1, '#0d2870');
+  ctx.fillStyle = grad;
+  ctx.fillRect(0,0,W,H);
+
+  /* border glow */
+  ctx.strokeStyle = '#ffd740';
+  ctx.lineWidth = 2;
+  ctx.strokeRect(2,2,W-4,H-4);
+
+  /* label */
+  ctx.fillStyle = '#82b1ff';
+  ctx.font = '700 13px Google Sans, sans-serif';
+  ctx.textAlign = 'center';
+  ctx.fillText(state.active ? 'SLEEP TIMER' : 'STARTS IN', W/2, 30);
+
+  /* main time */
+  ctx.fillStyle = '#ffffff';
+  ctx.font = '700 46px Google Sans Display, sans-serif';
+  ctx.textAlign = 'center';
+  ctx.fillText(countdownEl.textContent, W/2, 100);
+
+  /* sub label */
+  ctx.fillStyle = '#ffd740';
+  ctx.font = '500 12px Google Sans, sans-serif';
+  ctx.fillText(endLabelEl.textContent, W/2, 130);
+
+  /* progress bar */
+  const pct = parseFloat(progressEl.style.width) / 100;
+  ctx.fillStyle = '#1a3a8f';
+  ctx.beginPath();
+  ctx.roundRect(30, 150, W-60, 8, 4);
+  ctx.fill();
+  if (pct > 0) {
+    const barGrad = ctx.createLinearGradient(30,0,W-30,0);
+    barGrad.addColorStop(0, '#2979ff');
+    barGrad.addColorStop(1, '#ffd740');
+    ctx.fillStyle = barGrad;
+    ctx.beginPath();
+    ctx.roundRect(30, 150, (W-60)*pct, 8, 4);
+    ctx.fill();
+  }
+
+  /* live clock */
+  ctx.fillStyle = '#8fa3d0';
+  ctx.font = '400 11px Google Sans, sans-serif';
+  ctx.fillText(liveClockEl.textContent, W/2, 185);
+}
+
+async function startPip() {
+  try {
+    if (!document.pictureInPictureEnabled) {
+      showToast('PiP not supported in this browser'); return;
+    }
+    const stream = pipCanvas.captureStream(1);
+    pipVideo.srcObject = stream;
+    await pipVideo.play();
+    await pipVideo.requestPictureInPicture();
+    state.pipActive = true;
+    $('pip-btn').classList.add('active');
+    showToast('Floating window opened');
+  } catch(e) {
+    showToast('Float window: click the button to activate');
+  }
+}
+
+async function togglePip() {
+  if (document.pictureInPictureElement) {
+    await document.exitPictureInPicture();
+    state.pipActive = false;
+    $('pip-btn').classList.remove('active');
+    showToast('Floating window closed');
+  } else {
+    await startPip();
+  }
+}
+
+$('pip-btn').addEventListener('click', togglePip);
+$('pip-btn-main').addEventListener('click', togglePip);
+
+pipVideo.addEventListener('leavepictureinpicture', () => {
+  state.pipActive = false;
+  $('pip-btn').classList.remove('active');
+});
+
+/* ─────────────────────────────────────────
+   Settings panel
+───────────────────────────────────────── */
+function openSettings() { $('settings-overlay').classList.add('open'); }
+function closeSettings() { $('settings-overlay').classList.remove('open'); }
+
+$('settings-btn').addEventListener('click', openSettings);
+$('settings-btn-main').addEventListener('click', openSettings);
+$('close-settings').addEventListener('click', closeSettings);
+$('settings-overlay').addEventListener('click', e => { if(e.target === $('settings-overlay')) closeSettings(); });
+
+/* ─── Theme toggle ─── */
+$('theme-toggle').addEventListener('change', function() {
+  document.documentElement.dataset.theme = this.checked ? 'light' : 'dark';
+});
+
+/* ─── Wallpaper ─── */
+$('wp-input').addEventListener('change', function() {
+  const file = this.files[0];
+  if (!file) return;
+  const url = URL.createObjectURL(file);
+  wpLayer.style.backgroundImage = `url(${url})`;
+  wpLayer.style.opacity = $('wp-opacity').value / 100;
+  showToast('Wallpaper applied');
+});
+
+$('clear-wp').addEventListener('click', () => {
+  wpLayer.style.backgroundImage = 'none';
+  $('wp-input').value = '';
+  showToast('Wallpaper cleared');
+});
+
+$('wp-opacity').addEventListener('input', function() {
+  $('wp-opacity-val').textContent = this.value + '%';
+  wpLayer.style.opacity = this.value / 100;
+});
+
+/* ─── Custom times ─── */
+$('sleep-start').addEventListener('change', function() {
+  const [h,m] = this.value.split(':').map(Number);
+  state.sleepH = h; state.sleepM = m;
+  state.active = false;
+  showToast(`Sleep starts at ${fmt12(h,m)}`);
+  tick();
+});
+
+$('sleep-end').addEventListener('change', function() {
+  const [h,m] = this.value.split(':').map(Number);
+  state.wakeH = h; state.wakeM = m;
+  state.active = false;
+  endLabelEl.textContent = `Wake up at ${fmt12(h,m)}`;
+  showToast(`Wake up at ${fmt12(h,m)}`);
+  tick();
+});
+
+/* ─────────────────────────────────────────
+   Toast
+───────────────────────────────────────── */
+let toastTimer;
+function showToast(msg) {
+  toast.textContent = msg;
+  toast.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toast.classList.remove('show'), 3200);
+}
+
+/* ─── Handle light mode background blobs ─── */
+const observer = new MutationObserver(() => {
+  const isLight = document.documentElement.dataset.theme === 'light';
+  /* blobs handled by the canvas — just let CSS var do the work */
+});
+observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+</script>
+</body>
+</html>
