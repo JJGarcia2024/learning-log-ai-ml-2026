@@ -74,10 +74,35 @@ This means:
 Because Windows can't launch a closed app on its own, `install_autostart.bat`
 makes the app start at login — that's what keeps it running and ready.
 
-> Prefer an exact 9:00 launch even from fully closed? You can instead create a
-> **Task Scheduler** task ("At 9:00 AM daily") pointing at
-> `dist\SpacesmithTimer.exe`. The in-app trigger already covers the common case,
-> so this is optional.
+### Option B: exact 9:00 launch via Task Scheduler (recommended for precision)
+
+If you'd rather have Windows launch the app at **exactly 9:00 AM** even when it's
+fully closed, use Task Scheduler instead of (or in addition to) the login
+shortcut:
+
+1. Build the `.exe` first (`build_exe.bat`) — or have Python installed.
+2. Double-click **`install_task_scheduler.bat`**.
+
+This registers a daily task named **"Spacesmith's Timer 9AM"** that:
+- fires at **9:00 AM** every day, and
+- has **"start the task as soon as available"** enabled — so if the PC was off
+  at 9:00, it launches the moment you turn the PC on, and
+- runs on battery too (no AC-power requirement).
+
+When the app launches this way it immediately sees it's past 9 AM and starts the
+cycle in the mini window.
+
+Useful commands (Command Prompt):
+```
+schtasks /Run    /TN "Spacesmith's Timer 9AM"     REM test it now
+schtasks /Delete /TN "Spacesmith's Timer 9AM" /F  REM remove it
+```
+Or open **Task Scheduler** from the Start menu to view/edit it.
+
+> Pick **one** launch method. Use the Startup shortcut (Option A) *or* the
+> Task Scheduler task (Option B) — running both just opens the app twice.
+> The `.xml` template (`SpacesmithTimer-9AM.xml`) is filled in with your real
+> path by the installer; you don't edit it by hand.
 
 ---
 
