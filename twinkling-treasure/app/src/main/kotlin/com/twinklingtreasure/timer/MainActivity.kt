@@ -2,7 +2,9 @@ package com.twinklingtreasure.timer
 
 import android.Manifest
 import android.app.Activity
+import android.app.AlarmManager
 import android.app.PictureInPictureParams
+import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.content.res.Configuration
@@ -11,7 +13,9 @@ import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.provider.OpenableColumns
+import android.provider.Settings
 import android.util.Rational
+import com.twinklingtreasure.timer.alarm.AlarmScheduler
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -74,12 +78,20 @@ class MainActivity : ComponentActivity() {
         }
     }
 
+    private var pendingAutoStart = false
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         requestNotificationPermission()
+        ensureExactAlarmPermission()
+        AlarmScheduler.scheduleDaily(this)
         startTimerService()
         viewModel.bindService(this)
+
+        if (intent?.getBooleanExtra(EXTRA_AUTO_START, false) == true) {
+            pendingAutoStart = true
+        }
 
         setContent {
             val uiState          by viewModel.uiState.collectAsStateWithLifecycle()
@@ -151,9 +163,33 @@ class MainActivity : ComponentActivity() {
             ?: "Custom audio"
     }
 
+    override fun onNewIntent(intent: Intent) {
+        super.onNewIntent(intent)
+        setIntent(intent)
+        if (intent.getBooleanExtra(EXTRA_AUTO_START, false)) {
+            pendingAutoStart = true
+        }
+    }
+
     override fun onResume() {
         super.onResume()
         if (!isInPictureInPictureMode) viewModel.setInPipMode(false)
+        if (pendingAutoStart) {
+            pendingAutoStart = false
+            viewModel.autoStartCycle()
+            enterPipMode()
+        }
+    }
+
+    private fun ensureExactAlarmPermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+            val am = getSystemService(Context.ALARM_SERVICE) as AlarmManager
+            if (!am.canScheduleExactAlarms()) {
+                try {
+                    startActivity(Intent(Settings.ACTION_REQUEST_SCHEDULE_EXACT_ALARM))
+                } catch (_: Exception) { /* some OEMs lack this screen */ }
+            }
+        }
     }
 
     override fun onUserLeaveHint() {
@@ -177,7 +213,7 @@ class MainActivity : ComponentActivity() {
     private fun enterPipMode() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val params = PictureInPictureParams.Builder()
-                .setAspectRatio(Rational(16, 7))
+                .setAspectRatio(Rational(1, 1))
                 .apply {
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
                         setAutoEnterEnabled(true)
@@ -203,5 +239,9 @@ class MainActivity : ComponentActivity() {
                 notificationPermission.launch(Manifest.permission.POST_NOTIFICATIONS)
             }
         }
+    }
+
+    companion object {
+        const val EXTRA_AUTO_START = "com.twinklingtreasure.EXTRA_AUTO_START"
     }
 }

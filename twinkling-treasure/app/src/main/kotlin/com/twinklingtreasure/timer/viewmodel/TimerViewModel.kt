@@ -49,13 +49,20 @@ class TimerViewModel(application: Application) : AndroidViewModel(application) {
 
     private var service: TimerService? = null
     private var isBound = false
+    private var pendingAutoStart = false
 
     private val connection = object : ServiceConnection {
         override fun onServiceConnected(name: ComponentName?, binder: IBinder?) {
-            service = (binder as TimerService.TimerBinder).getService()
+            val svc = (binder as TimerService.TimerBinder).getService()
+            service = svc
             isBound = true
             viewModelScope.launch {
-                service!!.timerState.collect { _uiState.value = it }
+                svc.timerState.collect { _uiState.value = it }
+            }
+            if (pendingAutoStart) {
+                pendingAutoStart = false
+                svc.reset()
+                svc.start()
             }
         }
         override fun onServiceDisconnected(name: ComponentName?) {
@@ -73,6 +80,17 @@ class TimerViewModel(application: Application) : AndroidViewModel(application) {
     }
 
     fun setInPipMode(value: Boolean) { _isInPip.value = value }
+
+    /** Restart the cycle from the top. If the service isn't bound yet, defer until it is. */
+    fun autoStartCycle() {
+        val svc = service
+        if (svc != null) {
+            svc.reset()
+            svc.start()
+        } else {
+            pendingAutoStart = true
+        }
+    }
 
     fun startTimer() = service?.start()
     fun pauseTimer() = service?.pause()
