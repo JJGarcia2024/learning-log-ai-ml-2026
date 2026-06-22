@@ -6,6 +6,7 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.floatPreferencesKey
+import androidx.datastore.preferences.core.intPreferencesKey
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
 import kotlinx.coroutines.flow.Flow
@@ -16,22 +17,30 @@ private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(na
 class SettingsRepository(private val context: Context) {
 
     companion object {
-        private val KEY_ALARM_URI   = stringPreferencesKey("alarm_uri")
-        private val KEY_ALARM_NAME  = stringPreferencesKey("alarm_name")
-        private val KEY_VIBRATE     = booleanPreferencesKey("vibrate")
-        private val KEY_WALLPAPER   = stringPreferencesKey("wallpaper_uri")
-        private val KEY_OPACITY     = floatPreferencesKey("wallpaper_opacity")
-        private val KEY_FORCE_DARK  = booleanPreferencesKey("force_dark")
+        private val KEY_ALARM_URI      = stringPreferencesKey("alarm_uri")
+        private val KEY_ALARM_NAME     = stringPreferencesKey("alarm_name")
+        private val KEY_VIBRATE        = booleanPreferencesKey("vibrate")
+        private val KEY_WALLPAPER      = stringPreferencesKey("wallpaper_uri")
+        private val KEY_OPACITY        = floatPreferencesKey("wallpaper_opacity")
+        private val KEY_FORCE_DARK     = booleanPreferencesKey("force_dark")
+        private val KEY_MIN_UPSKILLING = intPreferencesKey("min_upskilling")
+        private val KEY_MIN_EYEREST1   = intPreferencesKey("min_eyerest1")
+        private val KEY_MIN_WORK       = intPreferencesKey("min_work")
+        private val KEY_MIN_EYEREST2   = intPreferencesKey("min_eyerest2")
     }
 
     val settings: Flow<AppSettings> = context.dataStore.data.map { p ->
         AppSettings(
-            alarmSoundUri    = p[KEY_ALARM_URI]  ?: "default",
-            alarmSoundName   = p[KEY_ALARM_NAME] ?: "Default alarm",
-            vibrateEnabled   = p[KEY_VIBRATE]    ?: true,
-            wallpaperUri     = p[KEY_WALLPAPER]  ?: "",
-            wallpaperOpacity = p[KEY_OPACITY]    ?: 0.35f,
-            forceDarkMode    = p[KEY_FORCE_DARK] ?: true,
+            alarmSoundUri    = p[KEY_ALARM_URI]      ?: "default",
+            alarmSoundName   = p[KEY_ALARM_NAME]     ?: "Default alarm",
+            vibrateEnabled   = p[KEY_VIBRATE]        ?: true,
+            wallpaperUri     = p[KEY_WALLPAPER]      ?: "",
+            wallpaperOpacity = p[KEY_OPACITY]        ?: 0.35f,
+            forceDarkMode    = p[KEY_FORCE_DARK]     ?: true,
+            upskillingMinutes = p[KEY_MIN_UPSKILLING] ?: 20,
+            eyeRest1Minutes   = p[KEY_MIN_EYEREST1]   ?: 5,
+            workMinutes       = p[KEY_MIN_WORK]       ?: 60,
+            eyeRest2Minutes   = p[KEY_MIN_EYEREST2]   ?: 5,
         )
     }
 
@@ -53,4 +62,16 @@ class SettingsRepository(private val context: Context) {
 
     suspend fun setForceDark(forced: Boolean) =
         context.dataStore.edit { it[KEY_FORCE_DARK] = forced }
+
+    suspend fun setPhaseMinutes(phaseIndex: Int, minutes: Int) {
+        val clamped = minutes.coerceIn(1, 180)
+        context.dataStore.edit { prefs ->
+            when (phaseIndex) {
+                0 -> prefs[KEY_MIN_UPSKILLING] = clamped
+                1 -> prefs[KEY_MIN_EYEREST1]   = clamped
+                2 -> prefs[KEY_MIN_WORK]        = clamped
+                3 -> prefs[KEY_MIN_EYEREST2]    = clamped
+            }
+        }
+    }
 }

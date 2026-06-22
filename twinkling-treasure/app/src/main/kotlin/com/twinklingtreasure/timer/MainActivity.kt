@@ -106,17 +106,18 @@ class MainActivity : ComponentActivity() {
             TwinklingTreasureTheme(darkTheme = isDark) {
                 if (showSettings && !isInPip) {
                     SettingsScreen(
-                        settings             = settings,
-                        onBack               = { showSettings = false },
-                        onPickSystemRingtone = { launchRingtonePicker() },
-                        onPickCustomAudio    = { audioLauncher.launch(arrayOf("audio/*")) },
-                        onTestAlarm          = viewModel::testAlarm,
-                        onClearAlarm         = { viewModel.setAlarmSound("", "No alarm") },
-                        onSetVibrate         = viewModel::setVibrate,
-                        onSetForceDark       = viewModel::setForceDark,
-                        onPickWallpaper      = { wallpaperLauncher.launch(arrayOf("image/*")) },
-                        onRemoveWallpaper    = { viewModel.setWallpaper("") },
+                        settings              = settings,
+                        onBack                = { showSettings = false },
+                        onPickSystemRingtone  = { launchRingtonePicker() },
+                        onPickCustomAudio     = { audioLauncher.launch(arrayOf("audio/*")) },
+                        onTestAlarm           = viewModel::testAlarm,
+                        onClearAlarm          = { viewModel.setAlarmSound("", "No alarm") },
+                        onSetVibrate          = viewModel::setVibrate,
+                        onSetForceDark        = viewModel::setForceDark,
+                        onPickWallpaper       = { wallpaperLauncher.launch(arrayOf("image/*")) },
+                        onRemoveWallpaper     = { viewModel.setWallpaper("") },
                         onSetWallpaperOpacity = viewModel::setWallpaperOpacity,
+                        onSetPhaseMinutes     = viewModel::setPhaseMinutes,
                     )
                 } else {
                     MainScreen(

@@ -15,6 +15,7 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.rounded.ArrowBack
+import androidx.compose.material.icons.rounded.Add
 import androidx.compose.material.icons.rounded.Delete
 import androidx.compose.material.icons.rounded.LibraryMusic
 import androidx.compose.material.icons.rounded.MusicNote
@@ -22,13 +23,16 @@ import androidx.compose.material.icons.rounded.Nightlight
 import androidx.compose.material.icons.rounded.Notifications
 import androidx.compose.material.icons.rounded.PhotoLibrary
 import androidx.compose.material.icons.rounded.PlayArrow
+import androidx.compose.material.icons.rounded.Remove
 import androidx.compose.material.icons.rounded.Vibration
 import androidx.compose.material.icons.rounded.VolumeOff
 import androidx.compose.material.icons.rounded.Wallpaper
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.FilledIconButton
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.IconButtonDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
@@ -61,6 +65,7 @@ fun SettingsScreen(
     onPickWallpaper: () -> Unit,
     onRemoveWallpaper: () -> Unit,
     onSetWallpaperOpacity: (Float) -> Unit,
+    onSetPhaseMinutes: (phaseIndex: Int, minutes: Int) -> Unit,
 ) {
     Scaffold(
         topBar = {
@@ -85,6 +90,32 @@ fun SettingsScreen(
                 .padding(16.dp),
             verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
+
+            // ── Timer Durations ───────────────────────────────────
+            SettingsSection(title = "Timer Durations") {
+                Text(
+                    "Changes take effect when each phase next starts.",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+                Spacer(Modifier.height(12.dp))
+                val phases = listOf(
+                    Triple("📚", "Upskilling",  settings.upskillingMinutes),
+                    Triple("😌", "Eye Rest 1",  settings.eyeRest1Minutes),
+                    Triple("⚡", "Work",         settings.workMinutes),
+                    Triple("😌", "Eye Rest 2",  settings.eyeRest2Minutes),
+                )
+                phases.forEachIndexed { index, (emoji, name, minutes) ->
+                    if (index > 0) HorizontalDivider(modifier = Modifier.padding(vertical = 10.dp))
+                    PhaseDurationRow(
+                        emoji      = emoji,
+                        name       = name,
+                        minutes    = minutes,
+                        onDecrement = { onSetPhaseMinutes(index, (minutes - 5).coerceAtLeast(5)) },
+                        onIncrement = { onSetPhaseMinutes(index, (minutes + 5).coerceAtMost(180)) },
+                    )
+                }
+            }
 
             // ── Alarm Sound ───────────────────────────────────────
             SettingsSection(title = "Alarm Sound") {
@@ -244,6 +275,57 @@ fun SettingsScreen(
                     }
                 }
             }
+        }
+    }
+}
+
+@Composable
+private fun PhaseDurationRow(
+    emoji: String,
+    name: String,
+    minutes: Int,
+    onDecrement: () -> Unit,
+    onIncrement: () -> Unit,
+) {
+    Row(
+        verticalAlignment = Alignment.CenterVertically,
+        modifier = Modifier.fillMaxWidth(),
+    ) {
+        Text(text = emoji, style = MaterialTheme.typography.titleMedium)
+        Spacer(Modifier.width(10.dp))
+        Text(
+            text     = name,
+            style    = MaterialTheme.typography.bodyMedium,
+            modifier = Modifier.weight(1f),
+        )
+        FilledIconButton(
+            onClick  = onDecrement,
+            enabled  = minutes > 5,
+            modifier = Modifier.size(36.dp),
+            colors   = IconButtonDefaults.filledIconButtonColors(
+                containerColor = MaterialTheme.colorScheme.surfaceVariant,
+                contentColor   = MaterialTheme.colorScheme.onSurfaceVariant,
+            ),
+        ) {
+            Icon(Icons.Rounded.Remove, contentDescription = "Decrease", modifier = Modifier.size(18.dp))
+        }
+        Text(
+            text      = "$minutes min",
+            style     = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Bold),
+            color     = MaterialTheme.colorScheme.secondary,
+            modifier  = Modifier.width(62.dp),
+            textAlign = androidx.compose.ui.text.style.TextAlign.Center,
+        )
+        FilledIconButton(
+            onClick  = onIncrement,
+            enabled  = minutes < 180,
+            modifier = Modifier.size(36.dp),
+            colors   = IconButtonDefaults.filledIconButtonColors(
+                containerColor = MaterialTheme.colorScheme.surfaceVariant,
+                contentColor   = MaterialTheme.colorScheme.onSurfaceVariant,
+            ),
+        ) {
+            Icon(Icons.Rounded.Add, contentDescription = "Increase", modifier = Modifier.size(18.dp))
         }
     }
 }

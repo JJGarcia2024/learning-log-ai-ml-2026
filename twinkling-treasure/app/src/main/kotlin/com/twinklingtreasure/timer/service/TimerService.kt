@@ -109,7 +109,7 @@ class TimerService : Service() {
         _state.update {
             it.copy(
                 currentPhaseIndex = next,
-                secondsRemaining  = TimerCycle.phases[next].durationSeconds,
+                secondsRemaining  = durationFor(next),
                 isRunning         = false,
             )
         }
@@ -119,7 +119,7 @@ class TimerService : Service() {
     fun reset() {
         tickerJob?.cancel()
         stopAlarm()
-        _state.value = TimerState()
+        _state.value = TimerState(secondsRemaining = durationFor(0))
         updateNotification()
     }
 
@@ -133,11 +133,20 @@ class TimerService : Service() {
             _state.update {
                 it.copy(
                     currentPhaseIndex = next,
-                    secondsRemaining  = TimerCycle.phases[next].durationSeconds,
+                    secondsRemaining  = durationFor(next),
                 )
             }
         }
         updateNotification()
+    }
+
+    /** Returns the configured duration for a phase index, using current settings. */
+    private fun durationFor(phaseIndex: Int): Int = when (phaseIndex) {
+        0 -> currentSettings.upskillingMinutes * 60
+        1 -> currentSettings.eyeRest1Minutes   * 60
+        2 -> currentSettings.workMinutes       * 60
+        3 -> currentSettings.eyeRest2Minutes   * 60
+        else -> TimerCycle.phases[phaseIndex].durationSeconds
     }
 
     private fun triggerPhaseEnd() {
