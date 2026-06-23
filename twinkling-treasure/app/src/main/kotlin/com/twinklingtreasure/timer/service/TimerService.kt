@@ -71,7 +71,8 @@ class TimerService : Service() {
     private var overlayRoot: LinearLayout? = null
     private var overlayEmoji: TextView? = null
     private var overlayTime: TextView? = null
-    private var isAppForeground = true
+    // Default false: if the service restarts after process kill, no activity is present
+    private var isAppForeground = false
     private var isInPip = false
 
     override fun onBind(intent: Intent): IBinder = binder
@@ -85,6 +86,12 @@ class TimerService : Service() {
             startForeground(NOTIFICATION_ID, buildNotification())
         }
         scope.launch { settingsRepo.settings.collect { currentSettings = it } }
+        restoreState()
+    }
+
+    override fun onTaskRemoved(rootIntent: Intent?) {
+        super.onTaskRemoved(rootIntent)
+        persistState()
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
@@ -143,6 +150,7 @@ class TimerService : Service() {
         tickerJob?.cancel()
         stopAlarm()
         _state.value = TimerState(secondsRemaining = durationFor(0))
+        clearPersistedState()
         scope.launch(Dispatchers.Main) { syncOverlay() }
         updateNotification()
     }
@@ -172,7 +180,45 @@ class TimerService : Service() {
                 )
             }
         }
+        persistState()
         updateNotification()
+    }
+
+    // ── State persistence (survives swipe-from-recents process kill) ─
+
+    private fun prefs() = getSharedPreferences("timer_state", Context.MODE_PRIVATE)
+
+    private fun persistState() {
+        val s = _state.value
+        prefs().edit()
+            .putInt("phase_index", s.currentPhaseIndex)
+            .putInt("seconds_remaining", s.secondsRemaining)
+            .putBoolean("is_running", s.isRunning)
+            .putLong("saved_at_ms", System.currentTimeMillis())
+            .apply()
+    }
+
+    private fun clearPersistedState() {
+        prefs().edit().clear().apply()
+    }
+
+    private fun restoreState() {
+        val p = prefs()
+        if (!p.getBoolean("is_running", false)) return
+        val phaseIndex   = p.getInt("phase_index", 0)
+        val savedSeconds = p.getInt("seconds_remaining", 0)
+        val savedAt      = p.getLong("saved_at_ms", 0L)
+        val elapsed      = ((System.currentTimeMillis() - savedAt) / 1000L).toInt().coerceAtLeast(0)
+        val adjusted     = savedSeconds - elapsed
+        val (finalIndex, finalSeconds) = if (adjusted > 0) {
+            phaseIndex to adjusted
+        } else {
+            // Phase has already passed; advance to next
+            val next = (phaseIndex + 1) % TimerCycle.phases.size
+            next to durationFor(next)
+        }
+        _state.value = TimerState(currentPhaseIndex = finalIndex, secondsRemaining = finalSeconds, isRunning = false)
+        start()
     }
 
     /** Returns the configured duration for a phase index, using current settings. */
