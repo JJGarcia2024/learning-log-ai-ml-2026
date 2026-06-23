@@ -202,11 +202,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    override fun onUserLeaveHint() {
-        super.onUserLeaveHint()
-        if (viewModel.uiState.value.isRunning) enterPipMode()
-    }
-
     override fun onPictureInPictureModeChanged(
         isInPictureInPictureMode: Boolean,
         newConfig: Configuration,
@@ -227,7 +222,7 @@ class MainActivity : ComponentActivity() {
                 .setAspectRatio(Rational(1, 1))
                 .apply {
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
-                        setAutoEnterEnabled(true)
+                        setAutoEnterEnabled(false)
                         setSeamlessResizeEnabled(false)
                     }
                 }
