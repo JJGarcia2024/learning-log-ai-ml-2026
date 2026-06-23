@@ -77,7 +77,12 @@ class TimerViewModel(application: Application) : AndroidViewModel(application) {
         if (isBound) { context.unbindService(connection); isBound = false }
     }
 
-    fun setInPipMode(value: Boolean) { _isInPip.value = value }
+    fun setInPipMode(value: Boolean) {
+        _isInPip.value = value
+        service?.setInPip(value)
+    }
+
+    fun setAppForeground(value: Boolean) { service?.setAppForeground(value) }
 
     /** Restart the cycle from the top. If the service isn't bound yet, defer until it is. */
     fun autoStartCycle() {

@@ -8,6 +8,10 @@ import android.app.Service
 import android.content.Context
 import android.content.Intent
 import android.content.pm.ServiceInfo
+import android.graphics.Color
+import android.graphics.PixelFormat
+import android.graphics.Typeface
+import android.graphics.drawable.GradientDrawable
 import android.media.AudioAttributes
 import android.media.MediaPlayer
 import android.media.RingtoneManager
@@ -18,6 +22,11 @@ import android.os.IBinder
 import android.os.VibrationEffect
 import android.os.Vibrator
 import android.os.VibratorManager
+import android.provider.Settings
+import android.view.Gravity
+import android.view.WindowManager
+import android.widget.LinearLayout
+import android.widget.TextView
 import androidx.core.app.NotificationCompat
 import com.twinklingtreasure.timer.MainActivity
 import com.twinklingtreasure.timer.R
@@ -25,6 +34,7 @@ import com.twinklingtreasure.timer.data.AppSettings
 import com.twinklingtreasure.timer.data.SettingsRepository
 import com.twinklingtreasure.timer.data.TimerCycle
 import com.twinklingtreasure.timer.data.TimerState
+import com.twinklingtreasure.timer.util.formatTime
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -37,6 +47,7 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 class TimerService : Service() {
 
@@ -54,6 +65,14 @@ class TimerService : Service() {
     private val settingsRepo by lazy { SettingsRepository(applicationContext) }
     private var currentSettings = AppSettings()
     @Volatile private var mediaPlayer: MediaPlayer? = null
+
+    // ── Overlay (Live Alert-style pill) ────────────────────────────
+    private var wm: WindowManager? = null
+    private var overlayRoot: LinearLayout? = null
+    private var overlayEmoji: TextView? = null
+    private var overlayTime: TextView? = null
+    private var isAppForeground = true
+    private var isInPip = false
 
     override fun onBind(intent: Intent): IBinder = binder
 
@@ -78,6 +97,7 @@ class TimerService : Service() {
 
     override fun onDestroy() {
         stopAlarm()
+        destroyOverlay()
         scope.cancel()
         super.onDestroy()
     }
@@ -89,8 +109,10 @@ class TimerService : Service() {
             while (isActive) {
                 delay(1_000L)
                 tick()
+                if (overlayRoot != null) withContext(Dispatchers.Main) { refreshOverlay() }
             }
         }
+        scope.launch(Dispatchers.Main) { syncOverlay() }
         updateNotification()
     }
 
@@ -98,6 +120,7 @@ class TimerService : Service() {
         tickerJob?.cancel()
         stopAlarm()
         _state.update { it.copy(isRunning = false) }
+        scope.launch(Dispatchers.Main) { syncOverlay() }
         updateNotification()
     }
 
@@ -113,14 +136,26 @@ class TimerService : Service() {
                 isRunning         = false,
             )
         }
-        if (wasRunning) start() else updateNotification()
+        if (wasRunning) start() else { scope.launch(Dispatchers.Main) { syncOverlay() }; updateNotification() }
     }
 
     fun reset() {
         tickerJob?.cancel()
         stopAlarm()
         _state.value = TimerState(secondsRemaining = durationFor(0))
+        scope.launch(Dispatchers.Main) { syncOverlay() }
         updateNotification()
+    }
+
+    // ── Overlay public API (called by ViewModel) ───────────────────
+    fun setAppForeground(value: Boolean) {
+        isAppForeground = value
+        scope.launch(Dispatchers.Main) { syncOverlay() }
+    }
+
+    fun setInPip(value: Boolean) {
+        isInPip = value
+        scope.launch(Dispatchers.Main) { syncOverlay() }
     }
 
     private fun tick() {
@@ -205,6 +240,97 @@ class TimerService : Service() {
             release()
         }
         mediaPlayer = null
+    }
+
+    // ── Overlay helpers (must run on Main thread) ──────────────────
+
+    private fun syncOverlay() {
+        val shouldShow = _state.value.isRunning && !isAppForeground && !isInPip &&
+                Settings.canDrawOverlays(this)
+        if (shouldShow) {
+            if (overlayRoot == null) buildOverlay()
+            refreshOverlay()
+        } else {
+            destroyOverlay()
+        }
+    }
+
+    private fun buildOverlay() {
+        val density = resources.displayMetrics.density
+
+        fun Int.px() = (this * density).toInt()
+        fun Float.px() = this * density
+
+        val pill = LinearLayout(this).apply {
+            orientation = LinearLayout.HORIZONTAL
+            gravity = Gravity.CENTER_VERTICAL
+            background = GradientDrawable().apply {
+                setColor(0xF00A1628.toInt())
+                cornerRadius = 100f.px()
+            }
+            setPadding(18.px(), 10.px(), 18.px(), 10.px())
+            elevation = 10f.px()
+            setOnClickListener {
+                startActivity(
+                    Intent(applicationContext, MainActivity::class.java).apply {
+                        flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_SINGLE_TOP
+                    }
+                )
+            }
+        }
+
+        val phase = TimerCycle.phasesFor(currentSettings)[_state.value.currentPhaseIndex]
+
+        val emojiTv = TextView(this).apply {
+            text = phase.emoji
+            textSize = 16f
+            setPadding(0, 0, 10.px(), 0)
+        }
+        val timeTv = TextView(this).apply {
+            text = formatTime(_state.value.secondsRemaining)
+            textSize = 18f
+            setTypeface(Typeface.DEFAULT_BOLD)
+            setTextColor(Color.parseColor("#FFD700"))
+        }
+
+        pill.addView(emojiTv)
+        pill.addView(timeTv)
+        overlayEmoji = emojiTv
+        overlayTime  = timeTv
+        overlayRoot  = pill
+
+        val params = WindowManager.LayoutParams(
+            WindowManager.LayoutParams.WRAP_CONTENT,
+            WindowManager.LayoutParams.WRAP_CONTENT,
+            WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY,
+            WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE or
+                WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL,
+            PixelFormat.TRANSLUCENT,
+        ).apply {
+            gravity = Gravity.TOP or Gravity.CENTER_HORIZONTAL
+            y = 8
+        }
+
+        val wm = getSystemService(Context.WINDOW_SERVICE) as WindowManager
+        this.wm = wm
+        wm.addView(pill, params)
+    }
+
+    private fun refreshOverlay() {
+        val s     = _state.value
+        val phase = TimerCycle.phasesFor(currentSettings)[s.currentPhaseIndex]
+        overlayEmoji?.text = phase.emoji
+        overlayTime?.text  = formatTime(s.secondsRemaining)
+    }
+
+    private fun destroyOverlay() {
+        overlayRoot?.let { v ->
+            try { wm?.removeView(v) } catch (_: Exception) {}
+        }
+        overlayRoot  = null
+        overlayEmoji = null
+        overlayTime  = null
+        wm           = null
     }
 
     private fun buildNotification(): Notification {

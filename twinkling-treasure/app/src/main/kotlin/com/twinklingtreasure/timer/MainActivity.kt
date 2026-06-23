@@ -79,12 +79,14 @@ class MainActivity : ComponentActivity() {
     }
 
     private var pendingAutoStart = false
+    private var enteringPip = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         requestNotificationPermission()
         ensureExactAlarmPermission()
+        ensureOverlayPermission()
         AlarmScheduler.scheduleDaily(this)
         startTimerService()
         viewModel.bindService(this)
@@ -175,11 +177,18 @@ class MainActivity : ComponentActivity() {
     override fun onResume() {
         super.onResume()
         if (!isInPictureInPictureMode) viewModel.setInPipMode(false)
+        viewModel.setAppForeground(true)
         if (pendingAutoStart) {
             pendingAutoStart = false
             viewModel.autoStartCycle()
             enterPipMode()
         }
+    }
+
+    override fun onPause() {
+        super.onPause()
+        if (!enteringPip) viewModel.setAppForeground(false)
+        enteringPip = false
     }
 
     private fun ensureExactAlarmPermission() {
@@ -213,6 +222,7 @@ class MainActivity : ComponentActivity() {
 
     private fun enterPipMode() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            enteringPip = true
             val params = PictureInPictureParams.Builder()
                 .setAspectRatio(Rational(1, 1))
                 .apply {
@@ -223,6 +233,15 @@ class MainActivity : ComponentActivity() {
                 }
                 .build()
             enterPictureInPictureMode(params)
+        }
+    }
+
+    private fun ensureOverlayPermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && !Settings.canDrawOverlays(this)) {
+            try {
+                startActivity(Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
+                    Uri.parse("package:$packageName")))
+            } catch (_: Exception) {}
         }
     }
 
