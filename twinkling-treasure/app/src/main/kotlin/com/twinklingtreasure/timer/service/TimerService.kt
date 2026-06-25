@@ -1,5 +1,6 @@
 package com.twinklingtreasure.timer.service
 
+import android.app.AlarmManager
 import android.app.Notification
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -19,6 +20,7 @@ import android.net.Uri
 import android.os.Binder
 import android.os.Build
 import android.os.IBinder
+import android.os.SystemClock
 import android.os.VibrationEffect
 import android.os.Vibrator
 import android.os.VibratorManager
@@ -91,7 +93,35 @@ class TimerService : Service() {
 
     override fun onTaskRemoved(rootIntent: Intent?) {
         super.onTaskRemoved(rootIntent)
-        persistState()
+        // Use commit() (synchronous) so the write completes before the process is killed
+        val s = _state.value
+        prefs().edit()
+            .putInt("phase_index", s.currentPhaseIndex)
+            .putInt("seconds_remaining", s.secondsRemaining)
+            .putBoolean("is_running", s.isRunning)
+            .putLong("saved_at_ms", System.currentTimeMillis())
+            .commit()
+        // On OEM devices (e.g. OnePlus) the foreground service can be killed despite
+        // stopWithTask=false. Schedule a 1-second alarm so the pill reappears quickly.
+        if (s.isRunning) scheduleRestart()
+    }
+
+    private fun scheduleRestart() {
+        val pi = PendingIntent.getService(
+            this, REQUEST_RESTART,
+            Intent(this, TimerService::class.java),
+            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE,
+        )
+        val am = getSystemService(Context.ALARM_SERVICE) as AlarmManager
+        val at = SystemClock.elapsedRealtime() + 1_000L
+        when {
+            Build.VERSION.SDK_INT >= Build.VERSION_CODES.S && am.canScheduleExactAlarms() ->
+                am.setExactAndAllowWhileIdle(AlarmManager.ELAPSED_REALTIME_WAKEUP, at, pi)
+            Build.VERSION.SDK_INT >= Build.VERSION_CODES.M ->
+                am.setAndAllowWhileIdle(AlarmManager.ELAPSED_REALTIME_WAKEUP, at, pi)
+            else ->
+                am.set(AlarmManager.ELAPSED_REALTIME_WAKEUP, at, pi)
+        }
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
@@ -437,5 +467,6 @@ class TimerService : Service() {
         const val NOTIFICATION_ID = 1001
         const val ACTION_PAUSE    = "com.twinklingtreasure.ACTION_PAUSE"
         const val ACTION_SKIP     = "com.twinklingtreasure.ACTION_SKIP"
+        private const val REQUEST_RESTART = 9001
     }
 }
