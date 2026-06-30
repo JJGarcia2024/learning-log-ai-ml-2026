@@ -6,7 +6,8 @@
       "PowerShell(conda env list 2>&1)",
       "Bash(python -c \"import sys; print\\(sys.executable\\)\")",
       "Bash(python -c \"import google.cloud.bigquery\")",
-      "WebSearch"
+      "WebSearch",
+      "Bash(git checkout *)"
     ]
   }
 }
