@@ -7,9 +7,14 @@ timer over other apps using Android's **Picture-in-Picture** mode.
 ## Features
 
 - ⏰ **Auto-start** — an exact daily alarm fires at the configured sleep time and
-  brings the countdown to the foreground, automatically entering a floating window.
-- 🪟 **Floating window** — true Android Picture-in-Picture. Tap **Float Window**, or
-  just leave the app during the sleep window and it pops into PiP on its own.
+  brings the countdown to the foreground, automatically opening the floating window.
+- 🪟 **Floating window that coexists with other PiP** — tap **Float Window** to show a
+  draggable system overlay (the "Display over other apps" mechanism). Because it is
+  **not** an Android Picture-in-Picture window, it happily floats on top of another
+  app's PiP (e.g. a YouTube video in PiP) instead of replacing it.
+  > Android only allows **one** system PiP window at a time, so two PiP windows can
+  > never coexist. The overlay sidesteps that limitation. Native PiP is still offered
+  > as a secondary "Use system Picture-in-Picture" option for single-window use.
 - 🎨 **Blue & gold theme** with an animated gradient background and progress ring.
 - 🌗 **Dark / Light / System** theme modes.
 - 🖼️ **Wallpaper** — pick any image and adjust its opacity with a slider.
@@ -37,6 +42,11 @@ files into `app/src/main/res/font/` and follow `app/src/main/res/font/README.md`
 
 - `SCHEDULE_EXACT_ALARM` / `USE_EXACT_ALARM` — fire the auto-start alarm precisely.
   On Android 12+ tap **Grant exact-alarm permission** in Settings if prompted.
+- `SYSTEM_ALERT_WINDOW` — the coexisting floating overlay. The first time you tap
+  **Float Window** (or via Settings → *Grant "Display over other apps"*) you'll be
+  sent to the system screen to enable it for Sleep Timer.
+- `FOREGROUND_SERVICE` / `FOREGROUND_SERVICE_SPECIAL_USE` — keep the overlay alive
+  while you're in other apps.
 - `RECEIVE_BOOT_COMPLETED` — re-arm the daily alarm after a reboot.
 - `READ_MEDIA_IMAGES` — load a wallpaper you choose (via the photo picker).
 - `POST_NOTIFICATIONS` — reserved for wake notifications.
@@ -49,6 +59,7 @@ android/
 │  ├─ AndroidManifest.xml
 │  ├─ java/com/jireh/sleeptimer/
 │  │  ├─ MainActivity.kt          # Compose UI + PiP
+│  │  ├─ FloatingTimerService.kt  # overlay window (coexists with other PiP)
 │  │  ├─ TimerEngine.kt           # sleep-window time math
 │  │  ├─ SleepPrefs.kt            # persisted settings
 │  │  ├─ SleepAlarmScheduler.kt   # daily exact alarm

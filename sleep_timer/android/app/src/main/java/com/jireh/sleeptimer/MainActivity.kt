@@ -101,13 +101,19 @@ class MainActivity : ComponentActivity() {
     }
 
     // Auto-float when the user navigates away during the sleep window.
+    // Prefer the overlay (coexists with other apps' PiP); fall back to PiP.
     override fun onUserLeaveHint() {
         super.onUserLeaveHint()
         val prefs = SleepPrefs(this)
         val snap = TimerEngine.snapshot(
             prefs.sleepHour, prefs.sleepMinute, prefs.wakeHour, prefs.wakeMinute
         )
-        if (snap.active) enterPip()
+        if (!snap.active) return
+        if (Settings.canDrawOverlays(this)) {
+            startForegroundService(Intent(this, FloatingTimerService::class.java))
+        } else {
+            enterPip()
+        }
     }
 
     override fun onPictureInPictureModeChanged(
@@ -185,6 +191,23 @@ fun SleepTimerScreen(
         }
     }
 
+    // Start the floating overlay (coexists with other PiP). Asks for the
+    // "Display over other apps" permission the first time if it's missing.
+    val startOverlay = {
+        if (Settings.canDrawOverlays(context)) {
+            context.startForegroundService(
+                Intent(context, FloatingTimerService::class.java)
+            )
+        } else {
+            context.startActivity(
+                Intent(
+                    Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
+                    Uri.parse("package:${context.packageName}")
+                ).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            )
+        }
+    }
+
     Box(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background)) {
 
         // Animated gradient background.
@@ -208,6 +231,7 @@ fun SleepTimerScreen(
                 nowLabel = nowLabel,
                 sleepH = sleepH, sleepM = sleepM, wakeH = wakeH, wakeM = wakeM,
                 onEnterPip = onEnterPip,
+                onFloatOverlay = startOverlay,
                 onOpenSettings = { showSettings = true },
             )
         }
@@ -244,6 +268,7 @@ private fun FullContent(
     nowLabel: String,
     sleepH: Int, sleepM: Int, wakeH: Int, wakeM: Int,
     onEnterPip: () -> Unit,
+    onFloatOverlay: () -> Unit,
     onOpenSettings: () -> Unit,
 ) {
     val secs = if (snapshot.active) snapshot.remaining else snapshot.untilStart
@@ -326,11 +351,12 @@ private fun FullContent(
 
         // Buttons
         Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            // Overlay float — coexists with another app's Picture-in-Picture.
             FilledTonalButton(
-                onClick = onEnterPip,
+                onClick = onFloatOverlay,
                 colors = ButtonDefaults.filledTonalButtonColors(containerColor = BlueMid)
             ) {
-                Icon(Icons.Filled.PictureInPicture, null, tint = Color.White)
+                Icon(Icons.Filled.OpenInNew, null, tint = Color.White)
                 Spacer(Modifier.width(8.dp))
                 Text("Float Window", color = Color.White, fontFamily = GoogleSans)
             }
@@ -343,6 +369,16 @@ private fun FullContent(
                 Text("Customize", color = BlueDeep, fontFamily = GoogleSans,
                     fontWeight = FontWeight.Medium)
             }
+        }
+
+        // Native PiP (single-window) as a secondary option.
+        TextButton(onClick = onEnterPip) {
+            Icon(Icons.Filled.PictureInPicture, null,
+                tint = MaterialTheme.colorScheme.onSurface.copy(alpha = .6f))
+            Spacer(Modifier.width(6.dp))
+            Text("Use system Picture-in-Picture",
+                color = MaterialTheme.colorScheme.onSurface.copy(alpha = .6f),
+                fontSize = 12.sp, fontFamily = GoogleSans)
         }
     }
 }
@@ -616,6 +652,19 @@ private fun SettingsSheet(
                     Text("Grant exact-alarm permission", color = BlueLight,
                         fontFamily = GoogleSans)
                 }
+            }
+
+            // Overlay permission shortcut (needed for the coexisting float window)
+            TextButton(onClick = {
+                context.startActivity(
+                    Intent(
+                        Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
+                        Uri.parse("package:${context.packageName}")
+                    )
+                )
+            }) {
+                Text("Grant \"Display over other apps\" (for floating window)",
+                    color = BlueLight, fontFamily = GoogleSans)
             }
 
             Button(

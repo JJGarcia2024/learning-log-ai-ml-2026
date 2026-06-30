@@ -9,6 +9,11 @@
     <!-- Read a user-selected wallpaper image (optional) -->
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
 
+    <!-- Floating overlay that coexists with other apps' Picture-in-Picture -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -28,6 +33,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Floating overlay window (coexists with other PiP windows) -->
+        <service
+            android:name=".FloatingTimerService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="Draggable sleep-timer countdown overlay window" />
+        </service>
 
         <!-- Fires at 9 PM to bring the timer to the foreground -->
         <receiver
