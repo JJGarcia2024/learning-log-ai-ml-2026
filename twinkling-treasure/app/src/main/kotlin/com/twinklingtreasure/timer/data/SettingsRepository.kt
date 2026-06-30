@@ -27,6 +27,9 @@ class SettingsRepository(private val context: Context) {
         private val KEY_MIN_EYEREST1   = intPreferencesKey("min_eyerest1")
         private val KEY_MIN_WORK       = intPreferencesKey("min_work")
         private val KEY_MIN_EYEREST2   = intPreferencesKey("min_eyerest2")
+        private val KEY_AUTOSTART_ON   = booleanPreferencesKey("autostart_on")
+        private val KEY_AUTOSTART_HOUR = intPreferencesKey("autostart_hour")
+        private val KEY_AUTOSTART_MIN  = intPreferencesKey("autostart_min")
     }
 
     val settings: Flow<AppSettings> = context.dataStore.data.map { p ->
@@ -41,6 +44,9 @@ class SettingsRepository(private val context: Context) {
             eyeRest1Minutes   = p[KEY_MIN_EYEREST1]   ?: 5,
             workMinutes       = p[KEY_MIN_WORK]       ?: 60,
             eyeRest2Minutes   = p[KEY_MIN_EYEREST2]   ?: 5,
+            autoStartEnabled  = p[KEY_AUTOSTART_ON]   ?: false,
+            autoStartHour     = p[KEY_AUTOSTART_HOUR] ?: 6,
+            autoStartMinute   = p[KEY_AUTOSTART_MIN]  ?: 10,
         )
     }
 
@@ -72,6 +78,16 @@ class SettingsRepository(private val context: Context) {
                 2 -> prefs[KEY_MIN_WORK]        = clamped
                 3 -> prefs[KEY_MIN_EYEREST2]    = clamped
             }
+        }
+    }
+
+    suspend fun setAutoStartEnabled(enabled: Boolean) =
+        context.dataStore.edit { it[KEY_AUTOSTART_ON] = enabled }
+
+    suspend fun setAutoStartTime(hour: Int, minute: Int) {
+        context.dataStore.edit {
+            it[KEY_AUTOSTART_HOUR] = hour.coerceIn(0, 23)
+            it[KEY_AUTOSTART_MIN]  = minute.coerceIn(0, 59)
         }
     }
 }

@@ -5,23 +5,35 @@ import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.os.Build
+import com.twinklingtreasure.timer.data.SettingsRepository
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.runBlocking
 import java.util.Calendar
 
-/** Schedules a daily exact alarm that opens the app in PiP and starts the cycle. */
+/**
+ * Schedules a daily exact alarm that starts the cycle as a floating pill (no PiP, no app UI).
+ * The trigger time and on/off state come from the user's saved settings.
+ */
 object AlarmScheduler {
 
-    const val HOUR   = 6
-    const val MINUTE = 10
-
+    /** Reads settings and (re)arms or cancels the daily alarm accordingly. */
     fun scheduleDaily(context: Context) {
         val am = context.getSystemService(Context.ALARM_SERVICE) as AlarmManager
+        val settings = runBlocking { SettingsRepository(context).settings.first() }
+
+        // Auto-start disabled → ensure nothing is pending and bail.
+        if (!settings.autoStartEnabled) {
+            am.cancel(alarmPendingIntent(context))
+            return
+        }
 
         // On Android 12+ exact alarms may require permission; bail quietly if not allowed.
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S && !am.canScheduleExactAlarms()) {
             return
         }
 
-        val triggerAt = nextTriggerMillis()
+        val triggerAt = nextTriggerMillis(settings.autoStartHour, settings.autoStartMinute)
+        // showIntent is only what opens when the user taps the status-bar alarm chip.
         val showIntent = PendingIntent.getActivity(
             context, 0,
             Intent(context, com.twinklingtreasure.timer.MainActivity::class.java),
@@ -43,11 +55,11 @@ object AlarmScheduler {
             PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE,
         )
 
-    private fun nextTriggerMillis(): Long {
+    private fun nextTriggerMillis(hour: Int, minute: Int): Long {
         val now = Calendar.getInstance()
         val next = Calendar.getInstance().apply {
-            set(Calendar.HOUR_OF_DAY, HOUR)
-            set(Calendar.MINUTE, MINUTE)
+            set(Calendar.HOUR_OF_DAY, hour)
+            set(Calendar.MINUTE, minute)
             set(Calendar.SECOND, 0)
             set(Calendar.MILLISECOND, 0)
         }

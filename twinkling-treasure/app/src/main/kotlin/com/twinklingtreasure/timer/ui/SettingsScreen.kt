@@ -24,9 +24,11 @@ import androidx.compose.material.icons.rounded.Notifications
 import androidx.compose.material.icons.rounded.PhotoLibrary
 import androidx.compose.material.icons.rounded.PlayArrow
 import androidx.compose.material.icons.rounded.Remove
+import androidx.compose.material.icons.rounded.Schedule
 import androidx.compose.material.icons.rounded.Vibration
 import androidx.compose.material.icons.rounded.VolumeOff
 import androidx.compose.material.icons.rounded.Wallpaper
+import androidx.compose.material3.BasicAlertDialog
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FilledIconButton
 import androidx.compose.material3.HorizontalDivider
@@ -41,9 +43,15 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
+import androidx.compose.material3.TimePicker
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
+import androidx.compose.material3.rememberTimePickerState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
@@ -66,7 +74,10 @@ fun SettingsScreen(
     onRemoveWallpaper: () -> Unit,
     onSetWallpaperOpacity: (Float) -> Unit,
     onSetPhaseMinutes: (phaseIndex: Int, minutes: Int) -> Unit,
+    onSetAutoStartEnabled: (Boolean) -> Unit,
+    onSetAutoStartTime: (hour: Int, minute: Int) -> Unit,
 ) {
+    var showTimePicker by remember { mutableStateOf(false) }
     Scaffold(
         topBar = {
             TopAppBar(
@@ -114,6 +125,46 @@ fun SettingsScreen(
                         onDecrement = { onSetPhaseMinutes(index, (minutes - 5).coerceAtLeast(5)) },
                         onIncrement = { onSetPhaseMinutes(index, (minutes + 5).coerceAtMost(180)) },
                     )
+                }
+            }
+
+            // ── Daily Auto-Start ──────────────────────────────────
+            SettingsSection(title = "Daily Auto-Start") {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    modifier = Modifier.fillMaxWidth(),
+                ) {
+                    Icon(
+                        Icons.Rounded.Schedule,
+                        contentDescription = null,
+                        tint     = MaterialTheme.colorScheme.secondary,
+                        modifier = Modifier.size(20.dp),
+                    )
+                    Spacer(Modifier.width(12.dp))
+                    Text(
+                        "Start automatically each day",
+                        style    = MaterialTheme.typography.bodyMedium,
+                        modifier = Modifier.weight(1f),
+                    )
+                    Switch(checked = settings.autoStartEnabled, onCheckedChange = onSetAutoStartEnabled)
+                }
+
+                if (settings.autoStartEnabled) {
+                    Spacer(Modifier.height(6.dp))
+                    Text(
+                        "At this time the cycle begins on its own as the floating pill — no Picture-in-Picture, the app stays closed.",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                    Spacer(Modifier.height(10.dp))
+                    OutlinedButton(
+                        onClick  = { showTimePicker = true },
+                        modifier = Modifier.fillMaxWidth(),
+                    ) {
+                        Icon(Icons.Rounded.Schedule, null, Modifier.size(18.dp))
+                        Spacer(Modifier.width(8.dp))
+                        Text("Start time:  ${formatHourMinute(settings.autoStartHour, settings.autoStartMinute)}")
+                    }
                 }
             }
 
@@ -276,7 +327,66 @@ fun SettingsScreen(
                 }
             }
         }
+
+        if (showTimePicker) {
+            TimePickerDialog(
+                initialHour   = settings.autoStartHour,
+                initialMinute = settings.autoStartMinute,
+                onConfirm     = { h, m -> onSetAutoStartTime(h, m); showTimePicker = false },
+                onDismiss     = { showTimePicker = false },
+            )
+        }
     }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun TimePickerDialog(
+    initialHour: Int,
+    initialMinute: Int,
+    onConfirm: (hour: Int, minute: Int) -> Unit,
+    onDismiss: () -> Unit,
+) {
+    val state = rememberTimePickerState(
+        initialHour   = initialHour,
+        initialMinute = initialMinute,
+        is24Hour      = false,
+    )
+    BasicAlertDialog(onDismissRequest = onDismiss) {
+        Surface(
+            shape          = MaterialTheme.shapes.extraLarge,
+            tonalElevation = 6.dp,
+            color          = MaterialTheme.colorScheme.surface,
+        ) {
+            Column(modifier = Modifier.padding(20.dp)) {
+                Text(
+                    "Auto-start time",
+                    style    = MaterialTheme.typography.titleLarge,
+                    modifier = Modifier.padding(bottom = 16.dp),
+                )
+                TimePicker(state = state)
+                Row(
+                    modifier              = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.End,
+                ) {
+                    TextButton(onClick = onDismiss) { Text("Cancel") }
+                    Spacer(Modifier.width(8.dp))
+                    TextButton(onClick = { onConfirm(state.hour, state.minute) }) { Text("Set") }
+                }
+            }
+        }
+    }
+}
+
+/** Formats a 24-hour time as a friendly 12-hour string, e.g. 6:10 → "6:10 AM". */
+private fun formatHourMinute(hour: Int, minute: Int): String {
+    val period = if (hour < 12) "AM" else "PM"
+    val h12 = when {
+        hour == 0  -> 12
+        hour > 12  -> hour - 12
+        else       -> hour
+    }
+    return "%d:%02d %s".format(h12, minute, period)
 }
 
 @Composable

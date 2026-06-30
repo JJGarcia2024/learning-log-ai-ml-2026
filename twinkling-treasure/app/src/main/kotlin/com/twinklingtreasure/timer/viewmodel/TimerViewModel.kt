@@ -12,6 +12,7 @@ import android.net.Uri
 import android.os.IBinder
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
+import com.twinklingtreasure.timer.alarm.AlarmScheduler
 import com.twinklingtreasure.timer.data.AppSettings
 import com.twinklingtreasure.timer.data.SettingsRepository
 import com.twinklingtreasure.timer.data.TimerCycle
@@ -24,8 +25,11 @@ import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 class TimerViewModel(application: Application) : AndroidViewModel(application) {
 
@@ -47,7 +51,20 @@ class TimerViewModel(application: Application) : AndroidViewModel(application) {
 
     private var service: TimerService? = null
     private var isBound = false
-    private var pendingAutoStart = false
+
+    init {
+        // Keep the daily auto-start alarm in sync with settings.
+        // Fires once when settings first load (re-arming after launch/reboot) and again
+        // whenever the user toggles auto-start or changes the time.
+        viewModelScope.launch {
+            settingsRepo.settings
+                .map { Triple(it.autoStartEnabled, it.autoStartHour, it.autoStartMinute) }
+                .distinctUntilChanged()
+                .collect {
+                    withContext(Dispatchers.IO) { AlarmScheduler.scheduleDaily(getApplication()) }
+                }
+        }
+    }
 
     private val connection = object : ServiceConnection {
         override fun onServiceConnected(name: ComponentName?, binder: IBinder?) {
@@ -56,11 +73,6 @@ class TimerViewModel(application: Application) : AndroidViewModel(application) {
             isBound = true
             viewModelScope.launch {
                 svc.timerState.collect { _uiState.value = it }
-            }
-            if (pendingAutoStart) {
-                pendingAutoStart = false
-                svc.reset()
-                svc.start()
             }
         }
         override fun onServiceDisconnected(name: ComponentName?) {
@@ -84,17 +96,6 @@ class TimerViewModel(application: Application) : AndroidViewModel(application) {
 
     fun setAppForeground(value: Boolean) { service?.setAppForeground(value) }
 
-    /** Restart the cycle from the top. If the service isn't bound yet, defer until it is. */
-    fun autoStartCycle() {
-        val svc = service
-        if (svc != null) {
-            svc.reset()
-            svc.start()
-        } else {
-            pendingAutoStart = true
-        }
-    }
-
     fun startTimer() = service?.start()
     fun pauseTimer() = service?.pause()
     fun skipPhase()  = service?.skipToNext()
@@ -117,6 +118,12 @@ class TimerViewModel(application: Application) : AndroidViewModel(application) {
 
     fun setPhaseMinutes(phaseIndex: Int, minutes: Int) =
         viewModelScope.launch { settingsRepo.setPhaseMinutes(phaseIndex, minutes) }
+
+    fun setAutoStartEnabled(enabled: Boolean) =
+        viewModelScope.launch { settingsRepo.setAutoStartEnabled(enabled) }
+
+    fun setAutoStartTime(hour: Int, minute: Int) =
+        viewModelScope.launch { settingsRepo.setAutoStartTime(hour, minute) }
 
     fun testAlarm() {
         viewModelScope.launch(Dispatchers.Main) {

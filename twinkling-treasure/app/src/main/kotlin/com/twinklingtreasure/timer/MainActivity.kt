@@ -15,7 +15,6 @@ import android.os.Bundle
 import android.provider.OpenableColumns
 import android.provider.Settings
 import android.util.Rational
-import com.twinklingtreasure.timer.alarm.AlarmScheduler
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -78,7 +77,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    private var pendingAutoStart = false
     private var enteringPip = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -87,13 +85,9 @@ class MainActivity : ComponentActivity() {
         requestNotificationPermission()
         ensureExactAlarmPermission()
         ensureOverlayPermission()
-        AlarmScheduler.scheduleDaily(this)
         startTimerService()
         viewModel.bindService(this)
-
-        if (intent?.getBooleanExtra(EXTRA_AUTO_START, false) == true) {
-            pendingAutoStart = true
-        }
+        // The daily auto-start alarm is (re)armed by the ViewModel as settings load/change.
 
         setContent {
             val uiState          by viewModel.uiState.collectAsStateWithLifecycle()
@@ -120,6 +114,8 @@ class MainActivity : ComponentActivity() {
                         onRemoveWallpaper     = { viewModel.setWallpaper("") },
                         onSetWallpaperOpacity = viewModel::setWallpaperOpacity,
                         onSetPhaseMinutes     = viewModel::setPhaseMinutes,
+                        onSetAutoStartEnabled = viewModel::setAutoStartEnabled,
+                        onSetAutoStartTime    = viewModel::setAutoStartTime,
                     )
                 } else {
                     MainScreen(
@@ -169,20 +165,12 @@ class MainActivity : ComponentActivity() {
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
         setIntent(intent)
-        if (intent.getBooleanExtra(EXTRA_AUTO_START, false)) {
-            pendingAutoStart = true
-        }
     }
 
     override fun onResume() {
         super.onResume()
         if (!isInPictureInPictureMode) viewModel.setInPipMode(false)
         viewModel.setAppForeground(true)
-        if (pendingAutoStart) {
-            pendingAutoStart = false
-            viewModel.autoStartCycle()
-            enterPipMode()
-        }
     }
 
     override fun onPause() {
@@ -254,9 +242,5 @@ class MainActivity : ComponentActivity() {
                 notificationPermission.launch(Manifest.permission.POST_NOTIFICATIONS)
             }
         }
-    }
-
-    companion object {
-        const val EXTRA_AUTO_START = "com.twinklingtreasure.EXTRA_AUTO_START"
     }
 }

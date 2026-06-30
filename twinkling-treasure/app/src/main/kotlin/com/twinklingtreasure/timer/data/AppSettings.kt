@@ -12,4 +12,8 @@ data class AppSettings(
     val eyeRest1Minutes: Int    = 5,
     val workMinutes: Int        = 60,
     val eyeRest2Minutes: Int    = 5,
+    // Daily auto-start: when enabled, the cycle starts as a pill at this time each day
+    val autoStartEnabled: Boolean = false,
+    val autoStartHour: Int        = 6,   // 0..23
+    val autoStartMinute: Int      = 10,  // 0..59
 )

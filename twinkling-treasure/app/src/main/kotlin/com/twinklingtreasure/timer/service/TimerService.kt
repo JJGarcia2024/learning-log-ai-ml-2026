@@ -46,6 +46,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
@@ -107,7 +108,10 @@ class TimerService : Service() {
     }
 
     private fun scheduleRestart() {
-        val pi = PendingIntent.getService(
+        // getForegroundService() (NOT getService) — starting a plain service from the
+        // background is blocked on Android 8+. Foreground-service start is allowed because
+        // a firing alarm grants a short power-allowlist window.
+        val pi = PendingIntent.getForegroundService(
             this, REQUEST_RESTART,
             Intent(this, TimerService::class.java),
             PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE,
@@ -126,10 +130,24 @@ class TimerService : Service() {
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         when (intent?.action) {
-            ACTION_PAUSE -> pause()
-            ACTION_SKIP  -> skipToNext()
+            ACTION_PAUSE      -> pause()
+            ACTION_SKIP       -> skipToNext()
+            ACTION_AUTO_START -> autoStart()
         }
         return START_STICKY
+    }
+
+    /**
+     * Triggered by the daily alarm. Starts a fresh cycle WITHOUT bringing the app to the
+     * foreground, so the Live-Alert pill appears (no Picture-in-Picture, no full-screen UI).
+     */
+    private fun autoStart() {
+        scope.launch {
+            // Make sure durations reflect the latest saved settings before we reset.
+            currentSettings = settingsRepo.settings.first()
+            reset()
+            start()
+        }
     }
 
     override fun onDestroy() {
@@ -465,8 +483,9 @@ class TimerService : Service() {
     companion object {
         const val CHANNEL_ID      = "twinkling_timer_channel"
         const val NOTIFICATION_ID = 1001
-        const val ACTION_PAUSE    = "com.twinklingtreasure.ACTION_PAUSE"
-        const val ACTION_SKIP     = "com.twinklingtreasure.ACTION_SKIP"
+        const val ACTION_PAUSE      = "com.twinklingtreasure.ACTION_PAUSE"
+        const val ACTION_SKIP       = "com.twinklingtreasure.ACTION_SKIP"
+        const val ACTION_AUTO_START = "com.twinklingtreasure.ACTION_AUTO_START"
         private const val REQUEST_RESTART = 9001
     }
 }
