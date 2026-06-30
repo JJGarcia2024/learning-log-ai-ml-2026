@@ -1,34 +1,45 @@
 package com.twinklingtreasure.timer.ui
 
+import android.speech.tts.Voice
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.pager.HorizontalPager
+import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.rounded.ArrowBack
 import androidx.compose.material.icons.rounded.Add
 import androidx.compose.material.icons.rounded.Delete
-import androidx.compose.material.icons.rounded.LibraryMusic
-import androidx.compose.material.icons.rounded.MusicNote
+import androidx.compose.material.icons.rounded.GraphicEq
+import androidx.compose.material.icons.rounded.Language
 import androidx.compose.material.icons.rounded.Nightlight
-import androidx.compose.material.icons.rounded.Notifications
 import androidx.compose.material.icons.rounded.PhotoLibrary
 import androidx.compose.material.icons.rounded.PlayArrow
+import androidx.compose.material.icons.rounded.RecordVoiceOver
 import androidx.compose.material.icons.rounded.Remove
 import androidx.compose.material.icons.rounded.Schedule
+import androidx.compose.material.icons.rounded.Speed
 import androidx.compose.material.icons.rounded.Vibration
-import androidx.compose.material.icons.rounded.VolumeOff
 import androidx.compose.material.icons.rounded.Wallpaper
 import androidx.compose.material3.BasicAlertDialog
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FilledIconButton
 import androidx.compose.material3.HorizontalDivider
@@ -37,6 +48,8 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.IconButtonDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Slider
 import androidx.compose.material3.Surface
@@ -48,32 +61,39 @@ import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.material3.rememberTimePickerState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.key
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.twinklingtreasure.timer.data.AppSettings
+import com.twinklingtreasure.timer.util.VoiceNames
+import java.util.Locale
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SettingsScreen(
     settings: AppSettings,
+    availableVoices: List<Voice>,
     onBack: () -> Unit,
-    onPickSystemRingtone: () -> Unit,
-    onPickCustomAudio: () -> Unit,
-    onTestAlarm: () -> Unit,
-    onClearAlarm: () -> Unit,
     onSetVibrate: (Boolean) -> Unit,
     onSetForceDark: (Boolean) -> Unit,
     onPickWallpaper: () -> Unit,
     onRemoveWallpaper: () -> Unit,
     onSetWallpaperOpacity: (Float) -> Unit,
     onSetPhaseMinutes: (phaseIndex: Int, minutes: Int) -> Unit,
+    onSetPhaseReminderText: (phaseIndex: Int, text: String) -> Unit,
+    onSetTtsVoice: (voiceName: String) -> Unit,
+    onSetTtsLanguage: (languageTag: String) -> Unit,
+    onSetTtsPace: (pace: Float) -> Unit,
+    onPreviewText: (text: String) -> Unit,
     onSetAutoStartEnabled: (Boolean) -> Unit,
     onSetAutoStartTime: (hour: Int, minute: Int) -> Unit,
 ) {
@@ -168,53 +188,149 @@ fun SettingsScreen(
                 }
             }
 
-            // ── Alarm Sound ───────────────────────────────────────
-            SettingsSection(title = "Alarm Sound") {
-                Row(
-                    verticalAlignment = Alignment.CenterVertically,
-                    modifier = Modifier.fillMaxWidth(),
-                ) {
-                    Icon(
-                        Icons.Rounded.Notifications,
-                        contentDescription = null,
-                        tint     = MaterialTheme.colorScheme.secondary,
-                        modifier = Modifier.size(20.dp),
+            // ── Phase Reminders ───────────────────────────────────
+            SettingsSection(title = "Phase Reminders") {
+                Text(
+                    "Spoken aloud when each phase ends.",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+                Spacer(Modifier.height(12.dp))
+                val reminderPhases = listOf(
+                    Triple("📚", "Upskilling",  settings.upskillingReminder),
+                    Triple("😌", "Eye Rest 1",  settings.eyeRest1Reminder),
+                    Triple("⚡", "Work",         settings.workReminder),
+                    Triple("😌", "Eye Rest 2",  settings.eyeRest2Reminder),
+                )
+                reminderPhases.forEachIndexed { index, (emoji, name, text) ->
+                    if (index > 0) HorizontalDivider(modifier = Modifier.padding(vertical = 10.dp))
+                    PhaseReminderRow(
+                        emoji     = emoji,
+                        name      = name,
+                        text      = text,
+                        onSave    = { newText -> onSetPhaseReminderText(index, newText) },
+                        onPreview = { draftText -> onPreviewText(draftText) },
                     )
-                    Spacer(Modifier.width(12.dp))
+                }
+            }
+
+            // ── Reminder Voice ────────────────────────────────────
+            SettingsSection(title = "Reminder Voice") {
+                if (availableVoices.isEmpty()) {
                     Text(
-                        text     = if (settings.alarmSoundUri.isEmpty()) "No alarm sound"
-                                   else settings.alarmSoundName,
-                        style    = MaterialTheme.typography.bodyMedium,
-                        modifier = Modifier.weight(1f),
+                        "Loading voices…",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
-                    if (settings.alarmSoundUri.isNotEmpty()) {
-                        IconButton(onClick = onTestAlarm, modifier = Modifier.size(36.dp)) {
-                            Icon(
-                                Icons.Rounded.PlayArrow,
-                                contentDescription = "Test alarm",
-                                tint = MaterialTheme.colorScheme.secondary,
-                            )
+                } else {
+                    var showLanguageDialog by remember { mutableStateOf(false) }
+                    val currentLocale = if (settings.ttsLanguageTag.isNotEmpty())
+                        Locale.forLanguageTag(settings.ttsLanguageTag) else Locale.getDefault()
+                    val availableLocales = remember(availableVoices) {
+                        availableVoices.map { it.locale }.distinctBy { it.toLanguageTag() }
+                            .sortedBy { it.getDisplayName(Locale.getDefault()) }
+                    }
+                    // Filter the carousel to the selected language; fall back to primary-language
+                    // match, then to all voices, so the carousel is never left empty.
+                    val filteredVoices = remember(availableVoices, currentLocale) {
+                        val exact = availableVoices.filter {
+                            it.locale.toLanguageTag() == currentLocale.toLanguageTag()
+                        }
+                        exact.ifEmpty {
+                            availableVoices.filter { it.locale.language == currentLocale.language }
+                                .ifEmpty { availableVoices }
                         }
                     }
-                }
 
-                Spacer(Modifier.height(10.dp))
+                    // Keyed on language so the pager fully resets (no stale out-of-bounds page)
+                    // when switching to a language with fewer voices.
+                    key(currentLocale.toLanguageTag()) {
+                        VoiceCarousel(
+                            voices            = filteredVoices,
+                            selectedVoiceName = settings.ttsVoiceName,
+                            onSelectVoice     = onSetTtsVoice,
+                        )
+                    }
 
-                OutlinedButton(onClick = onPickSystemRingtone, modifier = Modifier.fillMaxWidth()) {
-                    Icon(Icons.Rounded.MusicNote, null, Modifier.size(18.dp))
-                    Spacer(Modifier.width(8.dp))
-                    Text("Choose system ringtone")
-                }
-                OutlinedButton(onClick = onPickCustomAudio, modifier = Modifier.fillMaxWidth()) {
-                    Icon(Icons.Rounded.LibraryMusic, null, Modifier.size(18.dp))
-                    Spacer(Modifier.width(8.dp))
-                    Text("Choose custom MP3 from storage")
-                }
-                if (settings.alarmSoundUri.isNotEmpty()) {
-                    TextButton(onClick = onClearAlarm, modifier = Modifier.fillMaxWidth()) {
-                        Icon(Icons.Rounded.VolumeOff, null, Modifier.size(18.dp))
+                    Spacer(Modifier.height(16.dp))
+                    HorizontalDivider()
+                    Spacer(Modifier.height(16.dp))
+
+                    Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth()) {
+                        Icon(
+                            Icons.Rounded.Language,
+                            contentDescription = null,
+                            tint     = MaterialTheme.colorScheme.secondary,
+                            modifier = Modifier.size(20.dp),
+                        )
+                        Spacer(Modifier.width(12.dp))
+                        Text(
+                            "Language",
+                            style    = MaterialTheme.typography.bodyMedium,
+                            modifier = Modifier.weight(1f),
+                        )
+                        OutlinedButton(onClick = { showLanguageDialog = true }) {
+                            Text(currentLocale.getDisplayName(Locale.getDefault()))
+                        }
+                    }
+
+                    if (showLanguageDialog) {
+                        LanguagePickerDialog(
+                            locales        = availableLocales,
+                            selectedLocale = currentLocale,
+                            onSelect       = { tag -> onSetTtsLanguage(tag); showLanguageDialog = false },
+                            onDismiss      = { showLanguageDialog = false },
+                        )
+                    }
+
+                    Spacer(Modifier.height(16.dp))
+
+                    Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth()) {
+                        Icon(
+                            Icons.Rounded.Speed,
+                            contentDescription = null,
+                            tint     = MaterialTheme.colorScheme.secondary,
+                            modifier = Modifier.size(20.dp),
+                        )
+                        Spacer(Modifier.width(12.dp))
+                        Text(
+                            "Pace",
+                            style    = MaterialTheme.typography.bodyMedium,
+                            modifier = Modifier.weight(1f),
+                        )
+                        Text(
+                            "%.1fx".format(settings.ttsPace),
+                            style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Bold),
+                            color = MaterialTheme.colorScheme.secondary,
+                        )
+                    }
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Text(
+                            "Slow",
+                            style = MaterialTheme.typography.labelSmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                        Slider(
+                            value         = settings.ttsPace,
+                            onValueChange = onSetTtsPace,
+                            valueRange    = 0.5f..2.0f,
+                            modifier      = Modifier.weight(1f).padding(horizontal = 8.dp),
+                        )
+                        Text(
+                            "Fast",
+                            style = MaterialTheme.typography.labelSmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                    }
+
+                    Spacer(Modifier.height(12.dp))
+                    OutlinedButton(
+                        onClick  = { onPreviewText("This is how your reminders will sound.") },
+                        modifier = Modifier.fillMaxWidth(),
+                    ) {
+                        Icon(Icons.Rounded.GraphicEq, null, Modifier.size(18.dp))
                         Spacer(Modifier.width(8.dp))
-                        Text("Remove alarm sound", color = MaterialTheme.colorScheme.error)
+                        Text("Preview voice")
                     }
                 }
             }
@@ -378,6 +494,159 @@ private fun TimePickerDialog(
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun LanguagePickerDialog(
+    locales: List<Locale>,
+    selectedLocale: Locale,
+    onSelect: (languageTag: String) -> Unit,
+    onDismiss: () -> Unit,
+) {
+    BasicAlertDialog(onDismissRequest = onDismiss) {
+        Surface(
+            shape          = MaterialTheme.shapes.extraLarge,
+            tonalElevation = 6.dp,
+            color          = MaterialTheme.colorScheme.surface,
+        ) {
+            Column(modifier = Modifier.padding(20.dp)) {
+                Text(
+                    "Choose language",
+                    style    = MaterialTheme.typography.titleLarge,
+                    modifier = Modifier.padding(bottom = 12.dp),
+                )
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .heightIn(max = 320.dp)
+                        .verticalScroll(rememberScrollState()),
+                ) {
+                    locales.forEach { locale ->
+                        val isSelected = locale.toLanguageTag() == selectedLocale.toLanguageTag()
+                        Row(
+                            verticalAlignment = Alignment.CenterVertically,
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .clickable { onSelect(locale.toLanguageTag()) }
+                                .padding(vertical = 12.dp),
+                        ) {
+                            Text(
+                                text     = locale.getDisplayName(Locale.getDefault()),
+                                style    = MaterialTheme.typography.bodyLarge,
+                                color    = if (isSelected) MaterialTheme.colorScheme.secondary
+                                           else MaterialTheme.colorScheme.onSurface,
+                                modifier = Modifier.weight(1f),
+                            )
+                            if (isSelected) {
+                                Icon(
+                                    Icons.Rounded.RecordVoiceOver,
+                                    contentDescription = "Selected",
+                                    tint = MaterialTheme.colorScheme.secondary,
+                                    modifier = Modifier.size(20.dp),
+                                )
+                            }
+                        }
+                    }
+                }
+                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                    TextButton(onClick = onDismiss) { Text("Cancel") }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun VoiceCarousel(
+    voices: List<Voice>,
+    selectedVoiceName: String,
+    onSelectVoice: (voiceName: String) -> Unit,
+) {
+    val initialPage = remember(voices, selectedVoiceName) {
+        voices.indexOfFirst { it.name == selectedVoiceName }.coerceAtLeast(0)
+    }
+    val pagerState = rememberPagerState(initialPage = initialPage) { voices.size }
+
+    LaunchedEffect(pagerState.currentPage, voices) {
+        val voice = voices.getOrNull(pagerState.currentPage) ?: return@LaunchedEffect
+        if (voice.name != selectedVoiceName) onSelectVoice(voice.name)
+    }
+
+    HorizontalPager(
+        state          = pagerState,
+        modifier       = Modifier.fillMaxWidth().height(140.dp),
+        pageSpacing    = 12.dp,
+        contentPadding = PaddingValues(horizontal = 32.dp),
+    ) { page ->
+        val voice = voices[page]
+        VoiceCard(
+            voice    = voice,
+            selected = voice.name == selectedVoiceName,
+        )
+    }
+
+    Spacer(Modifier.height(10.dp))
+
+    Row(
+        horizontalArrangement = Arrangement.Center,
+        modifier = Modifier.fillMaxWidth(),
+    ) {
+        voices.forEachIndexed { index, _ ->
+            val isCurrent = index == pagerState.currentPage
+            Spacer(
+                modifier = Modifier
+                    .padding(horizontal = 3.dp)
+                    .size(if (isCurrent) 8.dp else 6.dp)
+                    .background(
+                        color = if (isCurrent) MaterialTheme.colorScheme.secondary
+                                else MaterialTheme.colorScheme.outline,
+                        shape = CircleShape,
+                    ),
+            )
+        }
+    }
+}
+
+@Composable
+private fun VoiceCard(voice: Voice, selected: Boolean) {
+    Card(
+        modifier = Modifier.fillMaxWidth().fillMaxHeight(),
+        shape    = MaterialTheme.shapes.large,
+        colors   = CardDefaults.cardColors(
+            containerColor = if (selected) MaterialTheme.colorScheme.secondaryContainer
+                             else MaterialTheme.colorScheme.surfaceVariant,
+        ),
+        elevation = CardDefaults.cardElevation(defaultElevation = if (selected) 4.dp else 0.dp),
+    ) {
+        Column(
+            modifier = Modifier.fillMaxSize().padding(16.dp),
+            verticalArrangement = Arrangement.Center,
+            horizontalAlignment = Alignment.CenterHorizontally,
+        ) {
+            Icon(
+                Icons.Rounded.RecordVoiceOver,
+                contentDescription = null,
+                tint     = if (selected) MaterialTheme.colorScheme.onSecondaryContainer
+                           else MaterialTheme.colorScheme.onSurfaceVariant,
+                modifier = Modifier.size(28.dp),
+            )
+            Spacer(Modifier.height(8.dp))
+            Text(
+                text  = VoiceNames.friendlyName(voice),
+                style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
+                color = if (selected) MaterialTheme.colorScheme.onSecondaryContainer
+                        else MaterialTheme.colorScheme.onSurface,
+            )
+            Spacer(Modifier.height(4.dp))
+            Text(
+                text      = VoiceNames.subtitle(voice),
+                style     = MaterialTheme.typography.bodySmall,
+                color     = MaterialTheme.colorScheme.onSurfaceVariant,
+                textAlign = TextAlign.Center,
+            )
+        }
+    }
+}
+
 /** Formats a 24-hour time as a friendly 12-hour string, e.g. 6:10 → "6:10 AM". */
 private fun formatHourMinute(hour: Int, minute: Int): String {
     val period = if (hour < 12) "AM" else "PM"
@@ -424,7 +693,7 @@ private fun PhaseDurationRow(
             style     = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Bold),
             color     = MaterialTheme.colorScheme.secondary,
             modifier  = Modifier.width(62.dp),
-            textAlign = androidx.compose.ui.text.style.TextAlign.Center,
+            textAlign = TextAlign.Center,
         )
         FilledIconButton(
             onClick  = onIncrement,
@@ -436,6 +705,62 @@ private fun PhaseDurationRow(
             ),
         ) {
             Icon(Icons.Rounded.Add, contentDescription = "Increase", modifier = Modifier.size(18.dp))
+        }
+    }
+}
+
+@Composable
+private fun PhaseReminderRow(
+    emoji: String,
+    name: String,
+    text: String,
+    onSave: (String) -> Unit,
+    onPreview: (String) -> Unit,
+) {
+    var draft by remember(text) { mutableStateOf(text) }
+    Column(modifier = Modifier.fillMaxWidth()) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text(text = emoji, style = MaterialTheme.typography.titleMedium)
+            Spacer(Modifier.width(10.dp))
+            Text(
+                text     = name,
+                style    = MaterialTheme.typography.bodyMedium,
+                modifier = Modifier.weight(1f),
+            )
+            IconButton(
+                onClick  = { onPreview(draft) },
+                modifier = Modifier.size(36.dp),
+                enabled  = draft.isNotBlank(),
+            ) {
+                Icon(
+                    Icons.Rounded.PlayArrow,
+                    contentDescription = "Preview $name reminder",
+                    tint = MaterialTheme.colorScheme.secondary,
+                )
+            }
+        }
+        Spacer(Modifier.height(8.dp))
+        OutlinedTextField(
+            value         = draft,
+            onValueChange = { draft = it },
+            modifier      = Modifier.fillMaxWidth(),
+            placeholder   = { Text("e.g. \"$name, let's go.\"") },
+            singleLine    = false,
+            maxLines      = 3,
+            textStyle     = MaterialTheme.typography.bodyMedium,
+            colors        = OutlinedTextFieldDefaults.colors(
+                focusedBorderColor   = MaterialTheme.colorScheme.secondary,
+                unfocusedBorderColor = MaterialTheme.colorScheme.outline,
+                cursorColor          = MaterialTheme.colorScheme.secondary,
+            ),
+        )
+        if (draft != text) {
+            Spacer(Modifier.height(6.dp))
+            Row(horizontalArrangement = Arrangement.End, modifier = Modifier.fillMaxWidth()) {
+                TextButton(onClick = { draft = text }) { Text("Cancel") }
+                Spacer(Modifier.width(4.dp))
+                TextButton(onClick = { onSave(draft) }) { Text("Save") }
+            }
         }
     }
 }

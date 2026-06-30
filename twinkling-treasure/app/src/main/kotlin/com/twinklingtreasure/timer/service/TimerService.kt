@@ -13,10 +13,6 @@ import android.graphics.Color
 import android.graphics.PixelFormat
 import android.graphics.Typeface
 import android.graphics.drawable.GradientDrawable
-import android.media.AudioAttributes
-import android.media.MediaPlayer
-import android.media.RingtoneManager
-import android.net.Uri
 import android.os.Binder
 import android.os.Build
 import android.os.IBinder
@@ -25,6 +21,8 @@ import android.os.VibrationEffect
 import android.os.Vibrator
 import android.os.VibratorManager
 import android.provider.Settings
+import android.speech.tts.TextToSpeech
+import android.speech.tts.Voice
 import android.view.Gravity
 import android.view.WindowManager
 import android.widget.LinearLayout
@@ -51,6 +49,7 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import java.util.Locale
 
 class TimerService : Service() {
 
@@ -67,7 +66,11 @@ class TimerService : Service() {
 
     private val settingsRepo by lazy { SettingsRepository(applicationContext) }
     private var currentSettings = AppSettings()
-    @Volatile private var mediaPlayer: MediaPlayer? = null
+
+    private var tts: TextToSpeech? = null
+    @Volatile private var isTtsReady = false
+    private val _availableVoices = MutableStateFlow<List<Voice>>(emptyList())
+    val availableVoices: StateFlow<List<Voice>> = _availableVoices.asStateFlow()
 
     // ── Overlay (Live Alert-style pill) ────────────────────────────
     private var wm: WindowManager? = null
@@ -88,7 +91,20 @@ class TimerService : Service() {
         } else {
             startForeground(NOTIFICATION_ID, buildNotification())
         }
-        scope.launch { settingsRepo.settings.collect { currentSettings = it } }
+        tts = TextToSpeech(applicationContext) { status ->
+            isTtsReady = status == TextToSpeech.SUCCESS
+            if (isTtsReady) {
+                _availableVoices.value = tts?.voices.orEmpty()
+                    .sortedWith(compareBy({ it.locale.toLanguageTag() }, { it.name }))
+                applyTtsSettings()
+            }
+        }
+        scope.launch {
+            settingsRepo.settings.collect {
+                currentSettings = it
+                if (isTtsReady) applyTtsSettings()
+            }
+        }
         restoreState()
     }
 
@@ -151,7 +167,9 @@ class TimerService : Service() {
     }
 
     override fun onDestroy() {
-        stopAlarm()
+        tts?.stop()
+        tts?.shutdown()
+        tts = null
         destroyOverlay()
         scope.cancel()
         super.onDestroy()
@@ -173,7 +191,7 @@ class TimerService : Service() {
 
     fun pause() {
         tickerJob?.cancel()
-        stopAlarm()
+        tts?.stop()
         _state.update { it.copy(isRunning = false) }
         scope.launch(Dispatchers.Main) { syncOverlay() }
         updateNotification()
@@ -182,7 +200,7 @@ class TimerService : Service() {
     fun skipToNext() {
         val wasRunning = _state.value.isRunning
         tickerJob?.cancel()
-        stopAlarm()
+        tts?.stop()
         val next = (_state.value.currentPhaseIndex + 1) % TimerCycle.phases.size
         _state.update {
             it.copy(
@@ -196,7 +214,7 @@ class TimerService : Service() {
 
     fun reset() {
         tickerJob?.cancel()
-        stopAlarm()
+        tts?.stop()
         _state.value = TimerState(secondsRemaining = durationFor(0))
         clearPersistedState()
         scope.launch(Dispatchers.Main) { syncOverlay() }
@@ -219,7 +237,7 @@ class TimerService : Service() {
         if (s.secondsRemaining > 0) {
             _state.update { it.copy(secondsRemaining = it.secondsRemaining - 1) }
         } else {
-            triggerPhaseEnd()
+            speakReminder(s.currentPhaseIndex)
             val next = (s.currentPhaseIndex + 1) % TimerCycle.phases.size
             _state.update {
                 it.copy(
@@ -278,10 +296,45 @@ class TimerService : Service() {
         else -> TimerCycle.phases[phaseIndex].durationSeconds
     }
 
-    private fun triggerPhaseEnd() {
+    private fun speakReminder(endedPhaseIndex: Int) {
         if (currentSettings.vibrateEnabled) triggerVibration()
-        val uri = currentSettings.alarmSoundUri
-        if (uri.isNotEmpty()) playAlarm(uri)
+        val text = reminderTextFor(endedPhaseIndex)
+        if (text.isNotBlank() && isTtsReady) {
+            tts?.speak(text, TextToSpeech.QUEUE_FLUSH, null, "phase_end_$endedPhaseIndex")
+        }
+    }
+
+    /** Returns the configured reminder sentence for a phase index, using current settings. */
+    private fun reminderTextFor(phaseIndex: Int): String = when (phaseIndex) {
+        0 -> currentSettings.upskillingReminder
+        1 -> currentSettings.eyeRest1Reminder
+        2 -> currentSettings.workReminder
+        3 -> currentSettings.eyeRest2Reminder
+        else -> ""
+    }
+
+    /** Re-applies the saved voice, language, and pace to the TTS engine. Safe to call
+     *  repeatedly; called once after TTS init succeeds and again every time settings change. */
+    private fun applyTtsSettings() {
+        val engine = tts ?: return
+        engine.setSpeechRate(currentSettings.ttsPace)
+
+        val voices = engine.voices.orEmpty()
+        val matched = currentSettings.ttsVoiceName.takeIf { it.isNotEmpty() }
+            ?.let { name -> voices.firstOrNull { it.name == name } }
+        when {
+            matched != null -> engine.voice = matched
+            currentSettings.ttsLanguageTag.isNotEmpty() ->
+                engine.language = Locale.forLanguageTag(currentSettings.ttsLanguageTag)
+            // else: leave the engine's current default voice/language untouched
+        }
+    }
+
+    /** Speaks arbitrary preview text immediately (Settings "preview voice" button and the
+     *  per-phase reminder preview icons). Interrupts any in-progress utterance. */
+    fun previewVoice(text: String) {
+        if (text.isBlank() || !isTtsReady) return
+        tts?.speak(text, TextToSpeech.QUEUE_FLUSH, null, "preview")
     }
 
     private fun triggerVibration() {
@@ -298,42 +351,6 @@ class TimerService : Service() {
             @Suppress("DEPRECATION")
             vibrator.vibrate(pattern, -1)
         }
-    }
-
-    private fun playAlarm(uriString: String) {
-        scope.launch(Dispatchers.Main) {
-            stopAlarm()
-            val uri = if (uriString == "default") {
-                RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM)
-                    ?: RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
-            } else {
-                Uri.parse(uriString)
-            }
-            val mp = MediaPlayer()
-            mp.setAudioAttributes(
-                AudioAttributes.Builder()
-                    .setUsage(AudioAttributes.USAGE_ALARM)
-                    .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
-                    .build()
-            )
-            try {
-                mp.setDataSource(applicationContext, uri)
-                mp.setOnPreparedListener { it.start() }
-                mp.setOnCompletionListener { it.release(); if (mediaPlayer === it) mediaPlayer = null }
-                mp.prepareAsync()
-                mediaPlayer = mp
-            } catch (_: Exception) {
-                mp.release()
-            }
-        }
-    }
-
-    private fun stopAlarm() {
-        mediaPlayer?.run {
-            try { if (isPlaying) stop() } catch (_: Exception) {}
-            release()
-        }
-        mediaPlayer = null
     }
 
     // ── Overlay helpers (must run on Main thread) ──────────────────

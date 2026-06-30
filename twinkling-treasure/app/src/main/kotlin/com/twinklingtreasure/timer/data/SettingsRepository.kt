@@ -17,8 +17,6 @@ private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(na
 class SettingsRepository(private val context: Context) {
 
     companion object {
-        private val KEY_ALARM_URI      = stringPreferencesKey("alarm_uri")
-        private val KEY_ALARM_NAME     = stringPreferencesKey("alarm_name")
         private val KEY_VIBRATE        = booleanPreferencesKey("vibrate")
         private val KEY_WALLPAPER      = stringPreferencesKey("wallpaper_uri")
         private val KEY_OPACITY        = floatPreferencesKey("wallpaper_opacity")
@@ -27,6 +25,13 @@ class SettingsRepository(private val context: Context) {
         private val KEY_MIN_EYEREST1   = intPreferencesKey("min_eyerest1")
         private val KEY_MIN_WORK       = intPreferencesKey("min_work")
         private val KEY_MIN_EYEREST2   = intPreferencesKey("min_eyerest2")
+        private val KEY_REMIND_UPSKILLING = stringPreferencesKey("remind_upskilling")
+        private val KEY_REMIND_EYEREST1   = stringPreferencesKey("remind_eyerest1")
+        private val KEY_REMIND_WORK       = stringPreferencesKey("remind_work")
+        private val KEY_REMIND_EYEREST2   = stringPreferencesKey("remind_eyerest2")
+        private val KEY_TTS_VOICE      = stringPreferencesKey("tts_voice_name")
+        private val KEY_TTS_LANGUAGE   = stringPreferencesKey("tts_language_tag")
+        private val KEY_TTS_PACE       = floatPreferencesKey("tts_pace")
         private val KEY_AUTOSTART_ON   = booleanPreferencesKey("autostart_on")
         private val KEY_AUTOSTART_HOUR = intPreferencesKey("autostart_hour")
         private val KEY_AUTOSTART_MIN  = intPreferencesKey("autostart_min")
@@ -34,8 +39,6 @@ class SettingsRepository(private val context: Context) {
 
     val settings: Flow<AppSettings> = context.dataStore.data.map { p ->
         AppSettings(
-            alarmSoundUri    = p[KEY_ALARM_URI]      ?: "default",
-            alarmSoundName   = p[KEY_ALARM_NAME]     ?: "Default alarm",
             vibrateEnabled   = p[KEY_VIBRATE]        ?: true,
             wallpaperUri     = p[KEY_WALLPAPER]      ?: "",
             wallpaperOpacity = p[KEY_OPACITY]        ?: 0.35f,
@@ -44,17 +47,17 @@ class SettingsRepository(private val context: Context) {
             eyeRest1Minutes   = p[KEY_MIN_EYEREST1]   ?: 5,
             workMinutes       = p[KEY_MIN_WORK]       ?: 60,
             eyeRest2Minutes   = p[KEY_MIN_EYEREST2]   ?: 5,
+            upskillingReminder = p[KEY_REMIND_UPSKILLING] ?: "Time to start upskilling.",
+            eyeRest1Reminder   = p[KEY_REMIND_EYEREST1]   ?: "Start resting your eyes now.",
+            workReminder       = p[KEY_REMIND_WORK]       ?: "Time to get to work.",
+            eyeRest2Reminder   = p[KEY_REMIND_EYEREST2]   ?: "Rest your eyes again before the next cycle.",
+            ttsVoiceName      = p[KEY_TTS_VOICE]      ?: "",
+            ttsLanguageTag    = p[KEY_TTS_LANGUAGE]   ?: "",
+            ttsPace           = p[KEY_TTS_PACE]       ?: 1.0f,
             autoStartEnabled  = p[KEY_AUTOSTART_ON]   ?: false,
             autoStartHour     = p[KEY_AUTOSTART_HOUR] ?: 6,
             autoStartMinute   = p[KEY_AUTOSTART_MIN]  ?: 10,
         )
-    }
-
-    suspend fun setAlarmSound(uri: String, name: String) {
-        context.dataStore.edit {
-            it[KEY_ALARM_URI]  = uri
-            it[KEY_ALARM_NAME] = name
-        }
     }
 
     suspend fun setVibrate(enabled: Boolean) =
@@ -80,6 +83,27 @@ class SettingsRepository(private val context: Context) {
             }
         }
     }
+
+    suspend fun setPhaseReminderText(phaseIndex: Int, text: String) {
+        val trimmed = text.trim()
+        context.dataStore.edit { prefs ->
+            when (phaseIndex) {
+                0 -> prefs[KEY_REMIND_UPSKILLING] = trimmed
+                1 -> prefs[KEY_REMIND_EYEREST1]   = trimmed
+                2 -> prefs[KEY_REMIND_WORK]       = trimmed
+                3 -> prefs[KEY_REMIND_EYEREST2]   = trimmed
+            }
+        }
+    }
+
+    suspend fun setTtsVoice(voiceName: String) =
+        context.dataStore.edit { it[KEY_TTS_VOICE] = voiceName }
+
+    suspend fun setTtsLanguage(languageTag: String) =
+        context.dataStore.edit { it[KEY_TTS_LANGUAGE] = languageTag }
+
+    suspend fun setTtsPace(pace: Float) =
+        context.dataStore.edit { it[KEY_TTS_PACE] = pace.coerceIn(0.5f, 2.0f) }
 
     suspend fun setAutoStartEnabled(enabled: Boolean) =
         context.dataStore.edit { it[KEY_AUTOSTART_ON] = enabled }

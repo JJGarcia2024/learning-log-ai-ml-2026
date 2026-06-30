@@ -1,18 +1,15 @@
 package com.twinklingtreasure.timer
 
 import android.Manifest
-import android.app.Activity
 import android.app.AlarmManager
 import android.app.PictureInPictureParams
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.content.res.Configuration
-import android.media.RingtoneManager
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
-import android.provider.OpenableColumns
 import android.provider.Settings
 import android.util.Rational
 import androidx.activity.ComponentActivity
@@ -40,34 +37,6 @@ class MainActivity : ComponentActivity() {
     private val notificationPermission =
         registerForActivityResult(ActivityResultContracts.RequestPermission()) { /* no-op */ }
 
-    private val ringtoneLauncher = registerForActivityResult(
-        ActivityResultContracts.StartActivityForResult()
-    ) { result ->
-        if (result.resultCode == Activity.RESULT_OK) {
-            val picked: Uri? = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-                result.data?.getParcelableExtra(RingtoneManager.EXTRA_RINGTONE_PICKED_URI, Uri::class.java)
-            } else {
-                @Suppress("DEPRECATION")
-                result.data?.getParcelableExtra(RingtoneManager.EXTRA_RINGTONE_PICKED_URI)
-            }
-            if (picked != null) {
-                val name = try {
-                    RingtoneManager.getRingtone(this, picked)?.getTitle(this) ?: "Ringtone"
-                } catch (_: Exception) { "Ringtone" }
-                viewModel.setAlarmSound(picked.toString(), name)
-            }
-        }
-    }
-
-    private val audioLauncher = registerForActivityResult(
-        ActivityResultContracts.OpenDocument()
-    ) { uri ->
-        uri?.let {
-            contentResolver.takePersistableUriPermission(it, Intent.FLAG_GRANT_READ_URI_PERMISSION)
-            viewModel.setAlarmSound(it.toString(), getDisplayName(it))
-        }
-    }
-
     private val wallpaperLauncher = registerForActivityResult(
         ActivityResultContracts.OpenDocument()
     ) { uri ->
@@ -94,6 +63,7 @@ class MainActivity : ComponentActivity() {
             val isInPip          by viewModel.isInPipMode.collectAsStateWithLifecycle()
             val progressFraction by viewModel.progressFraction.collectAsStateWithLifecycle()
             val settings         by viewModel.settings.collectAsStateWithLifecycle()
+            val availableVoices  by viewModel.availableVoices.collectAsStateWithLifecycle()
 
             var showSettings by remember { mutableStateOf(false) }
 
@@ -102,20 +72,22 @@ class MainActivity : ComponentActivity() {
             TwinklingTreasureTheme(darkTheme = isDark) {
                 if (showSettings && !isInPip) {
                     SettingsScreen(
-                        settings              = settings,
-                        onBack                = { showSettings = false },
-                        onPickSystemRingtone  = { launchRingtonePicker() },
-                        onPickCustomAudio     = { audioLauncher.launch(arrayOf("audio/*")) },
-                        onTestAlarm           = viewModel::testAlarm,
-                        onClearAlarm          = { viewModel.setAlarmSound("", "No alarm") },
-                        onSetVibrate          = viewModel::setVibrate,
-                        onSetForceDark        = viewModel::setForceDark,
-                        onPickWallpaper       = { wallpaperLauncher.launch(arrayOf("image/*")) },
-                        onRemoveWallpaper     = { viewModel.setWallpaper("") },
-                        onSetWallpaperOpacity = viewModel::setWallpaperOpacity,
-                        onSetPhaseMinutes     = viewModel::setPhaseMinutes,
-                        onSetAutoStartEnabled = viewModel::setAutoStartEnabled,
-                        onSetAutoStartTime    = viewModel::setAutoStartTime,
+                        settings               = settings,
+                        availableVoices        = availableVoices,
+                        onBack                 = { showSettings = false },
+                        onSetVibrate           = viewModel::setVibrate,
+                        onSetForceDark         = viewModel::setForceDark,
+                        onPickWallpaper        = { wallpaperLauncher.launch(arrayOf("image/*")) },
+                        onRemoveWallpaper      = { viewModel.setWallpaper("") },
+                        onSetWallpaperOpacity  = viewModel::setWallpaperOpacity,
+                        onSetPhaseMinutes      = viewModel::setPhaseMinutes,
+                        onSetPhaseReminderText = viewModel::setPhaseReminderText,
+                        onSetTtsVoice          = viewModel::setTtsVoice,
+                        onSetTtsLanguage       = viewModel::setTtsLanguage,
+                        onSetTtsPace           = viewModel::setTtsPace,
+                        onPreviewText          = viewModel::previewText,
+                        onSetAutoStartEnabled  = viewModel::setAutoStartEnabled,
+                        onSetAutoStartTime     = viewModel::setAutoStartTime,
                     )
                 } else {
                     MainScreen(
@@ -134,32 +106,6 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-    }
-
-    private fun launchRingtonePicker() {
-        val cur = viewModel.settings.value.alarmSoundUri
-        val existing: Uri? = when {
-            cur.isEmpty()    -> null
-            cur == "default" -> RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM)
-            else             -> try { Uri.parse(cur) } catch (_: Exception) { null }
-        }
-        ringtoneLauncher.launch(
-            Intent(RingtoneManager.ACTION_RINGTONE_PICKER).apply {
-                putExtra(RingtoneManager.EXTRA_RINGTONE_TYPE,
-                    RingtoneManager.TYPE_ALARM or RingtoneManager.TYPE_RINGTONE or RingtoneManager.TYPE_NOTIFICATION)
-                putExtra(RingtoneManager.EXTRA_RINGTONE_TITLE, "Choose alarm sound")
-                putExtra(RingtoneManager.EXTRA_RINGTONE_SHOW_DEFAULT, true)
-                putExtra(RingtoneManager.EXTRA_RINGTONE_SHOW_SILENT, false)
-                existing?.let { putExtra(RingtoneManager.EXTRA_RINGTONE_EXISTING_URI, it) }
-            }
-        )
-    }
-
-    private fun getDisplayName(uri: Uri): String {
-        val cursor = contentResolver.query(uri, arrayOf(OpenableColumns.DISPLAY_NAME), null, null, null)
-        return cursor?.use { if (it.moveToFirst()) it.getString(0) else null }
-            ?: uri.lastPathSegment
-            ?: "Custom audio"
     }
 
     override fun onNewIntent(intent: Intent) {

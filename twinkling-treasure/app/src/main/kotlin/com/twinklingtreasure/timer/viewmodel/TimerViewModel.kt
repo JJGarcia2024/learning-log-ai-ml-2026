@@ -5,11 +5,8 @@ import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.content.ServiceConnection
-import android.media.AudioAttributes
-import android.media.MediaPlayer
-import android.media.RingtoneManager
-import android.net.Uri
 import android.os.IBinder
+import android.speech.tts.Voice
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.twinklingtreasure.timer.alarm.AlarmScheduler
@@ -19,7 +16,6 @@ import com.twinklingtreasure.timer.data.TimerCycle
 import com.twinklingtreasure.timer.data.TimerState
 import com.twinklingtreasure.timer.service.TimerService
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -49,6 +45,9 @@ class TimerViewModel(application: Application) : AndroidViewModel(application) {
         if (total == 0f) 0f else 1f - (s.secondsRemaining / total)
     }.stateIn(viewModelScope, SharingStarted.Eagerly, 0f)
 
+    private val _availableVoices = MutableStateFlow<List<Voice>>(emptyList())
+    val availableVoices: StateFlow<List<Voice>> = _availableVoices.asStateFlow()
+
     private var service: TimerService? = null
     private var isBound = false
 
@@ -73,6 +72,9 @@ class TimerViewModel(application: Application) : AndroidViewModel(application) {
             isBound = true
             viewModelScope.launch {
                 svc.timerState.collect { _uiState.value = it }
+            }
+            viewModelScope.launch {
+                svc.availableVoices.collect { _availableVoices.value = it }
             }
         }
         override fun onServiceDisconnected(name: ComponentName?) {
@@ -101,9 +103,6 @@ class TimerViewModel(application: Application) : AndroidViewModel(application) {
     fun skipPhase()  = service?.skipToNext()
     fun resetTimer() = service?.reset()
 
-    fun setAlarmSound(uri: String, name: String) =
-        viewModelScope.launch { settingsRepo.setAlarmSound(uri, name) }
-
     fun setVibrate(enabled: Boolean) =
         viewModelScope.launch { settingsRepo.setVibrate(enabled) }
 
@@ -119,41 +118,25 @@ class TimerViewModel(application: Application) : AndroidViewModel(application) {
     fun setPhaseMinutes(phaseIndex: Int, minutes: Int) =
         viewModelScope.launch { settingsRepo.setPhaseMinutes(phaseIndex, minutes) }
 
+    fun setPhaseReminderText(phaseIndex: Int, text: String) =
+        viewModelScope.launch { settingsRepo.setPhaseReminderText(phaseIndex, text) }
+
+    fun setTtsVoice(voiceName: String) =
+        viewModelScope.launch { settingsRepo.setTtsVoice(voiceName) }
+
+    fun setTtsLanguage(languageTag: String) =
+        viewModelScope.launch { settingsRepo.setTtsLanguage(languageTag) }
+
+    fun setTtsPace(pace: Float) =
+        viewModelScope.launch { settingsRepo.setTtsPace(pace) }
+
+    fun previewText(text: String) {
+        service?.previewVoice(text)
+    }
+
     fun setAutoStartEnabled(enabled: Boolean) =
         viewModelScope.launch { settingsRepo.setAutoStartEnabled(enabled) }
 
     fun setAutoStartTime(hour: Int, minute: Int) =
         viewModelScope.launch { settingsRepo.setAutoStartTime(hour, minute) }
-
-    fun testAlarm() {
-        viewModelScope.launch(Dispatchers.Main) {
-            val uriString = settings.value.alarmSoundUri
-            if (uriString.isEmpty()) return@launch
-            val uri = if (uriString == "default")
-                RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM)
-                    ?: RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
-            else Uri.parse(uriString)
-            val mp = MediaPlayer()
-            mp.setAudioAttributes(
-                AudioAttributes.Builder()
-                    .setUsage(AudioAttributes.USAGE_ALARM)
-                    .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
-                    .build()
-            )
-            try {
-                mp.setDataSource(getApplication(), uri)
-                mp.setOnPreparedListener { player ->
-                    player.start()
-                    viewModelScope.launch {
-                        delay(3_000)
-                        player.stop()
-                        player.release()
-                    }
-                }
-                mp.prepareAsync()
-            } catch (_: Exception) {
-                mp.release()
-            }
-        }
-    }
 }
