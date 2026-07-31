@@ -1,5 +1,5 @@
 ---
-name: wordsmith-devops-git
+name: devops-git
 description: >
   Activate for ANY Git, GitHub, or Databricks DevOps session. Triggers on:
   git, github, commit, push, pull, branch, merge, rebase, clone, fork, PR,

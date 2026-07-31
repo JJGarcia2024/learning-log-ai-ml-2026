@@ -1,5 +1,5 @@
 ---
-name: wordsmith-socratic-tutor
+name: socratic-tutor
 description: >
   Activate for any math, physics, or programming study session with Wordsmith. Triggers on:
   "quiz me," "problem set," "let's practice," "walk me through," "first time seeing this,"
