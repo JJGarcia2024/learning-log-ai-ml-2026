@@ -13,7 +13,18 @@
       "mcp__ide__executeCode",
       "Bash(python *)",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "mcp__plugin_claude-video-vision_claude-video-vision__video_setup",
+      "Bash(winget install *)",
+      "Bash(where ffprobe.exe)",
+      "mcp__plugin_claude-video-vision_claude-video-vision__video_info",
+      "PowerShell(Select-String *)",
+      "Bash(mkdir -p /c/Users/omniv/bin)",
+      "Bash(cp \"/c/Users/omniv/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin/\"*.exe /c/Users/omniv/bin/)",
+      "Bash(/c/Users/omniv/bin/ffprobe.exe -version)",
+      "mcp__plugin_claude-video-vision_claude-video-vision__video_analyze",
+      "mcp__plugin_claude-video-vision_claude-video-vision__video_watch",
+      "mcp__plugin_claude-video-vision_claude-video-vision__video_detail"
     ]
   },
   "enabledPlugins": {
