@@ -58,4 +58,4 @@ shared, but I could not open OpenAI's docs while preparing this, so confirm
 the folder locations and how to name a skill in your Codex version.
 
 If Codex feels like too much right now, use the ChatGPT Project version in
-`../chatgpt-project/` instead.
+`../chatgpt-project/` instead. Using Google's tools? See `../google/`.
