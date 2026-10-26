@@ -1,30 +1,36 @@
 # Stage 1 on the AI/ML track
 
-What "plan/spec" means per sprint deliverable on
-`Wordsmith_Essentials_Sprint_Dec31`:
+What "plan/spec" means per month row on the **AI Systems Engineering Roadmap:
+Hardened Edition (2026–2027)** sheet (`Monthly Timeline` tab):
 
-| Sprint | Spec should pin down |
+| Month | Spec should pin down |
 |---|---|
-| S1 Python | Which typed module (functions, classes, typing, venvs, error handling, JSON I/O); what "written without reference" will be verified against |
-| S2 FastAPI | Endpoint shape, Pydantic models, what the Swagger docs must show, test coverage target |
-| S3 AWS AIF-C01 | Prep scope (foundation models, prompt engineering, responsible AI, Bedrock/SageMaker), exam booking date |
-| S4 RAG flagship | Corpus (Zotero aero/nuclear), chunking/embedding/vector-store choice, hybrid search scope, which Ragas metrics + DeepEval CI gate will decide "done" |
-| S5 Agentic sim agent | Which physics sim gets wrapped, LangGraph 1.x + Pydantic tool I/O shape, what "runs end-to-end from a natural-language request" means concretely |
-| S6 Full-stack + apps | Next.js chat UI scope (streaming, wired to which backend), Dec 31 Gate checklist items this deliverable covers |
+| M1 Production Python & Autograd | Typed API module shape (request/response models, strict fields, validators, exception handlers); what the PyTorch loop trains and where the loss curve is saved |
+| M2 Containers, CI/CD, MLOps | Docker base image + what goes in each build stage (CPU image <2 GB); which tests CI runs on push; which metrics/artifacts ClearML logs |
+| M3 Repo 1 Zotero RAG | Corpus size (≥5,000 chunks), the two chunking strategies compared, Qdrant config, local model (Ollama/llama.cpp), DeepEval faithfulness gate in CI |
+| M4 Operator Learning & Solvers | Spectral layer + DeepONet interfaces, Burgers analytic benchmark chosen, Darcy dataset layout in HDF5 (≥2 initial-condition families) |
+| M5 Surrogate Training & PySR | Train/test/out-of-distribution split definition, relative L2 metric, which PDE terms PySR must rediscover |
+| M6 Repo 2 Serve-a-Surrogate | ONNX export path, Triton `config.pbtxt` (dynamic batching), named GPU, FastAPI baseline, input-range guard + solver fallback rule |
+| M7 Quantization & KV Cache | Which 8B model, AWQ settings, task-accuracy benchmark, GPU rental budget cap |
+| M8 vLLM & Speculative Decoding | Named GPU, prompt length (512 tokens), concurrency levels (1/8/32), draft model / EAGLE-3 choice |
+| M9 Ray | Solver sweep size (≥100 runs), Ray Serve pipeline stages, scaling policy |
+| M10 Repo 3 Simulation Agent | Typed state machine states/transitions, Pydantic contracts, step & token caps, fallback path, 100-run benchmark |
+| M11 Benchmarking | Metric set per repo (TTFT/TPOT; p50/p95/p99, throughput, relative L2), N ≥5 runs |
+| M12 Pitch & Outreach | Loom scripts (3 min), outreach list and tracking pipeline |
 
 ## Spec template
 
 ```
 Goal (from Stage 0): ...
-Sprint slot: S# — target hrs: ...
+Roadmap slot: M# • <month> — DoD bullet: "<verbatim>" — home hrs budget: ... — target date: ...
 Inputs: ...
 Outputs / deliverable: ...
 Validation target (formalized in Stage 4): ...
-Explicitly out of scope: ...
+Explicitly out of scope: ...   (name work that belongs to a later month's DoD, e.g. CI is M2)
 ```
 
 ## Check before advancing
 
-Does the spec name a concrete validation target that matches the sprint's own
-gate on `Wordsmith_Essentials_Sprint_Dec31`? A spec whose "done" doesn't match
-the sprint gate will pass Stage 1 and fail the Dec 31 wall.
+Does the spec name a concrete validation target that matches the month's own
+DoD bullet on the sheet? A spec whose "done" doesn't match the DoD will pass
+Stage 1 and fail the month's target date.

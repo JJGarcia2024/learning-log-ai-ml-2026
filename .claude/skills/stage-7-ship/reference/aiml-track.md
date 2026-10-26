@@ -1,30 +1,37 @@
 # Stage 7 on the AI/ML track
 
-Shipping checklist by sprint deliverable:
+Shipping checklist by month row (**AI Systems Engineering Roadmap: Hardened
+Edition**) — "shipped" means every DoD bullet on that row is ticked:
 
-| Sprint | "Shipped" means |
+| Month | "Shipped" means |
 |---|---|
-| S1 Python | Typed module + passing tests in a public repo |
-| S2 FastAPI | Working service, rebuildable from memory, in a public repo |
-| S3 AWS AIF-C01 | Status dropdown set to "Passed" (not "Scheduled") with the certificate |
-| S4 RAG flagship | DeepEval CI green + Ragas metrics documented in the README; repo public |
-| S5 Agentic agent | Agent runs the sim end-to-end from an NL request; repo public |
-| S6 Full-stack | Chat UI streaming live from the FastAPI backend; all 7 Dec 31 Gate checklist items Done |
+| M1 | Typed API module merged to main • PyTorch loop + loss curve in repo • ≥2 AIF-C01 practice tests ≥80% • backprop README |
+| M2 | CPU image <2 GB • CI green on every push • ClearML run logged • **AIF-C01 passed** • p50/p95 by hand = NumPy |
+| M3 | **Repo 1**: p95 <15 ms, faithfulness >0.85 in CI, benchmark table + "Where this fails" |
+| M4–M5 | Verified Burgers solver & spectral layer • trained FNO/DeepONet <5% L2 + PySR terms |
+| M6 | **Repo 2**: p95 ≥40% below FastAPI baseline, 100% fallback on out-of-range inputs |
+| M7–M8 | Quantized 8B model profile • vLLM benchmark suite + ≥1.5x speculative speed-up |
+| M9 | **SAA-C03 passed** (CERT-1) • Ray Serve pipeline demo |
+| M10 | **Repo 3**: 0 failed transitions in 100 runs, caps enforced, state diagram |
+| M11–M12 | Cross-repo benchmarks (≥5 runs) • 30-company list • 5 mock interviews • 2 Looms • 15 outreach emails |
 
-## Updating the boards
+## Updating the board
 
-After shipping, update both:
-- `Wordsmith_Essentials_Sprint_Dec31` — Sprint row's Actual Hrs and Status
-- `Wordsmith_AIML_Upskilling_Tracker_v2` — Monthly Plan row's Status, and the
-  Progress Snapshot counters (Portfolio items shipped, Certifications passed)
+After shipping, update the sheet (`Monthly Timeline` tab):
+- The month row's **STATUS** column (e.g. "In Progress" → "Done")
+- The header **CURRICULUM PROGRESS** counter ("N / 12 Mos Done") and the
+  YEAR 1 TOTAL row's "N / 12 Done"
 
-## Gate-day rule
+Read the sheet before writing; don't overwrite cells you haven't read.
 
-On Dec 15 2026 (Q1 Application Gate) and Dec 31 2026 (the sprint plan's hard
-wall): ship what's ready and apply anyway. Per the tracker's own rule, a
-slipped element gets flagged as in-progress rather than blocking the
-application — scope can slip inside a sprint, the wall itself does not move.
+## Target-date rule
+
+Each month row has a target date (last day of the month). Ship what's ready on
+that date. A missed DoD bullet is flagged, not hidden — and if ≥2 DoD boxes are
+missed in 2 consecutive months, the board's own rule triggers the 15 h/mo
+low-energy pace (see `stage-infinite-debug-maintain`). The Section 8.1 gate
+date (2027-09-30) does not move.
 
 ## Gate to advance
 
-Both boards reflect the shipped state, not just the repo/cert itself.
+The board reflects the shipped state, not just the repo/cert itself.

@@ -1,6 +1,6 @@
 ---
 name: stage-3-implementation-plan
-description: Breaks a reviewed design into an ordered, atomic backlog of sub-tasks — module structure, data structures, library responsibilities, one sub-task in flight at a time. Use after stage-2-design-review and before stage-4-tests-first, for either an AI/ML deliverable (FastAPI, RAG, LangGraph, Next.js) or an aerospace simulation project (CFD, OpenFOAM, SU2, OpenMC, BRIDGE-30).
+description: Breaks a reviewed design into an ordered, atomic backlog of sub-tasks — module structure, data structures, library responsibilities, one sub-task in flight at a time. Use after stage-2-design-review and before stage-4-tests-first, for any software project (web app, mobile app, API, AI/ML model, CLI/library, data pipeline, simulation).
 ---
 
 # Stage 3 — Implementation Plan
@@ -23,8 +23,17 @@ equivalent of sprint planning.
 
 ## Track-specific planning notes
 
-- **AI/ML track**: [reference/aiml-track.md](reference/aiml-track.md)
-- **Aerospace track**: [reference/aerospace-track.md](reference/aerospace-track.md)
+Read the **general track** first — it applies to any software. If the work
+maps to a roadmap board, also read that board's overlay; where they
+disagree, the overlay wins (it carries the board's own definition of done).
+
+- **General track** (web, mobile, API, AI/ML model, CLI/library, data
+  pipeline): [reference/general-track.md](reference/general-track.md)
+- **AI/ML overlay** — AI Systems Engineering Roadmap: Hardened Edition:
+  [reference/aiml-track.md](reference/aiml-track.md)
+- **Aerospace overlay** — AI/ML × Aerospace Engineering Master Roadmap
+  (2026–2036):
+  [reference/aerospace-track.md](reference/aerospace-track.md)
 
 ## Gate to advance
 

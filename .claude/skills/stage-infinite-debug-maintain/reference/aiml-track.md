@@ -1,23 +1,27 @@
 # Stage ∞ on the AI/ML track
 
-Common failure classes by sprint deliverable — hypothesize from these first:
+Common failure classes by month row (**AI Systems Engineering Roadmap:
+Hardened Edition**) — hypothesize from these first:
 
-| Sprint | Likely root causes |
+| Month | Likely root causes |
 |---|---|
-| S1 Python | Type hints present but not enforced by a checker; silent `except:` swallowing the real error |
-| S2 FastAPI | Pydantic model out of sync with the actual route logic; Swagger docs stale relative to the models |
-| S4 RAG flagship | Chunking boundary splitting facts across chunks (retrieval finds neither half); Ragas score drop after a corpus update that wasn't re-embedded |
-| S5 Agentic agent | LangGraph state not matching the tool's Pydantic schema after a sim-parameter change; agent looping because a tool doesn't signal terminal state |
-| S6 Full-stack | Streaming works locally, breaks in deployment (buffering/proxy issue); env var present locally, missing in the deployed target |
+| M1 Python & Autograd | Pydantic lax coercion accepting input the contract meant to reject (Python vs JSON column of the conversion table); handler order letting a default 422 body through; gradients not zeroed between steps |
+| M2 Containers & CI | Works locally, fails in CI (missing env var, different Python version); image bloated by build tools copied into the final stage |
+| M3 Repo 1 RAG | Chunk boundary splitting facts across chunks; faithfulness drop after a corpus update that wasn't re-embedded; p95 regression from query embedding cost |
+| M4–M5 Scientific ML | FFT normalization mismatch in the spectral layer; train/test leakage making the out-of-distribution set look easy |
+| M6 Repo 2 Serving | ONNX export dropping dynamic axes; Triton batching config not matching the benchmark's batch sizes |
+| M7–M8 LLM serving | Out-of-memory at high concurrency (KV cache sizing); speed-up vanishing because the draft model's acceptance rate is low |
+| M10 Repo 3 Agent | State not matching the tool's Pydantic contract after a change; agent looping because a tool doesn't signal a terminal state |
 
 ## Maintenance beyond bugs
 
-- Re-verify MLA-C02 exam availability (~Apr 2027 per the tracker's own
-  fragile-cert note) — this is a scheduled maintenance check, not a bug, but
-  belongs in this stage because it's ongoing monitoring, not a one-time gate.
-- If a sprint slips, cut scope inside the sprint — per the tracker's own
-  Lever 2 — rather than letting the Dec 31 wall move. That scope-cut decision
-  runs through this stage's human-decides step.
+- **Low-energy pace rule (from the board):** if ≥2 DoD boxes are missed in 2
+  consecutive months, switch to the 15 h/mo low-energy pace. That decision runs
+  through this stage's human-decides step.
+- Use the protected Buffer rows (one blank catch-up week per quarter, ~18 h)
+  to absorb slips — buffer is empty by default, not pre-filled with new scope.
+- Cut scope inside a month rather than letting the 25 h/mo home ceiling be
+  exceeded or the Section 8.1 gate date (2027-09-30) move.
 
 ## Gate to advance
 

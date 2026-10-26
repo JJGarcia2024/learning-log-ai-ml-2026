@@ -1,6 +1,6 @@
 ---
 name: stage-6-second-review
-description: An independent skeptical pass over Stage 5's output — not the same context that wrote the code congratulating itself. Checks whether the Stage 4 test actually passes (output shown, not asserted), whether a comment claims a justification the code doesn't implement, and whether the fix hides a deeper bug. Use after stage-5-build and before stage-7-ship, for either an AI/ML deliverable or an aerospace simulation project.
+description: An independent skeptical pass over Stage 5's output — not the same context that wrote the code congratulating itself. Checks whether the Stage 4 test actually passes (output shown, not asserted), whether a comment claims a justification the code doesn't implement, and whether the fix hides a deeper bug. Use after stage-5-build and before stage-7-ship, for any software project (web app, mobile app, API, AI/ML model, CLI/library, data pipeline, simulation).
 ---
 
 # Stage 6 — Second Review
@@ -24,8 +24,17 @@ the Stage 4 check's actual output, not a restatement that it "should work."
 
 ## Track-specific review checklists
 
-- **AI/ML track**: [reference/aiml-track.md](reference/aiml-track.md)
-- **Aerospace track**: [reference/aerospace-track.md](reference/aerospace-track.md)
+Read the **general track** first — it applies to any software. If the work
+maps to a roadmap board, also read that board's overlay; where they
+disagree, the overlay wins (it carries the board's own definition of done).
+
+- **General track** (web, mobile, API, AI/ML model, CLI/library, data
+  pipeline): [reference/general-track.md](reference/general-track.md)
+- **AI/ML overlay** — AI Systems Engineering Roadmap: Hardened Edition:
+  [reference/aiml-track.md](reference/aiml-track.md)
+- **Aerospace overlay** — AI/ML × Aerospace Engineering Master Roadmap
+  (2026–2036):
+  [reference/aerospace-track.md](reference/aerospace-track.md)
 
 ## Gate to advance
 

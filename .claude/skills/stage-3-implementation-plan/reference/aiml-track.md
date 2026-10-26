@@ -1,29 +1,36 @@
 # Stage 3 on the AI/ML track
 
-Typical sub-task ordering per sprint deliverable:
+Typical sub-task ordering per month row (**AI Systems Engineering Roadmap:
+Hardened Edition**):
 
-- **S2 FastAPI**: Pydantic models → route handlers → Swagger config → tests
-  → packaging. Don't write tests before the models exist to validate against
-  — but do write the Stage-4 assertions before the route logic (see
+- **M1 Typed API module**: Pydantic request/response models → custom
+  exception classes → exception handlers → route → tests → merge to main.
+  Write the Stage-4 assertions before the route logic (see
   `stage-4-tests-first`).
-- **S4 RAG flagship**: ingestion/chunking → embeddings → vector store →
-  retrieval → hybrid search → Ragas eval harness → DeepEval CI gate → README
-  + diagram. The eval harness is a sub-task, not an afterthought — order it
-  before "grounded cited answers" polish work.
-- **S5 Agentic agent**: tool schemas (Pydantic) → individual tool functions
-  → LangGraph graph topology → end-to-end wiring → RAG-over-docs layer last.
-  Tool schemas first because everything downstream depends on their shape
-  being right.
-- **S6 Full-stack**: backend streaming endpoint → minimal Next.js shell →
-  wire streaming UI → SAA-C03 booking (parallel, not blocking) → resume/app
-  drafts last, once repos are actually shippable.
+- **M1 PyTorch loop**: data + model → manual forward/loss/backward/step →
+  loss logging → saved loss-curve plot.
+- **M2 Containers & CI**: Dockerfile (multi-stage) → image size check →
+  GitHub Actions test job → ClearML logging.
+- **M3 Repo 1 RAG**: ingestion/chunking (both strategies) → embeddings →
+  Qdrant → retrieval + latency benchmark → DeepEval harness → CI gate →
+  NumPy cosine cross-check → README (benchmark table, "Where this fails").
+  The eval harness is a sub-task, not an afterthought.
+- **M4–M5 Surrogates**: solver + analytic check → dataset (HDF5) → layers +
+  unit tests → training → out-of-distribution eval → PySR.
+- **M6 Repo 2 Serving**: ONNX export → Triton config → FastAPI baseline →
+  input-range guard + solver fallback → benchmark (batch 1/8/32) → README.
+- **M10 Repo 3 Agent**: typed state + Pydantic contracts → individual tools →
+  state machine transitions → caps + fallback → 100-run benchmark → state
+  diagram. Contracts first because everything downstream depends on their shape.
 
 ## Bottleneck flags specific to this track
 
-- RAG (S4): embedding/vector-store cost and latency at corpus scale — size
-  the corpus before committing to a vector DB choice.
-- Agent (S5): LangGraph state-passing overhead if the sim has many
-  parameters — keep the Pydantic tool I/O schema flat where possible.
+- M3 RAG: embedding time at ≥5,000 chunks on CPU — size the corpus before
+  committing to a model.
+- M6–M8: rented GPU time — every run must stay inside the pre-allocated cloud
+  budget; batch experiments so the GPU isn't idle while you debug.
+- Any month: 25 h/mo home ceiling — if the backlog exceeds the row's home
+  hours, cut scope inside the month, don't borrow from the next.
 
 ## Gate to advance
 

@@ -1,23 +1,22 @@
 # Stage 1 on the aerospace track
 
-Defer to `nep-coder` Phase 1 — Design Doc. It already specifies exactly this
-stage for NTP/NEP simulation work: governing equations, expected
-inputs/outputs, validation target, and which Project (1–12) or BRIDGE-30
-Topic (A–F) the work belongs to.
+Defer to `wordsmith-ntp-sim-coder`'s design-doc phase. It specifies this stage
+for simulation work: governing equations, inputs/outputs, validation target.
+If its phase names differ from what's written here, follow the skill.
 
 ## What this file adds
 
-Only the board-placement context nep-coder's Phase 1 doesn't carry:
+Only the board placement on the **AI/ML × Aerospace Engineering Master
+Roadmap (2026–2036)**:
 
-- Confirm the rung or portfolio-manifest slot (P1–P17) on
-  `Board_for_2026-2035_Extended_Study_Timeline` that this spec fills, and
-  its hour budget from the board's Hour-Budget Map.
-- If the project sits in a restored full-scope block (Compressible Flow,
-  Solid Mechanics, Heat Transfer, Dynamics & Vibrations, Classical Control),
-  note that in the spec — those blocks have dedicated standalone months, not
-  a shared "essentials" survey slot.
+- Name the P# (P1–P11) or Sci-ML rung (L3–L10), and the month row whose
+  **Monthly Milestone & Done Criteria** this spec fulfils. Quote that cell.
+- State the hour budget: the aerospace lane is 13 h/mo in Phase 1 and
+  22 h/mo from Oct 2027 (out of 46 h/mo total).
+- If the project reuses an earlier one (e.g. P9 solves Kepler's equation with
+  P1's Newton solver; L7 builds on L3–L6), name that dependency as an input.
 
 ## Check before advancing
 
-Run nep-coder's Phase 1 in full. This file does not replace it — it only
-makes sure the resulting spec is also placed on the Timeline board.
+The design-doc phase was run in full, and the spec quotes the month's Done
+Criteria.

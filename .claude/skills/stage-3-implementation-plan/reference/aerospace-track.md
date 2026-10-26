@@ -1,22 +1,23 @@
 # Stage 3 on the aerospace track
 
-Defer to `nep-coder` Phase 3 — Implementation Plan, which already covers
-Steps 2–3 of its Five-Step Reasoning Chain for NTP/NEP work: algorithm
-choice, module structure, data structures, library responsibilities, and
-where bottlenecks live (e.g. O(N²) memory tradeoffs, Jacobi vs CG solver
-choice).
+Defer to `wordsmith-ntp-sim-coder`'s implementation-plan phase: algorithm
+choice, module structure, data structures, library responsibilities,
+bottlenecks (e.g. O(N²) memory, Jacobi vs CG).
 
-## What this file adds
+## What this file adds (Master Roadmap checks)
 
-- For Portfolio items on the P1–P17 manifest
-  (`Board_for_2026-2035_Extended_Study_Timeline`), check the sub-task
-  ordering fits inside that project's threaded hour budget (~300h across
-  2026–2032, not front-loaded into one rung).
-- If the sub-tasks span a rung transition (e.g. a project needing both
-  Compressible Flow and Solid Mechanics content), call out the dependency
-  explicitly — the board sequences those as separate restored blocks.
+- **Fit the month.** The aerospace lane is 22 h/mo from Oct 2027, shared with
+  that month's coursework. If the backlog doesn't fit, split it across the
+  board's own months. P2 already spans Apr–Jun 2029 (Steps 1–4, 5–8, 9–12),
+  and L7 spans Oct 2029 – Mar 2030.
+- **Reuse, don't rebuild.** Later projects should import earlier toolkits:
+  P1 (root-finding, quadrature, RK4) and P3 (LU, Cholesky, CG). Plan them as
+  dependencies, not copies.
+- **Packaging order.** Each portfolio project ends shipped as its own repo,
+  per the Done Criteria ("Ship P# …"). Repo setup is a sub-task, not an
+  afterthought.
 
 ## Gate to advance
 
-Run nep-coder's Phase 3 in full; this file only adds the portfolio-hour-budget
-check above.
+The implementation-plan phase was run in full, and the backlog fits the
+month row's hours, or the split across months has been approved.

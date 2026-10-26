@@ -1,6 +1,6 @@
 ---
 name: stage-7-ship
-description: Staging-to-production gate — convergence/sensitivity/CI checks, then the actual commit or submission. Use after stage-6-second-review passes, for either an AI/ML deliverable (repo goes public, CI badge green, gate item marked Done) or an aerospace simulation project (portfolio commit with a full RESULT block).
+description: Staging-to-production gate — final checks, then the actual merge, release, deploy, or submission, plus the board or changelog update. Use after stage-6-second-review passes, for any software project (web app, mobile app, API, AI/ML model, CLI/library, data pipeline, simulation) — a deployed app, released library, published model, or roadmap/portfolio deliverable.
 ---
 
 # Stage 7 — Ship
@@ -14,18 +14,28 @@ design questions here.
 
 1. Run the staging-equivalent checks for this track (see below) — these are
    the last automated gate before the commit/submission is real.
-2. Make the commit / submission / status update.
-3. Update the relevant board (sprint tracker or Timeline board) — a shipped
-   item that isn't marked Done on the board doesn't count toward the gate.
+2. Make the merge, release, deploy, or submission.
+3. If the work is on a roadmap board, update its row — a shipped item that
+   isn't marked Done on the board doesn't count toward the gate. If there's
+   no board, record it in the project's changelog or README.
 4. Stage ∞ (`stage-infinite-debug-maintain`) starts immediately after —
    shipping isn't the end of the loop.
 
 ## Track-specific shipping checklist
 
-- **AI/ML track**: [reference/aiml-track.md](reference/aiml-track.md)
-- **Aerospace track**: [reference/aerospace-track.md](reference/aerospace-track.md)
+Read the **general track** first — it applies to any software. If the work
+maps to a roadmap board, also read that board's overlay; where they
+disagree, the overlay wins (it carries the board's own definition of done).
+
+- **General track** (web, mobile, API, AI/ML model, CLI/library, data
+  pipeline): [reference/general-track.md](reference/general-track.md)
+- **AI/ML overlay** — AI Systems Engineering Roadmap: Hardened Edition:
+  [reference/aiml-track.md](reference/aiml-track.md)
+- **Aerospace overlay** — AI/ML × Aerospace Engineering Master Roadmap
+  (2026–2036):
+  [reference/aerospace-track.md](reference/aerospace-track.md)
 
 ## Gate to advance
 
-The commit/submission is made, CI (where applicable) is green, and the board
-row is updated to Done/Shipped/Passed.
+The merge/release/submission is made, CI (where applicable) is green, and
+the board row — or the project's changelog, if there's no board — is updated.

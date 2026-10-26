@@ -1,6 +1,6 @@
 ---
 name: stage-5-build
-description: The actual implementation, once a spec, design review, ordered backlog, and failing test all already exist — feature code with line-by-line comments explaining why, not what. Use only after stage-4-tests-first, for either an AI/ML deliverable (FastAPI, RAG, LangGraph, Next.js code) or an aerospace simulation project (solvers, configs, physics code).
+description: The actual implementation, once a spec, design review, ordered backlog, and failing test all already exist — feature code with line-by-line comments explaining why, not what. Use only after stage-4-tests-first, for any software project (web app, mobile app, API, AI/ML model, CLI/library, data pipeline, simulation).
 ---
 
 # Stage 5 — Build
@@ -32,8 +32,17 @@ If any box is unchecked, stop and go back — don't build around the gap.
 
 ## Track-specific build conventions
 
-- **AI/ML track**: [reference/aiml-track.md](reference/aiml-track.md)
-- **Aerospace track**: [reference/aerospace-track.md](reference/aerospace-track.md)
+Read the **general track** first — it applies to any software. If the work
+maps to a roadmap board, also read that board's overlay; where they
+disagree, the overlay wins (it carries the board's own definition of done).
+
+- **General track** (web, mobile, API, AI/ML model, CLI/library, data
+  pipeline): [reference/general-track.md](reference/general-track.md)
+- **AI/ML overlay** — AI Systems Engineering Roadmap: Hardened Edition:
+  [reference/aiml-track.md](reference/aiml-track.md)
+- **Aerospace overlay** — AI/ML × Aerospace Engineering Master Roadmap
+  (2026–2036):
+  [reference/aerospace-track.md](reference/aerospace-track.md)
 
 ## Gate to advance
 

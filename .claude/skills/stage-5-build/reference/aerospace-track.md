@@ -1,19 +1,19 @@
 # Stage 5 on the aerospace track
 
-Defer to `nep-coder` Phase 5 — Build, which is the Five-Step Reasoning
-Chain's Steps 4–5 in full: production/optimization decisions named
-explicitly, and Tier-✅ comments (quantity + physical reason, never syntax
-description) on every non-trivial line. Use nep-coder's comment-quality
-tiers directly — don't redefine a separate comment standard here.
+Defer to `wordsmith-ntp-sim-coder`'s build phase: production/optimization
+decisions named explicitly, and comments that give the quantity and the
+physical reason, never a syntax description. Write the RESULT block after
+every code block. Use that skill's comment standard directly. Don't redefine
+one here.
 
 ## What this file adds
 
-Nothing procedural — nep-coder's Phase 5 and its Section 0A Steps 4–5 are
-already the complete build stage for NTP/NEP work, including the mandatory
-`## RESULT` block after every code block. This file exists only so the
-stage-5 skill's description surfaces for aerospace builds too; the actual
-build discipline lives in `nep-coder`.
+- Seed every stochastic run (PINN/FNO/GNN training) and record the seed in
+  the RESULT block. Thresholds like "within 5%" aren't checkable if the run
+  can't be reproduced.
+- Name the units in every variable or docstring that carries a physical
+  quantity.
 
 ## Gate to advance
 
-Run nep-coder's Phase 5 in full, including its post-code `## RESULT` block.
+The build phase was run in full, including its RESULT block.

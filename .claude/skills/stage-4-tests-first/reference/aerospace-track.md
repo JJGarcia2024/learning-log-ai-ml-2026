@@ -1,20 +1,27 @@
 # Stage 4 on the aerospace track
 
-Defer to `nep-coder` Phase 4 — Tests First, and its Section 5.1 Physics
-Validation Hierarchy (units → analytic limit → conservation → grid
-convergence → solver convergence → parameter sensitivity → cross-code
-comparison). That hierarchy *is* this stage's content for NTP/NEP work.
+Defer to `wordsmith-ntp-sim-coder`'s tests-first phase and its physics
+validation hierarchy: units → analytic limit → conservation → grid
+convergence → solver convergence → parameter sensitivity → cross-code or
+experimental comparison.
 
-## What this file adds
+## What this file adds: copy the board's number
 
-- For portfolio items (P1–P17), the check should match the project's stated
-  validation target on `nep-coder` (e.g. Project 1: linear steady-state
-  match; Project 7: NASA CEA agreement within ±3%) — don't write a looser
-  check just because the board's hour budget is tight.
-- "Done" as a claim is banned per nep-coder's non-negotiable rules — the
-  Stage 4 check's actual output must be shown at Stage 6, not asserted.
+When the month's Done Criteria states a threshold, that is the Stage 4 target,
+verbatim. Examples from the Master Roadmap:
+
+| Item | Board's own check |
+|---|---|
+| P2 Barba Steps 1–4 | Verified against analytical solutions |
+| L6 Boris pusher | Cycloid trajectory, <0.1% energy drift |
+| L7 Hall-thruster PINN | Thrust within 5% of experiment |
+| L8 FNO | Generalizes across 15 operating points |
+| L9 2D HallPINN | Divergence angle within 4% of experiment |
+| L10 GNN surrogate | <10 ms on unseen geometries; sensitivity matches finite difference; 50x speedup table |
+
+Don't write a looser check because the hour budget is tight.
 
 ## Gate to advance
 
-Run nep-coder's Phase 4 in full; this file only confirms the target matches
-the project's documented validation benchmark.
+The tests-first phase was run in full, and the check matches or is stricter
+than the month's Done Criteria.

@@ -1,23 +1,24 @@
 # Stage 2 on the aerospace track
 
-Defer to `nep-coder` Phase 2 — Skeptical Design Review. It already runs this
-stage in full for NTP/NEP work: wrong governing equation, wrong numerical
-method for the regime, missed edge case, wrong library choice (e.g. icoFoam
-vs rhoCentralFoam), a simpler approach that was skipped.
+Defer to `wordsmith-ntp-sim-coder`'s skeptical design-review phase: wrong
+governing equation, wrong numerical method for the regime, missed edge case,
+wrong solver/library (e.g. icoFoam vs rhoCentralFoam), simpler approach
+skipped.
 
-## What this file adds
+## What this file adds (Master Roadmap checks)
 
-- If the project is a restored full-scope block (Compressible Flow, Solid
-  Mechanics, Heat Transfer, Dynamics & Vibrations, Classical Control) on
-  `Board_for_2026-2035_Extended_Study_Timeline`, check the design isn't
-  quietly compressed back down to "essentials" survey depth — that
-  compression was the exact risk the 2033/2035 timeline extension was built
-  to remove.
-- If the project sits near the Apr–Jun 2032 MEXT/GKS/KAIST application
-  window on the board, flag schedule risk explicitly in the review, not just
-  technical risk.
+- **Prerequisite gate passed?** Does the design need math from a gate exam
+  that hasn't been passed yet? For example, L7 Hall-thruster work assumes E&M,
+  passed Jun 2029; P2 assumes Calc III, passed Dec 2028. If the gate isn't
+  passed, the review flags it.
+- **Validation against what?** Sci-ML rungs from L7 on validate against
+  experimental data (published thruster data, PEPL/HPEPL). Is that dataset
+  identified and actually obtainable?
+- **Schedule risk near hard dates.** Work in Jun 2032 – Nov 2033 overlaps the
+  preprint, PI outreach, GRE, and the 1 Nov 2033 Technion deadline. Flag
+  schedule risk explicitly, not only technical risk.
 
 ## Gate to advance
 
-Run nep-coder's Phase 2 in full; this file only adds the two board-specific
-checks above.
+The design-review phase was run in full, and the three checks above were asked
+out loud.

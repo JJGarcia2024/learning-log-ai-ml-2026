@@ -1,6 +1,6 @@
 ---
 name: stage-2-design-review
-description: Attacks a signed-off spec before any build starts, from a skeptical-reviewer persona — wrong architecture, wrong pattern, missed edge case, simpler approach skipped. Use after stage-1-plan-spec and before stage-3-implementation-plan, for either an AI/ML deliverable (FastAPI, RAG, LangGraph, Next.js) or an aerospace simulation project (CFD, OpenFOAM, SU2, OpenMC, BRIDGE-30).
+description: Attacks a signed-off spec before any build starts, from a skeptical-reviewer persona — wrong architecture, wrong pattern, missed edge case, simpler approach skipped. Use after stage-1-plan-spec and before stage-3-implementation-plan, for any software project (web app, mobile app, API, AI/ML model, CLI/library, data pipeline, simulation).
 ---
 
 # Stage 2 — Design Review
@@ -24,8 +24,17 @@ that the spec was flawless.
 
 ## Track-specific review checklists
 
-- **AI/ML track**: [reference/aiml-track.md](reference/aiml-track.md)
-- **Aerospace track**: [reference/aerospace-track.md](reference/aerospace-track.md)
+Read the **general track** first — it applies to any software. If the work
+maps to a roadmap board, also read that board's overlay; where they
+disagree, the overlay wins (it carries the board's own definition of done).
+
+- **General track** (web, mobile, API, AI/ML model, CLI/library, data
+  pipeline): [reference/general-track.md](reference/general-track.md)
+- **AI/ML overlay** — AI Systems Engineering Roadmap: Hardened Edition:
+  [reference/aiml-track.md](reference/aiml-track.md)
+- **Aerospace overlay** — AI/ML × Aerospace Engineering Master Roadmap
+  (2026–2036):
+  [reference/aerospace-track.md](reference/aerospace-track.md)
 
 ## Gate to advance
 
